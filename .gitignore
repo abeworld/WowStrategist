@@ -1,0 +1,15 @@
+# Large/local video data
+input/
+output/
+.inspection/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local tooling
+.idea/
+.vscode/
