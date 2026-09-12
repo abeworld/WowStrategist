@@ -1,0 +1,30 @@
+[project]
+name = "arena-cutter"
+version = "0.1.0"
+description = "Detect and export World of Warcraft arena sessions from a single VOD."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "opencv-python-headless>=4.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+arena-cutter = "arena_cutter.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["arena_cutter*"]
+
+[tool.setuptools.package-data]
+arena_cutter = ["templates/linguster_1080p/*.png"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
