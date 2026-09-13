@@ -1,0 +1,1286 @@
+{
+  "strategy_id": "SPR_vs_MM_Ret_v1",
+  "strategy_key": "SPR_vs_MM_Ret",
+  "version": 1,
+  "schema_version": "1.0.0",
+  "status": "provisional",
+  "created_date": "2026-09-13",
+  "our_comp": "Shadow Priest / Subtlety Rogue",
+  "enemy_comp": "Marksmanship Hunter / Retribution Paladin",
+  "evidence": {
+    "total_games": 17,
+    "wins": 12,
+    "losses": 5,
+    "unknown_result": 0,
+    "confidence": "medium",
+    "supporting_match_ids": [
+      "august_31st_2550_20260912__august31_2550_match_019",
+      "january_5th_full_20260912__match_007",
+      "may_4th_2350_20260913__may04_2350_match_058",
+      "september_11th_2500_20260912__sep11_2500_match_003",
+      "september_11th_2500_20260912__sep11_2500_match_008",
+      "september_11th_2500_20260912__sep11_2500_match_015"
+    ],
+    "contradicting_match_ids": [
+      "january_4th_2700_20260913__match_023",
+      "may_18th_2500_20260913__may18_2500_match_026",
+      "january_4th_2700_20260913__match_022",
+      "january_4th_2700_20260913__match_016"
+    ],
+    "contradiction_scope": "Challenges to candidate or stronger universal rules, not necessarily to the final qualified wording.",
+    "representative_match_ids": [
+      "august_31st_2550_20260912__august31_2550_match_019",
+      "january_5th_full_20260912__match_007",
+      "may_4th_2350_20260913__may04_2350_match_058"
+    ],
+    "all_match_ids": [
+      "august_31st_2550_20260912__august31_2550_match_015",
+      "august_31st_2550_20260912__august31_2550_match_017",
+      "august_31st_2550_20260912__august31_2550_match_019",
+      "august_31st_2550_20260912__august31_2550_match_020",
+      "january_4th_2700_20260913__match_014",
+      "january_4th_2700_20260913__match_015",
+      "january_4th_2700_20260913__match_016",
+      "january_4th_2700_20260913__match_022",
+      "january_4th_2700_20260913__match_023",
+      "january_5th_full_20260912__match_007",
+      "may_18th_2500_20260913__may18_2500_match_026",
+      "may_4th_2350_20260913__may04_2350_match_048",
+      "may_4th_2350_20260913__may04_2350_match_058",
+      "may_4th_2350_20260913__may04_2350_match_062",
+      "september_11th_2500_20260912__sep11_2500_match_003",
+      "september_11th_2500_20260912__sep11_2500_match_008",
+      "september_11th_2500_20260912__sep11_2500_match_015"
+    ],
+    "data_quality_notes": [
+      "Source extractions reviewed; original videos were not reopened during synthesis.",
+      "Both dedicated player-role fields are empty in all input records; roles remain unknown except where explicit narrative evidence is cited.",
+      "Sample win rate is a property of selected footage, not expected ladder performance.",
+      "Absent events are unknown unless the record explicitly establishes availability or absence.",
+      "A reported enemy kill can occur after a friendly death; the round result is stored separately.",
+      "6 records carry source quality flags; consult evidence and exceptions before treating a claim as footage-verified."
+    ],
+    "source_batches": {
+      "august_31st_2550_20260912": 4,
+      "january_4th_2700_20260913": 5,
+      "january_5th_full_20260912": 1,
+      "may_18th_2500_20260913": 1,
+      "may_4th_2350_20260913": 3,
+      "september_11th_2500_20260912": 3
+    }
+  },
+  "facts": {
+    "by_result": {
+      "win": {
+        "total": 12,
+        "opening_targets": {
+          "Retribution Paladin": 3,
+          "Marksmanship Hunter": 9
+        },
+        "enemy_kill_targets": {
+          "Marksmanship Hunter": 10,
+          "Retribution Paladin": 2
+        }
+      },
+      "loss": {
+        "total": 5,
+        "opening_targets": {
+          "Marksmanship Hunter": 5
+        },
+        "enemy_kill_targets": {
+          "unknown_or_no_enemy_kill": 5
+        }
+      },
+      "unknown": {
+        "total": 0,
+        "opening_targets": {},
+        "enemy_kill_targets": {}
+      }
+    },
+    "opening_targets": {
+      "Marksmanship Hunter": 14,
+      "Retribution Paladin": 3
+    },
+    "kill_targets": {
+      "unknown_or_no_enemy_kill": 5,
+      "Marksmanship Hunter": 10,
+      "Retribution Paladin": 2
+    },
+    "opening_to_reported_enemy_kill": [
+      {
+        "opening_target": "Marksmanship Hunter",
+        "reported_enemy_kill": "Marksmanship Hunter",
+        "result": "win",
+        "count": 7,
+        "match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_019",
+          "january_5th_full_20260912__match_007",
+          "may_18th_2500_20260913__may18_2500_match_026",
+          "may_4th_2350_20260913__may04_2350_match_058",
+          "september_11th_2500_20260912__sep11_2500_match_003",
+          "september_11th_2500_20260912__sep11_2500_match_008",
+          "september_11th_2500_20260912__sep11_2500_match_015"
+        ]
+      },
+      {
+        "opening_target": "Marksmanship Hunter",
+        "reported_enemy_kill": "Retribution Paladin",
+        "result": "win",
+        "count": 2,
+        "match_ids": [
+          "january_4th_2700_20260913__match_014",
+          "january_4th_2700_20260913__match_022"
+        ]
+      },
+      {
+        "opening_target": "Marksmanship Hunter",
+        "reported_enemy_kill": "unknown_or_no_enemy_kill",
+        "result": "loss",
+        "count": 5,
+        "match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_015",
+          "january_4th_2700_20260913__match_015",
+          "january_4th_2700_20260913__match_016",
+          "may_4th_2350_20260913__may04_2350_match_048",
+          "may_4th_2350_20260913__may04_2350_match_062"
+        ]
+      },
+      {
+        "opening_target": "Retribution Paladin",
+        "reported_enemy_kill": "Marksmanship Hunter",
+        "result": "win",
+        "count": 3,
+        "match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_017",
+          "august_31st_2550_20260912__august31_2550_match_020",
+          "january_4th_2700_20260913__match_023"
+        ]
+      }
+    ],
+    "sequence_limit": "Endpoints only. No intermediate swap timing, causal sequence, or survival at the enemy death is inferred by this computation.",
+    "source_resource_labels": [
+      {
+        "label": "Paladin Divine Shield (~80.5s)",
+        "records": 2
+      },
+      {
+        "label": "Hunter Deterrence 67.5-70",
+        "records": 1
+      },
+      {
+        "label": "Hunter Feign Death 56",
+        "records": 1
+      },
+      {
+        "label": "Hunter Feign Death 77",
+        "records": 1
+      },
+      {
+        "label": "Hunter PvP Trinket (~67.5s)",
+        "records": 1
+      },
+      {
+        "label": "Hunter PvP Trinket (~81.5s)",
+        "records": 1
+      },
+      {
+        "label": "Hunter PvP Trinket (~86s)",
+        "records": 1
+      },
+      {
+        "label": "Hunter PvP Trinket (~92s)",
+        "records": 1
+      },
+      {
+        "label": "Hunter PvP trinket (~78s)",
+        "records": 1
+      },
+      {
+        "label": "Hunter Trinket (51s)",
+        "records": 1
+      },
+      {
+        "label": "Hunter Trinket 64",
+        "records": 1
+      },
+      {
+        "label": "Hunter temporary defensive/control-immunity state (~98.5-101s; ability unknown)",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter Feign Death ~103s",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter Feign Death ~76s",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter Feign Death ~88s",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter PvP Trinket (~78s)",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter PvP Trinket (~79s, breaking Blind)",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter PvP Trinket (~98.5s)",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter PvP Trinket ~75.5s",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter PvP Trinket ~77s",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter PvP Trinket ~79.5s",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter: Feign Death (~75-76s)",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter: Feign Death (~79s)",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter: PvP Trinket (~49s)",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter: PvP Trinket (~86s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin Divine Shield (~55.5s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin Divine Shield (~75.5–76s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin Divine Shield (~98.5s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket (~108.5s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket (~94s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin immunity/major defensive (77.5s; exact ability uncertain)",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin PvP Trinket (~85s)",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin PvP Trinket ~78s",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin PvP Trinket ~85.5s",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin PvP Trinket ~97.5s",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin defensive immunity, exact ability unknown ~125.5-137.5s",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin defensive immunity, exact ability unknown ~76s",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin defensive immunity, exact ability unknown ~82s",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin mana spent during healing (~7k to ~1.6k before Hunter death)",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin mana spent during repeated healing (down to ~0.5k around Hunter death)",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin: PvP Trinket (~68s)",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin: PvP Trinket (~73s)",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin: PvP Trinket (~77.5s)",
+        "records": 1
+      }
+    ],
+    "resource_count_limit": "Exact source-listed labels, deduplicated within each match. They include uncertain or offensive entries and are not verified forced-resource frequencies.",
+    "cc_lexical_mentions": {
+      "Sap": 6,
+      "Blind": 4,
+      "Fear": 5,
+      "Silence": 2,
+      "Gouge": 1
+    },
+    "cc_count_limit": "Literal mentions in observed notes, including negated/uncertain/post-death mentions. These are search aids, not counts of landed CC.",
+    "recovery_text_present": 16,
+    "recovery_count_limit": "Field coverage only: texts may explicitly say no reset. Not a reset-event rate.",
+    "missing_fields": {
+      "priest_role": 17,
+      "rogue_role": 17,
+      "recovery_text": 1,
+      "result": 0,
+      "opening_target": 0,
+      "enemy_kill_target": 5
+    },
+    "quality_flags": {
+      "source_exception_present": 6,
+      "truncated_evidence": 2
+    },
+    "extraction_confidence": {
+      "high": 12,
+      "medium": 5
+    }
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "H1",
+      "statement": "One opening target also explains every reported enemy kill in wins.",
+      "tested_target": "Marksmanship Hunter",
+      "disposition": "rejected_as_exhaustive",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_017",
+        "august_31st_2550_20260912__august31_2550_match_019",
+        "august_31st_2550_20260912__august31_2550_match_020",
+        "january_4th_2700_20260913__match_023",
+        "january_5th_full_20260912__match_007",
+        "may_18th_2500_20260913__may18_2500_match_026",
+        "may_4th_2350_20260913__may04_2350_match_058",
+        "september_11th_2500_20260912__sep11_2500_match_003",
+        "september_11th_2500_20260912__sep11_2500_match_008",
+        "september_11th_2500_20260912__sep11_2500_match_015"
+      ],
+      "contradicting_match_ids": [
+        "january_4th_2700_20260913__match_014",
+        "january_4th_2700_20260913__match_022"
+      ],
+      "unknown_kill_wins": 0,
+      "limitation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability."
+    },
+    {
+      "hypothesis_id": "H2",
+      "statement": "Hunter loses meaningful health through renewed pressure and enough support disruption to prevent recovery, or a covered Paladin branch becomes vulnerable.",
+      "disposition": "provisional_interpretation",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_019",
+        "january_5th_full_20260912__match_007",
+        "may_4th_2350_20260913__may04_2350_match_058",
+        "september_11th_2500_20260912__sep11_2500_match_003",
+        "september_11th_2500_20260912__sep11_2500_match_008",
+        "september_11th_2500_20260912__sep11_2500_match_015"
+      ],
+      "contradicting_match_ids": [],
+      "limitation": "Some Hunter wins retain both escapes or happen while Paladin heals. Paladin immunity is not healer incapacitation; many protective icons remain unnamed."
+    },
+    {
+      "hypothesis_id": "H3",
+      "statement": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [
+        "january_4th_2700_20260913__match_023",
+        "may_18th_2500_20260913__may18_2500_match_026",
+        "january_4th_2700_20260913__match_022",
+        "january_4th_2700_20260913__match_016"
+      ],
+      "limitation": "Some Hunter wins retain both escapes or happen while Paladin heals. Paladin immunity is not healer incapacitation; many protective icons remain unnamed."
+    }
+  ],
+  "default_line": {
+    "opening_target": {
+      "text": "Marksmanship Hunter; recorded in 14/17 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "basis": "pattern",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_015",
+        "august_31st_2550_20260912__august31_2550_match_019",
+        "january_4th_2700_20260913__match_014",
+        "january_4th_2700_20260913__match_015",
+        "january_4th_2700_20260913__match_016",
+        "january_4th_2700_20260913__match_022",
+        "january_5th_full_20260912__match_007",
+        "may_18th_2500_20260913__may18_2500_match_026",
+        "may_4th_2350_20260913__may04_2350_match_048",
+        "may_4th_2350_20260913__may04_2350_match_058",
+        "may_4th_2350_20260913__may04_2350_match_062",
+        "september_11th_2500_20260912__sep11_2500_match_003",
+        "september_11th_2500_20260912__sep11_2500_match_008",
+        "september_11th_2500_20260912__sep11_2500_match_015"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "all_labeled_openers_in_this_matchup"
+    },
+    "initial_objective": {
+      "text": "Develop Hunter pressure while disrupting Paladin support; retain a covered Paladin return as an alternative.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_019",
+        "january_5th_full_20260912__match_007",
+        "may_4th_2350_20260913__may04_2350_match_058",
+        "september_11th_2500_20260912__sep11_2500_match_003",
+        "september_11th_2500_20260912__sep11_2500_match_008",
+        "september_11th_2500_20260912__sep11_2500_match_015"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "win_condition": {
+      "text": "Hunter loses meaningful health through renewed pressure and enough support disruption to prevent recovery, or a covered Paladin branch becomes vulnerable.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_019",
+        "january_5th_full_20260912__match_007",
+        "may_4th_2350_20260913__may04_2350_match_058",
+        "september_11th_2500_20260912__sep11_2500_match_003",
+        "september_11th_2500_20260912__sep11_2500_match_008",
+        "september_11th_2500_20260912__sep11_2500_match_015"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "manufacture": {
+      "text": "Usually open Hunter; renew short Paladin control and actual damage after defensive or healing pauses.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_019",
+        "january_5th_full_20260912__match_007",
+        "may_4th_2350_20260913__may04_2350_match_058",
+        "september_11th_2500_20260912__sep11_2500_match_003",
+        "september_11th_2500_20260912__sep11_2500_match_008",
+        "september_11th_2500_20260912__sep11_2500_match_015"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "conversion": {
+      "text": "Usually finish Hunter. A Paladin return is supported in a small number of wins and is not automatically implied by selecting Paladin.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_019",
+        "january_5th_full_20260912__match_007",
+        "may_4th_2350_20260913__may04_2350_match_058",
+        "september_11th_2500_20260912__sep11_2500_match_003",
+        "september_11th_2500_20260912__sep11_2500_match_008",
+        "september_11th_2500_20260912__sep11_2500_match_015"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "reset": {
+      "text": "Resume Hunter pressure after healing or avoidance pauses; first verify that a temporary DEAD display is followed by persistent death before treating it as a kill.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_019",
+        "january_5th_full_20260912__match_007",
+        "may_4th_2350_20260913__may04_2350_match_058",
+        "september_11th_2500_20260912__sep11_2500_match_003",
+        "september_11th_2500_20260912__sep11_2500_match_008",
+        "september_11th_2500_20260912__sep11_2500_match_015"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "important_resources": [
+      {
+        "name": "PvP Trinket",
+        "relevance": "conditional",
+        "assessment": {
+          "text": "Conditional control resource; extraction alone does not create a lethal Hunter state.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "january_5th_full_20260912__match_007",
+            "september_11th_2500_20260912__sep11_2500_match_015"
+          ],
+          "contradicting_match_ids": [
+            "january_4th_2700_20260913__match_023",
+            "may_4th_2350_20260913__may04_2350_match_062"
+          ],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        },
+        "requirement": "not_established_as_universal_prerequisite",
+        "relevance_test": {
+          "repeated_forcing": "Not computed from copied source hypotheses; cited observations reviewed individually.",
+          "before_successful_conversion": "See cited match chronology; a spend elsewhere in the round is insufficient.",
+          "different_behavior_after_spend": "Supported only for the cited control/immunity sequences; no complete frequency estimate.",
+          "wins_with_resource_available": [
+            "january_4th_2700_20260913__match_023",
+            "may_4th_2350_20260913__may04_2350_match_062"
+          ],
+          "sufficiency_in_losses": "Not established; compare the matchup failure examples.",
+          "pressure_side_effect": "Cannot be excluded from a spend alone.",
+          "control_interaction": "Conditional control resource; extraction alone does not create a lethal Hunter state."
+        }
+      }
+    ]
+  },
+  "states": [
+    {
+      "state_id": "opening",
+      "description": "Usually open Hunter; renew short Paladin control and actual damage after defensive or healing pauses.",
+      "team_objective": {
+        "text": "Usually open Hunter; renew short Paladin control and actual damage after defensive or healing pauses.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_019",
+          "january_5th_full_20260912__match_007",
+          "may_4th_2350_20260913__may04_2350_match_058",
+          "september_11th_2500_20260912__sep11_2500_match_003",
+          "september_11th_2500_20260912__sep11_2500_match_008",
+          "september_11th_2500_20260912__sep11_2500_match_015"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "An actual pressure commitment has begun.",
+          "basis": "inferred",
+          "confidence": "medium",
+          "supporting_match_ids": [
+            "august_31st_2550_20260912__august31_2550_match_019",
+            "january_5th_full_20260912__match_007",
+            "may_4th_2350_20260913__may04_2350_match_058",
+            "september_11th_2500_20260912__sep11_2500_match_003",
+            "september_11th_2500_20260912__sep11_2500_match_008",
+            "september_11th_2500_20260912__sep11_2500_match_015"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "august_31st_2550_20260912__august31_2550_match_019",
+        "january_5th_full_20260912__match_007",
+        "may_4th_2350_20260913__may04_2350_match_058",
+        "september_11th_2500_20260912__sep11_2500_match_003",
+        "september_11th_2500_20260912__sep11_2500_match_008",
+        "september_11th_2500_20260912__sep11_2500_match_015"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "state_id": "pressure",
+      "description": "Develop Hunter pressure while disrupting Paladin support; retain a covered Paladin return as an alternative.",
+      "team_objective": {
+        "text": "Develop Hunter pressure while disrupting Paladin support; retain a covered Paladin return as an alternative.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_019",
+          "january_5th_full_20260912__match_007",
+          "may_4th_2350_20260913__may04_2350_match_058",
+          "september_11th_2500_20260912__sep11_2500_match_003",
+          "september_11th_2500_20260912__sep11_2500_match_008",
+          "september_11th_2500_20260912__sep11_2500_match_015"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "august_31st_2550_20260912__august31_2550_match_019",
+        "january_5th_full_20260912__match_007",
+        "may_4th_2350_20260913__may04_2350_match_058",
+        "september_11th_2500_20260912__sep11_2500_match_003",
+        "september_11th_2500_20260912__sep11_2500_match_008",
+        "september_11th_2500_20260912__sep11_2500_match_015"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "state_id": "conversion",
+      "description": "Usually finish Hunter. A Paladin return is supported in a small number of wins and is not automatically implied by selecting Paladin.",
+      "team_objective": {
+        "text": "Usually finish Hunter. A Paladin return is supported in a small number of wins and is not automatically implied by selecting Paladin.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_019",
+          "january_5th_full_20260912__match_007",
+          "may_4th_2350_20260913__may04_2350_match_058",
+          "september_11th_2500_20260912__sep11_2500_match_003",
+          "september_11th_2500_20260912__sep11_2500_match_008",
+          "september_11th_2500_20260912__sep11_2500_match_015"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "Hunter loses meaningful health through renewed pressure and enough support disruption to prevent recovery, or a covered Paladin branch becomes vulnerable.",
+          "basis": "inferred",
+          "confidence": "medium",
+          "supporting_match_ids": [
+            "august_31st_2550_20260912__august31_2550_match_019",
+            "january_5th_full_20260912__match_007",
+            "may_4th_2350_20260913__may04_2350_match_058",
+            "september_11th_2500_20260912__sep11_2500_match_003",
+            "september_11th_2500_20260912__sep11_2500_match_008",
+            "september_11th_2500_20260912__sep11_2500_match_015"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "august_31st_2550_20260912__august31_2550_match_019",
+        "january_5th_full_20260912__match_007",
+        "may_4th_2350_20260913__may04_2350_match_058",
+        "september_11th_2500_20260912__sep11_2500_match_003",
+        "september_11th_2500_20260912__sep11_2500_match_008",
+        "september_11th_2500_20260912__sep11_2500_match_015"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "state_id": "recovery",
+      "description": "Resume Hunter pressure after healing or avoidance pauses; first verify that a temporary DEAD display is followed by persistent death before treating it as a kill.",
+      "team_objective": {
+        "text": "Resume Hunter pressure after healing or avoidance pauses; first verify that a temporary DEAD display is followed by persistent death before treating it as a kill.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_019",
+          "january_5th_full_20260912__match_007",
+          "may_4th_2350_20260913__may04_2350_match_058",
+          "september_11th_2500_20260912__sep11_2500_match_003",
+          "september_11th_2500_20260912__sep11_2500_match_008",
+          "september_11th_2500_20260912__sep11_2500_match_015"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "The preceding attempt is healed, protected, or interrupted.",
+          "basis": "inferred",
+          "confidence": "medium",
+          "supporting_match_ids": [
+            "august_31st_2550_20260912__august31_2550_match_019",
+            "january_5th_full_20260912__match_007",
+            "may_4th_2350_20260913__may04_2350_match_058",
+            "september_11th_2500_20260912__sep11_2500_match_003",
+            "september_11th_2500_20260912__sep11_2500_match_008",
+            "september_11th_2500_20260912__sep11_2500_match_015"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "august_31st_2550_20260912__august31_2550_match_019",
+        "january_5th_full_20260912__match_007",
+        "may_4th_2350_20260913__may04_2350_match_058",
+        "september_11th_2500_20260912__sep11_2500_match_003",
+        "september_11th_2500_20260912__sep11_2500_match_008",
+        "september_11th_2500_20260912__sep11_2500_match_015"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "branches": [
+    {
+      "branch_id": "branch_1",
+      "from_state": "pressure",
+      "next_state": "conversion",
+      "trigger": {
+        "text": "Hunter pressure/control is followed by a meaningful covered Paladin commitment.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_4th_2700_20260913__match_014",
+          "january_4th_2700_20260913__match_022"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "response": {
+        "text": "Commit Paladin and sustain pressure through partial healing.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_4th_2700_20260913__match_014",
+          "january_4th_2700_20260913__match_022"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "classification": "low-frequency adaptation",
+      "team_objective": {
+        "text": "Commit Paladin and sustain pressure through partial healing.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_4th_2700_20260913__match_014",
+          "january_4th_2700_20260913__match_022"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "evidence": [
+        "january_4th_2700_20260913__match_014",
+        "january_4th_2700_20260913__match_022"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "match_assessments": [
+    {
+      "match_id": "august_31st_2550_20260912__august31_2550_match_015",
+      "review_id": "M015",
+      "result": "loss",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "august_31st_2550_20260912__august31_2550_match_017",
+      "review_id": "M017",
+      "result": "win",
+      "observed_opening_target": "Retribution Paladin",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "august_31st_2550_20260912__august31_2550_match_019",
+      "review_id": "M019",
+      "result": "win",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "august_31st_2550_20260912__august31_2550_match_020",
+      "review_id": "M020",
+      "result": "win",
+      "observed_opening_target": "Retribution Paladin",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_014",
+      "review_id": "M060",
+      "result": "win",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": "Retribution Paladin",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "low-frequency adaptation",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_015",
+      "review_id": "M061",
+      "result": "loss",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_016",
+      "review_id": "M062",
+      "result": "loss",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_022",
+      "review_id": "M068",
+      "result": "win",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": "Retribution Paladin",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "low-frequency adaptation",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_023",
+      "review_id": "M069",
+      "result": "win",
+      "observed_opening_target": "Retribution Paladin",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_007",
+      "review_id": "M106",
+      "result": "win",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_026",
+      "review_id": "M214",
+      "result": "win",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_048",
+      "review_id": "M378",
+      "result": "loss",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_058",
+      "review_id": "M385",
+      "result": "win",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_062",
+      "review_id": "M388",
+      "result": "loss",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_003",
+      "review_id": "M394",
+      "result": "win",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_008",
+      "review_id": "M399",
+      "result": "win",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_015",
+      "review_id": "M404",
+      "result": "win",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    }
+  ],
+  "failure_modes": [
+    {
+      "text": "An early or renewed Hunter attempt is healed; the next control window creates shallow damage and friendly Priest dies before another setup.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "may_4th_2350_20260913__may04_2350_match_048",
+        "may_4th_2350_20260913__may04_2350_match_062"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    {
+      "text": "A low Hunter recovers before friendly Rogue dies; the later solo attempt does not finish.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "january_4th_2700_20260913__match_015"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    }
+  ],
+  "runtime_observability": {
+    "automatic": [],
+    "automatic_candidates": [
+      {
+        "signal": "Verified cast/aura, present health, or an observed control start/end",
+        "status": "unvalidated_candidate",
+        "scope": "Raw events only; not strategic intent or reliable absence of an enemy cooldown.",
+        "limitation": "No addon implementation or API testing was performed; no automatic transition is certified."
+      }
+    ],
+    "manual_possible": [
+      {
+        "transition": "pressure_to_conversion",
+        "confirmation": "A meaningful enemy health window, current partner control and friendly readiness overlap."
+      },
+      {
+        "transition": "conversion_to_recovery",
+        "confirmation": "Target recovered or became protected; team needs a new usable attempt."
+      }
+    ],
+    "web_only": [
+      "Strategic intent",
+      "Reasons for a target-selection branch",
+      "Causal counterfactuals",
+      "Full comparison with losses and unresolved evidence"
+    ]
+  },
+  "uncertainties": [
+    "Some Hunter wins retain both escapes or happen while Paladin heals. Paladin immunity is not healer incapacitation; many protective icons remain unnamed.",
+    "Precise Priest/Rogue division of labour by phase is mostly unknown.",
+    "Exact runtime detection reliability on Warmane 3.3.5 is untested."
+  ],
+  "mechanics_context": [],
+  "provenance": {
+    "prepared_corpus_version": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Marksmanship_Hunter__Retribution_Paladin.jsonl",
+    "review_file": "evidence_review/group_06.txt",
+    "prepared_stats": {
+      "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Marksmanship Hunter / Retribution Paladin",
+      "total_games": 17,
+      "wins": 12,
+      "losses": 5,
+      "unknown_result": 0,
+      "opening_target_known": 17,
+      "opening_target_unknown": 0,
+      "opening_targets": {
+        "Marksmanship Hunter": 12,
+        "Retribution Paladin": 3,
+        "Hunter": 2
+      },
+      "kill_target_known": 12,
+      "kill_target_unknown": 5,
+      "kill_targets": {
+        "Marksmanship Hunter": 8,
+        "Retribution Paladin": 2,
+        "Hunter": 2
+      },
+      "records_with_quality_flags": 6,
+      "records_with_source_exceptions": 6,
+      "records_with_source_win_condition_hypothesis": 17,
+      "source_batch_distribution": {
+        "august_31st_2550_20260912": 4,
+        "january_4th_2700_20260913": 5,
+        "january_5th_full_20260912": 1,
+        "may_18th_2500_20260913": 1,
+        "may_4th_2350_20260913": 3,
+        "september_11th_2500_20260912": 3
+      }
+    },
+    "review_group": 6,
+    "date": "2026-09-13"
+  },
+  "version_history": [
+    {
+      "version": 1,
+      "date": "2026-09-13",
+      "corpus": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+      "change": "Initial evidence-constrained synthesis; no prior approved strategy replaced.",
+      "reason": "First canonical package for review."
+    }
+  ]
+}

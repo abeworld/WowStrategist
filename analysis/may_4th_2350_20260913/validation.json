@@ -1,0 +1,25 @@
+{
+  "source_folder": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\output\\2v2_SPR_+2350_MMR_May_4th_Stream_VOD_WOW_R1_Gladiator_Rogue_Arena_PVP_-_Warmane_WOTLK",
+  "instructions": "ARENA_ANALYSIS_INSTRUCTIONS.md V6",
+  "discovered_mp4_files": 65,
+  "requested_mp4_files": 65,
+  "manifest_source_rows": 65,
+  "valid_evidentiary_2v2_games": 56,
+  "jsonl_game_records": 56,
+  "analysed": 51,
+  "uncertain": 5,
+  "failed": 0,
+  "ignored_non_2v2": 1,
+  "excluded_non_evidentiary_2v2": 8,
+  "confidence_counts": {
+    "high": 44,
+    "medium": 12
+  },
+  "result_counts": {
+    "win": 53,
+    "loss": 3
+  },
+  "count_mismatch": false,
+  "validation_errors": [],
+  "review_method": "Inactive/preparation/loading ~4s; active combat1s; targeted decisive windows0.5s. Full beginning/end audit and dense active review. Frame-based UI evidence, not combat logs."
+}

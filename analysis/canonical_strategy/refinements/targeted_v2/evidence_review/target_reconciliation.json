@@ -1,0 +1,1062 @@
+{
+  "scope": "Read-only analysis view; prepared corpus unchanged.",
+  "mappings": [
+    {
+      "match_id": "january_5th_full_20260912__match_029",
+      "field": "opening_target",
+      "raw": "Arms Warrior briefly",
+      "analysis_value": "Arms Warrior",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_037b",
+      "field": "opening_target",
+      "raw": "Discipline Priest briefly",
+      "analysis_value": "Discipline Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_019",
+      "field": "opening_target",
+      "raw": "Warlock",
+      "analysis_value": "Destruction Warlock",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_019",
+      "field": "kill_target",
+      "raw": "Shaman",
+      "analysis_value": "Elemental Shaman",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_020",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_020",
+      "field": "kill_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_021",
+      "field": "opening_target",
+      "raw": "Shaman",
+      "analysis_value": "Elemental Shaman",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_021",
+      "field": "kill_target",
+      "raw": "Shaman",
+      "analysis_value": "Elemental Shaman",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_022",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_022",
+      "field": "kill_target",
+      "raw": "Priest",
+      "analysis_value": "Shadow Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_023",
+      "field": "opening_target",
+      "raw": "Shaman",
+      "analysis_value": "Elemental Shaman",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_023",
+      "field": "kill_target",
+      "raw": "Shaman",
+      "analysis_value": "Elemental Shaman",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_024",
+      "field": "opening_target",
+      "raw": "Death Knight",
+      "analysis_value": "Unholy Death Knight",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_024",
+      "field": "kill_target",
+      "raw": "Death Knight",
+      "analysis_value": "Unholy Death Knight",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_025",
+      "field": "opening_target",
+      "raw": "Warrior",
+      "analysis_value": "Arms Warrior",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_025",
+      "field": "kill_target",
+      "raw": "none observed",
+      "analysis_value": null,
+      "method": "explicit_no_enemy_kill"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_026",
+      "field": "opening_target",
+      "raw": "Hunter",
+      "analysis_value": "Marksmanship Hunter",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_026",
+      "field": "kill_target",
+      "raw": "Hunter",
+      "analysis_value": "Marksmanship Hunter",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_029",
+      "field": "opening_target",
+      "raw": "Paladin",
+      "analysis_value": "Retribution Paladin",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_029",
+      "field": "kill_target",
+      "raw": "none observed",
+      "analysis_value": null,
+      "method": "explicit_no_enemy_kill"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_032",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_032",
+      "field": "kill_target",
+      "raw": "Paladin",
+      "analysis_value": "Retribution Paladin",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_033",
+      "field": "opening_target",
+      "raw": "Priest",
+      "analysis_value": "Shadow Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_033",
+      "field": "kill_target",
+      "raw": "Priest",
+      "analysis_value": "Shadow Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_035",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_035",
+      "field": "kill_target",
+      "raw": "none observed",
+      "analysis_value": null,
+      "method": "explicit_no_enemy_kill"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_036",
+      "field": "opening_target",
+      "raw": "Paladin",
+      "analysis_value": "Retribution Paladin",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_036",
+      "field": "kill_target",
+      "raw": "none observed",
+      "analysis_value": null,
+      "method": "explicit_no_enemy_kill"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_037",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_037",
+      "field": "kill_target",
+      "raw": "none observed",
+      "analysis_value": null,
+      "method": "explicit_no_enemy_kill"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_038",
+      "field": "opening_target",
+      "raw": "Paladin",
+      "analysis_value": "Retribution Paladin",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_038",
+      "field": "kill_target",
+      "raw": "Paladin",
+      "analysis_value": "Retribution Paladin",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_039",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_039",
+      "field": "kill_target",
+      "raw": "none observed",
+      "analysis_value": null,
+      "method": "explicit_no_enemy_kill"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_040",
+      "field": "opening_target",
+      "raw": "Death Knight",
+      "analysis_value": "Unholy Death Knight",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_040",
+      "field": "kill_target",
+      "raw": "Death Knight",
+      "analysis_value": "Unholy Death Knight",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_041",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_041",
+      "field": "kill_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_042",
+      "field": "opening_target",
+      "raw": "Warrior",
+      "analysis_value": "Arms Warrior",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_042",
+      "field": "kill_target",
+      "raw": "Paladin",
+      "analysis_value": "Holy Paladin",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_043",
+      "field": "opening_target",
+      "raw": "Priest",
+      "analysis_value": "Shadow Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_043",
+      "field": "kill_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_044",
+      "field": "opening_target",
+      "raw": "Warrior",
+      "analysis_value": "Arms Warrior",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_044",
+      "field": "kill_target",
+      "raw": "Paladin",
+      "analysis_value": "Holy Paladin",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_045",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_045",
+      "field": "kill_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_047",
+      "field": "opening_target",
+      "raw": "Druid",
+      "analysis_value": "Balance Druid",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_047",
+      "field": "kill_target",
+      "raw": "none observed",
+      "analysis_value": null,
+      "method": "explicit_no_enemy_kill"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_048",
+      "field": "opening_target",
+      "raw": "Druid",
+      "analysis_value": "Feral Druid",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_048",
+      "field": "kill_target",
+      "raw": "Druid",
+      "analysis_value": "Feral Druid",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_049",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_050",
+      "field": "opening_target",
+      "raw": "Warlock",
+      "analysis_value": "Destruction Warlock",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_050",
+      "field": "kill_target",
+      "raw": "Druid",
+      "analysis_value": "Restoration Druid",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_051",
+      "field": "opening_target",
+      "raw": "Priest",
+      "analysis_value": "Discipline Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_051",
+      "field": "kill_target",
+      "raw": "Priest",
+      "analysis_value": "Discipline Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_052",
+      "field": "opening_target",
+      "raw": "Mage",
+      "analysis_value": "Frost Mage",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_052",
+      "field": "kill_target",
+      "raw": "Mage",
+      "analysis_value": "Frost Mage",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_015",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_016",
+      "field": "opening_target",
+      "raw": "Shaman",
+      "analysis_value": "Enhancement Shaman",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_018",
+      "field": "opening_target",
+      "raw": "Priest",
+      "analysis_value": "Shadow Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_018",
+      "field": "kill_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_019",
+      "field": "opening_target",
+      "raw": "Shaman",
+      "analysis_value": "Enhancement Shaman",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_019",
+      "field": "kill_target",
+      "raw": "Shaman",
+      "analysis_value": "Enhancement Shaman",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_020",
+      "field": "opening_target",
+      "raw": "Priest",
+      "analysis_value": "Shadow Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_020",
+      "field": "kill_target",
+      "raw": "Priest",
+      "analysis_value": "Shadow Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_021",
+      "field": "opening_target",
+      "raw": "Priest",
+      "analysis_value": "Discipline Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_021",
+      "field": "kill_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_022",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_022",
+      "field": "kill_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_024",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_025",
+      "field": "opening_target",
+      "raw": "Warrior",
+      "analysis_value": "Arms Warrior",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_025",
+      "field": "kill_target",
+      "raw": "Warrior",
+      "analysis_value": "Arms Warrior",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_026",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_027",
+      "field": "opening_target",
+      "raw": "Warrior",
+      "analysis_value": "Arms Warrior",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_028",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_029",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_030",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_031",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_031",
+      "field": "kill_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_032",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_032",
+      "field": "kill_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_033",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_033",
+      "field": "kill_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_034",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_034",
+      "field": "kill_target",
+      "raw": "Priest",
+      "analysis_value": "Shadow Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_035",
+      "field": "opening_target",
+      "raw": "Priest",
+      "analysis_value": "Shadow Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_035",
+      "field": "kill_target",
+      "raw": "Priest",
+      "analysis_value": "Shadow Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_036",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_036",
+      "field": "kill_target",
+      "raw": "Priest",
+      "analysis_value": "Shadow Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_037",
+      "field": "opening_target",
+      "raw": "Priest",
+      "analysis_value": "Shadow Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_038",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_038",
+      "field": "kill_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_039",
+      "field": "opening_target",
+      "raw": "Priest",
+      "analysis_value": "Shadow Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_039",
+      "field": "kill_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_040",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_041",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_042",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_044",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_044",
+      "field": "kill_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_008",
+      "field": "opening_target",
+      "raw": "Retribution Paladin briefly",
+      "analysis_value": "Retribution Paladin",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_012a",
+      "field": "opening_target",
+      "raw": "Warlock",
+      "analysis_value": "Destruction Warlock",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_012a",
+      "field": "kill_target",
+      "raw": "Shaman",
+      "analysis_value": "Restoration Shaman",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_013",
+      "field": "opening_target",
+      "raw": "Warrior",
+      "analysis_value": "Arms Warrior",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_013",
+      "field": "kill_target",
+      "raw": "Warrior",
+      "analysis_value": "Arms Warrior",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_015",
+      "field": "opening_target",
+      "raw": "Hunter",
+      "analysis_value": "Marksmanship Hunter",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_015",
+      "field": "kill_target",
+      "raw": "Hunter",
+      "analysis_value": "Marksmanship Hunter",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_016",
+      "field": "opening_target",
+      "raw": "Shaman: first confirmed damage to an enemy player",
+      "analysis_value": "Restoration Shaman",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_016",
+      "field": "kill_target",
+      "raw": "Shaman at about 105.5s",
+      "analysis_value": "Restoration Shaman",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_017",
+      "field": "kill_target",
+      "raw": "No enemy player killed",
+      "analysis_value": null,
+      "method": "explicit_no_enemy_kill"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_018",
+      "field": "opening_target",
+      "raw": "Priest: first substantial enemy player damage",
+      "analysis_value": "Discipline Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_018",
+      "field": "kill_target",
+      "raw": "No enemy player killed. Rogue dies at approximately 99s",
+      "analysis_value": null,
+      "method": "explicit_no_enemy_kill"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_019",
+      "field": "opening_target",
+      "raw": "Warlock takes first confirmed player health damage",
+      "analysis_value": "Destruction Warlock",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_019",
+      "field": "kill_target",
+      "raw": "Warlock at approximately 195.5s",
+      "analysis_value": "Destruction Warlock",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_020",
+      "field": "opening_target",
+      "raw": "Hunter",
+      "analysis_value": "Marksmanship Hunter",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_020",
+      "field": "kill_target",
+      "raw": "Hunter",
+      "analysis_value": "Marksmanship Hunter",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_021",
+      "field": "opening_target",
+      "raw": "Priest",
+      "analysis_value": "Discipline Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_021",
+      "field": "kill_target",
+      "raw": "Priest around 116s",
+      "analysis_value": "Discipline Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_022",
+      "field": "kill_target",
+      "raw": "Hunter around 74s",
+      "analysis_value": "Marksmanship Hunter",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_023",
+      "field": "opening_target",
+      "raw": "Shaman",
+      "analysis_value": "Restoration Shaman",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_023",
+      "field": "kill_target",
+      "raw": "Shaman around 105.5s",
+      "analysis_value": "Restoration Shaman",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_024",
+      "field": "opening_target",
+      "raw": "Hunter",
+      "analysis_value": "Marksmanship Hunter",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_024",
+      "field": "kill_target",
+      "raw": "Priest",
+      "analysis_value": "Discipline Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_025",
+      "field": "opening_target",
+      "raw": "Warrior",
+      "analysis_value": "Arms Warrior",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_025",
+      "field": "kill_target",
+      "raw": "Paladin",
+      "analysis_value": "Holy Paladin",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_026",
+      "field": "opening_target",
+      "raw": "Hunter",
+      "analysis_value": "Marksmanship Hunter",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_026",
+      "field": "kill_target",
+      "raw": "Hunter",
+      "analysis_value": "Marksmanship Hunter",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_027",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_029",
+      "field": "opening_target",
+      "raw": "Hunter",
+      "analysis_value": "Marksmanship Hunter",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_029",
+      "field": "kill_target",
+      "raw": "Priest",
+      "analysis_value": "Discipline Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_030",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_030",
+      "field": "kill_target",
+      "raw": "Priest",
+      "analysis_value": "Shadow Priest",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_031",
+      "field": "opening_target",
+      "raw": "Hunter",
+      "analysis_value": "Marksmanship Hunter",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_031",
+      "field": "kill_target",
+      "raw": "Hunter",
+      "analysis_value": "Marksmanship Hunter",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_032",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_032",
+      "field": "kill_target",
+      "raw": "Rogue at approximately 102.5s",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_033",
+      "field": "opening_target",
+      "raw": "Hunter",
+      "analysis_value": "Marksmanship Hunter",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_033",
+      "field": "kill_target",
+      "raw": "Hunter at approximately 92.5s",
+      "analysis_value": "Marksmanship Hunter",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_034",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_035",
+      "field": "opening_target",
+      "raw": "Hunter",
+      "analysis_value": "Marksmanship Hunter",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_035",
+      "field": "kill_target",
+      "raw": "Hunter at approximately 97s",
+      "analysis_value": "Marksmanship Hunter",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_037",
+      "field": "opening_target",
+      "raw": "Enemy Rogue for the first sustained Rogue attack about 48â€“52s",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_037",
+      "field": "kill_target",
+      "raw": "Enemy Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_038",
+      "field": "opening_target",
+      "raw": "Warrior",
+      "analysis_value": "Arms Warrior",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_038",
+      "field": "kill_target",
+      "raw": "Warrior",
+      "analysis_value": "Arms Warrior",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_039",
+      "field": "opening_target",
+      "raw": "Enemy Rogue for the first sustained Rogue attack about 71s",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_040",
+      "field": "opening_target",
+      "raw": "Enemy Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_040",
+      "field": "kill_target",
+      "raw": "Enemy Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_041",
+      "field": "opening_target",
+      "raw": "Rogue",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_041",
+      "field": "kill_target",
+      "raw": "Rogue first",
+      "analysis_value": "Subtlety Rogue",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_042b",
+      "field": "opening_target",
+      "raw": "Warrior",
+      "analysis_value": "Arms Warrior",
+      "method": "unique_enemy_class_in_label"
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_042b",
+      "field": "kill_target",
+      "raw": "Warrior around 213s",
+      "analysis_value": "Arms Warrior",
+      "method": "unique_enemy_class_in_label"
+    }
+  ]
+}

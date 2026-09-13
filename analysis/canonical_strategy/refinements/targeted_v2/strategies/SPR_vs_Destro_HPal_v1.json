@@ -1,0 +1,1317 @@
+{
+  "strategy_id": "SPR_vs_Destro_HPal_v1",
+  "strategy_key": "SPR_vs_Destro_HPal",
+  "version": 1,
+  "schema_version": "1.0.0",
+  "status": "provisional",
+  "created_date": "2026-09-13",
+  "our_comp": "Shadow Priest / Subtlety Rogue",
+  "enemy_comp": "Destruction Warlock / Holy Paladin",
+  "evidence": {
+    "total_games": 16,
+    "wins": 15,
+    "losses": 1,
+    "unknown_result": 0,
+    "confidence": "medium",
+    "supporting_match_ids": [
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+      "may_4th_2350_20260913__may04_2350_match_031",
+      "may_4th_2350_20260913__may04_2350_match_034",
+      "may_4th_2350_20260913__may04_2350_match_036",
+      "september_28th_2700_20260913__september28_2700_match_006",
+      "september_28th_2700_20260913__september28_2700_match_027"
+    ],
+    "contradicting_match_ids": [
+      "june_7th_2700_20260913__match_007",
+      "may_4th_2350_20260913__may04_2350_match_037",
+      "september_28th_2700_20260913__september28_2700_match_024",
+      "september_28th_2700_20260913__september28_2700_match_028",
+      "september_28th_2700_20260913__september28_2700_match_029",
+      "september_28th_2700_20260913__september28_2700_match_031"
+    ],
+    "contradiction_scope": "Challenges to candidate or stronger universal rules, not necessarily to the final qualified wording.",
+    "representative_match_ids": [
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+      "may_4th_2350_20260913__may04_2350_match_031",
+      "may_4th_2350_20260913__may04_2350_match_034"
+    ],
+    "all_match_ids": [
+      "june_7th_2700_20260913__match_007",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+      "may_4th_2350_20260913__may04_2350_match_028",
+      "may_4th_2350_20260913__may04_2350_match_031",
+      "may_4th_2350_20260913__may04_2350_match_033",
+      "may_4th_2350_20260913__may04_2350_match_034",
+      "may_4th_2350_20260913__may04_2350_match_036",
+      "may_4th_2350_20260913__may04_2350_match_037",
+      "september_28th_2700_20260913__september28_2700_match_002",
+      "september_28th_2700_20260913__september28_2700_match_004",
+      "september_28th_2700_20260913__september28_2700_match_006",
+      "september_28th_2700_20260913__september28_2700_match_024",
+      "september_28th_2700_20260913__september28_2700_match_027",
+      "september_28th_2700_20260913__september28_2700_match_028",
+      "september_28th_2700_20260913__september28_2700_match_029",
+      "september_28th_2700_20260913__september28_2700_match_031"
+    ],
+    "data_quality_notes": [
+      "Source extractions reviewed; original videos were not reopened during synthesis.",
+      "Both dedicated player-role fields are empty in all input records; roles remain unknown except where explicit narrative evidence is cited.",
+      "Sample win rate is a property of selected footage, not expected ladder performance.",
+      "Absent events are unknown unless the record explicitly establishes availability or absence.",
+      "A reported enemy kill can occur after a friendly death; the round result is stored separately.",
+      "1 records carry source quality flags; consult evidence and exceptions before treating a claim as footage-verified."
+    ],
+    "source_batches": {
+      "june_7th_2700_20260913": 1,
+      "may_24th_vod2_2600_20260913": 1,
+      "may_4th_2350_20260913": 6,
+      "september_28th_2700_20260913": 8
+    }
+  },
+  "facts": {
+    "by_result": {
+      "win": {
+        "total": 15,
+        "opening_targets": {
+          "Destruction Warlock": 13,
+          "Holy Paladin": 2
+        },
+        "enemy_kill_targets": {
+          "Destruction Warlock": 11,
+          "unknown_or_no_enemy_kill": 1,
+          "Holy Paladin": 3
+        }
+      },
+      "loss": {
+        "total": 1,
+        "opening_targets": {
+          "Holy Paladin": 1
+        },
+        "enemy_kill_targets": {
+          "unknown_or_no_enemy_kill": 1
+        }
+      },
+      "unknown": {
+        "total": 0,
+        "opening_targets": {},
+        "enemy_kill_targets": {}
+      }
+    },
+    "opening_targets": {
+      "Destruction Warlock": 13,
+      "Holy Paladin": 3
+    },
+    "kill_targets": {
+      "Destruction Warlock": 11,
+      "unknown_or_no_enemy_kill": 2,
+      "Holy Paladin": 3
+    },
+    "opening_to_reported_enemy_kill": [
+      {
+        "opening_target": "Destruction Warlock",
+        "reported_enemy_kill": "Destruction Warlock",
+        "result": "win",
+        "count": 9,
+        "match_ids": [
+          "june_7th_2700_20260913__match_007",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+          "may_4th_2350_20260913__may04_2350_match_031",
+          "may_4th_2350_20260913__may04_2350_match_034",
+          "may_4th_2350_20260913__may04_2350_match_036",
+          "may_4th_2350_20260913__may04_2350_match_037",
+          "september_28th_2700_20260913__september28_2700_match_002",
+          "september_28th_2700_20260913__september28_2700_match_006",
+          "september_28th_2700_20260913__september28_2700_match_027"
+        ]
+      },
+      {
+        "opening_target": "Destruction Warlock",
+        "reported_enemy_kill": "Holy Paladin",
+        "result": "win",
+        "count": 3,
+        "match_ids": [
+          "september_28th_2700_20260913__september28_2700_match_024",
+          "september_28th_2700_20260913__september28_2700_match_028",
+          "september_28th_2700_20260913__september28_2700_match_029"
+        ]
+      },
+      {
+        "opening_target": "Destruction Warlock",
+        "reported_enemy_kill": "unknown_or_no_enemy_kill",
+        "result": "win",
+        "count": 1,
+        "match_ids": [
+          "september_28th_2700_20260913__september28_2700_match_004"
+        ]
+      },
+      {
+        "opening_target": "Holy Paladin",
+        "reported_enemy_kill": "Destruction Warlock",
+        "result": "win",
+        "count": 2,
+        "match_ids": [
+          "may_4th_2350_20260913__may04_2350_match_028",
+          "may_4th_2350_20260913__may04_2350_match_033"
+        ]
+      },
+      {
+        "opening_target": "Holy Paladin",
+        "reported_enemy_kill": "unknown_or_no_enemy_kill",
+        "result": "loss",
+        "count": 1,
+        "match_ids": [
+          "september_28th_2700_20260913__september28_2700_match_031"
+        ]
+      }
+    ],
+    "sequence_limit": "Endpoints only. No intermediate swap timing, causal sequence, or survival at the enemy death is inferred by this computation.",
+    "source_resource_labels": [
+      {
+        "label": "Destruction Warlock PvP Trinket (~92s)",
+        "records": 1
+      },
+      {
+        "label": "Destruction Warlock PvP Trinket ~72s",
+        "records": 1
+      },
+      {
+        "label": "Destruction Warlock: PvP Trinket (~75s)",
+        "records": 1
+      },
+      {
+        "label": "Destruction Warlock: PvP Trinket (~79s)",
+        "records": 1
+      },
+      {
+        "label": "Destruction Warlock: PvP Trinket (~82s)",
+        "records": 1
+      },
+      {
+        "label": "Destruction Warlock: PvP Trinket (~88s)",
+        "records": 1
+      },
+      {
+        "label": "Destruction Warlock: PvP Trinket (~91s)",
+        "records": 1
+      },
+      {
+        "label": "Destruction Warlock: PvP Trinket (~93s)",
+        "records": 1
+      },
+      {
+        "label": "Destruction Warlock: Summon Succubus (~90-91s and231-233.5s)",
+        "records": 1
+      },
+      {
+        "label": "Destruction Warlock: second PvP Trinket (~224s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket (~135s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket at 375.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~140s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin: PvP Trinket (~100s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin: PvP Trinket (~103s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin: PvP Trinket (~109s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin: PvP Trinket (~191s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin: PvP Trinket (~50s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin: PvP Trinket (~82s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin Divine Shield at 139–151s",
+        "records": 1
+      },
+      {
+        "label": "Paladin Divine Shield at 244.5s",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket at 126.5s",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket at 130.5s",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket at 171s",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket at 219.5s",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket at 276s",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket at 89",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket breaks Fear at 89",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket ~73.5-74s",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket ~92s",
+        "records": 1
+      },
+      {
+        "label": "Short Summon Succubus completes at approximately 135.5s",
+        "records": 1
+      },
+      {
+        "label": "Summon Felhunter completed around 184s",
+        "records": 1
+      },
+      {
+        "label": "Summon Succubus completed around 378s",
+        "records": 1
+      },
+      {
+        "label": "Summon Succubus completes at approximately 253s",
+        "records": 1
+      },
+      {
+        "label": "Summon Succubus completes at approximately 322.5s",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket at 108s",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket at 137.5s",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket at 171.5s",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket at 205s",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket at 235.5s",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket at 301s",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket at 361s",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket at 68",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket at 70s",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket at 73.5s",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket follows renewed stun at 67",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket ~107-107.5s",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket ~114s",
+        "records": 1
+      },
+      {
+        "label": "Warlock Summon Felhunter at 256s",
+        "records": 1
+      },
+      {
+        "label": "Warlock replacement Summon Succubus ~82s",
+        "records": 1
+      }
+    ],
+    "resource_count_limit": "Exact source-listed labels, deduplicated within each match. They include uncertain or offensive entries and are not verified forced-resource frequencies.",
+    "cc_lexical_mentions": {
+      "Blind": 10,
+      "Fear": 8,
+      "Silence": 1,
+      "Gouge": 2,
+      "Sap": 2
+    },
+    "cc_count_limit": "Literal mentions in observed notes, including negated/uncertain/post-death mentions. These are search aids, not counts of landed CC.",
+    "recovery_text_present": 16,
+    "recovery_count_limit": "Field coverage only: texts may explicitly say no reset. Not a reset-event rate.",
+    "missing_fields": {
+      "priest_role": 16,
+      "rogue_role": 16,
+      "recovery_text": 0,
+      "result": 0,
+      "opening_target": 0,
+      "enemy_kill_target": 2
+    },
+    "quality_flags": {
+      "truncated_evidence": 1
+    },
+    "extraction_confidence": {
+      "high": 15,
+      "medium": 1
+    }
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "H1",
+      "statement": "One opening target also explains every reported enemy kill in wins.",
+      "tested_target": "Destruction Warlock",
+      "disposition": "rejected_as_exhaustive",
+      "supporting_match_ids": [
+        "june_7th_2700_20260913__match_007",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+        "may_4th_2350_20260913__may04_2350_match_028",
+        "may_4th_2350_20260913__may04_2350_match_031",
+        "may_4th_2350_20260913__may04_2350_match_033",
+        "may_4th_2350_20260913__may04_2350_match_034",
+        "may_4th_2350_20260913__may04_2350_match_036",
+        "may_4th_2350_20260913__may04_2350_match_037",
+        "september_28th_2700_20260913__september28_2700_match_002",
+        "september_28th_2700_20260913__september28_2700_match_006",
+        "september_28th_2700_20260913__september28_2700_match_027"
+      ],
+      "contradicting_match_ids": [
+        "september_28th_2700_20260913__september28_2700_match_024",
+        "september_28th_2700_20260913__september28_2700_match_028",
+        "september_28th_2700_20260913__september28_2700_match_029"
+      ],
+      "unknown_kill_wins": 1,
+      "limitation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability."
+    },
+    {
+      "hypothesis_id": "H2",
+      "statement": "Warlock is vulnerable to renewed pressure while healing and pet interference are sufficiently constrained; permanent pet removal is not an established prerequisite.",
+      "disposition": "provisional_interpretation",
+      "supporting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+        "may_4th_2350_20260913__may04_2350_match_031",
+        "may_4th_2350_20260913__may04_2350_match_034",
+        "may_4th_2350_20260913__may04_2350_match_036",
+        "september_28th_2700_20260913__september28_2700_match_006",
+        "september_28th_2700_20260913__september28_2700_match_027"
+      ],
+      "contradicting_match_ids": [],
+      "limitation": "Pet work is not sufficient, and kills occur with a pet still present or Paladin free late. The three Paladin kills differ: only one explicitly shows severe mana depletion."
+    },
+    {
+      "hypothesis_id": "H3",
+      "statement": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [
+        "june_7th_2700_20260913__match_007",
+        "may_4th_2350_20260913__may04_2350_match_037",
+        "september_28th_2700_20260913__september28_2700_match_024",
+        "september_28th_2700_20260913__september28_2700_match_028",
+        "september_28th_2700_20260913__september28_2700_match_029",
+        "september_28th_2700_20260913__september28_2700_match_031"
+      ],
+      "limitation": "Pet work is not sufficient, and kills occur with a pet still present or Paladin free late. The three Paladin kills differ: only one explicitly shows severe mana depletion."
+    }
+  ],
+  "default_line": {
+    "opening_target": {
+      "text": "Destruction Warlock; recorded in 13/16 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "basis": "pattern",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "june_7th_2700_20260913__match_007",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+        "may_4th_2350_20260913__may04_2350_match_031",
+        "may_4th_2350_20260913__may04_2350_match_034",
+        "may_4th_2350_20260913__may04_2350_match_036",
+        "may_4th_2350_20260913__may04_2350_match_037",
+        "september_28th_2700_20260913__september28_2700_match_002",
+        "september_28th_2700_20260913__september28_2700_match_004",
+        "september_28th_2700_20260913__september28_2700_match_006",
+        "september_28th_2700_20260913__september28_2700_match_024",
+        "september_28th_2700_20260913__september28_2700_match_027",
+        "september_28th_2700_20260913__september28_2700_match_028",
+        "september_28th_2700_20260913__september28_2700_match_029"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "all_labeled_openers_in_this_matchup"
+    },
+    "initial_objective": {
+      "text": "Develop Warlock pressure while disrupting Paladin healing and Succubus interference.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+        "may_4th_2350_20260913__may04_2350_match_031",
+        "may_4th_2350_20260913__may04_2350_match_034",
+        "may_4th_2350_20260913__may04_2350_match_036",
+        "september_28th_2700_20260913__september28_2700_match_006",
+        "september_28th_2700_20260913__september28_2700_match_027"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "win_condition": {
+      "text": "Warlock is vulnerable to renewed pressure while healing and pet interference are sufficiently constrained; permanent pet removal is not an established prerequisite.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+        "may_4th_2350_20260913__may04_2350_match_031",
+        "may_4th_2350_20260913__may04_2350_match_034",
+        "may_4th_2350_20260913__may04_2350_match_036",
+        "september_28th_2700_20260913__september28_2700_match_006",
+        "september_28th_2700_20260913__september28_2700_match_027"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "manufacture": {
+      "text": "Usually open Warlock. Repeated pet pressure and Seduction/summon interruptions occur between player attempts; return to meaningful player damage with healer disruption.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+        "may_4th_2350_20260913__may04_2350_match_031",
+        "may_4th_2350_20260913__may04_2350_match_034",
+        "may_4th_2350_20260913__may04_2350_match_036",
+        "september_28th_2700_20260913__september28_2700_match_006",
+        "september_28th_2700_20260913__september28_2700_match_027"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "conversion": {
+      "text": "Usually commit Warlock. Later Paladin branches also convert when Warlock control and real healer damage align.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+        "may_4th_2350_20260913__may04_2350_match_031",
+        "may_4th_2350_20260913__may04_2350_match_034",
+        "may_4th_2350_20260913__may04_2350_match_036",
+        "september_28th_2700_20260913__september28_2700_match_006",
+        "september_28th_2700_20260913__september28_2700_match_027"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "reset": {
+      "text": "After player or pet recovery, renew disruption and return to a fresh player-pressure window; replacement summons mean pet absence cannot be assumed to persist.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+        "may_4th_2350_20260913__may04_2350_match_031",
+        "may_4th_2350_20260913__may04_2350_match_034",
+        "may_4th_2350_20260913__may04_2350_match_036",
+        "september_28th_2700_20260913__september28_2700_match_006",
+        "september_28th_2700_20260913__september28_2700_match_027"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "important_resources": [
+      {
+        "name": "Succubus / replacement summon",
+        "relevance": "conditional",
+        "assessment": {
+          "text": "Repeated support-interference problem. Pressure and interruptions are observed; pet death and permanent removal are often unconfirmed.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+            "september_28th_2700_20260913__september28_2700_match_006",
+            "september_28th_2700_20260913__september28_2700_match_027"
+          ],
+          "contradicting_match_ids": [
+            "june_7th_2700_20260913__match_007",
+            "september_28th_2700_20260913__september28_2700_match_031"
+          ],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        },
+        "requirement": "not_established_as_universal_prerequisite",
+        "relevance_test": {
+          "repeated_forcing": "Not computed from copied source hypotheses; cited observations reviewed individually.",
+          "before_successful_conversion": "See cited match chronology; a spend elsewhere in the round is insufficient.",
+          "different_behavior_after_spend": "Supported only for the cited control/immunity sequences; no complete frequency estimate.",
+          "wins_with_resource_available": [
+            "june_7th_2700_20260913__match_007",
+            "september_28th_2700_20260913__september28_2700_match_031"
+          ],
+          "sufficiency_in_losses": "Not established; compare the matchup failure examples.",
+          "pressure_side_effect": "Cannot be excluded from a spend alone.",
+          "control_interaction": "Repeated support-interference problem. Pressure and interruptions are observed; pet death and permanent removal are often unconfirmed."
+        }
+      },
+      {
+        "name": "Divine Shield",
+        "relevance": "conditional",
+        "assessment": {
+          "text": "Stops or delays some Paladin branches; applicability is conditional on a confirmed immunity.",
+          "basis": "inferred",
+          "confidence": "medium",
+          "supporting_match_ids": [
+            "september_28th_2700_20260913__september28_2700_match_028",
+            "september_28th_2700_20260913__september28_2700_match_029"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        },
+        "requirement": "not_established_as_universal_prerequisite",
+        "relevance_test": {
+          "repeated_forcing": "Not computed from copied source hypotheses; cited observations reviewed individually.",
+          "before_successful_conversion": "See cited match chronology; a spend elsewhere in the round is insufficient.",
+          "different_behavior_after_spend": "Supported only for the cited control/immunity sequences; no complete frequency estimate.",
+          "wins_with_resource_available": [],
+          "sufficiency_in_losses": "Not established; compare the matchup failure examples.",
+          "pressure_side_effect": "Cannot be excluded from a spend alone.",
+          "control_interaction": "Stops or delays some Paladin branches; applicability is conditional on a confirmed immunity."
+        }
+      }
+    ]
+  },
+  "states": [
+    {
+      "state_id": "opening",
+      "description": "Usually open Warlock. Repeated pet pressure and Seduction/summon interruptions occur between player attempts; return to meaningful player damage with healer disruption.",
+      "team_objective": {
+        "text": "Usually open Warlock. Repeated pet pressure and Seduction/summon interruptions occur between player attempts; return to meaningful player damage with healer disruption.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "supporting_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+          "may_4th_2350_20260913__may04_2350_match_031",
+          "may_4th_2350_20260913__may04_2350_match_034",
+          "may_4th_2350_20260913__may04_2350_match_036",
+          "september_28th_2700_20260913__september28_2700_match_006",
+          "september_28th_2700_20260913__september28_2700_match_027"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "An actual pressure commitment has begun.",
+          "basis": "inferred",
+          "confidence": "medium",
+          "supporting_match_ids": [
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+            "may_4th_2350_20260913__may04_2350_match_031",
+            "may_4th_2350_20260913__may04_2350_match_034",
+            "may_4th_2350_20260913__may04_2350_match_036",
+            "september_28th_2700_20260913__september28_2700_match_006",
+            "september_28th_2700_20260913__september28_2700_match_027"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+        "may_4th_2350_20260913__may04_2350_match_031",
+        "may_4th_2350_20260913__may04_2350_match_034",
+        "may_4th_2350_20260913__may04_2350_match_036",
+        "september_28th_2700_20260913__september28_2700_match_006",
+        "september_28th_2700_20260913__september28_2700_match_027"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "state_id": "pressure",
+      "description": "Develop Warlock pressure while disrupting Paladin healing and Succubus interference.",
+      "team_objective": {
+        "text": "Develop Warlock pressure while disrupting Paladin healing and Succubus interference.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "supporting_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+          "may_4th_2350_20260913__may04_2350_match_031",
+          "may_4th_2350_20260913__may04_2350_match_034",
+          "may_4th_2350_20260913__may04_2350_match_036",
+          "september_28th_2700_20260913__september28_2700_match_006",
+          "september_28th_2700_20260913__september28_2700_match_027"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+        "may_4th_2350_20260913__may04_2350_match_031",
+        "may_4th_2350_20260913__may04_2350_match_034",
+        "may_4th_2350_20260913__may04_2350_match_036",
+        "september_28th_2700_20260913__september28_2700_match_006",
+        "september_28th_2700_20260913__september28_2700_match_027"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "state_id": "conversion",
+      "description": "Usually commit Warlock. Later Paladin branches also convert when Warlock control and real healer damage align.",
+      "team_objective": {
+        "text": "Usually commit Warlock. Later Paladin branches also convert when Warlock control and real healer damage align.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "supporting_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+          "may_4th_2350_20260913__may04_2350_match_031",
+          "may_4th_2350_20260913__may04_2350_match_034",
+          "may_4th_2350_20260913__may04_2350_match_036",
+          "september_28th_2700_20260913__september28_2700_match_006",
+          "september_28th_2700_20260913__september28_2700_match_027"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "Warlock is vulnerable to renewed pressure while healing and pet interference are sufficiently constrained; permanent pet removal is not an established prerequisite.",
+          "basis": "inferred",
+          "confidence": "medium",
+          "supporting_match_ids": [
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+            "may_4th_2350_20260913__may04_2350_match_031",
+            "may_4th_2350_20260913__may04_2350_match_034",
+            "may_4th_2350_20260913__may04_2350_match_036",
+            "september_28th_2700_20260913__september28_2700_match_006",
+            "september_28th_2700_20260913__september28_2700_match_027"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+        "may_4th_2350_20260913__may04_2350_match_031",
+        "may_4th_2350_20260913__may04_2350_match_034",
+        "may_4th_2350_20260913__may04_2350_match_036",
+        "september_28th_2700_20260913__september28_2700_match_006",
+        "september_28th_2700_20260913__september28_2700_match_027"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "state_id": "recovery",
+      "description": "After player or pet recovery, renew disruption and return to a fresh player-pressure window; replacement summons mean pet absence cannot be assumed to persist.",
+      "team_objective": {
+        "text": "After player or pet recovery, renew disruption and return to a fresh player-pressure window; replacement summons mean pet absence cannot be assumed to persist.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "supporting_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+          "may_4th_2350_20260913__may04_2350_match_031",
+          "may_4th_2350_20260913__may04_2350_match_034",
+          "may_4th_2350_20260913__may04_2350_match_036",
+          "september_28th_2700_20260913__september28_2700_match_006",
+          "september_28th_2700_20260913__september28_2700_match_027"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "The preceding attempt is healed, protected, or interrupted.",
+          "basis": "inferred",
+          "confidence": "medium",
+          "supporting_match_ids": [
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+            "may_4th_2350_20260913__may04_2350_match_031",
+            "may_4th_2350_20260913__may04_2350_match_034",
+            "may_4th_2350_20260913__may04_2350_match_036",
+            "september_28th_2700_20260913__september28_2700_match_006",
+            "september_28th_2700_20260913__september28_2700_match_027"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+        "may_4th_2350_20260913__may04_2350_match_031",
+        "may_4th_2350_20260913__may04_2350_match_034",
+        "may_4th_2350_20260913__may04_2350_match_036",
+        "september_28th_2700_20260913__september28_2700_match_006",
+        "september_28th_2700_20260913__september28_2700_match_027"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "branches": [
+    {
+      "branch_id": "branch_1",
+      "from_state": "pressure",
+      "next_state": "conversion",
+      "trigger": {
+        "text": "Warlock pressure recovers and later control supports a genuine Paladin damage commitment.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "september_28th_2700_20260913__september28_2700_match_028",
+          "september_28th_2700_20260913__september28_2700_match_029"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "response": {
+        "text": "Commit Paladin; renew pressure after immunity/healing when observed.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "september_28th_2700_20260913__september28_2700_match_028",
+          "september_28th_2700_20260913__september28_2700_match_029"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "classification": "real reactive branch",
+      "team_objective": {
+        "text": "Commit Paladin; renew pressure after immunity/healing when observed.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "september_28th_2700_20260913__september28_2700_match_028",
+          "september_28th_2700_20260913__september28_2700_match_029"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "evidence": [
+        "september_28th_2700_20260913__september28_2700_match_028",
+        "september_28th_2700_20260913__september28_2700_match_029"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "match_assessments": [
+    {
+      "match_id": "june_7th_2700_20260913__match_007",
+      "review_id": "M156",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Destruction Warlock",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+      "review_id": "M315",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Destruction Warlock",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_028",
+      "review_id": "M361",
+      "result": "win",
+      "observed_opening_target": "Holy Paladin",
+      "reported_enemy_kill_target": "Destruction Warlock",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_031",
+      "review_id": "M364",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Destruction Warlock",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_033",
+      "review_id": "M365",
+      "result": "win",
+      "observed_opening_target": "Holy Paladin",
+      "reported_enemy_kill_target": "Destruction Warlock",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_034",
+      "review_id": "M366",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Destruction Warlock",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_036",
+      "review_id": "M367",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Destruction Warlock",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_037",
+      "review_id": "M368",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Destruction Warlock",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_28th_2700_20260913__september28_2700_match_002",
+      "review_id": "M458",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Destruction Warlock",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_28th_2700_20260913__september28_2700_match_004",
+      "review_id": "M460",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_28th_2700_20260913__september28_2700_match_006",
+      "review_id": "M462",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Destruction Warlock",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_28th_2700_20260913__september28_2700_match_024",
+      "review_id": "M478",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_28th_2700_20260913__september28_2700_match_027",
+      "review_id": "M481",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Destruction Warlock",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_28th_2700_20260913__september28_2700_match_028",
+      "review_id": "M482",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_28th_2700_20260913__september28_2700_match_029",
+      "review_id": "M483",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_28th_2700_20260913__september28_2700_match_031",
+      "review_id": "M485",
+      "result": "loss",
+      "observed_opening_target": "Holy Paladin",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    }
+  ],
+  "failure_modes": [
+    {
+      "text": "The low Warlock window occurs after healer control expires; later pet work fails to coincide with renewed lethal player pressure.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "september_28th_2700_20260913__september28_2700_match_031"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    }
+  ],
+  "runtime_observability": {
+    "automatic": [],
+    "automatic_candidates": [
+      {
+        "signal": "Verified cast/aura, present health, or an observed control start/end",
+        "status": "unvalidated_candidate",
+        "scope": "Raw events only; not strategic intent or reliable absence of an enemy cooldown.",
+        "limitation": "No addon implementation or API testing was performed; no automatic transition is certified."
+      }
+    ],
+    "manual_possible": [
+      {
+        "transition": "pressure_to_conversion",
+        "confirmation": "A meaningful enemy health window, current partner control and friendly readiness overlap."
+      },
+      {
+        "transition": "conversion_to_recovery",
+        "confirmation": "Target recovered or became protected; team needs a new usable attempt."
+      }
+    ],
+    "web_only": [
+      "Strategic intent",
+      "Reasons for a target-selection branch",
+      "Causal counterfactuals",
+      "Full comparison with losses and unresolved evidence"
+    ]
+  },
+  "uncertainties": [
+    "Pet work is not sufficient, and kills occur with a pet still present or Paladin free late. The three Paladin kills differ: only one explicitly shows severe mana depletion.",
+    "Precise Priest/Rogue division of labour by phase is mostly unknown.",
+    "Exact runtime detection reliability on Warmane 3.3.5 is untested."
+  ],
+  "mechanics_context": [],
+  "provenance": {
+    "prepared_corpus_version": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Destruction_Warlock__Holy_Paladin.jsonl",
+    "review_file": "evidence_review/group_07.txt",
+    "prepared_stats": {
+      "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Destruction Warlock / Holy Paladin",
+      "total_games": 16,
+      "wins": 15,
+      "losses": 1,
+      "unknown_result": 0,
+      "opening_target_known": 16,
+      "opening_target_unknown": 0,
+      "opening_targets": {
+        "Destruction Warlock": 13,
+        "Holy Paladin": 3
+      },
+      "kill_target_known": 14,
+      "kill_target_unknown": 2,
+      "kill_targets": {
+        "Destruction Warlock": 11,
+        "Holy Paladin": 3
+      },
+      "records_with_quality_flags": 1,
+      "records_with_source_exceptions": 0,
+      "records_with_source_win_condition_hypothesis": 16,
+      "source_batch_distribution": {
+        "june_7th_2700_20260913": 1,
+        "may_24th_vod2_2600_20260913": 1,
+        "may_4th_2350_20260913": 6,
+        "september_28th_2700_20260913": 8
+      }
+    },
+    "review_group": 7,
+    "date": "2026-09-13"
+  },
+  "version_history": [
+    {
+      "version": 1,
+      "date": "2026-09-13",
+      "corpus": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+      "change": "Initial evidence-constrained synthesis; no prior approved strategy replaced.",
+      "reason": "First canonical package for review."
+    }
+  ]
+}

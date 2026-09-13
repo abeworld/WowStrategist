@@ -1,0 +1,26 @@
+GROUP 29: Shadow Priest / Subtlety Rogue__vs__Feral Druid / Restoration Shaman
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Feral Druid / Restoration Shaman", "total_games": 3, "wins": 3, "losses": 0, "unknown_result": 0, "opening_target_known": 3, "opening_target_unknown": 0, "opening_targets": {"Druid": 1, "Restoration Shaman": 1, "Feral Druid": 1}, "kill_target_known": 2, "kill_target_unknown": 1, "kill_targets": {"Druid": 1, "Restoration Shaman": 1}, "records_with_quality_flags": 1, "records_with_source_exceptions": 1, "records_with_source_win_condition_hypothesis": 3, "source_batch_distribution": {"may_18th_2500_20260913": 3}}
+
+M233 | win | open=Druid | kill=Druid | extraction=high | flags=
+OBS: Shaman free during final Druid burst and Trinket remains available
+OBS: Both friendlies survive
+OBS: Uncle casts Mind Flay and Vampiric Touch, establishing Shadow Priest
+OBS: Renewed Sap chat alone is treated as an attempt
+SOURCE CONVERSION: Druid 36% at 57.5s, 18% at 59s during stun and 8% at 59.5s; death 61s, Gold victory 65s
+
+M238 | win | open=Restoration Shaman | kill=Restoration Shaman | extraction=high | flags=
+OBS: 63–72s: early Feral control/chip does not become sustained damage; Shaman is the first substantial pressure target at 75s
+OBS: 79–82.5s: Shaman Silence; health falls from 58% at 79.5s to 18% at 82s
+OBS: 82.5–86.5s: Feral Fear; Shaman uses Trinket at 83s and is dead at 83.5s
+OBS: Feral Trinket remains available; both friendlies survive; Gold victory at 93s
+SOURCE CONVERSION: Continue Shaman burst through late Trinket; Shaman dies at 83.5s
+
+M243 | win | open=Feral Druid | kill=None | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: 83s first Feral health loss; Shaman selected earlier remains full, so selection is not a damage swap
+OBS: 101s Shaman casts Lesser Healing Wave despite a long green icon: do not treat that icon as CC
+OBS: 107–115s Shaman Fear; Feral 48% at 112s, 22% at 115s
+OBS: 115.5s Shaman Sap icon, 116s Trinket cooldown; exact immediate reapplication sequence unclear
+OBS: 118.5s Feral Gouge at 11%; Feral Trinket available; scoreboard at 119.5s confirms win but no death is visible; both friendlies survive
+SOURCE CONVERSION: Feral falls to 9% at 117s; round ends as a win without an established death
+SOURCE RESET: First Feral pressure heals back near full; renew at 107s with Shaman Fear
+EXCEPTION: | `match_058.mp4` | Victory is established without visible death; immediate Shaman control reapplication after Trinket is unclear. |

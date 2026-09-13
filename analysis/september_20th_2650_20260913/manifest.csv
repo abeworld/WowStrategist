@@ -1,0 +1,28 @@
+﻿source_file,match_id,clip_start_seconds,clip_end_seconds,analysis_status,confidence,result,reason,source_duration_seconds
+match_001.mp4,september20_2650_match_001,15,123,analysed,high,win,,138.266625
+match_002.mp4,september20_2650_match_002,14,118,analysed,high,win,,132.767625
+match_003.mp4,september20_2650_match_003,11,84,analysed,high,win,,98.666625
+match_004.mp4,september20_2650_match_004,11,115,uncertain,medium,win,"Opening target denotes first coordinated Rogue engagement; earlier ranged damage on Priest makes the team's initial target priority ambiguous. Blind macro lines are attempts, not confirmed landed Blinds. Several Rogue buff/control icons are unnamed. Surviving Priest departure is not a confirmed kill.",130.232625
+match_005.mp4,september20_2650_match_005,11,106,analysed,high,win,,121.132625
+match_006.mp4,september20_2650_match_006,11,367,analysed,high,win,,382.266625
+match_007.mp4,september20_2650_match_007,15,160,analysed,high,win,,175.132625
+match_008.mp4,september20_2650_match_008,15,63,analysed,high,win,,77.899625
+match_009.mp4,september20_2650_match_009,11,82,uncertain,medium,win,No second Ice Block or Cold Snap use established. Priest is free during final Mage conversion; no sustained off-target CC prerequisite is claimed.,97.132625
+match_010.mp4,september20_2650_match_010,14,207,uncertain,medium,win,Victory follows a trade and 1v1. Mage death versus departure unresolved; do not infer a second kill from scoreboard.,222.500625
+match_011.mp4,september20_2650_match_011,15,90,analysed,high,win,,105.332625
+match_012.mp4,september20_2650_match_012,15,143,analysed,high,win,,157.832625
+match_013.mp4,september20_2650_match_013,11,207,analysed,high,win,,221.466625
+match_014.mp4,september20_2650_match_014,11,98,analysed,high,win,,112.500625
+match_015.mp4,september20_2650_match_015,11,76,analysed,high,win,,91.233625
+match_016.mp4,september20_2650_match_016,15,114,analysed,high,win,,129.632625
+match_017.mp4,september20_2650_match_017,15,123.5,analysed,high,win,,139.099625
+match_018.mp4,september20_2650_match_018,11,114,analysed,high,win,,129.666625
+match_019.mp4,september20_2650_match_019,15,85,analysed,high,loss,,99.932625
+match_020.mp4,september20_2650_match_020,11,162.5,analysed,high,win,,177.266625
+match_021.mp4,,11,71,excluded_non_evidentiary_2v2,,,"Rated 2v2 preparation is visible, but the player leaves immediately as the gates open (~68–70s). No meaningful combat occurs; no evidentiary match record.",84.566625
+match_022.mp4,september20_2650_match_022,15,175,analysed,high,win,,190.366625
+match_023.mp4,september20_2650_match_023,15,125.5,analysed,high,win,,142.800625
+match_024.mp4,,15,79.5,excluded_non_evidentiary_2v2,,,"Abnormal round: both opponents finish with zero damage on the scoreboard. Mage and Balance Druid provide control/healing, but no offensive threat; friendly health remains full throughout. Mage is killed at 76.5s and Druid leaves. Kept outside normal matchup evidence.",94.699625
+match_025.mp4,september20_2650_match_025,15,85.5,analysed,high,win,,100.732625
+match_026.mp4,september20_2650_match_026,15,112.5,analysed,high,win,,128.032625
+match_027.mp4,september20_2650_match_027,15,222.5,analysed,high,win,,238.399625

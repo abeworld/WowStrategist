@@ -1,0 +1,14 @@
+GROUP 37: Shadow Priest / Subtlety Rogue__vs__Assassination Rogue / Discipline Priest
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Assassination Rogue / Discipline Priest", "total_games": 1, "wins": 1, "losses": 0, "unknown_result": 0, "opening_target_known": 1, "opening_target_unknown": 0, "opening_targets": {"Discipline Priest": 1}, "kill_target_known": 1, "kill_target_unknown": 0, "kill_targets": {"Assassination Rogue": 1}, "records_with_quality_flags": 1, "records_with_source_exceptions": 1, "records_with_source_win_condition_hypothesis": 1, "source_batch_distribution": {"january_5th_full_20260912": 1}}
+
+M109 | win | open=Discipline Priest | kill=Assassination Rogue | extraction=medium | flags=source_exception_present
+OBS: ~60s: Priest Sap ending; ~62s: Sap enemy Rogue; ~65–67s: Priest stunned and loses a little health.
+OBS: ~67s: both enemy trinket announcements and two-minute cooldowns.
+OBS: ~70s onward: UI identifies Rogue as Assassination; sustained target Rogue. Enemy Rogue Blind on our Rogue reported ~74s.
+OBS: ~79–83s: Rogue falls to ~74%, then Penance restores it to full. Further Penance/heal recoveries visible later.
+OBS: ~104s: Rogue Gouge; ~113–122s: renewed Rogue burst; Priest fear/control ~117s then Silence ~119s; Rogue DEAD ~122s, Priest ~100%.
+OBS: ~124s: first winner message, then leave arena and new preparation phase.
+SOURCE CONVERSION: Early Rogue pressure repeatedly recovers. Renewed burst ~113–122s: Rogue stuns, Priest fear/control then Silence, Rogue DEAD ~122s; Priest still full.
+SOURCE RESET: Brief initial Priest pressure stops; extended Rogue pressure is healed to full several times by visible Penance. Survive counter-control, recover own health, then renew Rogue burst. A full Vanish reset is not verified.
+UNKNOWN: ["An own Blind macro announcement appears ~81s without a clearly verified applied Blind; it is not recorded as a successful Blind.", "Exact reset spell and full Priest control chain remain uncertain.", "Enemy Rogue is Assassination according to revealed UI, not Subtlety."]
+EXCEPTION: - **match_010a** (analysed): An own Blind macro announcement appears ~81s without a clearly verified applied Blind; it is not recorded as a successful Blind. Exact reset spell and full Priest control chain remain uncertain. Enemy Rogue is Assassination according to revealed UI, not Subtlety.

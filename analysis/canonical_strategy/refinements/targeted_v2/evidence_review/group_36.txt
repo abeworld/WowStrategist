@@ -1,0 +1,12 @@
+GROUP 36: Shadow Priest / Subtlety Rogue__vs__Affliction Warlock / Restoration Shaman
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Affliction Warlock / Restoration Shaman", "total_games": 1, "wins": 1, "losses": 0, "unknown_result": 0, "opening_target_known": 1, "opening_target_unknown": 0, "opening_targets": {"Restoration Shaman": 1}, "kill_target_known": 1, "kill_target_unknown": 0, "kill_targets": {"Affliction Warlock": 1}, "records_with_quality_flags": 1, "records_with_source_exceptions": 1, "records_with_source_win_condition_hypothesis": 1, "source_batch_distribution": {"september_20th_2650_20260913": 1}}
+
+M455 | win | open=Restoration Shaman | kill=Affliction Warlock | extraction=high | flags=source_exception_present
+OBS: Gladius explicitly identifies Restoration Shaman and Affliction Warlock by about 85s and 72s respectively
+OBS: Shaman opening falls to about 8% at 60.5s, then recovers above 70%; both trinkets show cooldown around 55–56s
+OBS: An unidentified shared 40s enemy buff appears about 64s; it is not recorded as crowd control or a named defensive
+OBS: Shaman Sap timer starts about 83s, Blind about 92s; Warlock health declines about 93.5–104s while Shaman remains full
+OBS: Warlock sustained DEAD about 104s; Shaman remains 94% at victory about 112s; scoreboard gives one friendly killing blow
+SOURCE CONVERSION: Stun Warlock during healer Blind and use Shadow Priest casts to reduce it from near-full to DEAD about 104s; Shaman subsequently leaves while still above 90%
+SOURCE RESET: Shaman survives opening near-death and heals; friendly Priest becomes critically low around 86.5–90s, then recovers with Flash Heal around 93–95s before the final Warlock switch
+EXCEPTION: - **match_026.mp4** — Enemy shared buff unidentified; no second kill or pet kill claimed.

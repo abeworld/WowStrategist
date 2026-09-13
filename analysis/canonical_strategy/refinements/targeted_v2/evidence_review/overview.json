@@ -1,0 +1,2209 @@
+[
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Shadow Priest / Subtlety Rogue",
+    "total_games": 104,
+    "wins": 67,
+    "losses": 37,
+    "unknown_result": 0,
+    "opening_target_known": 103,
+    "opening_target_unknown": 1,
+    "opening_targets": {
+      "Subtlety Rogue": 44,
+      "Shadow Priest": 20,
+      "Rogue": 29,
+      "Priest": 7,
+      "Enemy Rogue for the first sustained Rogue attack about 48â€“52s": 1,
+      "Enemy Rogue for the first sustained Rogue attack about 71s": 1,
+      "Enemy Rogue": 1
+    },
+    "kill_target_known": 66,
+    "kill_target_unknown": 38,
+    "kill_targets": {
+      "Shadow Priest": 23,
+      "Subtlety Rogue": 18,
+      "Rogue": 11,
+      "Priest": 7,
+      "none observed": 3,
+      "Rogue at approximately 102.5s": 1,
+      "Enemy Rogue": 2,
+      "Rogue first": 1
+    },
+    "records_with_quality_flags": 18,
+    "records_with_source_exceptions": 13,
+    "records_with_source_win_condition_hypothesis": 104,
+    "source_batch_distribution": {
+      "august_31st_2550_20260912": 1,
+      "january_4th_2700_20260913": 14,
+      "january_5th_full_20260912": 6,
+      "june_7th_2700_20260913": 1,
+      "may_18th_2500_20260913": 30,
+      "may_24th_2450_20260913": 29,
+      "may_4th_2350_20260913": 10,
+      "september_11th_2500_20260912": 11,
+      "september_20th_2650_20260913": 1,
+      "september_28th_2700_20260913": 1
+    },
+    "review_group": 0,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Shadow_Priest__Subtlety_Rogue.jsonl",
+    "all_match_ids": [
+      "august_31st_2550_20260912__august31_2550_match_027",
+      "january_4th_2700_20260913__match_013",
+      "january_4th_2700_20260913__match_018",
+      "january_4th_2700_20260913__match_021",
+      "january_4th_2700_20260913__match_025",
+      "january_4th_2700_20260913__match_027",
+      "january_4th_2700_20260913__match_028",
+      "january_4th_2700_20260913__match_029",
+      "january_4th_2700_20260913__match_032",
+      "january_4th_2700_20260913__match_034",
+      "january_4th_2700_20260913__match_036",
+      "january_4th_2700_20260913__match_038",
+      "january_4th_2700_20260913__match_040",
+      "january_4th_2700_20260913__match_046",
+      "january_4th_2700_20260913__match_048",
+      "january_5th_full_20260912__match_003",
+      "january_5th_full_20260912__match_004",
+      "january_5th_full_20260912__match_027",
+      "january_5th_full_20260912__match_032",
+      "january_5th_full_20260912__match_035",
+      "january_5th_full_20260912__match_045",
+      "june_7th_2700_20260913__match_040",
+      "may_18th_2500_20260913__may18_2500_match_002",
+      "may_18th_2500_20260913__may18_2500_match_004",
+      "may_18th_2500_20260913__may18_2500_match_006",
+      "may_18th_2500_20260913__may18_2500_match_007",
+      "may_18th_2500_20260913__may18_2500_match_008",
+      "may_18th_2500_20260913__may18_2500_match_010",
+      "may_18th_2500_20260913__may18_2500_match_012",
+      "may_18th_2500_20260913__may18_2500_match_014",
+      "may_18th_2500_20260913__may18_2500_match_015",
+      "may_18th_2500_20260913__may18_2500_match_017",
+      "may_18th_2500_20260913__may18_2500_match_020",
+      "may_18th_2500_20260913__may18_2500_match_022",
+      "may_18th_2500_20260913__may18_2500_match_033",
+      "may_18th_2500_20260913__may18_2500_match_035",
+      "may_18th_2500_20260913__may18_2500_match_037",
+      "may_18th_2500_20260913__may18_2500_match_039",
+      "may_18th_2500_20260913__may18_2500_match_041",
+      "may_18th_2500_20260913__may18_2500_match_043",
+      "may_18th_2500_20260913__may18_2500_match_045",
+      "may_18th_2500_20260913__may18_2500_match_049",
+      "may_18th_2500_20260913__may18_2500_match_054",
+      "may_18th_2500_20260913__may18_2500_match_056",
+      "may_18th_2500_20260913__may18_2500_match_059",
+      "may_18th_2500_20260913__may18_2500_match_061",
+      "may_18th_2500_20260913__may18_2500_match_064",
+      "may_18th_2500_20260913__may18_2500_match_066",
+      "may_18th_2500_20260913__may18_2500_match_067",
+      "may_18th_2500_20260913__may18_2500_match_068",
+      "may_18th_2500_20260913__may18_2500_match_070",
+      "may_18th_2500_20260913__may18_2500_match_072",
+      "may_24th_2450_20260913__may24_2450_match_002",
+      "may_24th_2450_20260913__may24_2450_match_003",
+      "may_24th_2450_20260913__may24_2450_match_004",
+      "may_24th_2450_20260913__may24_2450_match_007",
+      "may_24th_2450_20260913__may24_2450_match_009",
+      "may_24th_2450_20260913__may24_2450_match_011",
+      "may_24th_2450_20260913__may24_2450_match_013",
+      "may_24th_2450_20260913__may24_2450_match_015",
+      "may_24th_2450_20260913__may24_2450_match_018",
+      "may_24th_2450_20260913__may24_2450_match_020",
+      "may_24th_2450_20260913__may24_2450_match_022",
+      "may_24th_2450_20260913__may24_2450_match_024",
+      "may_24th_2450_20260913__may24_2450_match_026",
+      "may_24th_2450_20260913__may24_2450_match_028",
+      "may_24th_2450_20260913__may24_2450_match_029",
+      "may_24th_2450_20260913__may24_2450_match_030",
+      "may_24th_2450_20260913__may24_2450_match_031",
+      "may_24th_2450_20260913__may24_2450_match_032",
+      "may_24th_2450_20260913__may24_2450_match_034",
+      "may_24th_2450_20260913__may24_2450_match_035",
+      "may_24th_2450_20260913__may24_2450_match_036",
+      "may_24th_2450_20260913__may24_2450_match_037",
+      "may_24th_2450_20260913__may24_2450_match_038",
+      "may_24th_2450_20260913__may24_2450_match_039",
+      "may_24th_2450_20260913__may24_2450_match_040",
+      "may_24th_2450_20260913__may24_2450_match_041",
+      "may_24th_2450_20260913__may24_2450_match_042",
+      "may_24th_2450_20260913__may24_2450_match_043",
+      "may_24th_2450_20260913__may24_2450_match_044",
+      "may_4th_2350_20260913__may04_2350_match_002",
+      "may_4th_2350_20260913__may04_2350_match_003",
+      "may_4th_2350_20260913__may04_2350_match_005",
+      "may_4th_2350_20260913__may04_2350_match_006",
+      "may_4th_2350_20260913__may04_2350_match_043",
+      "may_4th_2350_20260913__may04_2350_match_045",
+      "may_4th_2350_20260913__may04_2350_match_052",
+      "may_4th_2350_20260913__may04_2350_match_056",
+      "may_4th_2350_20260913__may04_2350_match_060",
+      "may_4th_2350_20260913__may04_2350_match_063",
+      "september_11th_2500_20260912__sep11_2500_match_006",
+      "september_11th_2500_20260912__sep11_2500_match_027",
+      "september_11th_2500_20260912__sep11_2500_match_028",
+      "september_11th_2500_20260912__sep11_2500_match_030",
+      "september_11th_2500_20260912__sep11_2500_match_032",
+      "september_11th_2500_20260912__sep11_2500_match_034",
+      "september_11th_2500_20260912__sep11_2500_match_036",
+      "september_11th_2500_20260912__sep11_2500_match_037",
+      "september_11th_2500_20260912__sep11_2500_match_039",
+      "september_11th_2500_20260912__sep11_2500_match_040",
+      "september_11th_2500_20260912__sep11_2500_match_041",
+      "september_20th_2650_20260913__september20_2650_match_004",
+      "september_28th_2700_20260913__september28_2700_match_005"
+    ],
+    "source_confidence": {
+      "high": 83,
+      "medium": 21
+    },
+    "missing_role_fields": 104
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Arms Warrior / Holy Paladin",
+    "total_games": 80,
+    "wins": 66,
+    "losses": 14,
+    "unknown_result": 0,
+    "opening_target_known": 80,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Arms Warrior": 62,
+      "Holy Paladin": 11,
+      "Arms Warrior briefly": 1,
+      "Warrior": 6
+    },
+    "kill_target_known": 67,
+    "kill_target_unknown": 13,
+    "kill_targets": {
+      "Holy Paladin": 36,
+      "Arms Warrior": 25,
+      "none observed": 1,
+      "Paladin": 3,
+      "Warrior": 1,
+      "Warrior around 213s": 1
+    },
+    "records_with_quality_flags": 21,
+    "records_with_source_exceptions": 20,
+    "records_with_source_win_condition_hypothesis": 80,
+    "source_batch_distribution": {
+      "august_31st_2550_20260912": 4,
+      "february_3rd_2550_20260912": 5,
+      "january_4th_2700_20260913": 25,
+      "january_5th_full_20260912": 10,
+      "june_7th_2700_20260913": 4,
+      "may_18th_2500_20260913": 3,
+      "may_24th_vod2_2600_20260913": 9,
+      "may_4th_2350_20260913": 8,
+      "september_11th_2500_20260912": 5,
+      "september_20th_2650_20260913": 3,
+      "september_28th_2700_20260913": 4
+    },
+    "review_group": 1,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Arms_Warrior__Holy_Paladin.jsonl",
+    "all_match_ids": [
+      "august_31st_2550_20260912__august31_2550_match_006",
+      "august_31st_2550_20260912__august31_2550_match_029",
+      "august_31st_2550_20260912__august31_2550_match_030",
+      "august_31st_2550_20260912__august31_2550_match_032",
+      "february_3rd_2550_20260912__feb03_2550_match_006",
+      "february_3rd_2550_20260912__feb03_2550_match_010",
+      "february_3rd_2550_20260912__feb03_2550_match_013",
+      "february_3rd_2550_20260912__feb03_2550_match_020",
+      "february_3rd_2550_20260912__feb03_2550_match_022",
+      "january_4th_2700_20260913__match_003",
+      "january_4th_2700_20260913__match_004",
+      "january_4th_2700_20260913__match_009",
+      "january_4th_2700_20260913__match_011",
+      "january_4th_2700_20260913__match_012",
+      "january_4th_2700_20260913__match_017",
+      "january_4th_2700_20260913__match_020",
+      "january_4th_2700_20260913__match_024",
+      "january_4th_2700_20260913__match_026",
+      "january_4th_2700_20260913__match_030",
+      "january_4th_2700_20260913__match_031",
+      "january_4th_2700_20260913__match_033",
+      "january_4th_2700_20260913__match_035",
+      "january_4th_2700_20260913__match_037",
+      "january_4th_2700_20260913__match_039",
+      "january_4th_2700_20260913__match_041",
+      "january_4th_2700_20260913__match_042",
+      "january_4th_2700_20260913__match_043",
+      "january_4th_2700_20260913__match_044",
+      "january_4th_2700_20260913__match_045",
+      "january_4th_2700_20260913__match_047",
+      "january_4th_2700_20260913__match_050",
+      "january_4th_2700_20260913__match_051",
+      "january_4th_2700_20260913__match_052",
+      "january_4th_2700_20260913__match_053",
+      "january_5th_full_20260912__match_018",
+      "january_5th_full_20260912__match_023",
+      "january_5th_full_20260912__match_025",
+      "january_5th_full_20260912__match_028",
+      "january_5th_full_20260912__match_029",
+      "january_5th_full_20260912__match_031b",
+      "january_5th_full_20260912__match_033a",
+      "january_5th_full_20260912__match_038",
+      "january_5th_full_20260912__match_040",
+      "january_5th_full_20260912__match_044",
+      "june_7th_2700_20260913__match_003",
+      "june_7th_2700_20260913__match_031",
+      "june_7th_2700_20260913__match_036",
+      "june_7th_2700_20260913__match_037",
+      "may_18th_2500_20260913__may18_2500_match_025",
+      "may_18th_2500_20260913__may18_2500_match_042",
+      "may_18th_2500_20260913__may18_2500_match_044",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_014",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_022",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_027",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_028",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_029",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_034",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_035",
+      "may_4th_2350_20260913__may04_2350_match_008",
+      "may_4th_2350_20260913__may04_2350_match_024",
+      "may_4th_2350_20260913__may04_2350_match_044",
+      "may_4th_2350_20260913__may04_2350_match_046",
+      "may_4th_2350_20260913__may04_2350_match_047",
+      "may_4th_2350_20260913__may04_2350_match_050",
+      "may_4th_2350_20260913__may04_2350_match_061",
+      "may_4th_2350_20260913__may04_2350_match_064",
+      "september_11th_2500_20260912__sep11_2500_match_005",
+      "september_11th_2500_20260912__sep11_2500_match_010",
+      "september_11th_2500_20260912__sep11_2500_match_013",
+      "september_11th_2500_20260912__sep11_2500_match_025",
+      "september_11th_2500_20260912__sep11_2500_match_042b",
+      "september_20th_2650_20260913__september20_2650_match_013",
+      "september_20th_2650_20260913__september20_2650_match_015",
+      "september_20th_2650_20260913__september20_2650_match_027",
+      "september_28th_2700_20260913__september28_2700_match_017",
+      "september_28th_2700_20260913__september28_2700_match_019",
+      "september_28th_2700_20260913__september28_2700_match_021",
+      "september_28th_2700_20260913__september28_2700_match_025"
+    ],
+    "source_confidence": {
+      "high": 64,
+      "medium": 16
+    },
+    "missing_role_fields": 80
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Feral Druid",
+    "total_games": 31,
+    "wins": 29,
+    "losses": 2,
+    "unknown_result": 0,
+    "opening_target_known": 31,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Feral Druid": 25,
+      "Discipline Priest": 5,
+      "Priest": 1
+    },
+    "kill_target_known": 29,
+    "kill_target_unknown": 2,
+    "kill_targets": {
+      "Feral Druid": 18,
+      "Discipline Priest": 10,
+      "Priest": 1
+    },
+    "records_with_quality_flags": 12,
+    "records_with_source_exceptions": 12,
+    "records_with_source_win_condition_hypothesis": 31,
+    "source_batch_distribution": {
+      "january_4th_2700_20260913": 2,
+      "january_5th_full_20260912": 2,
+      "may_18th_2500_20260913": 3,
+      "may_24th_2450_20260913": 2,
+      "may_24th_vod2_2600_20260913": 6,
+      "may_4th_2350_20260913": 2,
+      "september_11th_2500_20260912": 2,
+      "september_20th_2650_20260913": 12
+    },
+    "review_group": 2,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Discipline_Priest__Feral_Druid.jsonl",
+    "all_match_ids": [
+      "january_4th_2700_20260913__match_005",
+      "january_4th_2700_20260913__match_019",
+      "january_5th_full_20260912__match_030a",
+      "january_5th_full_20260912__match_037a",
+      "may_18th_2500_20260913__may18_2500_match_051",
+      "may_18th_2500_20260913__may18_2500_match_060",
+      "may_18th_2500_20260913__may18_2500_match_063",
+      "may_24th_2450_20260913__may24_2450_match_014",
+      "may_24th_2450_20260913__may24_2450_match_017",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_016",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_021",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_026",
+      "may_4th_2350_20260913__may04_2350_match_040",
+      "may_4th_2350_20260913__may04_2350_match_055",
+      "september_11th_2500_20260912__sep11_2500_match_001",
+      "september_11th_2500_20260912__sep11_2500_match_007",
+      "september_20th_2650_20260913__september20_2650_match_001",
+      "september_20th_2650_20260913__september20_2650_match_003",
+      "september_20th_2650_20260913__september20_2650_match_005",
+      "september_20th_2650_20260913__september20_2650_match_006",
+      "september_20th_2650_20260913__september20_2650_match_007",
+      "september_20th_2650_20260913__september20_2650_match_008",
+      "september_20th_2650_20260913__september20_2650_match_017",
+      "september_20th_2650_20260913__september20_2650_match_019",
+      "september_20th_2650_20260913__september20_2650_match_020",
+      "september_20th_2650_20260913__september20_2650_match_022",
+      "september_20th_2650_20260913__september20_2650_match_023",
+      "september_20th_2650_20260913__september20_2650_match_025"
+    ],
+    "source_confidence": {
+      "high": 29,
+      "medium": 2
+    },
+    "missing_role_fields": 31
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Balance Druid / Subtlety Rogue",
+    "total_games": 20,
+    "wins": 17,
+    "losses": 3,
+    "unknown_result": 0,
+    "opening_target_known": 20,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Subtlety Rogue": 9,
+      "Balance Druid": 11
+    },
+    "kill_target_known": 17,
+    "kill_target_unknown": 3,
+    "kill_targets": {
+      "Subtlety Rogue": 11,
+      "Balance Druid": 6
+    },
+    "records_with_quality_flags": 2,
+    "records_with_source_exceptions": 2,
+    "records_with_source_win_condition_hypothesis": 20,
+    "source_batch_distribution": {
+      "june_7th_2700_20260913": 19,
+      "may_4th_2350_20260913": 1
+    },
+    "review_group": 3,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Balance_Druid__Subtlety_Rogue.jsonl",
+    "all_match_ids": [
+      "june_7th_2700_20260913__match_001",
+      "june_7th_2700_20260913__match_004",
+      "june_7th_2700_20260913__match_005",
+      "june_7th_2700_20260913__match_006",
+      "june_7th_2700_20260913__match_008",
+      "june_7th_2700_20260913__match_009",
+      "june_7th_2700_20260913__match_011",
+      "june_7th_2700_20260913__match_013",
+      "june_7th_2700_20260913__match_014",
+      "june_7th_2700_20260913__match_015",
+      "june_7th_2700_20260913__match_016",
+      "june_7th_2700_20260913__match_018",
+      "june_7th_2700_20260913__match_019",
+      "june_7th_2700_20260913__match_021",
+      "june_7th_2700_20260913__match_023",
+      "june_7th_2700_20260913__match_024",
+      "june_7th_2700_20260913__match_025",
+      "june_7th_2700_20260913__match_026",
+      "june_7th_2700_20260913__match_028",
+      "may_4th_2350_20260913__may04_2350_match_027"
+    ],
+    "source_confidence": {
+      "high": 18,
+      "medium": 2
+    },
+    "missing_role_fields": 20
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Arms Warrior / Restoration Druid",
+    "total_games": 19,
+    "wins": 14,
+    "losses": 4,
+    "unknown_result": 1,
+    "opening_target_known": 19,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Restoration Druid": 13,
+      "Arms Warrior": 6
+    },
+    "kill_target_known": 14,
+    "kill_target_unknown": 5,
+    "kill_targets": {
+      "Restoration Druid": 8,
+      "Arms Warrior": 6
+    },
+    "records_with_quality_flags": 3,
+    "records_with_source_exceptions": 3,
+    "records_with_source_win_condition_hypothesis": 19,
+    "source_batch_distribution": {
+      "february_3rd_2550_20260912": 9,
+      "january_4th_2700_20260913": 1,
+      "may_24th_2450_20260913": 1,
+      "may_4th_2350_20260913": 2,
+      "september_28th_2700_20260913": 6
+    },
+    "review_group": 4,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Arms_Warrior__Restoration_Druid.jsonl",
+    "all_match_ids": [
+      "february_3rd_2550_20260912__feb03_2550_match_001",
+      "february_3rd_2550_20260912__feb03_2550_match_009",
+      "february_3rd_2550_20260912__feb03_2550_match_011",
+      "february_3rd_2550_20260912__feb03_2550_match_012",
+      "february_3rd_2550_20260912__feb03_2550_match_014",
+      "february_3rd_2550_20260912__feb03_2550_match_016",
+      "february_3rd_2550_20260912__feb03_2550_match_017",
+      "february_3rd_2550_20260912__feb03_2550_match_021",
+      "february_3rd_2550_20260912__feb03_2550_match_023",
+      "january_4th_2700_20260913__match_049",
+      "may_24th_2450_20260913__may24_2450_match_001",
+      "may_4th_2350_20260913__may04_2350_match_017",
+      "may_4th_2350_20260913__may04_2350_match_057",
+      "september_28th_2700_20260913__september28_2700_match_007",
+      "september_28th_2700_20260913__september28_2700_match_008",
+      "september_28th_2700_20260913__september28_2700_match_009",
+      "september_28th_2700_20260913__september28_2700_match_010",
+      "september_28th_2700_20260913__september28_2700_match_011",
+      "september_28th_2700_20260913__september28_2700_match_013"
+    ],
+    "source_confidence": {
+      "high": 17,
+      "medium": 2
+    },
+    "missing_role_fields": 19
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Arms Warrior / Discipline Priest",
+    "total_games": 18,
+    "wins": 16,
+    "losses": 2,
+    "unknown_result": 0,
+    "opening_target_known": 18,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Arms Warrior": 12,
+      "Discipline Priest": 2,
+      "Warrior": 3,
+      "Priest": 1
+    },
+    "kill_target_known": 15,
+    "kill_target_unknown": 3,
+    "kill_targets": {
+      "Arms Warrior": 5,
+      "Discipline Priest": 7,
+      "Warrior": 2,
+      "Priest around 116s": 1
+    },
+    "records_with_quality_flags": 8,
+    "records_with_source_exceptions": 7,
+    "records_with_source_win_condition_hypothesis": 18,
+    "source_batch_distribution": {
+      "august_31st_2550_20260912": 7,
+      "january_5th_full_20260912": 5,
+      "may_18th_2500_20260913": 1,
+      "may_24th_2450_20260913": 2,
+      "september_11th_2500_20260912": 3
+    },
+    "review_group": 5,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Arms_Warrior__Discipline_Priest.jsonl",
+    "all_match_ids": [
+      "august_31st_2550_20260912__august31_2550_match_002",
+      "august_31st_2550_20260912__august31_2550_match_004",
+      "august_31st_2550_20260912__august31_2550_match_007",
+      "august_31st_2550_20260912__august31_2550_match_008",
+      "august_31st_2550_20260912__august31_2550_match_010",
+      "august_31st_2550_20260912__august31_2550_match_011",
+      "august_31st_2550_20260912__august31_2550_match_013",
+      "january_5th_full_20260912__match_010b",
+      "january_5th_full_20260912__match_014",
+      "january_5th_full_20260912__match_017",
+      "january_5th_full_20260912__match_019",
+      "january_5th_full_20260912__match_021",
+      "may_18th_2500_20260913__may18_2500_match_078",
+      "may_24th_2450_20260913__may24_2450_match_025",
+      "may_24th_2450_20260913__may24_2450_match_027",
+      "september_11th_2500_20260912__sep11_2500_match_002",
+      "september_11th_2500_20260912__sep11_2500_match_021",
+      "september_11th_2500_20260912__sep11_2500_match_038"
+    ],
+    "source_confidence": {
+      "high": 13,
+      "medium": 5
+    },
+    "missing_role_fields": 18
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Marksmanship Hunter / Retribution Paladin",
+    "total_games": 17,
+    "wins": 12,
+    "losses": 5,
+    "unknown_result": 0,
+    "opening_target_known": 17,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Marksmanship Hunter": 12,
+      "Retribution Paladin": 3,
+      "Hunter": 2
+    },
+    "kill_target_known": 12,
+    "kill_target_unknown": 5,
+    "kill_targets": {
+      "Marksmanship Hunter": 8,
+      "Retribution Paladin": 2,
+      "Hunter": 2
+    },
+    "records_with_quality_flags": 6,
+    "records_with_source_exceptions": 6,
+    "records_with_source_win_condition_hypothesis": 17,
+    "source_batch_distribution": {
+      "august_31st_2550_20260912": 4,
+      "january_4th_2700_20260913": 5,
+      "january_5th_full_20260912": 1,
+      "may_18th_2500_20260913": 1,
+      "may_4th_2350_20260913": 3,
+      "september_11th_2500_20260912": 3
+    },
+    "review_group": 6,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Marksmanship_Hunter__Retribution_Paladin.jsonl",
+    "all_match_ids": [
+      "august_31st_2550_20260912__august31_2550_match_015",
+      "august_31st_2550_20260912__august31_2550_match_017",
+      "august_31st_2550_20260912__august31_2550_match_019",
+      "august_31st_2550_20260912__august31_2550_match_020",
+      "january_4th_2700_20260913__match_014",
+      "january_4th_2700_20260913__match_015",
+      "january_4th_2700_20260913__match_016",
+      "january_4th_2700_20260913__match_022",
+      "january_4th_2700_20260913__match_023",
+      "january_5th_full_20260912__match_007",
+      "may_18th_2500_20260913__may18_2500_match_026",
+      "may_4th_2350_20260913__may04_2350_match_048",
+      "may_4th_2350_20260913__may04_2350_match_058",
+      "may_4th_2350_20260913__may04_2350_match_062",
+      "september_11th_2500_20260912__sep11_2500_match_003",
+      "september_11th_2500_20260912__sep11_2500_match_008",
+      "september_11th_2500_20260912__sep11_2500_match_015"
+    ],
+    "source_confidence": {
+      "high": 12,
+      "medium": 5
+    },
+    "missing_role_fields": 17
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Destruction Warlock / Holy Paladin",
+    "total_games": 16,
+    "wins": 15,
+    "losses": 1,
+    "unknown_result": 0,
+    "opening_target_known": 16,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Destruction Warlock": 13,
+      "Holy Paladin": 3
+    },
+    "kill_target_known": 14,
+    "kill_target_unknown": 2,
+    "kill_targets": {
+      "Destruction Warlock": 11,
+      "Holy Paladin": 3
+    },
+    "records_with_quality_flags": 1,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 16,
+    "source_batch_distribution": {
+      "june_7th_2700_20260913": 1,
+      "may_24th_vod2_2600_20260913": 1,
+      "may_4th_2350_20260913": 6,
+      "september_28th_2700_20260913": 8
+    },
+    "review_group": 7,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Destruction_Warlock__Holy_Paladin.jsonl",
+    "all_match_ids": [
+      "june_7th_2700_20260913__match_007",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+      "may_4th_2350_20260913__may04_2350_match_028",
+      "may_4th_2350_20260913__may04_2350_match_031",
+      "may_4th_2350_20260913__may04_2350_match_033",
+      "may_4th_2350_20260913__may04_2350_match_034",
+      "may_4th_2350_20260913__may04_2350_match_036",
+      "may_4th_2350_20260913__may04_2350_match_037",
+      "september_28th_2700_20260913__september28_2700_match_002",
+      "september_28th_2700_20260913__september28_2700_match_004",
+      "september_28th_2700_20260913__september28_2700_match_006",
+      "september_28th_2700_20260913__september28_2700_match_024",
+      "september_28th_2700_20260913__september28_2700_match_027",
+      "september_28th_2700_20260913__september28_2700_match_028",
+      "september_28th_2700_20260913__september28_2700_match_029",
+      "september_28th_2700_20260913__september28_2700_match_031"
+    ],
+    "source_confidence": {
+      "high": 15,
+      "medium": 1
+    },
+    "missing_role_fields": 16
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Marksmanship Hunter",
+    "total_games": 13,
+    "wins": 11,
+    "losses": 2,
+    "unknown_result": 0,
+    "opening_target_known": 13,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Discipline Priest briefly": 1,
+      "Marksmanship Hunter": 2,
+      "Hunter's Crab pet": 1,
+      "Priest: first substantial enemy player damage": 1,
+      "Hunter": 7,
+      "Crab pet": 1
+    },
+    "kill_target_known": 13,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Marksmanship Hunter": 3,
+      "No enemy player killed": 1,
+      "No enemy player killed. Rogue dies at approximately 99s": 1,
+      "Hunter": 3,
+      "Hunter around 74s": 1,
+      "Priest": 2,
+      "Hunter at approximately 92.5s": 1,
+      "Hunter at approximately 97s": 1
+    },
+    "records_with_quality_flags": 3,
+    "records_with_source_exceptions": 2,
+    "records_with_source_win_condition_hypothesis": 13,
+    "source_batch_distribution": {
+      "january_5th_full_20260912": 2,
+      "september_11th_2500_20260912": 10,
+      "september_28th_2700_20260913": 1
+    },
+    "review_group": 8,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Discipline_Priest__Marksmanship_Hunter.jsonl",
+    "all_match_ids": [
+      "january_5th_full_20260912__match_037b",
+      "january_5th_full_20260912__match_047",
+      "september_11th_2500_20260912__sep11_2500_match_017",
+      "september_11th_2500_20260912__sep11_2500_match_018",
+      "september_11th_2500_20260912__sep11_2500_match_020",
+      "september_11th_2500_20260912__sep11_2500_match_022",
+      "september_11th_2500_20260912__sep11_2500_match_024",
+      "september_11th_2500_20260912__sep11_2500_match_026",
+      "september_11th_2500_20260912__sep11_2500_match_029",
+      "september_11th_2500_20260912__sep11_2500_match_031",
+      "september_11th_2500_20260912__sep11_2500_match_033",
+      "september_11th_2500_20260912__sep11_2500_match_035",
+      "september_28th_2700_20260913__september28_2700_match_003"
+    ],
+    "source_confidence": {
+      "medium": 3,
+      "high": 10
+    },
+    "missing_role_fields": 13
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Retribution Paladin / Unholy Death Knight",
+    "total_games": 12,
+    "wins": 9,
+    "losses": 3,
+    "unknown_result": 0,
+    "opening_target_known": 12,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Unholy Death Knight": 10,
+      "Death Knight": 1,
+      "Retribution Paladin": 1
+    },
+    "kill_target_known": 9,
+    "kill_target_unknown": 3,
+    "kill_targets": {
+      "Unholy Death Knight": 5,
+      "Death Knight": 1,
+      "Retribution Paladin": 3
+    },
+    "records_with_quality_flags": 1,
+    "records_with_source_exceptions": 1,
+    "records_with_source_win_condition_hypothesis": 12,
+    "source_batch_distribution": {
+      "february_3rd_2550_20260912": 1,
+      "january_5th_full_20260912": 1,
+      "may_18th_2500_20260913": 10
+    },
+    "review_group": 9,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Retribution_Paladin__Unholy_Death_Knight.jsonl",
+    "all_match_ids": [
+      "february_3rd_2550_20260912__feb03_2550_match_019",
+      "january_5th_full_20260912__match_033b",
+      "may_18th_2500_20260913__may18_2500_match_003",
+      "may_18th_2500_20260913__may18_2500_match_040",
+      "may_18th_2500_20260913__may18_2500_match_057",
+      "may_18th_2500_20260913__may18_2500_match_062",
+      "may_18th_2500_20260913__may18_2500_match_065",
+      "may_18th_2500_20260913__may18_2500_match_069",
+      "may_18th_2500_20260913__may18_2500_match_073",
+      "may_18th_2500_20260913__may18_2500_match_074",
+      "may_18th_2500_20260913__may18_2500_match_076",
+      "may_18th_2500_20260913__may18_2500_match_077"
+    ],
+    "source_confidence": {
+      "high": 10,
+      "medium": 2
+    },
+    "missing_role_fields": 12
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Frost Mage / Shadow Priest",
+    "total_games": 11,
+    "wins": 11,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 11,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Shadow Priest": 6,
+      "Frost Mage": 5
+    },
+    "kill_target_known": 10,
+    "kill_target_unknown": 1,
+    "kill_targets": {
+      "Frost Mage": 3,
+      "Shadow Priest": 7
+    },
+    "records_with_quality_flags": 6,
+    "records_with_source_exceptions": 6,
+    "records_with_source_win_condition_hypothesis": 11,
+    "source_batch_distribution": {
+      "february_3rd_2550_20260912": 1,
+      "january_4th_2700_20260913": 1,
+      "january_5th_full_20260912": 3,
+      "may_18th_2500_20260913": 1,
+      "may_4th_2350_20260913": 2,
+      "september_20th_2650_20260913": 3
+    },
+    "review_group": 10,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Frost_Mage__Shadow_Priest.jsonl",
+    "all_match_ids": [
+      "february_3rd_2550_20260912__feb03_2550_match_003",
+      "january_4th_2700_20260913__match_001",
+      "january_5th_full_20260912__match_034",
+      "january_5th_full_20260912__match_036",
+      "january_5th_full_20260912__match_042",
+      "may_18th_2500_20260913__may18_2500_match_009",
+      "may_4th_2350_20260913__may04_2350_match_016",
+      "may_4th_2350_20260913__may04_2350_match_023",
+      "september_20th_2650_20260913__september20_2650_match_009",
+      "september_20th_2650_20260913__september20_2650_match_010",
+      "september_20th_2650_20260913__september20_2650_match_011"
+    ],
+    "source_confidence": {
+      "high": 6,
+      "medium": 5
+    },
+    "missing_role_fields": 11
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Frost Mage",
+    "total_games": 9,
+    "wins": 9,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 9,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Discipline Priest": 4,
+      "Frost Mage": 5
+    },
+    "kill_target_known": 9,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Discipline Priest": 8,
+      "Frost Mage": 1
+    },
+    "records_with_quality_flags": 2,
+    "records_with_source_exceptions": 2,
+    "records_with_source_win_condition_hypothesis": 9,
+    "source_batch_distribution": {
+      "february_3rd_2550_20260912": 2,
+      "january_5th_full_20260912": 1,
+      "june_7th_2700_20260913": 1,
+      "may_24th_vod2_2600_20260913": 1,
+      "may_4th_2350_20260913": 1,
+      "september_11th_2500_20260912": 2,
+      "september_20th_2650_20260913": 1
+    },
+    "review_group": 11,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Discipline_Priest__Frost_Mage.jsonl",
+    "all_match_ids": [
+      "february_3rd_2550_20260912__feb03_2550_match_005",
+      "february_3rd_2550_20260912__feb03_2550_match_008",
+      "january_5th_full_20260912__match_039",
+      "june_7th_2700_20260913__match_002",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_030",
+      "may_4th_2350_20260913__may04_2350_match_013",
+      "september_11th_2500_20260912__sep11_2500_match_004",
+      "september_11th_2500_20260912__sep11_2500_match_009",
+      "september_20th_2650_20260913__september20_2650_match_002"
+    ],
+    "source_confidence": {
+      "high": 7,
+      "medium": 2
+    },
+    "missing_role_fields": 9
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Subtlety Rogue",
+    "total_games": 9,
+    "wins": 9,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 9,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Discipline Priest": 5,
+      "Subtlety Rogue": 2,
+      "Priest": 1,
+      "Rogue": 1
+    },
+    "kill_target_known": 9,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Subtlety Rogue": 6,
+      "Rogue": 2,
+      "Discipline Priest": 1
+    },
+    "records_with_quality_flags": 1,
+    "records_with_source_exceptions": 1,
+    "records_with_source_win_condition_hypothesis": 9,
+    "source_batch_distribution": {
+      "february_3rd_2550_20260912": 3,
+      "january_5th_full_20260912": 1,
+      "may_24th_2450_20260913": 2,
+      "may_4th_2350_20260913": 2,
+      "september_28th_2700_20260913": 1
+    },
+    "review_group": 12,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Discipline_Priest__Subtlety_Rogue.jsonl",
+    "all_match_ids": [
+      "february_3rd_2550_20260912__feb03_2550_match_002",
+      "february_3rd_2550_20260912__feb03_2550_match_004",
+      "february_3rd_2550_20260912__feb03_2550_match_007",
+      "january_5th_full_20260912__match_030b",
+      "may_24th_2450_20260913__may24_2450_match_021",
+      "may_24th_2450_20260913__may24_2450_match_033",
+      "may_4th_2350_20260913__may04_2350_match_042",
+      "may_4th_2350_20260913__may04_2350_match_054",
+      "september_28th_2700_20260913__september28_2700_match_033"
+    ],
+    "source_confidence": {
+      "high": 8,
+      "medium": 1
+    },
+    "missing_role_fields": 9
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Destruction Warlock / Elemental Shaman",
+    "total_games": 8,
+    "wins": 7,
+    "losses": 1,
+    "unknown_result": 0,
+    "opening_target_known": 8,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Warlock pet": 1,
+      "Elemental Shaman": 3,
+      "Destruction Warlock": 1,
+      "Warlock": 1,
+      "Shaman": 2
+    },
+    "kill_target_known": 7,
+    "kill_target_unknown": 1,
+    "kill_targets": {
+      "Elemental Shaman": 4,
+      "Shaman": 3
+    },
+    "records_with_quality_flags": 2,
+    "records_with_source_exceptions": 2,
+    "records_with_source_win_condition_hypothesis": 8,
+    "source_batch_distribution": {
+      "january_5th_full_20260912": 2,
+      "may_18th_2500_20260913": 4,
+      "may_4th_2350_20260913": 2
+    },
+    "review_group": 13,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Destruction_Warlock__Elemental_Shaman.jsonl",
+    "all_match_ids": [
+      "january_5th_full_20260912__match_015",
+      "january_5th_full_20260912__match_026",
+      "may_18th_2500_20260913__may18_2500_match_016",
+      "may_18th_2500_20260913__may18_2500_match_019",
+      "may_18th_2500_20260913__may18_2500_match_021",
+      "may_18th_2500_20260913__may18_2500_match_023",
+      "may_4th_2350_20260913__may04_2350_match_010",
+      "may_4th_2350_20260913__may04_2350_match_020"
+    ],
+    "source_confidence": {
+      "medium": 2,
+      "high": 6
+    },
+    "missing_role_fields": 8
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Enhancement Shaman / Retribution Paladin",
+    "total_games": 8,
+    "wins": 7,
+    "losses": 1,
+    "unknown_result": 0,
+    "opening_target_known": 8,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Enhancement Shaman": 2,
+      "Retribution Paladin": 4,
+      "Shaman": 2
+    },
+    "kill_target_known": 7,
+    "kill_target_unknown": 1,
+    "kill_targets": {
+      "Retribution Paladin": 4,
+      "Enhancement Shaman": 2,
+      "Shaman": 1
+    },
+    "records_with_quality_flags": 0,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 8,
+    "source_batch_distribution": {
+      "may_18th_2500_20260913": 1,
+      "may_24th_2450_20260913": 5,
+      "may_4th_2350_20260913": 2
+    },
+    "review_group": 14,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Enhancement_Shaman__Retribution_Paladin.jsonl",
+    "all_match_ids": [
+      "may_18th_2500_20260913__may18_2500_match_071",
+      "may_24th_2450_20260913__may24_2450_match_005",
+      "may_24th_2450_20260913__may24_2450_match_008",
+      "may_24th_2450_20260913__may24_2450_match_010",
+      "may_24th_2450_20260913__may24_2450_match_016",
+      "may_24th_2450_20260913__may24_2450_match_019",
+      "may_4th_2350_20260913__may04_2350_match_004",
+      "may_4th_2350_20260913__may04_2350_match_025"
+    ],
+    "source_confidence": {
+      "high": 7,
+      "medium": 1
+    },
+    "missing_role_fields": 8
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Balance Druid / Frost Mage",
+    "total_games": 7,
+    "wins": 6,
+    "losses": 1,
+    "unknown_result": 0,
+    "opening_target_known": 7,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Frost Mage": 4,
+      "Druid": 1,
+      "Mage": 1,
+      "Balance Druid": 1
+    },
+    "kill_target_known": 7,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Frost Mage": 1,
+      "none observed": 1,
+      "Mage": 1,
+      "Balance Druid": 4
+    },
+    "records_with_quality_flags": 2,
+    "records_with_source_exceptions": 2,
+    "records_with_source_win_condition_hypothesis": 7,
+    "source_batch_distribution": {
+      "june_7th_2700_20260913": 1,
+      "may_18th_2500_20260913": 3,
+      "may_24th_2450_20260913": 1,
+      "september_20th_2650_20260913": 2
+    },
+    "review_group": 15,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Balance_Druid__Frost_Mage.jsonl",
+    "all_match_ids": [
+      "june_7th_2700_20260913__match_038",
+      "may_18th_2500_20260913__may18_2500_match_047",
+      "may_18th_2500_20260913__may18_2500_match_052",
+      "may_18th_2500_20260913__may18_2500_match_055",
+      "may_24th_2450_20260913__may24_2450_match_006",
+      "september_20th_2650_20260913__september20_2650_match_012",
+      "september_20th_2650_20260913__september20_2650_match_014"
+    ],
+    "source_confidence": {
+      "high": 7
+    },
+    "missing_role_fields": 7
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Destruction Warlock / Restoration Shaman",
+    "total_games": 7,
+    "wins": 5,
+    "losses": 2,
+    "unknown_result": 0,
+    "opening_target_known": 7,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Warlock": 1,
+      "Shaman: first confirmed damage to an enemy player": 1,
+      "Warlock takes first confirmed player health damage": 1,
+      "Shaman": 1,
+      "Destruction Warlock": 1,
+      "Restoration Shaman": 2
+    },
+    "kill_target_known": 5,
+    "kill_target_unknown": 2,
+    "kill_targets": {
+      "Shaman": 1,
+      "Shaman at about 105.5s": 1,
+      "Warlock at approximately 195.5s": 1,
+      "Shaman around 105.5s": 1,
+      "Destruction Warlock": 1
+    },
+    "records_with_quality_flags": 0,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 7,
+    "source_batch_distribution": {
+      "september_11th_2500_20260912": 4,
+      "september_28th_2700_20260913": 3
+    },
+    "review_group": 16,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Destruction_Warlock__Restoration_Shaman.jsonl",
+    "all_match_ids": [
+      "september_11th_2500_20260912__sep11_2500_match_012a",
+      "september_11th_2500_20260912__sep11_2500_match_016",
+      "september_11th_2500_20260912__sep11_2500_match_019",
+      "september_11th_2500_20260912__sep11_2500_match_023",
+      "september_28th_2700_20260913__september28_2700_match_018",
+      "september_28th_2700_20260913__september28_2700_match_022",
+      "september_28th_2700_20260913__september28_2700_match_026"
+    ],
+    "source_confidence": {
+      "high": 7
+    },
+    "missing_role_fields": 7
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Destruction Warlock / Restoration Druid",
+    "total_games": 5,
+    "wins": 5,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 5,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Warlock": 1,
+      "Destruction Warlock": 4
+    },
+    "kill_target_known": 5,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Druid": 1,
+      "Destruction Warlock": 3,
+      "Restoration Druid": 1
+    },
+    "records_with_quality_flags": 1,
+    "records_with_source_exceptions": 1,
+    "records_with_source_win_condition_hypothesis": 5,
+    "source_batch_distribution": {
+      "may_18th_2500_20260913": 1,
+      "may_24th_vod2_2600_20260913": 3,
+      "september_20th_2650_20260913": 1
+    },
+    "review_group": 17,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Destruction_Warlock__Restoration_Druid.jsonl",
+    "all_match_ids": [
+      "may_18th_2500_20260913__may18_2500_match_050",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033",
+      "september_20th_2650_20260913__september20_2650_match_018"
+    ],
+    "source_confidence": {
+      "high": 5
+    },
+    "missing_role_fields": 5
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Unholy Death Knight",
+    "total_games": 5,
+    "wins": 5,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 5,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Unholy Death Knight": 3,
+      "Discipline Priest": 1,
+      "Death Knight": 1
+    },
+    "kill_target_known": 5,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Unholy Death Knight": 4,
+      "Death Knight": 1
+    },
+    "records_with_quality_flags": 0,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 5,
+    "source_batch_distribution": {
+      "january_5th_full_20260912": 1,
+      "may_18th_2500_20260913": 4
+    },
+    "review_group": 18,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Discipline_Priest__Unholy_Death_Knight.jsonl",
+    "all_match_ids": [
+      "january_5th_full_20260912__match_041",
+      "may_18th_2500_20260913__may18_2500_match_005",
+      "may_18th_2500_20260913__may18_2500_match_011",
+      "may_18th_2500_20260913__may18_2500_match_013",
+      "may_18th_2500_20260913__may18_2500_match_024"
+    ],
+    "source_confidence": {
+      "medium": 1,
+      "high": 4
+    },
+    "missing_role_fields": 5
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Fire Mage / Subtlety Rogue",
+    "total_games": 5,
+    "wins": 4,
+    "losses": 1,
+    "unknown_result": 0,
+    "opening_target_known": 5,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Fire Mage": 5
+    },
+    "kill_target_known": 5,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Fire Mage": 3,
+      "Subtlety Rogue": 2
+    },
+    "records_with_quality_flags": 1,
+    "records_with_source_exceptions": 1,
+    "records_with_source_win_condition_hypothesis": 5,
+    "source_batch_distribution": {
+      "august_31st_2550_20260912": 1,
+      "may_24th_vod2_2600_20260913": 4
+    },
+    "review_group": 19,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Fire_Mage__Subtlety_Rogue.jsonl",
+    "all_match_ids": [
+      "august_31st_2550_20260912__august31_2550_match_014",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_009",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018"
+    ],
+    "source_confidence": {
+      "high": 5
+    },
+    "missing_role_fields": 5
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Frost Mage / Subtlety Rogue",
+    "total_games": 5,
+    "wins": 4,
+    "losses": 1,
+    "unknown_result": 0,
+    "opening_target_known": 5,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Frost Mage": 2,
+      "Subtlety Rogue": 3
+    },
+    "kill_target_known": 4,
+    "kill_target_unknown": 1,
+    "kill_targets": {
+      "Frost Mage": 2,
+      "Subtlety Rogue": 2
+    },
+    "records_with_quality_flags": 4,
+    "records_with_source_exceptions": 2,
+    "records_with_source_win_condition_hypothesis": 5,
+    "source_batch_distribution": {
+      "january_5th_full_20260912": 2,
+      "may_4th_2350_20260913": 2,
+      "september_28th_2700_20260913": 1
+    },
+    "review_group": 20,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Frost_Mage__Subtlety_Rogue.jsonl",
+    "all_match_ids": [
+      "january_5th_full_20260912__match_009",
+      "january_5th_full_20260912__match_031a",
+      "may_4th_2350_20260913__may04_2350_match_015",
+      "may_4th_2350_20260913__may04_2350_match_019",
+      "september_28th_2700_20260913__september28_2700_match_001"
+    ],
+    "source_confidence": {
+      "medium": 4,
+      "high": 1
+    },
+    "missing_role_fields": 5
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Retribution Paladin / Subtlety Rogue",
+    "total_games": 5,
+    "wins": 2,
+    "losses": 3,
+    "unknown_result": 0,
+    "opening_target_known": 5,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Subtlety Rogue": 1,
+      "Paladin": 3,
+      "Rogue": 1
+    },
+    "kill_target_known": 4,
+    "kill_target_unknown": 1,
+    "kill_targets": {
+      "none observed": 2,
+      "Paladin": 2
+    },
+    "records_with_quality_flags": 4,
+    "records_with_source_exceptions": 4,
+    "records_with_source_win_condition_hypothesis": 5,
+    "source_batch_distribution": {
+      "january_4th_2700_20260913": 1,
+      "may_18th_2500_20260913": 4
+    },
+    "review_group": 21,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Retribution_Paladin__Subtlety_Rogue.jsonl",
+    "all_match_ids": [
+      "january_4th_2700_20260913__match_002",
+      "may_18th_2500_20260913__may18_2500_match_029",
+      "may_18th_2500_20260913__may18_2500_match_032",
+      "may_18th_2500_20260913__may18_2500_match_036",
+      "may_18th_2500_20260913__may18_2500_match_038"
+    ],
+    "source_confidence": {
+      "high": 1,
+      "medium": 4
+    },
+    "missing_role_fields": 5
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Shadow Priest / Unholy Death Knight",
+    "total_games": 5,
+    "wins": 2,
+    "losses": 3,
+    "unknown_result": 0,
+    "opening_target_known": 5,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Unholy Death Knight": 3,
+      "Shadow Priest": 2
+    },
+    "kill_target_known": 3,
+    "kill_target_unknown": 2,
+    "kill_targets": {
+      "Unholy Death Knight": 3
+    },
+    "records_with_quality_flags": 1,
+    "records_with_source_exceptions": 1,
+    "records_with_source_win_condition_hypothesis": 5,
+    "source_batch_distribution": {
+      "june_7th_2700_20260913": 5
+    },
+    "review_group": 22,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Shadow_Priest__Unholy_Death_Knight.jsonl",
+    "all_match_ids": [
+      "june_7th_2700_20260913__match_017",
+      "june_7th_2700_20260913__match_020",
+      "june_7th_2700_20260913__match_027",
+      "june_7th_2700_20260913__match_029",
+      "june_7th_2700_20260913__match_032"
+    ],
+    "source_confidence": {
+      "high": 4,
+      "medium": 1
+    },
+    "missing_role_fields": 5
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Arms Warrior / Retribution Paladin",
+    "total_games": 4,
+    "wins": 4,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 4,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Arms Warrior": 4
+    },
+    "kill_target_known": 4,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Arms Warrior": 4
+    },
+    "records_with_quality_flags": 1,
+    "records_with_source_exceptions": 1,
+    "records_with_source_win_condition_hypothesis": 4,
+    "source_batch_distribution": {
+      "august_31st_2550_20260912": 1,
+      "february_3rd_2550_20260912": 1,
+      "january_5th_full_20260912": 1,
+      "may_24th_vod2_2600_20260913": 1
+    },
+    "review_group": 23,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Arms_Warrior__Retribution_Paladin.jsonl",
+    "all_match_ids": [
+      "august_31st_2550_20260912__august31_2550_match_001",
+      "february_3rd_2550_20260912__feb03_2550_match_018",
+      "january_5th_full_20260912__match_020",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_031"
+    ],
+    "source_confidence": {
+      "high": 3,
+      "medium": 1
+    },
+    "missing_role_fields": 4
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Assassination Rogue / Retribution Paladin",
+    "total_games": 4,
+    "wins": 3,
+    "losses": 1,
+    "unknown_result": 0,
+    "opening_target_known": 4,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Retribution Paladin": 1,
+      "Assassination Rogue": 2,
+      "Retribution Paladin briefly": 1
+    },
+    "kill_target_known": 3,
+    "kill_target_unknown": 1,
+    "kill_targets": {
+      "Assassination Rogue": 2,
+      "Retribution Paladin": 1
+    },
+    "records_with_quality_flags": 1,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 4,
+    "source_batch_distribution": {
+      "may_24th_vod2_2600_20260913": 3,
+      "may_4th_2350_20260913": 1
+    },
+    "review_group": 24,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Assassination_Rogue__Retribution_Paladin.jsonl",
+    "all_match_ids": [
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_004",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_006",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_008",
+      "may_4th_2350_20260913__may04_2350_match_030"
+    ],
+    "source_confidence": {
+      "high": 3,
+      "medium": 1
+    },
+    "missing_role_fields": 4
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Destruction Warlock / Discipline Priest",
+    "total_games": 4,
+    "wins": 4,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 4,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Destruction Warlock": 4
+    },
+    "kill_target_known": 4,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Discipline Priest": 4
+    },
+    "records_with_quality_flags": 0,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 4,
+    "source_batch_distribution": {
+      "june_7th_2700_20260913": 4
+    },
+    "review_group": 25,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Destruction_Warlock__Discipline_Priest.jsonl",
+    "all_match_ids": [
+      "june_7th_2700_20260913__match_030",
+      "june_7th_2700_20260913__match_033",
+      "june_7th_2700_20260913__match_034",
+      "june_7th_2700_20260913__match_035"
+    ],
+    "source_confidence": {
+      "high": 4
+    },
+    "missing_role_fields": 4
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Arcane Mage / Subtlety Rogue",
+    "total_games": 3,
+    "wins": 3,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 2,
+    "opening_target_unknown": 1,
+    "opening_targets": {
+      "Subtlety Rogue": 2
+    },
+    "kill_target_known": 3,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Arcane Mage": 1,
+      "Subtlety Rogue": 2
+    },
+    "records_with_quality_flags": 3,
+    "records_with_source_exceptions": 3,
+    "records_with_source_win_condition_hypothesis": 3,
+    "source_batch_distribution": {
+      "january_5th_full_20260912": 2,
+      "september_20th_2650_20260913": 1
+    },
+    "review_group": 26,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Arcane_Mage__Subtlety_Rogue.jsonl",
+    "all_match_ids": [
+      "january_5th_full_20260912__match_005",
+      "january_5th_full_20260912__match_013",
+      "september_20th_2650_20260913__september20_2650_match_016"
+    ],
+    "source_confidence": {
+      "medium": 2,
+      "high": 1
+    },
+    "missing_role_fields": 3
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Arms Warrior / Balance Druid",
+    "total_games": 3,
+    "wins": 3,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 3,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Arms Warrior": 3
+    },
+    "kill_target_known": 3,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Balance Druid": 2,
+      "Arms Warrior": 1
+    },
+    "records_with_quality_flags": 2,
+    "records_with_source_exceptions": 2,
+    "records_with_source_win_condition_hypothesis": 3,
+    "source_batch_distribution": {
+      "august_31st_2550_20260912": 3
+    },
+    "review_group": 27,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Arms_Warrior__Balance_Druid.jsonl",
+    "all_match_ids": [
+      "august_31st_2550_20260912__august31_2550_match_005",
+      "august_31st_2550_20260912__august31_2550_match_016",
+      "august_31st_2550_20260912__august31_2550_match_018"
+    ],
+    "source_confidence": {
+      "high": 3
+    },
+    "missing_role_fields": 3
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Elemental Shaman / Retribution Paladin",
+    "total_games": 3,
+    "wins": 3,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 3,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Retribution Paladin": 3
+    },
+    "kill_target_known": 2,
+    "kill_target_unknown": 1,
+    "kill_targets": {
+      "Retribution Paladin": 2
+    },
+    "records_with_quality_flags": 1,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 3,
+    "source_batch_distribution": {
+      "may_4th_2350_20260913": 3
+    },
+    "review_group": 28,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Elemental_Shaman__Retribution_Paladin.jsonl",
+    "all_match_ids": [
+      "may_4th_2350_20260913__may04_2350_match_018",
+      "may_4th_2350_20260913__may04_2350_match_026",
+      "may_4th_2350_20260913__may04_2350_match_065"
+    ],
+    "source_confidence": {
+      "medium": 1,
+      "high": 2
+    },
+    "missing_role_fields": 3
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Feral Druid / Restoration Shaman",
+    "total_games": 3,
+    "wins": 3,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 3,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Druid": 1,
+      "Restoration Shaman": 1,
+      "Feral Druid": 1
+    },
+    "kill_target_known": 2,
+    "kill_target_unknown": 1,
+    "kill_targets": {
+      "Druid": 1,
+      "Restoration Shaman": 1
+    },
+    "records_with_quality_flags": 1,
+    "records_with_source_exceptions": 1,
+    "records_with_source_win_condition_hypothesis": 3,
+    "source_batch_distribution": {
+      "may_18th_2500_20260913": 3
+    },
+    "review_group": 29,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Feral_Druid__Restoration_Shaman.jsonl",
+    "all_match_ids": [
+      "may_18th_2500_20260913__may18_2500_match_048",
+      "may_18th_2500_20260913__may18_2500_match_053",
+      "may_18th_2500_20260913__may18_2500_match_058"
+    ],
+    "source_confidence": {
+      "high": 2,
+      "medium": 1
+    },
+    "missing_role_fields": 3
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Fury Warrior / Holy Paladin",
+    "total_games": 2,
+    "wins": 2,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 2,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Fury Warrior": 2
+    },
+    "kill_target_known": 2,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Fury Warrior": 1,
+      "Holy Paladin": 1
+    },
+    "records_with_quality_flags": 0,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 2,
+    "source_batch_distribution": {
+      "may_4th_2350_20260913": 2
+    },
+    "review_group": 30,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Fury_Warrior__Holy_Paladin.jsonl",
+    "all_match_ids": [
+      "may_4th_2350_20260913__may04_2350_match_007",
+      "may_4th_2350_20260913__may04_2350_match_009"
+    ],
+    "source_confidence": {
+      "high": 2
+    },
+    "missing_role_fields": 2
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Protection Paladin / Restoration Shaman",
+    "total_games": 2,
+    "wins": 2,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 2,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Protection Paladin": 2
+    },
+    "kill_target_known": 2,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Restoration Shaman": 1,
+      "Protection Paladin": 1
+    },
+    "records_with_quality_flags": 0,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 2,
+    "source_batch_distribution": {
+      "june_7th_2700_20260913": 2
+    },
+    "review_group": 31,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Protection_Paladin__Restoration_Shaman.jsonl",
+    "all_match_ids": [
+      "june_7th_2700_20260913__match_010",
+      "june_7th_2700_20260913__match_012"
+    ],
+    "source_confidence": {
+      "high": 2
+    },
+    "missing_role_fields": 2
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Protection Warrior / Retribution Paladin",
+    "total_games": 2,
+    "wins": 2,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 2,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Protection Warrior": 2
+    },
+    "kill_target_known": 2,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Protection Warrior": 2
+    },
+    "records_with_quality_flags": 1,
+    "records_with_source_exceptions": 1,
+    "records_with_source_win_condition_hypothesis": 2,
+    "source_batch_distribution": {
+      "february_3rd_2550_20260912": 1,
+      "january_5th_full_20260912": 1
+    },
+    "review_group": 32,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Protection_Warrior__Retribution_Paladin.jsonl",
+    "all_match_ids": [
+      "february_3rd_2550_20260912__feb03_2550_match_015",
+      "january_5th_full_20260912__match_006"
+    ],
+    "source_confidence": {
+      "high": 2
+    },
+    "missing_role_fields": 2
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Protection Warrior / Unholy Death Knight",
+    "total_games": 2,
+    "wins": 2,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 2,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Unholy Death Knight": 2
+    },
+    "kill_target_known": 2,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Protection Warrior": 2
+    },
+    "records_with_quality_flags": 0,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 2,
+    "source_batch_distribution": {
+      "may_4th_2350_20260913": 2
+    },
+    "review_group": 33,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Protection_Warrior__Unholy_Death_Knight.jsonl",
+    "all_match_ids": [
+      "may_4th_2350_20260913__may04_2350_match_029",
+      "may_4th_2350_20260913__may04_2350_match_041"
+    ],
+    "source_confidence": {
+      "medium": 1,
+      "high": 1
+    },
+    "missing_role_fields": 2
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Restoration Shaman / Unholy Death Knight",
+    "total_games": 2,
+    "wins": 2,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 2,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Restoration Shaman": 2
+    },
+    "kill_target_known": 2,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Restoration Shaman": 2
+    },
+    "records_with_quality_flags": 1,
+    "records_with_source_exceptions": 1,
+    "records_with_source_win_condition_hypothesis": 2,
+    "source_batch_distribution": {
+      "january_5th_full_20260912": 2
+    },
+    "review_group": 34,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Restoration_Shaman__Unholy_Death_Knight.jsonl",
+    "all_match_ids": [
+      "january_5th_full_20260912__match_002",
+      "january_5th_full_20260912__match_011"
+    ],
+    "source_confidence": {
+      "high": 1,
+      "medium": 1
+    },
+    "missing_role_fields": 2
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Retribution Paladin / Shadow Priest",
+    "total_games": 2,
+    "wins": 1,
+    "losses": 1,
+    "unknown_result": 0,
+    "opening_target_known": 2,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Shadow Priest": 2
+    },
+    "kill_target_known": 1,
+    "kill_target_unknown": 1,
+    "kill_targets": {
+      "Retribution Paladin": 1
+    },
+    "records_with_quality_flags": 2,
+    "records_with_source_exceptions": 2,
+    "records_with_source_win_condition_hypothesis": 2,
+    "source_batch_distribution": {
+      "january_5th_full_20260912": 2
+    },
+    "review_group": 35,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Retribution_Paladin__Shadow_Priest.jsonl",
+    "all_match_ids": [
+      "january_5th_full_20260912__match_043",
+      "january_5th_full_20260912__match_046"
+    ],
+    "source_confidence": {
+      "medium": 2
+    },
+    "missing_role_fields": 2
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Affliction Warlock / Restoration Shaman",
+    "total_games": 1,
+    "wins": 1,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 1,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Restoration Shaman": 1
+    },
+    "kill_target_known": 1,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Affliction Warlock": 1
+    },
+    "records_with_quality_flags": 1,
+    "records_with_source_exceptions": 1,
+    "records_with_source_win_condition_hypothesis": 1,
+    "source_batch_distribution": {
+      "september_20th_2650_20260913": 1
+    },
+    "review_group": 36,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Affliction_Warlock__Restoration_Shaman.jsonl",
+    "all_match_ids": [
+      "september_20th_2650_20260913__september20_2650_match_026"
+    ],
+    "source_confidence": {
+      "high": 1
+    },
+    "missing_role_fields": 1
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Assassination Rogue / Discipline Priest",
+    "total_games": 1,
+    "wins": 1,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 1,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Discipline Priest": 1
+    },
+    "kill_target_known": 1,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Assassination Rogue": 1
+    },
+    "records_with_quality_flags": 1,
+    "records_with_source_exceptions": 1,
+    "records_with_source_win_condition_hypothesis": 1,
+    "source_batch_distribution": {
+      "january_5th_full_20260912": 1
+    },
+    "review_group": 37,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Assassination_Rogue__Discipline_Priest.jsonl",
+    "all_match_ids": [
+      "january_5th_full_20260912__match_010a"
+    ],
+    "source_confidence": {
+      "medium": 1
+    },
+    "missing_role_fields": 1
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Balance Druid / Holy Paladin",
+    "total_games": 1,
+    "wins": 1,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 1,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Holy Paladin": 1
+    },
+    "kill_target_known": 1,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Holy Paladin": 1
+    },
+    "records_with_quality_flags": 0,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 1,
+    "source_batch_distribution": {
+      "may_4th_2350_20260913": 1
+    },
+    "review_group": 38,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Balance_Druid__Holy_Paladin.jsonl",
+    "all_match_ids": [
+      "may_4th_2350_20260913__may04_2350_match_038"
+    ],
+    "source_confidence": {
+      "high": 1
+    },
+    "missing_role_fields": 1
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Fire Mage",
+    "total_games": 1,
+    "wins": 1,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 1,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Fire Mage": 1
+    },
+    "kill_target_known": 1,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Discipline Priest": 1
+    },
+    "records_with_quality_flags": 0,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 1,
+    "source_batch_distribution": {
+      "may_24th_vod2_2600_20260913": 1
+    },
+    "review_group": 39,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Discipline_Priest__Fire_Mage.jsonl",
+    "all_match_ids": [
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_032"
+    ],
+    "source_confidence": {
+      "high": 1
+    },
+    "missing_role_fields": 1
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Retribution Paladin",
+    "total_games": 1,
+    "wins": 1,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 1,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Retribution Paladin": 1
+    },
+    "kill_target_known": 1,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Discipline Priest": 1
+    },
+    "records_with_quality_flags": 0,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 1,
+    "source_batch_distribution": {
+      "august_31st_2550_20260912": 1
+    },
+    "review_group": 40,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Discipline_Priest__Retribution_Paladin.jsonl",
+    "all_match_ids": [
+      "august_31st_2550_20260912__august31_2550_match_009"
+    ],
+    "source_confidence": {
+      "high": 1
+    },
+    "missing_role_fields": 1
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Enhancement Shaman / Marksmanship Hunter",
+    "total_games": 1,
+    "wins": 0,
+    "losses": 1,
+    "unknown_result": 0,
+    "opening_target_known": 1,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Enhancement Shaman": 1
+    },
+    "kill_target_known": 0,
+    "kill_target_unknown": 1,
+    "kill_targets": {},
+    "records_with_quality_flags": 1,
+    "records_with_source_exceptions": 1,
+    "records_with_source_win_condition_hypothesis": 1,
+    "source_batch_distribution": {
+      "january_4th_2700_20260913": 1
+    },
+    "review_group": 41,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Enhancement_Shaman__Marksmanship_Hunter.jsonl",
+    "all_match_ids": [
+      "january_4th_2700_20260913__match_006"
+    ],
+    "source_confidence": {
+      "medium": 1
+    },
+    "missing_role_fields": 1
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Enhancement Shaman / Subtlety Rogue",
+    "total_games": 1,
+    "wins": 1,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 1,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Enhancement Shaman": 1
+    },
+    "kill_target_known": 1,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Enhancement Shaman": 1
+    },
+    "records_with_quality_flags": 0,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 1,
+    "source_batch_distribution": {
+      "may_4th_2350_20260913": 1
+    },
+    "review_group": 42,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Enhancement_Shaman__Subtlety_Rogue.jsonl",
+    "all_match_ids": [
+      "may_4th_2350_20260913__may04_2350_match_022"
+    ],
+    "source_confidence": {
+      "medium": 1
+    },
+    "missing_role_fields": 1
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Feral Druid / Marksmanship Hunter",
+    "total_games": 1,
+    "wins": 1,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 1,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Feral Druid": 1
+    },
+    "kill_target_known": 1,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Marksmanship Hunter": 1
+    },
+    "records_with_quality_flags": 0,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 1,
+    "source_batch_distribution": {
+      "may_4th_2350_20260913": 1
+    },
+    "review_group": 43,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Feral_Druid__Marksmanship_Hunter.jsonl",
+    "all_match_ids": [
+      "may_4th_2350_20260913__may04_2350_match_021"
+    ],
+    "source_confidence": {
+      "high": 1
+    },
+    "missing_role_fields": 1
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Feral Druid / Shadow Priest",
+    "total_games": 1,
+    "wins": 1,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 1,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Feral Druid": 1
+    },
+    "kill_target_known": 1,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Feral Druid": 1
+    },
+    "records_with_quality_flags": 1,
+    "records_with_source_exceptions": 1,
+    "records_with_source_win_condition_hypothesis": 1,
+    "source_batch_distribution": {
+      "january_5th_full_20260912": 1
+    },
+    "review_group": 44,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Feral_Druid__Shadow_Priest.jsonl",
+    "all_match_ids": [
+      "january_5th_full_20260912__match_001"
+    ],
+    "source_confidence": {
+      "high": 1
+    },
+    "missing_role_fields": 1
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Holy Paladin / Shadow Priest",
+    "total_games": 1,
+    "wins": 1,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 1,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Holy Paladin": 1
+    },
+    "kill_target_known": 1,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Holy Paladin": 1
+    },
+    "records_with_quality_flags": 0,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 1,
+    "source_batch_distribution": {
+      "september_28th_2700_20260913": 1
+    },
+    "review_group": 45,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Holy_Paladin__Shadow_Priest.jsonl",
+    "all_match_ids": [
+      "september_28th_2700_20260913__september28_2700_match_014"
+    ],
+    "source_confidence": {
+      "high": 1
+    },
+    "missing_role_fields": 1
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Marksmanship Hunter / Protection Warrior",
+    "total_games": 1,
+    "wins": 1,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 1,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Marksmanship Hunter": 1
+    },
+    "kill_target_known": 1,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Marksmanship Hunter": 1
+    },
+    "records_with_quality_flags": 0,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 1,
+    "source_batch_distribution": {
+      "september_28th_2700_20260913": 1
+    },
+    "review_group": 46,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Marksmanship_Hunter__Protection_Warrior.jsonl",
+    "all_match_ids": [
+      "september_28th_2700_20260913__september28_2700_match_032"
+    ],
+    "source_confidence": {
+      "high": 1
+    },
+    "missing_role_fields": 1
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Marksmanship Hunter / Unholy Death Knight",
+    "total_games": 1,
+    "wins": 1,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 1,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Unholy Death Knight": 1
+    },
+    "kill_target_known": 1,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Marksmanship Hunter": 1
+    },
+    "records_with_quality_flags": 0,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 1,
+    "source_batch_distribution": {
+      "may_4th_2350_20260913": 1
+    },
+    "review_group": 47,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Marksmanship_Hunter__Unholy_Death_Knight.jsonl",
+    "all_match_ids": [
+      "may_4th_2350_20260913__may04_2350_match_014"
+    ],
+    "source_confidence": {
+      "high": 1
+    },
+    "missing_role_fields": 1
+  },
+  {
+    "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Protection Warrior / Restoration Druid",
+    "total_games": 1,
+    "wins": 1,
+    "losses": 0,
+    "unknown_result": 0,
+    "opening_target_known": 1,
+    "opening_target_unknown": 0,
+    "opening_targets": {
+      "Protection Warrior": 1
+    },
+    "kill_target_known": 1,
+    "kill_target_unknown": 0,
+    "kill_targets": {
+      "Restoration Druid": 1
+    },
+    "records_with_quality_flags": 0,
+    "records_with_source_exceptions": 0,
+    "records_with_source_win_condition_hypothesis": 1,
+    "source_batch_distribution": {
+      "september_28th_2700_20260913": 1
+    },
+    "review_group": 48,
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Protection_Warrior__Restoration_Druid.jsonl",
+    "all_match_ids": [
+      "september_28th_2700_20260913__september28_2700_match_023"
+    ],
+    "source_confidence": {
+      "high": 1
+    },
+    "missing_role_fields": 1
+  }
+]

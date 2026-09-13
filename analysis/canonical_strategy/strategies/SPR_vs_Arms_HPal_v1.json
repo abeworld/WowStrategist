@@ -1,0 +1,3602 @@
+{
+  "strategy_id": "SPR_vs_Arms_HPal_v1",
+  "strategy_key": "SPR_vs_Arms_HPal",
+  "version": 1,
+  "schema_version": "1.0.0",
+  "status": "provisional",
+  "created_date": "2026-09-13",
+  "our_comp": "Shadow Priest / Subtlety Rogue",
+  "enemy_comp": "Arms Warrior / Holy Paladin",
+  "evidence": {
+    "total_games": 80,
+    "wins": 66,
+    "losses": 14,
+    "unknown_result": 0,
+    "confidence": "medium",
+    "supporting_match_ids": [
+      "august_31st_2550_20260912__august31_2550_match_006",
+      "august_31st_2550_20260912__august31_2550_match_032",
+      "january_4th_2700_20260913__match_050",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+      "may_4th_2350_20260913__may04_2350_match_008",
+      "september_28th_2700_20260913__september28_2700_match_025",
+      "february_3rd_2550_20260912__feb03_2550_match_022",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+      "september_11th_2500_20260912__sep11_2500_match_013"
+    ],
+    "contradicting_match_ids": [
+      "january_4th_2700_20260913__match_024",
+      "january_4th_2700_20260913__match_041",
+      "january_4th_2700_20260913__match_042",
+      "january_4th_2700_20260913__match_045",
+      "january_4th_2700_20260913__match_052",
+      "january_4th_2700_20260913__match_053",
+      "january_5th_full_20260912__match_040",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_034",
+      "september_11th_2500_20260912__sep11_2500_match_042b",
+      "september_28th_2700_20260913__september28_2700_match_017",
+      "january_4th_2700_20260913__match_004"
+    ],
+    "contradiction_scope": "Challenges to candidate or stronger universal rules, not necessarily to the final qualified wording.",
+    "representative_match_ids": [
+      "august_31st_2550_20260912__august31_2550_match_006",
+      "august_31st_2550_20260912__august31_2550_match_032",
+      "january_4th_2700_20260913__match_050"
+    ],
+    "all_match_ids": [
+      "august_31st_2550_20260912__august31_2550_match_006",
+      "august_31st_2550_20260912__august31_2550_match_029",
+      "august_31st_2550_20260912__august31_2550_match_030",
+      "august_31st_2550_20260912__august31_2550_match_032",
+      "february_3rd_2550_20260912__feb03_2550_match_006",
+      "february_3rd_2550_20260912__feb03_2550_match_010",
+      "february_3rd_2550_20260912__feb03_2550_match_013",
+      "february_3rd_2550_20260912__feb03_2550_match_020",
+      "february_3rd_2550_20260912__feb03_2550_match_022",
+      "january_4th_2700_20260913__match_003",
+      "january_4th_2700_20260913__match_004",
+      "january_4th_2700_20260913__match_009",
+      "january_4th_2700_20260913__match_011",
+      "january_4th_2700_20260913__match_012",
+      "january_4th_2700_20260913__match_017",
+      "january_4th_2700_20260913__match_020",
+      "january_4th_2700_20260913__match_024",
+      "january_4th_2700_20260913__match_026",
+      "january_4th_2700_20260913__match_030",
+      "january_4th_2700_20260913__match_031",
+      "january_4th_2700_20260913__match_033",
+      "january_4th_2700_20260913__match_035",
+      "january_4th_2700_20260913__match_037",
+      "january_4th_2700_20260913__match_039",
+      "january_4th_2700_20260913__match_041",
+      "january_4th_2700_20260913__match_042",
+      "january_4th_2700_20260913__match_043",
+      "january_4th_2700_20260913__match_044",
+      "january_4th_2700_20260913__match_045",
+      "january_4th_2700_20260913__match_047",
+      "january_4th_2700_20260913__match_050",
+      "january_4th_2700_20260913__match_051",
+      "january_4th_2700_20260913__match_052",
+      "january_4th_2700_20260913__match_053",
+      "january_5th_full_20260912__match_018",
+      "january_5th_full_20260912__match_023",
+      "january_5th_full_20260912__match_025",
+      "january_5th_full_20260912__match_028",
+      "january_5th_full_20260912__match_029",
+      "january_5th_full_20260912__match_031b",
+      "january_5th_full_20260912__match_033a",
+      "january_5th_full_20260912__match_038",
+      "january_5th_full_20260912__match_040",
+      "january_5th_full_20260912__match_044",
+      "june_7th_2700_20260913__match_003",
+      "june_7th_2700_20260913__match_031",
+      "june_7th_2700_20260913__match_036",
+      "june_7th_2700_20260913__match_037",
+      "may_18th_2500_20260913__may18_2500_match_025",
+      "may_18th_2500_20260913__may18_2500_match_042",
+      "may_18th_2500_20260913__may18_2500_match_044",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_014",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_022",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_027",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_028",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_029",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_034",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_035",
+      "may_4th_2350_20260913__may04_2350_match_008",
+      "may_4th_2350_20260913__may04_2350_match_024",
+      "may_4th_2350_20260913__may04_2350_match_044",
+      "may_4th_2350_20260913__may04_2350_match_046",
+      "may_4th_2350_20260913__may04_2350_match_047",
+      "may_4th_2350_20260913__may04_2350_match_050",
+      "may_4th_2350_20260913__may04_2350_match_061",
+      "may_4th_2350_20260913__may04_2350_match_064",
+      "september_11th_2500_20260912__sep11_2500_match_005",
+      "september_11th_2500_20260912__sep11_2500_match_010",
+      "september_11th_2500_20260912__sep11_2500_match_013",
+      "september_11th_2500_20260912__sep11_2500_match_025",
+      "september_11th_2500_20260912__sep11_2500_match_042b",
+      "september_20th_2650_20260913__september20_2650_match_013",
+      "september_20th_2650_20260913__september20_2650_match_015",
+      "september_20th_2650_20260913__september20_2650_match_027",
+      "september_28th_2700_20260913__september28_2700_match_017",
+      "september_28th_2700_20260913__september28_2700_match_019",
+      "september_28th_2700_20260913__september28_2700_match_021",
+      "september_28th_2700_20260913__september28_2700_match_025"
+    ],
+    "data_quality_notes": [
+      "Source extractions reviewed; original videos were not reopened during synthesis.",
+      "Both dedicated player-role fields are empty in all input records; roles remain unknown except where explicit narrative evidence is cited.",
+      "Sample win rate is a property of selected footage, not expected ladder performance.",
+      "Absent events are unknown unless the record explicitly establishes availability or absence.",
+      "A reported enemy kill can occur after a friendly death; the round result is stored separately.",
+      "21 records carry source quality flags; consult evidence and exceptions before treating a claim as footage-verified."
+    ],
+    "source_batches": {
+      "august_31st_2550_20260912": 4,
+      "february_3rd_2550_20260912": 5,
+      "january_4th_2700_20260913": 25,
+      "january_5th_full_20260912": 10,
+      "june_7th_2700_20260913": 4,
+      "may_18th_2500_20260913": 3,
+      "may_24th_vod2_2600_20260913": 9,
+      "may_4th_2350_20260913": 8,
+      "september_11th_2500_20260912": 5,
+      "september_20th_2650_20260913": 3,
+      "september_28th_2700_20260913": 4
+    }
+  },
+  "facts": {
+    "by_result": {
+      "win": {
+        "total": 66,
+        "opening_targets": {
+          "Arms Warrior": 59,
+          "Holy Paladin": 7
+        },
+        "enemy_kill_targets": {
+          "Holy Paladin": 38,
+          "Arms Warrior": 27,
+          "unknown_or_no_enemy_kill": 1
+        }
+      },
+      "loss": {
+        "total": 14,
+        "opening_targets": {
+          "Arms Warrior": 10,
+          "Holy Paladin": 4
+        },
+        "enemy_kill_targets": {
+          "unknown_or_no_enemy_kill": 13,
+          "Holy Paladin": 1
+        }
+      },
+      "unknown": {
+        "total": 0,
+        "opening_targets": {},
+        "enemy_kill_targets": {}
+      }
+    },
+    "opening_targets": {
+      "Arms Warrior": 69,
+      "Holy Paladin": 11
+    },
+    "kill_targets": {
+      "Holy Paladin": 39,
+      "Arms Warrior": 27,
+      "unknown_or_no_enemy_kill": 14
+    },
+    "opening_to_reported_enemy_kill": [
+      {
+        "opening_target": "Arms Warrior",
+        "reported_enemy_kill": "Arms Warrior",
+        "result": "win",
+        "count": 24,
+        "match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_029",
+          "february_3rd_2550_20260912__feb03_2550_match_010",
+          "february_3rd_2550_20260912__feb03_2550_match_022",
+          "january_4th_2700_20260913__match_030",
+          "january_4th_2700_20260913__match_037",
+          "january_4th_2700_20260913__match_039",
+          "january_4th_2700_20260913__match_042",
+          "january_4th_2700_20260913__match_045",
+          "january_5th_full_20260912__match_029",
+          "january_5th_full_20260912__match_033a",
+          "june_7th_2700_20260913__match_003",
+          "june_7th_2700_20260913__match_036",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_034",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_035",
+          "may_4th_2350_20260913__may04_2350_match_047",
+          "may_4th_2350_20260913__may04_2350_match_050",
+          "may_4th_2350_20260913__may04_2350_match_064",
+          "september_11th_2500_20260912__sep11_2500_match_005",
+          "september_11th_2500_20260912__sep11_2500_match_013",
+          "september_11th_2500_20260912__sep11_2500_match_042b",
+          "september_20th_2650_20260913__september20_2650_match_015",
+          "september_20th_2650_20260913__september20_2650_match_027",
+          "september_28th_2700_20260913__september28_2700_match_019"
+        ]
+      },
+      {
+        "opening_target": "Arms Warrior",
+        "reported_enemy_kill": "Holy Paladin",
+        "result": "loss",
+        "count": 1,
+        "match_ids": [
+          "january_4th_2700_20260913__match_004"
+        ]
+      },
+      {
+        "opening_target": "Arms Warrior",
+        "reported_enemy_kill": "Holy Paladin",
+        "result": "win",
+        "count": 34,
+        "match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_006",
+          "august_31st_2550_20260912__august31_2550_match_032",
+          "february_3rd_2550_20260912__feb03_2550_match_006",
+          "february_3rd_2550_20260912__feb03_2550_match_020",
+          "january_4th_2700_20260913__match_017",
+          "january_4th_2700_20260913__match_024",
+          "january_4th_2700_20260913__match_026",
+          "january_4th_2700_20260913__match_031",
+          "january_4th_2700_20260913__match_035",
+          "january_4th_2700_20260913__match_041",
+          "january_4th_2700_20260913__match_050",
+          "january_4th_2700_20260913__match_053",
+          "january_5th_full_20260912__match_018",
+          "january_5th_full_20260912__match_028",
+          "january_5th_full_20260912__match_031b",
+          "january_5th_full_20260912__match_038",
+          "january_5th_full_20260912__match_040",
+          "june_7th_2700_20260913__match_031",
+          "june_7th_2700_20260913__match_037",
+          "may_18th_2500_20260913__may18_2500_match_042",
+          "may_18th_2500_20260913__may18_2500_match_044",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_027",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_029",
+          "may_4th_2350_20260913__may04_2350_match_008",
+          "may_4th_2350_20260913__may04_2350_match_024",
+          "may_4th_2350_20260913__may04_2350_match_044",
+          "may_4th_2350_20260913__may04_2350_match_046",
+          "may_4th_2350_20260913__may04_2350_match_061",
+          "september_11th_2500_20260912__sep11_2500_match_010",
+          "september_11th_2500_20260912__sep11_2500_match_025",
+          "september_20th_2650_20260913__september20_2650_match_013",
+          "september_28th_2700_20260913__september28_2700_match_017",
+          "september_28th_2700_20260913__september28_2700_match_025"
+        ]
+      },
+      {
+        "opening_target": "Arms Warrior",
+        "reported_enemy_kill": "unknown_or_no_enemy_kill",
+        "result": "loss",
+        "count": 9,
+        "match_ids": [
+          "january_4th_2700_20260913__match_003",
+          "january_4th_2700_20260913__match_009",
+          "january_4th_2700_20260913__match_011",
+          "january_4th_2700_20260913__match_012",
+          "january_4th_2700_20260913__match_033",
+          "january_4th_2700_20260913__match_051",
+          "may_18th_2500_20260913__may18_2500_match_025",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_014",
+          "september_28th_2700_20260913__september28_2700_match_021"
+        ]
+      },
+      {
+        "opening_target": "Arms Warrior",
+        "reported_enemy_kill": "unknown_or_no_enemy_kill",
+        "result": "win",
+        "count": 1,
+        "match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_030"
+        ]
+      },
+      {
+        "opening_target": "Holy Paladin",
+        "reported_enemy_kill": "Arms Warrior",
+        "result": "win",
+        "count": 3,
+        "match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_013",
+          "january_4th_2700_20260913__match_052",
+          "january_5th_full_20260912__match_025"
+        ]
+      },
+      {
+        "opening_target": "Holy Paladin",
+        "reported_enemy_kill": "Holy Paladin",
+        "result": "win",
+        "count": 4,
+        "match_ids": [
+          "january_4th_2700_20260913__match_020",
+          "january_5th_full_20260912__match_023",
+          "january_5th_full_20260912__match_044",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_022"
+        ]
+      },
+      {
+        "opening_target": "Holy Paladin",
+        "reported_enemy_kill": "unknown_or_no_enemy_kill",
+        "result": "loss",
+        "count": 4,
+        "match_ids": [
+          "january_4th_2700_20260913__match_043",
+          "january_4th_2700_20260913__match_044",
+          "january_4th_2700_20260913__match_047",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_028"
+        ]
+      }
+    ],
+    "sequence_limit": "Endpoints only. No intermediate swap timing, causal sequence, or survival at the enemy death is inferred by this computation.",
+    "source_resource_labels": [
+      {
+        "label": "Holy Paladin PvP Trinket ~86.5s",
+        "records": 2
+      },
+      {
+        "label": "Arms Warrior Hand of Protection received at 150s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket (~101s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket (~104s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket (~118s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket (~138s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket (~179s; still cooling at Paladin death)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket (~269s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket (~49s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket (~51s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket (~54s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket (~59s and ~201-203s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket (~60s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket (~64-65s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket (~69s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket (~79s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket (~84s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket (~93.5s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket (~94s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket about 84s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket at 130s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket at 55.5s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket at 61s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket at 71s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket at approximately 55s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket at approximately 94s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~102s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~105.5s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~110.5s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~110s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~116s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~128s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~148s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~149.5s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~155.5s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~157.5s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~160s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~251.5s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~55s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~65s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~66s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~79s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~86.5s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~87.5s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~94s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP Trinket ~99.5s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior PvP trinket at approximately 70s",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior: PvP Trinket (~159s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior: PvP Trinket (~174s, recovered use)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior: PvP Trinket (~43s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior: PvP Trinket (~47s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior: PvP Trinket (~49s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior: PvP Trinket (~59s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior: PvP Trinket (~61s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior: PvP Trinket (~70s)",
+        "records": 1
+      },
+      {
+        "label": "Arms Warrior: PvP Trinket (~76s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield (~128s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield (~174.5s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield (~65s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield (~69s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield (~99s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield about 83.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield at 103-115s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield at 107s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield at 86.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield at 88s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield at approximately 88s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield ~117s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield ~137s after friendly Rogue death",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield ~142.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield ~144s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield ~162.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield ~64s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield ~65s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield ~66.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield ~76.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield ~78s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield ~86s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield ~93s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin Divine Shield ~97.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket (~104s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket (~105s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket (~109s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket (~113s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket (~120s; recovered by ~239s before the kill)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket (~139s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket (~188s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket (~270s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket (~47-48s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket (~52s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket (~55s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket (~69s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket (~83-85s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket about 131s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket at 113.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket at 68s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket at 74s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket at 94.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket at approximately 100s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket at approximately 55s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~124s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~130.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~135s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~150.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~188s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~278s after friendly Rogue death",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~52.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~53.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~56s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~60.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~66.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~68.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~68s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~71s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~79.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~80s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~87.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP Trinket ~91s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin PvP trinket at approximately 66.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin defensive/immunity effects (~76-94s; abilities unknown)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin defensive/immunity state (~93-103s; ability unknown)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin further defensive state (~123-129s; ability unknown)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin immunity aura (~150s, name not independently confirmed)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin immunity-like defensive, exact ability unknown ~117.5-129s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin immunity-like defensive, exact ability unknown ~175.5-187.5s",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin: PvP Trinket (~193s, recovered after first use)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin: PvP Trinket (~204s, recovered use)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin: PvP Trinket (~43s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin: PvP Trinket (~49s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin: PvP Trinket (~50s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin: PvP Trinket (~51s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin: PvP Trinket (~52s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin: PvP Trinket (~69s)",
+        "records": 1
+      },
+      {
+        "label": "Holy Paladin: PvP Trinket (~75s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin Divine Shield (~168.5s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin Divine Shield (~244.5s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin Divine Shield (~73s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin Divine Shield around 135–139s",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket (~113s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket (~133s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket (~167s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket (~242s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket (~314.5s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket (~362.5s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket at 217",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket at 61",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket at 97",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket breaks Kidney Shot during healer pressure",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket ~58s",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP trinket around 89s",
+        "records": 1
+      },
+      {
+        "label": "Paladin Trinket (59s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin Trinket (80s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin Trinket 141s",
+        "records": 1
+      },
+      {
+        "label": "Paladin Trinket 61s",
+        "records": 1
+      },
+      {
+        "label": "Paladin Trinket 83s",
+        "records": 1
+      },
+      {
+        "label": "Paladin Trinket at 79s",
+        "records": 1
+      },
+      {
+        "label": "Paladin Trinket at 93, 225 and 413 during control.",
+        "records": 1
+      },
+      {
+        "label": "Paladin Trinket at 93, 225 and 413.",
+        "records": 1
+      },
+      {
+        "label": "Paladin Trinket at match_022 92 under opening healer control/pressure.",
+        "records": 1
+      },
+      {
+        "label": "Paladin Trinket at match_022 92.",
+        "records": 1
+      },
+      {
+        "label": "Paladin brief protection/immunity around 129-131; ability unknown.",
+        "records": 1
+      },
+      {
+        "label": "Paladin immunity 83-95s, exact ability name unconfirmed",
+        "records": 1
+      },
+      {
+        "label": "Paladin immunity-type defensive around 101.5-111.5, exact ability unknown",
+        "records": 1
+      },
+      {
+        "label": "Paladin immunity-type defensive follows continued low-health pressure",
+        "records": 1
+      },
+      {
+        "label": "Paladin immunity/major defensive (about 65.5s; exact ability uncertain)",
+        "records": 1
+      },
+      {
+        "label": "Paladin immunity/protection state at 149-153 following low-health pressure; exact ability unknown.",
+        "records": 1
+      },
+      {
+        "label": "Paladin immunity/protection state at 149-153; exact ability unknown.",
+        "records": 1
+      },
+      {
+        "label": "Paladin major defensive (60s; exact ability unknown)",
+        "records": 1
+      },
+      {
+        "label": "Paladin major defensive (85s; exact ability unknown)",
+        "records": 1
+      },
+      {
+        "label": "Paladin protection/immunity during the pressured healer swap.",
+        "records": 1
+      },
+      {
+        "label": "Paladin refreshed Trinket at match_023 106.5 under renewed healer control/pressure.",
+        "records": 1
+      },
+      {
+        "label": "Paladin refreshed Trinket at match_023 106.5.",
+        "records": 1
+      },
+      {
+        "label": "Warrior PvP Trinket (~161s)",
+        "records": 1
+      },
+      {
+        "label": "Warrior PvP Trinket (~167.5s)",
+        "records": 1
+      },
+      {
+        "label": "Warrior PvP Trinket (~336.5s)",
+        "records": 1
+      },
+      {
+        "label": "Warrior PvP Trinket (~65s and ~273s)",
+        "records": 1
+      },
+      {
+        "label": "Warrior PvP Trinket (~80.5s)",
+        "records": 1
+      },
+      {
+        "label": "Warrior PvP Trinket (~94.5s)",
+        "records": 1
+      },
+      {
+        "label": "Warrior PvP Trinket at 193",
+        "records": 1
+      },
+      {
+        "label": "Warrior PvP Trinket at 61.5",
+        "records": 1
+      },
+      {
+        "label": "Warrior PvP trinket around 89s",
+        "records": 1
+      },
+      {
+        "label": "Warrior Trinket (56s)",
+        "records": 1
+      },
+      {
+        "label": "Warrior Trinket (65.5s)",
+        "records": 1
+      },
+      {
+        "label": "Warrior Trinket 111s",
+        "records": 1
+      },
+      {
+        "label": "Warrior Trinket 115.5s",
+        "records": 1
+      },
+      {
+        "label": "Warrior Trinket 88s",
+        "records": 1
+      },
+      {
+        "label": "Warrior Trinket at 59 to escape Kidney Shot during opening pressure.",
+        "records": 1
+      },
+      {
+        "label": "Warrior Trinket at 59.",
+        "records": 1
+      },
+      {
+        "label": "Warrior Trinket at 72s",
+        "records": 1
+      },
+      {
+        "label": "Warrior Trinket at 73 during low-health Kidney Shot pressure.",
+        "records": 1
+      },
+      {
+        "label": "Warrior Trinket at 73.",
+        "records": 1
+      },
+      {
+        "label": "Warrior Trinket at 88, 227 and 432.5 during control.",
+        "records": 1
+      },
+      {
+        "label": "Warrior Trinket at 88, 227 and 432.5.",
+        "records": 1
+      },
+      {
+        "label": "Warrior Trinket at 96 during cross-control and Paladin pressure.",
+        "records": 1
+      },
+      {
+        "label": "Warrior Trinket at 96.",
+        "records": 1
+      },
+      {
+        "label": "Warrior Trinket at match_022 97 to leave Sap.",
+        "records": 1
+      },
+      {
+        "label": "Warrior Trinket at match_022 97.",
+        "records": 1
+      },
+      {
+        "label": "Warrior brief protection/immunity around 64.5-66 during lethal pressure; exact ability unknown.",
+        "records": 1
+      },
+      {
+        "label": "Warrior brief protection/immunity around 64.5-66; exact ability unknown.",
+        "records": 1
+      },
+      {
+        "label": "Warrior brief protection/immunity around 80-84; exact ability unknown.",
+        "records": 1
+      },
+      {
+        "label": "Warrior defensive aura (name unknown, ~95-101s)",
+        "records": 1
+      },
+      {
+        "label": "Warrior protection/immunity around 77-89; ability unknown.",
+        "records": 1
+      },
+      {
+        "label": "Warrior protection/immunity following pressure to approximately one quarter health.",
+        "records": 1
+      },
+      {
+        "label": "Warrior protection/immunity near 77-87; exact ability unknown",
+        "records": 1
+      },
+      {
+        "label": "Warrior refreshed Trinket at match_023 66 under renewed control.",
+        "records": 1
+      },
+      {
+        "label": "Warrior refreshed Trinket at match_023 66.",
+        "records": 1
+      },
+      {
+        "label": "Warrior third Trinket at match_023 205 during the ensuing duel.",
+        "records": 1
+      },
+      {
+        "label": "Warrior third Trinket at match_023 205 under duel control.",
+        "records": 1
+      }
+    ],
+    "resource_count_limit": "Exact source-listed labels, deduplicated within each match. They include uncertain or offensive entries and are not verified forced-resource frequencies.",
+    "cc_lexical_mentions": {
+      "Sap": 23,
+      "Blind": 34,
+      "Fear": 17,
+      "Silence": 7,
+      "Gouge": 2,
+      "Kidney Shot": 4
+    },
+    "cc_count_limit": "Literal mentions in observed notes, including negated/uncertain/post-death mentions. These are search aids, not counts of landed CC.",
+    "recovery_text_present": 75,
+    "recovery_count_limit": "Field coverage only: texts may explicitly say no reset. Not a reset-event rate.",
+    "missing_fields": {
+      "priest_role": 80,
+      "rogue_role": 80,
+      "recovery_text": 5,
+      "result": 0,
+      "opening_target": 0,
+      "enemy_kill_target": 14
+    },
+    "quality_flags": {
+      "source_exception_present": 20,
+      "truncated_evidence": 6
+    },
+    "extraction_confidence": {
+      "high": 64,
+      "medium": 16
+    }
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "H1",
+      "statement": "One opening target also explains every reported enemy kill in wins.",
+      "tested_target": "Arms Warrior",
+      "disposition": "rejected_as_exhaustive",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_029",
+        "february_3rd_2550_20260912__feb03_2550_match_010",
+        "february_3rd_2550_20260912__feb03_2550_match_013",
+        "february_3rd_2550_20260912__feb03_2550_match_022",
+        "january_4th_2700_20260913__match_030",
+        "january_4th_2700_20260913__match_037",
+        "january_4th_2700_20260913__match_039",
+        "january_4th_2700_20260913__match_042",
+        "january_4th_2700_20260913__match_045",
+        "january_4th_2700_20260913__match_052",
+        "january_5th_full_20260912__match_025",
+        "january_5th_full_20260912__match_029",
+        "january_5th_full_20260912__match_033a",
+        "june_7th_2700_20260913__match_003",
+        "june_7th_2700_20260913__match_036",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_034",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_035",
+        "may_4th_2350_20260913__may04_2350_match_047",
+        "may_4th_2350_20260913__may04_2350_match_050",
+        "may_4th_2350_20260913__may04_2350_match_064",
+        "september_11th_2500_20260912__sep11_2500_match_005",
+        "september_11th_2500_20260912__sep11_2500_match_013",
+        "september_11th_2500_20260912__sep11_2500_match_042b",
+        "september_20th_2650_20260913__september20_2650_match_015",
+        "september_20th_2650_20260913__september20_2650_match_027",
+        "september_28th_2700_20260913__september28_2700_match_019"
+      ],
+      "contradicting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_006",
+        "august_31st_2550_20260912__august31_2550_match_032",
+        "february_3rd_2550_20260912__feb03_2550_match_006",
+        "february_3rd_2550_20260912__feb03_2550_match_020",
+        "january_4th_2700_20260913__match_017",
+        "january_4th_2700_20260913__match_020",
+        "january_4th_2700_20260913__match_024",
+        "january_4th_2700_20260913__match_026",
+        "january_4th_2700_20260913__match_031",
+        "january_4th_2700_20260913__match_035",
+        "january_4th_2700_20260913__match_041",
+        "january_4th_2700_20260913__match_050",
+        "january_4th_2700_20260913__match_053",
+        "january_5th_full_20260912__match_018",
+        "january_5th_full_20260912__match_023",
+        "january_5th_full_20260912__match_028",
+        "january_5th_full_20260912__match_031b",
+        "january_5th_full_20260912__match_038",
+        "january_5th_full_20260912__match_040",
+        "january_5th_full_20260912__match_044",
+        "june_7th_2700_20260913__match_031",
+        "june_7th_2700_20260913__match_037",
+        "may_18th_2500_20260913__may18_2500_match_042",
+        "may_18th_2500_20260913__may18_2500_match_044",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_022",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_027",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_029",
+        "may_4th_2350_20260913__may04_2350_match_008",
+        "may_4th_2350_20260913__may04_2350_match_024",
+        "may_4th_2350_20260913__may04_2350_match_044",
+        "may_4th_2350_20260913__may04_2350_match_046",
+        "may_4th_2350_20260913__may04_2350_match_061",
+        "september_11th_2500_20260912__sep11_2500_match_010",
+        "september_11th_2500_20260912__sep11_2500_match_025",
+        "september_20th_2650_20260913__september20_2650_match_013",
+        "september_28th_2700_20260913__september28_2700_match_017",
+        "september_28th_2700_20260913__september28_2700_match_025"
+      ],
+      "unknown_kill_wins": 1,
+      "limitation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability."
+    },
+    {
+      "hypothesis_id": "H2",
+      "statement": "A reachable enemy is losing meaningful health while partner disruption limits recovery or counterpressure long enough to finish. This is a useful conversion state, not a proven necessary or sufficient condition.",
+      "disposition": "provisional_interpretation",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_006",
+        "august_31st_2550_20260912__august31_2550_match_032",
+        "january_4th_2700_20260913__match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+        "may_4th_2350_20260913__may04_2350_match_008",
+        "september_28th_2700_20260913__september28_2700_match_025",
+        "february_3rd_2550_20260912__feb03_2550_match_022",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_013"
+      ],
+      "contradicting_match_ids": [],
+      "limitation": "Mandatory double-Trinket removal, mandatory Warrior Blind, continuous partner isolation, and an inevitable Paladin kill all fail as universal rules. Some kills succeed with escapes ready or the partner active; a Paladin kill can still lose the round."
+    },
+    {
+      "hypothesis_id": "H3",
+      "statement": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [
+        "january_4th_2700_20260913__match_024",
+        "january_4th_2700_20260913__match_041",
+        "january_4th_2700_20260913__match_042",
+        "january_4th_2700_20260913__match_045",
+        "january_4th_2700_20260913__match_052",
+        "january_4th_2700_20260913__match_053",
+        "january_5th_full_20260912__match_040",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_034",
+        "september_11th_2500_20260912__sep11_2500_match_042b",
+        "september_28th_2700_20260913__september28_2700_match_017",
+        "january_4th_2700_20260913__match_004"
+      ],
+      "limitation": "Mandatory double-Trinket removal, mandatory Warrior Blind, continuous partner isolation, and an inevitable Paladin kill all fail as universal rules. Some kills succeed with escapes ready or the partner active; a Paladin kill can still lose the round."
+    }
+  ],
+  "default_line": {
+    "opening_target": {
+      "text": "Arms Warrior; recorded in 69/80 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "basis": "pattern",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_006",
+        "august_31st_2550_20260912__august31_2550_match_029",
+        "august_31st_2550_20260912__august31_2550_match_030",
+        "august_31st_2550_20260912__august31_2550_match_032",
+        "february_3rd_2550_20260912__feb03_2550_match_006",
+        "february_3rd_2550_20260912__feb03_2550_match_010",
+        "february_3rd_2550_20260912__feb03_2550_match_020",
+        "february_3rd_2550_20260912__feb03_2550_match_022",
+        "january_4th_2700_20260913__match_003",
+        "january_4th_2700_20260913__match_004",
+        "january_4th_2700_20260913__match_009",
+        "january_4th_2700_20260913__match_011",
+        "january_4th_2700_20260913__match_012",
+        "january_4th_2700_20260913__match_017",
+        "january_4th_2700_20260913__match_024",
+        "january_4th_2700_20260913__match_026",
+        "january_4th_2700_20260913__match_030",
+        "january_4th_2700_20260913__match_031",
+        "january_4th_2700_20260913__match_033",
+        "january_4th_2700_20260913__match_035",
+        "january_4th_2700_20260913__match_037",
+        "january_4th_2700_20260913__match_039",
+        "january_4th_2700_20260913__match_041",
+        "january_4th_2700_20260913__match_042",
+        "january_4th_2700_20260913__match_045",
+        "january_4th_2700_20260913__match_050",
+        "january_4th_2700_20260913__match_051",
+        "january_4th_2700_20260913__match_053",
+        "january_5th_full_20260912__match_018",
+        "january_5th_full_20260912__match_028",
+        "january_5th_full_20260912__match_029",
+        "january_5th_full_20260912__match_031b",
+        "january_5th_full_20260912__match_033a",
+        "january_5th_full_20260912__match_038",
+        "january_5th_full_20260912__match_040",
+        "june_7th_2700_20260913__match_003",
+        "june_7th_2700_20260913__match_031",
+        "june_7th_2700_20260913__match_036",
+        "june_7th_2700_20260913__match_037",
+        "may_18th_2500_20260913__may18_2500_match_025",
+        "may_18th_2500_20260913__may18_2500_match_042",
+        "may_18th_2500_20260913__may18_2500_match_044",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_027",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_029",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_034",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_035",
+        "may_4th_2350_20260913__may04_2350_match_008",
+        "may_4th_2350_20260913__may04_2350_match_024",
+        "may_4th_2350_20260913__may04_2350_match_044",
+        "may_4th_2350_20260913__may04_2350_match_046",
+        "may_4th_2350_20260913__may04_2350_match_047",
+        "may_4th_2350_20260913__may04_2350_match_050",
+        "may_4th_2350_20260913__may04_2350_match_061",
+        "may_4th_2350_20260913__may04_2350_match_064",
+        "september_11th_2500_20260912__sep11_2500_match_005",
+        "september_11th_2500_20260912__sep11_2500_match_010",
+        "september_11th_2500_20260912__sep11_2500_match_013",
+        "september_11th_2500_20260912__sep11_2500_match_025",
+        "september_11th_2500_20260912__sep11_2500_match_042b",
+        "september_20th_2650_20260913__september20_2650_match_013",
+        "september_20th_2650_20260913__september20_2650_match_015",
+        "september_20th_2650_20260913__september20_2650_match_027",
+        "september_28th_2700_20260913__september28_2700_match_017",
+        "september_28th_2700_20260913__september28_2700_match_019",
+        "september_28th_2700_20260913__september28_2700_match_021",
+        "september_28th_2700_20260913__september28_2700_match_025"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "all_labeled_openers_in_this_matchup"
+    },
+    "initial_objective": {
+      "text": "Use Warrior pressure to develop a damaging window; decide between a covered Paladin commitment and continued Warrior pressure from the actual health and control state.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_006",
+        "august_31st_2550_20260912__august31_2550_match_032",
+        "january_4th_2700_20260913__match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+        "may_4th_2350_20260913__may04_2350_match_008",
+        "september_28th_2700_20260913__september28_2700_match_025",
+        "february_3rd_2550_20260912__feb03_2550_match_022",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_013"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "win_condition": {
+      "text": "A reachable enemy is losing meaningful health while partner disruption limits recovery or counterpressure long enough to finish. This is a useful conversion state, not a proven necessary or sufficient condition.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_006",
+        "august_31st_2550_20260912__august31_2550_match_032",
+        "january_4th_2700_20260913__match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+        "may_4th_2350_20260913__may04_2350_match_008",
+        "september_28th_2700_20260913__september28_2700_match_025",
+        "february_3rd_2550_20260912__feb03_2550_match_022",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_013"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "manufacture": {
+      "text": "Open Warrior in the usual line, pair pressure with Paladin control, and watch the response. Repeated healed Warrior attempts can lead to Warrior control and a Paladin swap; a low Warrior can instead be finished.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_006",
+        "august_31st_2550_20260912__august31_2550_match_032",
+        "january_4th_2700_20260913__match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+        "may_4th_2350_20260913__may04_2350_match_008",
+        "september_28th_2700_20260913__september28_2700_match_025",
+        "february_3rd_2550_20260912__feb03_2550_match_022",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_013"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "conversion": {
+      "text": "Commit to the vulnerable target and renew short control or interrupts around the health decline. Warrior Blind/Sap into Paladin damage is a repeated line; it is not the only winning line.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_006",
+        "august_31st_2550_20260912__august31_2550_match_032",
+        "january_4th_2700_20260913__match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+        "may_4th_2350_20260913__may04_2350_match_008",
+        "september_28th_2700_20260913__september28_2700_match_025",
+        "february_3rd_2550_20260912__feb03_2550_match_022",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_013"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "reset": {
+      "text": "After a Paladin immunity or healed attempt, return pressure to Warrior and stabilise; renew Paladin pressure when immunity ends if a fresh window exists. Recheck cooldowns after long exchanges.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_006",
+        "august_31st_2550_20260912__august31_2550_match_032",
+        "january_4th_2700_20260913__match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+        "may_4th_2350_20260913__may04_2350_match_008",
+        "september_28th_2700_20260913__september28_2700_match_025",
+        "february_3rd_2550_20260912__feb03_2550_match_022",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_013"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "important_resources": [
+      {
+        "name": "PvP Trinket",
+        "relevance": "conditional",
+        "assessment": {
+          "text": "Conditional control-window resource. Escapes and recovered cooldowns change the available control, but neither enemy Trinket is a universal pre-kill requirement.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "august_31st_2550_20260912__august31_2550_match_032",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+            "september_28th_2700_20260913__september28_2700_match_021"
+          ],
+          "contradicting_match_ids": [
+            "january_4th_2700_20260913__match_041",
+            "january_4th_2700_20260913__match_052",
+            "january_4th_2700_20260913__match_053",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+            "september_11th_2500_20260912__sep11_2500_match_042b"
+          ],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        },
+        "requirement": "not_established_as_universal_prerequisite",
+        "relevance_test": {
+          "repeated_forcing": "Not computed from copied source hypotheses; cited observations reviewed individually.",
+          "before_successful_conversion": "See cited match chronology; a spend elsewhere in the round is insufficient.",
+          "different_behavior_after_spend": "Supported only for the cited control/immunity sequences; no complete frequency estimate.",
+          "wins_with_resource_available": [
+            "january_4th_2700_20260913__match_041",
+            "january_4th_2700_20260913__match_052",
+            "january_4th_2700_20260913__match_053",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+            "september_11th_2500_20260912__sep11_2500_match_042b"
+          ],
+          "sufficiency_in_losses": "Not established; compare the matchup failure examples.",
+          "pressure_side_effect": "Cannot be excluded from a spend alone.",
+          "control_interaction": "Conditional control-window resource. Escapes and recovered cooldowns change the available control, but neither enemy Trinket is a universal pre-kill requirement."
+        }
+      },
+      {
+        "name": "Divine Shield",
+        "relevance": "conditional",
+        "assessment": {
+          "text": "A repeatedly observed interruption of Paladin conversion. Its expiry/recovery can redirect or delay the next attempt; a prior spend is not required for every kill.",
+          "basis": "inferred",
+          "confidence": "medium",
+          "supporting_match_ids": [
+            "august_31st_2550_20260912__august31_2550_match_006",
+            "january_4th_2700_20260913__match_003",
+            "september_28th_2700_20260913__september28_2700_match_021",
+            "september_28th_2700_20260913__september28_2700_match_025"
+          ],
+          "contradicting_match_ids": [
+            "january_4th_2700_20260913__match_024",
+            "january_4th_2700_20260913__match_042"
+          ],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        },
+        "requirement": "not_established_as_universal_prerequisite",
+        "relevance_test": {
+          "repeated_forcing": "Not computed from copied source hypotheses; cited observations reviewed individually.",
+          "before_successful_conversion": "See cited match chronology; a spend elsewhere in the round is insufficient.",
+          "different_behavior_after_spend": "Supported only for the cited control/immunity sequences; no complete frequency estimate.",
+          "wins_with_resource_available": [
+            "january_4th_2700_20260913__match_024",
+            "january_4th_2700_20260913__match_042"
+          ],
+          "sufficiency_in_losses": "Not established; compare the matchup failure examples.",
+          "pressure_side_effect": "Cannot be excluded from a spend alone.",
+          "control_interaction": "A repeatedly observed interruption of Paladin conversion. Its expiry/recovery can redirect or delay the next attempt; a prior spend is not required for every kill."
+        }
+      },
+      {
+        "name": "Berserker Rage",
+        "relevance": "unknown",
+        "assessment": {
+          "text": "unknown: no repeated verified role established; excluded from the plan.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [
+            "september_20th_2650_20260913__september20_2650_match_013"
+          ],
+          "evidence_scope": "none"
+        },
+        "requirement": "not_established_as_universal_prerequisite",
+        "relevance_test": {
+          "repeated_forcing": "Not computed from copied source hypotheses; cited observations reviewed individually.",
+          "before_successful_conversion": "See cited match chronology; a spend elsewhere in the round is insufficient.",
+          "different_behavior_after_spend": "Supported only for the cited control/immunity sequences; no complete frequency estimate.",
+          "wins_with_resource_available": [
+            "september_20th_2650_20260913__september20_2650_match_013"
+          ],
+          "sufficiency_in_losses": "Not established; compare the matchup failure examples.",
+          "pressure_side_effect": "Cannot be excluded from a spend alone.",
+          "control_interaction": "unknown: no repeated verified role established; excluded from the plan."
+        }
+      }
+    ]
+  },
+  "states": [
+    {
+      "state_id": "opening",
+      "description": "Open Warrior in the usual line, pair pressure with Paladin control, and watch the response. Repeated healed Warrior attempts can lead to Warrior control and a Paladin swap; a low Warrior can instead be finished.",
+      "team_objective": {
+        "text": "Open Warrior in the usual line, pair pressure with Paladin control, and watch the response. Repeated healed Warrior attempts can lead to Warrior control and a Paladin swap; a low Warrior can instead be finished.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_006",
+          "august_31st_2550_20260912__august31_2550_match_032",
+          "january_4th_2700_20260913__match_050",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+          "may_4th_2350_20260913__may04_2350_match_008",
+          "september_28th_2700_20260913__september28_2700_match_025",
+          "february_3rd_2550_20260912__feb03_2550_match_022",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+          "september_11th_2500_20260912__sep11_2500_match_013"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "An actual pressure commitment has begun.",
+          "basis": "inferred",
+          "confidence": "medium",
+          "supporting_match_ids": [
+            "august_31st_2550_20260912__august31_2550_match_006",
+            "august_31st_2550_20260912__august31_2550_match_032",
+            "january_4th_2700_20260913__match_050",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+            "may_4th_2350_20260913__may04_2350_match_008",
+            "september_28th_2700_20260913__september28_2700_match_025",
+            "february_3rd_2550_20260912__feb03_2550_match_022",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+            "september_11th_2500_20260912__sep11_2500_match_013"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "august_31st_2550_20260912__august31_2550_match_006",
+        "august_31st_2550_20260912__august31_2550_match_032",
+        "january_4th_2700_20260913__match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+        "may_4th_2350_20260913__may04_2350_match_008",
+        "september_28th_2700_20260913__september28_2700_match_025",
+        "february_3rd_2550_20260912__feb03_2550_match_022",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_013"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "state_id": "pressure",
+      "description": "Use Warrior pressure to develop a damaging window; decide between a covered Paladin commitment and continued Warrior pressure from the actual health and control state.",
+      "team_objective": {
+        "text": "Use Warrior pressure to develop a damaging window; decide between a covered Paladin commitment and continued Warrior pressure from the actual health and control state.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_006",
+          "august_31st_2550_20260912__august31_2550_match_032",
+          "january_4th_2700_20260913__match_050",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+          "may_4th_2350_20260913__may04_2350_match_008",
+          "september_28th_2700_20260913__september28_2700_match_025",
+          "february_3rd_2550_20260912__feb03_2550_match_022",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+          "september_11th_2500_20260912__sep11_2500_match_013"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "august_31st_2550_20260912__august31_2550_match_006",
+        "august_31st_2550_20260912__august31_2550_match_032",
+        "january_4th_2700_20260913__match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+        "may_4th_2350_20260913__may04_2350_match_008",
+        "september_28th_2700_20260913__september28_2700_match_025",
+        "february_3rd_2550_20260912__feb03_2550_match_022",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_013"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "state_id": "conversion",
+      "description": "Commit to the vulnerable target and renew short control or interrupts around the health decline. Warrior Blind/Sap into Paladin damage is a repeated line; it is not the only winning line.",
+      "team_objective": {
+        "text": "Commit to the vulnerable target and renew short control or interrupts around the health decline. Warrior Blind/Sap into Paladin damage is a repeated line; it is not the only winning line.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_006",
+          "august_31st_2550_20260912__august31_2550_match_032",
+          "january_4th_2700_20260913__match_050",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+          "may_4th_2350_20260913__may04_2350_match_008",
+          "september_28th_2700_20260913__september28_2700_match_025",
+          "february_3rd_2550_20260912__feb03_2550_match_022",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+          "september_11th_2500_20260912__sep11_2500_match_013"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "Mass Dispel attempts are observed against Paladin immunity, with variable apparent success. Base the next commitment on the actual immunity ending, not merely the cast attempt.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_006",
+          "february_3rd_2550_20260912__feb03_2550_match_020",
+          "september_20th_2650_20260913__september20_2650_match_027"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "A reachable enemy is losing meaningful health while partner disruption limits recovery or counterpressure long enough to finish. This is a useful conversion state, not a proven necessary or sufficient condition.",
+          "basis": "inferred",
+          "confidence": "medium",
+          "supporting_match_ids": [
+            "august_31st_2550_20260912__august31_2550_match_006",
+            "august_31st_2550_20260912__august31_2550_match_032",
+            "january_4th_2700_20260913__match_050",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+            "may_4th_2350_20260913__may04_2350_match_008",
+            "september_28th_2700_20260913__september28_2700_match_025",
+            "february_3rd_2550_20260912__feb03_2550_match_022",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+            "september_11th_2500_20260912__sep11_2500_match_013"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "august_31st_2550_20260912__august31_2550_match_006",
+        "august_31st_2550_20260912__august31_2550_match_032",
+        "january_4th_2700_20260913__match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+        "may_4th_2350_20260913__may04_2350_match_008",
+        "september_28th_2700_20260913__september28_2700_match_025",
+        "february_3rd_2550_20260912__feb03_2550_match_022",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_013"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "state_id": "recovery",
+      "description": "After a Paladin immunity or healed attempt, return pressure to Warrior and stabilise; renew Paladin pressure when immunity ends if a fresh window exists. Recheck cooldowns after long exchanges.",
+      "team_objective": {
+        "text": "After a Paladin immunity or healed attempt, return pressure to Warrior and stabilise; renew Paladin pressure when immunity ends if a fresh window exists. Recheck cooldowns after long exchanges.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_006",
+          "august_31st_2550_20260912__august31_2550_match_032",
+          "january_4th_2700_20260913__match_050",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+          "may_4th_2350_20260913__may04_2350_match_008",
+          "september_28th_2700_20260913__september28_2700_match_025",
+          "february_3rd_2550_20260912__feb03_2550_match_022",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+          "september_11th_2500_20260912__sep11_2500_match_013"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "Use the observed healing opportunities to stabilise; friendly Priest healing/Divine Hymn appears between attempts or after the first kill. A mandatory cooldown schedule is unknown.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_4th_2700_20260913__match_050",
+          "september_20th_2650_20260913__september20_2650_match_013",
+          "september_20th_2650_20260913__september20_2650_match_027"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "The preceding attempt is healed, protected, or interrupted.",
+          "basis": "inferred",
+          "confidence": "medium",
+          "supporting_match_ids": [
+            "august_31st_2550_20260912__august31_2550_match_006",
+            "august_31st_2550_20260912__august31_2550_match_032",
+            "january_4th_2700_20260913__match_050",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+            "may_4th_2350_20260913__may04_2350_match_008",
+            "september_28th_2700_20260913__september28_2700_match_025",
+            "february_3rd_2550_20260912__feb03_2550_match_022",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+            "september_11th_2500_20260912__sep11_2500_match_013"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "august_31st_2550_20260912__august31_2550_match_006",
+        "august_31st_2550_20260912__august31_2550_match_032",
+        "january_4th_2700_20260913__match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+        "may_4th_2350_20260913__may04_2350_match_008",
+        "september_28th_2700_20260913__september28_2700_match_025",
+        "february_3rd_2550_20260912__feb03_2550_match_022",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_013"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "branches": [
+    {
+      "branch_id": "branch_1",
+      "from_state": "pressure",
+      "next_state": "conversion",
+      "trigger": {
+        "text": "Paladin immunity stops the healer attempt and Warrior remains attackable.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_029",
+          "february_3rd_2550_20260912__feb03_2550_match_013",
+          "january_5th_full_20260912__match_029",
+          "september_28th_2700_20260913__september28_2700_match_019"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "response": {
+        "text": "Return Warrior; renew Paladin disruption and finish Warrior if the next health decline persists.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_029",
+          "february_3rd_2550_20260912__feb03_2550_match_013",
+          "january_5th_full_20260912__match_029",
+          "september_28th_2700_20260913__september28_2700_match_019"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "classification": "real reactive branch",
+      "team_objective": {
+        "text": "Return Warrior; renew Paladin disruption and finish Warrior if the next health decline persists.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_029",
+          "february_3rd_2550_20260912__feb03_2550_match_013",
+          "january_5th_full_20260912__match_029",
+          "september_28th_2700_20260913__september28_2700_match_019"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "evidence": [
+        "august_31st_2550_20260912__august31_2550_match_029",
+        "february_3rd_2550_20260912__feb03_2550_match_013",
+        "january_5th_full_20260912__match_029",
+        "september_28th_2700_20260913__september28_2700_match_019"
+      ],
+      "confidence": "low"
+    },
+    {
+      "branch_id": "branch_2",
+      "from_state": "pressure",
+      "next_state": "conversion",
+      "trigger": {
+        "text": "Paladin recovers through immunity, then a fresh partner-control window is established after it ends.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_006",
+          "august_31st_2550_20260912__august31_2550_match_032",
+          "january_4th_2700_20260913__match_050",
+          "september_28th_2700_20260913__september28_2700_match_025"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "response": {
+        "text": "Renew Paladin pressure and control; check current escape availability rather than carrying an old spend forward.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_006",
+          "august_31st_2550_20260912__august31_2550_match_032",
+          "january_4th_2700_20260913__match_050",
+          "september_28th_2700_20260913__september28_2700_match_025"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "classification": "real reactive branch",
+      "team_objective": {
+        "text": "Renew Paladin pressure and control; check current escape availability rather than carrying an old spend forward.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_006",
+          "august_31st_2550_20260912__august31_2550_match_032",
+          "january_4th_2700_20260913__match_050",
+          "september_28th_2700_20260913__september28_2700_match_025"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "evidence": [
+        "august_31st_2550_20260912__august31_2550_match_006",
+        "august_31st_2550_20260912__august31_2550_match_032",
+        "january_4th_2700_20260913__match_050",
+        "september_28th_2700_20260913__september28_2700_match_025"
+      ],
+      "confidence": "low"
+    },
+    {
+      "branch_id": "branch_3",
+      "from_state": "pressure",
+      "next_state": "conversion",
+      "trigger": {
+        "text": "Warrior becomes killable during the opening or renewed Warrior pressure.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_022",
+          "january_4th_2700_20260913__match_042",
+          "june_7th_2700_20260913__match_003",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "response": {
+        "text": "Finish Warrior; a healer swap is unnecessary in this line.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_022",
+          "january_4th_2700_20260913__match_042",
+          "june_7th_2700_20260913__match_003",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "classification": "real reactive branch",
+      "team_objective": {
+        "text": "Finish Warrior; a healer swap is unnecessary in this line.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_022",
+          "january_4th_2700_20260913__match_042",
+          "june_7th_2700_20260913__match_003",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "evidence": [
+        "february_3rd_2550_20260912__feb03_2550_match_022",
+        "january_4th_2700_20260913__match_042",
+        "june_7th_2700_20260913__match_003",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "match_assessments": [
+    {
+      "match_id": "august_31st_2550_20260912__august31_2550_match_006",
+      "review_id": "M006",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "august_31st_2550_20260912__august31_2550_match_029",
+      "review_id": "M023",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "august_31st_2550_20260912__august31_2550_match_030",
+      "review_id": "M024",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "august_31st_2550_20260912__august31_2550_match_032",
+      "review_id": "M026",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "february_3rd_2550_20260912__feb03_2550_match_006",
+      "review_id": "M032",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "february_3rd_2550_20260912__feb03_2550_match_010",
+      "review_id": "M036",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "february_3rd_2550_20260912__feb03_2550_match_013",
+      "review_id": "M039",
+      "result": "win",
+      "observed_opening_target": "Holy Paladin",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "february_3rd_2550_20260912__feb03_2550_match_020",
+      "review_id": "M046",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "february_3rd_2550_20260912__feb03_2550_match_022",
+      "review_id": "M048",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_003",
+      "review_id": "M052",
+      "result": "loss",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_004",
+      "review_id": "M053",
+      "result": "loss",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_009",
+      "review_id": "M056",
+      "result": "loss",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_011",
+      "review_id": "M057",
+      "result": "loss",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_012",
+      "review_id": "M058",
+      "result": "loss",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_017",
+      "review_id": "M063",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_020",
+      "review_id": "M066",
+      "result": "win",
+      "observed_opening_target": "Holy Paladin",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_024",
+      "review_id": "M070",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_026",
+      "review_id": "M072",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_030",
+      "review_id": "M076",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_031",
+      "review_id": "M077",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_033",
+      "review_id": "M079",
+      "result": "loss",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_035",
+      "review_id": "M081",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_037",
+      "review_id": "M083",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_039",
+      "review_id": "M085",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_041",
+      "review_id": "M087",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_042",
+      "review_id": "M088",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_043",
+      "review_id": "M089",
+      "result": "loss",
+      "observed_opening_target": "Holy Paladin",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_044",
+      "review_id": "M090",
+      "result": "loss",
+      "observed_opening_target": "Holy Paladin",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_045",
+      "review_id": "M091",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_047",
+      "review_id": "M093",
+      "result": "loss",
+      "observed_opening_target": "Holy Paladin",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_050",
+      "review_id": "M096",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_051",
+      "review_id": "M097",
+      "result": "loss",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_052",
+      "review_id": "M098",
+      "result": "win",
+      "observed_opening_target": "Holy Paladin",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_053",
+      "review_id": "M099",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_018",
+      "review_id": "M117",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_023",
+      "review_id": "M122",
+      "result": "win",
+      "observed_opening_target": "Holy Paladin",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_025",
+      "review_id": "M123",
+      "result": "win",
+      "observed_opening_target": "Holy Paladin",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_028",
+      "review_id": "M126",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_029",
+      "review_id": "M127",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_031b",
+      "review_id": "M131",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_033a",
+      "review_id": "M133",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_038",
+      "review_id": "M140",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_040",
+      "review_id": "M142",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_044",
+      "review_id": "M146",
+      "result": "win",
+      "observed_opening_target": "Holy Paladin",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_003",
+      "review_id": "M152",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_031",
+      "review_id": "M180",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_036",
+      "review_id": "M185",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_037",
+      "review_id": "M186",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_025",
+      "review_id": "M213",
+      "result": "loss",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_042",
+      "review_id": "M227",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_044",
+      "review_id": "M229",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_014",
+      "review_id": "M317",
+      "result": "loss",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+      "review_id": "M321",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+      "review_id": "M322",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_022",
+      "review_id": "M324",
+      "result": "win",
+      "observed_opening_target": "Holy Paladin",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_027",
+      "review_id": "M327",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_028",
+      "review_id": "M328",
+      "result": "loss",
+      "observed_opening_target": "Holy Paladin",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_029",
+      "review_id": "M329",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_034",
+      "review_id": "M334",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_035",
+      "review_id": "M335",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_008",
+      "review_id": "M342",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_024",
+      "review_id": "M357",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_044",
+      "review_id": "M374",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_046",
+      "review_id": "M376",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_047",
+      "review_id": "M377",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_050",
+      "review_id": "M379",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_061",
+      "review_id": "M387",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_064",
+      "review_id": "M390",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_005",
+      "review_id": "M396",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_010",
+      "review_id": "M401",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_013",
+      "review_id": "M403",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_025",
+      "review_id": "M414",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_042b",
+      "review_id": "M431",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_013",
+      "review_id": "M444",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_015",
+      "review_id": "M446",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_027",
+      "review_id": "M456",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_28th_2700_20260913__september28_2700_match_017",
+      "review_id": "M472",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_28th_2700_20260913__september28_2700_match_019",
+      "review_id": "M474",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Arms Warrior",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_28th_2700_20260913__september28_2700_match_021",
+      "review_id": "M475",
+      "result": "loss",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_28th_2700_20260913__september28_2700_match_025",
+      "review_id": "M479",
+      "result": "win",
+      "observed_opening_target": "Arms Warrior",
+      "reported_enemy_kill_target": "Holy Paladin",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    }
+  ],
+  "failure_modes": [
+    {
+      "text": "A Paladin low is protected by Divine Shield; later resource expenditure fails to recreate the low-health window before a friendly death.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "january_4th_2700_20260913__match_003",
+        "january_4th_2700_20260913__match_044",
+        "september_28th_2700_20260913__september28_2700_match_021"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    {
+      "text": "The first enemy kill is followed by a lost survival/cleanup exchange.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "january_4th_2700_20260913__match_004"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    }
+  ],
+  "runtime_observability": {
+    "automatic": [],
+    "automatic_candidates": [
+      {
+        "signal": "Verified cast/aura, present health, or an observed control start/end",
+        "status": "unvalidated_candidate",
+        "scope": "Raw events only; not strategic intent or reliable absence of an enemy cooldown.",
+        "limitation": "No addon implementation or API testing was performed; no automatic transition is certified."
+      }
+    ],
+    "manual_possible": [
+      {
+        "transition": "pressure_to_conversion",
+        "confirmation": "A meaningful enemy health window, current partner control and friendly readiness overlap."
+      },
+      {
+        "transition": "conversion_to_recovery",
+        "confirmation": "Target recovered or became protected; team needs a new usable attempt."
+      }
+    ],
+    "web_only": [
+      "Strategic intent",
+      "Reasons for a target-selection branch",
+      "Causal counterfactuals",
+      "Full comparison with losses and unresolved evidence"
+    ]
+  },
+  "uncertainties": [
+    "Mandatory double-Trinket removal, mandatory Warrior Blind, continuous partner isolation, and an inevitable Paladin kill all fail as universal rules. Some kills succeed with escapes ready or the partner active; a Paladin kill can still lose the round.",
+    "Precise Priest/Rogue division of labour by phase is mostly unknown.",
+    "Exact runtime detection reliability on Warmane 3.3.5 is untested."
+  ],
+  "mechanics_context": [],
+  "provenance": {
+    "prepared_corpus_version": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Arms_Warrior__Holy_Paladin.jsonl",
+    "review_file": "evidence_review/group_01.txt",
+    "prepared_stats": {
+      "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Arms Warrior / Holy Paladin",
+      "total_games": 80,
+      "wins": 66,
+      "losses": 14,
+      "unknown_result": 0,
+      "opening_target_known": 80,
+      "opening_target_unknown": 0,
+      "opening_targets": {
+        "Arms Warrior": 62,
+        "Holy Paladin": 11,
+        "Arms Warrior briefly": 1,
+        "Warrior": 6
+      },
+      "kill_target_known": 67,
+      "kill_target_unknown": 13,
+      "kill_targets": {
+        "Holy Paladin": 36,
+        "Arms Warrior": 25,
+        "none observed": 1,
+        "Paladin": 3,
+        "Warrior": 1,
+        "Warrior around 213s": 1
+      },
+      "records_with_quality_flags": 21,
+      "records_with_source_exceptions": 20,
+      "records_with_source_win_condition_hypothesis": 80,
+      "source_batch_distribution": {
+        "august_31st_2550_20260912": 4,
+        "february_3rd_2550_20260912": 5,
+        "january_4th_2700_20260913": 25,
+        "january_5th_full_20260912": 10,
+        "june_7th_2700_20260913": 4,
+        "may_18th_2500_20260913": 3,
+        "may_24th_vod2_2600_20260913": 9,
+        "may_4th_2350_20260913": 8,
+        "september_11th_2500_20260912": 5,
+        "september_20th_2650_20260913": 3,
+        "september_28th_2700_20260913": 4
+      }
+    },
+    "review_group": 1,
+    "date": "2026-09-13"
+  },
+  "version_history": [
+    {
+      "version": 1,
+      "date": "2026-09-13",
+      "corpus": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+      "change": "Initial evidence-constrained synthesis; no prior approved strategy replaced.",
+      "reason": "First canonical package for review."
+    }
+  ]
+}

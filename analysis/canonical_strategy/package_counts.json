@@ -1,0 +1,12 @@
+{
+  "valid_games": 487,
+  "assigned_games": 468,
+  "unresolved_games": 19,
+  "matchup_groups": 49,
+  "confidence": {
+    "medium": 6,
+    "low": 20,
+    "insufficient": 23
+  },
+  "prepared_corpus_version": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df"
+}

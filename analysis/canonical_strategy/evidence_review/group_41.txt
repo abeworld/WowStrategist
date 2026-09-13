@@ -1,0 +1,13 @@
+GROUP 41: Shadow Priest / Subtlety Rogue__vs__Enhancement Shaman / Marksmanship Hunter
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Enhancement Shaman / Marksmanship Hunter", "total_games": 1, "wins": 0, "losses": 1, "unknown_result": 0, "opening_target_known": 1, "opening_target_unknown": 0, "opening_targets": {"Enhancement Shaman": 1}, "kill_target_known": 0, "kill_target_unknown": 1, "kill_targets": {}, "records_with_quality_flags": 1, "records_with_source_exceptions": 1, "records_with_source_win_condition_hypothesis": 1, "source_batch_distribution": {"january_4th_2700_20260913": 1}}
+
+M055 | loss | open=Enhancement Shaman | kill=None | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Preparation/tail at 4s; 52–127s at 1s; 93–105s at 0.5s
+OBS: Both specializations visible
+OBS: Full 99s shows two players each side and Blind up chat; Priest death occurs ~99.5s
+OBS: Transient Hunter DEAD addon display is contradicted by sustained Hunter health and subsequent healing
+OBS: 128s full frame shows Priest Ghost, Gold Team 1 and Green Team 2; Rogue exits afterwards
+SOURCE CONVERSION: Blind Shaman precedes renewed Hunter stuns, but Priest dies before Hunter reaches low health; solo follow-up is healed through
+SOURCE RESET: Repeated Shaman/Hunter pressure switches and control, with brief pet/totem selections; Rogue continues alone after Priest death and exits ~129s
+SOURCE FAILURE: Priest dies ~99.5s with Hunter still around 65%; subsequent Rogue-only Hunter pressure is healed and no enemy dies
+EXCEPTION: - **match_006** (uncertain, medium): Priest dies ~99.5s with Hunter still around 65%; subsequent Rogue-only Hunter pressure is healed and no enemy dies

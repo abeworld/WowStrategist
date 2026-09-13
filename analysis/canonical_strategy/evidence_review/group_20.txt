@@ -1,0 +1,52 @@
+GROUP 20: Shadow Priest / Subtlety Rogue__vs__Frost Mage / Subtlety Rogue
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Frost Mage / Subtlety Rogue", "total_games": 5, "wins": 4, "losses": 1, "unknown_result": 0, "opening_target_known": 5, "opening_target_unknown": 0, "opening_targets": {"Frost Mage": 2, "Subtlety Rogue": 3}, "kill_target_known": 4, "kill_target_unknown": 1, "kill_targets": {"Frost Mage": 2, "Subtlety Rogue": 2}, "records_with_quality_flags": 4, "records_with_source_exceptions": 2, "records_with_source_win_condition_hypothesis": 5, "source_batch_distribution": {"january_5th_full_20260912": 2, "may_4th_2350_20260913": 2, "september_28th_2700_20260913": 1}}
+
+M457 | loss | open=Frost Mage | kill=None | extraction=medium | flags=truncated_evidence
+OBS: Two enemy frames identify Subtlety Rogue and Frost Mage; friendly Priest uses Shadowform
+OBS: ~80s friendly Priest Sapped; repeated Mage Polymorph casts
+OBS: Mage takes first visible health pressure ~105s while enemy Rogue remains hidden
+OBS: ~127-132s enemy Rogue Gouged/stunned then Trinket cooldown appears
+OBS: ~137.5s Mage Feared; ~138s Rogue stunned without Trinket; ~138.5-139s Mage Trinkets and resumes casts
+OBS: ~145.5s Uncle has died; arena exit ~156s with both enemies alive
+SOURCE CONVERSION: Rogue reduced to ~29% but Mage escapes Fear and resumes casts; friendly Priest dies ~145.5s before an enemy kill
+SOURCE RESET: Prolonged stealth and positioning before committing revealed Rogue ~127s; no successful team recovery
+SOURCE FAILURE: Mage resumes Polymorph and damage after Trinket; Priest dies while enemy Rogue remains alive at ~29%
+
+M108 | win | open=Frost Mage | kill=Frost Mage | extraction=medium | flags=source_exception_present
+OBS: Our Priest is reported Sapped at opening. ~49s: enemy Mage Sap; ~50s: Mage trinket; ~51s: Sap reapplied.
+OBS: ~70s: Mage casts Blizzard; enemy Rogue Killslol revealed and UI identifies Subtlety.
+OBS: ~71–74s: current target Rogue; Rogue health remains ~95–97% with control.
+OBS: ~75–79s: current target Mage for burst; Kick Frostbolt ~76s; Mage falls from 100% through 72%, 56%, 42%.
+OBS: ~80s: Rogue controlled; ~81s: Mage Silence; ~82s: Mage DEAD while Rogue ~95%. ~86s: winner message.
+SOURCE CONVERSION: Briefly counter enemy Rogue ~71–74s; swap to Mage ~75s, Kick Frostbolt ~76s and burst. Mage dies ~82s with enemy Rogue still around 95% and controlled.
+SOURCE RESET: Extended stealth waiting after repeated Sap. Rogue counter-control is followed by a real Mage damage commitment. No full recovery reset observed.
+UNKNOWN: ["Rogue receives several control icons; the complete spell chain is not verified.", "No Mage Ice Block or enemy Rogue trinket use is verified in the decisive sequence."]
+EXCEPTION: - **match_009** (analysed): Rogue receives several control icons; the complete spell chain is not verified. No Mage Ice Block or enemy Rogue trinket use is verified in the decisive sequence.
+
+M130 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=medium | flags=source_exception_present
+OBS: ~85s Mage trinket, enemyRoguefull; ~90-95s enemyBlind and Polymorph on Maslohej.
+OBS: ~122s enemy Rogue DEAD while our Rogue still has a small amount of health; ~124s our Rogue is dead and a release dialog appears.
+OBS: ~135-180s Priest continues alone; Mage health falls, partially recovers around Evocation, then falls to 2%.
+OBS: ~181s both enemies DEAD; spectator UI and ~182s Green Team win confirm victory despite our Rogue death.
+SOURCE CONVERSION: Enemy Rogue is DEAD by ~122s; our Rogue dies by ~124s, leaving Priest versus Mage. Priest pressures Mage to ~11%; Evocation allows partial recovery to ~37%, followed by another collapse. Mage DEAD ~181s; Green Team wins ~182s.
+SOURCE RESET: Counter-Blind and Polymorph on friendly Priest interrupt first attempt; kill trade leaves Priest versus Mage; Evocation prolongs cleanup.
+UNKNOWN: ["Exact friendly defensive expenditure is unknown. Evocation and health recovery coincide; attribution of the healing to a particular effect is not established."]
+EXCEPTION: - **match_031a** (analysed): Exact friendly defensive expenditure is unknown. Evocation and health recovery coincide; attribution of the healing to a particular effect is not established.
+
+M348 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=medium | flags=truncated_evidence
+OBS: Rogue first substantial health drop ~75-80s; Mage first substantial drop ~89-95s
+OBS: Enemy Rogue trinket ~80s; Mage trinket ~65s and available again ~186s, before final victory
+OBS: Our Rogue dead ~132-133s; enemy Rogue DEAD ~134s
+OBS: Mage Ice Block countdown ~140-150s; Mage recovers mana and continues against Priest
+OBS: Mage DEAD ~196s and victory ~197s
+SOURCE CONVERSION: Alternating pressure leaves both enemies low; our Rogue dies ~132s just before enemy Rogue ~134s. Priest survives the Mage recovery/Block and wins ~197s
+SOURCE RESET: Rogue pressure -> Mage pressure -> Rogue finish; then extended Priest versus Mage continuation after Rogue death
+
+M352 | win | open=Subtlety Rogue | kill=Frost Mage | extraction=high | flags=
+OBS: Mage briefly loses incidental health ~49s, recovers to full before opener
+OBS: Rogue first sustained pressure ~95s, ~54% by104s; its trinket cooldown ~106s
+OBS: Rogue Blind ~137-145s and Sap ~145s overlap final Mage stun/pressure
+OBS: Mage DEAD ~150s; both friendlies alive and Rogue enemy survives to round end
+OBS: Mage Ice Block icon/countdown with unchanged ~19% health ~145-148s; leaves Block before death ~150s
+SOURCE CONVERSION: Mage commitment through Rogue Blind -> Sap; Mage DEAD ~150s, victory ~152s
+SOURCE RESET: Prolong Mage pressure; renewed Rogue Blind -> Sap isolates the Mage, continue after its brief Ice Block ~145-148s

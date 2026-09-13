@@ -1,0 +1,46 @@
+{
+  "verified_utc": "2026-09-12T21:02:05.925168+00:00",
+  "passed": true,
+  "checks": [
+    "All 28 requested MP4s covered exactly once in file manifest",
+    "23 valid 2v2 games equal 23 flat JSONL lines",
+    "Only clips 001-023 enter corpus; 024-028 are manifest-only 3v3",
+    "V6 field set and array types valid",
+    "Unique match IDs and original filenames preserved",
+    "Record boundaries within probed source duration",
+    "Forced resources subset of observed enemy spending",
+    "Loss has failure stage, resources and information value",
+    "Unknown outcome retained for truncated clip 014",
+    "No count mismatches; zero pending files",
+    "UTF-8 text checked; composition order normalized",
+    "Source byte counts still match inventory"
+  ],
+  "counts": {
+    "requested_mp4_files": 28,
+    "discovered_mp4_files": 28,
+    "reviewed_mp4_files": 28,
+    "pending_mp4_files": 0,
+    "valid_2v2_games_found": 23,
+    "jsonl_game_records": 23,
+    "analysed": 21,
+    "uncertain": 2,
+    "failed": 0,
+    "ignored_non_2v2": 5,
+    "excluded_non_evidentiary_2v2": 0
+  },
+  "record_results": {
+    "win": 21,
+    "unknown": 1,
+    "loss": 1
+  },
+  "record_confidence": {
+    "high": 21,
+    "medium": 2
+  },
+  "records_sha256": "f4bb702fd45a1b6fccda06ee45295f2560eeda11b6a9f54b2906c60a4037e8a8",
+  "limitations": [
+    "Visual interpretation verified by frame review, not automated combat-log validation",
+    "Clip 014 final outcome is unavailable",
+    "Clip 017 loss inferred; lag cause unproven"
+  ]
+}

@@ -1,0 +1,21 @@
+GROUP 34: Shadow Priest / Subtlety Rogue__vs__Restoration Shaman / Unholy Death Knight
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Restoration Shaman / Unholy Death Knight", "total_games": 2, "wins": 2, "losses": 0, "unknown_result": 0, "opening_target_known": 2, "opening_target_unknown": 0, "opening_targets": {"Restoration Shaman": 2}, "kill_target_known": 2, "kill_target_unknown": 0, "kill_targets": {"Restoration Shaman": 2}, "records_with_quality_flags": 1, "records_with_source_exceptions": 1, "records_with_source_win_condition_hypothesis": 2, "source_batch_distribution": {"january_5th_full_20260912": 2}}
+
+M101 | win | open=Restoration Shaman | kill=Restoration Shaman | extraction=high | flags=source_exception_present
+OBS: ~45s: Death Knight Sap; ~48s: Shaman Gouge.
+OBS: ~57–59s: Shaman stun, trinket announcement, Silence; Shaman about 48%.
+OBS: ~63–67s: Shaman falls through 23%, 9%, DEAD; Death Knight approximately 100%.
+OBS: ~68s: Blind Death Knight. ~70s: chat explicitly reports interrupted Gargoyle Strike.
+OBS: ~89s: Death Knight trinket at low health. ~92s: winner message.
+SOURCE CONVERSION: Keep damage on Shaman through trinket; Silence/control overlaps its health collapse. Shaman dies (~67s); Death Knight is finished/round ends afterward.
+SOURCE RESET: Brief totem selections. After healer death, Blind Death Knight (~68s) and Kick a Gargoyle Strike (~70s), then resume cleanup.
+UNKNOWN: ["Some off-target Priest control icons are not confidently identifiable."]
+EXCEPTION: - **match_002** (analysed): Some off-target Priest control icons are not confidently identifiable.
+
+M111 | win | open=Restoration Shaman | kill=Restoration Shaman | extraction=medium | flags=
+OBS: ~45s Shaman Sapped at full health; ~55s Death Knight briefly selected, both enemies above 90%.
+OBS: ~60-67s sustained Shaman selection/health loss and Death Knight control; ~68s chat identifies Shaman trinket, cooldown confirms.
+OBS: ~67-75s Shaman falls through 55%, 32%, partial recovery, then DEAD; Death Knight alive.
+OBS: ~86s both enemy frames DEAD; ~87s winner message with our Rogue alive.
+SOURCE CONVERSION: Recommit to Shaman after brief Death Knight selection; stun/Silence pressure removes Shaman (~75s), then finish Death Knight (~86s).
+SOURCE RESET: Initial Shaman Sap transitions through brief Death Knight control; Shaman partially recovers at ~73s but continued pressure finishes it.

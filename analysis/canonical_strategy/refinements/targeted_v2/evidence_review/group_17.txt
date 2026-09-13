@@ -1,0 +1,47 @@
+GROUP 17: Shadow Priest / Subtlety Rogue__vs__Destruction Warlock / Restoration Druid
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Destruction Warlock / Restoration Druid", "total_games": 5, "wins": 5, "losses": 0, "unknown_result": 0, "opening_target_known": 5, "opening_target_unknown": 0, "opening_targets": {"Warlock": 1, "Destruction Warlock": 4}, "kill_target_known": 5, "kill_target_unknown": 0, "kill_targets": {"Druid": 1, "Destruction Warlock": 3, "Restoration Druid": 1}, "records_with_quality_flags": 1, "records_with_source_exceptions": 1, "records_with_source_win_condition_hypothesis": 5, "source_batch_distribution": {"may_18th_2500_20260913": 1, "may_24th_vod2_2600_20260913": 3, "september_20th_2650_20260913": 1}}
+
+M235 | win | open=Warlock | kill=Druid | extraction=high | flags=
+OBS: Pet targeted and later Warlock summons Succubus; pet death itself not confirmed
+OBS: Both friendlies survive
+OBS: Warlock receives little damage during Druid conversion
+SOURCE CONVERSION: Druid 17% under stun 98s, 10% at 103s and death 104s; Warlock free casts late but Fear lands only after death; Gold victory 109s
+SOURCE RESET: Druid briefly recovers after first burst; renewed stun converts
+
+M310 | win | open=Destruction Warlock | kill=Destruction Warlock | extraction=high | flags=
+OBS: Gladius identifies Droodie as Restoration and Soloqdemon as Destruction
+OBS: Both opponents participate throughout a competitive 2v2
+OBS: Warlock health reaches about 13% at 178 then recovers; Druid reaches about 7% at 209 and 215 then recovers
+OBS: Final Warlock health falls from 68% at 244 to 4% at 255.5; death at 256.5 while Druid remains Blinded
+OBS: Gold Team Wins at 260; Druid remains alive
+SOURCE CONVERSION: 244-256.5: Sap Druid, stun and damage Warlock, interrupt pet Seduction, extend healer isolation with Blind, and finish Warlock
+SOURCE RESET: Early Warlock pressure is healed; kill pet and interrupt summons. Druid switches force Trinket and near-kills but recover. Return to Warlock for final healer isolation.
+
+M318 | win | open=Destruction Warlock | kill=Destruction Warlock | extraction=high | flags=
+OBS: Gladius identifies Droodie Restoration and Soloqdemon Destruction
+OBS: Succubus health empties near 100.5; replacement summon succeeds around 136-140
+OBS: Warlock Sap and Trinket at 152.5, Druid Kidney Shot and Trinket at 155 are visible
+OBS: Blind Druid near 184.5 and Sap near 193.5 have application evidence
+OBS: Replacement pet Seduction is interrupted near 194.5; pet survives the final exchange
+OBS: Warlock DEAD at 200; Gold Team Wins at 202.5 with Druid alive
+OBS: Entire clip contains one active game
+SOURCE CONVERSION: Warlock falls from near full health at 188 to DEAD at 200 during renewed control; Druid remains Sapped until the round ends
+SOURCE RESET: Initial pet pressure is followed by two healer attempts and recovery; the Warlock successfully replaces the pet before the final Warlock commitment.
+
+M333 | win | open=Destruction Warlock | kill=Restoration Druid | extraction=high | flags=
+OBS: Ruins arena, replay 36507334; Gladius displays Destruction Warlock at 77 and Restoration Druid.
+OBS: Succubus Seduction repeatedly threatens control; confirmed Kick interrupts at 82 and 170.5 are retained.
+OBS: Druid casts Cyclone on our Priest around 99 and 106; Warlock Fear on our Rogue around 136 interrupts an earlier low-health Druid window.
+OBS: Warlock is free to cast Immolate and Chaos Bolt in the final Druid kill window; no continuous Warlock CC is claimed.
+OBS: Both friendly players remain alive at victory; postgame town footage is inactive.
+SOURCE CONVERSION: Druid falls from approximately 43% at 171.5 to 24% at 174 and 7% at 175.5, then dies at 176; Gold wins at 184 with Warlock alive.
+SOURCE RESET: Pet disruption and multiple Druid pressure windows produce partial recoveries; continued Druid pressure after both Trinkets are extracted yields the final controlled healer finish.
+
+M449 | win | open=Destruction Warlock | kill=Destruction Warlock | extraction=high | flags=source_exception_present
+OBS: Gladius identifies Destruction Warlock and Restoration Druid.
+OBS: Warlock trinket cooldown appears at 85.5s after stun; Druid trinket appears at 111.5s after renewed Fear, just after Warlock death.
+OBS: Druid is free briefly around 107–109s before renewed Fear; Warlock dies at 111s.
+OBS: Druid remains at about 95% when the scoreboard appears; no second kill is established.
+SOURCE CONVERSION: Warlock briefly recovers around 61–63%, then renewed stun at 109s and Druid Fear coincide with a drop to 11% at 110.5s and DEAD at 111s; scoreboard confirms win at 113.5s.
+SOURCE RESET: Early pressure is absorbed/healed; the same target is attacked again during the 99–106.5s healer-control window.
+EXCEPTION: - **match_018.mp4** — Druid trinket is not a pre-kill prerequisite. No unsupported Warlock defensive spell names or second kill.

@@ -1,0 +1,81 @@
+GROUP 16: Shadow Priest / Subtlety Rogue__vs__Destruction Warlock / Restoration Shaman
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Destruction Warlock / Restoration Shaman", "total_games": 7, "wins": 5, "losses": 2, "unknown_result": 0, "opening_target_known": 7, "opening_target_unknown": 0, "opening_targets": {"Warlock": 1, "Shaman: first confirmed damage to an enemy player": 1, "Warlock takes first confirmed player health damage": 1, "Shaman": 1, "Destruction Warlock": 1, "Restoration Shaman": 2}, "kill_target_known": 5, "kill_target_unknown": 2, "kill_targets": {"Shaman": 1, "Shaman at about 105.5s": 1, "Warlock at approximately 195.5s": 1, "Shaman around 105.5s": 1, "Destruction Warlock": 1}, "records_with_quality_flags": 0, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 7, "source_batch_distribution": {"september_11th_2500_20260912": 4, "september_28th_2700_20260913": 3}}
+
+M476 | loss | open=Restoration Shaman | kill=None | extraction=high | flags=
+OBS: One arena, combat begins at 36s; entire preparation and town tail inspected
+OBS: Shaman is first substantive Rogue damage target; early stun chain produces 74% at 67s, 55% at 68s, 35% at 71s and 2% at 73.5s
+OBS: Warlock Gouge expires approximately 67.5s, before the deepest damage; Warlock Fear lands on Priest around 70s and Shaman Hex is announced around 71s
+OBS: Shaman heals to 27% at 74s and 50% at 75s without spending Trinket
+OBS: Both enemies are briefly Feared at 81-86s; Shaman escapes renewed Kidney with Trinket at 93s
+OBS: Warlock Blind at 102.5s is confirmed by timed debuff and immediately escaped with Trinket at 103s
+OBS: Warlock stuns at 110-116s yield only moderate damage while Shaman remains free and heals to 97%
+OBS: Rogue death around 118-119s; full frame at 119.5s confirms Priest alive, Shaman 97%, Warlock 64%, and enemy Gold Team has two players remaining; subsequent Gold Team win
+OBS: Full duration inspected at 4s inactive/1s active; critical 67-74,92-94,102-104,116-120s inspected at 0.5s
+SOURCE CONVERSION: Shaman reaches 2% at 73.5s after Warlock control has expired, then heals to 27-50%; later resource extraction fails to recreate that vulnerability
+SOURCE RESET: Renew Shaman pressure and then switch Warlock after Blind is escaped; free healer restores both opponents
+SOURCE FAILURE: Warlock Fear and Shaman Hex disrupt Priest support during the deepest opening damage; Shaman recovers with Trinket retained, and later trades do not produce a protected low-health target before Rogue dies
+
+M480 | loss | open=Restoration Shaman | kill=None | extraction=high | flags=
+OBS: Full-duration review: one arena, gates open at 70s, loss announced at approximately 382s, then town through clip end
+OBS: Warlock opening stun causes only modest damage to 92%; Shaman pressure immediately afterward reaches 63%
+OBS: Interrupted summon at 155s coincides with the Gouge announcement and a short control icon; no new Kick announcement
+OBS: Shaman Blind/Sap overlaps Warlock pressure reaching approximately 33% at 208s, but Warlock is casting again; Shaman heals at 209–213s and Warlock recovers to 82%
+OBS: Warlock Trinket announcement appears at 294.5s after a timed control effect; exact triggering effect is not securely identified
+OBS: Full screen at 376s confirms Priest alive at full health with very low visible mana; red target-of-target portrait is not evidence of Priest death
+OBS: Rogue dies at 380.5s; Shaman is 99% and Warlock 79%, with both Trinkets on cooldown
+OBS: Later replacement summons are visible; exact later pet-death moments are not independently established
+SOURCE CONVERSION: Warlock heals out of the midgame low-health attempt; no enemy kill before the friendly Rogue dies
+SOURCE RESET: Alternates Warlock pressure with extended Succubus removal attempts and healer control; replacement pets and healing repeatedly restore the enemy position
+SOURCE FAILURE: The midgame Warlock low occurs after the main stun expires and with an active pet; the Shaman resumes healing. Later control and pet pressure fail to produce a vulnerable immobilized player before the Rogue dies.
+
+M402 | win | open=Warlock | kill=Shaman | extraction=high | flags=
+OBS: Shaman Peterolols and Warlock Lanax are the two opposing arena frames
+OBS: Chat calls sham around 73 seconds
+OBS: Sap confirmation on Shaman around 76 seconds; first visible damage is on Warlock
+OBS: Warlock health falls to about 92 percent under stun before Shaman swap
+OBS: Shaman health falls 100 â†’ 77 â†’ 52 â†’ 23 â†’ 6 â†’ 2 â†’ DEAD, with stun visible through the lethal interval
+OBS: Both enemy trinkets show available during the Shaman kill; no trinket-use announcement observed
+OBS: Warlock remains alive around 87 percent before the winner announcement; its final departure mechanism is unknown
+OBS: Friendly Rogue is alive at the result
+SOURCE CONVERSION: Shaman falls from full health around 85.5 seconds to DEAD around 90.5 seconds; Gold Team wins around 95 seconds
+SOURCE RESET: Brief opening pressure on Warlock transitions to a Shaman kill
+
+M405 | win | open=Shaman: first confirmed damage to an enemy player | kill=Shaman at about 105.5s | extraction=high | flags=
+OBS: Replay 38621189, Blade's Edge, two enemy players identified by Gladius and casts.
+OBS: Renewed Shaman stun at about 102s and Horror near 105s overlap damage.
+OBS: Warlock Fear persists through the Shaman kill, followed by further control around 106s.
+OBS: Both enemy trinket icons remain ready at Shaman death. Rogue survives.
+SOURCE CONVERSION: Shaman falls from 92% at 101s through 72%, 44%, 25% and 11% to sustained DEAD at 105.5s. Warlock remains alive; victory appears around 108.5s. Warlock departure is not shown.
+SOURCE RESET: Initial control and pet interaction followed by direct Shaman attack; no demonstrated defensive reset.
+
+M408 | win | open=Warlock takes first confirmed player health damage | kill=Warlock at approximately 195.5s | extraction=high | flags=
+OBS: Replay 38621306, Blade's Edge. Early preparation chat about attacking a Priest/Hunter continues discussion of the preceding opponents; actual opponents reveal as Shaman/Warlock at 70s.
+OBS: Shaman 3% survives without a trinket announcement or cooldown; health rises through 18-27% then 78%. Exact recovery spell is not established.
+OBS: Warlock Fear casts and Shaman Hex disrupt friendly participation during the middle phase.
+OBS: Second Shaman Sap UP announced at 183s and DOWN around 193s; selected Shaman Fear portrait confirmed at 196.5s.
+OBS: Sustained Warlock DEAD label precedes round closure and health-display reset to 100%; reset is not a resurrection.
+SOURCE CONVERSION: Warlock falls from about 70% at 190s through 49%, 31%, 20%, 6% and 1% to DEAD at 195.5s. Both enemy trinkets are on cooldown. Shaman remains around 98% and alive; victory at 197s follows its unshown departure. Rogue survives at low health.
+SOURCE RESET: Failed initial Shaman near-kill, subsequent Warlock pressure and repeated pet interactions, then renewed Shaman isolation and lethal Warlock attack; one continuous game.
+
+M412 | win | open=Shaman | kill=Shaman around 105.5s | extraction=high | flags=
+OBS: Replay 38621476, Nagrand Arena.
+OBS: Blind is on pet Helola, confirmed by UP/DOWN messages; no Blind UP on Warlock.
+OBS: Shaman Gladius returns to full at scoreboard after sustained death, treated as UI reset.
+SOURCE CONVERSION: Shaman drops through roughly 70%, 43%, 32% and 8%; briefly heals to about 12% around 104.5â€“105s before sustained DEAD around 105.5s. Warlock 100% at kill, about 79% at Green victory around 109s; Rogue alive. Warlock departure not shown.
+SOURCE RESET: Shaman remains the primary damage target throughout. Brief pet selection for Blind does not become a damage swap; small last-moment Shaman recovery is overcome.
+
+M473 | win | open=Destruction Warlock | kill=Destruction Warlock | extraction=high | flags=
+OBS: One arena game ~11-232s; preparation until ~69s, combat begins ~70s; town after ~233s through end
+OBS: Enemy UI identifies Restoration Shaman Evelina and Destruction Warlock Salampidoras; friendly Priest Uncle
+OBS: Shaman Sap ~80-90s and Warlock stun ~85s; first Warlock damage limited
+OBS: Succubus Banlia targeted ~86-90s, Seduction interrupted with Kick ~88s; low pet disappears ~91s; replacement Summon Succubus ~97/99s fails or is cancelled before completion
+OBS: Warlock Kidney Shot ~105s followed by Trinket ~105.5s, confirmed chat/cooldown; Blind up ~107s persists ~10s, Sap up ~117s follows
+OBS: Shaman pressure/control ~108-118s; Shaman Fear ~117.5s followed by Trinket ~118.5s confirmed by chat/cooldown
+OBS: Shaman reaches ~30% ~135-137s after stuns, then Lesser Healing Wave restores health; Warlock becomes free and casts Fear on Uncle
+OBS: Shared 40s offensive buff appears ~144s; chat ~157s requests its dispel; Mana Tide Totem present ~173s and targeted ~175-176s
+OBS: Further Succubus pressure ~192-198s; Warlock replacement summon ~203s stopped by stun ~204s
+OBS: Shaman stun ~218-222s followed by Fear ~223-231s; Warlock damage ~218s and Kidney Shot ~224-230s
+OBS: Warlock Trinket cooldown recovers ~225.5s during final Kidney Shot; available through death, no second spend observed
+OBS: Warlock zero ~228s, DEAD ~228.5s while Shaman remains Feared; Gold victory ~231s with Shaman alive
+SOURCE CONVERSION: Warlock falls ~61/46/38/33/29/3% during Kidney Shot with Shaman Feared; DEAD ~228.5s and Gold victory ~231s.
+SOURCE RESET: Blind/Sap Warlock permits Shaman pressure but Shaman heals back. Later pet/totem work and renewed Warlock commitment create the final window.

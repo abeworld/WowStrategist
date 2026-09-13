@@ -1,0 +1,489 @@
+{
+  "strategy_id": "SPR_vs_MM_Unholy_v1",
+  "strategy_key": "SPR_vs_MM_Unholy",
+  "version": 1,
+  "schema_version": "1.0.0",
+  "status": "insufficient_evidence",
+  "created_date": "2026-09-13",
+  "our_comp": "Shadow Priest / Subtlety Rogue",
+  "enemy_comp": "Marksmanship Hunter / Unholy Death Knight",
+  "evidence": {
+    "total_games": 1,
+    "wins": 1,
+    "losses": 0,
+    "unknown_result": 0,
+    "confidence": "insufficient",
+    "supporting_match_ids": [
+      "may_4th_2350_20260913__may04_2350_match_014"
+    ],
+    "contradicting_match_ids": [],
+    "contradiction_scope": "Challenges to candidate or stronger universal rules, not necessarily to the final qualified wording.",
+    "representative_match_ids": [
+      "may_4th_2350_20260913__may04_2350_match_014"
+    ],
+    "all_match_ids": [
+      "may_4th_2350_20260913__may04_2350_match_014"
+    ],
+    "data_quality_notes": [
+      "Source extractions reviewed; original videos were not reopened during synthesis.",
+      "Both dedicated player-role fields are empty in all input records; roles remain unknown except where explicit narrative evidence is cited.",
+      "Sample win rate is a property of selected footage, not expected ladder performance.",
+      "Absent events are unknown unless the record explicitly establishes availability or absence.",
+      "A reported enemy kill can occur after a friendly death; the round result is stored separately.",
+      "No losses in this matchup; outcome discrimination and loss-derived failure modes cannot be established."
+    ],
+    "source_batches": {
+      "may_4th_2350_20260913": 1
+    }
+  },
+  "facts": {
+    "by_result": {
+      "win": {
+        "total": 1,
+        "opening_targets": {
+          "Unholy Death Knight": 1
+        },
+        "enemy_kill_targets": {
+          "Marksmanship Hunter": 1
+        }
+      },
+      "loss": {
+        "total": 0,
+        "opening_targets": {},
+        "enemy_kill_targets": {}
+      },
+      "unknown": {
+        "total": 0,
+        "opening_targets": {},
+        "enemy_kill_targets": {}
+      }
+    },
+    "opening_targets": {
+      "Unholy Death Knight": 1
+    },
+    "kill_targets": {
+      "Marksmanship Hunter": 1
+    },
+    "opening_to_reported_enemy_kill": [
+      {
+        "opening_target": "Unholy Death Knight",
+        "reported_enemy_kill": "Marksmanship Hunter",
+        "result": "win",
+        "count": 1,
+        "match_ids": [
+          "may_4th_2350_20260913__may04_2350_match_014"
+        ]
+      }
+    ],
+    "sequence_limit": "Endpoints only. No intermediate swap timing, causal sequence, or survival at the enemy death is inferred by this computation.",
+    "source_resource_labels": [
+      {
+        "label": "Marksmanship Hunter: PvP Trinket (~47s)",
+        "records": 1
+      },
+      {
+        "label": "Unholy Death Knight: PvP Trinket (~46s)",
+        "records": 1
+      }
+    ],
+    "resource_count_limit": "Exact source-listed labels, deduplicated within each match. They include uncertain or offensive entries and are not verified forced-resource frequencies.",
+    "cc_lexical_mentions": {
+      "Blind": 1
+    },
+    "cc_count_limit": "Literal mentions in observed notes, including negated/uncertain/post-death mentions. These are search aids, not counts of landed CC.",
+    "recovery_text_present": 0,
+    "recovery_count_limit": "Field coverage only: texts may explicitly say no reset. Not a reset-event rate.",
+    "missing_fields": {
+      "priest_role": 1,
+      "rogue_role": 1,
+      "recovery_text": 1,
+      "result": 0,
+      "opening_target": 0,
+      "enemy_kill_target": 0
+    },
+    "quality_flags": {},
+    "extraction_confidence": {
+      "high": 1
+    }
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "H1",
+      "statement": "One opening target also explains every reported enemy kill in wins.",
+      "tested_target": "Unholy Death Knight",
+      "disposition": "rejected_as_exhaustive",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [
+        "may_4th_2350_20260913__may04_2350_match_014"
+      ],
+      "unknown_kill_wins": 0,
+      "limitation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability."
+    },
+    {
+      "hypothesis_id": "H2",
+      "statement": "A repeatable default can be inferred from this sparse sample.",
+      "disposition": "insufficient",
+      "supporting_match_ids": [
+        "may_4th_2350_20260913__may04_2350_match_014"
+      ],
+      "contradicting_match_ids": [],
+      "limitation": "Too few independent examples; preserve observations without asserting a default."
+    },
+    {
+      "hypothesis_id": "H3",
+      "statement": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [],
+      "limitation": "No prerequisite is established from the small sample."
+    }
+  ],
+  "default_line": {
+    "opening_target": {
+      "text": "unknown",
+      "basis": "unknown",
+      "confidence": "insufficient",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [],
+      "evidence_scope": "none"
+    },
+    "initial_objective": {
+      "text": "unknown",
+      "basis": "unknown",
+      "confidence": "insufficient",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [],
+      "evidence_scope": "none"
+    },
+    "win_condition": {
+      "text": "unknown",
+      "basis": "unknown",
+      "confidence": "insufficient",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [],
+      "evidence_scope": "none"
+    },
+    "manufacture": {
+      "text": "unknown",
+      "basis": "unknown",
+      "confidence": "insufficient",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [],
+      "evidence_scope": "none"
+    },
+    "conversion": {
+      "text": "unknown",
+      "basis": "unknown",
+      "confidence": "insufficient",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [],
+      "evidence_scope": "none"
+    },
+    "reset": {
+      "text": "unknown",
+      "basis": "unknown",
+      "confidence": "insufficient",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [],
+      "evidence_scope": "none"
+    },
+    "important_resources": []
+  },
+  "states": [
+    {
+      "state_id": "opening",
+      "description": "unknown",
+      "team_objective": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [],
+      "confidence": "insufficient"
+    },
+    {
+      "state_id": "pressure",
+      "description": "unknown",
+      "team_objective": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [],
+      "confidence": "insufficient"
+    },
+    {
+      "state_id": "conversion",
+      "description": "unknown",
+      "team_objective": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [],
+      "confidence": "insufficient"
+    },
+    {
+      "state_id": "recovery",
+      "description": "unknown",
+      "team_objective": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [],
+      "confidence": "insufficient"
+    }
+  ],
+  "branches": [],
+  "match_assessments": [
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_014",
+      "review_id": "M347",
+      "result": "win",
+      "observed_opening_target": "Unholy Death Knight",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    }
+  ],
+  "failure_modes": [],
+  "runtime_observability": {
+    "automatic": [],
+    "automatic_candidates": [
+      {
+        "signal": "Verified cast/aura, present health, or an observed control start/end",
+        "status": "unvalidated_candidate",
+        "scope": "Raw events only; not strategic intent or reliable absence of an enemy cooldown.",
+        "limitation": "No addon implementation or API testing was performed; no automatic transition is certified."
+      }
+    ],
+    "manual_possible": [
+      {
+        "transition": "pressure_to_conversion",
+        "confirmation": "A meaningful enemy health window, current partner control and friendly readiness overlap."
+      },
+      {
+        "transition": "conversion_to_recovery",
+        "confirmation": "Target recovered or became protected; team needs a new usable attempt."
+      }
+    ],
+    "web_only": [
+      "Strategic intent",
+      "Reasons for a target-selection branch",
+      "Causal counterfactuals",
+      "Full comparison with losses and unresolved evidence"
+    ]
+  },
+  "uncertainties": [
+    "Collect more wins and losses before assigning a default, meaningful branches, resources or responsibilities.",
+    "Precise Priest/Rogue division of labour by phase is mostly unknown.",
+    "Exact runtime detection reliability on Warmane 3.3.5 is untested.",
+    "A reliable default opener is not established; the factual distribution remains available.",
+    "No robust failure mode is established from this sample; absence of a failure entry is not evidence of safety."
+  ],
+  "mechanics_context": [],
+  "provenance": {
+    "prepared_corpus_version": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Marksmanship_Hunter__Unholy_Death_Knight.jsonl",
+    "review_file": "evidence_review/group_47.txt",
+    "prepared_stats": {
+      "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Marksmanship Hunter / Unholy Death Knight",
+      "total_games": 1,
+      "wins": 1,
+      "losses": 0,
+      "unknown_result": 0,
+      "opening_target_known": 1,
+      "opening_target_unknown": 0,
+      "opening_targets": {
+        "Unholy Death Knight": 1
+      },
+      "kill_target_known": 1,
+      "kill_target_unknown": 0,
+      "kill_targets": {
+        "Marksmanship Hunter": 1
+      },
+      "records_with_quality_flags": 0,
+      "records_with_source_exceptions": 0,
+      "records_with_source_win_condition_hypothesis": 1,
+      "source_batch_distribution": {
+        "may_4th_2350_20260913": 1
+      }
+    },
+    "review_group": 47,
+    "date": "2026-09-13"
+  },
+  "version_history": [
+    {
+      "version": 1,
+      "date": "2026-09-13",
+      "corpus": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+      "change": "Initial evidence-constrained synthesis; no prior approved strategy replaced.",
+      "reason": "First canonical package for review."
+    }
+  ]
+}

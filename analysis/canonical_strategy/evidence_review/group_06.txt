@@ -1,0 +1,155 @@
+GROUP 06: Shadow Priest / Subtlety Rogue__vs__Marksmanship Hunter / Retribution Paladin
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Marksmanship Hunter / Retribution Paladin", "total_games": 17, "wins": 12, "losses": 5, "unknown_result": 0, "opening_target_known": 17, "opening_target_unknown": 0, "opening_targets": {"Marksmanship Hunter": 12, "Retribution Paladin": 3, "Hunter": 2}, "kill_target_known": 12, "kill_target_unknown": 5, "kill_targets": {"Marksmanship Hunter": 8, "Retribution Paladin": 2, "Hunter": 2}, "records_with_quality_flags": 6, "records_with_source_exceptions": 6, "records_with_source_win_condition_hypothesis": 17, "source_batch_distribution": {"august_31st_2550_20260912": 4, "january_4th_2700_20260913": 5, "january_5th_full_20260912": 1, "may_18th_2500_20260913": 1, "may_4th_2350_20260913": 3, "september_11th_2500_20260912": 3}}
+
+M015 | loss | open=Marksmanship Hunter | kill=None | extraction=high | flags=source_exception_present
+OBS: Sap Paladin 55; Hunter Volley before combat and Feign Death 56, then resumes 64.
+OBS: Hunter Trinket cooldown 64; Deterrence icon/defensive effect 67.5-70, health 84% then 97%.
+OBS: Blind Hunter 70.5-72.5 ends before full duration; no new Trinket.
+OBS: Hunter Feign Death again 77; Paladin health still about 95% at 79.
+OBS: Partner dies 77.5 and leaves; Rogue leaves shortly after, both enemies survive.
+SOURCE CONVERSION: Hunter opener draws defensive responses but stays near full health. Blind Hunter 70.5 ends early 72.5; Paladin swap 76-81 produces little damage before partner dies 77.5.
+SOURCE RESET: Hunter recovers after short Deterrence; Rogue uses Blind and switches to Paladin late.
+SOURCE FAILURE: Hunter pressure never becomes lethal, Blind ends early, and the late Paladin attempt starts with both enemies healthy while Maslozxy dies.
+EXCEPTION: - `match_015.mp4`: Paladin buff replacing early Sap is not confidently identified; not labelled Divine Shield. No final winner panel; full friendly defensive availability unknown.
+
+M061 | loss | open=Marksmanship Hunter | kill=None | extraction=high | flags=
+OBS: Whole clip at 4s; active 39–157s at 1s; 79–84s, 94–110s, 109–124s and 154–160s at 0.5s
+OBS: Native 123s confirms Rogue death, Gold one / Green two
+OBS: Native 158s confirms Uncle has died, enemy team wins, Paladin two killing blows and zero friendly killing blows
+OBS: Hunter brief DEAD display ~156s conflicts with live native target, health rebound and scoreboard; not counted as kill
+SOURCE CONVERSION: Hunter reaches ~20% with Paladin Gouged and both Trinkets unavailable, but heals immediately; no enemy kill
+SOURCE RESET: Brief Paladin damage branch then Hunter recommit; after Rogue death Priest fights alone
+SOURCE FAILURE: Low Hunter window rebounds before Rogue dies; Priest cannot finish Hunter alone and dies ~157.5s
+
+M062 | loss | open=Marksmanship Hunter | kill=None | extraction=high | flags=
+OBS: Whole clip at 4s; active 35–122s at 1s; 51–62s, 84–100s and 119–124s at 0.5s
+OBS: Native 99s confirms Rogue dead, Priest alive, Gold one / Green two and Paladin Divine Shield active
+OBS: Paladin casts heals during Shield; it is not classified as crowd control
+OBS: Hunter offensive/defensive buff icons are not used as evidence of extra crowd control
+SOURCE CONVERSION: Hunter pressure rebounds before a decisive covered low-health window with both friends alive; solo Priest pressure also heals back
+SOURCE RESET: Brief Paladin branch ~70s then Hunter recommit; no successful team reset before Rogue death
+SOURCE FAILURE: Rogue dies ~96s with Paladin Trinket still ready and Hunter above half health; Priest dies after solo pressure rebounds
+
+M378 | loss | open=Marksmanship Hunter | kill=None | extraction=medium | flags=
+OBS: Hunter DEAD indicator79s reverses80s at88%, consistent with Feign Death; do not count as kill
+OBS: Priest death explicit in chat87.5s; enemies remain alive/high health
+OBS: Post-round chat discusses Dispersion timing and Priest says it was too early; actual spend/timing is not established from sampled UI
+OBS: Next replay36065307 prep103s continues in049
+SOURCE CONVERSION: Brief post-trinket Paladin control yields only shallow Hunter damage; Hunter remains~88% and Paladin recovers full before our Priest dies
+SOURCE RESET: No successful recovery/reset after shallow first pressure; Rogue exits after Priest death
+SOURCE FAILURE: The short isolated Hunter window produces no threatening health state; both enemies regain freedom/support, then our Priest dies before another meaningful setup
+
+M388 | loss | open=Marksmanship Hunter | kill=None | extraction=medium | flags=
+OBS: Friendly Priest death97s is explicit; our Rogue leaves arena102s
+OBS: Both enemy trinkets remain unavailable at friendly Priest death
+OBS: Hunter orange effect93-99s is visible; exact ability unknown
+OBS: Friendly major defensive use/timing is not reliably established; post-round fear discussion does not prove a specific missed effect
+SOURCE CONVERSION: Renewed Hunter pressure90.5s remains shallow (~79%93-97s); our Priest dies97s before another Paladin isolation window
+SOURCE RESET: Repeated Hunter control and shallow recommitment; no completed recovery after friendly Priest death
+SOURCE FAILURE: Earlier Paladin control overlaps a Blinded, healed Hunter; after both escapes are spent the Paladin is free during renewed Hunter pressure, and friendly Priest death ends the normal2v2 attempt
+
+M017 | win | open=Retribution Paladin | kill=Marksmanship Hunter | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: ~66-73s Sap Hunter and stun pressure Paladin; ~75-79s both Fear, both Trinket cooldowns appear
+OBS: ~79-89s Hunter pressured to 21%; unidentified protection icon precedes recovery to 49% by120s
+OBS: ~125-137s Paladin shows long defensive indicator while Hunter stunned; Hunter54% to 12%, dies138.5s; Gold wins~150s
+SOURCE CONVERSION: Hunter repeatedly recovers, then renewed stuns ~125-133s and continued Priest pressure reduce Hunter to 12% and kill ~138.5s; Rogue briefly selects Paladin during final window
+SOURCE RESET: Early Paladin pressure changes to Hunter after both Trinkets; Hunter defensive pause ~90s and Paladin healing restore Hunter; team survives and repeats
+EXCEPTION: - `match_017.mp4`: Hunter kill and both enemy Trinkets are clear. Exact protective effects and extent of Paladin isolation during the final window remain uncertain. Record retained as `uncertain`, medium confidence.
+
+M019 | win | open=Marksmanship Hunter | kill=Marksmanship Hunter | extraction=high | flags=source_exception_present
+OBS: Sap Paladin75-82s; Hunter stun78-79s then Trinket; Paladin long immunity-like indicator82-93s
+OBS: Hunter Feign Death88s returns89s; Paladin Fear95s then Trinket97.5s
+OBS: Hunter stuns98.5s and 103.5s, falls96% to 57%104s anddead114.5s; Paladin only Gouged after kill115s; Gold119s
+SOURCE CONVERSION: Renewed Hunter stun98.5-100.5s then103.5-107.5s and Gouge~108-110s; continue damage after control until Hunter dies114.5s
+SOURCE RESET: First Hunter pressure~78-96s is largely absorbed/healed; renewed control after Paladin Fear and Trinket97.5s creates effective pressure
+EXCEPTION: - `match_019.mp4`: Exact name of Paladin defensive82s unresolved; Hunter10s red/gold indicator101s may be a friendly disarm, not enemy defensive
+
+M020 | win | open=Retribution Paladin | kill=Marksmanship Hunter | extraction=high | flags=source_exception_present
+OBS: Sap Hunter71s; Paladin stuns73-75.5s then defensive indicator76s; Hunter Trinket75.5s and Feign Death76s
+OBS: Hunter Blind83-85s ends early as Fear appears; Paladin Fear85s then Trinket85.5s and Silence~87-91.5s
+OBS: Hunter restunned89-94s falls70% to 48%, continued pressure to dead100.5s; Gold104s
+SOURCE CONVERSION: Switch Hunter77s; short Blind83-85s followed Fear; Paladin Trinkets85.5s then Silence; renewed Hunter stuns89-94s and damage finish100.5s
+SOURCE RESET: Paladin contact~73-75.5s draws long defensive indicator76s; switch Hunter rather than persist on protected Paladin
+EXCEPTION: - `match_020.mp4`: Precise defensive name and cause of early Blind ending unresolved; Hunter10s red/gold indicator96s is not counted as enemy spend without identification
+
+M060 | win | open=Marksmanship Hunter | kill=Retribution Paladin | extraction=high | flags=
+OBS: Whole clip at 4s; active 43â€“121s at 1s; 73â€“80s, 90â€“98s and 108â€“122s at 0.5s
+OBS: Paladin DEAD ~115â€“116s precedes an addon health reset; reset is not counted as resurrection
+OBS: Native 121s shows vy Wins, Uncle one killing blow, both friendly players alive and Blind up on Seefear in chat
+SOURCE CONVERSION: Repeated Paladin pressure survives a heal rebound, reaches ~7% under final control, and kills Paladin; Hunter leaves after Blind
+SOURCE RESET: Hunter opener, then Paladin damage branch ~91s onward with brief Hunter selections to apply cover
+
+M068 | win | open=Marksmanship Hunter | kill=Retribution Paladin | extraction=high | flags=
+OBS: Whole clip at 4s; active 39–94s at 1s;55–58s,63–69s,78–94s at 0.5s; native 63s,85s,93s
+OBS: Paladin Trinket remains ready at death; shield use does not imply permanent healer/control lockout
+SOURCE CONVERSION: Covered return reaches ~5% before Paladin death ~87s; Hunter departs and native 93s confirms one friendly killing blow
+SOURCE RESET: Hunter pressure/control extracts resources -> Paladin return; no full reset
+
+M069 | win | open=Retribution Paladin | kill=Marksmanship Hunter | extraction=high | flags=
+OBS: Whole clip at 4s; active 46–95s at 1s;75–94s at 0.5s; native85s,93s,94s
+OBS: Both enemy Trinkets remain ready; Paladin Shield permits healing and is not healer control
+OBS: Native94s confirms friendly victory, one killing blow; Paladin departure is not a second kill
+SOURCE CONVERSION: Renewed Hunter control/damage reaches ~2% before death ~88.5s; Paladin survives then departs; native 94s confirms one-kill victory
+SOURCE RESET: Hunter Sap -> pressure Paladin to Shield -> return Hunter
+
+M106 | win | open=Marksmanship Hunter | kill=Marksmanship Hunter | extraction=medium | flags=source_exception_present
+OBS: UI identifies Hunter as Marksmanship and Paladin as Retribution.
+OBS: ~65s: Hunter Sap; ~68–71s: Gouge announcements while Paladin selected.
+OBS: ~74–78s: Hunter stun/damage; Paladin Silence; Hunter trinket at roughly 67%.
+OBS: ~79–81s: both opponents show fear/control icons; Hunter continues losing health.
+OBS: ~85–87s: renewed Hunter stun and DEAD. ~89s: winner message.
+SOURCE CONVERSION: Keep Hunter pressure after trinket; both enemy frames show further control, then Hunter receives another stun and dies (~87s).
+SOURCE RESET: Sap initially lands on eventual kill target. Brief Paladin selections/control setup precede Hunter pressure. No full reset or damage swap established.
+UNKNOWN: ["Not every Gouge announcement can be matched to a successfully applied debuff.", "No Deterrence use is verified; several auxiliary control icons remain unidentified."]
+EXCEPTION: - **match_007** (analysed): Not every Gouge announcement can be matched to a successfully applied debuff. No Deterrence use is verified; several auxiliary control icons remain unidentified.
+
+M214 | win | open=Hunter | kill=Hunter | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Paladin Trinket remains available
+OBS: Paladin breaks Fear into a roughly twelve-second defensive indicator and resumes Flash of Light near Hunter death
+OBS: Hunter remains feared while damage continues
+OBS: Both friendlies survive
+SOURCE CONVERSION: Hunter 45% at 77s during Fear, falls to 34–37%, then 6% at 81.5s and dies at 82.5s; victory at 86s
+EXCEPTION: | `match_026.mp4` | Exact Paladin defensive response during Hunter conversion is unresolved. |
+
+M385 | win | open=Marksmanship Hunter | kill=Marksmanship Hunter | extraction=high | flags=
+OBS: Hunter sustained damage begins49s; earlier target selections/control cause only~2% transient damage
+OBS: Paladin free73.5-87s before renewed short control87.5s
+OBS: Hunter orange effect80.5-90.5s is visible but exact ability is unknown; no unsupported Deterrence claim
+OBS: Paladin alive~98% at first death
+SOURCE CONVERSION: Hunter pressure78s reaches20%83s, briefly heals38%83.5s, then drops during renewed Paladin control to2%90s and DEAD91s; victory93s
+SOURCE RESET: Maintain Hunter commitment after shallow first attempt and Feign Death; regenerate short Paladin control
+
+M394 | win | open=Marksmanship Hunter | kill=Marksmanship Hunter | extraction=high | flags=
+OBS: ~33s Hunter91%, healed full ~43s; Rogue remains at distance until engagement ~75s.
+OBS: ~78s Hunter trinket chat; Paladin controlled while Hunter loses health.
+OBS: ~92s Blind Paladin, ~93s Blind down; brief Paladin selection/control ~96-100s then Hunter again ~101s.
+OBS: ~126s Paladin casts Flash of Light and Hunter recovers55% ->62%.
+OBS: ~130-133.5s Paladin controlled, Hunter43% ->8% ->DEAD; Hunter trinket still cooling, Paladin trinket available.
+OBS: ~147s PaladinDEAD, ~148s Gold Team wins with our Rogue alive.
+SOURCE CONVERSION: Hunter pressure survives recovery from ~55% to ~76%. Brief Paladin control/pressure ~96-100s then return Hunter. Paladin renews healing, but final control ~130-133s supports Hunter 43% ->8% ->DEAD ~133.5s; Paladin dies ~147s; Gold Team win ~148s.
+SOURCE RESET: Initial ranged chip on Hunter is healed during delayed Rogue engagement. Blind Paladin ends quickly (~93s); repeated control and later Hunter attempts still convert.
+
+M399 | win | open=Marksmanship Hunter | kill=Marksmanship Hunter | extraction=high | flags=
+OBS: ~59-63s Hunter91% ->100% with Paladin Flash of Light; Rogue delays engagement.
+OBS: ~67s chat: 'max range dots'; ~82s Rogue engages Hunter.
+OBS: ~98.5s Hunter trinket chat/cooldown, health65% plateau and repeated immunity/avoidance; health loss resumes ~101s.
+OBS: ~110s temporary DEAD, ~111s Hunter alive21%; ~120-122s Paladin Flash of Light, Hunter19% ->28%.
+OBS: ~123-126.5s Hunter28% ->1% ->DEAD; Paladin control icon/portrait ~126-129s and trinket available.
+OBS: ~129.5s win, friendly Rogue alive, Paladin death not shown.
+SOURCE CONVERSION: Hunter early ranged chip is healed. Rogue engagement ~82s leads to sustained Hunter pressure; trinket ~98.5s and temporary immunity stall damage at65%. Renew pressure with brief Paladin control selections; Hunter recovers17% ->34% and19% ->28% from support before falling28% ->1% ->DEAD ~126.5s as Paladin enters Fear. Green Team wins ~129.5s.
+SOURCE RESET: Temporary DEAD displays ~75s and110s are followed immediately by resumed combat; these are not kills. Hunter healing recoveries and defensive stall do not cause a full reset.
+
+M404 | win | open=Hunter | kill=Hunter | extraction=high | flags=
+OBS: Besteozcan is Retribution Paladin; Sefuriousx is Marksmanship Hunter
+OBS: Sap on Paladin is confirmed around 73 seconds and ends around 78 seconds
+OBS: Blind on Hunter is confirmed around 78 seconds; Hunter trinket announcement follows around 79 seconds
+OBS: Hunter remains full until renewed stun and damage around 80â€“81 seconds
+OBS: Paladin trinket announcement around 85 seconds is corroborated by its cooldown display
+OBS: Hunter is controlled again around 84â€“86 and stunned around 88â€“89 seconds
+OBS: Hunter has a further yellow control portrait around 90â€“93 seconds; precise effect name unconfirmed
+OBS: Half-second footage shows Hunter 43 â†’ 36 â†’ 24 â†’ 16 â†’ 0 percent, then DEAD around 94 seconds
+OBS: Both enemy trinkets remain on cooldown at Hunter death
+OBS: Paladin is alive around 93 percent at Hunter death and around 81 percent at winner announcement; departure unknown
+OBS: Friendly Rogue remains alive and near full health
+SOURCE CONVERSION: Hunter falls from full health to about 73 percent by 85 seconds, 46 percent around 90 seconds, and DEAD around 94 seconds; Gold Team wins around 96 seconds
+SOURCE RESET: Hunter breaks Blind immediately; renewed control and damage convert without a substantial health reset

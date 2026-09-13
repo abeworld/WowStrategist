@@ -1,0 +1,283 @@
+GROUP 02: Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Feral Druid
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Feral Druid", "total_games": 31, "wins": 29, "losses": 2, "unknown_result": 0, "opening_target_known": 31, "opening_target_unknown": 0, "opening_targets": {"Feral Druid": 25, "Discipline Priest": 5, "Priest": 1}, "kill_target_known": 29, "kill_target_unknown": 2, "kill_targets": {"Feral Druid": 18, "Discipline Priest": 10, "Priest": 1}, "records_with_quality_flags": 12, "records_with_source_exceptions": 12, "records_with_source_win_condition_hypothesis": 31, "source_batch_distribution": {"january_4th_2700_20260913": 2, "january_5th_full_20260912": 2, "may_18th_2500_20260913": 3, "may_24th_2450_20260913": 2, "may_24th_vod2_2600_20260913": 6, "may_4th_2350_20260913": 2, "september_11th_2500_20260912": 2, "september_20th_2650_20260913": 12}}
+
+M308 | loss | open=Feral Druid | kill=None | extraction=high | flags=
+OBS: 49-65s: two opponents established, with no confirmed Sap opener
+OBS: 75-83s: Feral stun and brief Priest Silence produce damage, followed by healing
+OBS: 114s: friendly Rogue Trinket cooldown begins
+OBS: 125.5-126.5s: Blind lands on Priest, then Priest PvP Trinket cooldown begins and Blind ends
+OBS: 133-134s: Feral is stunned, then Feral PvP Trinket cooldown begins
+OBS: 135-138s: Priest Silence persists while Feral falls from about 89% to 63%; subsequent healing restores Feral
+OBS: 155-162s: Priest swap lowers Priest to about 35%
+OBS: 161-165s: Rogue pressure is interrupted by Cyclone/immune state; Priest resumes Penance and recovers
+OBS: 175-177s: Rogue is dead and Green Team wins; both enemies remain alive
+SOURCE CONVERSION: The short post-Trinket Silence window does not kill Feral; a later Priest swap also recovers and no enemy dies
+SOURCE RESET: Feral pressure repeatedly heals back up; switch to Priest around 155s before returning to Feral
+SOURCE FAILURE: Healer control is too brief to convert the Feral window. Cyclone interrupts the later Priest pressure, Priest resumes healing, and Rogue dies under renewed enemy pressure.
+
+M450 | loss | open=Discipline Priest | kill=None | extraction=high | flags=source_exception_present
+OBS: Discipline Priest / Feral Druid shown in Gladius; Priest remains at 100% through opener.
+OBS: Feral reaches approximately 78% at 75.5s; enemy Penance at 75–76.5s restores him near full.
+OBS: Friendly Priest is around full at 78.5s, loses health from 79s and dies at 82.5s; both opponents are at full by 82s.
+OBS: Feral briefly receives Blind around 81.5s and trinkets at 82s; enemy Priest trinket stays ready.
+OBS: Friendly Rogue leaves without an enemy death or scoreboard; own action bar shows the listed cooldowns already spent.
+SOURCE CONVERSION: No kill. Priest opener leaves him at 100%; Feral pressure briefly reaches about 78% before Penance restores him to near full. Friendly Priest dies around 82.5s and friendly Rogue leaves at approximately 85s with both enemies alive at 100%.
+SOURCE RESET: Initial Priest attack is absorbed; players reposition and resap Feral, then attack Feral near the doorway. This second attempt is healed through before friendly Priest dies.
+SOURCE FAILURE: Feral damage never creates a sustained low-health window. Enemy Priest remains free during the Feral attempt, visibly healing him, while friendly Priest falls rapidly from high health at 78.5s to death at 82.5s.
+EXCEPTION: - **match_019.mp4** — Loss inferred from teammate death and exit with two healthy opponents. Precise Priest defensive spends and initial intent unresolved; loss information medium.
+
+M054 | win | open=Feral Druid | kill=Feral Druid | extraction=high | flags=
+OBS: Preparation at 4s, active 46–106s at 1s, 76–83s and 97–107s at 0.5s
+OBS: Specializations and both Trinket cooldowns visible
+OBS: Feral displayed 0% ~80s but recovered; DEAD first confirmed ~104.5s
+OBS: Priest Blind icon matches chat Blind up on Proffset and cooldown; scoreboard confirms win with both friendly players remaining
+SOURCE CONVERSION: Blind Priest ~100.5s covers continued Feral damage; Feral DEAD ~104.5s and team wins ~106s
+SOURCE RESET: First near-kill is healed; brief Priest control/pressure, then return Feral for renewed finish
+
+M065 | win | open=Discipline Priest | kill=Discipline Priest | extraction=high | flags=
+OBS: Whole clip at 4s; active 35–67s at 1s; 51–66s at 0.5s; native 60s, 65s and 65.5s
+OBS: Both enemy Trinket indicators remain ready throughout meaningful combat
+OBS: Native 65.5s confirms friendly victory and one Priest killing blow; full-health Feral is not counted as killed
+SOURCE CONVERSION: Covered Priest return reaches ~14% before Priest death; Feral departure ends round without a second kill
+SOURCE RESET: Sap Priest -> control Feral -> return Priest; no meaningful reset
+
+M128 | win | open=Feral Druid | kill=Feral Druid | extraction=medium | flags=
+OBS: ~50-55s Priest Sapped full, Feral full under control before burst.
+OBS: ~60s Feral trinket cooldown and Silence announcement; ~75s Feral DEAD while Priestfull.
+SOURCE CONVERSION: Stay Feral through trinket; Feral75% at60s ->50%65s ->15%70s ->DEAD75s; Gold Team wins80s with our Rogue alive.
+
+M138 | win | open=Feral Druid | kill=Feral Druid | extraction=medium | flags=
+OBS: ~55-60s Feral controlled at full health; ~65s fresh trinket and Priest fear.
+OBS: ~75s Cyclone interrupted; ~80s Feral11%, Priest100% feared; our Rogue alive.
+OBS: ~81s Feral DEAD, Priest 100% controlled; ~83s Gold Team win and our Rogue alive.
+SOURCE CONVERSION: Maintain Feral pressure through trinket and renewed Priest fear/control. Feral falls to 11% ~80s and is DEAD ~81s, with Priest still full; Gold Team wins ~83s.
+
+M236 | win | open=Priest | kill=Priest | extraction=high | flags=
+OBS: Feral Trinket remains available through Priest death
+OBS: Feral free during final burst and casts Cyclone at 85s
+OBS: Both friendlies alive; Rogue low at conversion
+OBS: Blind macro/effect not established in opener
+SOURCE CONVERSION: Priest 44% at 83.5s, 20% under stun 85s, 1% at 86s and death 87s; Gold victory 88.5s
+SOURCE RESET: Brief Druid pressure between Priest attempts; renewed Priest damage converts
+
+M245 | win | open=Feral Druid | kill=Feral Druid | extraction=high | flags=
+OBS: Priest selected/controlled early remains full; first meaningful damage is Feral at 70s
+OBS: 77.5s Feral 46%; 79.5s 27%; 80–82.5s Priest Gouge and Feral Fear
+OBS: Priest free at 83s; Feral heals 14% to 23% at 84s, then dies at 87s
+OBS: Both enemy Trinkets remain available; both friendlies survive; win 92s
+SOURCE CONVERSION: Feral survives initial low-health control and some healing, then dies at 87s under continued damage
+
+M248 | win | open=Feral Druid | kill=Feral Druid | extraction=high | flags=
+OBS: 54s first Feral chip; 55–65s Sap; Priest Gouge 62–68s, Silence 69–71s, Fear 71–76.5s
+OBS: 74s Feral 43%; 75.5s 36% under Gouge; 77s Priest free and casting Penance
+OBS: 80s Feral 2%, heals to 13% at 80.5s, remains alive at 1–5% for several seconds; confirmed dead 87.5s
+OBS: Both enemy Trinkets remain available through first kill; both friendlies survive; Gold victory 99s
+SOURCE CONVERSION: Maintain pressure through low-health recovery after Priest becomes free; Feral dies at 87.5s, then Priest dies at 98s
+
+M277 | win | open=Feral Druid | kill=Feral Druid | extraction=high | flags=
+OBS: Enemy labels identify Discipline Priest and Feral Druid
+OBS: Feral first health loss ~69s; Priest stays 100%
+OBS: Feral stun ~69-74.5s and Priest Silence ~69-72s
+OBS: Priest Fear ~74.5-78.5s; Feral briefly in bear form ~75s but remains low
+OBS: Feral DEAD ~78s, victory ~80s; both enemy Trinket icons remain ready
+SOURCE CONVERSION: Feral falls ~95% at 69s to ~38% at 71s and ~20% at 72s; renewed Priest Fear covers final damage to DEAD ~78s
+
+M280 | win | open=Feral Druid | kill=Feral Druid | extraction=high | flags=
+OBS: Feral damage accelerates ~79s
+OBS: Divine Hymn cast bar remains through ~89s
+OBS: Priest Penance ~91-92.5s and Flash Heal ~95s are visible; no continuous late healer lock claimed
+OBS: Feral enters bear form ~90s but remains low
+OBS: Feral DEAD 96s; victory ~100s; both Trinkets ready
+SOURCE CONVERSION: Feral falls ~53% at 88.5s to ~28% at 89.5s, remains ~15-22% through Priest Penance, then DEAD ~96s
+SOURCE RESET: Priest heals partially recover initial stun damage; pressure stays on Feral
+
+M307 | win | open=Discipline Priest | kill=Discipline Priest | extraction=high | flags=
+OBS: 60-69s: Priest Sap is visible in target and arena frames
+OBS: 75-84s: Priest loses health while Feral remains at full health; early Feral selection is control rather than damage swap
+OBS: 91-108s: sustained Feral pressure is healed
+OBS: 142.5s: Feral Trinket cooldown starts during stun pressure
+OBS: 144s: Blind visibly lands on Feral; 154s: Sap extends the isolation
+OBS: 156-159s: Priest falls from full to roughly one-quarter health during control; partial recovery does not end the pressure
+OBS: 167s: Priest DEAD; 173s: Gold Team wins, Feral still alive
+OBS: Priest Trinket indicator remains available through the kill; no named Pain Suppression spend established
+SOURCE CONVERSION: Blind Feral -> Sap extension -> stun/silence Priest and maintain pressure through partial healing until Priest dies
+SOURCE RESET: Early Priest damage heals back up; intermediate Feral pressure is followed by a renewed Priest attempt
+
+M319 | win | open=Feral Druid | kill=Feral Druid | extraction=high | flags=
+OBS: Gladius identifies Zunniaky Discipline and Rezya Feral
+OBS: Replay match ID 36505485 at arena entry
+OBS: Priest Trinket, Blind and Sap, then Feral Sap and Trinket have visible application or cooldown evidence
+OBS: match_017.mp4 begins with overlapping footage from roughly match_016.mp4 172; it continues the same game
+OBS: Feral DEAD at match_017.mp4 34; friendly Rogue survives and Gold Team Wins at 48
+OBS: Priest remains alive at the end; no Priest kill is claimed
+SOURCE CONVERSION: In match_017.mp4, continue Feral damage as healer Fear is followed by Silence; Feral dies at 34 and round ends at 48
+SOURCE RESET: Repeated Feral and Priest attempts recover; healer Blind into Sap and subsequent Feral Sap extract the remaining escape resources before returning to Feral.
+
+M323 | win | open=Discipline Priest | kill=Discipline Priest | extraction=high | flags=
+OBS: Replay 36506131; Gladius establishes Zunniaky Discipline and Rezya Feral
+OBS: Feral stays at full health during the initial stuns; first material damage is on Priest
+OBS: Priest Trinket is explicitly reported near 91; Kidney Shot near 94.5 interrupts the later Priest healing window
+OBS: Feral Gouge lands near 95.5 and Feral Trinket follows near 98
+OBS: Priest DEAD near 97.5; Feral Trinket was still available during the lethal setup
+OBS: Blind Feral lands near 101; Gold Team Wins at 103 with Feral alive at full health and both friendly players surviving
+OBS: A second arena preparation begins near 112, replay 36506177; no second active game occurs within this clip
+SOURCE CONVERSION: Recommit to low-health Priest after Trinket with Kidney Shot and brief Feral Gouge. Priest dies near 97.5 before Feral Trinkets; subsequent Blind controls the surviving Feral.
+SOURCE RESET: Brief Feral damage is restored; return to Priest and repeat healer pressure with renewed Feral control.
+
+M325 | win | open=Feral Druid | kill=Feral Druid | extraction=high | flags=
+OBS: Ruins, replay 36506374; both enemy specializations displayed.
+OBS: Feral falls from about 92% at 66 to 27% at 74, then 3% at 78.5 before recovering to 29% at 79.
+OBS: Priest Trinket remains available throughout the lethal window; only Feral Trinket is observed spent.
+OBS: Sap application at 75.5 and its removal at 80.5 are confirmed in chat and the Priest control icon.
+OBS: Feral Kidney Shot begins at 81.5; Fear briefly overlays its icon at 83-84.5. Priest Silence transitions to Fear at 83.
+OBS: Feral reaches 0% at 86.5 and DEAD at 87. Blind on Priest occurs after this kill, not as the enabling lethal control.
+OBS: Both friendly players survive; surviving Priest remains approximately full health at victory.
+SOURCE CONVERSION: Feral partially recovers from about 3% to 29% after Trinket, but renewed control and pressure kill him at 86.5-87. Green wins at 89 with Priest alive.
+SOURCE RESET: Early control lacks meaningful damage. Late joint Feral pressure forces the escape; the partial heal after escape is countered by renewed Feral stun and healer Silence/Fear.
+
+M326 | win | open=Discipline Priest | kill=Feral Druid | extraction=high | flags=
+OBS: Blade arena, replay 36506467; displayed Discipline and Feral specializations.
+OBS: Feral is full when spending Trinket at 99; his escape expenditure alone is not a low-health window.
+OBS: Feral reaches about 15% at 130.5-131 but Penance and Flash Heal restore him as high as about 42% at 134.5.
+OBS: Our Rogue is Cycloned at 129.5-135.5 while our Priest continues pressure.
+OBS: Priest Flash Heal interruption at 135.5 is confirmed in chat. Priest Gouge is visibly applied at 139.5, not merely a macro announcement.
+OBS: Feral falls from about 27% at 139.5 to 6% at 141 and dies during renewed stuns; both enemy Trinkets remain on cooldown.
+SOURCE CONVERSION: Feral reaches 0% at 142 and DEAD at 142.5. Gold wins at 154 with Priest alive; both friendly players survive.
+SOURCE RESET: Healer pressure is restored by healing and Cyclone. Feral pressure produces several partial recoveries; after Priest escapes Fear, renewed interrupt and Gouge counter healing for the final Feral commitment.
+
+M370 | win | open=Feral Druid | kill=Feral Druid | extraction=high | flags=
+OBS: Priest selections68-70s and81-83s accompany small Priest damage/control; Feral remains the main pressure target
+OBS: Both enemy trinket icons remain ready before first death
+OBS: Priest is free92.5s onward and casts Penance94.5-95s; no full healer-CC coverage at finish
+OBS: No named Feral defensive confidently identified during its recovery
+OBS: Feral death independently shown; Priest alive near87% at victory
+SOURCE CONVERSION: Later Feral burst~55%87s to~25%92s, continues after Priest Fear ends; Priest starts Penance94.5s but Feral DEAD95.5s, victory100s
+SOURCE RESET: Early Feral low-health window is healed; renew control and commit Feral again
+
+M382 | win | open=Feral Druid | kill=Discipline Priest | extraction=high | flags=
+OBS: Feral remains full health through final isolation and alive at victory
+OBS: Renewed Feral effect104.5-108.5s is Sap, not Fear
+OBS: Silence announced103s but separate landed Silence is not independently established
+SOURCE CONVERSION: Priest pressure99s drops health75% to~46%101.5s; trinket102s followed by renewed stun, Priest DEAD108s while Feral remains Sapped; victory112s
+SOURCE RESET: Initial Feral pressure heals fully; long Feral isolation precedes Priest damage99s
+
+M392 | win | open=Feral Druid | kill=Discipline Priest | extraction=high | flags=
+OBS: ~73s Sap Priest; Priest full through ~87s.
+OBS: Around 84–87s Feral selected, 100% to 95%; red stun portrait and approximately 5-second timer around 87s. Gouge macro chat alone is not confirmation of Gouge. Priest switch around 87.5s.
+OBS: Around 88.5–91s Priest Horror and health loss; 4% at 91.5s and DEAD at 92.5s with trinket available. Feral stun expires just before Priest death.
+OBS: ~101s Feral trinket; ~104s Gold Team wins with our Rogue alive.
+SOURCE CONVERSION: Brief Feral pressure around 84–87s, renewed Feral stun around 87s, then switch Priest around 87.5s; Horror and damage drop Priest to 4% around 91.5s and DEAD around 92.5s. Feral stun lasts until approximately 92s, just before the death. Gold Team wins around 104s; Rogue survives.
+SOURCE RESET: No enemy trinket was removed before the Priest kill. Feral trinkets only during cleanup.
+
+M398 | win | open=Feral Druid | kill=Feral Druid | extraction=high | flags=
+OBS: ~55-64s Feral stuns and absorption at100%; ~65-79s Feral90% ->17%, Priest controlled intermittently.
+OBS: ~80-85s Priest Penance/support and Feral recovery37% ->48%.
+OBS: ~89s Feral trinket chat/cooldown; ~90.5-93.5s Priest selected/stunned70% ->63%,57% by94s.
+OBS: ~94.5s Priest trinket; ~98s interrupted Cyclone/Kick chat; ~100s Blind Priest.
+OBS: ~100-101s Feral21% ->2% ->DEAD under Priest Blind; ~103.5s win, Priest death not shown.
+OBS: Post-round chat: 'needed vt on start the go', 'most importantly'.
+SOURCE CONVERSION: Feral drops100% ->17% ~55-79s, recovers to48% with Priest support. Feral trinkets ~89s. Brief Priest stun/health loss ~90.5-93.5s precedes return Feral; Priest trinkets ~94.5s. Kick Cyclone ~98s, renewed Feral stun and Blind Priest ~100s produce Feral42% ->2% ->DEAD ~101s. Green Team wins ~103.5s.
+SOURCE RESET: Feral first low-health window is healed; pressure continues through form changes and resource use. Brief Priest selection is not established as an intended kill swap.
+
+M432 | win | open=Feral Druid | kill=Discipline Priest | extraction=high | flags=source_exception_present
+OBS: Two enemy panels explicitly identify Discipline and Feral
+OBS: Priest remains 100% during brief Druid pressure; Feral reaches only about 98%
+OBS: Feral Fear timer about 99-104s overlaps Priest swap; Priest loses health from about 101s
+OBS: Priest trinket timer starts about 110s; sustained DEAD and enemy team count 1 about 112s
+OBS: Friendly victory about 123s; Feral death versus departure unknown
+SOURCE CONVERSION: Switch to Priest during Feral Fear, continue control and damage through Priest trinket, and kill Priest about 112s
+EXCEPTION: - **match_001.mp4** — Feral remains active again before Priest death. Priest trinket is spent during conversion, not removed beforehand. Final Feral kill is not established.
+
+M434 | win | open=Feral Druid | kill=Feral Druid | extraction=high | flags=source_exception_present
+OBS: Enemy panels explicitly identify Discipline and Feral
+OBS: Feral first stun about 47s gives little health loss; renewed stun about 58-63s drops him to about 43%
+OBS: Short purple Priest Silence timer about 57-60s
+OBS: Feral falls near 15%, heals to 40%, then is brought low again; Priest heals visibly in final seconds
+OBS: Cyclone lands on our Priest about 77s; Feral DEAD about 79s and enemy count 1
+OBS: Scoreboard about 83s shows friendly win and one killing blow; surviving Priest departure, not confirmed second kill
+SOURCE CONVERSION: Maintain Feral damage through recoveries from about 15% to 40% and later healing; finish Feral about 79s despite late Cyclone on our Priest
+SOURCE RESET: No healer damage swap; Priest selections are control attempts. Renew pressure on the same Feral through partial heals.
+EXCEPTION: - **match_003.mp4** — Feral timed buff icons about 64-68s and 70-79s are not confidently named. No enemy trinket use observed. Priest is free to heal during the final conversion.
+
+M436 | win | open=Feral Druid | kill=Feral Druid | extraction=high | flags=source_exception_present
+OBS: Discipline and Feral are explicitly shown
+OBS: Feral first pressure largely absorbed; Priest Silence about 88s overlaps Feral damage and stun
+OBS: Feral trinket timer begins about 90s; Druid drops toward 43% then partially heals
+OBS: Priest Gouge timer about 95s followed by Fear about 98-103s
+OBS: Feral drops from about 40% to DEAD about 102s while Priest still controlled
+OBS: Late Cyclone on our Priest occurs around Feral death; scoreboard about 105s shows one friendly killing blow and win
+SOURCE CONVERSION: Keep Feral as target through partial healing, renew Priest control and finish Feral about 102s
+SOURCE RESET: Initial stuns cause little health loss. Feral later heals from about 43% to 54%; continue pressure during renewed Priest control.
+EXCEPTION: - **match_005.mp4** — Several timed Feral buff effects are not confidently named. No Priest trinket spend observed. Surviving Priest departure is not a confirmed second kill.
+
+M437 | win | open=Feral Druid | kill=Feral Druid | extraction=high | flags=source_exception_present
+OBS: Explicit Discipline/Feral panels and one continuous normal 2v2
+OBS: Feral reaches about 21% at 60s but heals back near full by 78s
+OBS: Trinket timers visibly recover: Feral about 176s then 337s; Priest about 185s before reuse
+OBS: Second Feral trinket about 217s follows Blind at full health; Priest trinkets renewed Fear about 292s
+OBS: Third Feral trinket starts about 350.5s; Priest Blind timer begins about 353.5s as Feral falls 79% to 10%, followed by short Sap before death
+OBS: Friendly victory about 366.5s; surviving Priest departure versus second kill unknown
+SOURCE CONVERSION: Continue Feral damage through Priest Blind and renewed Sap; Feral reaches 10% about 362s and DEAD about 364s
+SOURCE RESET: First low-health Feral window is healed back up; multiple renewed pressure and survival windows precede final conversion
+EXCEPTION: - **match_006.mp4** — Unnamed Feral buffs are not assigned defensive names. Final trinket use is about 350.5s, correcting coarse overview estimate near 352s. Enemy Hymn of Hope is spent but not attributed as forced.
+
+M438 | win | open=Feral Druid | kill=Discipline Priest | extraction=high | flags=source_exception_present
+OBS: Explicit Discipline/Feral panels; Rogue POV with friendly Shadow Priest
+OBS: Feral trinket begins at about 92.5s and remains on cooldown at swap
+OBS: Feral is about 100% while Priest falls during Silence and Blind overlap
+OBS: Priest heals from about 44% to 63% after Silence, then falls again through sustained pressure
+OBS: Priest DEAD about 147.5s; Feral survives at roughly 92% before friendly victory about 159s
+SOURCE CONVERSION: Switch from healed Feral to Priest; damage through Priest healing after Silence and kill Priest about 147.5s
+SOURCE RESET: Feral pressure does not convert; use renewed Feral control for healer swap
+EXCEPTION: - **match_007.mp4** — Priest trinket use not observed. Feral remains controlled during much of swap but becomes active just before Priest death. Feral second death unknown.
+
+M439 | win | open=Feral Druid | kill=Discipline Priest | extraction=high | flags=source_exception_present
+OBS: Two enemy panels explicitly identify Discipline/Feral
+OBS: Priest remains 100% during initial Feral stuns; Feral also remains 100%
+OBS: Feral Fear begins about 56s; Rogue retargets Priest about 56.5s
+OBS: Priest DEAD about 60s with enemy count 1, followed by friendly victory about 62.5s
+OBS: Both enemy trinket icons remain ready; no trinket expenditure is established
+SOURCE CONVERSION: Priest drops about 95% to 32% during the short swap and dies about 60s while Feral is still feared
+EXCEPTION: - **match_008.mp4** — No enemy resource is listed as forced merely because a kill occurred. Feral survives at full health before departure; second kill unknown.
+
+M448 | win | open=Feral Druid | kill=Feral Druid | extraction=high | flags=source_exception_present
+OBS: Gladius identifies Discipline Priest and Feral Druid; both trinket indicators remain ready.
+OBS: Feral receives heals during and after pressure; Priest control ends before the final kill and Penance is visible at 115.5–117s.
+OBS: Both friendly players survive. Feral DEAD appears at 121s; Priest is still at 100% before the scoreboard.
+SOURCE CONVERSION: Priest resumes Penance at 115.5–117s, but Feral remains low. Renewed Feral stun at 119.5s reduces him to 4% at 120s and DEAD at 121s; scoreboard confirms win at 123s.
+SOURCE RESET: First deep Feral window reaches about 20% at 101.5s, then healing restores him to about 52% at 106.5s and 65% at 110s. Pressure resumes on the same target.
+EXCEPTION: - **match_017.mp4** — No enemy trinket spend or final healer-control prerequisite is asserted; unnamed Druid buffs remain unresolved. Priest removal after Feral death is not a proven kill.
+
+M451 | win | open=Feral Druid | kill=Discipline Priest | extraction=high | flags=source_exception_present
+OBS: Gladius identifies Discipline Priest and Feral Druid.
+OBS: Priest PvP Trinket starts cooldown at 77.5s; Feral PvP Trinket remains displayed ready through the final 1v1.
+OBS: Both enemy deaths and friendly Priest death are explicitly shown; winning scoreboard follows.
+SOURCE CONVERSION: Priest dies at 88s. Friendly Shadow Priest dies at 90.5s; Rogue survives the subsequent 1v1 and kills Feral at 160.5s. Winning scoreboard appears at 162s.
+SOURCE RESET: Feral opener switches to Priest; first kill trades into Rogue versus Feral. Feral falls to 14% at 136.5–138.5s but heals to 35% at 139s; Rogue continues pressure and control to the final kill.
+EXCEPTION: - **match_020.mp4** — No named Feral defensive assigned to unidentified buffs or the 139s heal. Feral trinket readiness is preserved despite the win.
+
+M452 | win | open=Feral Druid | kill=Feral Druid | extraction=high | flags=source_exception_present
+OBS: Gladius explicitly identifies Feral and Discipline.
+OBS: Feral trinket cooldown begins as stun disappears at 106.5s; Priest fear disappears into trinket cooldown at 119.5s.
+OBS: Enemy Divine Hymn is visibly channeled 124–128s; final Feral death is explicit.
+SOURCE CONVERSION: Feral falls to 11% at 166s, briefly heals to 17% during free Penance 166–167.5s, then dies at 171.5s. Priest remains about 96%; win scoreboard at 174.5s without confirmed Priest death.
+SOURCE RESET: Repeated Feral attempts are healed, including enemy Divine Hymn returning Feral to full at 127s. Friendly healing sustains a later pressure cycle rather than an immediate initial conversion.
+EXCEPTION: - **match_022.mp4** — Final Priest CC has gaps; Penance 166–167.5s is preserved. No second enemy death inferred.
+
+M453 | win | open=Feral Druid | kill=Feral Druid | extraction=high | flags=source_exception_present
+OBS: Gladius identifies Discipline / Feral.
+OBS: Feral stun disappears into PvP Trinket cooldown at 98.5s; Priest PvP Trinket remains ready through the final kill.
+OBS: Penance and Flash Heal visibly save Feral during earlier low-health attempts; final Feral death is explicit.
+SOURCE CONVERSION: Feral drops from approximately 33% to 7% during the final stun and is explicitly DEAD at 123.5s. Win scoreboard follows at 125s; Priest was 99%, with no confirmed second kill.
+SOURCE RESET: Repeated Feral pressure survives several healer recoveries; friendly healing at 103.5s restores Rogue and supports renewed stun cycles. No sustained target switch.
+EXCEPTION: - **match_023.mp4** — Priest trinket is ready at conversion; no generic claim that both trinkets are spent. No second death inferred.
+
+M454 | win | open=Feral Druid | kill=Discipline Priest | extraction=high | flags=source_exception_present
+OBS: Gladius identifies Discipline Priest and Feral Druid
+OBS: Feral opening stun sequence removes little health; Priest drops from full to about 37% by 68s during the switch
+OBS: Priest heals to about 76–80% around 70.5–73s, then declines steadily; no continuous Priest control after about 71s
+OBS: Both enemy trinket icons remain ready through Priest death
+OBS: Priest sustained DEAD about 81s; Feral remains alive at about 47% before departure and victory about 85s
+SOURCE CONVERSION: After Priest heals partially around 69–73s, maintain split pressure; Shadow Priest damage reduces Priest to zero and DEAD appears about 81s
+SOURCE RESET: Rogue switches from Feral to Priest around 61.5s, then returns to Feral around 71s; friendly Priest retains Priest damage
+EXCEPTION: - **match_025.mp4** — No trinket prerequisite or second enemy kill claimed. Priest recovery ability unknown.

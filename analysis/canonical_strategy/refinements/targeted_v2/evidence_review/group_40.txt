@@ -1,0 +1,10 @@
+GROUP 40: Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Retribution Paladin
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Retribution Paladin", "total_games": 1, "wins": 1, "losses": 0, "unknown_result": 0, "opening_target_known": 1, "opening_target_unknown": 0, "opening_targets": {"Retribution Paladin": 1}, "kill_target_known": 1, "kill_target_unknown": 0, "kill_targets": {"Discipline Priest": 1}, "records_with_quality_flags": 0, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 1, "source_batch_distribution": {"august_31st_2550_20260912": 1}}
+
+M009 | win | open=Retribution Paladin | kill=Discipline Priest | extraction=high | flags=
+OBS: Priest Sap ~56-65s; Paladin stuns ~59-64s
+OBS: Paladin Fear/Trinket ~65-66s; Priest pressure reaches32% then recovers
+OBS: Blind Paladin ~103-111s; Priest escape cooldown appears ~107s
+OBS: Sap Paladin ~111-120s; renewed Priest stuns; Priest dead ~117s; Gold wins ~128s
+SOURCE CONVERSION: Priest first falls32% ~73s but recovers when Rogue returns Paladin; Blind Paladin ~103s draws Priest Trinket ~107s under renewed Priest pressure; Sap Paladin ~111s extends isolation and Priest dies ~117s
+SOURCE RESET: Nonlethal first Priest window followed by Paladin pressure and renewed Priest commitment

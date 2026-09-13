@@ -1,0 +1,60 @@
+GROUP 15: Shadow Priest / Subtlety Rogue__vs__Balance Druid / Frost Mage
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Balance Druid / Frost Mage", "total_games": 7, "wins": 6, "losses": 1, "unknown_result": 0, "opening_target_known": 7, "opening_target_unknown": 0, "opening_targets": {"Frost Mage": 4, "Druid": 1, "Mage": 1, "Balance Druid": 1}, "kill_target_known": 7, "kill_target_unknown": 0, "kill_targets": {"Frost Mage": 1, "none observed": 1, "Mage": 1, "Balance Druid": 4}, "records_with_quality_flags": 2, "records_with_source_exceptions": 2, "records_with_source_win_condition_hypothesis": 7, "source_batch_distribution": {"june_7th_2700_20260913": 1, "may_18th_2500_20260913": 3, "may_24th_2450_20260913": 1, "september_20th_2650_20260913": 2}}
+
+M232 | loss | open=Druid | kill=none observed | extraction=high | flags=
+OBS: Our Priest alive with full health during 95–100s burst
+OBS: Silence and shadow-form portrait support Shadow Priest identification
+OBS: Both enemies alive at our Rogue death
+SOURCE CONVERSION: Druid remains near 40% through 100s then recovers; later Mage pressure does not convert; our Rogue dies 119s and enemy Green victory 121s
+SOURCE RESET: Druid pressure heals; Blind Mage permits another Druid attempt, then damage switches Mage
+SOURCE FAILURE: Druid survives the favorable burst and recovers; our Rogue dies during later Mage pressure
+
+M187 | win | open=Frost Mage | kill=Frost Mage | extraction=high | flags=
+OBS: One 2v2; scan 31-73s at 1s, immunity/recovery/first kill 55-64s at 0.5s
+OBS: Explicit Frost/Balance labels; Ice Block icon/countdown and immunity scene observed
+OBS: Druid retains Trinket through Mage death and uses it only later; no confirmed Druid death
+SOURCE CONVERSION: Mage briefly displays 0% 59.5s but recovers to 23% 60.5s; sustained damage reaches DEAD 63.5s; victory score 72s
+SOURCE RESET: Mage immunity ends quickly and health briefly recovers. Druid selection 58-58.5s principally establishes control; main damage remains Mage. Druid escapes renewed cleanup control 69s
+
+M237 | win | open=Mage | kill=Mage | extraction=high | flags=
+OBS: Druid Trinket remains available
+OBS: Both friendlies survive
+OBS: Druid is not incapacitated by Silence
+SOURCE CONVERSION: Mage 44% at 109s, recovery near 67% then renewed damage to 15% at 113s during Druid Silence; death 116s, Gold victory 118s
+
+M240 | win | open=Frost Mage | kill=Balance Druid | extraction=high | flags=
+OBS: 49–63s: Mage initial damage/control, Trinket and brief Ice Block; Druid Sap support
+OBS: 105–114s: Mage confirmed Blind; Druid sustained pressure
+OBS: 108–109.5s Druid stun; health falls 90% to 47%; 110–110.5s Silence and 21%; dead 111.5s
+OBS: Druid Trinket remains available at death; both friendlies survive; Gold victory 114s
+SOURCE CONVERSION: Swap sustained damage to Druid around 105s under Mage Blind; Druid dies at 111.5s
+SOURCE RESET: Early Mage pressure produces escapes but no sustained health deficit; reposition and use the Druid branch
+
+M269 | win | open=Frost Mage | kill=Balance Druid | extraction=high | flags=
+OBS: Two enemy frames identify Balance Druid and Frost Mage
+OBS: Mage first loses health ~85s, reaching ~73% ~87s
+OBS: Druid swap ~94s; Mage Fear during ~96-99s
+OBS: Druid ~47% at 102.5s, ~37% at 103s; Silence/Gouge indicators alternate through ~106.5s
+OBS: Mage continues Polymorph attempts during the Druid finish
+OBS: Druid DEAD ~107.5s; victory ~110s; both enemy Trinket icons remain ready
+SOURCE CONVERSION: Continue Druid damage through Silence ~102.5s, Gouge ~103.5-104.5s and renewed Silence ~105-106.5s; Druid dies ~107.5s
+
+M443 | win | open=Balance Druid | kill=Balance Druid | extraction=high | flags=source_exception_present
+OBS: Normal two-versus-two combat; Gladius identifies Balance Druid and Frost Mage.
+OBS: Mage stays at 100% through the Druid conversion; selecting and controlling Mage is not a damage swap.
+OBS: Druid reaches low health during successive stuns and trinkets only at the end.
+OBS: Both enemy DEAD states are visible; both friendlies survive.
+OBS: Mage trinket is still ready at the first kill and is spent only afterward.
+SOURCE CONVERSION: Druid trinkets at about 13% and dies around 117.5s. Friendlies then pressure Mage through its trinket and Ice Block; Mage dies around 141s and victory follows around 142s.
+EXCEPTION: - **match_012.mp4** — Druid trinkets only at lethal low health; Mage trinket remains ready at first kill. Both kills visually established.
+
+M445 | win | open=Frost Mage | kill=Balance Druid | extraction=high | flags=source_exception_present
+OBS: Two normal enemies engage; Gladius identifies Balance Druid and Frost Mage.
+OBS: Initial small Druid health loss heals before coordinated Mage pressure.
+OBS: Mage heals through and after Ice Block, reaching 100% around 62.5s.
+OBS: Druid trinkets Fear, then loses health during the subsequent stun sequence.
+OBS: Mage is free for much of the final Druid pressure and repeatedly attempts Polymorph.
+OBS: Mage PvP trinket remains ready through both visible deaths; both enemy DEAD states and victory are visible.
+SOURCE CONVERSION: Druid is reduced to low health and dies around 90s. Both friendlies remain alive despite Rogue being very low; they finish Mage around 96.5s and victory appears around 97s.
+SOURCE RESET: The healed Mage opening branches to a Druid kill after Druid trinket. Mage is then finished in the two-versus-one.
+EXCEPTION: - **match_014.mp4** — Both enemies die with Mage trinket still ready. Final Druid pressure succeeds despite free Mage casts and low friendly Rogue health.

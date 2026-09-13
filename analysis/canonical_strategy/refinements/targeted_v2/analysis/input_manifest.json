@@ -1,0 +1,39 @@
+{
+  "baseline_root": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\analysis\\canonical_strategy",
+  "output_root": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\analysis\\canonical_strategy\\refinements\\targeted_v2",
+  "baseline_package_version": "1.0.0",
+  "candidate_package_version": "1.1.0",
+  "schema_version": "1.0.0",
+  "prepared_corpus_version": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+  "input_files": {
+    "strategies.json": {
+      "path": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\analysis\\canonical_strategy\\strategies.json",
+      "sha256": "b57205f6a6f3cfba08cf8fabb6e8bd2206736f67677cf8f92c4991b8c1fd3440"
+    },
+    "evidence_matches.json": {
+      "path": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\analysis\\canonical_strategy\\evidence_matches.json",
+      "sha256": "c6a7e9f67e9cc8bdf67293081116b34706dcd772eeeb6dc0fc5535ba2ac256ba"
+    },
+    "matchup_index.json": {
+      "path": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\analysis\\canonical_strategy\\matchup_index.json",
+      "sha256": "746208db06989f7d6073cb31317659dafdf10364f0c928214bca9faa6bb58fea"
+    },
+    "contradiction_index.json": {
+      "path": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\analysis\\canonical_strategy\\contradiction_index.json",
+      "sha256": "83c7ae4c46128ec4fd04aec2f1e9bf43031f0671a4d855c669c15d669c0bd9e6"
+    },
+    "package_counts.json": {
+      "path": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\analysis\\canonical_strategy\\package_counts.json",
+      "sha256": "972e37b555097a3cefa43403a1c868fb4eda0c64529d94da8c52b62fbea6e3a0"
+    },
+    "unresolved_matches.json": {
+      "path": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\analysis\\canonical_strategy\\unresolved_matches.json",
+      "sha256": "012fea10d2faa3a7b3d89aa6d01c3abd9c78123deaa52c366b103af187193880"
+    }
+  },
+  "instruction_brief": {
+    "path": "C:\\Users\\Gary Goldman\\Downloads\\03_ASTRA_TARGETED_STRATEGY_REFINEMENT.md",
+    "sha256": "d471bb2f4ca38c0dcea779e061c99c9565377e7db7b0a93ac07b0f502391cae0"
+  },
+  "source_review": "All 215 normalized records reviewed; six original extraction records checked for material ambiguities. No footage viewed."
+}

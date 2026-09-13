@@ -1,0 +1,671 @@
+{
+  "strategy_id": "SPR_vs_Destro_Disc_v1",
+  "strategy_key": "SPR_vs_Destro_Disc",
+  "version": 1,
+  "schema_version": "1.0.0",
+  "status": "provisional",
+  "created_date": "2026-09-13",
+  "our_comp": "Shadow Priest / Subtlety Rogue",
+  "enemy_comp": "Destruction Warlock / Discipline Priest",
+  "evidence": {
+    "total_games": 4,
+    "wins": 4,
+    "losses": 0,
+    "unknown_result": 0,
+    "confidence": "low",
+    "supporting_match_ids": [
+      "june_7th_2700_20260913__match_030",
+      "june_7th_2700_20260913__match_033",
+      "june_7th_2700_20260913__match_034",
+      "june_7th_2700_20260913__match_035"
+    ],
+    "contradicting_match_ids": [
+      "june_7th_2700_20260913__match_030",
+      "june_7th_2700_20260913__match_034",
+      "june_7th_2700_20260913__match_035"
+    ],
+    "contradiction_scope": "Challenges to candidate or stronger universal rules, not necessarily to the final qualified wording.",
+    "representative_match_ids": [
+      "june_7th_2700_20260913__match_030",
+      "june_7th_2700_20260913__match_033",
+      "june_7th_2700_20260913__match_034"
+    ],
+    "all_match_ids": [
+      "june_7th_2700_20260913__match_030",
+      "june_7th_2700_20260913__match_033",
+      "june_7th_2700_20260913__match_034",
+      "june_7th_2700_20260913__match_035"
+    ],
+    "data_quality_notes": [
+      "Source extractions reviewed; original videos were not reopened during synthesis.",
+      "Both dedicated player-role fields are empty in all input records; roles remain unknown except where explicit narrative evidence is cited.",
+      "Sample win rate is a property of selected footage, not expected ladder performance.",
+      "Absent events are unknown unless the record explicitly establishes availability or absence.",
+      "A reported enemy kill can occur after a friendly death; the round result is stored separately.",
+      "No losses in this matchup; outcome discrimination and loss-derived failure modes cannot be established."
+    ],
+    "source_batches": {
+      "june_7th_2700_20260913": 4
+    }
+  },
+  "facts": {
+    "by_result": {
+      "win": {
+        "total": 4,
+        "opening_targets": {
+          "Destruction Warlock": 4
+        },
+        "enemy_kill_targets": {
+          "Discipline Priest": 4
+        }
+      },
+      "loss": {
+        "total": 0,
+        "opening_targets": {},
+        "enemy_kill_targets": {}
+      },
+      "unknown": {
+        "total": 0,
+        "opening_targets": {},
+        "enemy_kill_targets": {}
+      }
+    },
+    "opening_targets": {
+      "Destruction Warlock": 4
+    },
+    "kill_targets": {
+      "Discipline Priest": 4
+    },
+    "opening_to_reported_enemy_kill": [
+      {
+        "opening_target": "Destruction Warlock",
+        "reported_enemy_kill": "Discipline Priest",
+        "result": "win",
+        "count": 4,
+        "match_ids": [
+          "june_7th_2700_20260913__match_030",
+          "june_7th_2700_20260913__match_033",
+          "june_7th_2700_20260913__match_034",
+          "june_7th_2700_20260913__match_035"
+        ]
+      }
+    ],
+    "sequence_limit": "Endpoints only. No intermediate swap timing, causal sequence, or survival at the enemy death is inferred by this computation.",
+    "source_resource_labels": [
+      {
+        "label": "Priest Trinket 54s",
+        "records": 1
+      },
+      {
+        "label": "Priest Trinket 89s",
+        "records": 1
+      },
+      {
+        "label": "Priest Trinket 95s",
+        "records": 1
+      },
+      {
+        "label": "Warlock Summon Succubus 112s",
+        "records": 1
+      },
+      {
+        "label": "Warlock Trinket 116s",
+        "records": 1
+      },
+      {
+        "label": "Warlock Trinket 119s during cleanup",
+        "records": 1
+      },
+      {
+        "label": "Warlock Trinket 74s",
+        "records": 1
+      },
+      {
+        "label": "Warlock Trinket 84s",
+        "records": 1
+      }
+    ],
+    "resource_count_limit": "Exact source-listed labels, deduplicated within each match. They include uncertain or offensive entries and are not verified forced-resource frequencies.",
+    "cc_lexical_mentions": {},
+    "cc_count_limit": "Literal mentions in observed notes, including negated/uncertain/post-death mentions. These are search aids, not counts of landed CC.",
+    "recovery_text_present": 4,
+    "recovery_count_limit": "Field coverage only: texts may explicitly say no reset. Not a reset-event rate.",
+    "missing_fields": {
+      "priest_role": 4,
+      "rogue_role": 4,
+      "recovery_text": 0,
+      "result": 0,
+      "opening_target": 0,
+      "enemy_kill_target": 0
+    },
+    "quality_flags": {},
+    "extraction_confidence": {
+      "high": 4
+    }
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "H1",
+      "statement": "One opening target also explains every reported enemy kill in wins.",
+      "tested_target": "Destruction Warlock",
+      "disposition": "rejected_as_exhaustive",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [
+        "june_7th_2700_20260913__match_030",
+        "june_7th_2700_20260913__match_033",
+        "june_7th_2700_20260913__match_034",
+        "june_7th_2700_20260913__match_035"
+      ],
+      "unknown_kill_wins": 0,
+      "limitation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability."
+    },
+    {
+      "hypothesis_id": "H2",
+      "statement": "Priest health drops under renewed pressure faster than its partial recovery can restore it.",
+      "disposition": "provisional_interpretation",
+      "supporting_match_ids": [
+        "june_7th_2700_20260913__match_030",
+        "june_7th_2700_20260913__match_033",
+        "june_7th_2700_20260913__match_034",
+        "june_7th_2700_20260913__match_035"
+      ],
+      "contradicting_match_ids": [],
+      "limitation": "All four wins come from one source batch. This is a tentative pattern; Priest escape removal, permanent Warlock control and pet death are not established prerequisites."
+    },
+    {
+      "hypothesis_id": "H3",
+      "statement": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [
+        "june_7th_2700_20260913__match_030",
+        "june_7th_2700_20260913__match_034",
+        "june_7th_2700_20260913__match_035"
+      ],
+      "limitation": "All four wins come from one source batch. This is a tentative pattern; Priest escape removal, permanent Warlock control and pet death are not established prerequisites."
+    }
+  ],
+  "default_line": {
+    "opening_target": {
+      "text": "Destruction Warlock; recorded in 4/4 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "basis": "pattern",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "june_7th_2700_20260913__match_030",
+        "june_7th_2700_20260913__match_033",
+        "june_7th_2700_20260913__match_034",
+        "june_7th_2700_20260913__match_035"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "all_labeled_openers_in_this_matchup"
+    },
+    "initial_objective": {
+      "text": "Tentatively convert early Warlock contact into meaningful Priest pressure.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "june_7th_2700_20260913__match_030",
+        "june_7th_2700_20260913__match_033",
+        "june_7th_2700_20260913__match_034",
+        "june_7th_2700_20260913__match_035"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "win_condition": {
+      "text": "Priest health drops under renewed pressure faster than its partial recovery can restore it.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "june_7th_2700_20260913__match_030",
+        "june_7th_2700_20260913__match_033",
+        "june_7th_2700_20260913__match_034",
+        "june_7th_2700_20260913__match_035"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "manufacture": {
+      "text": "All four records label Warlock as the opener, but some opening damage is absorbed or minimal. A later Priest commitment is the repeated meaningful conversion.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "june_7th_2700_20260913__match_030",
+        "june_7th_2700_20260913__match_033",
+        "june_7th_2700_20260913__match_034",
+        "june_7th_2700_20260913__match_035"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "conversion": {
+      "text": "Finish Priest through renewed short control and continued damage; Warlock can be active near the final kill.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "june_7th_2700_20260913__match_030",
+        "june_7th_2700_20260913__match_033",
+        "june_7th_2700_20260913__match_034",
+        "june_7th_2700_20260913__match_035"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "reset": {
+      "text": "Repeat Priest pressure after a healed first window; pet interactions vary and permanent removal is not established.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "june_7th_2700_20260913__match_030",
+        "june_7th_2700_20260913__match_033",
+        "june_7th_2700_20260913__match_034",
+        "june_7th_2700_20260913__match_035"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "important_resources": []
+  },
+  "states": [
+    {
+      "state_id": "opening",
+      "description": "All four records label Warlock as the opener, but some opening damage is absorbed or minimal. A later Priest commitment is the repeated meaningful conversion.",
+      "team_objective": {
+        "text": "All four records label Warlock as the opener, but some opening damage is absorbed or minimal. A later Priest commitment is the repeated meaningful conversion.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "june_7th_2700_20260913__match_030",
+          "june_7th_2700_20260913__match_033",
+          "june_7th_2700_20260913__match_034",
+          "june_7th_2700_20260913__match_035"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "An actual pressure commitment has begun.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "june_7th_2700_20260913__match_030",
+            "june_7th_2700_20260913__match_033",
+            "june_7th_2700_20260913__match_034",
+            "june_7th_2700_20260913__match_035"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "june_7th_2700_20260913__match_030",
+        "june_7th_2700_20260913__match_033",
+        "june_7th_2700_20260913__match_034",
+        "june_7th_2700_20260913__match_035"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "pressure",
+      "description": "Tentatively convert early Warlock contact into meaningful Priest pressure.",
+      "team_objective": {
+        "text": "Tentatively convert early Warlock contact into meaningful Priest pressure.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "june_7th_2700_20260913__match_030",
+          "june_7th_2700_20260913__match_033",
+          "june_7th_2700_20260913__match_034",
+          "june_7th_2700_20260913__match_035"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "june_7th_2700_20260913__match_030",
+        "june_7th_2700_20260913__match_033",
+        "june_7th_2700_20260913__match_034",
+        "june_7th_2700_20260913__match_035"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "conversion",
+      "description": "Finish Priest through renewed short control and continued damage; Warlock can be active near the final kill.",
+      "team_objective": {
+        "text": "Finish Priest through renewed short control and continued damage; Warlock can be active near the final kill.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "june_7th_2700_20260913__match_030",
+          "june_7th_2700_20260913__match_033",
+          "june_7th_2700_20260913__match_034",
+          "june_7th_2700_20260913__match_035"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "Priest health drops under renewed pressure faster than its partial recovery can restore it.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "june_7th_2700_20260913__match_030",
+            "june_7th_2700_20260913__match_033",
+            "june_7th_2700_20260913__match_034",
+            "june_7th_2700_20260913__match_035"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "june_7th_2700_20260913__match_030",
+        "june_7th_2700_20260913__match_033",
+        "june_7th_2700_20260913__match_034",
+        "june_7th_2700_20260913__match_035"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "recovery",
+      "description": "Repeat Priest pressure after a healed first window; pet interactions vary and permanent removal is not established.",
+      "team_objective": {
+        "text": "Repeat Priest pressure after a healed first window; pet interactions vary and permanent removal is not established.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "june_7th_2700_20260913__match_030",
+          "june_7th_2700_20260913__match_033",
+          "june_7th_2700_20260913__match_034",
+          "june_7th_2700_20260913__match_035"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "The preceding attempt is healed, protected, or interrupted.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "june_7th_2700_20260913__match_030",
+            "june_7th_2700_20260913__match_033",
+            "june_7th_2700_20260913__match_034",
+            "june_7th_2700_20260913__match_035"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "june_7th_2700_20260913__match_030",
+        "june_7th_2700_20260913__match_033",
+        "june_7th_2700_20260913__match_034",
+        "june_7th_2700_20260913__match_035"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "branches": [],
+  "match_assessments": [
+    {
+      "match_id": "june_7th_2700_20260913__match_030",
+      "review_id": "M179",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Discipline Priest",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_033",
+      "review_id": "M182",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Discipline Priest",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_034",
+      "review_id": "M183",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Discipline Priest",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_035",
+      "review_id": "M184",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Discipline Priest",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    }
+  ],
+  "failure_modes": [],
+  "runtime_observability": {
+    "automatic": [],
+    "automatic_candidates": [
+      {
+        "signal": "Verified cast/aura, present health, or an observed control start/end",
+        "status": "unvalidated_candidate",
+        "scope": "Raw events only; not strategic intent or reliable absence of an enemy cooldown.",
+        "limitation": "No addon implementation or API testing was performed; no automatic transition is certified."
+      }
+    ],
+    "manual_possible": [
+      {
+        "transition": "pressure_to_conversion",
+        "confirmation": "A meaningful enemy health window, current partner control and friendly readiness overlap."
+      },
+      {
+        "transition": "conversion_to_recovery",
+        "confirmation": "Target recovered or became protected; team needs a new usable attempt."
+      }
+    ],
+    "web_only": [
+      "Strategic intent",
+      "Reasons for a target-selection branch",
+      "Causal counterfactuals",
+      "Full comparison with losses and unresolved evidence"
+    ]
+  },
+  "uncertainties": [
+    "All four wins come from one source batch. This is a tentative pattern; Priest escape removal, permanent Warlock control and pet death are not established prerequisites.",
+    "Precise Priest/Rogue division of labour by phase is mostly unknown.",
+    "Exact runtime detection reliability on Warmane 3.3.5 is untested.",
+    "No robust failure mode is established from this sample; absence of a failure entry is not evidence of safety."
+  ],
+  "mechanics_context": [],
+  "provenance": {
+    "prepared_corpus_version": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Destruction_Warlock__Discipline_Priest.jsonl",
+    "review_file": "evidence_review/group_25.txt",
+    "prepared_stats": {
+      "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Destruction Warlock / Discipline Priest",
+      "total_games": 4,
+      "wins": 4,
+      "losses": 0,
+      "unknown_result": 0,
+      "opening_target_known": 4,
+      "opening_target_unknown": 0,
+      "opening_targets": {
+        "Destruction Warlock": 4
+      },
+      "kill_target_known": 4,
+      "kill_target_unknown": 0,
+      "kill_targets": {
+        "Discipline Priest": 4
+      },
+      "records_with_quality_flags": 0,
+      "records_with_source_exceptions": 0,
+      "records_with_source_win_condition_hypothesis": 4,
+      "source_batch_distribution": {
+        "june_7th_2700_20260913": 4
+      }
+    },
+    "review_group": 25,
+    "date": "2026-09-13"
+  },
+  "version_history": [
+    {
+      "version": 1,
+      "date": "2026-09-13",
+      "corpus": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+      "change": "Initial evidence-constrained synthesis; no prior approved strategy replaced.",
+      "reason": "First canonical package for review."
+    }
+  ]
+}

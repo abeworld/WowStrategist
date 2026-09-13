@@ -1,0 +1,36 @@
+{
+  "instructions": "ARENA_ANALYSIS_INSTRUCTIONS.md V6",
+  "source_folder": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\output\\2v2_SPR_+2700_MMR_September_28th_Stream_VOD_WOW_R1_Gladiator_Rogue_Arena_PVP_-_Warmane_WOTLK",
+  "discovered_mp4_files": 33,
+  "requested_mp4_files": 33,
+  "files_reviewed_full_duration": 33,
+  "valid_2v2_games": 31,
+  "jsonl_game_records": 31,
+  "analysed": 26,
+  "uncertain": 5,
+  "failed": 0,
+  "ignored_non_2v2": 0,
+  "excluded_non_evidentiary_2v2": 2,
+  "results": {
+    "loss": 8,
+    "win": 23
+  },
+  "confidence": {
+    "medium": 5,
+    "high": 26
+  },
+  "source_duration_seconds": 6687.500001,
+  "count_mismatch": false,
+  "review_method": "Frame-based full-duration inspection: inactive preparation/town approximately every 3–4 seconds; active combat at 1-second intervals; identified critical windows at 0.5-second intervals, with full-screen checks for ambiguous deaths or cooldowns.",
+  "scope": "Raw per-game extraction only; no matchup synthesis or final cards",
+  "validation": [
+    "All 33 source MP4s freshly enumerated and probed; durations agree with inspection metadata",
+    "31 unique flat records with exact V6 fields; one record for each valid game",
+    "33 manifest rows cover every source, including both exclusions",
+    "All clip bounds within source duration",
+    "Forced resources are a subset of observed enemy resources",
+    "Loss fields populated and win failure fields empty",
+    "Win-condition flags checked independently of outcome; conversion_failed implication checked",
+    "Uncertain records and exclusions identified separately"
+  ]
+}

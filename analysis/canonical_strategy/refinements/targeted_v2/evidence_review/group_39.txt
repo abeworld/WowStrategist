@@ -1,0 +1,12 @@
+GROUP 39: Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Fire Mage
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Fire Mage", "total_games": 1, "wins": 1, "losses": 0, "unknown_result": 0, "opening_target_known": 1, "opening_target_unknown": 0, "opening_targets": {"Fire Mage": 1}, "kill_target_known": 1, "kill_target_unknown": 0, "kill_targets": {"Discipline Priest": 1}, "records_with_quality_flags": 0, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 1, "source_batch_distribution": {"may_24th_vod2_2600_20260913": 1}}
+
+M332 | win | open=Fire Mage | kill=Discipline Priest | extraction=high | flags=
+OBS: Sewers arena, replay 36507240; displayed specializations identify Fire Mage and Discipline Priest.
+OBS: Same enemy player names as clip 30, but displayed Mage specialization is Fire in this distinct game.
+OBS: Early Mage Blind is confirmed by application evidence; its early break mechanism is unknown.
+OBS: Silence announcements precede application; Priest Penance is still visible at 96, with Silence application visible around 96.5.
+OBS: Mage Fear ends at approximately 99.5 before Priest death; continuous Mage control through death is not claimed.
+OBS: Both friendly players remain alive at victory; no additional arena game in the tail.
+SOURCE CONVERSION: Priest briefly recovers to approximately 44% at 98 but drops to 19% at 99.5 and 8% at 100, then dies at 101; Gold wins at 105 with Mage alive.
+SOURCE RESET: Initial Mage pressure is healed; the team switches to Priest while renewed Mage stun/Fear control suppresses disruption.

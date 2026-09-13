@@ -1,0 +1,16 @@
+{
+  "source_coverage": "42 / 42",
+  "manifest_segments": 44,
+  "valid_games_and_jsonl_lines": 40,
+  "excluded_abnormal_segments": 4,
+  "results": {
+    "win": 36,
+    "loss": 4
+  },
+  "unique_flat_records": true,
+  "loss_fields_present": true,
+  "pending_reviews": 0,
+  "count_mismatch": false,
+  "schema_checks": "passed",
+  "review_limitations": "Frame-based visual review, approximate timestamps, no combat log or audio transcription. Critical half-second review covers selected decisive windows, not every individual control/resource event. These are raw game records for later calibration, not validated matchup rules."
+}

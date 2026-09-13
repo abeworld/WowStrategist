@@ -1,0 +1,48 @@
+{
+  "instructions": "ARENA_ANALYSIS_INSTRUCTIONS.md",
+  "instructions_version": "V6",
+  "source_directory": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\output\\2v2_SPR_+2550_MMR_August_31st_Stream_VOD_WOW_R1_Gladiator_Rogue_Arena_PVP_-_Warmane_WOTLK",
+  "output_directory": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\analysis\\august_31st_2550_20260912",
+  "requested_mp4_files": 32,
+  "discovered_mp4_files": 32,
+  "reviewed_mp4_files": 32,
+  "valid_2v2_games": 26,
+  "flat_jsonl_records": 26,
+  "analysed_records": 24,
+  "uncertain_records": 2,
+  "failed_records": 0,
+  "ignored_non_2v2_files": 0,
+  "excluded_non_evidentiary_2v2_files": 6,
+  "results": {
+    "win": 23,
+    "loss": 3
+  },
+  "review_complete": true,
+  "count_mismatch": null,
+  "validation": "passed",
+  "excluded_from_statistics": [
+    "excluded_non_evidentiary_2v2"
+  ],
+  "material_uncertainty_files": [
+    "match_017.mp4",
+    "match_030.mp4"
+  ],
+  "validation_checks": [
+    "32 requested/discovered/reviewed files reconcile",
+    "26 valid games equal 26 unique flat JSONL records",
+    "24 analysed + 2 uncertain + 0 failed reconcile",
+    "6 excluded rounds absent from corpus; 0 ignored non-2v2 files",
+    "Exact V6 schema and field types",
+    "Record time ranges within source durations",
+    "Forced resources subset of observed enemy use",
+    "Loss failure-stage/resource fields complete",
+    "Winning records have no loss-only fields",
+    "Unknown lethal conversion and direct-opening counterexamples retained"
+  ],
+  "output_sha256": {
+    "records/matches.jsonl": "bfd91bc3d8f631967bf8b5760668b5ba53d69e988011fdf7a180ce99a9004b09",
+    "manifest.csv": "8976bf5d07b8170f3bc6dcded034b8c0bac1d60c4cb78f1417fb847efcdab323",
+    "exceptions.md": "b507a2faeeec0641e0d61b012a155318b5062853c65eb90068eb4a0a36cfb9d9"
+  },
+  "instructions_sha256": "453be04d71c2bfbaad8cdddaeca0c8b6646f77708ed232c6c967e83e72c9d53b"
+}

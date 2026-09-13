@@ -1,0 +1,839 @@
+{
+  "strategy_id": "SPR_vs_Fire_Sub_v1",
+  "strategy_key": "SPR_vs_Fire_Sub",
+  "version": 1,
+  "schema_version": "1.0.0",
+  "status": "provisional",
+  "created_date": "2026-09-13",
+  "our_comp": "Shadow Priest / Subtlety Rogue",
+  "enemy_comp": "Fire Mage / Subtlety Rogue",
+  "evidence": {
+    "total_games": 5,
+    "wins": 4,
+    "losses": 1,
+    "unknown_result": 0,
+    "confidence": "low",
+    "supporting_match_ids": [
+      "august_31st_2550_20260912__august31_2550_match_014",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+    ],
+    "contradicting_match_ids": [
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_009",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+    ],
+    "contradiction_scope": "Challenges to candidate or stronger universal rules, not necessarily to the final qualified wording.",
+    "representative_match_ids": [
+      "august_31st_2550_20260912__august31_2550_match_014",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018"
+    ],
+    "all_match_ids": [
+      "august_31st_2550_20260912__august31_2550_match_014",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_009",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018"
+    ],
+    "data_quality_notes": [
+      "Source extractions reviewed; original videos were not reopened during synthesis.",
+      "Both dedicated player-role fields are empty in all input records; roles remain unknown except where explicit narrative evidence is cited.",
+      "Sample win rate is a property of selected footage, not expected ladder performance.",
+      "Absent events are unknown unless the record explicitly establishes availability or absence.",
+      "A reported enemy kill can occur after a friendly death; the round result is stored separately.",
+      "1 records carry source quality flags; consult evidence and exceptions before treating a claim as footage-verified."
+    ],
+    "source_batches": {
+      "august_31st_2550_20260912": 1,
+      "may_24th_vod2_2600_20260913": 4
+    }
+  },
+  "facts": {
+    "by_result": {
+      "win": {
+        "total": 4,
+        "opening_targets": {
+          "Fire Mage": 4
+        },
+        "enemy_kill_targets": {
+          "Fire Mage": 2,
+          "Subtlety Rogue": 2
+        }
+      },
+      "loss": {
+        "total": 1,
+        "opening_targets": {
+          "Fire Mage": 1
+        },
+        "enemy_kill_targets": {
+          "Fire Mage": 1
+        }
+      },
+      "unknown": {
+        "total": 0,
+        "opening_targets": {},
+        "enemy_kill_targets": {}
+      }
+    },
+    "opening_targets": {
+      "Fire Mage": 5
+    },
+    "kill_targets": {
+      "Fire Mage": 3,
+      "Subtlety Rogue": 2
+    },
+    "opening_to_reported_enemy_kill": [
+      {
+        "opening_target": "Fire Mage",
+        "reported_enemy_kill": "Fire Mage",
+        "result": "loss",
+        "count": 1,
+        "match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_009"
+        ]
+      },
+      {
+        "opening_target": "Fire Mage",
+        "reported_enemy_kill": "Fire Mage",
+        "result": "win",
+        "count": 2,
+        "match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_014",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013"
+        ]
+      },
+      {
+        "opening_target": "Fire Mage",
+        "reported_enemy_kill": "Subtlety Rogue",
+        "result": "win",
+        "count": 2,
+        "match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018"
+        ]
+      }
+    ],
+    "sequence_limit": "Endpoints only. No intermediate swap timing, causal sequence, or survival at the enemy death is inferred by this computation.",
+    "source_resource_labels": [
+      {
+        "label": "Mage PvP Trinket at 101",
+        "records": 1
+      },
+      {
+        "label": "Mage PvP Trinket at 53",
+        "records": 1
+      },
+      {
+        "label": "Mage PvP Trinket at 76.5",
+        "records": 1
+      },
+      {
+        "label": "Mage PvP Trinket at 79",
+        "records": 1
+      },
+      {
+        "label": "Mage PvP Trinket breaks Fear at 53",
+        "records": 1
+      },
+      {
+        "label": "Mage PvP Trinket breaks Sap",
+        "records": 1
+      },
+      {
+        "label": "Mage PvP Trinket immediately breaks confirmed Blind at 101",
+        "records": 1
+      },
+      {
+        "label": "Rogue Blind at 56.5",
+        "records": 1
+      },
+      {
+        "label": "Rogue Blind at 64",
+        "records": 1
+      },
+      {
+        "label": "Rogue PvP Trinket at 55.5",
+        "records": 1
+      },
+      {
+        "label": "Rogue PvP Trinket at 66.5",
+        "records": 1
+      },
+      {
+        "label": "Rogue PvP Trinket at 84.5",
+        "records": 1
+      },
+      {
+        "label": "Rogue PvP Trinket at 88.5",
+        "records": 1
+      },
+      {
+        "label": "Rogue PvP Trinket breaks Fear",
+        "records": 1
+      },
+      {
+        "label": "Rogue PvP Trinket breaks Fear at 55.5",
+        "records": 1
+      },
+      {
+        "label": "Rogue PvP Trinket during control at 88.5",
+        "records": 1
+      },
+      {
+        "label": "Rogue Trinket 61",
+        "records": 1
+      },
+      {
+        "label": "Rogue return to Stealth at 72",
+        "records": 1
+      },
+      {
+        "label": "Subtlety Rogue Blind ~71s (enemy cast reported; application unknown)",
+        "records": 1
+      }
+    ],
+    "resource_count_limit": "Exact source-listed labels, deduplicated within each match. They include uncertain or offensive entries and are not verified forced-resource frequencies.",
+    "cc_lexical_mentions": {
+      "Fear": 2,
+      "Silence": 2,
+      "Blind": 4,
+      "Gouge": 1,
+      "Sap": 1,
+      "Kidney Shot": 1
+    },
+    "cc_count_limit": "Literal mentions in observed notes, including negated/uncertain/post-death mentions. These are search aids, not counts of landed CC.",
+    "recovery_text_present": 4,
+    "recovery_count_limit": "Field coverage only: texts may explicitly say no reset. Not a reset-event rate.",
+    "missing_fields": {
+      "priest_role": 5,
+      "rogue_role": 5,
+      "recovery_text": 1,
+      "result": 0,
+      "opening_target": 0,
+      "enemy_kill_target": 0
+    },
+    "quality_flags": {
+      "source_exception_present": 1
+    },
+    "extraction_confidence": {
+      "high": 5
+    }
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "H1",
+      "statement": "One opening target also explains every reported enemy kill in wins.",
+      "tested_target": "Fire Mage",
+      "disposition": "rejected_as_exhaustive",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013"
+      ],
+      "contradicting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018"
+      ],
+      "unknown_kill_wins": 0,
+      "limitation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability."
+    },
+    {
+      "hypothesis_id": "H2",
+      "statement": "Mage or Rogue health can be driven low while the team still has usable damage and enough survival to finish.",
+      "disposition": "provisional_interpretation",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+      ],
+      "contradicting_match_ids": [],
+      "limitation": "Four of five games come from one batch and share the same displayed opponent pair. The sole loss includes a Mage counter-kill after friendly Priest death."
+    },
+    {
+      "hypothesis_id": "H3",
+      "statement": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_009",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+      ],
+      "limitation": "Four of five games come from one batch and share the same displayed opponent pair. The sole loss includes a Mage counter-kill after friendly Priest death."
+    }
+  ],
+  "default_line": {
+    "opening_target": {
+      "text": "Fire Mage; recorded in 5/5 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "basis": "pattern",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_009",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "all_labeled_openers_in_this_matchup"
+    },
+    "initial_objective": {
+      "text": "Open Fire Mage, then use the revealed Rogue state to choose the next meaningful commitment.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "win_condition": {
+      "text": "Mage or Rogue health can be driven low while the team still has usable damage and enough survival to finish.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "manufacture": {
+      "text": "All five records open Mage. Brief Rogue control/pressure can lead to either a Mage return or Rogue commitment.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "conversion": {
+      "text": "Finish Mage if pressure remains effective; repeated Rogue finishes follow its exposure and control.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "reset": {
+      "text": "No stable full reset is established. Trades into duels occur, so preserve the distinction between the first kill and the result.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "important_resources": []
+  },
+  "states": [
+    {
+      "state_id": "opening",
+      "description": "All five records open Mage. Brief Rogue control/pressure can lead to either a Mage return or Rogue commitment.",
+      "team_objective": {
+        "text": "All five records open Mage. Brief Rogue control/pressure can lead to either a Mage return or Rogue commitment.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_014",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "An actual pressure commitment has begun.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "august_31st_2550_20260912__august31_2550_match_014",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "august_31st_2550_20260912__august31_2550_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "pressure",
+      "description": "Open Fire Mage, then use the revealed Rogue state to choose the next meaningful commitment.",
+      "team_objective": {
+        "text": "Open Fire Mage, then use the revealed Rogue state to choose the next meaningful commitment.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_014",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "august_31st_2550_20260912__august31_2550_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "conversion",
+      "description": "Finish Mage if pressure remains effective; repeated Rogue finishes follow its exposure and control.",
+      "team_objective": {
+        "text": "Finish Mage if pressure remains effective; repeated Rogue finishes follow its exposure and control.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_014",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "Mage or Rogue health can be driven low while the team still has usable damage and enough survival to finish.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "august_31st_2550_20260912__august31_2550_match_014",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "august_31st_2550_20260912__august31_2550_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "recovery",
+      "description": "No stable full reset is established. Trades into duels occur, so preserve the distinction between the first kill and the result.",
+      "team_objective": {
+        "text": "No stable full reset is established. Trades into duels occur, so preserve the distinction between the first kill and the result.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_014",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "The preceding attempt is healed, protected, or interrupted.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "august_31st_2550_20260912__august31_2550_match_014",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "august_31st_2550_20260912__august31_2550_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "branches": [
+    {
+      "branch_id": "branch_1",
+      "from_state": "pressure",
+      "next_state": "conversion",
+      "trigger": {
+        "text": "Enemy Rogue is exposed and becomes vulnerable during renewed control.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "response": {
+        "text": "Transfer pressure to Rogue.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "classification": "real reactive branch",
+      "team_objective": {
+        "text": "Transfer pressure to Rogue.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "evidence": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "match_assessments": [
+    {
+      "match_id": "august_31st_2550_20260912__august31_2550_match_014",
+      "review_id": "M014",
+      "result": "win",
+      "observed_opening_target": "Fire Mage",
+      "reported_enemy_kill_target": "Fire Mage",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007",
+      "review_id": "M312",
+      "result": "win",
+      "observed_opening_target": "Fire Mage",
+      "reported_enemy_kill_target": "Subtlety Rogue",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_009",
+      "review_id": "M314",
+      "result": "loss",
+      "observed_opening_target": "Fire Mage",
+      "reported_enemy_kill_target": "Fire Mage",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+      "review_id": "M316",
+      "result": "win",
+      "observed_opening_target": "Fire Mage",
+      "reported_enemy_kill_target": "Fire Mage",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018",
+      "review_id": "M320",
+      "result": "win",
+      "observed_opening_target": "Fire Mage",
+      "reported_enemy_kill_target": "Subtlety Rogue",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    }
+  ],
+  "failure_modes": [
+    {
+      "text": "Friendly Priest dies before the Mage counter-kill; the surviving low-health Rogue loses the duel.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_009"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    }
+  ],
+  "runtime_observability": {
+    "automatic": [],
+    "automatic_candidates": [
+      {
+        "signal": "Verified cast/aura, present health, or an observed control start/end",
+        "status": "unvalidated_candidate",
+        "scope": "Raw events only; not strategic intent or reliable absence of an enemy cooldown.",
+        "limitation": "No addon implementation or API testing was performed; no automatic transition is certified."
+      }
+    ],
+    "manual_possible": [
+      {
+        "transition": "pressure_to_conversion",
+        "confirmation": "A meaningful enemy health window, current partner control and friendly readiness overlap."
+      },
+      {
+        "transition": "conversion_to_recovery",
+        "confirmation": "Target recovered or became protected; team needs a new usable attempt."
+      }
+    ],
+    "web_only": [
+      "Strategic intent",
+      "Reasons for a target-selection branch",
+      "Causal counterfactuals",
+      "Full comparison with losses and unresolved evidence"
+    ]
+  },
+  "uncertainties": [
+    "Four of five games come from one batch and share the same displayed opponent pair. The sole loss includes a Mage counter-kill after friendly Priest death.",
+    "Precise Priest/Rogue division of labour by phase is mostly unknown.",
+    "Exact runtime detection reliability on Warmane 3.3.5 is untested."
+  ],
+  "mechanics_context": [],
+  "provenance": {
+    "prepared_corpus_version": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Fire_Mage__Subtlety_Rogue.jsonl",
+    "review_file": "evidence_review/group_19.txt",
+    "prepared_stats": {
+      "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Fire Mage / Subtlety Rogue",
+      "total_games": 5,
+      "wins": 4,
+      "losses": 1,
+      "unknown_result": 0,
+      "opening_target_known": 5,
+      "opening_target_unknown": 0,
+      "opening_targets": {
+        "Fire Mage": 5
+      },
+      "kill_target_known": 5,
+      "kill_target_unknown": 0,
+      "kill_targets": {
+        "Fire Mage": 3,
+        "Subtlety Rogue": 2
+      },
+      "records_with_quality_flags": 1,
+      "records_with_source_exceptions": 1,
+      "records_with_source_win_condition_hypothesis": 5,
+      "source_batch_distribution": {
+        "august_31st_2550_20260912": 1,
+        "may_24th_vod2_2600_20260913": 4
+      }
+    },
+    "review_group": 19,
+    "date": "2026-09-13"
+  },
+  "version_history": [
+    {
+      "version": 1,
+      "date": "2026-09-13",
+      "corpus": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+      "change": "Initial evidence-constrained synthesis; no prior approved strategy replaced.",
+      "reason": "First canonical package for review."
+    }
+  ]
+}

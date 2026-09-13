@@ -1,0 +1,1340 @@
+{
+  "strategy_id": "SPR_vs_Balance_Sub_v1",
+  "strategy_key": "SPR_vs_Balance_Sub",
+  "version": 1,
+  "schema_version": "1.0.0",
+  "status": "provisional",
+  "created_date": "2026-09-13",
+  "our_comp": "Shadow Priest / Subtlety Rogue",
+  "enemy_comp": "Balance Druid / Subtlety Rogue",
+  "evidence": {
+    "total_games": 20,
+    "wins": 17,
+    "losses": 3,
+    "unknown_result": 0,
+    "confidence": "low",
+    "supporting_match_ids": [
+      "june_7th_2700_20260913__match_001",
+      "june_7th_2700_20260913__match_008",
+      "june_7th_2700_20260913__match_009",
+      "june_7th_2700_20260913__match_013",
+      "june_7th_2700_20260913__match_018",
+      "june_7th_2700_20260913__match_019",
+      "june_7th_2700_20260913__match_021",
+      "june_7th_2700_20260913__match_024",
+      "june_7th_2700_20260913__match_028"
+    ],
+    "contradicting_match_ids": [
+      "june_7th_2700_20260913__match_001",
+      "june_7th_2700_20260913__match_011",
+      "june_7th_2700_20260913__match_016",
+      "june_7th_2700_20260913__match_018",
+      "june_7th_2700_20260913__match_024",
+      "may_4th_2350_20260913__may04_2350_match_027"
+    ],
+    "contradiction_scope": "Challenges to candidate or stronger universal rules, not necessarily to the final qualified wording.",
+    "representative_match_ids": [
+      "june_7th_2700_20260913__match_001",
+      "june_7th_2700_20260913__match_008",
+      "june_7th_2700_20260913__match_009"
+    ],
+    "all_match_ids": [
+      "june_7th_2700_20260913__match_001",
+      "june_7th_2700_20260913__match_004",
+      "june_7th_2700_20260913__match_005",
+      "june_7th_2700_20260913__match_006",
+      "june_7th_2700_20260913__match_008",
+      "june_7th_2700_20260913__match_009",
+      "june_7th_2700_20260913__match_011",
+      "june_7th_2700_20260913__match_013",
+      "june_7th_2700_20260913__match_014",
+      "june_7th_2700_20260913__match_015",
+      "june_7th_2700_20260913__match_016",
+      "june_7th_2700_20260913__match_018",
+      "june_7th_2700_20260913__match_019",
+      "june_7th_2700_20260913__match_021",
+      "june_7th_2700_20260913__match_023",
+      "june_7th_2700_20260913__match_024",
+      "june_7th_2700_20260913__match_025",
+      "june_7th_2700_20260913__match_026",
+      "june_7th_2700_20260913__match_028",
+      "may_4th_2350_20260913__may04_2350_match_027"
+    ],
+    "data_quality_notes": [
+      "Source extractions reviewed; original videos were not reopened during synthesis.",
+      "Both dedicated player-role fields are empty in all input records; roles remain unknown except where explicit narrative evidence is cited.",
+      "Sample win rate is a property of selected footage, not expected ladder performance.",
+      "Absent events are unknown unless the record explicitly establishes availability or absence.",
+      "A reported enemy kill can occur after a friendly death; the round result is stored separately.",
+      "2 records carry source quality flags; consult evidence and exceptions before treating a claim as footage-verified."
+    ],
+    "source_batches": {
+      "june_7th_2700_20260913": 19,
+      "may_4th_2350_20260913": 1
+    }
+  },
+  "facts": {
+    "by_result": {
+      "win": {
+        "total": 17,
+        "opening_targets": {
+          "Subtlety Rogue": 7,
+          "Balance Druid": 10
+        },
+        "enemy_kill_targets": {
+          "Subtlety Rogue": 11,
+          "Balance Druid": 6
+        }
+      },
+      "loss": {
+        "total": 3,
+        "opening_targets": {
+          "Subtlety Rogue": 2,
+          "Balance Druid": 1
+        },
+        "enemy_kill_targets": {
+          "unknown_or_no_enemy_kill": 3
+        }
+      },
+      "unknown": {
+        "total": 0,
+        "opening_targets": {},
+        "enemy_kill_targets": {}
+      }
+    },
+    "opening_targets": {
+      "Subtlety Rogue": 9,
+      "Balance Druid": 11
+    },
+    "kill_targets": {
+      "Subtlety Rogue": 11,
+      "unknown_or_no_enemy_kill": 3,
+      "Balance Druid": 6
+    },
+    "opening_to_reported_enemy_kill": [
+      {
+        "opening_target": "Balance Druid",
+        "reported_enemy_kill": "Balance Druid",
+        "result": "win",
+        "count": 5,
+        "match_ids": [
+          "june_7th_2700_20260913__match_019",
+          "june_7th_2700_20260913__match_021",
+          "june_7th_2700_20260913__match_023",
+          "june_7th_2700_20260913__match_028",
+          "may_4th_2350_20260913__may04_2350_match_027"
+        ]
+      },
+      {
+        "opening_target": "Balance Druid",
+        "reported_enemy_kill": "Subtlety Rogue",
+        "result": "win",
+        "count": 5,
+        "match_ids": [
+          "june_7th_2700_20260913__match_008",
+          "june_7th_2700_20260913__match_009",
+          "june_7th_2700_20260913__match_015",
+          "june_7th_2700_20260913__match_016",
+          "june_7th_2700_20260913__match_018"
+        ]
+      },
+      {
+        "opening_target": "Balance Druid",
+        "reported_enemy_kill": "unknown_or_no_enemy_kill",
+        "result": "loss",
+        "count": 1,
+        "match_ids": [
+          "june_7th_2700_20260913__match_026"
+        ]
+      },
+      {
+        "opening_target": "Subtlety Rogue",
+        "reported_enemy_kill": "Balance Druid",
+        "result": "win",
+        "count": 1,
+        "match_ids": [
+          "june_7th_2700_20260913__match_014"
+        ]
+      },
+      {
+        "opening_target": "Subtlety Rogue",
+        "reported_enemy_kill": "Subtlety Rogue",
+        "result": "win",
+        "count": 6,
+        "match_ids": [
+          "june_7th_2700_20260913__match_001",
+          "june_7th_2700_20260913__match_005",
+          "june_7th_2700_20260913__match_006",
+          "june_7th_2700_20260913__match_011",
+          "june_7th_2700_20260913__match_013",
+          "june_7th_2700_20260913__match_024"
+        ]
+      },
+      {
+        "opening_target": "Subtlety Rogue",
+        "reported_enemy_kill": "unknown_or_no_enemy_kill",
+        "result": "loss",
+        "count": 2,
+        "match_ids": [
+          "june_7th_2700_20260913__match_004",
+          "june_7th_2700_20260913__match_025"
+        ]
+      }
+    ],
+    "sequence_limit": "Endpoints only. No intermediate swap timing, causal sequence, or survival at the enemy death is inferred by this computation.",
+    "source_resource_labels": [
+      {
+        "label": "Balance Druid PvP Trinket (~102s)",
+        "records": 1
+      },
+      {
+        "label": "Balance Druid PvP Trinket (~109s)",
+        "records": 1
+      },
+      {
+        "label": "Balance Druid PvP Trinket (~153s)",
+        "records": 1
+      },
+      {
+        "label": "Balance Druid PvP Trinket (~166s)",
+        "records": 1
+      },
+      {
+        "label": "Balance Druid Tranquility (~121s)",
+        "records": 1
+      },
+      {
+        "label": "Balance Druid: PvP Trinket (~78.5s)",
+        "records": 1
+      },
+      {
+        "label": "Druid Hurricane 180s",
+        "records": 1
+      },
+      {
+        "label": "Druid Tranquility 163-166s",
+        "records": 1
+      },
+      {
+        "label": "Druid Treants visible 141-148s; summon time unconfirmed",
+        "records": 1
+      },
+      {
+        "label": "Druid Trinket 107s",
+        "records": 1
+      },
+      {
+        "label": "Druid Trinket 119s",
+        "records": 1
+      },
+      {
+        "label": "Druid Trinket 123s",
+        "records": 1
+      },
+      {
+        "label": "Druid Trinket 132s",
+        "records": 1
+      },
+      {
+        "label": "Druid Trinket 147s",
+        "records": 1
+      },
+      {
+        "label": "Druid Trinket 156s",
+        "records": 1
+      },
+      {
+        "label": "Druid Trinket 157s",
+        "records": 1
+      },
+      {
+        "label": "Druid Trinket 162s",
+        "records": 1
+      },
+      {
+        "label": "Druid Trinket 92s",
+        "records": 1
+      },
+      {
+        "label": "Druid Trinket 97s",
+        "records": 1
+      },
+      {
+        "label": "Rogue Blind before friendly Rogue death (chat confirmed; exact time unknown)",
+        "records": 1
+      },
+      {
+        "label": "Rogue Trinket 109s",
+        "records": 1
+      },
+      {
+        "label": "Rogue Trinket 113s",
+        "records": 1
+      },
+      {
+        "label": "Rogue Trinket 119s",
+        "records": 1
+      },
+      {
+        "label": "Rogue Trinket 132s",
+        "records": 1
+      },
+      {
+        "label": "Rogue Trinket 139s",
+        "records": 1
+      },
+      {
+        "label": "Rogue Trinket 143s",
+        "records": 1
+      },
+      {
+        "label": "Rogue Trinket 146s",
+        "records": 1
+      },
+      {
+        "label": "Rogue Trinket 147s",
+        "records": 1
+      },
+      {
+        "label": "Rogue Trinket 162s",
+        "records": 1
+      },
+      {
+        "label": "Rogue Trinket 183s",
+        "records": 1
+      },
+      {
+        "label": "Rogue Trinket 97s",
+        "records": 1
+      },
+      {
+        "label": "Subtlety Rogue PvP Trinket (~109s)",
+        "records": 1
+      },
+      {
+        "label": "Subtlety Rogue PvP Trinket (~120s)",
+        "records": 1
+      },
+      {
+        "label": "Subtlety Rogue PvP Trinket (~123s)",
+        "records": 1
+      },
+      {
+        "label": "Subtlety Rogue PvP Trinket (~150s)",
+        "records": 1
+      },
+      {
+        "label": "Subtlety Rogue PvP Trinket (~166s)",
+        "records": 1
+      },
+      {
+        "label": "Subtlety Rogue PvP Trinket (~99s)",
+        "records": 1
+      },
+      {
+        "label": "Subtlety Rogue: PvP Trinket (~78s)",
+        "records": 1
+      }
+    ],
+    "resource_count_limit": "Exact source-listed labels, deduplicated within each match. They include uncertain or offensive entries and are not verified forced-resource frequencies.",
+    "cc_lexical_mentions": {
+      "Sap": 1,
+      "Blind": 2,
+      "Cyclone": 2
+    },
+    "cc_count_limit": "Literal mentions in observed notes, including negated/uncertain/post-death mentions. These are search aids, not counts of landed CC.",
+    "recovery_text_present": 19,
+    "recovery_count_limit": "Field coverage only: texts may explicitly say no reset. Not a reset-event rate.",
+    "missing_fields": {
+      "priest_role": 20,
+      "rogue_role": 20,
+      "recovery_text": 1,
+      "result": 0,
+      "opening_target": 0,
+      "enemy_kill_target": 3
+    },
+    "quality_flags": {
+      "truncated_evidence": 2,
+      "source_exception_present": 2
+    },
+    "extraction_confidence": {
+      "high": 18,
+      "medium": 2
+    }
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "H1",
+      "statement": "One opening target also explains every reported enemy kill in wins.",
+      "tested_target": "Balance Druid",
+      "disposition": "rejected_as_exhaustive",
+      "supporting_match_ids": [
+        "june_7th_2700_20260913__match_014",
+        "june_7th_2700_20260913__match_019",
+        "june_7th_2700_20260913__match_021",
+        "june_7th_2700_20260913__match_023",
+        "june_7th_2700_20260913__match_028",
+        "may_4th_2350_20260913__may04_2350_match_027"
+      ],
+      "contradicting_match_ids": [
+        "june_7th_2700_20260913__match_001",
+        "june_7th_2700_20260913__match_005",
+        "june_7th_2700_20260913__match_006",
+        "june_7th_2700_20260913__match_008",
+        "june_7th_2700_20260913__match_009",
+        "june_7th_2700_20260913__match_011",
+        "june_7th_2700_20260913__match_013",
+        "june_7th_2700_20260913__match_015",
+        "june_7th_2700_20260913__match_016",
+        "june_7th_2700_20260913__match_018",
+        "june_7th_2700_20260913__match_024"
+      ],
+      "unknown_kill_wins": 0,
+      "limitation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability."
+    },
+    {
+      "hypothesis_id": "H2",
+      "statement": "A low Rogue or Druid remains vulnerable during renewed pressure; the corpus does not identify a reliable initial target-selection trigger.",
+      "disposition": "provisional_interpretation",
+      "supporting_match_ids": [
+        "june_7th_2700_20260913__match_001",
+        "june_7th_2700_20260913__match_008",
+        "june_7th_2700_20260913__match_009",
+        "june_7th_2700_20260913__match_013",
+        "june_7th_2700_20260913__match_018",
+        "june_7th_2700_20260913__match_019",
+        "june_7th_2700_20260913__match_021",
+        "june_7th_2700_20260913__match_024",
+        "june_7th_2700_20260913__match_028"
+      ],
+      "contradicting_match_ids": [],
+      "limitation": "Nineteen of twenty games come from one source batch. Opening families are nearly balanced; their triggers are not established. Druid Trinket removal and continuous Druid control are not necessary for every Rogue kill."
+    },
+    {
+      "hypothesis_id": "H3",
+      "statement": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [
+        "june_7th_2700_20260913__match_001",
+        "june_7th_2700_20260913__match_011",
+        "june_7th_2700_20260913__match_016",
+        "june_7th_2700_20260913__match_018",
+        "june_7th_2700_20260913__match_024",
+        "may_4th_2350_20260913__may04_2350_match_027"
+      ],
+      "limitation": "Nineteen of twenty games come from one source batch. Opening families are nearly balanced; their triggers are not established. Druid Trinket removal and continuous Druid control are not necessary for every Rogue kill."
+    }
+  ],
+  "default_line": {
+    "opening_target": {
+      "text": "unknown",
+      "basis": "unknown",
+      "confidence": "insufficient",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [],
+      "evidence_scope": "none"
+    },
+    "initial_objective": {
+      "text": "Develop pressure on the accessible target while limiting Druid healing and Rogue counterpressure.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "june_7th_2700_20260913__match_001",
+        "june_7th_2700_20260913__match_008",
+        "june_7th_2700_20260913__match_009",
+        "june_7th_2700_20260913__match_013",
+        "june_7th_2700_20260913__match_018",
+        "june_7th_2700_20260913__match_019",
+        "june_7th_2700_20260913__match_021",
+        "june_7th_2700_20260913__match_024",
+        "june_7th_2700_20260913__match_028"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "win_condition": {
+      "text": "A low Rogue or Druid remains vulnerable during renewed pressure; the corpus does not identify a reliable initial target-selection trigger.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "june_7th_2700_20260913__match_001",
+        "june_7th_2700_20260913__match_008",
+        "june_7th_2700_20260913__match_009",
+        "june_7th_2700_20260913__match_013",
+        "june_7th_2700_20260913__match_018",
+        "june_7th_2700_20260913__match_019",
+        "june_7th_2700_20260913__match_021",
+        "june_7th_2700_20260913__match_024",
+        "june_7th_2700_20260913__match_028"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "manufacture": {
+      "text": "The two opening targets are close in frequency. Rogue pressure with Druid disruption is repeated; Druid openings also convert directly or later switch Rogue.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "june_7th_2700_20260913__match_001",
+        "june_7th_2700_20260913__match_008",
+        "june_7th_2700_20260913__match_009",
+        "june_7th_2700_20260913__match_013",
+        "june_7th_2700_20260913__match_018",
+        "june_7th_2700_20260913__match_019",
+        "june_7th_2700_20260913__match_021",
+        "june_7th_2700_20260913__match_024",
+        "june_7th_2700_20260913__match_028"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "conversion": {
+      "text": "Rogue is killed more often, but sustained Druid conversions are repeated too. Choose from the actual damage/control state; a deterministic choice rule is unknown.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "june_7th_2700_20260913__match_001",
+        "june_7th_2700_20260913__match_008",
+        "june_7th_2700_20260913__match_009",
+        "june_7th_2700_20260913__match_013",
+        "june_7th_2700_20260913__match_018",
+        "june_7th_2700_20260913__match_019",
+        "june_7th_2700_20260913__match_021",
+        "june_7th_2700_20260913__match_024",
+        "june_7th_2700_20260913__match_028"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "reset": {
+      "text": "Renew pressure after Nourish/Regrowth/Tranquility recoveries; a healed Druid sometimes prompts the later Rogue commitment.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "june_7th_2700_20260913__match_001",
+        "june_7th_2700_20260913__match_008",
+        "june_7th_2700_20260913__match_009",
+        "june_7th_2700_20260913__match_013",
+        "june_7th_2700_20260913__match_018",
+        "june_7th_2700_20260913__match_019",
+        "june_7th_2700_20260913__match_021",
+        "june_7th_2700_20260913__match_024",
+        "june_7th_2700_20260913__match_028"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "important_resources": []
+  },
+  "states": [
+    {
+      "state_id": "opening",
+      "description": "The two opening targets are close in frequency. Rogue pressure with Druid disruption is repeated; Druid openings also convert directly or later switch Rogue.",
+      "team_objective": {
+        "text": "The two opening targets are close in frequency. Rogue pressure with Druid disruption is repeated; Druid openings also convert directly or later switch Rogue.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "june_7th_2700_20260913__match_001",
+          "june_7th_2700_20260913__match_008",
+          "june_7th_2700_20260913__match_009",
+          "june_7th_2700_20260913__match_013",
+          "june_7th_2700_20260913__match_018",
+          "june_7th_2700_20260913__match_019",
+          "june_7th_2700_20260913__match_021",
+          "june_7th_2700_20260913__match_024",
+          "june_7th_2700_20260913__match_028"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "An actual pressure commitment has begun.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "june_7th_2700_20260913__match_001",
+            "june_7th_2700_20260913__match_008",
+            "june_7th_2700_20260913__match_009",
+            "june_7th_2700_20260913__match_013",
+            "june_7th_2700_20260913__match_018",
+            "june_7th_2700_20260913__match_019",
+            "june_7th_2700_20260913__match_021",
+            "june_7th_2700_20260913__match_024",
+            "june_7th_2700_20260913__match_028"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "june_7th_2700_20260913__match_001",
+        "june_7th_2700_20260913__match_008",
+        "june_7th_2700_20260913__match_009",
+        "june_7th_2700_20260913__match_013",
+        "june_7th_2700_20260913__match_018",
+        "june_7th_2700_20260913__match_019",
+        "june_7th_2700_20260913__match_021",
+        "june_7th_2700_20260913__match_024",
+        "june_7th_2700_20260913__match_028"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "pressure",
+      "description": "Develop pressure on the accessible target while limiting Druid healing and Rogue counterpressure.",
+      "team_objective": {
+        "text": "Develop pressure on the accessible target while limiting Druid healing and Rogue counterpressure.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "june_7th_2700_20260913__match_001",
+          "june_7th_2700_20260913__match_008",
+          "june_7th_2700_20260913__match_009",
+          "june_7th_2700_20260913__match_013",
+          "june_7th_2700_20260913__match_018",
+          "june_7th_2700_20260913__match_019",
+          "june_7th_2700_20260913__match_021",
+          "june_7th_2700_20260913__match_024",
+          "june_7th_2700_20260913__match_028"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "june_7th_2700_20260913__match_001",
+        "june_7th_2700_20260913__match_008",
+        "june_7th_2700_20260913__match_009",
+        "june_7th_2700_20260913__match_013",
+        "june_7th_2700_20260913__match_018",
+        "june_7th_2700_20260913__match_019",
+        "june_7th_2700_20260913__match_021",
+        "june_7th_2700_20260913__match_024",
+        "june_7th_2700_20260913__match_028"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "conversion",
+      "description": "Rogue is killed more often, but sustained Druid conversions are repeated too. Choose from the actual damage/control state; a deterministic choice rule is unknown.",
+      "team_objective": {
+        "text": "Rogue is killed more often, but sustained Druid conversions are repeated too. Choose from the actual damage/control state; a deterministic choice rule is unknown.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "june_7th_2700_20260913__match_001",
+          "june_7th_2700_20260913__match_008",
+          "june_7th_2700_20260913__match_009",
+          "june_7th_2700_20260913__match_013",
+          "june_7th_2700_20260913__match_018",
+          "june_7th_2700_20260913__match_019",
+          "june_7th_2700_20260913__match_021",
+          "june_7th_2700_20260913__match_024",
+          "june_7th_2700_20260913__match_028"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "A low Rogue or Druid remains vulnerable during renewed pressure; the corpus does not identify a reliable initial target-selection trigger.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "june_7th_2700_20260913__match_001",
+            "june_7th_2700_20260913__match_008",
+            "june_7th_2700_20260913__match_009",
+            "june_7th_2700_20260913__match_013",
+            "june_7th_2700_20260913__match_018",
+            "june_7th_2700_20260913__match_019",
+            "june_7th_2700_20260913__match_021",
+            "june_7th_2700_20260913__match_024",
+            "june_7th_2700_20260913__match_028"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "june_7th_2700_20260913__match_001",
+        "june_7th_2700_20260913__match_008",
+        "june_7th_2700_20260913__match_009",
+        "june_7th_2700_20260913__match_013",
+        "june_7th_2700_20260913__match_018",
+        "june_7th_2700_20260913__match_019",
+        "june_7th_2700_20260913__match_021",
+        "june_7th_2700_20260913__match_024",
+        "june_7th_2700_20260913__match_028"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "recovery",
+      "description": "Renew pressure after Nourish/Regrowth/Tranquility recoveries; a healed Druid sometimes prompts the later Rogue commitment.",
+      "team_objective": {
+        "text": "Renew pressure after Nourish/Regrowth/Tranquility recoveries; a healed Druid sometimes prompts the later Rogue commitment.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "june_7th_2700_20260913__match_001",
+          "june_7th_2700_20260913__match_008",
+          "june_7th_2700_20260913__match_009",
+          "june_7th_2700_20260913__match_013",
+          "june_7th_2700_20260913__match_018",
+          "june_7th_2700_20260913__match_019",
+          "june_7th_2700_20260913__match_021",
+          "june_7th_2700_20260913__match_024",
+          "june_7th_2700_20260913__match_028"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "The preceding attempt is healed, protected, or interrupted.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "june_7th_2700_20260913__match_001",
+            "june_7th_2700_20260913__match_008",
+            "june_7th_2700_20260913__match_009",
+            "june_7th_2700_20260913__match_013",
+            "june_7th_2700_20260913__match_018",
+            "june_7th_2700_20260913__match_019",
+            "june_7th_2700_20260913__match_021",
+            "june_7th_2700_20260913__match_024",
+            "june_7th_2700_20260913__match_028"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "june_7th_2700_20260913__match_001",
+        "june_7th_2700_20260913__match_008",
+        "june_7th_2700_20260913__match_009",
+        "june_7th_2700_20260913__match_013",
+        "june_7th_2700_20260913__match_018",
+        "june_7th_2700_20260913__match_019",
+        "june_7th_2700_20260913__match_021",
+        "june_7th_2700_20260913__match_024",
+        "june_7th_2700_20260913__match_028"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "branches": [
+    {
+      "branch_id": "branch_1",
+      "from_state": "pressure",
+      "next_state": "conversion",
+      "trigger": {
+        "text": "A sustained Druid attempt recovers and a later Rogue damage window forms.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "june_7th_2700_20260913__match_008",
+          "june_7th_2700_20260913__match_009",
+          "june_7th_2700_20260913__match_018"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "response": {
+        "text": "Transfer to Rogue with renewed Druid disruption.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "june_7th_2700_20260913__match_008",
+          "june_7th_2700_20260913__match_009",
+          "june_7th_2700_20260913__match_018"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "classification": "real reactive branch",
+      "team_objective": {
+        "text": "Transfer to Rogue with renewed Druid disruption.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "june_7th_2700_20260913__match_008",
+          "june_7th_2700_20260913__match_009",
+          "june_7th_2700_20260913__match_018"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "evidence": [
+        "june_7th_2700_20260913__match_008",
+        "june_7th_2700_20260913__match_009",
+        "june_7th_2700_20260913__match_018"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "match_assessments": [
+    {
+      "match_id": "june_7th_2700_20260913__match_001",
+      "review_id": "M150",
+      "result": "win",
+      "observed_opening_target": "Subtlety Rogue",
+      "reported_enemy_kill_target": "Subtlety Rogue",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_004",
+      "review_id": "M153",
+      "result": "loss",
+      "observed_opening_target": "Subtlety Rogue",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_005",
+      "review_id": "M154",
+      "result": "win",
+      "observed_opening_target": "Subtlety Rogue",
+      "reported_enemy_kill_target": "Subtlety Rogue",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_006",
+      "review_id": "M155",
+      "result": "win",
+      "observed_opening_target": "Subtlety Rogue",
+      "reported_enemy_kill_target": "Subtlety Rogue",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_008",
+      "review_id": "M157",
+      "result": "win",
+      "observed_opening_target": "Balance Druid",
+      "reported_enemy_kill_target": "Subtlety Rogue",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_009",
+      "review_id": "M158",
+      "result": "win",
+      "observed_opening_target": "Balance Druid",
+      "reported_enemy_kill_target": "Subtlety Rogue",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_011",
+      "review_id": "M160",
+      "result": "win",
+      "observed_opening_target": "Subtlety Rogue",
+      "reported_enemy_kill_target": "Subtlety Rogue",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_013",
+      "review_id": "M162",
+      "result": "win",
+      "observed_opening_target": "Subtlety Rogue",
+      "reported_enemy_kill_target": "Subtlety Rogue",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_014",
+      "review_id": "M163",
+      "result": "win",
+      "observed_opening_target": "Subtlety Rogue",
+      "reported_enemy_kill_target": "Balance Druid",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_015",
+      "review_id": "M164",
+      "result": "win",
+      "observed_opening_target": "Balance Druid",
+      "reported_enemy_kill_target": "Subtlety Rogue",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_016",
+      "review_id": "M165",
+      "result": "win",
+      "observed_opening_target": "Balance Druid",
+      "reported_enemy_kill_target": "Subtlety Rogue",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_018",
+      "review_id": "M167",
+      "result": "win",
+      "observed_opening_target": "Balance Druid",
+      "reported_enemy_kill_target": "Subtlety Rogue",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_019",
+      "review_id": "M168",
+      "result": "win",
+      "observed_opening_target": "Balance Druid",
+      "reported_enemy_kill_target": "Balance Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_021",
+      "review_id": "M170",
+      "result": "win",
+      "observed_opening_target": "Balance Druid",
+      "reported_enemy_kill_target": "Balance Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_023",
+      "review_id": "M172",
+      "result": "win",
+      "observed_opening_target": "Balance Druid",
+      "reported_enemy_kill_target": "Balance Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_024",
+      "review_id": "M173",
+      "result": "win",
+      "observed_opening_target": "Subtlety Rogue",
+      "reported_enemy_kill_target": "Subtlety Rogue",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_025",
+      "review_id": "M174",
+      "result": "loss",
+      "observed_opening_target": "Subtlety Rogue",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_026",
+      "review_id": "M175",
+      "result": "loss",
+      "observed_opening_target": "Balance Druid",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "june_7th_2700_20260913__match_028",
+      "review_id": "M177",
+      "result": "win",
+      "observed_opening_target": "Balance Druid",
+      "reported_enemy_kill_target": "Balance Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_027",
+      "review_id": "M360",
+      "result": "win",
+      "observed_opening_target": "Balance Druid",
+      "reported_enemy_kill_target": "Balance Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    }
+  ],
+  "failure_modes": [
+    {
+      "text": "Druid healing restores the first target and counterpressure kills a friendly before the next attempt.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "june_7th_2700_20260913__match_004",
+        "june_7th_2700_20260913__match_025",
+        "june_7th_2700_20260913__match_026"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    }
+  ],
+  "runtime_observability": {
+    "automatic": [],
+    "automatic_candidates": [
+      {
+        "signal": "Verified cast/aura, present health, or an observed control start/end",
+        "status": "unvalidated_candidate",
+        "scope": "Raw events only; not strategic intent or reliable absence of an enemy cooldown.",
+        "limitation": "No addon implementation or API testing was performed; no automatic transition is certified."
+      }
+    ],
+    "manual_possible": [
+      {
+        "transition": "pressure_to_conversion",
+        "confirmation": "A meaningful enemy health window, current partner control and friendly readiness overlap."
+      },
+      {
+        "transition": "conversion_to_recovery",
+        "confirmation": "Target recovered or became protected; team needs a new usable attempt."
+      }
+    ],
+    "web_only": [
+      "Strategic intent",
+      "Reasons for a target-selection branch",
+      "Causal counterfactuals",
+      "Full comparison with losses and unresolved evidence"
+    ]
+  },
+  "uncertainties": [
+    "Nineteen of twenty games come from one source batch. Opening families are nearly balanced; their triggers are not established. Druid Trinket removal and continuous Druid control are not necessary for every Rogue kill.",
+    "Precise Priest/Rogue division of labour by phase is mostly unknown.",
+    "Exact runtime detection reliability on Warmane 3.3.5 is untested.",
+    "A reliable default opener is not established; the factual distribution remains available."
+  ],
+  "mechanics_context": [],
+  "provenance": {
+    "prepared_corpus_version": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Balance_Druid__Subtlety_Rogue.jsonl",
+    "review_file": "evidence_review/group_03.txt",
+    "prepared_stats": {
+      "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Balance Druid / Subtlety Rogue",
+      "total_games": 20,
+      "wins": 17,
+      "losses": 3,
+      "unknown_result": 0,
+      "opening_target_known": 20,
+      "opening_target_unknown": 0,
+      "opening_targets": {
+        "Subtlety Rogue": 9,
+        "Balance Druid": 11
+      },
+      "kill_target_known": 17,
+      "kill_target_unknown": 3,
+      "kill_targets": {
+        "Subtlety Rogue": 11,
+        "Balance Druid": 6
+      },
+      "records_with_quality_flags": 2,
+      "records_with_source_exceptions": 2,
+      "records_with_source_win_condition_hypothesis": 20,
+      "source_batch_distribution": {
+        "june_7th_2700_20260913": 19,
+        "may_4th_2350_20260913": 1
+      }
+    },
+    "review_group": 3,
+    "date": "2026-09-13"
+  },
+  "version_history": [
+    {
+      "version": 1,
+      "date": "2026-09-13",
+      "corpus": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+      "change": "Initial evidence-constrained synthesis; no prior approved strategy replaced.",
+      "reason": "First canonical package for review."
+    }
+  ]
+}

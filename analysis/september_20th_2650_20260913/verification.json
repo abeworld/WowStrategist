@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "verified_utc": "2026-09-13T06:33:23.148299+00:00",
+  "counts": {
+    "discovered_mp4_files": 27,
+    "requested_mp4_files": 27,
+    "reviewed_files": 27,
+    "pending_files": 0,
+    "arena_2v2_instances_found": 27,
+    "valid_2v2_games": 25,
+    "jsonl_records": 25,
+    "analysed": 22,
+    "uncertain": 3,
+    "failed": 0,
+    "ignored_non_2v2": 0,
+    "excluded_non_evidentiary_2v2": 2
+  },
+  "checks": {
+    "all_requested_sources_accounted_for": true,
+    "full_scope_review_complete": true,
+    "no_pending_files": true,
+    "one_flat_record_per_evidentiary_game": true,
+    "excluded_instances_absent_from_jsonl": true,
+    "exact_v6_fields": true,
+    "unique_match_ids": true,
+    "original_filenames_preserved": true,
+    "bounds_within_source_durations": true,
+    "resources_forced_subset_of_observed_spent": true,
+    "loss_fields_consistent": true,
+    "win_failure_fields_empty": true,
+    "saved_artifacts_reparsed": true,
+    "source_bytes_and_sha256_recorded": true,
+    "count_mismatches": []
+  },
+  "artifact_sha256": {
+    "records/matches.jsonl": "3ece37170257be479feec8a2b5031336acec55e62b82f10f25b645263a29a7df",
+    "manifest.csv": "319561b6646016745c191de7562c8c0140b335845edf7f4903c5fcb8a9f0b36b",
+    "batch_manifest.json": "c739ffb765d6f6f794bb3861071d6a84fde5c1245c1fed93d1b3f9f1114d9b53",
+    "exceptions.md": "e78cce0183759f6a606bfdc6b077692937a6ab222b6d4234089e55ffe8fa0ca1"
+  },
+  "limitations": [
+    "Visual review with approximate frame timestamps; not combat-log reconstruction.",
+    "Three records carry material uncertainty and are explicitly marked uncertain.",
+    "No cross-match synthesis performed."
+  ]
+}

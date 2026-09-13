@@ -1,0 +1,116 @@
+GROUP 09: Shadow Priest / Subtlety Rogue__vs__Retribution Paladin / Unholy Death Knight
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Retribution Paladin / Unholy Death Knight", "total_games": 12, "wins": 9, "losses": 3, "unknown_result": 0, "opening_target_known": 12, "opening_target_unknown": 0, "opening_targets": {"Unholy Death Knight": 10, "Death Knight": 1, "Retribution Paladin": 1}, "kill_target_known": 9, "kill_target_unknown": 3, "kill_targets": {"Unholy Death Knight": 5, "Death Knight": 1, "Retribution Paladin": 3}, "records_with_quality_flags": 1, "records_with_source_exceptions": 1, "records_with_source_win_condition_hypothesis": 12, "source_batch_distribution": {"february_3rd_2550_20260912": 1, "january_5th_full_20260912": 1, "may_18th_2500_20260913": 10}}
+
+M247 | loss | open=Unholy Death Knight | kill=None | extraction=high | flags=
+OBS: 77s Death Knight 49% under control and Paladin final Gouge; Death Knight later reaches 15% at 96s
+OBS: 103–113s Paladin Flash of Light recovery restores Death Knight from about 23% to full
+OBS: 118–130s unidentified Death Knight buff; exact ability/defensive function unresolved
+OBS: 148s Death Knight immediately uses Trinket on Blind; both enemy Trinkets on cooldown at friendly death
+OBS: 150.5–156s our Priest Silenced; our Rogue falls from roughly 80% to dead at 155s while Priest remains alive near full health
+OBS: Priest continues solo until loss scoreboard at 179s; friendly Trinket state not reliably resolved
+SOURCE CONVERSION: Death Knight survives low-health windows and heals; no player kill converts before our Rogue dies
+SOURCE RESET: Death Knight recovers to full via Paladin healing; repeated Death Knight pressure and brief Paladin branch do not convert
+SOURCE FAILURE: Death Knight survives the burst and receives Paladin healing; our Priest is Silenced while our Rogue is killed during the late attempt
+
+M250 | loss | open=Unholy Death Knight | kill=None | extraction=high | flags=
+OBS: Early Paladin chip at 39s precedes Sap; meaningful opening Death Knight stun/Gouge extracts Trinket at 48s
+OBS: 51–61s confirmed Death Knight Blind; brief Paladin pressure then Death Knight again
+OBS: 89–93s Death Knight Anti-Magic Shell; 93s Paladin Trinket
+OBS: Our Priest critically low at 107s and dead 109.5s; Death Knight 65%, Paladin 77%, both enemy Trinkets on cooldown
+OBS: Our Rogue alive and exits around 112s; no enemy kill established
+SOURCE CONVERSION: Repeated control produces no established low-health Paladin window; our Priest dies
+SOURCE RESET: Return to Death Knight between Paladin attempts; neither enemy falls below half
+SOURCE FAILURE: Both escapes are extracted but pressure remains shallow; our Priest dies during continued Death Knight pressure
+
+M259 | loss | open=Unholy Death Knight | kill=None | extraction=high | flags=
+OBS: Death Knight receives small chip at 61s, then repeated pressure at 69-77s but remains about 90-100%
+OBS: Paladin remains 100% at friendly Priest death
+OBS: Friendly Priest falls from roughly one-third at 74s to DEAD at 77.5s
+OBS: Paladin Trinket cooldown appears at 77.5s; Death Knight still has Trinket until 80.5s
+OBS: Rogue survives and leaves at 83s; later Death Knight pressure reaches only 84%
+SOURCE CONVERSION: No normal conversion; enemy resources are spent around or after friendly Priest death
+SOURCE FAILURE: Friendly Priest dies while enemies retain high health; the normal 2v2 conversion window never develops
+
+M045 | win | open=Unholy Death Knight | kill=Unholy Death Knight | extraction=high | flags=
+OBS: Ruins arena; one normal four-player engagement after gate opens around 43s
+OBS: Enemy names Imkindagood and Nodiimx; specialisations displayed Retribution and Unholy
+OBS: Paladin Trinket announcement and cooldown at 54s; Death Knight Trinket announcement and cooldown at 93s
+OBS: Magic protection icon and immunity appear around 77-81s; exact ability not resolved
+OBS: Gargoyle appears and Gargoyle Strike interrupts are visible around 83s and 95s
+OBS: Half-second review shows Green Team has one player at 97s while Death Knight remains alive at 19%; Death Knight dead at approximately 100.5s, both friendlies survive
+OBS: Gold Team win visible at 102s
+SOURCE CONVERSION: Continue Death Knight damage and renewed control after Trinket; Paladin leaves while Death Knight is still alive, then Death Knight dies around 100.5s and Gold Team wins at 102s
+SOURCE RESET: Brief Paladin damage branch around 75s before returning to Death Knight; Priest is pressured low in the final window but survives
+
+M134 | win | open=Unholy Death Knight | kill=Unholy Death Knight | extraction=medium | flags=
+OBS: ~145s DK91% stunned, Paladin95% controlled; ~155sDKfull.
+OBS: ~160s BlindDK thentrinket, bothenemies97-98%; ~175sPaladintrinket89%, DK99%.
+OBS: ~190s Kick Gargoyle Strike (not a summoning interrupt); ~205s DK63%, purple protectiveaura; ~210sDK54% PaladinSap.
+OBS: ~215sDKDEAD Paladin95%; match_0340s GreenTeamwins ownRoguealive.
+SOURCE CONVERSION: Death Knight first pressure84%150s healsfull155s; Blind Death Knight forcestrinket159s, Paladinbriefpressure also forcestrinket174s. ReturnDeathKnight, control/SapPaladin and interrupt Gargoyle Strike, DeathKnight54%210s ->DEAD215s; winconfirmedmatch_034 0s.
+SOURCE RESET: Early Death Knight pressure recovered; brief Paladin targetchanges create escape expenditure; recommit Death Knight.
+
+M191 | win | open=Unholy Death Knight | kill=Unholy Death Knight | extraction=high | flags=
+OBS: 68s: both opponents present; DK identified Unholy; Paladin identified Retribution by 76s
+OBS: 74-85s: Paladin Sap while DK drops from 91% toward 60%
+OBS: 88s: Paladin Trinket cooldown starts; Gargoyle appears and is interrupted at 99s
+OBS: 118-127s: Blind on DK; 131s: DK Trinket starts during renewed stun pressure
+OBS: 138-141s: Paladin controlled while DK falls to 8%; DK partially recovers
+OBS: 156-162s: DK pressured again; 160.5s: Paladin Flash of Light interrupted; 162.5s: DK DEAD
+OBS: 166.5s: Gold Team wins, Paladin still alive; both Trinkets remain on cooldown
+SOURCE CONVERSION: Renew DK pressure after both Trinkets are spent -> interrupt Paladin Flash of Light -> finish DK
+SOURCE RESET: First DK pressure heals back up; later renewed DK attempt succeeds after further control/resource extraction
+
+M225 | win | open=Death Knight | kill=Death Knight | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Both friendlies survive
+OBS: Paladin major defensive indicator is not incapacitation
+OBS: Exact defensive identities unresolved
+SOURCE CONVERSION: Death Knight 35% during Paladin control at 93–98s recovers; renewed pressure yields 18% at 137s, Fear both 138.5s with Death Knight 6%, death 140.5s and victory 142s
+SOURCE RESET: Healing restores early low Death Knight windows; pressure renewed after Paladin defensive ends
+EXCEPTION: | `match_040.mp4` | Exact defensive identities during repeated recovery windows are unresolved. |
+
+M242 | win | open=Unholy Death Knight | kill=Retribution Paladin | extraction=high | flags=
+OBS: 43–51s Paladin Sap; 46s Death Knight Trinket; 47–57s confirmed Death Knight Blind
+OBS: 54–66s pink angel protection icon on Paladin; exact ability unknown; Paladin survives at 61% and heals
+OBS: 71s Paladin Trinket; 89–99s Death Knight Blind; 97s Gargoyle cast interrupted, no pet death established
+OBS: 99–103.5s Death Knight stun; Paladin stun then Silence at 101–103.5s, 39% at 103s, 17% at 104.5s, dead 106s
+OBS: Both friendlies survive; Gold victory 107s
+SOURCE CONVERSION: Renew Paladin burst at 99s; Paladin dies at 106s
+SOURCE RESET: Early Paladin burst is protected and heals; pressure Death Knight before repeating Paladin branch
+
+M254 | win | open=Unholy Death Knight | kill=Retribution Paladin | extraction=high | flags=
+OBS: 37s first meaningful Death Knight damage; Paladin selected for Sap remains nearly full
+OBS: 63–70s Death Knight Sap; 71–81s Blind; Paladin branch begins at 66s
+OBS: 82.5–84s Paladin stun; 84.5s Paladin 43% under Fear, Death Knight also short Fear
+OBS: 86.5s Paladin Silence at 14%, confirmed dead 87s; Death Knight free again but cannot prevent kill
+OBS: Paladin Trinket remains available at death; both friendlies survive; scoreboard win at 90s
+SOURCE CONVERSION: Paladin falls from 49% to dead during 84–87s renewed control/burst
+SOURCE RESET: First Paladin branch at 66–77s produces little damage; repeat the same target burst
+
+M258 | win | open=Unholy Death Knight | kill=Unholy Death Knight | extraction=high | flags=
+OBS: Initial Death Knight chip at 46s is small; committed burst begins around 58s after Blind/Trinket
+OBS: Both enemy Trinkets are on cooldown by 65s
+OBS: Death Knight early low-health pressure is healed while Paladin is free to support
+OBS: Death Knight stun begins at 121.5s; Paladin casts Flash of Light at 122-123s and is not continuously controlled
+OBS: Death Knight falls to 35% at 126s, 10% at 128.5s and is DEAD at 129.5s
+OBS: Both friendly players are alive at death; victory at 132s
+SOURCE CONVERSION: Recommit Death Knight after earlier recovery; renewed stun and sustained damage continue after stun ends to establish death
+SOURCE RESET: Death Knight falls to 19% at 72s but heals back to full by 120s. Paladin receives a secondary pressure window around 89-121s before renewed Death Knight burst.
+
+M261 | win | open=Retribution Paladin | kill=Retribution Paladin | extraction=high | flags=
+OBS: Death Knight heals small early damage with First Aid at 46-57s; later Paladin takes committed burst at 64s
+OBS: Paladin reaches 20% at 73s and gains an approximately twelve-second protection effect; heals itself at 77-83s
+OBS: Death Knight Gargoyle is interrupted at 85s; Death Knight is briefly pressured while Paladin recovers
+OBS: Paladin and Death Knight Fear appear at 109.5s; Paladin Trinket cooldown at 110.5s is followed by visible Silence to about 114.5s
+OBS: Paladin is DEAD at 115s; both friendly players are alive and Death Knight Trinket remains available
+OBS: Death Knight Fear ends around 110.5s; it is not continuously controlled through the kill
+SOURCE CONVERSION: Renew Paladin damage after recovery, force Fear Trinket, immediately Silence and sustain damage to Paladin death
+SOURCE RESET: Minor Death Knight pressure at 45s is bandaged back to full. First committed Paladin burst reaches 20% at 73s but its protection permits Holy Light/Flash of Light recovery; later Paladin burst converts.
+
+M262 | win | open=Unholy Death Knight | kill=Unholy Death Knight | extraction=high | flags=
+OBS: Death Knight minor damage at 36s is healed at 40s; committed burst begins around 45s
+OBS: Death Knight falls to 50% at 50s; Paladin Gouge is visible 51-53.5s
+OBS: A green short defensive effect is visible on Death Knight 51-53s; renewed lockdown accompanies health falling to 35% at 54.5s and 23% at 56s
+OBS: Death Knight is DEAD at 58.5s while both enemy Trinket indicators still show available
+OBS: Both friendly players remain alive; our team wins at 61s
+SOURCE CONVERSION: Maintain Death Knight pressure through short protection and renewed lockdown; finish after the control expires

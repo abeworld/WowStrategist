@@ -1,0 +1,22 @@
+GROUP 35: Shadow Priest / Subtlety Rogue__vs__Retribution Paladin / Shadow Priest
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Retribution Paladin / Shadow Priest", "total_games": 2, "wins": 1, "losses": 1, "unknown_result": 0, "opening_target_known": 2, "opening_target_unknown": 0, "opening_targets": {"Shadow Priest": 2}, "kill_target_known": 1, "kill_target_unknown": 1, "kill_targets": {"Retribution Paladin": 1}, "records_with_quality_flags": 2, "records_with_source_exceptions": 2, "records_with_source_win_condition_hypothesis": 2, "source_batch_distribution": {"january_5th_full_20260912": 2}}
+
+M145 | loss | open=Shadow Priest | kill=None | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: ~85s Priest100%controlled,Paladin100%Sapped; ~95s Paladin100%selected.
+OBS: ~100s Paladinfreshtrinket98%,Priest100%; ~105s Priestfreshtrinket95%,Paladin96%.
+OBS: ~110s chat Maslohej has died; opponents91% and88%; ourRoguealive.
+SOURCE CONVERSION: Initial pressure is largely absorbed. Blind Paladin forces trinket, then Priest also trinkets. Friendly Priest dies ~108s with both opponents near full health; surviving Rogue exits ~112s. No terminal scoreboard is visible.
+SOURCE FAILURE: Friendly Priest dies before a meaningful enemy kill window. Rogue leaves with both enemies alive; a conceded loss is inferred. Exact death cause and available defensive/reset options are unknown.
+UNKNOWN: ["Loss is inferred from friendly Priest death and surviving Rogue departure, not a visible terminal victory message. Tail preparation repeats match_044."]
+EXCEPTION: - **match_043** (uncertain): Loss is inferred from friendly Priest death and surviving Rogue departure, not a visible terminal victory message. Tail preparation repeats match_044.
+
+M148 | win | open=Shadow Priest | kill=Retribution Paladin | extraction=medium | flags=source_exception_present
+OBS: ~95s drinkingannouncementPriest; ~100-110s Priestcontrolled but100%; ~115s Paladin91%, Priest100%.
+OBS: ~125-140s Priest90-94% then80%; bothrecover100% by150s.
+OBS: ~170s Priestfreshtrinket afterBlind; ~180s Paladinfreshtrinket, bothfull.
+OBS: ~224-230s Priest receives successive control effects and friendly Silence announcements; own Blind is still on cooldown. Paladin 84%, 69%, 54%, 44%, 22%, then DEAD while Priest stays ~99%.
+OBS: ~255s Priest 33%; Green Team win by ~260s, our Rogue alive.
+SOURCE CONVERSION: Early pressure is absorbed or healed. Blind Priest forces trinket ~169s; Paladin trinkets ~179s. After further recoveries, renewed Priest control/Silence and Paladin stun pressure reduce Paladin 84% ->69% ->54% ->44% ->22% ->DEAD ~230s. Priest cleanup follows; Green Team wins ~260s.
+SOURCE RESET: Several low-impact attempts and long recovery; Priest mana very low165s then recovers throughlaterhealing/drinkingopportunityunknown.
+UNKNOWN: ["Do not identify the ~224s Priest control as a second Blind: the visible friendly Blind cooldown contradicts that reading. Full final control chain is unknown. Tail preparation belongs to match_047."]
+EXCEPTION: - **match_046** (analysed): Do not identify the ~224s Priest control as a second Blind: the visible friendly Blind cooldown contradicts that reading. Full final control chain is unknown. Tail preparation belongs to match_047.

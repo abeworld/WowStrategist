@@ -1,0 +1,1669 @@
+{
+  "strategy_id": "SPR_vs_Disc_Feral_v1",
+  "strategy_key": "SPR_vs_Disc_Feral",
+  "version": 1,
+  "schema_version": "1.0.0",
+  "status": "provisional",
+  "created_date": "2026-09-13",
+  "our_comp": "Shadow Priest / Subtlety Rogue",
+  "enemy_comp": "Discipline Priest / Feral Druid",
+  "evidence": {
+    "total_games": 31,
+    "wins": 29,
+    "losses": 2,
+    "unknown_result": 0,
+    "confidence": "medium",
+    "supporting_match_ids": [
+      "january_4th_2700_20260913__match_005",
+      "may_24th_2450_20260913__may24_2450_match_014",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+      "september_20th_2650_20260913__september20_2650_match_005",
+      "september_20th_2650_20260913__september20_2650_match_006",
+      "september_20th_2650_20260913__september20_2650_match_017",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+      "may_4th_2350_20260913__may04_2350_match_055",
+      "september_20th_2650_20260913__september20_2650_match_007"
+    ],
+    "contradicting_match_ids": [
+      "may_18th_2500_20260913__may18_2500_match_060",
+      "may_18th_2500_20260913__may18_2500_match_063",
+      "may_24th_2450_20260913__may24_2450_match_017",
+      "september_20th_2650_20260913__september20_2650_match_008",
+      "september_20th_2650_20260913__september20_2650_match_017",
+      "september_20th_2650_20260913__september20_2650_match_025",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_026",
+      "september_20th_2650_20260913__september20_2650_match_003"
+    ],
+    "contradiction_scope": "Challenges to candidate or stronger universal rules, not necessarily to the final qualified wording.",
+    "representative_match_ids": [
+      "january_4th_2700_20260913__match_005",
+      "may_24th_2450_20260913__may24_2450_match_014",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025"
+    ],
+    "all_match_ids": [
+      "january_4th_2700_20260913__match_005",
+      "january_4th_2700_20260913__match_019",
+      "january_5th_full_20260912__match_030a",
+      "january_5th_full_20260912__match_037a",
+      "may_18th_2500_20260913__may18_2500_match_051",
+      "may_18th_2500_20260913__may18_2500_match_060",
+      "may_18th_2500_20260913__may18_2500_match_063",
+      "may_24th_2450_20260913__may24_2450_match_014",
+      "may_24th_2450_20260913__may24_2450_match_017",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_016",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_021",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_026",
+      "may_4th_2350_20260913__may04_2350_match_040",
+      "may_4th_2350_20260913__may04_2350_match_055",
+      "september_11th_2500_20260912__sep11_2500_match_001",
+      "september_11th_2500_20260912__sep11_2500_match_007",
+      "september_20th_2650_20260913__september20_2650_match_001",
+      "september_20th_2650_20260913__september20_2650_match_003",
+      "september_20th_2650_20260913__september20_2650_match_005",
+      "september_20th_2650_20260913__september20_2650_match_006",
+      "september_20th_2650_20260913__september20_2650_match_007",
+      "september_20th_2650_20260913__september20_2650_match_008",
+      "september_20th_2650_20260913__september20_2650_match_017",
+      "september_20th_2650_20260913__september20_2650_match_019",
+      "september_20th_2650_20260913__september20_2650_match_020",
+      "september_20th_2650_20260913__september20_2650_match_022",
+      "september_20th_2650_20260913__september20_2650_match_023",
+      "september_20th_2650_20260913__september20_2650_match_025"
+    ],
+    "data_quality_notes": [
+      "Source extractions reviewed; original videos were not reopened during synthesis.",
+      "Both dedicated player-role fields are empty in all input records; roles remain unknown except where explicit narrative evidence is cited.",
+      "Sample win rate is a property of selected footage, not expected ladder performance.",
+      "Absent events are unknown unless the record explicitly establishes availability or absence.",
+      "A reported enemy kill can occur after a friendly death; the round result is stored separately.",
+      "12 records carry source quality flags; consult evidence and exceptions before treating a claim as footage-verified."
+    ],
+    "source_batches": {
+      "january_4th_2700_20260913": 2,
+      "january_5th_full_20260912": 2,
+      "may_18th_2500_20260913": 3,
+      "may_24th_2450_20260913": 2,
+      "may_24th_vod2_2600_20260913": 6,
+      "may_4th_2350_20260913": 2,
+      "september_11th_2500_20260912": 2,
+      "september_20th_2650_20260913": 12
+    }
+  },
+  "facts": {
+    "by_result": {
+      "win": {
+        "total": 29,
+        "opening_targets": {
+          "Feral Druid": 24,
+          "Discipline Priest": 5
+        },
+        "enemy_kill_targets": {
+          "Feral Druid": 18,
+          "Discipline Priest": 11
+        }
+      },
+      "loss": {
+        "total": 2,
+        "opening_targets": {
+          "Feral Druid": 1,
+          "Discipline Priest": 1
+        },
+        "enemy_kill_targets": {
+          "unknown_or_no_enemy_kill": 2
+        }
+      },
+      "unknown": {
+        "total": 0,
+        "opening_targets": {},
+        "enemy_kill_targets": {}
+      }
+    },
+    "opening_targets": {
+      "Feral Druid": 25,
+      "Discipline Priest": 6
+    },
+    "kill_targets": {
+      "Feral Druid": 18,
+      "Discipline Priest": 11,
+      "unknown_or_no_enemy_kill": 2
+    },
+    "opening_to_reported_enemy_kill": [
+      {
+        "opening_target": "Discipline Priest",
+        "reported_enemy_kill": "Discipline Priest",
+        "result": "win",
+        "count": 4,
+        "match_ids": [
+          "january_4th_2700_20260913__match_019",
+          "may_18th_2500_20260913__may18_2500_match_051",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_021"
+        ]
+      },
+      {
+        "opening_target": "Discipline Priest",
+        "reported_enemy_kill": "Feral Druid",
+        "result": "win",
+        "count": 1,
+        "match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_026"
+        ]
+      },
+      {
+        "opening_target": "Discipline Priest",
+        "reported_enemy_kill": "unknown_or_no_enemy_kill",
+        "result": "loss",
+        "count": 1,
+        "match_ids": [
+          "september_20th_2650_20260913__september20_2650_match_019"
+        ]
+      },
+      {
+        "opening_target": "Feral Druid",
+        "reported_enemy_kill": "Discipline Priest",
+        "result": "win",
+        "count": 7,
+        "match_ids": [
+          "may_4th_2350_20260913__may04_2350_match_055",
+          "september_11th_2500_20260912__sep11_2500_match_001",
+          "september_20th_2650_20260913__september20_2650_match_001",
+          "september_20th_2650_20260913__september20_2650_match_007",
+          "september_20th_2650_20260913__september20_2650_match_008",
+          "september_20th_2650_20260913__september20_2650_match_020",
+          "september_20th_2650_20260913__september20_2650_match_025"
+        ]
+      },
+      {
+        "opening_target": "Feral Druid",
+        "reported_enemy_kill": "Feral Druid",
+        "result": "win",
+        "count": 17,
+        "match_ids": [
+          "january_4th_2700_20260913__match_005",
+          "january_5th_full_20260912__match_030a",
+          "january_5th_full_20260912__match_037a",
+          "may_18th_2500_20260913__may18_2500_match_060",
+          "may_18th_2500_20260913__may18_2500_match_063",
+          "may_24th_2450_20260913__may24_2450_match_014",
+          "may_24th_2450_20260913__may24_2450_match_017",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_016",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+          "may_4th_2350_20260913__may04_2350_match_040",
+          "september_11th_2500_20260912__sep11_2500_match_007",
+          "september_20th_2650_20260913__september20_2650_match_003",
+          "september_20th_2650_20260913__september20_2650_match_005",
+          "september_20th_2650_20260913__september20_2650_match_006",
+          "september_20th_2650_20260913__september20_2650_match_017",
+          "september_20th_2650_20260913__september20_2650_match_022",
+          "september_20th_2650_20260913__september20_2650_match_023"
+        ]
+      },
+      {
+        "opening_target": "Feral Druid",
+        "reported_enemy_kill": "unknown_or_no_enemy_kill",
+        "result": "loss",
+        "count": 1,
+        "match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003"
+        ]
+      }
+    ],
+    "sequence_limit": "Endpoints only. No intermediate swap timing, causal sequence, or survival at the enemy death is inferred by this computation.",
+    "source_resource_labels": [
+      {
+        "label": "Feral Druid PvP Trinket",
+        "records": 2
+      },
+      {
+        "label": "Discipline Priest Divine Hymn 124–128s",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest Divine Hymn about 77-79s",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest Hymn of Hope about 279-282s",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest PvP Trinket",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest PvP Trinket (~100s)",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest PvP Trinket (~94.5s)",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest PvP Trinket 119.5s",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest PvP Trinket 77.5s",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest PvP Trinket about 110s",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest PvP Trinket about 292s",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest PvP Trinket about 65s",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest: PvP Trinket (~102s)",
+        "records": 1
+      },
+      {
+        "label": "Feral Druid PvP Trinket (~101s, after Priest death)",
+        "records": 1
+      },
+      {
+        "label": "Feral Druid PvP Trinket (~59s)",
+        "records": 1
+      },
+      {
+        "label": "Feral Druid PvP Trinket (~64s)",
+        "records": 1
+      },
+      {
+        "label": "Feral Druid PvP Trinket (~89s)",
+        "records": 1
+      },
+      {
+        "label": "Feral Druid PvP Trinket 106.5s",
+        "records": 1
+      },
+      {
+        "label": "Feral Druid PvP Trinket 98.5s",
+        "records": 1
+      },
+      {
+        "label": "Feral Druid PvP Trinket about 217s",
+        "records": 1
+      },
+      {
+        "label": "Feral Druid PvP Trinket about 350.5s",
+        "records": 1
+      },
+      {
+        "label": "Feral Druid PvP Trinket about 55.5s",
+        "records": 1
+      },
+      {
+        "label": "Feral Druid PvP Trinket about 90s",
+        "records": 1
+      },
+      {
+        "label": "Feral Druid PvP Trinket about 92.5s",
+        "records": 1
+      },
+      {
+        "label": "Feral Druid PvP trinket at approximately 82s",
+        "records": 1
+      },
+      {
+        "label": "Feral Druid: PvP Trinket (~55s)",
+        "records": 1
+      },
+      {
+        "label": "Feral PvP Trinket (~77s)",
+        "records": 1
+      },
+      {
+        "label": "Feral PvP Trinket at 98, after Priest death",
+        "records": 1
+      },
+      {
+        "label": "Feral PvP Trinket at match_016.mp4 182.5",
+        "records": 1
+      },
+      {
+        "label": "Feral PvP Trinket breaks Sap after healer Blind into Sap",
+        "records": 1
+      },
+      {
+        "label": "Feral Trinket at 78.5 under low-health stun pressure while Priest is Sapped.",
+        "records": 1
+      },
+      {
+        "label": "Feral Trinket at 78.5.",
+        "records": 1
+      },
+      {
+        "label": "Feral Trinket at 99 under renewed control.",
+        "records": 1
+      },
+      {
+        "label": "Feral Trinket at 99.",
+        "records": 1
+      },
+      {
+        "label": "Priest Divine Hymn ~84-89s",
+        "records": 1
+      },
+      {
+        "label": "Priest PvP Trinket at 91",
+        "records": 1
+      },
+      {
+        "label": "Priest PvP Trinket at match_016.mp4 164",
+        "records": 1
+      },
+      {
+        "label": "Priest PvP Trinket breaks renewed Kidney Shot during low-health pressure",
+        "records": 1
+      },
+      {
+        "label": "Priest Trinket (53s)",
+        "records": 1
+      },
+      {
+        "label": "Priest Trinket at 131 to escape Fear while Feral is approximately 15% health.",
+        "records": 1
+      },
+      {
+        "label": "Priest Trinket at 131.",
+        "records": 1
+      }
+    ],
+    "resource_count_limit": "Exact source-listed labels, deduplicated within each match. They include uncertain or offensive entries and are not verified forced-resource frequencies.",
+    "cc_lexical_mentions": {
+      "Blind": 11,
+      "Silence": 9,
+      "Fear": 11,
+      "Cyclone": 6,
+      "Gouge": 6,
+      "Sap": 8,
+      "Kidney Shot": 2
+    },
+    "cc_count_limit": "Literal mentions in observed notes, including negated/uncertain/post-death mentions. These are search aids, not counts of landed CC.",
+    "recovery_text_present": 24,
+    "recovery_count_limit": "Field coverage only: texts may explicitly say no reset. Not a reset-event rate.",
+    "missing_fields": {
+      "priest_role": 31,
+      "rogue_role": 31,
+      "recovery_text": 7,
+      "result": 0,
+      "opening_target": 0,
+      "enemy_kill_target": 2
+    },
+    "quality_flags": {
+      "source_exception_present": 12
+    },
+    "extraction_confidence": {
+      "high": 29,
+      "medium": 2
+    }
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "H1",
+      "statement": "One opening target also explains every reported enemy kill in wins.",
+      "tested_target": "Feral Druid",
+      "disposition": "rejected_as_exhaustive",
+      "supporting_match_ids": [
+        "january_4th_2700_20260913__match_005",
+        "january_5th_full_20260912__match_030a",
+        "january_5th_full_20260912__match_037a",
+        "may_18th_2500_20260913__may18_2500_match_060",
+        "may_18th_2500_20260913__may18_2500_match_063",
+        "may_24th_2450_20260913__may24_2450_match_014",
+        "may_24th_2450_20260913__may24_2450_match_017",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_016",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_026",
+        "may_4th_2350_20260913__may04_2350_match_040",
+        "september_11th_2500_20260912__sep11_2500_match_007",
+        "september_20th_2650_20260913__september20_2650_match_003",
+        "september_20th_2650_20260913__september20_2650_match_005",
+        "september_20th_2650_20260913__september20_2650_match_006",
+        "september_20th_2650_20260913__september20_2650_match_017",
+        "september_20th_2650_20260913__september20_2650_match_022",
+        "september_20th_2650_20260913__september20_2650_match_023"
+      ],
+      "contradicting_match_ids": [
+        "january_4th_2700_20260913__match_019",
+        "may_18th_2500_20260913__may18_2500_match_051",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_021",
+        "may_4th_2350_20260913__may04_2350_match_055",
+        "september_11th_2500_20260912__sep11_2500_match_001",
+        "september_20th_2650_20260913__september20_2650_match_001",
+        "september_20th_2650_20260913__september20_2650_match_007",
+        "september_20th_2650_20260913__september20_2650_match_008",
+        "september_20th_2650_20260913__september20_2650_match_020",
+        "september_20th_2650_20260913__september20_2650_match_025"
+      ],
+      "unknown_kill_wins": 0,
+      "limitation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability."
+    },
+    {
+      "hypothesis_id": "H2",
+      "statement": "A meaningful Feral health deficit persists through renewed pressure, or Feral control opens a damaging Priest commitment.",
+      "disposition": "provisional_interpretation",
+      "supporting_match_ids": [
+        "january_4th_2700_20260913__match_005",
+        "may_24th_2450_20260913__may24_2450_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+        "september_20th_2650_20260913__september20_2650_match_005",
+        "september_20th_2650_20260913__september20_2650_match_006",
+        "september_20th_2650_20260913__september20_2650_match_017",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+        "may_4th_2350_20260913__may04_2350_match_055",
+        "september_20th_2650_20260913__september20_2650_match_007"
+      ],
+      "contradicting_match_ids": [],
+      "limitation": "Both-Trinkets-spent and continuous Priest denial are not necessary. Some Priest wins happen with Feral free or escapes still ready. Cyclone is not automatically fatal: both a loss and wins occur around it."
+    },
+    {
+      "hypothesis_id": "H3",
+      "statement": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [
+        "may_18th_2500_20260913__may18_2500_match_060",
+        "may_18th_2500_20260913__may18_2500_match_063",
+        "may_24th_2450_20260913__may24_2450_match_017",
+        "september_20th_2650_20260913__september20_2650_match_008",
+        "september_20th_2650_20260913__september20_2650_match_017",
+        "september_20th_2650_20260913__september20_2650_match_025",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_026",
+        "september_20th_2650_20260913__september20_2650_match_003"
+      ],
+      "limitation": "Both-Trinkets-spent and continuous Priest denial are not necessary. Some Priest wins happen with Feral free or escapes still ready. Cyclone is not automatically fatal: both a loss and wins occur around it."
+    }
+  ],
+  "default_line": {
+    "opening_target": {
+      "text": "Feral Druid; recorded in 25/31 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "basis": "pattern",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "january_4th_2700_20260913__match_005",
+        "january_5th_full_20260912__match_030a",
+        "january_5th_full_20260912__match_037a",
+        "may_18th_2500_20260913__may18_2500_match_060",
+        "may_18th_2500_20260913__may18_2500_match_063",
+        "may_24th_2450_20260913__may24_2450_match_014",
+        "may_24th_2450_20260913__may24_2450_match_017",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_016",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+        "may_4th_2350_20260913__may04_2350_match_040",
+        "may_4th_2350_20260913__may04_2350_match_055",
+        "september_11th_2500_20260912__sep11_2500_match_001",
+        "september_11th_2500_20260912__sep11_2500_match_007",
+        "september_20th_2650_20260913__september20_2650_match_001",
+        "september_20th_2650_20260913__september20_2650_match_003",
+        "september_20th_2650_20260913__september20_2650_match_005",
+        "september_20th_2650_20260913__september20_2650_match_006",
+        "september_20th_2650_20260913__september20_2650_match_007",
+        "september_20th_2650_20260913__september20_2650_match_008",
+        "september_20th_2650_20260913__september20_2650_match_017",
+        "september_20th_2650_20260913__september20_2650_match_020",
+        "september_20th_2650_20260913__september20_2650_match_022",
+        "september_20th_2650_20260913__september20_2650_match_023",
+        "september_20th_2650_20260913__september20_2650_match_025"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "all_labeled_openers_in_this_matchup"
+    },
+    "initial_objective": {
+      "text": "Start from Feral pressure with Priest disruption; retain a Feral finish and a healer-switch option.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "january_4th_2700_20260913__match_005",
+        "may_24th_2450_20260913__may24_2450_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+        "september_20th_2650_20260913__september20_2650_match_005",
+        "september_20th_2650_20260913__september20_2650_match_006",
+        "september_20th_2650_20260913__september20_2650_match_017",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+        "may_4th_2350_20260913__may04_2350_match_055",
+        "september_20th_2650_20260913__september20_2650_match_007"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "win_condition": {
+      "text": "A meaningful Feral health deficit persists through renewed pressure, or Feral control opens a damaging Priest commitment.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "january_4th_2700_20260913__match_005",
+        "may_24th_2450_20260913__may24_2450_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+        "september_20th_2650_20260913__september20_2650_match_005",
+        "september_20th_2650_20260913__september20_2650_match_006",
+        "september_20th_2650_20260913__september20_2650_match_017",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+        "may_4th_2350_20260913__may04_2350_match_055",
+        "september_20th_2650_20260913__september20_2650_match_007"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "manufacture": {
+      "text": "Apply pressure to Feral and renew short Priest control/interrupts around actual health loss. If Feral pressure heals out, a real Priest switch is supported by several games.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "january_4th_2700_20260913__match_005",
+        "may_24th_2450_20260913__may24_2450_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+        "september_20th_2650_20260913__september20_2650_match_005",
+        "september_20th_2650_20260913__september20_2650_match_006",
+        "september_20th_2650_20260913__september20_2650_match_017",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+        "may_4th_2350_20260913__may04_2350_match_055",
+        "september_20th_2650_20260913__september20_2650_match_007"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "conversion": {
+      "text": "Usually finish Feral; convert onto Priest when Feral control and actual Priest damage align.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "january_4th_2700_20260913__match_005",
+        "may_24th_2450_20260913__may24_2450_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+        "september_20th_2650_20260913__september20_2650_match_005",
+        "september_20th_2650_20260913__september20_2650_match_006",
+        "september_20th_2650_20260913__september20_2650_match_017",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+        "may_4th_2350_20260913__may04_2350_match_055",
+        "september_20th_2650_20260913__september20_2650_match_007"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "reset": {
+      "text": "Repeat Feral pressure after partial or full heals; a healed Feral can also precede renewed Feral control and a Priest swap.",
+      "basis": "inferred",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "january_4th_2700_20260913__match_005",
+        "may_24th_2450_20260913__may24_2450_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+        "september_20th_2650_20260913__september20_2650_match_005",
+        "september_20th_2650_20260913__september20_2650_match_006",
+        "september_20th_2650_20260913__september20_2650_match_017",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+        "may_4th_2350_20260913__may04_2350_match_055",
+        "september_20th_2650_20260913__september20_2650_match_007"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "important_resources": [
+      {
+        "name": "PvP Trinket",
+        "relevance": "conditional",
+        "assessment": {
+          "text": "Conditional control resistance; low-health conversion sometimes follows its use, but many wins retain one or both escapes.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+            "september_20th_2650_20260913__september20_2650_match_006"
+          ],
+          "contradicting_match_ids": [
+            "may_18th_2500_20260913__may18_2500_match_060",
+            "may_24th_2450_20260913__may24_2450_match_014",
+            "september_20th_2650_20260913__september20_2650_match_008",
+            "september_20th_2650_20260913__september20_2650_match_017"
+          ],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        },
+        "requirement": "not_established_as_universal_prerequisite",
+        "relevance_test": {
+          "repeated_forcing": "Not computed from copied source hypotheses; cited observations reviewed individually.",
+          "before_successful_conversion": "See cited match chronology; a spend elsewhere in the round is insufficient.",
+          "different_behavior_after_spend": "Supported only for the cited control/immunity sequences; no complete frequency estimate.",
+          "wins_with_resource_available": [
+            "may_18th_2500_20260913__may18_2500_match_060",
+            "may_24th_2450_20260913__may24_2450_match_014",
+            "september_20th_2650_20260913__september20_2650_match_008",
+            "september_20th_2650_20260913__september20_2650_match_017"
+          ],
+          "sufficiency_in_losses": "Not established; compare the matchup failure examples.",
+          "pressure_side_effect": "Cannot be excluded from a spend alone.",
+          "control_interaction": "Conditional control resistance; low-health conversion sometimes follows its use, but many wins retain one or both escapes."
+        }
+      }
+    ]
+  },
+  "states": [
+    {
+      "state_id": "opening",
+      "description": "Apply pressure to Feral and renew short Priest control/interrupts around actual health loss. If Feral pressure heals out, a real Priest switch is supported by several games.",
+      "team_objective": {
+        "text": "Apply pressure to Feral and renew short Priest control/interrupts around actual health loss. If Feral pressure heals out, a real Priest switch is supported by several games.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "supporting_match_ids": [
+          "january_4th_2700_20260913__match_005",
+          "may_24th_2450_20260913__may24_2450_match_014",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+          "september_20th_2650_20260913__september20_2650_match_005",
+          "september_20th_2650_20260913__september20_2650_match_006",
+          "september_20th_2650_20260913__september20_2650_match_017",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+          "may_4th_2350_20260913__may04_2350_match_055",
+          "september_20th_2650_20260913__september20_2650_match_007"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "An actual pressure commitment has begun.",
+          "basis": "inferred",
+          "confidence": "medium",
+          "supporting_match_ids": [
+            "january_4th_2700_20260913__match_005",
+            "may_24th_2450_20260913__may24_2450_match_014",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+            "september_20th_2650_20260913__september20_2650_match_005",
+            "september_20th_2650_20260913__september20_2650_match_006",
+            "september_20th_2650_20260913__september20_2650_match_017",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+            "may_4th_2350_20260913__may04_2350_match_055",
+            "september_20th_2650_20260913__september20_2650_match_007"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "january_4th_2700_20260913__match_005",
+        "may_24th_2450_20260913__may24_2450_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+        "september_20th_2650_20260913__september20_2650_match_005",
+        "september_20th_2650_20260913__september20_2650_match_006",
+        "september_20th_2650_20260913__september20_2650_match_017",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+        "may_4th_2350_20260913__may04_2350_match_055",
+        "september_20th_2650_20260913__september20_2650_match_007"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "state_id": "pressure",
+      "description": "Start from Feral pressure with Priest disruption; retain a Feral finish and a healer-switch option.",
+      "team_objective": {
+        "text": "Start from Feral pressure with Priest disruption; retain a Feral finish and a healer-switch option.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "supporting_match_ids": [
+          "january_4th_2700_20260913__match_005",
+          "may_24th_2450_20260913__may24_2450_match_014",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+          "september_20th_2650_20260913__september20_2650_match_005",
+          "september_20th_2650_20260913__september20_2650_match_006",
+          "september_20th_2650_20260913__september20_2650_match_017",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+          "may_4th_2350_20260913__may04_2350_match_055",
+          "september_20th_2650_20260913__september20_2650_match_007"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "january_4th_2700_20260913__match_005",
+        "may_24th_2450_20260913__may24_2450_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+        "september_20th_2650_20260913__september20_2650_match_005",
+        "september_20th_2650_20260913__september20_2650_match_006",
+        "september_20th_2650_20260913__september20_2650_match_017",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+        "may_4th_2350_20260913__may04_2350_match_055",
+        "september_20th_2650_20260913__september20_2650_match_007"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "state_id": "conversion",
+      "description": "Usually finish Feral; convert onto Priest when Feral control and actual Priest damage align.",
+      "team_objective": {
+        "text": "Usually finish Feral; convert onto Priest when Feral control and actual Priest damage align.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "supporting_match_ids": [
+          "january_4th_2700_20260913__match_005",
+          "may_24th_2450_20260913__may24_2450_match_014",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+          "september_20th_2650_20260913__september20_2650_match_005",
+          "september_20th_2650_20260913__september20_2650_match_006",
+          "september_20th_2650_20260913__september20_2650_match_017",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+          "may_4th_2350_20260913__may04_2350_match_055",
+          "september_20th_2650_20260913__september20_2650_match_007"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "A meaningful Feral health deficit persists through renewed pressure, or Feral control opens a damaging Priest commitment.",
+          "basis": "inferred",
+          "confidence": "medium",
+          "supporting_match_ids": [
+            "january_4th_2700_20260913__match_005",
+            "may_24th_2450_20260913__may24_2450_match_014",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+            "september_20th_2650_20260913__september20_2650_match_005",
+            "september_20th_2650_20260913__september20_2650_match_006",
+            "september_20th_2650_20260913__september20_2650_match_017",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+            "may_4th_2350_20260913__may04_2350_match_055",
+            "september_20th_2650_20260913__september20_2650_match_007"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "january_4th_2700_20260913__match_005",
+        "may_24th_2450_20260913__may24_2450_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+        "september_20th_2650_20260913__september20_2650_match_005",
+        "september_20th_2650_20260913__september20_2650_match_006",
+        "september_20th_2650_20260913__september20_2650_match_017",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+        "may_4th_2350_20260913__may04_2350_match_055",
+        "september_20th_2650_20260913__september20_2650_match_007"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "state_id": "recovery",
+      "description": "Repeat Feral pressure after partial or full heals; a healed Feral can also precede renewed Feral control and a Priest swap.",
+      "team_objective": {
+        "text": "Repeat Feral pressure after partial or full heals; a healed Feral can also precede renewed Feral control and a Priest swap.",
+        "basis": "inferred",
+        "confidence": "medium",
+        "supporting_match_ids": [
+          "january_4th_2700_20260913__match_005",
+          "may_24th_2450_20260913__may24_2450_match_014",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+          "september_20th_2650_20260913__september20_2650_match_005",
+          "september_20th_2650_20260913__september20_2650_match_006",
+          "september_20th_2650_20260913__september20_2650_match_017",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+          "may_4th_2350_20260913__may04_2350_match_055",
+          "september_20th_2650_20260913__september20_2650_match_007"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "The preceding attempt is healed, protected, or interrupted.",
+          "basis": "inferred",
+          "confidence": "medium",
+          "supporting_match_ids": [
+            "january_4th_2700_20260913__match_005",
+            "may_24th_2450_20260913__may24_2450_match_014",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+            "september_20th_2650_20260913__september20_2650_match_005",
+            "september_20th_2650_20260913__september20_2650_match_006",
+            "september_20th_2650_20260913__september20_2650_match_017",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+            "may_4th_2350_20260913__may04_2350_match_055",
+            "september_20th_2650_20260913__september20_2650_match_007"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "january_4th_2700_20260913__match_005",
+        "may_24th_2450_20260913__may24_2450_match_014",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+        "september_20th_2650_20260913__september20_2650_match_005",
+        "september_20th_2650_20260913__september20_2650_match_006",
+        "september_20th_2650_20260913__september20_2650_match_017",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+        "may_4th_2350_20260913__may04_2350_match_055",
+        "september_20th_2650_20260913__september20_2650_match_007"
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "branches": [
+    {
+      "branch_id": "branch_1",
+      "from_state": "pressure",
+      "next_state": "conversion",
+      "trigger": {
+        "text": "Feral pressure heals out and Feral is controlled during a meaningful Priest switch.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+          "may_4th_2350_20260913__may04_2350_match_055",
+          "september_20th_2650_20260913__september20_2650_match_007",
+          "september_20th_2650_20260913__september20_2650_match_001"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "response": {
+        "text": "Commit Priest with renewed short lockdown; do not infer a Priest swap from target selection alone.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+          "may_4th_2350_20260913__may04_2350_match_055",
+          "september_20th_2650_20260913__september20_2650_match_007",
+          "september_20th_2650_20260913__september20_2650_match_001"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "classification": "real reactive branch",
+      "team_objective": {
+        "text": "Commit Priest with renewed short lockdown; do not infer a Priest swap from target selection alone.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+          "may_4th_2350_20260913__may04_2350_match_055",
+          "september_20th_2650_20260913__september20_2650_match_007",
+          "september_20th_2650_20260913__september20_2650_match_001"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "evidence": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+        "may_4th_2350_20260913__may04_2350_match_055",
+        "september_20th_2650_20260913__september20_2650_match_007",
+        "september_20th_2650_20260913__september20_2650_match_001"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "match_assessments": [
+    {
+      "match_id": "january_4th_2700_20260913__match_005",
+      "review_id": "M054",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Feral Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_019",
+      "review_id": "M065",
+      "result": "win",
+      "observed_opening_target": "Discipline Priest",
+      "reported_enemy_kill_target": "Discipline Priest",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_030a",
+      "review_id": "M128",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Feral Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_037a",
+      "review_id": "M138",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Feral Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_051",
+      "review_id": "M236",
+      "result": "win",
+      "observed_opening_target": "Discipline Priest",
+      "reported_enemy_kill_target": "Discipline Priest",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_060",
+      "review_id": "M245",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Feral Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_063",
+      "review_id": "M248",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Feral Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_014",
+      "review_id": "M277",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Feral Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_2450_20260913__may24_2450_match_017",
+      "review_id": "M280",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Feral Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+      "review_id": "M307",
+      "result": "win",
+      "observed_opening_target": "Discipline Priest",
+      "reported_enemy_kill_target": "Discipline Priest",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003",
+      "review_id": "M308",
+      "result": "loss",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_016",
+      "review_id": "M319",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Feral Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_021",
+      "review_id": "M323",
+      "result": "win",
+      "observed_opening_target": "Discipline Priest",
+      "reported_enemy_kill_target": "Discipline Priest",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+      "review_id": "M325",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Feral Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_026",
+      "review_id": "M326",
+      "result": "win",
+      "observed_opening_target": "Discipline Priest",
+      "reported_enemy_kill_target": "Feral Druid",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_040",
+      "review_id": "M370",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Feral Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_055",
+      "review_id": "M382",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Discipline Priest",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_001",
+      "review_id": "M392",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Discipline Priest",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_007",
+      "review_id": "M398",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Feral Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_001",
+      "review_id": "M432",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Discipline Priest",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_003",
+      "review_id": "M434",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Feral Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_005",
+      "review_id": "M436",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Feral Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_006",
+      "review_id": "M437",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Feral Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_007",
+      "review_id": "M438",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Discipline Priest",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_008",
+      "review_id": "M439",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Discipline Priest",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_017",
+      "review_id": "M448",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Feral Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_019",
+      "review_id": "M450",
+      "result": "loss",
+      "observed_opening_target": "Discipline Priest",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_020",
+      "review_id": "M451",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Discipline Priest",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_022",
+      "review_id": "M452",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Feral Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_023",
+      "review_id": "M453",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Feral Druid",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_025",
+      "review_id": "M454",
+      "result": "win",
+      "observed_opening_target": "Feral Druid",
+      "reported_enemy_kill_target": "Discipline Priest",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    }
+  ],
+  "failure_modes": [
+    {
+      "text": "Healing restores the Feral window; Cyclone interrupts later Priest pressure and the team cannot survive another attempt.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    {
+      "text": "Opening attacks cause little lasting damage while Priest freely restores Feral and friendly Priest dies.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "september_20th_2650_20260913__september20_2650_match_019"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    }
+  ],
+  "runtime_observability": {
+    "automatic": [],
+    "automatic_candidates": [
+      {
+        "signal": "Verified cast/aura, present health, or an observed control start/end",
+        "status": "unvalidated_candidate",
+        "scope": "Raw events only; not strategic intent or reliable absence of an enemy cooldown.",
+        "limitation": "No addon implementation or API testing was performed; no automatic transition is certified."
+      }
+    ],
+    "manual_possible": [
+      {
+        "transition": "pressure_to_conversion",
+        "confirmation": "A meaningful enemy health window, current partner control and friendly readiness overlap."
+      },
+      {
+        "transition": "conversion_to_recovery",
+        "confirmation": "Target recovered or became protected; team needs a new usable attempt."
+      }
+    ],
+    "web_only": [
+      "Strategic intent",
+      "Reasons for a target-selection branch",
+      "Causal counterfactuals",
+      "Full comparison with losses and unresolved evidence"
+    ]
+  },
+  "uncertainties": [
+    "Both-Trinkets-spent and continuous Priest denial are not necessary. Some Priest wins happen with Feral free or escapes still ready. Cyclone is not automatically fatal: both a loss and wins occur around it.",
+    "Precise Priest/Rogue division of labour by phase is mostly unknown.",
+    "Exact runtime detection reliability on Warmane 3.3.5 is untested."
+  ],
+  "mechanics_context": [],
+  "provenance": {
+    "prepared_corpus_version": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Discipline_Priest__Feral_Druid.jsonl",
+    "review_file": "evidence_review/group_02.txt",
+    "prepared_stats": {
+      "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Feral Druid",
+      "total_games": 31,
+      "wins": 29,
+      "losses": 2,
+      "unknown_result": 0,
+      "opening_target_known": 31,
+      "opening_target_unknown": 0,
+      "opening_targets": {
+        "Feral Druid": 25,
+        "Discipline Priest": 5,
+        "Priest": 1
+      },
+      "kill_target_known": 29,
+      "kill_target_unknown": 2,
+      "kill_targets": {
+        "Feral Druid": 18,
+        "Discipline Priest": 10,
+        "Priest": 1
+      },
+      "records_with_quality_flags": 12,
+      "records_with_source_exceptions": 12,
+      "records_with_source_win_condition_hypothesis": 31,
+      "source_batch_distribution": {
+        "january_4th_2700_20260913": 2,
+        "january_5th_full_20260912": 2,
+        "may_18th_2500_20260913": 3,
+        "may_24th_2450_20260913": 2,
+        "may_24th_vod2_2600_20260913": 6,
+        "may_4th_2350_20260913": 2,
+        "september_11th_2500_20260912": 2,
+        "september_20th_2650_20260913": 12
+      }
+    },
+    "review_group": 2,
+    "date": "2026-09-13"
+  },
+  "version_history": [
+    {
+      "version": 1,
+      "date": "2026-09-13",
+      "corpus": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+      "change": "Initial evidence-constrained synthesis; no prior approved strategy replaced.",
+      "reason": "First canonical package for review."
+    }
+  ]
+}

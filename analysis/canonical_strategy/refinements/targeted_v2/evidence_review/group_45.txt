@@ -1,0 +1,15 @@
+GROUP 45: Shadow Priest / Subtlety Rogue__vs__Holy Paladin / Shadow Priest
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Holy Paladin / Shadow Priest", "total_games": 1, "wins": 1, "losses": 0, "unknown_result": 0, "opening_target_known": 1, "opening_target_unknown": 0, "opening_targets": {"Holy Paladin": 1}, "kill_target_known": 1, "kill_target_unknown": 0, "kill_targets": {"Holy Paladin": 1}, "records_with_quality_flags": 0, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 1, "source_batch_distribution": {"september_28th_2700_20260913": 1}}
+
+M469 | win | open=Holy Paladin | kill=Holy Paladin | extraction=high | flags=
+OBS: Town ~0-14s, preparation ~15-55s, one game; town after ~130s to end
+OBS: Priest Sap ~60s then Trinket ~61s; brief Priest stun ~64-66s and Fear ~67-73s
+OBS: Paladin first substantial damage ~65s; stun ~69-71s; health ~9% ~75.5s and Divine Shield immunity timer appears
+OBS: Divine Shield persists through ~82.5s and ends before its timer expires; reason unknown
+OBS: Priest Divine Hymn ~81-86s and Paladin Flash of Light restore both opponents
+OBS: Priest stuns ~89-98s then Fear ~98-104s; Paladin Gouge ~97-99s then Trinket ~99s confirmed by chat/cooldown
+OBS: Paladin renewed stuns ~99.5-102.5s and ~103.5-105s; Kidney Shot ~107-111s; health ~43% ~110s
+OBS: Paladin briefly heals to ~59% ~111.5s, then falls ~15/7% and DEAD ~114s
+OBS: Priest Flash Heal after Paladin death; Kick interrupts Vampiric Touch ~120.5s; Priest DEAD ~126s; Green victory ~128s
+SOURCE CONVERSION: Renew Paladin stuns after Trinket; sustain damage through brief healing to Paladin death, then finish Priest.
+SOURCE RESET: Paladin immunes and both enemies recover through self-healing and Divine Hymn. Brief Priest pressure gives way to a second Paladin commitment.

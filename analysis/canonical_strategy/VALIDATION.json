@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "date": "2026-09-13",
+  "strategy_objects": 49,
+  "cards": 49,
+  "assigned_games": 468,
+  "unresolved_games": 19,
+  "total_valid_games": 487,
+  "confidence": {
+    "medium": 6,
+    "low": 20,
+    "insufficient": 23
+  },
+  "json_files_parsed": 65,
+  "markdown_links_checked": 328,
+  "checks": [
+    "Required contract fields and claim enums",
+    "Every cited match belongs to its strategy composition",
+    "Round-result and target counts reconcile",
+    "468 assigned records covered exactly once; 19 unresolved retained",
+    "State/branch links resolve",
+    "Unknown guidance retained for insufficient samples",
+    "Combined and individual objects agree; pilot objects agree with final serialization",
+    "Local Markdown links resolve",
+    "Prepared corpus SHA-256 fingerprints unchanged"
+  ],
+  "limitations": [
+    "Domain/structural checks performed with standard library; a general JSON Schema validator was unavailable.",
+    "No original VOD, gameplay execution, causal inference or addon detection validation was performed."
+  ]
+}

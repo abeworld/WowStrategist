@@ -1,0 +1,110 @@
+GROUP 08: Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Marksmanship Hunter
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Marksmanship Hunter", "total_games": 13, "wins": 11, "losses": 2, "unknown_result": 0, "opening_target_known": 13, "opening_target_unknown": 0, "opening_targets": {"Discipline Priest briefly": 1, "Marksmanship Hunter": 2, "Hunter's Crab pet": 1, "Priest: first substantial enemy player damage": 1, "Hunter": 7, "Crab pet": 1}, "kill_target_known": 13, "kill_target_unknown": 0, "kill_targets": {"Marksmanship Hunter": 3, "No enemy player killed": 1, "No enemy player killed. Rogue dies at approximately 99s": 1, "Hunter": 3, "Hunter around 74s": 1, "Priest": 2, "Hunter at approximately 92.5s": 1, "Hunter at approximately 97s": 1}, "records_with_quality_flags": 3, "records_with_source_exceptions": 2, "records_with_source_win_condition_hypothesis": 13, "source_batch_distribution": {"january_5th_full_20260912": 2, "september_11th_2500_20260912": 10, "september_28th_2700_20260913": 1}}
+
+M406 | loss | open=Hunter's Crab pet | kill=No enemy player killed | extraction=medium | flags=truncated_evidence
+OBS: Replay 38621218, Blade's Edge; both sides begin with two players.
+OBS: Hunter pet health declines sharply and a later Revive Pet cast fails around 114s.
+OBS: Priest Mind Control channel is visible at 63-65s; later Mind Control casts are not all confirmed completions.
+OBS: Rogue remains very low through 98-104s; death popup appears around 104.5s. Uncle's later death and enemy victory confirm loss.
+OBS: Next clip's early chat discusses timing Cheap Shot/Gouge/Kidney with a Hunter silence; this is postgame coordination discussion, not proof of an executed sequence here.
+SOURCE CONVERSION: Hunter survives the opening absorbs, briefly loses only single-digit health percentages, and is full at Rogue death. Both enemies survive the round.
+SOURCE RESET: Pet removal followed by Hunter attack; Vanish was spent during subsequent danger but no sustained recovery or successful new lethal attack is visible.
+SOURCE FAILURE: Rogue dies before enemy player pressure becomes lethal. Hunter control initially overlaps full-health absorbs, while the Priest is able to complete Mind Control; subsequent attacks do not create a kill window.
+
+M407 | loss | open=Priest: first substantial enemy player damage | kill=No enemy player killed. Rogue dies at approximately 99s | extraction=high | flags=
+OBS: Replay 38621277, Blade's Edge, same opponents in a separate rematch.
+OBS: Blind UP at 62s and DOWN at 72s; Priest still 100% around 76s despite stun portraits and absorbs.
+OBS: Half-second review confirms Priest 98% at 77s, 92% at 77.5s and 73% near 80.5s; trinket announcement visible at 81s.
+OBS: Rogue is critically low before damage begins, receives intermittent healing, and dies with popup around 99s. Uncle remains alive until 123s.
+OBS: Priest health recovers after Rogue death; both enemies alive at victory.
+OBS: Later preparation at 133-149s continues into clip 019 and is not a separate completed game here.
+SOURCE CONVERSION: Priest falls from full to about 63% after trinket and eventually about 51%, then recovers to 74% at Rogue death. Hunter is about 94% and still has its trinket. Enemy victory appears at 124s.
+SOURCE RESET: Two Vanish cooldown cycles are visible during Rogue danger; neither produces a sustained recovery. Rogue reports 'my 2 vanishes break' in chat after death.
+SOURCE FAILURE: Hunter isolation expires before Priest health pressure begins. The later Priest trinket is forced, but damage remains nonlethal and Rogue dies before another conversion; attempted defensive stealth does not secure survival.
+
+M139 | win | open=Discipline Priest briefly | kill=Marksmanship Hunter | extraction=medium | flags=source_exception_present
+OBS: ~130s Priest88% controlled, HunterSapped; ~135s Hunter69% stunned, Priest85% controlled.
+OBS: ~140s Hunter7%, trinket still available; ~150s27%; ~155s HunterDEAD and fresh trinket.
+OBS: Our Rogue very low around150s but alive160s.
+OBS: ~153s Hunter 12% and trinket announcement; ~154s Hunter DEAD. Our Rogue survives and receives healing ~157-160s. ~163s Green Team wins.
+SOURCE CONVERSION: Brief Priest pressure is absorbed/partly recovered before Hunter commitment. Hunter falls to 7%, recovers to 27%, trinkets ~153s and is DEAD ~154s. Green Team win appears in chat ~163s; surviving enemy Priest is ~97% before the ending.
+SOURCE RESET: First Hunter finishing attempt fails; Hunter recovers before renewed pressure.
+UNKNOWN: ["Exact Hunter defensive names and friendly Priest survival are not established by the reviewed UI. Enemy Priest death versus departure is unknown."]
+EXCEPTION: - **match_037b** (analysed): Exact Hunter defensive names and friendly Priest survival are not established by the reviewed UI. Enemy Priest death versus departure is unknown.
+
+M149 | win | open=Marksmanship Hunter | kill=Marksmanship Hunter | extraction=medium | flags=source_exception_present
+OBS: ~65s Priest90% incidental damage before Huntercommitment; ~70s Huntercontrolledfull.
+OBS: ~80s Hunter46%stunned, bothfreshtrinkets; ~85s Hunter50%.
+OBS: ~100-102s Hunter 13% ->2% ->DEAD; Priest 68% controlled. ~105s Green Team wins with our Rogue alive.
+SOURCE CONVERSION: Hunter partially recovers after both trinkets. Renew Priest control and Hunter stun pressure; Hunter falls 44% ->13% ~100s ->2% ~101s ->DEAD ~102s. Green Team wins ~105s; Priest survives at ~70% before the ending.
+SOURCE RESET: Partial Hunter recovery after both trinkets; renewed control setup permits another finishing attempt.
+UNKNOWN: ["Enemy Priest cleanup kill versus departure is unknown; the Hunter kill is verified."]
+EXCEPTION: - **match_047** (analysed): Enemy Priest cleanup kill versus departure is unknown; the Hunter kill is verified.
+
+M409 | win | open=Hunter | kill=Hunter | extraction=high | flags=
+OBS: Replay 38621345, Lordaeron Ruins, two opposing players.
+OBS: Temporary Hunter DEAD at 90.5â€“91s is contradicted by live Hunter at 91.5s; only the sustained 99.5s death is treated as the kill.
+OBS: No Blind UP announcement observed.
+SOURCE CONVERSION: Hunter recovers from 19% around 91.5s to 31% around 96.5s, then drops through 10% and 5% to sustained death at 99.5s while Priest remains stunned. Gold team wins around 102s; Rogue alive, Priest 97% and alive.
+SOURCE RESET: Initial absorbed damage becomes health pressure; a healing recovery is followed by renewed Hunter damage and Priest stun. No separate game or full reset.
+
+M411 | win | open=Crab pet | kill=Hunter around 74s | extraction=high | flags=
+OBS: Replay 38621454, Ruins of Lordaeron.
+OBS: Hunter Gladius resets to 100% at scoreboard after sustained death; not treated as resurrection.
+OBS: Team color varies between games; this Green victory belongs to the surviving friendly pair.
+SOURCE CONVERSION: Hunter drops from about 50% at 69.5s to 28%, 17%, 9% and sustained DEAD around 74s. Priest Penance at 72â€“73s stops as Blind lands around 73.5s. Hunter target frame explicitly says Dead at 75s. Green team wins around 78.5s; Rogue alive and being healed, friendly Priest alive; opposing Priest full health, departure not shown.
+SOURCE RESET: Moderate pet attack, absorbed first Hunter go, partial healing recovery, then renewed Hunter go. Rogue becomes very low around 63â€“70s but receives heals and survives.
+
+M413 | win | open=Hunter | kill=Priest | extraction=high | flags=
+OBS: Nagrand Arena, replay 38621499.
+OBS: Hunter trinket at 66s and Priest racial use at 66s are separate resources.
+OBS: Priest renewed stun around 85.7â€“88.5s accompanies decisive health loss.
+OBS: Priest death persists through the end; both enemy players' deaths are not required for the observed win.
+SOURCE CONVERSION: Priest drops from roughly 79% at 83s to 2% at 88s and sustained DEAD at 88.5s. Hunter Blind expires around 87s, before the kill. Green team wins around 102s with Rogue alive and Hunter still alive around 78%.
+SOURCE RESET: Hunter heals back to approximately 90%; pressure transfers to Priest. Rogue survives a very low health interval around 79â€“84s and recovers.
+
+M415 | win | open=Hunter | kill=Hunter | extraction=high | flags=
+OBS: Ruins of Lordaeron, replay 38621574, opponents Venomyst and Haandbrekk.
+OBS: Blind on Hunter is confirmed by application and expiration messages.
+OBS: Priest remains full health throughout; temporary Priest selections do not establish a damage swap.
+OBS: Hunter death persists until post-round frame reset.
+SOURCE CONVERSION: Hunter falls from roughly 81% at 110s to 19% at 115s, 4% at 116.5s and sustained DEAD at 118s. Priest Horror ends before death; no claim of uninterrupted healer control. Green team wins around 122s with Rogue alive and Priest full health.
+SOURCE RESET: Hunter first pressure heals to roughly 88%; Blind is followed by friendly recovery and a later same-target conversion, rather than a healer kill.
+
+M418 | win | open=Hunter | kill=Priest | extraction=high | flags=
+OBS: Replay 38621733, Dalaran Sewers
+OBS: Blind UP/DOWN and Hunter trinket announcements
+OBS: Priest DEAD at 91s persists before scoreboard; post-round 100% is UI normalization
+SOURCE CONVERSION: Priest reaches zero at 90.5s and DEAD at 91s; friendly Gold team wins 98s with Rogue alive.
+SOURCE RESET: Switch from absorbed Hunter pressure to Priest at 84s
+
+M420 | win | open=Hunter | kill=Hunter | extraction=high | flags=
+OBS: Replay 38621822, Ruins of Lordaeron
+OBS: Hunter trinket displayed ready through death; Priest displayed WOTF cooldown approximately 32s
+OBS: Hunter post-round 95% at 74.5s is normalization after confirmed death
+SOURCE CONVERSION: Hunter DEAD 71.5s before scoreboard; friendly Green team wins 74.5s with Rogue alive.
+SOURCE RESET: Repeated Hunter stuns rather than a player target switch; post-match chat reports needing to re-Sap Priest but does not establish that re-Sap occurred.
+
+M422 | win | open=Hunter | kill=Hunter at approximately 92.5s | extraction=high | flags=
+OBS: Nagrand Arena replay 38621906; four player frames establish 2v2
+OBS: Priest is not continuously controlled through the kill and casts Penance beforehand
+OBS: Both enemy trinkets remain available at Hunter death; friendly Rogue survives
+SOURCE CONVERSION: Hunter falls to single digits after earlier control; Kick stops a late Flash Heal and Hunter dies, followed by friendly victory around 95.5s
+
+M424 | win | open=Hunter | kill=Hunter at approximately 97s | extraction=high | flags=
+OBS: Ruins of Lordaeron replay 38622009; four player frames establish 2v2
+OBS: Both enemy trinkets on cooldown at Hunter death
+OBS: Friendly Rogue survives at low health through kill and cleanup; both enemies visibly DEAD before Gold victory
+SOURCE CONVERSION: Hunter health falls from near full at 90.5s to 4% at 96.5s and DEAD at 97s; Priest dies during cleanup and friendly victory follows around 106s
+SOURCE RESET: Early pressure stalls against absorbs; minor Priest and pet selections precede renewed Hunter pressure
+
+M459 | win | open=Marksmanship Hunter | kill=Marksmanship Hunter | extraction=high | flags=
+OBS: ~70s: Hunter is the first substantial Rogue pressure target
+OBS: ~82s: Hunter Trinket changes to cooldown; damage-avoidance windows occur around 82-85s and 107-112s, exact defensive identification not used
+OBS: ~107-111s: Priest channels Divine Hymn while Hunter recovers
+OBS: ~121.5s: Flash Heal interruption appears in chat with Kick confirmation
+OBS: ~123s: Hunter stunned at ~25%; ~124.5-125s: Blind announcement followed by Priest CC icon
+OBS: ~125.5s: Hunter DEAD; Priest Trinket remains visually available at the decisive window
+OBS: ~133s: Gold Team wins
+SOURCE CONVERSION: Continue Hunter damage through the final stun and Priest Blind; Hunter dies ~125.5s
+SOURCE RESET: Earlier Hunter pressure is healed; return to Hunter after renewed Priest control rather than changing the kill target

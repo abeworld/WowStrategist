@@ -1,0 +1,33 @@
+GROUP 26: Shadow Priest / Subtlety Rogue__vs__Arcane Mage / Subtlety Rogue
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Arcane Mage / Subtlety Rogue", "total_games": 3, "wins": 3, "losses": 0, "unknown_result": 0, "opening_target_known": 2, "opening_target_unknown": 1, "opening_targets": {"Subtlety Rogue": 2}, "kill_target_known": 3, "kill_target_unknown": 0, "kill_targets": {"Arcane Mage": 1, "Subtlety Rogue": 2}, "records_with_quality_flags": 3, "records_with_source_exceptions": 3, "records_with_source_win_condition_hypothesis": 3, "source_batch_distribution": {"january_5th_full_20260912": 2, "september_20th_2650_20260913": 1}}
+
+M104 | win | open=None | kill=Arcane Mage | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: ~90s: our Rogue Sapped. ~97s: counter-control on enemy Rogue; enemy health remains approximately full.
+OBS: ~98s: enemy Rogue trinket announcement; chat reports enemy Rogue Blind on our Priest.
+OBS: ~99s: our Rogue critically low; subsequent stealth/disengagement and substantial health recovery.
+OBS: ~112–119s: Mage becomes current target, receives stun, drops rapidly and dies. Enemy Rogue remains approximately full.
+OBS: Mage UI explicitly says Arcane; Arcane Missiles and Arcane Blast casts appear. Mage mana becomes extremely low before final burst.
+OBS: ~123s: winner message.
+SOURCE CONVERSION: After recovery, select Mage (~112s), stun (~114s) and burst. Mage falls from full to ~74%, ~57%, then DEAD (~119s).
+SOURCE RESET: Our Rogue nearly dies ~99s, disengages/stealths, receives substantial healing, then re-engages Mage. Exact disengagement spell is unknown.
+UNKNOWN: ["First sustained team damage target/objective is unclear: Rogue counter-control is visible, but shields obscure damage and Priest contribution is not fully readable.", "Exact Rogue control during final Mage burst and precise disengagement spell timing are uncertain.", "Do not classify this opponent as Frost Mage."]
+EXCEPTION: - **match_005** (uncertain): First sustained team damage target/objective is unclear: Rogue counter-control is visible, but shields obscure damage and Priest contribution is not fully readable. Exact Rogue control during final Mage burst and precise disengagement spell timing are uncertain. Do not classify this opponent as Frost Mage.
+
+M113 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=medium | flags=source_exception_present
+OBS: ~55s UI reveals enemy Subtlety Rogue and Mage; ~60s Mage UI reads Arcane and shows Arcane Blast.
+OBS: ~60s enemy Rogue 65% with fresh trinket cooldown while Mage stays 100%.
+OBS: ~65s enemy Rogue DEAD; Mage selected under control; chat reports interrupted Arcane Blast.
+OBS: ~75s winner message persists in chat; friendly Rogue alive.
+SOURCE CONVERSION: Burst enemy Rogue through trinket; Mage is controlled as Rogue dies (~64s); interrupt Arcane Blast during Mage cleanup; win (~72s).
+UNKNOWN: ["Brief tail of this same result overlaps match_014 start; new preparation at clip end belongs to match_014, not a second fight here."]
+EXCEPTION: - **match_013** (analysed): Brief tail of this same result overlaps match_014 start; new preparation at clip end belongs to match_014, not a second fight here.
+
+M447 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=source_exception_present
+OBS: Gladius explicitly identifies Arcane Mage and Subtlety Rogue.
+OBS: Mage trinket cooldown appears at 67.5s after Fear. Enemy Rogue cooldown appears around 81.5s; precise triggering control is not established.
+OBS: Mage remains at 100% through enemy Rogue death. Friendly Priest is critically low from 78s and dies at 87s; enemy Rogue dies at 89s.
+OBS: Mage Blind macro text around 84s has no confirmed matching Blind state.
+OBS: Final Mage pressure uses Gouge/stuns, with Kick notification at 104s; Mage DEAD appears at 112.5s.
+SOURCE CONVERSION: Enemy Rogue falls from about 40% at 85.5s to DEAD at 89s despite friendly Priest dying at 87s. Friendly Rogue wins the resulting 1v1, pressuring Mage from 96s and killing him at 112.5s; scoreboard confirms win at 113.5s.
+SOURCE RESET: Priest/Rogue trade at 87–89s leads to Rogue versus Arcane Mage; repeated Gouge/stuns and a visible Kick interrupt at 104s support the final Mage conversion.
+EXCEPTION: - **match_016.mp4** — Rogue trinket is observed spent but not classified forced because triggering control is unclear. Mage Blind attempt is not treated as landed.

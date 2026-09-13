@@ -1,0 +1,30 @@
+GROUP 25: Shadow Priest / Subtlety Rogue__vs__Destruction Warlock / Discipline Priest
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Destruction Warlock / Discipline Priest", "total_games": 4, "wins": 4, "losses": 0, "unknown_result": 0, "opening_target_known": 4, "opening_target_unknown": 0, "opening_targets": {"Destruction Warlock": 4}, "kill_target_known": 4, "kill_target_unknown": 0, "kill_targets": {"Discipline Priest": 4}, "records_with_quality_flags": 0, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 4, "source_batch_distribution": {"june_7th_2700_20260913": 4}}
+
+M179 | win | open=Destruction Warlock | kill=Discipline Priest | extraction=high | flags=
+OBS: One 2v2; scan 53-123s at 1s, first kill 109-116s at 0.5s
+OBS: Explicit Discipline/Destruction labels; Priest Trinket remains ready through death
+OBS: Pet low health and resummon visible; Warlock remains full during Priest conversion and free-casts late
+SOURCE CONVERSION: Priest DEAD 114.5s despite healing attempt; Warlock controlled in cleanup and round win score 122s
+SOURCE RESET: Pet pressure is a real disruption branch, not a player kill attempt. Pet death is unconfirmed; later Succubus resummon is observed. Priest becomes sustained damage target 99s
+
+M182 | win | open=Destruction Warlock | kill=Discipline Priest | extraction=high | flags=
+OBS: One 2v2; scan 36-89s at 1s, first kill 71-78s at 0.5s
+OBS: Explicit Discipline/Destruction labels and separate Trinket uses
+OBS: Succubus selected during control/cleanup; no confirmed pet damage branch
+SOURCE CONVERSION: Priest 16% 74s briefly heals to 22% 74.5s with Penance, then DEAD 75.5s; win score 88s
+SOURCE RESET: Initial Warlock control does not establish health damage. Priest damage branch recovers once before renewed pressure. Warlock selected in cleanup; no confirmed Warlock or pet death
+
+M183 | win | open=Destruction Warlock | kill=Discipline Priest | extraction=high | flags=
+OBS: One 2v2; scan 72-107s at 1s, first kill 100-107s at 0.5s
+OBS: Explicit Discipline/Destruction labels; both escapes observed before first kill
+OBS: Priest death explicit; Warlock survives visible cleanup
+SOURCE CONVERSION: Priest 35% 102.5s, 19% 103s, DEAD 104s; round win 107s
+SOURCE RESET: Warlock health remains approximately 96% throughout Priest conversion; Warlock control expires before final kill and Fear/Immolate casts are visible
+
+M184 | win | open=Destruction Warlock | kill=Discipline Priest | extraction=high | flags=
+OBS: One 2v2; scan 55-178s at 1s, first kill 170-178s at 0.5s
+OBS: Explicit Discipline/Destruction labels; victory confirmed on native scoreboard
+OBS: Succubus control selection without confirmed damage branch; enemy Priest First Aid 171.5-172s and final Flash Heal attempt observed
+SOURCE CONVERSION: Priest 11% 173s, Flash Heal interrupted before DEAD 174.5s; Warlock remains full in cleanup and victory scoreboard 178s
+SOURCE RESET: First Priest window heals back to full. Warlock damage branch remains shallow and heals. Renewed Priest pressure creates the later favorable state and converts despite off-target casting after control ends

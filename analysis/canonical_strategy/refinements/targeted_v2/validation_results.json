@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "date": "2026-09-13",
+  "commands": [
+    "python analysis\\canonical_strategy\\refinements\\targeted_v2\\analysis\\build_candidate.py",
+    "python analysis\\canonical_strategy\\refinements\\targeted_v2\\analysis\\write_refinement_reports.py",
+    "python analysis\\canonical_strategy\\refinements\\targeted_v2\\analysis\\validate_refinement.py"
+  ],
+  "checks": [
+    "All six pinned baseline file hashes unchanged; snapshot agrees with the attached baseline.",
+    "Evidence and unresolved copies byte-identical; schema file unchanged.",
+    "All 49 strategy objects satisfy every constraint declared by the supplied schema and the reused baseline claim/domain walker; compositions, facts and counts reconcile.",
+    "Only three strategy versions changed to v2; other 46 objects and individual JSON/cards are byte-preserved where applicable. No new approval or automatic observability certification.",
+    "Exactly 80 + 104 + 31 ledger entries cover every scoped ID once, including all 53 losses; source notes, exceptions, match membership and individual source field/item pointers verified.",
+    "Every claim, challenge and precise review request resolves to the correct matchup and source-backed reviewed windows; qualified challenges are separately scoped.",
+    "Family matches/windows, local versus round outcomes, batch coverage and first-switch counts independently reconciled to ledger; exact attack counts remain unknown.",
+    "Current-version index paths, aggregate and individual files, history, counts and historical-versus-active contradiction identities agree; every indexed path exists inside candidate.",
+    "All JSON/JSONL parses; all local Markdown links resolve inside candidate; three cards have ten labeled lines and stay within 180 words. Reports are within the requested approximate length."
+  ],
+  "strategy_objects": 49,
+  "revised_strategy_objects": 3,
+  "unchanged_strategy_objects": 46,
+  "cards": 49,
+  "ledger_matches": 215,
+  "losses_reviewed": 53,
+  "review_status": {
+    "reviewed_with_gaps": 215
+  },
+  "reviewed_episode_windows": 599,
+  "exact_attempt_count": null,
+  "source_references_checked": 1685,
+  "claim_reviews": 45,
+  "first_switch_records": 100,
+  "json_files_parsed": 68,
+  "markdown_links_checked": 122,
+  "card_word_counts": {
+    "SPR_vs_Arms_HPal": 130,
+    "SPR_vs_SP_Sub": 140,
+    "SPR_vs_Disc_Feral": 134
+  },
+  "analysis_word_counts_before_tables": {
+    "SPR_vs_Arms_HPal": 1056,
+    "SPR_vs_SP_Sub": 1103,
+    "SPR_vs_Disc_Feral": 1132
+  },
+  "confidence": {
+    "medium": 6,
+    "low": 20,
+    "insufficient": 23
+  },
+  "strategy_status": {
+    "provisional": 26,
+    "insufficient_evidence": 23
+  },
+  "semantic_self_check": {
+    "circular_triggers": "Healer-line selection trigger is explicitly unknown; response gives a concrete manufacturing sequence. Recovered health or an already changed target is not used as an automatic selector.",
+    "proxies_and_inferences": "No old win-condition boolean, lexical CC tally, source-label frequency, target endpoint or recovery-text coverage is used as an event/strategy success count. Source narratives and observations retain distinct basis labels.",
+    "chronology": "Manual annotations separate during/before/coincident/ready/unknown first-switch states, recovered escapes, post-death continuations and unknown friendly death ordering. Unnamed protections and cast attempts remain qualified.",
+    "ambiguous_damage": "M398 utility-versus-commitment uncertainty excluded from established Priest-switch counts; M461 recorded opener unchanged but substantive damage qualification retained.",
+    "failure_calibration": "Feral losses described separately with low failure confidence; Cyclone counterexamples and failed attempts inside wins retained.",
+    "limits": "This is a manual semantic self-review, not a mechanical proof of strategic correctness. No video, causality, gameplay or webapp integration test was performed."
+  },
+  "schema_validation": "Every keyword used in the supplied schema contract was checked by the narrow standard-library validator, plus the existing baseline domain walker. A general JSON Schema library was unavailable in both installed Python runtimes; unsupported schema keywords fail closed.",
+  "limitations": [
+    "All records reviewed with explicit extraction gaps; unknown phase and choice states are not filled from round result.",
+    "Episode windows can summarize repeated attempts; exact attempt counts and complete opportunity denominators unknown.",
+    "Human/model semantic annotations are not deterministic facts or causal evidence.",
+    "No VOD review, performance ranking, addon detection certification, deployment or app integration test."
+  ]
+}

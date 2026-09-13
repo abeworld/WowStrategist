@@ -1,0 +1,190 @@
+[
+  {
+    "match_id": "january_4th_2700_20260913__match_044",
+    "source_path": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\analysis\\january_4th_2700_20260913\\records\\matches.jsonl",
+    "sha256": "4be90726a8f58581972ba7be396565bd03fe3d79d06caf7c6455b394616b76bf",
+    "original_match_id": "match_044",
+    "fields_checked": {
+      "source_file": "match_044.mp4",
+      "setup_actions": [
+        "Opening Paladin pressure and double Fear ~68s force Paladin Trinket ~68.5s; branch to Warrior",
+        "Warrior incapacitation ~149s with Blind attempt forces Warrior Trinket ~149.5s before later double Fear ~151.5s",
+        "Actual Paladin return ~153–162s overlaps Warrior Fear ~151.5–155.5s and renewed control ~159–164s; Paladin Horror ~156.5–159.5s",
+        "Paladin reaches ~11% and uses Divine Shield ~162.5–174.5s; branch back to Warrior",
+        "After immunity ends, Warrior controls recur but both enemies have recovered; friendly Priest Hymn ~180s does not stabilize the team"
+      ],
+      "observed": [
+        "Whole clip4s; active51–191s1s;68–70 and147–175s0.5s; native151,162,174,176,180,184,188,189s",
+        "Native176s shows post-immunity Paladin without Trinket and controlled Warrior while Priest alive; Priest critical184s, DEAD188s",
+        "Native189s announces Paladin Trinket ready; earlier spend does not imply unavailability at round exit"
+      ],
+      "conversion": "The low Paladin return first extracts Shield rather than a kill. A later resource-depleted Paladin state exists briefly after174.5s, with Warrior controlled, but damage stays on recovered Warrior; no enemy kill before friendly Priest death",
+      "branch_or_reset": "Paladin escape extraction -> Warrior pressure -> low covered Paladin return extracts immunity -> Warrior branch and failed stabilization",
+      "enemy_resources_remaining_at_failure": [
+        "Holy Paladin Trinket just before recovery at death; ready by188.5–189s",
+        "Holy Paladin mana ~8.6k, healthy and free",
+        "Warrior Trinket unavailable; Paladin Divine Shield spent"
+      ],
+      "friendly_resources_spent_at_failure": [
+        "Rogue Blind attempt ~149s; exact application sequence uncertain",
+        "Shadow Priest Divine Hymn ~180s",
+        "Repeated Rogue stuns/control"
+      ]
+    },
+    "conclusion": "Primary normalized chronology corroborated. No new pre-choice discriminator or footage verification; original M450 additionally lists friendly Rogue expenditures while friendly Priest defenses remain unknown."
+  },
+  {
+    "match_id": "may_4th_2350_20260913__may04_2350_match_005",
+    "source_path": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\analysis\\may_4th_2350_20260913\\records\\matches.jsonl",
+    "sha256": "89229f1494cebf7f03b8c31a15b264add59a2cfe51731fcd75d11ac1d804f89c",
+    "original_match_id": "may04_2350_match_005",
+    "fields_checked": {
+      "source_file": "match_005.mp4",
+      "setup_actions": [
+        "Pressure Rogue ~91-96s then commit Priest",
+        "Force Rogue trinket and Blind it",
+        "Interrupt Priest Vampiric Touch (~105s)",
+        "Renew Rogue control through Blind then Sap during Priest finish"
+      ],
+      "observed": [
+        "Early Priest selections are control; first Rogue pressure occurs ~91-96s",
+        "Rogue trinket announcement/cooldown ~100s followed by Blind countdown ~101-109s",
+        "Priest trinket announcement/cooldown ~104s",
+        "Rogue Blind refreshed ~110s and Sap applied ~117-124s",
+        "Priest is DEAD ~126s; victory follows with Rogue still alive/remaining death unproven"
+      ],
+      "conversion": "Continue Priest damage with renewed off-target control; Priest is DEAD ~126s",
+      "branch_or_reset": "Initial Priest pressure is healed partially; refresh Rogue control and continue rather than disengaging completely",
+      "enemy_resources_remaining_at_failure": [],
+      "friendly_resources_spent_at_failure": []
+    },
+    "conclusion": "Primary normalized chronology corroborated. No new pre-choice discriminator or footage verification; original M450 additionally lists friendly Rogue expenditures while friendly Priest defenses remain unknown."
+  },
+  {
+    "match_id": "september_28th_2700_20260913__september28_2700_match_005",
+    "source_path": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\analysis\\september_28th_2700_20260913\\records\\matches.jsonl",
+    "sha256": "c4bc8185d581baa2b15cbfb946489d91bae438acca13f2918309bf9cad70d0fc",
+    "original_match_id": "september28_2700_match_005",
+    "fields_checked": {
+      "source_file": "match_005.mp4",
+      "setup_actions": [
+        "Delay commitment in stealth; friendly Rogue is Sapped before the opener",
+        "Control Priest first, then commit damage to Rogue ~102.5s",
+        "Sustain Rogue pressure through healer recovery and late Rogue Trinket"
+      ],
+      "observed": [
+        "~84-89s: friendly Rogue Sapped; enemy Rogue becomes visible",
+        "~95-100s: enemy Rogue Fear icon; ~98-104s: Priest Gouge/stun UI while remaining near full health",
+        "~102.5s onward: Rogue takes substantial damage in stuns; falls to ~45% before partial recovery",
+        "~124s: enemy Blind announcement and control on friendly Rogue; this offensive spend is not classified as forced",
+        "~127.5s: enemy Rogue Trinket cooldown appears at ~13% health",
+        "~130.5s: Rogue DEAD; enemy Priest continues Flash Heal and retains visibly available Trinket",
+        "~133s: Gold Team wins; ~145s onward only preparation for the following round, not an additional combat game"
+      ],
+      "conversion": "Continue damage on Rogue through late Trinket and Flash Heal casts; Rogue dies ~130.5s",
+      "branch_or_reset": "Initial Priest control causes little visible health loss; switch damage to Rogue, whose first low-health window is partly healed before renewed pressure",
+      "enemy_resources_remaining_at_failure": [],
+      "friendly_resources_spent_at_failure": []
+    },
+    "conclusion": "Primary normalized chronology corroborated. No new pre-choice discriminator or footage verification; original M450 additionally lists friendly Rogue expenditures while friendly Priest defenses remain unknown."
+  },
+  {
+    "match_id": "september_11th_2500_20260912__sep11_2500_match_007",
+    "source_path": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\analysis\\september_11th_2500_20260912\\records\\matches_v6.jsonl",
+    "sha256": "c48cefa2550fef0ea4eaf144cc27a85bc004b5c7516879a91f81514d583f093b",
+    "original_match_id": "sep11_2500_match_007",
+    "fields_checked": {
+      "source_file": "match_007.mp4",
+      "setup_actions": [
+        "Repeated Feral pressure and Priest control through absorption and healing",
+        "Brief Priest stun selection ~90.5-93.5s, then recommit Feral",
+        "Kick Feral Cyclone ~98s and Blind Priest ~100s"
+      ],
+      "observed": [
+        "~55-64s Feral stuns and absorption at100%; ~65-79s Feral90% ->17%, Priest controlled intermittently.",
+        "~80-85s Priest Penance/support and Feral recovery37% ->48%.",
+        "~89s Feral trinket chat/cooldown; ~90.5-93.5s Priest selected/stunned70% ->63%,57% by94s.",
+        "~94.5s Priest trinket; ~98s interrupted Cyclone/Kick chat; ~100s Blind Priest.",
+        "~100-101s Feral21% ->2% ->DEAD under Priest Blind; ~103.5s win, Priest death not shown.",
+        "Post-round chat: 'needed vt on start the go', 'most importantly'."
+      ],
+      "conversion": "Feral drops100% ->17% ~55-79s, recovers to48% with Priest support. Feral trinkets ~89s. Brief Priest stun/health loss ~90.5-93.5s precedes return Feral; Priest trinkets ~94.5s. Kick Cyclone ~98s, renewed Feral stun and Blind Priest ~100s produce Feral42% ->2% ->DEAD ~101s. Green Team wins ~103.5s.",
+      "branch_or_reset": "Feral first low-health window is healed; pressure continues through form changes and resource use. Brief Priest selection is not established as an intended kill swap.",
+      "enemy_resources_remaining_at_failure": [],
+      "friendly_resources_spent_at_failure": []
+    },
+    "conclusion": "Primary normalized chronology corroborated. No new pre-choice discriminator or footage verification; original M450 additionally lists friendly Rogue expenditures while friendly Priest defenses remain unknown."
+  },
+  {
+    "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003",
+    "source_path": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\analysis\\may_24th_vod2_2600_20260913\\records\\matches.jsonl",
+    "sha256": "0bd85560d755634b46f99df8ab018d7e0d4cfad75e9260b1a6222360d3502db5",
+    "original_match_id": "may24_vod2_2600_match_003",
+    "fields_checked": {
+      "source_file": "match_003.mp4",
+      "setup_actions": [
+        "Repeated Feral pressure with brief Priest control",
+        "Blind Priest; Priest Trinkets",
+        "Stun Feral; Feral Trinkets",
+        "Silence Priest and pressure Feral, then branch to Priest damage"
+      ],
+      "observed": [
+        "49-65s: two opponents established, with no confirmed Sap opener",
+        "75-83s: Feral stun and brief Priest Silence produce damage, followed by healing",
+        "114s: friendly Rogue Trinket cooldown begins",
+        "125.5-126.5s: Blind lands on Priest, then Priest PvP Trinket cooldown begins and Blind ends",
+        "133-134s: Feral is stunned, then Feral PvP Trinket cooldown begins",
+        "135-138s: Priest Silence persists while Feral falls from about 89% to 63%; subsequent healing restores Feral",
+        "155-162s: Priest swap lowers Priest to about 35%",
+        "161-165s: Rogue pressure is interrupted by Cyclone/immune state; Priest resumes Penance and recovers",
+        "175-177s: Rogue is dead and Green Team wins; both enemies remain alive"
+      ],
+      "conversion": "The short post-Trinket Silence window does not kill Feral; a later Priest swap also recovers and no enemy dies",
+      "branch_or_reset": "Feral pressure repeatedly heals back up; switch to Priest around 155s before returning to Feral",
+      "enemy_resources_remaining_at_failure": [
+        "Both enemy PvP Trinkets still on cooldown; other major defensives not established"
+      ],
+      "friendly_resources_spent_at_failure": [
+        "Rogue PvP Trinket",
+        "Rogue Blind"
+      ]
+    },
+    "conclusion": "Primary normalized chronology corroborated. No new pre-choice discriminator or footage verification; original M450 additionally lists friendly Rogue expenditures while friendly Priest defenses remain unknown."
+  },
+  {
+    "match_id": "september_20th_2650_20260913__september20_2650_match_019",
+    "source_path": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\analysis\\september_20th_2650_20260913\\records\\matches.jsonl",
+    "sha256": "3ece37170257be479feec8a2b5031336acec55e62b82f10f25b645263a29a7df",
+    "original_match_id": "september20_2650_match_019",
+    "fields_checked": {
+      "source_file": "match_019.mp4",
+      "setup_actions": [
+        "48–58s: Feral Sap; Priest stun followed by Gouge and renewed stun, with damage absorbed.",
+        "58–64.5s: Renewed Feral Sap while friendly players reposition around the doorway.",
+        "67–77.5s: Swap to Feral and extend stun pressure; Priest is free and healing."
+      ],
+      "observed": [
+        "Discipline Priest / Feral Druid shown in Gladius; Priest remains at 100% through opener.",
+        "Feral reaches approximately 78% at 75.5s; enemy Penance at 75–76.5s restores him near full.",
+        "Friendly Priest is around full at 78.5s, loses health from 79s and dies at 82.5s; both opponents are at full by 82s.",
+        "Feral briefly receives Blind around 81.5s and trinkets at 82s; enemy Priest trinket stays ready.",
+        "Friendly Rogue leaves without an enemy death or scoreboard; own action bar shows the listed cooldowns already spent."
+      ],
+      "conversion": "No kill. Priest opener leaves him at 100%; Feral pressure briefly reaches about 78% before Penance restores him to near full. Friendly Priest dies around 82.5s and friendly Rogue leaves at approximately 85s with both enemies alive at 100%.",
+      "branch_or_reset": "Initial Priest attack is absorbed; players reposition and resap Feral, then attack Feral near the doorway. This second attempt is healed through before friendly Priest dies.",
+      "enemy_resources_remaining_at_failure": [
+        "Discipline Priest PvP trinket ready",
+        "Feral Druid and Discipline Priest both alive at approximately 100%",
+        "Other enemy defensive availability unknown"
+      ],
+      "friendly_resources_spent_at_failure": [
+        "Friendly Rogue Shadow Dance visibly on cooldown",
+        "Friendly Rogue Sprint visibly on cooldown",
+        "Friendly Rogue PvP trinket visibly on cooldown",
+        "Friendly Rogue Evasion visibly on cooldown by approximately 79s",
+        "Friendly Priest defensive spends unknown"
+      ]
+    },
+    "conclusion": "Primary normalized chronology corroborated. No new pre-choice discriminator or footage verification; original M450 additionally lists friendly Rogue expenditures while friendly Priest defenses remain unknown."
+  }
+]

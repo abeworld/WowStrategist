@@ -1,0 +1,35 @@
+GROUP 23: Shadow Priest / Subtlety Rogue__vs__Arms Warrior / Retribution Paladin
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Arms Warrior / Retribution Paladin", "total_games": 4, "wins": 4, "losses": 0, "unknown_result": 0, "opening_target_known": 4, "opening_target_unknown": 0, "opening_targets": {"Arms Warrior": 4}, "kill_target_known": 4, "kill_target_unknown": 0, "kill_targets": {"Arms Warrior": 4}, "records_with_quality_flags": 1, "records_with_source_exceptions": 1, "records_with_source_win_condition_hypothesis": 4, "source_batch_distribution": {"august_31st_2550_20260912": 1, "february_3rd_2550_20260912": 1, "january_5th_full_20260912": 1, "may_24th_vod2_2600_20260913": 1}}
+
+M001 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=source_exception_present
+OBS: ~61-66s Warrior pressured under stuns; ~67s Warrior Trinket cooldown appears
+OBS: ~68s Paladin falls to 67%; Divine Shield appears ~68.5s with immunity and 12s timer; Blind Warrior ~69.5s ends quickly
+OBS: ~83s Paladin Trinket cooldown appears
+OBS: ~108s both controlled; Paladin stays controlled as Warrior stunned and falls66% to dead ~116s; Gold wins~119s
+SOURCE CONVERSION: Brief Paladin pressure after Warrior Trinket and Blind; return Warrior, renewed stun while Paladin controlled ~108-115s, Warrior dies ~116s
+SOURCE RESET: First Paladin commitment forces Divine Shield ~68.5s; return Warrior rather than continue immune target
+EXCEPTION: - `match_001.mp4`: Precise cause of early Blind ending and full friendly defensive sequence unresolved
+
+M044 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=
+OBS: Dalaran arena; preparation then one normal four-player game; gate opens around 47s
+OBS: Warrior Trinket chat and cooldown at 62s; Paladin Trinket chat and cooldown at 64s
+OBS: Blind application on Paladin is visible at 85-86s and is replaced by Divine Shield at 86.5s
+OBS: Half-second review shows Paladin Shield disappears around 89.5s following Mass Dispel; Warrior Hand of Protection remains until approximately 94s while Warrior loses health to Priest damage
+OBS: Warrior approximately 8% at 95.5s; Paladin Fear renewed at 96s, Warrior dead at 97.5s; both Trinkets still on cooldown
+OBS: Paladin death UI at 106s, Gold Team win at 107s
+SOURCE CONVERSION: Maintain Priest damage during Warrior physical immunity; after protection expires, renew Warrior stun and Paladin Fear, finish Warrior at approximately 97.5s, then finish Paladin at approximately 106s
+SOURCE RESET: Short Paladin damage branch before returning to Warrior; friendly Priest is pressured low around 77-83s and stabilises with healing rather than disengaging
+
+M119 | win | open=Arms Warrior | kill=Arms Warrior | extraction=medium | flags=
+OBS: ~65s Warrior 83%, both trinkets on cooldown, Paladin full under control.
+OBS: ~70s Warrior 38%, Paladin 98% under control/Silence.
+OBS: ~75s scoreboard and Warrior 0%, Paladin 98%; friendly Rogue alive.
+SOURCE CONVERSION: Commit Warrior through both trinkets; Paladin support denied; Warrior falls 83% ->38% ->0%, result while friendly Rogue alive.
+
+M331 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=
+OBS: Ruins arena, replay 36507131; town footage at the start is inactive.
+OBS: Initial Paladin Sap and early Warrior Blind end early; their break mechanisms are unknown.
+OBS: The long pink Paladin icon at 44-56 and Warrior icon around 80-82.5 are disarm, not Sap or Fear.
+OBS: Paladin remains approximately 88% at the finish; no substantial healer swap is observed.
+OBS: Both friendly players remain alive at victory.
+SOURCE CONVERSION: Warrior falls to approximately 7% at 86 and 1% at 88.5, then dies at 89; Gold wins at 92.5 with Paladin alive.

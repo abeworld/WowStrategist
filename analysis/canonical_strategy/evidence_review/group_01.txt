@@ -1,0 +1,721 @@
+GROUP 01: Shadow Priest / Subtlety Rogue__vs__Arms Warrior / Holy Paladin
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Arms Warrior / Holy Paladin", "total_games": 80, "wins": 66, "losses": 14, "unknown_result": 0, "opening_target_known": 80, "opening_target_unknown": 0, "opening_targets": {"Arms Warrior": 62, "Holy Paladin": 11, "Arms Warrior briefly": 1, "Warrior": 6}, "kill_target_known": 67, "kill_target_unknown": 13, "kill_targets": {"Holy Paladin": 36, "Arms Warrior": 25, "none observed": 1, "Paladin": 3, "Warrior": 1, "Warrior around 213s": 1}, "records_with_quality_flags": 21, "records_with_source_exceptions": 20, "records_with_source_win_condition_hypothesis": 80, "source_batch_distribution": {"august_31st_2550_20260912": 4, "february_3rd_2550_20260912": 5, "january_4th_2700_20260913": 25, "january_5th_full_20260912": 10, "june_7th_2700_20260913": 4, "may_18th_2500_20260913": 3, "may_24th_vod2_2600_20260913": 9, "may_4th_2350_20260913": 8, "september_11th_2500_20260912": 5, "september_20th_2650_20260913": 3, "september_28th_2700_20260913": 4}}
+
+M052 | loss | open=Arms Warrior | kill=None | extraction=high | flags=
+OBS: 65–210s reviewed at 1s; 163–177s at 0.5s
+OBS: Arms Warrior / Holy Paladin labels visible
+OBS: Warrior Blind duration and both Trinket cooldowns visible during Paladin stun sequence
+OBS: Paladin Divine Shield icon with ~11s duration at 174.5s; target switches Warrior ~175s
+OBS: Full 209s frame confirms Priest DEAD with Warrior about 95% and Paladin 100%; Rogue exits shortly afterwards
+SOURCE CONVERSION: Blind Warrior into Paladin stun pressure ~161–174s reaches low Paladin health, but Divine Shield prevents the finish. Further pressure does not kill either enemy before friendly Priest death.
+SOURCE RESET: First Warrior pressure is healed; multiple Paladin attempts. Switch to Warrior after Paladin bubbles, then return after bubble.
+SOURCE FAILURE: Paladin survives the strongest isolation with Divine Shield and recovers; friendly Priest later dies ~208–209s.
+
+M053 | loss | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=source_exception_present
+OBS: Preparation reviewed at 4s; 39–342s at 1s; 63–69s, 240–247s and 310–333s at 0.5s
+OBS: Both enemy specializations visible
+OBS: Paladin bubble duration appears ~244.5s; renewed Paladin Trinket cooldown appears ~314.5s
+OBS: Paladin DEAD ~329s, Rogue DEAD ~331.5s
+OBS: 342s full frame confirms Gold Team 0 remaining and Green Team 1 remaining, with Priest DEAD and Warrior alive
+SOURCE CONVERSION: Paladin falls to about 4%, recovers partially, then dies ~329s after sustained pressure and renewed stun. Rogue dies ~331.5s; Priest dies ~342s, leaving Warrior alive.
+SOURCE RESET: Repeated Warrior pressure and Paladin swaps; return to Warrior after bubble, then renew Paladin isolation once bubble has been spent
+SOURCE FAILURE: The Paladin kill converts, but both friendly players subsequently die to the remaining Warrior
+EXCEPTION: - **match_004** (analysed, high): The Paladin kill converts, but both friendly players subsequently die to the remaining Warrior
+
+M056 | loss | open=Arms Warrior | kill=None | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Whole clip at 4s, active 71–191s at 1s; 90–103s, 163–171s and 188–194s at 0.5s
+OBS: Native 157s confirms party Blind announcements, but no enemy Blind debuff at that instant; yellow Paladin timer is not treated as CC
+OBS: Native 191s shows Uncle Dead, Gold Team 2 / Green Team 1 and both enemies alive
+SOURCE CONVERSION: Early Warrior pressure is healed; the Paladin swap produces little health loss and no kill. A decisive fully isolated low-target window cannot be established reliably.
+SOURCE RESET: Sustained Warrior pressure with repeated control; brief Paladin damage branch ~165–167s, then back to Warrior
+SOURCE FAILURE: Priest dies with both enemies alive at roughly Warrior 95% and Paladin 90%; Rogue exits immediately afterwards
+EXCEPTION: - **match_009** (uncertain, medium): Priest dies with both enemies alive at roughly Warrior 95% and Paladin 90%; Rogue exits immediately afterwards
+
+M057 | loss | open=Arms Warrior | kill=None | extraction=high | flags=
+OBS: Whole clip at 4s; active 59–191s at 1s; 79–85s, 109–115s, 154–170s and 184–190s at 0.5s
+OBS: Native 110s shows Paladin casting Flash of Light with a yellow buff; no Divine Shield claim
+OBS: Native 188s shows Uncle Dead and Gold 2 / Green 1
+SOURCE CONVERSION: Covered Paladin pressure produces a damaging window but is healed; neither enemy dies
+SOURCE RESET: Warrior opener and repeated pressure; damaging Paladin branch ~156–169s, then Warrior again
+SOURCE FAILURE: Priest dies ~185s with both enemies alive; Rogue is critically low and exits ~188.5s
+
+M058 | loss | open=Arms Warrior | kill=None | extraction=high | flags=
+OBS: Whole clip at 4s; active 71–213s at 1s; 129–136s, 150–169s, 168–182s and 207–214s at 0.5s
+OBS: Warrior orange timer ~167.5s persists while Warrior acts and is not counted as CC
+OBS: Native 212s confirms Rogue death, Gold 2 / Green 1 and Priest alive; scoreboard ~213s
+SOURCE CONVERSION: A covered Paladin damage branch is obtained but produces no kill; Warrior pressure is repeatedly healed
+SOURCE RESET: Repeated Warrior pressure and short Paladin branches ~158–161s and ~174–181s, then Warrior pressure resumes
+SOURCE FAILURE: Rogue dies ~209s while both enemies are alive; round ends in a loss ~213s
+
+M079 | loss | open=Arms Warrior | kill=None | extraction=high | flags=
+OBS: Whole clip4s; active67–163s1s;77–97 and146–153s0.5s; native139,145,149,151,160s
+OBS: Native149/151s shows Priest alive but critically low; native160s explicitly Ghost and chat Uncle has died
+OBS: Do not infer Priest death before late Trinkets from tiny target-of-target portrait
+SOURCE CONVERSION: Late escape removal and Warrior Fear are obtained, but damage remains Warrior and no Paladin return converts before friendly Priest dies
+SOURCE RESET: Paladin immunity extraction -> prolonged Warrior pressure -> late double escape extraction without a completed healer return
+SOURCE FAILURE: Friendly Priest runs out of mana and dies during the late resource-extraction/return interval; both enemies survive and friendly Rogue exits alive ~161s
+
+M089 | loss | open=Holy Paladin | kill=None | extraction=high | flags=
+OBS: Whole clip4s; active63–165s1s;84–88 and153–163s0.5s; native96,145,155,158,160,161,162s
+OBS: Native155s Priest alive/healthy; native160s critical; native161s DEAD and death chat
+OBS: Paladin Divine Shield never established; selecting Paladin for control is not automatically an actual damage return
+SOURCE CONVERSION: Late covered Warrior pressure reaches roughly46–50% but Paladin resumes healing after Horror; no enemy kill before friendly Priest death ~160.5–161s
+SOURCE RESET: Early Paladin escape extraction -> long Warrior branch and healed attempts -> short late covered Warrior commitment
+SOURCE FAILURE: Paladin resumes support after the late control window, and friendly Priest falls from healthy at155s to critical at160s and dies before161s; neither enemy is critically low at failure
+
+M090 | loss | open=Holy Paladin | kill=None | extraction=high | flags=
+OBS: Whole clip4s; active51–191s1s;68–70 and147–175s0.5s; native151,162,174,176,180,184,188,189s
+OBS: Native176s shows post-immunity Paladin without Trinket and controlled Warrior while Priest alive; Priest critical184s, DEAD188s
+OBS: Native189s announces Paladin Trinket ready; earlier spend does not imply unavailability at round exit
+SOURCE CONVERSION: The low Paladin return first extracts Shield rather than a kill. A later resource-depleted Paladin state exists briefly after174.5s, with Warrior controlled, but damage stays on recovered Warrior; no enemy kill before friendly Priest death
+SOURCE RESET: Paladin escape extraction -> Warrior pressure -> low covered Paladin return extracts immunity -> Warrior branch and failed stabilization
+SOURCE FAILURE: Immunity defeats the low-health Paladin commitment; after immunity expires the team does not convert the brief resource-depleted Paladin state and Priest dies between184–188s despite Hymn. Paladin Trinket recovers ~188.5s
+
+M093 | loss | open=Holy Paladin | kill=None | extraction=high | flags=
+OBS: Whole clip4s; active43–282s1s;59–63,100–104,139–145,249–253,263–275s0.5s; native142,225,230,250,264,274,281s
+OBS: Native230s Priest critically low but alive, recovering by250s; native274s Priest healthy while Rogue dead
+OBS: Warrior escapes Blind ~102s; its Trinket recovers before second use. Paladin second Trinket is after Rogue death
+OBS: Shield occurs during Paladin control at high health; it is not evidence of a near-kill Paladin swap
+SOURCE CONVERSION: The ~173–177s covered Warrior opportunity does not finish before Paladin resumes healing. Latest Warrior escape extraction lacks overlapping healer control; no enemy kill before Rogue death
+SOURCE RESET: Early Paladin damage -> long Warrior branch with defensive control/reset attempts -> late Warrior commitment
+SOURCE FAILURE: Paladin recovers Warrior after each brief control window. In the last attempt Paladin remains free with escape ready, Warrior recovers toward full, and Rogue becomes critical ~264s and dies ~272.5s while friendly Priest is alive
+
+M097 | loss | open=Arms Warrior | kill=None | extraction=high | flags=
+OBS: Whole clip4s; active50–139s1s;78–82,103–107,130–138s0.5s; native80,105,130,133,134,137s
+OBS: Warrior medal icon remains ready during twelve-second effect ~80s; true Trinket occurs ~105.5s
+OBS: Native134s Rogue still critically low, half-second134.5s dead; Priest healthy; Shield starts only~137s after this failure
+OBS: Brief Paladin targeting for Fear does not establish actual damage when health stays full
+SOURCE CONVERSION: The ~107–108.5s overlapping control state does not create lethal Warrior damage before Paladin recovers. Later Paladin pressure is modest and friendly Rogue dies before an enemy is low enough to finish
+SOURCE RESET: Warrior poke -> covered Warrior pressure and escape extraction -> healed Warrior branch -> late Paladin control/damage and survival collapse
+SOURCE FAILURE: Warrior is healed after short overlapping control. At the late Paladin commitment Warrior remains free until Blind ~133.5s, Paladin has immunity available and ~87% health, and Rogue dies ~134.5s despite healthy friendly Priest
+
+M213 | loss | open=Warrior | kill=none observed | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Both friendlies alive at first favorable window
+OBS: Priest remains alive when Rogue dies
+OBS: Paladin immunity indication and Mass Dispel attempts are visible, but exact defensive combination is unresolved
+SOURCE CONVERSION: Warrior reaches 49% at 65s during control; Trinket and defensive response break the window and Warrior heals from 29% to 87% at 67–68.5s. Later Paladin swap reaches 30% but our Rogue dies around 103.5s; loss at 108s
+SOURCE RESET: First Warrior attempt recovers; later Warrior Blind supports Paladin swap but cannot sustain the conversion
+SOURCE FAILURE: Enemy escape/defensive response saves first low-health window; our Rogue dies during later Paladin pressure
+EXCEPTION: | `match_025.mp4` | Exact Paladin immunity/defensive combination is unresolved; the record preserves a reached window followed by conversion failure. |
+
+M317 | loss | open=Arms Warrior | kill=None | extraction=high | flags=
+OBS: Gladius identifies Gcdmonsterxd Holy and Mashinerija Arms
+OBS: Warrior remains near full health through the Paladin swap
+OBS: Paladin Trinket use is explicitly announced and its cooldown appears at 97
+OBS: Paladin has recovered to near full health by 115
+OBS: Friendly Rogue health empties at 116.5-117; both enemies remain alive
+OBS: Gold Team Wins message at 118 is not used alone to determine the friendly outcome
+SOURCE CONVERSION: Paladin pressure reaches about one third health, but the healer escapes the following stun and recovers; no kill converts
+SOURCE RESET: After the Paladin defensive, target Warrior again while attempting to survive incoming pressure.
+SOURCE FAILURE: Paladin retains escape and defensive resources through the initial healer swap; Trinket and a subsequent immunity-type response prevent the finish. Warrior then maintains lethal pressure on the friendly Rogue.
+
+M328 | loss | open=Holy Paladin | kill=None | extraction=high | flags=
+OBS: Ruins arena, replay 36506616; one normal 2v2 game across the clip. City/preparation segments contain no additional completed game.
+OBS: Initial Rogue damage commitment is Paladin at 79-86; selecting or controlling Warrior earlier is not a damage opener.
+OBS: Paladin can cast Flash of Light during pink disarm states; these are not recorded as Sap or continuous healing denial.
+OBS: Warrior Blind application at 295.5 is confirmed by icon and chat; it ends at 306. Paladin Silence icon is visible at 303.5-306.5.
+OBS: Both enemy Trinkets return around 344-347 before their third observed uses; earlier expenditures do not remain unavailable indefinitely.
+OBS: Final Warrior Blind lands at 434, ends at 435.5 without another Trinket use, and our Rogue reaches zero health/death at 437.5.
+OBS: Gold wins at 440.5 with both enemies alive, establishing a friendly loss. Our Priest exact death time is unresolved; the skull above him is a raid marker and is not treated as death evidence.
+SOURCE CONVERSION: Paladin falls from about 98% at 301 to 27% at 306.5 while Warrior remains Blinded, then 22% at 308. Healing raises him to 36% at 309 and renewed attempts do not secure a kill.
+SOURCE RESET: Several low-health healer windows are restored; both enemy Trinkets recover twice. Warrior pressure continues as Paladin mana falls near 1,000 at 372-377, but mana later recovers. A final defensive Warrior Blind at 434 ends early at 435.5 and our Rogue dies at 437.5.
+SOURCE FAILURE: The healer-isolation window expires without a kill and subsequent healing restores the enemy team. Continued exchanges exhaust friendly survival; final Blind ends before the Rogue can stabilise.
+
+M475 | loss | open=Arms Warrior | kill=None | extraction=high | flags=
+OBS: One arena; gates open at 36s; early Warrior damage at 37s and substantive Rogue opener at 55s
+OBS: Warrior Kidney ends with Trinket at 61s; Paladin Sap transitions into Fear
+OBS: Blind Warrior at 82s confirmed by timed debuff; Paladin falls 88% to 54% to 30% at 86-87s
+OBS: Divine Shield begins at 88s while Paladin retains Trinket; immunity heals Paladin back to 81-100%
+OBS: Paladin Trinkets control at 113.5s and is immediately stunned again; health remains about 74-83% then heals to 93% at 119s
+OBS: Rogue dies at approximately 164s with Warrior 94% and Paladin 100%; Priest continues solo, Warrior reaches 15% at 173s and heals again; Green Team wins at 179s
+OBS: Full duration inspected at 4s inactive/1s active; critical 60-63,86-90,112-116,159-165s at 0.5s
+SOURCE CONVERSION: First Paladin conversion reaches 30% but is stopped by Divine Shield; later controls do not recreate comparable low health after both healer resources are spent
+SOURCE RESET: Return to Warrior after bubble; further Paladin and Warrior attempts are healed while friendly Rogue deteriorates
+SOURCE FAILURE: Paladin immunity stops the best low-health attempt; later control/resource extraction does not produce a lethal window before Rogue dies with both enemies healthy
+
+M006 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: Paladin Sap ~56s; Warrior Trinket ~65s; Paladin Trinket ~68s
+OBS: ~108s Paladin becomes sustained damage target; stuns ~109-116s
+OBS: Warrior Blind applied ~113s; Paladin immunity visible ~117-122s and health recovery
+OBS: ~123s Paladin stunned again, Warrior Fear ~125s; Paladin dead ~128s; Gold wins ~134s
+SOURCE CONVERSION: Warrior pressure draws both Trinkets; control Warrior and swap Paladin ~108s; Blind Warrior ~113s enables Paladin drop to 14%; Divine Shield ~117s restores Paladin; after immunity ends renew stun ~123s and Warrior Fear ~125s, Paladin dead ~128s
+SOURCE RESET: Continue Paladin conversion after immunity ends early; exact removal cause unknown
+
+M023 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=source_exception_present
+OBS: Sap Paladin precedes Warrior opening ~93s; Warrior Trinket cooldown ~94s
+OBS: Paladin stuns ~116-124s, Trinket ~124s at 48%, then heals; long defensive indicator ~175.5-187.5s accompanies another recovery
+OBS: Paladin healing interrupted and later Feared; Warrior dies ~211s with about 3s remaining on Trinket, which becomes ready ~214.5s after kill; Gold wins ~214s
+SOURCE CONVERSION: Return to Warrior after healed Paladin windows; Paladin Silence ~189.5-192.5s, confirmed Kick of Flash of Light ~195s and Fear ~203.5-209s reduce support; Warrior falls to 5%, restunned ~210s, dies ~211s
+SOURCE RESET: Paladin commitment ~115.5-132s draws Trinket but heals; short Blind Warrior ~141-143s ends early. Later Paladin pressure draws long immunity-like indicator ~175.5s; return Warrior and repeat control through several recoveries
+EXCEPTION: - `match_029.mp4`: Exact long Paladin defensive name and cause of early Blind ending unknown; shorter orange indicators could be buffs/debuffs and are not counted as named enemy resources
+
+M024 | win | open=Arms Warrior | kill=None | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Warrior opening stuns ~75-86.5s; both enemy Trinket cooldowns appear ~87s
+OBS: Paladin Silence/Fear follows the escapes; Warrior recovers from about 30% to full
+OBS: Blind Warrior ~117s overlaps Paladin Kidney; Paladin 94% at 116.5s returns to 100% at 117s with mana maximum changing; both enemies remain displayed alive before Gold victory ~124.5s
+SOURCE CONVERSION: Late Paladin swap ~113s and renewed stuns ~115-121s overlap Blind Warrior ~117s; Paladin briefly falls to 94%, then both enemy frames display 100% before the victory panel. No killing blow or enemy death is established
+SOURCE RESET: Opening Warrior pressure draws both Trinkets, but healing restores Warrior; team recovers from low friendly health and changes to Paladin
+EXCEPTION: - `match_030.mp4`: Contested 2v2, both enemy Trinkets, late Paladin stun/Warrior Blind and Gold victory are visible. Both enemy frames display full health before victory; no death or kill target is established. Record retained as `uncertain`; exclude from kill-target and lethal-conversion statistics.
+
+M026 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=source_exception_present
+OBS: Sap Paladin and Warrior opening stuns; Warrior Trinkets ~66s, Paladin Trinkets renewed Sap ~66.5s
+OBS: Paladin first commitment ~110-118s reaches 19%; long pink/white defensive indicator ~117.5-129s replaces Silence and accompanies recovery to full
+OBS: Blind Warrior persists ~149-159s; Paladin successive control and damage reaches 9% at 159s and dead ~159.5s; Warrior Sap ~159-161.5s; Gold wins ~166s; both Trinkets still cooling
+SOURCE CONVERSION: After healed first Paladin commitment, renew Paladin pressure ~147s while Blind Warrior ~149-159s prevents support; successive Paladin stuns/Gouge reduce him to 9% at 159s, Sap Warrior ~159s extends control and Paladin dies ~159.5s
+SOURCE RESET: Warrior opener draws both Trinkets but is healed; Paladin falls to 19% ~117.5s before long defensive indicator and heals full. Return Warrior, recover, then repeat Paladin isolation
+EXCEPTION: - `match_032.mp4`: Exact Paladin defensive name unknown; unidentified short indicators are not counted as enemy cooldowns
+
+M032 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: Sap Paladin at 62s is a debuff, while initial sustained damage is on Warrior.
+OBS: Warrior and Paladin Trinket announcements coincide with cooldown displays at 71s and 74s.
+OBS: Paladin Divine Shield buff appears at 107s; repeated friendly Mass Dispel casts include failures and do not establish early removal.
+OBS: Warrior receives the protective buff at 150s after reaching 10%; Paladin then heals him.
+OBS: Final Warrior stun runs approximately 185-190s. Warrior Trinket becomes ready at 191-191.5s, before Paladin death.
+OBS: Paladin Trinket remains unavailable through death; Warrior's restored Trinket is not used to avert it.
+SOURCE CONVERSION: Paladin drops from 69% at 186s through successive stuns to 6% at 191s and dies by 192s. Warrior leaves after the subsequent control; Green wins by 204s.
+SOURCE RESET: First Paladin conversion reaches 16% but Divine Shield protects recovery; damage returns to Warrior during immunity, then alternates pressure until another Paladin window.
+
+M036 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=
+OBS: Both friendly players stay relatively healthy during the Warrior push.
+OBS: Warrior and Paladin Trinkets are announced and displayed on cooldown.
+OBS: Paladin Horror is visible before Warrior death, whereas later Paladin stuns belong to the finish.
+OBS: No Divine Shield or Hand of Protection expenditure is confirmed.
+SOURCE CONVERSION: Warrior falls from 30% at 76s to 2% around 79.5s and dies by 80.5s while Paladin is Horrified. Paladin dies at 88-89s; Gold Team win at 90s.
+
+M039 | win | open=Holy Paladin | kill=Arms Warrior | extraction=high | flags=
+OBS: Brief Priest damage lowers Warrior at 69s but Rogue's first sustained engagement is Paladin at 84-89s
+OBS: Matching announcements and cooldowns confirm both enemy Trinkets around 97s; approximately 47s remain at Warrior death
+OBS: Warrior Blind debuff 125-128s; Paladin Divine Shield 127-138s; Mass Dispel attempt does not remove it
+OBS: Paladin Fear at 162-166s then Horror around 167-170s; Warrior renewed stun from 163s and further control around 167s
+OBS: Warrior 17% at 169s, 2% at 169.5s, dead at 170s; Paladin remains alive at victory
+SOURCE CONVERSION: After the Paladin immunity and recovery, return to Warrior; renewed stuns and healer control support the final burst. Warrior dies around 170s; Paladin leaves and Gold Team wins around 173s.
+SOURCE RESET: Warrior reaches approximately 38% at 101s but recovers. The Paladin branch forces Divine Shield; the immunity remains visible to around 139s. Friendly Priest heals up from low health before later pressure resumes.
+
+M046 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: Ruins arena; gate opens around 63s; one normal four-player engagement; enemy names Plombierhpal and Roastin
+OBS: Paladin Divine Shield icon around 88s, Priest Mass Dispel casts at 89-90s, Shield disappears early around 90s
+OBS: Both Trinket announcements coincide with cooldown starts: Warrior 94s, Paladin 100s
+OBS: Blind debuff confirmed on Warrior at 108-109s; Sap visible from 110s rather than an uninterrupted Blind chain
+OBS: Half-second review shows Paladin 12% at 158s, both enemies Feared around 158.5s, Paladin 2% at 160s and dead at 160.5s; Warrior remains approximately 94-95%
+OBS: Warrior remains alive through 172s; Gold Team win at 173s; his departure, not a visible Warrior kill, ends the game
+SOURCE CONVERSION: Renew Paladin stun and Fear both enemies in the low-health finishing window; Paladin dies around 160.5s, Warrior remains alive near full health and subsequently leaves, Gold Team wins at 173s
+SOURCE RESET: Warrior recovers repeatedly during opening pressure; damage branch to Paladin becomes the eventual kill. Priest falls critically low around 98-114s and is healed to safety around 119-126s
+
+M048 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=
+OBS: Blade's Edge arena; gate opens approximately 27s; one normal four-player game; Plombierhpal and Roastin
+OBS: Warrior begins sustained health decline from 46s while Paladin is Sapped
+OBS: Half-second review shows Warrior 29% at 54s, 7% at 54.5s; Warrior Trinket announcement and cooldown at 55s before death at 55.5s
+OBS: Paladin Sap is replaced by Horror following Trinket around 55s; Paladin Trinket cooldown visible at 55.5s, Fear at 57s
+OBS: Both friendlies remain healthy during first kill; Gold Team wins at 69s after Paladin falls to approximately 2%
+OBS: No Paladin immunity use is confirmed before the first kill
+OBS: Additional half-second review 66-70s confirms Paladin DEAD at approximately 68.5s before the victory scoreboard; both enemy deaths are established.
+SOURCE CONVERSION: Warrior spends Trinket at roughly 7% health around 55s and dies at approximately 55.5s; Paladin Horror prevents immediate help, then Fear and continuing damage finish Paladin around 68-69s; Gold Team win at 69s
+
+M063 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: Whole clip at 4s; active 65–376s at 1s; 93–97s, 160–174s, 240–248s, 329–338s and 355–377s at 0.5s
+OBS: Native 168.5s confirms Shield at ~21%; native 362.5s confirms Blind up on Warrior and Paladin Trinket event
+OBS: Native 367.5s confirms Paladin ~12% alive before death; native 377s confirms friendly win and one Priest killing blow
+OBS: Warrior is not counted as killed; scoreboard and live high health support departure after Paladin death
+SOURCE CONVERSION: Late Paladin recommit reaches ~12% before death ~368s; Warrior remains alive above ~80% and exits by winning scoreboard ~376.5s
+SOURCE RESET: Repeated Warrior-to-Paladin branches; midgame reposition/reset; renewed escape cooldowns extracted before final Paladin conversion
+
+M066 | win | open=Holy Paladin | kill=Holy Paladin | extraction=high | flags=
+OBS: Whole clip at 4s; active 47–200s at 1s; 66–75s,132–154s,163–170s,190–201s at 0.5s
+OBS: Native 58s,145s,180s,197s,200s inspected
+OBS: Paladin golden ~145–151s buff permits Flash of Light casts and is not recorded as crowd control or a specifically named defensive resource
+OBS: Native 197s confirms Paladin alive at ~5%, Warrior Blind, both enemy Trinkets on cooldown; native 200s confirms friendly victory with one killing blow
+OBS: Friendly critical portraits midgame recover; no friendly death is inferred from red portraits alone
+SOURCE CONVERSION: Final Paladin recommit reaches ~5% before death ~198s; Warrior remains ~100%, departs, and native 200s confirms one-kill friendly victory
+SOURCE RESET: Repeated Warrior/Paladin branches heal back; Warrior Mind Control supplies later separation before final Paladin recommit
+
+M070 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: Whole clip at4s; active31–71s at1s;58–71s at0.5s; native62s,67s,70s,71s
+OBS: Unused major escapes preserved; short Paladin effect left unnamed
+OBS: Native71s confirms one friendly killing blow and both friendlies alive
+SOURCE CONVERSION: Paladin reaches ~13% before death ~67.5s without spending Shield or Trinket; Warrior departs and native71s confirms one-kill friendly victory
+SOURCE RESET: Warrior control -> Paladin return; brief Paladin heal is overcome by sustained recommit
+
+M072 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: Whole clip at4s; active67–194s at1s;77–100,127–158,158–164,178–195s at0.5s; native169,191,193,193.5s
+OBS: Warrior Trinket stays ready until ~160s; unidentified Warrior defensive effects remain unnamed
+OBS: Green Warrior portrait alone does not establish Mind Control
+SOURCE CONVERSION: Blind -> Sap Warrior and return Paladin; sustained Gouge/stun pressure ends in Paladin death. Native193.5s confirms one-kill friendly victory
+SOURCE RESET: Paladin Shield -> prolonged Warrior pressure and friendly recovery -> Warrior Blind/Sap with final Paladin return
+
+M076 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=
+OBS: Whole clip4s; active64–154s1s;82–90 and138–156s0.5s; native88,105,144,151,155s
+OBS: Native105s explicitly shows Mind Control channel
+OBS: Blind ~143s is short; Shield replaces its portrait with12s defensive timer ~144s; do not claim healer stayed Blinded through kill
+OBS: Other Warrior defensive remains unnamed
+SOURCE CONVERSION: Stay Warrior through healed pressure and late Paladin Shield; renew stun and finish Warrior ~151s. Both friendlies survive and Paladin remains alive
+SOURCE RESET: Warrior pressure -> brief Paladin/control interval during Mind Control -> sustained Warrior recommit
+
+M077 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: Whole clip4s; active50–190s1s;82–100,124–132,182–192s0.5s; native70,87,146,169,188,191s
+OBS: Paladin retains Trinket until final188s; earlier gold portrait effect remains unnamed
+OBS: Native169s explicitly shows Mind Control channel;191s confirms win
+SOURCE CONVERSION: Renew Paladin pressure and Fear Warrior; late Paladin Trinket does not recover the low-health state. Paladin dies ~188.5s; one-kill friendly win
+SOURCE RESET: Paladin Shield -> Warrior pressure/control -> repeated Paladin returns with friendly recovery
+
+M081 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: Whole clip4s; active43–177s1s;64–69,108–112,133–136 and164–174s0.5s
+OBS: Paladin retains Trinket until135s; final both Trinkets still cooling
+OBS: Late gold Paladin effect ~170.5s remains unnamed and does not prevent death; do not label a second Shield
+SOURCE CONVERSION: Continue covered Paladin damage through brief heals; Paladin falls33% ->3% and dies ~172–172.5s. Warrior remains alive; one-kill win
+SOURCE RESET: Early Paladin Shield -> Warrior escape extraction/recovery -> Blind Warrior and repeated Paladin returns
+
+M083 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=
+OBS: Whole clip4s; active38–170s1s;53–58 and155–169s0.5s; native170s
+OBS: Paladin Divine Shield not established; gold stun icon is not proof of immunity
+OBS: Warrior Sap ~103–105s breaks early; subsequent Gouge/Fear are separate control
+OBS: Native170s confirms victory and both friendlies alive
+SOURCE CONVERSION: Commit Warrior through the renewed stun and Paladin control; brief heal after control ends cannot recover Warrior, who dies ~166.5s. Both friendlies survive; one-kill win
+SOURCE RESET: Warrior opener with Paladin DoTs -> temporary Paladin return -> recovery -> final Warrior commitment
+
+M085 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=
+OBS: Whole clip4s; active38–123s1s;69–73 and113–124s0.5s; native116,122,124s
+OBS: Native122s chat and applied timer support final Paladin Blind; native124s confirms Green victory
+OBS: No Divine Shield established; earlier overview before Warrior death did not establish loss
+SOURCE CONVERSION: Continue Warrior damage through the renewed stun; Warrior dies ~122s despite friendly Rogue also becoming very low. Victory ~123s and both friendlies alive
+SOURCE RESET: Warrior opener -> brief Paladin pressure -> healed Warrior attempts -> final covered Warrior commitment
+
+M087 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=source_exception_present
+OBS: Whole clip4s; active31–121s1s;61–67 and96–113s0.5s; native64,111,119s
+OBS: Native119s confirms Paladin DEAD with Trinket ready and both friendlies alive
+OBS: Late Blind macro announces an attempt; it does not establish uninterrupted Paladin Blind coverage
+SOURCE CONVERSION: Commit Paladin after immunity expires; covered return survives a small heal and Paladin dies ~112s. Paladin Trinket remains available throughout this conversion; both friendlies survive
+SOURCE RESET: Warrior opener -> early Paladin immunity extraction -> Warrior branch -> renewed Paladin commitment
+EXCEPTION: - **match_041**: Paladin kill with Paladin Trinket still ready.
+
+M088 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=source_exception_present
+OBS: Whole clip4s; active35–67s1s;49–61s0.5s; native55,60,66s
+OBS: Native66s shows Warrior DEAD and both friendlies healthy
+OBS: The twelve-second Warrior effect after Trinket is not reliably identified and is not labelled as Fear/stun
+SOURCE CONVERSION: Continue Warrior damage during Paladin Horror; Warrior dies ~60.5s shortly after healer control ends. Both friendlies survive; Paladin retains Trinket and has not used Divine Shield
+SOURCE RESET: Direct Warrior commitment; no meaningful Paladin damage swap before Warrior death
+EXCEPTION: - **match_042**: Warrior kill with Paladin Trinket and immunity retained.
+
+M091 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=source_exception_present
+OBS: Whole clip4s; active55–106s1s;76–83 and94–100s0.5s; native79,98,105s
+OBS: Native98s confirms Warrior DEAD, healthy friendly Priest, Paladin ~21.5k mana; native105s winner chat
+OBS: Paladin Blind is applied after Warrior death; Divine Shield not observed; unnamed Warrior twelve-second effect is not labelled as crowd control
+SOURCE CONVERSION: Sustain Warrior pressure through partial healing; Warrior dies ~97.5–98s. Both friendlies survive. Final damage succeeds with Paladin free and substantial mana; post-death Paladin Blind does not cover the kill
+SOURCE RESET: Direct Warrior commitment through recovery; no meaningful Paladin damage return
+EXCEPTION: - **match_045**: Warrior kill while Paladin is free with substantial mana; Blind follows the death.
+
+M096 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: Whole clip4s; active34–154s1s;51–66,109–113,137–147s0.5s; native65,110,143,146,152s
+OBS: Half-second footage confirms Warrior Trinket follows Fear and late Warrior Blind is landed; macro attempt alone is not the evidence
+OBS: Native146s Priest alive/low, Paladin nearly dead; native152s Priest Hymn and dead Paladin, with favourable scoreboard
+OBS: Paladin shield allows recovery and healing; health does not need to fall during every selected Paladin control
+SOURCE CONVERSION: Covered Paladin return drops health ~95% at141s to zero~146s while Warrior remains Blinded. Friendly Priest is low during conversion but survives and channels Hymn afterwards
+SOURCE RESET: Warrior opener -> low Paladin immunity extraction -> long Warrior branch and brief healed Paladin returns -> covered late Paladin kill
+
+M098 | win | open=Holy Paladin | kill=Arms Warrior | extraction=high | flags=source_exception_present
+OBS: Whole clip4s; active31–106s1s;52–55 and95–105s0.5s; native54,78,83,100,104,106s
+OBS: Final Paladin icon is Silence, not Fear; native100s visible Paladin Silence and Warrior stun
+OBS: Native106s winner chat and both friendlies alive; Warrior never shows Trinket cooldown before death
+OBS: Divine Shield occurs at high Paladin health; it is a control escape, not proof of a near-lethal Paladin return
+SOURCE CONVERSION: Maintain Warrior commitment during Silence then Horror and Warrior stun; Warrior dies ~104.5s with Trinket still ready. Both friendlies survive
+SOURCE RESET: Modest Paladin opener -> sustained Warrior branch through immunity/recovery -> covered Warrior finish
+EXCEPTION: - **match_052**: Warrior kill with Warrior Trinket retained.
+
+M099 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=source_exception_present
+OBS: Whole clip4s; active48–106s1s;74–78 and87–99s0.5s; native76,88,91,98,104s
+OBS: Half-second footage confirms Shield ~76.5s and Trinket ~91s; Paladin is not continuously controlled afterwards
+OBS: Native104s winner chat, both friendlies alive; Warrior Trinket remains ready through Paladin death
+OBS: No final Warrior Blind or uninterrupted off-target control is established
+SOURCE CONVERSION: Paladin reaches~4% after Trinket then receives partial recovery, but sustained damage finishes it~98s. Warrior is free during final pressure and retains Trinket. Friendly Priest is low but survives
+SOURCE RESET: Warrior opener -> low Paladin immunity extraction -> Warrior immunity branch -> Paladin escape extraction and sustained finish
+EXCEPTION: - **match_053**: Paladin kill with Warrior Trinket retained and Warrior free during final damage.
+
+M117 | win | open=Arms Warrior | kill=Holy Paladin | extraction=medium | flags=source_exception_present
+OBS: ~50s Warrior trinket; ~55s Paladin trinket and sustained Paladin pressure.
+OBS: ~62-65s Paladin 63% ->46% ->24% ->11%; ~65-69s long white/pink immunity aura holds Paladin at 11% while Rogue changes selection to Warrior.
+OBS: ~85s Paladin recovered above 90%; ~90s Warrior under Gouge/control, Paladin selected; ~100s Paladin 7%, then DEAD.
+OBS: ~101s Paladin DEAD, Warrior 100%; ~102-106s Warrior controlled and takes minor damage; ~107s Green Team wins, our Rogue alive.
+SOURCE CONVERSION: Warrior opening transitions to Paladin. First Paladin burst reaches 11% but Divine Shield permits recovery. Briefly pressure Warrior, then return Paladin with Warrior controlled. Paladin is DEAD by ~101s; Warrior remains ~93-100% during post-kill control. Green Team wins ~107s.
+SOURCE RESET: First Paladin conversion is stopped by immunity; both enemies recover before later Paladin attempt.
+UNKNOWN: ["Divine Shield identified from icon/duration, immunity text and health lock; its exact application second is approximate. Warrior cleanup kill versus departure is unknown."]
+EXCEPTION: - **match_018** (analysed): Divine Shield identified from icon/duration, immunity text and health lock; its exact application second is approximate. Warrior cleanup kill versus departure is unknown.
+
+M122 | win | open=Holy Paladin | kill=Holy Paladin | extraction=medium | flags=source_exception_present
+OBS: ~55-60s Paladin selected and falls100% ->64%; Warrior fresh trinket cooldown but full health.
+OBS: ~85s Warrior re-Sapped while Paladin recovers; ~113s Paladin trinket; ~125s Paladin28%.
+OBS: ~130s Paladin85% under immunity, 'Immune' combat text; full recovery by140s.
+OBS: ~180s Warrior trinket ready, ~203s used again; Blind announced; Paladin48% ->32% by215s then82% at220s.
+OBS: ~235-239s Paladin trinket is AVAILABLE; Warrior remains on trinket cooldown and receives renewed Sap. Paladin 68%, 49%, 40%, then DEAD at ~239s; our Rogue survives and Green Team wins ~241s.
+SOURCE CONVERSION: Repeated Paladin pressure forces immunity and allows recovery. After Warrior trinkets again, another Paladin attempt recovers. Final renewed Warrior control/Sap at ~236s supports Paladin health loss 68% ->49% ->40% ->DEAD at ~239s; win ~241s.
+SOURCE RESET: Several nonlethal attempts and recovery phases; Warrior trinket becomes available ~180s and is forced again; first Blind does not keep Warrior isolated through full conversion, renewed control used.
+UNKNOWN: ["Paladin trinket becomes available again before the final kill. Its prior use cannot be treated as an unavailable escape resource in the final window. Exact initial short Warrior setup is ambiguous."]
+EXCEPTION: - **match_023** (analysed): Paladin trinket becomes available again before the final kill. Its prior use cannot be treated as an unavailable escape resource in the final window. Exact initial short Warrior setup is ambiguous.
+
+M123 | win | open=Holy Paladin | kill=Arms Warrior | extraction=medium | flags=source_exception_present
+OBS: ~45s Warrior90% incidental damage; ~50s Warrior Sapped91%, Paladin selectedfull; ~70s Paladin48% with trinket, ~75s16%, ~90sfull again.
+OBS: ~134-145s Blind/Sap Paladin at100%, Warriortrinket and73% ->32%; ~160sWarrior92% recovered.
+OBS: ~165s Warrior re-Sapped full; ~170s PaladinSapped; ~175s Warrior67% under stun, Paladin controlled; ~180sWarriorDEAD Paladinfull underSilence/control.
+OBS: ~75-82s Paladin 16% ->31% ->37% ->50%, then lower again under continuing pressure; no immunity name is established.
+OBS: ~176-180s Warrior 55%, 36%, 14%, 3%, then DEAD; Paladin remains full and controlled. ~184s Green Team wins.
+SOURCE CONVERSION: First Paladin burst reaches 16% but healing restores it, eventually to full. Swap Warrior; Blind Paladin ~134s and force Warrior trinket ~138s. Warrior recovers from 32%, so stabilize and re-Sap both opponents before renewed Warrior stun pressure. Warrior falls 55% ->36% ->14% ->3% ->DEAD ~180s. Green Team wins ~184s.
+SOURCE RESET: Paladin kill attempt denied; sustained Warrior attempt also healed; Rogue drops very low (~150s) but recovers enough for another control setup.
+UNKNOWN: ["No named Paladin defensive is verified during first recovery. Paladin cleanup kill versus departure is unknown. The overlap from match_024 is a separate unopposed instance."]
+EXCEPTION: - **match_025** (analysed): No named Paladin defensive is verified during first recovery. Paladin cleanup kill versus departure is unknown. The overlap from match_024 is a separate unopposed instance.
+
+M126 | win | open=Arms Warrior | kill=Holy Paladin | extraction=medium | flags=
+OBS: ~90s Warrior39%, Paladin100% controlled; ~95s Warrior11%, defensive aura visible.
+OBS: ~105-120s Warrior31% ->44% ->71% ->91%; Paladintrinket.
+OBS: ~130-131s Paladin 30% ->20% with Warrior Sapped; ~132s Paladin DEAD and Warrior 99%; ~133s Warrior Blind. Post-round enemy frames reset to full health at ~135s; win ~137s.
+SOURCE CONVERSION: Warrior recovers from ~11% to ~91%. Swap Paladin under Warrior Sap; Paladin falls 94% ->30% ->20% and is DEAD at ~132s. Blind Warrior at ~133s is post-kill control. Gold Team wins ~137s.
+SOURCE RESET: Warrior recovers from11% to91% despite continued pressure; change kill target to Paladin.
+
+M127 | win | open=Arms Warrior briefly | kill=Arms Warrior | extraction=medium | flags=
+OBS: ~60s Paladin84%, Warrior94% controlled; ~65s Warriortrinket and Blind, Paladin52%.
+OBS: ~70s Paladin0% under Divine Shield11.2s, Immune text; ~75s81% and ~80sfull, immunity still1.2s.
+OBS: ~105s Paladin98% stunned; ~110s Warrior80% stunned; ~115s34%, Paladincontrolledfull; ~120s Green Team wins.
+OBS: ~116-118s Warrior 27%, 25%, then DEAD while Paladin remains controlled at 100%; ~120s Green Team wins.
+SOURCE CONVERSION: Paladin opening pressure forces Divine Shield and recovery, followed by trinket. Return Warrior and renew Paladin control. Warrior falls 34% ~115s ->27% ->25% ->DEAD ~118s. Paladin remains controlled and near full; Green Team wins ~120s.
+SOURCE RESET: Paladin immunity holds near-zero health then permits full recovery; Warrior becomes final damage target.
+
+M131 | win | open=Arms Warrior | kill=Holy Paladin | extraction=medium | flags=
+OBS: ~270s Warrior47%, bothfreshtrinkets; ~295-305s Warrior96-97%, ownRogue recovering.
+OBS: ~315s Warriorcontrolled100%, Paladin85%; ~325s Paladin17%, WarriorSap8.5s.
+OBS: ~335s PaladinDEAD Warrior100%; ~345sGreenTeamwins.
+SOURCE CONVERSION: Warrior opening reaches47% but heals to97%; stabilize own Rogue and re-Sap Warrior. Swap Paladin313s, stun/Silence and re-Sap Warrior; Paladin17%325s partially heals33%330s thenDEAD335s; win345s.
+SOURCE RESET: Warrior pressure healed; ownRogue loseshealth around280-295s thenrecovers; targetchangePaladin.
+
+M133 | win | open=Arms Warrior | kill=Arms Warrior | extraction=medium | flags=
+OBS: ~55s Paladintrinket and re-Sap, Warrior100%; ~65sWarrior43%, PaladinSilencedfull.
+OBS: ~70s Warriortrinket17% ->53%80s; ~95s Warrior7%, PaladinBlind5.2s; ~100sWarriorDEAD.
+SOURCE CONVERSION: Warrior17%70s heals53%80s; renew stun pressure and Blind Paladin around89s, Warrior7%95s ->DEAD100s; ownRoguealive, exit105s.
+SOURCE RESET: First Warrior burst recovered after trinket; later stun/Blind attempt finishes.
+
+M140 | win | open=Arms Warrior | kill=Holy Paladin | extraction=medium | flags=
+OBS: ~55s Warrior74% and fresh trinket, Paladin full re-Sapped; Warriorfull70s.
+OBS: ~95s Paladin79% stunned, Warrior100%Sapped; ~105s PaladinDEAD, Warriorfull.
+OBS: Paladin trinket remains available in terminal view; no immunity verified.
+SOURCE CONVERSION: Warrior opening reaches74%55s but heals full70s. Paladin becomes sustained target around90s; Warrior Sap supports Paladin87%90s ->22%100s ->DEAD105s.
+SOURCE RESET: Warrior opening healed; mixed control before eventual Paladin commitment.
+
+M142 | win | open=Arms Warrior | kill=Holy Paladin | extraction=medium | flags=source_exception_present
+OBS: ~80-85s Warrior100-98% selected while Paladin93%; ~90s Paladin80%controlled and Warrior96%Sapped.
+OBS: ~105s Warriortrinket; ownRoguelow110s butrecovers115s.
+OBS: ~150s Paladin41%with11swhitepinkimmunityauraandImmune; ~155-160s82%underimmunity.
+OBS: ~190s Paladintrinket and Warrior56%; ~195s Warrior23%, ~205s99%recovered.
+OBS: ~224-226s Paladin 28% ->14% ->DEAD; Warrior 100%, under Sap, and TRINKET READY announcement is visible. ~229s Green Team wins.
+SOURCE CONVERSION: Several Paladin attempts recover after immunity; Warrior pressure also heals back to full. Return Paladin ~210s and renew Warrior control/Sap. Paladin falls 53% ->28% ->14% and is DEAD ~226s; Warrior is still alive ~98%. Green Team wins ~229s.
+SOURCE RESET: Earlier pressure produces resources and recovery phases; our Rogue nearly dies ~110s but recovers. Warrior trinket is AVAILABLE again at the final Paladin kill.
+UNKNOWN: ["Exact name of Paladin immunity remains unconfirmed. Final kill succeeds with Warrior trinket available; do not impose an unavailable Warrior trinket prerequisite. Tail preparation repeats match_041."]
+EXCEPTION: - **match_040** (analysed): Exact name of Paladin immunity remains unconfirmed. Final kill succeeds with Warrior trinket available; do not impose an unavailable Warrior trinket prerequisite. Tail preparation repeats match_041.
+
+M146 | win | open=Holy Paladin | kill=Holy Paladin | extraction=medium | flags=
+OBS: ~75s Warrior92%Sapped,Paladin93%; ~90s Paladin72%selected,Warrior96%controlled.
+OBS: ~100s Paladin16%underwhitepinkimmunity11.7s; ~110s31%immunity6.7s andtrinketannouncement.
+OBS: ~120s Warriorfreshtrinket andBlind8.5s,Paladin49%controlled; ~125s PaladinDEAD,Warrior94%Blind3.5s; ownRoguealive.
+SOURCE CONVERSION: Paladin72%90s ->25%95s ->16%100s usesimmunity and recovers49%115s. Warriortrinkets~118s thenBlind; renewedPaladincontrol/damage finishes~124s whileWarriorSapped/Blinded.
+SOURCE RESET: Paladin immunity stopsfirstkillattempt; continuedpressureafterexpirationfinishes.
+
+M152 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=
+OBS: 40–66s scanned at 1s; 58–64s at 0.5s
+OBS: UI Holy Paladin / Arms Warrior
+OBS: Paladin long control renewed ~58s; Warrior Trinket overlay appears ~60s
+OBS: Warrior DEAD ~63s; no sustained damage swap to Paladin
+SOURCE CONVERSION: Warrior DEAD ~63s during Paladin control; round ends ~65s.
+SOURCE RESET: Paladin Trinket stays ready throughout the lethal control; do not infer mandatory Paladin Trinket extraction.
+
+M180 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: One 2v2; scan 53-193s at 1s, first kill 173-180s at 0.5s
+OBS: Explicit Holy/Arms labels; immunity duration and both Trinket cooldowns observed
+OBS: Final Paladin health depletion, Warrior off-target control and death explicit
+SOURCE CONVERSION: Paladin DEAD 178.5s; Warrior pressured in cleanup and round win score 191s
+SOURCE RESET: Paladin early immunity heals first damage branch; Warrior subsequently reaches 51% 141s but recovers to 98% 169s. Final sustained Paladin damage branch converts
+
+M185 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=
+OBS: One 2v2; scan 63-126s at 1s, first kill 109-116s at 0.5s
+OBS: Explicit Holy/Arms labels and both Trinket cooldowns
+OBS: Both enemy deaths explicit; Paladin free before Warrior finish
+SOURCE CONVERSION: Warrior 2% 113.5s, DEAD 114s; Paladin controlled then damaged in cleanup, DEAD 124s, victory score 125s
+SOURCE RESET: Repeated Warrior windows recover but stay under sustained pressure; Paladin selections until first kill are control, not a healer damage swap
+
+M186 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: One 2v2; scan 43-125s at 1s, first kill 113-120s at 0.5s
+OBS: Explicit Holy/Arms labels and separate Trinket timing
+OBS: Paladin death explicit; Warrior survives visible cleanup
+SOURCE CONVERSION: Paladin 19% 116s, 10% 116.5s, DEAD 117s; Warrior controlled in cleanup and victory score 123s
+SOURCE RESET: Early Paladin damage window recovers to full by 78s. Extended Warrior branch makes little health progress. Renewed Paladin damage converts; Warrior escapes before final death
+
+M227 | win | open=Warrior | kill=Paladin | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Both friendlies survive
+OBS: Warrior free during final Paladin damage
+OBS: End of clip contains preparation for next game only
+OBS: Exact Paladin defensive unknown
+SOURCE CONVERSION: Paladin 49% at 103s, Silence 103.5s then Fear; 16% at 105s and death 105.5s; victory 122s
+SOURCE RESET: First Paladin burst forces defensive and heals; renewed burst after further control converts
+EXCEPTION: | `match_042.mp4` | Exact Paladin defensive response is unresolved; Warrior is free during the final Paladin damage. |
+
+M229 | win | open=Warrior | kill=Paladin | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Both enemy Trinkets available through Paladin death
+OBS: Both friendlies survive
+OBS: 0–5s repeats previous game ending; counted only in match_043 record
+OBS: Exact Paladin defensive unknown
+SOURCE CONVERSION: Paladin 44% at 134s while Warrior feared; 2% at 138s partially recovers to 24%; renewed Fear 141s and damage defeat Flash of Light, death 143s; victory 157s
+SOURCE RESET: First Paladin burst forces major defensive; repeated control buys time before renewed burst
+EXCEPTION: | `match_044.mp4` | Exact Paladin defensive response is unresolved; both enemy Trinkets remain available at conversion. |
+EXCEPTION: Overlap handling: `match_044.mp4` 0-5s repeats the ending already recorded from `match_043.mp4`; its new game is a separate record. Next-game preparation inside clips does not create another game record. `match_072.mp4` includes preparation overlapping `match_071.mp4`, with no duplicate combat record.
+
+M321 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: Gladius establishes Rightspecwar Arms and Bethere Holy
+OBS: Replay match ID 36505822
+OBS: First Paladin and Warrior Trinkets are visible near 61-61.5; chat explicitly reports both ready near 181-182
+OBS: Second Warrior Trinket is reported at 193; second Paladin Trinket is reported at 217 after stun
+OBS: Blind application on Warrior at 216.5 persists until 226.5 with no escape; Paladin Kidney Shot is renewed near 218 and Silence lands near 224.5
+OBS: Paladin falls from about 85 percent at 220 to 38 percent at 223 and dies at 226.5
+OBS: Gold Team Wins at 243 with Warrior still alive; both friendly players survive
+SOURCE CONVERSION: Blind Warrior while committing to Paladin; after Paladin Trinkets the first stun, renew Kidney Shot and apply Silence as Paladin drops into low-health range. Paladin dies at 226.5.
+SOURCE RESET: Early Warrior and Paladin attempts are healed. Survive the cooldown cycle, extract Warrior second Trinket, recover briefly with First Aid, then repeat the healer-isolation branch.
+
+M322 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=
+OBS: Replay 36506020; Gladius establishes Bethere Holy and Rightspecwar Arms
+OBS: Sap Paladin runs from 78 to 88; Warrior Kidney Shot appears near 88-92
+OBS: Paladin casts healing while a long pink disarm-type effect is displayed near 110-129; this is not continuous healer incapacitation
+OBS: Warrior falls to about 16 percent near 118 and remains low through repeated healing
+OBS: Flash of Light interruption and Kick are explicitly visible near 128.5; Warrior dies near 131
+OBS: Both enemy Trinkets remain available throughout the lethal setup and at Warrior death
+OBS: Gold Team Wins at 133 with Paladin alive and both friendly players surviving
+SOURCE CONVERSION: Maintain Warrior pressure through partial healing; the final stun and Flash of Light interrupt convert the accumulated health deficit into a Warrior kill.
+SOURCE RESET: Earlier Warrior windows are partially healed; retain Warrior pressure with brief healer disruption rather than a sustained healer swap.
+
+M324 | win | open=Holy Paladin | kill=Holy Paladin | extraction=high | flags=
+OBS: Nagrand, replay 36506177. match_023 overlaps match_022 by approximately 17 seconds; match_024 overlaps match_023 by approximately 15 seconds. All three cover one game.
+OBS: Paladin falls from about 75% at match_022 92 to about 25% at 106, then heals to full by 115.
+OBS: Both enemy Trinkets refresh during match_023; they are available during Warrior low-health pressure at 38-43.
+OBS: Paladin spends refreshed Trinket at match_023 106.5 and partially heals afterward; pink disarm icon at 109.5-115 does not prevent his Flash of Light casts.
+OBS: Warrior Blind ends at match_023 105.5 before the simultaneous healer deaths; no Warrior Trinket use accompanies that early Blind ending.
+OBS: Paladin and friendly Priest die at match_023 118.5. Warrior remains alive; this is not the game result.
+OBS: Warrior spends a third Trinket at match_023 205. Blind at 235 continues into match_024 11-21; later stuns and Kidney Shot precede Warrior death at 29.
+OBS: Our Rogue remains alive when Green wins at match_024 30.5.
+SOURCE CONVERSION: Paladin dies at match_023 118.5, simultaneously with our Priest. Our Rogue survives the subsequent duel and kills Warrior at match_024 29; Green victory at 30.5.
+SOURCE RESET: Opening Paladin damage reaches approximately 25% but healing restores him. Repeated Warrior pressure and a defensive Blind reset precede a later Paladin commitment. After the healer trade, Rogue disengages, recovers, re-engages, and uses further stuns and Blind to finish the duel.
+
+M327 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: Blade arena, replay 36506557. Both specializations become displayed by 100.
+OBS: Paladin Trinket is available throughout the lethal window; no Paladin Trinket expenditure is observed.
+OBS: Paladin reaches approximately 98% at 105.5, then 37% at 108 and 16-20% at 110-110.5.
+OBS: Warrior is Gouged at 109.5-112 and then Kidney Shotted; he remains near full health.
+OBS: Paladin pink disarm icon around 111.5-112 does not establish healing denial: Flash of Light is visibly cast at 112.
+OBS: Paladin dies at 112.5; surviving Warrior remains about 96% at victory.
+SOURCE CONVERSION: Paladin falls to about 3% at 111.5 and dies at 112.5. Gold wins at 115 with Warrior alive and both friendly players alive.
+SOURCE RESET: Initial healer swap reaches 35% but is restored to full. Continued pressure and a later short stun create another low-health window, followed by Warrior Gouge/Kidney control for the finish.
+
+M329 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: Blade arena, replay 36506836; town opening is inactive footage.
+OBS: Paladin Trinket remains available through death; no Paladin Trinket use is observed.
+OBS: Warrior Blind is confirmed by icon and application chat at 134.5; approximately 50 seconds remain on his Trinket at the kill.
+OBS: Paladin can cast while the pink disarm icon is displayed; it is not recorded as Sap or healing denial.
+OBS: Both friendly players remain alive at the victory.
+SOURCE CONVERSION: Sustained healer damage during Warrior Blind takes Paladin to 12% at 141 and death at 141.5; Green wins at 143 with Warrior alive.
+SOURCE RESET: Warrior pressure produces Trinket and defensive recovery; the team later commits to Paladin and continues after his brief immunity/partial healing.
+
+M334 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=
+OBS: Blade arena, replay 36507526; town footage at the beginning is inactive.
+OBS: Both enemy Trinkets remain available through Warrior death; neither is observed spent.
+OBS: The Paladin pink disarm icon after 62.5 is not Sap; continuous healer CC through the kill is not claimed.
+OBS: Paladin remains near full health, and both friendly players remain alive at victory.
+SOURCE CONVERSION: Continued Warrior pressure survives the brief protection state; Warrior dies at 67 and Gold wins at 71 with Paladin alive.
+
+M335 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=
+OBS: Ruins arena, replay 36507661, is a distinct new game against the same displayed enemies as clip 34.
+OBS: Warrior Trinket is confirmed at 59, following Kidney Shot at 58.5; its cooldown still has approximately 42 seconds remaining at Warrior death.
+OBS: Paladin Trinket remains available at the lethal window and is not observed spent.
+OBS: Long pink icons on Paladin and Warrior are disarm; Paladin visibly heals during those states.
+OBS: Silence announcement precedes the final application: Paladin is still casting around 133.5-134, while the applied Silence icon is visible at 134.5.
+OBS: Both friendly players remain alive at victory; the skull above our Priest is a raid marker, not death evidence.
+SOURCE CONVERSION: Warrior reaches zero health at 136.5 with the death label visible at 137.5; Gold wins at 143 with Paladin alive.
+SOURCE RESET: Initial Warrior pressure is healed; the team repeats Sap/stun pressure on Warrior and converts a later low-health window with Paladin Silence.
+
+M342 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: Warrior first sustained pressure ~66-74s; both enemy trinket cooldowns begin ~70-75s
+OBS: First healer swap ~88s with Warrior Blind countdown visible ~92-101s
+OBS: Paladin Flash of Light recovery ~102-105s; damage returns to Warrior
+OBS: Paladin damage swap begins ~143s; Warrior renewed Blind/control is confirmed ~148-154s during the finish
+OBS: Paladin dies ~153s; both trinkets remain on cooldown at conversion; round win follows
+SOURCE CONVERSION: Second Warrior-control/Paladin-swap window converts; Paladin is DEAD ~153s
+SOURCE RESET: First healer swap reduces Paladin to ~48% but it heals back above 90%; return Warrior, renew control, then repeat healer swap
+
+M357 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: Paladin selection51s precedes meaningful damage57s
+OBS: Warrior has no confirmed control countdown during55-64s despite Fear announcements; continuous Warrior isolation not asserted
+OBS: No Paladin trinket use established
+OBS: Paladin control icons and health decline confirmed; Paladin DEAD62.5s
+SOURCE CONVERSION: Paladin full to DEAD ~62.5s during renewed control; victory65s with Warrior alive
+
+M374 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: First Paladin PvP Trinket recovered163s; cannot call it unavailable for the entire final attempt
+OBS: Warrior Blind visibly persists184-193s; renewed Sap occurs193.5s, not197s
+OBS: Warrior free197.5s onward; final kill not continuously covered by off-target CC
+OBS: No named Paladin major defensive confidently established during early recovery
+OBS: Paladin death independently shown; Warrior alive/full at first death
+SOURCE CONVERSION: Warrior Blind supports Paladin swap, then short Sap/Fear and renewed Paladin control cover much of the finish after second Paladin trinket; Paladin DEAD199.5s, victory210s
+SOURCE RESET: Early Warrior damage and first Paladin conversion are healed; return Warrior and extract its trinket before another Paladin attempt
+
+M376 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: Paladin selected87-98s without substantial damage; clear damage branch starts99-102s
+OBS: Blind announcements135-144s do not establish landed Blind then; independently visible Blind begins145s
+OBS: Both trinkets have~20s remaining at first death; neither recovers before finish
+OBS: Warrior alive~98% at victory
+SOURCE CONVERSION: Paladin repeated control plus continued pressure during Warrior control142s -> Blind145s leads to DEAD148.5s, victory153s
+SOURCE RESET: Earlier Warrior pressure and a Paladin14% attempt are healed; regenerate control then commit Paladin again
+
+M377 | win | open=Arms Warrior | kill=Arms Warrior | extraction=medium | flags=truncated_evidence
+OBS: Blind independently visible106-107s, then a different renewed effect/countdown107.5s onward
+OBS: Paladin Holy Light visibly casts109-110.5s while an effect remains displayed; exact later control/Mind Control state is unresolved, so no continuous Blind claim
+OBS: Warrior death independently shown, our Rogue alive at low health
+OBS: Both escapes remain unavailable at death; Paladin alive/full
+SOURCE CONVERSION: Continue Warrior; renewed Paladin effect106s precedes Warrior fall~30% to6%110s and DEAD111s; victory116s
+SOURCE RESET: Continue Warrior through several partial recoveries rather than swapping Paladin
+
+M379 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=
+OBS: Paladin Fear ends91.5s before final Warrior death; no continuous healer isolation through kill
+OBS: Paladin alive~84% at first death; no Paladin swap established
+OBS: Both trinkets remain on cooldown at finish
+SOURCE CONVERSION: After healed early11% attempt, renewed pressure reduces Warrior~70%84s to~30%89s during Paladin control; final Warrior stun92s leads to DEAD94s, victory95s
+SOURCE RESET: Stay Warrior through recovery to80%, then regenerate short control for another burst
+
+M387 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: Paladin free to heal during much of the earlier73-114s branch
+OBS: Paladin second trinket204s breaks renewed Fear; subsequent Warrior low206s does not convert
+OBS: Paladin trinket has~44s and Warrior~15s remaining at first death
+OBS: Loading at the clip end leads to preparation in match_062.mp4
+SOURCE CONVERSION: Paladin falls64%276s to11%279.5s and DEAD280s while Warrior remains Sapped; victory284s
+SOURCE RESET: Repeated Paladin and Warrior commitments heal before the final Paladin branch; earlier trinket removal is not carried forward past recovery
+
+M390 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=
+OBS: Paladin is free during the finishing pressure; no continuous healer-isolation claim
+OBS: Warrior short control ends~100s before renewed brief control102.5s
+OBS: Both trinkets remain unavailable at first death
+OBS: Paladin Fear104s follows Warrior death and did not cause the first kill
+OBS: Earlier Paladin green effect coincides with healing casts; its exact control interpretation is unresolved and not used as the decisive prerequisite
+SOURCE CONVERSION: After Flash of Light interrupt97s Warrior falls51%98s to9%102.5s and DEAD103s; victory115s
+SOURCE RESET: First Warrior pressure heals, shallow Paladin branch does not convert, then Warrior recommitment
+
+M396 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=
+OBS: ~34-39s Sap Warrior; ~42s Sap Paladin.
+OBS: ~47-48s Paladin trinket chat/cooldown, immediately followed by renewed control.
+OBS: ~50s renewed Warrior stun; ~51s Warrior trinket chat/cooldown.
+OBS: Around 53–55s Warrior 31% to 1% to DEAD; Paladin Fear visible around 53–54s. The different Paladin timer around 54.5–55s is unresolved.
+OBS: ~57s Gold Team wins with friendly Rogue alive; Paladin death not shown.
+SOURCE CONVERSION: Warrior trinkets around 51s, then drops from 34% to 1% around 54.5s and DEAD at 55s. Paladin Fear overlaps the preceding health decline; his later 11-second icon at the death is not treated as confirmed crowd control. Gold Team wins around 57s; Paladin still alive.
+SOURCE RESET: Both trinkets are used during the same sustained Warrior commitment; no damage swap established.
+
+M401 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: Sap announcements on Valkar and Clownax; ~86.5s select Paladin while Warrior controlled at98%.
+OBS: ~92.5s Paladin18%; ~93.5s defensive state ~11s, recovery37% ~94s,72% ~104s.
+OBS: ~120s Paladin trinket announcement/cooldown; ~122s27%, ~123s69% and defensive state.
+OBS: ~179s Warrior trinket; ~181.5s Blind up, ~183.5s Blind down; Paladin remains70-88%.
+OBS: ~239s Paladin trinket ready; ~241s select Paladin with Warrior controlled and trinket ~58s.
+OBS: ~244s Paladin39% Horror portrait, ~248s0%, ~248.5s DEAD with trinket ready and Warrior trinket~50s.
+OBS: Paladin remains DEAD through264s. At265s round closing updates Paladin frame to100%; this is not resumed Paladin combat. Gold Team wins266s; Warrior49% before result, friendly Rogue alive.
+OBS: Post-round chat in next clip: 'make more go war bro', 'if pala counter trinket', 'doesnt matter that he did', 'this trinket is like wall'.
+SOURCE CONVERSION: First Paladin swap ~86.5s lowers100% ->18%; defensive state permits recovery. Renewed Paladin pressure extracts trinket ~120s but another defensive recovery prevents kill. Warrior trinket ~179s is followed by Blind ~181.5-183.5s; Paladin damage still does not convert. Survive very low Rogue health ~181-184s and207-214s, rebuild, control Warrior ~236-244s and swap Paladin ~241s. Paladin100% ->39% under renewed Horror ~244s, ->0% ~248s, DEAD ~248.5s. Warrior cleanup/round ends ~266s.
+SOURCE RESET: Several recovery-and-recommit cycles. Early Paladin attempt occurs with Warrior trinket available; later attempt after Warrior trinket/Blind also fails to kill. Final Paladin trinket has recovered, so it is not recorded as unavailable.
+
+M403 | win | open=Warrior | kill=Warrior | extraction=high | flags=
+OBS: Valkar is Arms Warrior and Clownax is Holy Paladin
+OBS: Warrior is healed back from early ranged chip before Rogue engagement
+OBS: Warrior health falls 100 â†’ 62 â†’ 36 â†’ 28 â†’ 8 percent around 73â€“85 seconds
+OBS: Warrior trinket use is announced around 79 seconds and remains on cooldown at death
+OBS: Paladin resumes Flash of Light casts as Warrior recovers through roughly 27, 50 and 63 percent
+OBS: Renewed Warrior stun around 100 seconds accompanies 62 â†’ 48 â†’ 44 â†’ 21 â†’ 6 percent at one-second samples
+OBS: Kick interruption of Clownax Flash of Light is confirmed around 102 seconds
+OBS: Half-second footage confirms Warrior DEAD around 104.5 seconds before round-closing health reset
+OBS: Paladin remains alive around 98 percent and has trinket available; final departure mechanism unknown
+OBS: Friendly Rogue is alive at the result
+SOURCE CONVERSION: Warrior recovers from 8 percent around 85 seconds to about 71 percent around 98 seconds, then falls to DEAD around 104.5 seconds; Gold Team wins around 105.5 seconds
+SOURCE RESET: First Warrior low-health window does not kill; pressure continues through substantial healing recovery into a second conversion
+
+M414 | win | open=Warrior | kill=Paladin | extraction=high | flags=
+OBS: Dalaran Sewers, replay 38621542; enemy players Bblxyecocbl and Mxqz.
+OBS: Blind application on Warrior confirmed by announcement and timer around 129s.
+OBS: Paladin death persists until post-round UI health reset around 138.5s; reset does not establish a resurrection.
+OBS: Preparation chat discusses the preceding Hunter/Priest game, not an established initial plan for this game.
+SOURCE CONVERSION: Paladin falls from roughly 84% before the last stun chain to 9% at 136s and sustained DEAD at 136.5s. Warrior remains Blinded through the death; Gold team wins around 139s with Rogue alive and Warrior at full health.
+SOURCE RESET: The first Paladin pressure window reaches roughly 19% but heals out; alternating pressure obtains both trinkets before the later Paladin conversion.
+
+M431 | win | open=Warrior | kill=Warrior around 213s | extraction=high | flags=
+OBS: Replay 38622405, Blade's Edge; Backtoprime Arms Warrior / Serenityhehe Holy Paladin.
+OBS: Both enemy PvP trinkets still ready at conversion.
+OBS: Full frame at 214s shows Green team two players / Gold team one; Lingusterq and Uncle alive, Warrior corpse and DEAD Gladius entry, Paladin at 88%.
+OBS: Green Team wins message appears around 215s; Paladin death is not established.
+SOURCE CONVERSION: Half-second frames show Warrior reaching 1% around 210.5s, briefly recovering to 4%, then DEAD at 213s despite visible Paladin healing casts. Both friendly players survive; Green team wins around 215s while Paladin remains alive.
+SOURCE RESET: Maintain Warrior pressure after earlier healing recoveries; do not infer a Paladin damage swap from the brief control selection.
+
+M444 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=source_exception_present
+OBS: Normal 2v2; Gladius identifies Arms Warrior and Holy Paladin.
+OBS: Early Paladin chip damage heals before coordinated Warrior opener.
+OBS: Both trinkets remain on cooldown at the final kill, with roughly 4–5 seconds left; they have not yet recovered.
+OBS: Paladin immunity and subsequent recovery interrupt the earlier low-health window.
+OBS: Warrior has several temporary buff/control changes whose exact abilities are unresolved; Berserker Rage is not asserted.
+OBS: Paladin DEAD and victory are visible; Warrior death is not established.
+SOURCE CONVERSION: Renewed Warrior control around 198–205s isolates Paladin; Paladin falls from about 90% to DEAD around 204.5s. Victory follows around 205.5–206s with Warrior last alive near full health.
+SOURCE RESET: Several healer-pressure windows heal back up, including the Divine Shield interruption. Team stabilises through friendly healing and Divine Hymn around 155–157s, repeats Warrior pressure/control, then returns to Paladin.
+EXCEPTION: - **match_013.mp4** — Warrior exact anti-control buffs unresolved; do not label Berserker Rage. Both trinkets have only seconds left but remain unavailable at kill. Warrior departure versus death unresolved.
+
+M446 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=source_exception_present
+OBS: Gladius identifies Arms Warrior and, at 75s, Holy Paladin.
+OBS: Warrior remains healthy before the sustained 60.5s opening; Paladin Sap is visible from 53s.
+OBS: Paladin trinket cooldown appears at 66.5s, followed by Silence; Warrior trinket cooldown appears at 70s.
+OBS: Warrior dies at 72.5s. Paladin remains around 72% when the scoreboard appears; second death is not established.
+SOURCE CONVERSION: Renewed Warrior stun pressure after the 70s trinket reduces him to 5% at 72s and DEAD at 72.5s; scoreboard confirms win at approximately 75.5s.
+EXCEPTION: - **match_015.mp4** — Victory does not establish a Paladin kill; Holy specialization only becomes explicit near the end.
+
+M456 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=source_exception_present
+OBS: Gladius explicitly identifies Holy and Arms by about 86s and 77s
+OBS: Paladin displays roughly 12s Divine Shield interval beginning 83.5s; repeated friendly Mass Dispel casts are visible while interval continues
+OBS: Warrior trinket cooldown begins about 84s and returns ready about 204s; no second spend is visible
+OBS: Paladin Sap announcement, trinket notice and cooldown transition about 131s support escape; renewed Sap/Blind control follows
+OBS: Warrior reaches about 33% around 148s, recovers fully around 162–172s, then falls below half from about 199s
+OBS: Paladin casts Flash of Light about 203–205s and 211–212s; yellow buff about 201–206s is not treated as continuous crowd control
+OBS: Warrior sustained DEAD about 215s; friendly Priest is low but alive and channels Divine Hymn about 217–221s after the kill
+OBS: Paladin remains 92% before victory about 222s; no Paladin kill established
+SOURCE CONVERSION: Warrior remains low despite intermittent Paladin healing; Kick disrupts Paladin's heal about 212s and continued damage produces Warrior DEAD about 215s. Paladin leaves alive above 90%; victory about 222s
+SOURCE RESET: Opening Warrior damage fails to finish through immunity/healing; control and repositioning precede another Warrior attempt, which is healed back to full. A later pressure sequence wins after Warrior trinket has recovered
+EXCEPTION: - **match_027.mp4** — Warrior trinket recovers before final conversion. Paladin buff 201–206s unidentified; no second kill or successful immunity dispel claimed.
+EXCEPTION: - Frame sampling supports strategic transitions but cannot establish every spell, exact timing, causality or damage attribution. Unidentified buffs and ambiguous departures are explicitly retained as unresolved.
+
+M472 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: One game ~11-127s; preparation ~11-39s, begins ~40s; town after ~128s through end
+OBS: Friendly Priest is Uncle; enemy Holy Paladin Tekki and Arms Warrior Hacker identified in UI
+OBS: Brief Warrior Sap ~45s followed by Paladin Sap ~46s and re-Sap ~57s; Paladin Trinket ~58s confirmed by chat/cooldown
+OBS: Warrior stuns ~51-55/58-61/61-65s; falls ~44% ~68s but free Paladin casts Flash of Light and restores him; Warrior Trinket remains available
+OBS: Paladin target switch ~95s, stuns ~99-105s; Warrior Fear ~101-109s while Paladin falls ~86% to ~45% by ~108.5s
+OBS: Paladin additional control ~106-109.5s and brief stun ~109.5-111s; health ~32/36/34/24%, zero ~112s, DEAD ~112.5s
+OBS: Warrior is free during final Paladin death; no sustained partner control through kill claimed
+OBS: Warrior takes later damage/stuns but remains ~75% before Gold victory ~126s; no Warrior death asserted
+OBS: No confirmed Paladin Divine Shield application in the reviewed sequence
+SOURCE CONVERSION: Paladin pressure continues after Warrior Fear ends; Paladin reaches ~24% then DEAD ~112.5s. Warrior survives the subsequent pressure; Gold victory ~126s.
+SOURCE RESET: Warrior heals back to full after the opening pressure, prompting the Paladin branch.
+
+M474 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=
+OBS: One arena; preparation precedes combat at approximately 54s; full clip inspected through town tail
+OBS: Paladin Sap breaks with Trinket at 68s; Warrior opening Kidney at 67.5-72s produces little lasting damage
+OBS: Paladin falls to 14% and uses 12s Divine Shield at 86.5s; Warrior Trinket remains available during this branch
+OBS: Paladin Fear/control at 101-112s accompanies Warrior damage to 22% at 114s, but Warrior heals to 61% at 117s
+OBS: Blind Warrior at 123s ends early around 126-127s; continued Warrior pressure and Kidney at 129.5s lead to Trinket at 130s
+OBS: Warrior death at 132.5s; Paladin alive at 63-66%; Gold Team win at 135s
+OBS: Decisive windows inspected at 0.5s: 66-70,84-90,127-133s
+SOURCE CONVERSION: Continue Warrior damage after the 130s stun escape; Warrior drops to 13% then 1%, with brief Paladin control applied before the confirmed death at 132.5s
+SOURCE RESET: Paladin branch forces immunity and heals back; Warrior remains the eventual kill target
+
+M479 | win | open=Arms Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: Single arena; combat starts around 36s; full town/preparation and town tail inspected
+OBS: Artdevil is Holy Paladin and Targetdtired is Arms Warrior; friendly Shadow Priest is Uncle
+OBS: Warrior first loses health around 40s; meaningful Rogue stun pressure around 50s
+OBS: Warrior Trinket at 55.5s during Kidney pressure; health around 55%; Paladin still controlled
+OBS: Warrior 37% at 67s heals to 52% at 68s and full by 81s
+OBS: Warrior Blind confirmed 92-95s and ends early; no Warrior Trinket use on this Blind
+OBS: Paladin renewed stun at 94s ends with Trinket at 94.5s; both opponents then Feared around 95.5-100s
+OBS: Paladin falls to 14% at 102.5s and uses Divine Shield at 103s, retaining immunity until about 115s and healing to full
+OBS: Final Warrior Fear around 122-130s accompanies Paladin stuns and death; Warrior remains alive at 100%
+OBS: Gold Team win at 131s; town from 133s through end
+OBS: Active footage reviewed at 1s; critical 54-57,93-96,101-104,124-130s reviewed at 0.5s
+SOURCE CONVERSION: Paladin Kidney around 125-129s drives 84% to 49%,39%,24%,13%,1% and confirmed death at 129.5s while Warrior Fear persists
+SOURCE RESET: First Paladin window extracts Trinket and Shield rather than killing; pressure renews after immunity ends

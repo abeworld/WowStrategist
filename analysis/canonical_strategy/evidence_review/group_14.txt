@@ -1,0 +1,75 @@
+GROUP 14: Shadow Priest / Subtlety Rogue__vs__Enhancement Shaman / Retribution Paladin
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Enhancement Shaman / Retribution Paladin", "total_games": 8, "wins": 7, "losses": 1, "unknown_result": 0, "opening_target_known": 8, "opening_target_unknown": 0, "opening_targets": {"Enhancement Shaman": 2, "Retribution Paladin": 4, "Shaman": 2}, "kill_target_known": 7, "kill_target_unknown": 1, "kill_targets": {"Retribution Paladin": 4, "Enhancement Shaman": 2, "Shaman": 1}, "records_with_quality_flags": 0, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 8, "source_batch_distribution": {"may_18th_2500_20260913": 1, "may_24th_2450_20260913": 5, "may_4th_2350_20260913": 2}}
+
+M279 | loss | open=Shaman | kill=None | extraction=high | flags=
+OBS: Gates ~72s after long preparation
+OBS: Both Trinket icons change to cooldown after friendly control
+OBS: Hex announcement ~128s names friendly Rogue
+OBS: Maslohej dies ~133-134s; Paladin remains ~96%, Shaman ~72%
+SOURCE CONVERSION: Paladin pressure does not become lethal; later Shaman remains ~72% when friendly Priest dies
+SOURCE RESET: Paladin damage recovers; later Shaman pressure also stalls
+SOURCE FAILURE: Both enemies remain healthy enough to continue offense when friendly Priest dies
+
+M256 | win | open=Enhancement Shaman | kill=Retribution Paladin | extraction=high | flags=
+OBS: Shaman is the first committed damage target at 54s; Bloodlust buff lasts roughly 44-83s and is not CC
+OBS: Paladin is free to cast Flash of Light during Shaman recovery at 72-77s
+OBS: Paladin Trinket cooldown appears at 112s; Shaman stun begins at 113.5s and lasts to about 119.5s
+OBS: Paladin Silence is visible approximately 114.5-117s; health falls to 22% at 118s and 1% at 119s
+OBS: Paladin is DEAD at 119.5s with both friendly players alive; victory follows
+OBS: An unnamed ten-second effect appears on Paladin at 118.5s; it is not established as a defensive cooldown
+SOURCE CONVERSION: Fear forces Paladin Trinket; short Paladin lockdown and Shaman stun accompany sustained Paladin damage to death
+SOURCE RESET: Shaman reaches about half health but Paladin heals it to full at 72-77s. Paladin pressure at 87-94s is healed; a later Paladin burst converts.
+
+M268 | win | open=Retribution Paladin | kill=Retribution Paladin | extraction=high | flags=
+OBS: Enemy UI identifies Retribution Paladin and Enhancement Shaman
+OBS: Paladin Sap ~54s, first Paladin health reduction ~66s while Shaman remains near full health
+OBS: Shaman Trinket cooldown visible ~73s; main Paladin pressure resumes ~88s
+OBS: Shaman Blind expires ~104s and Sap follows ~104-109s; Paladin ~40% at 103s
+OBS: Paladin Trinket appears ~106.5s after stun; health ~22%, then 6% ~108s, DEAD ~110s
+OBS: Victory ~114s; Shaman alive
+SOURCE CONVERSION: Continue Paladin pressure through his late Trinket; Paladin falls from ~30% to DEAD ~110s while Shaman remains controlled until ~109s
+
+M271 | win | open=Enhancement Shaman | kill=Enhancement Shaman | extraction=high | flags=
+OBS: Enemy frames confirm Retribution Paladin and Enhancement Shaman
+OBS: Paladin Sap ~74s; Shaman first damage ~81s, ~74% at 86s then early recovery
+OBS: Both enemy Trinket cooldowns appear ~95-97s with announcements
+OBS: Shaman ~39% at 100s, ~19% at 103s, ~2% at 104s; Paladin Gouge/control persists
+OBS: Shaman DEAD ~105.5s; victory ~108s; Paladin alive
+SOURCE CONVERSION: Stay on Shaman after Trinket; renew Paladin Gouge as Shaman falls from ~39% at 100s to DEAD ~105.5s
+
+M273 | win | open=Retribution Paladin | kill=Enhancement Shaman | extraction=high | flags=
+OBS: Two enemies confirmed Retribution Paladin / Enhancement Shaman
+OBS: Paladin first damage ~61s; both Trinket cooldowns visible ~62/71s
+OBS: Shaman Blind ~85s; Paladin low ~89s then recovers through ~100s
+OBS: Paladin Sap ~112s accompanies sustained Shaman health loss; Silence renews at ~120.5s
+OBS: Shaman DEAD ~124.5s while Paladin alive ~99%; victory ~127s
+OBS: ~135s onward is preparation for match_011, not a second combat encounter
+SOURCE CONVERSION: Shaman pressure ~112s onward reaches ~26% at 120s; Paladin Silence ~120.5-125.5s and Shaman stun ~123s sustain damage to DEAD ~124.5s
+SOURCE RESET: Paladin first reaches ~17% ~89s but heals to near full; later Shaman damage is a real target switch, distinct from earlier Shaman control selections
+
+M282 | win | open=Shaman | kill=Shaman | extraction=high | flags=
+OBS: Resolved labels show Retribution and Enhancement
+OBS: Shaman stays ~100% during early control; meaningful sustained damage begins ~119s
+OBS: Both enemy Trinkets unavailable during final push
+OBS: Paladin Sap ~150-158.5s; both Fear ~158.5s; Shaman returns to stun ~161s
+OBS: Shaman DEAD ~162.5s; victory ~164s; next-game preparation ~177s contains no second combat
+SOURCE CONVERSION: After partial Shaman recovery to ~64%, Paladin Sap covers renewed damage to ~36% at 156s; stun and Fear renewal precede Shaman ~1% at 162s and DEAD ~162.5s
+SOURCE RESET: Early pressure recovers; later healing interrupts and renewed Paladin control create a second Shaman push
+
+M338 | win | open=Retribution Paladin | kill=Retribution Paladin | extraction=medium | flags=
+OBS: Paladin is first sustained pressure target ~46-50s; Rogue selects Shaman for pressure from ~51s
+OBS: Paladin trinket announcement ~75s and cooldown visible; Shaman cooldown begins ~101s
+OBS: Hex interrupt announcement ~126s
+OBS: Shaman control countdown spans the Paladin swap ~130-137s
+OBS: Paladin is DEAD ~137s and friendly team wins; Shaman death not established
+SOURCE CONVERSION: Control Shaman and swap Paladin; Paladin falls from ~70% at 130s to DEAD ~137s
+SOURCE RESET: Extended alternating pressure/control before final Paladin commitment; no clean full reset established
+
+M358 | win | open=Retribution Paladin | kill=Retribution Paladin | extraction=high | flags=
+OBS: Retribution label becomes explicit ~72s; earlier Paladin spec unknown
+OBS: Shaman health ~82%69s then ~89%75s and remains there during Paladin finish
+OBS: Shaman has no confirmed control countdown82-93s; Fear/Silence chat alone not proof of Shaman control
+OBS: Paladin stun85-89s, Silence89.5-90.5s, renewed stun91-93s; DEAD93s
+OBS: No Shaman trinket use established; wolves use is enemy offensive resource, not automatically forced
+SOURCE CONVERSION: Paladin ~82%83s to DEAD93s through repeated control; victory96s
+SOURCE RESET: Initial Paladin pressure and short Shaman branch do not convert; return Paladin

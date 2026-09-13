@@ -1,0 +1,29 @@
+{
+  "batch_status": "complete",
+  "instructions": "ARENA_ANALYSIS_INSTRUCTIONS.md V6",
+  "source_folder": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\output\\2v2_SPR_+2700_MMR_June_7th_Stream_VOD_WOW_R1_Gladiator_Rogue_Arena_PVP_-_Warmane_WOTLK",
+  "counts": {
+    "discovered_mp4_files": 40,
+    "requested_mp4_files": 40,
+    "reviewed_files": 40,
+    "pending_files": 0,
+    "valid_2v2_games": 40,
+    "jsonl_records": 40,
+    "analysed": 34,
+    "uncertain": 6,
+    "failed": 0,
+    "ignored_non_2v2": 0,
+    "excluded_non_evidentiary_2v2": 0
+  },
+  "result_balance": {
+    "win": 34,
+    "loss": 6
+  },
+  "confidence_balance": {
+    "high": 34,
+    "medium": 6
+  },
+  "count_mismatches": [],
+  "review_method": "Inactive footage at approximately 4s; active combat at 1s; decisive windows at 0.5s. Frame sampling; exact unconfirmed abilities left unknown.",
+  "verification": "JSONL parsed; unique IDs, duration bounds, forced-resource subset, loss semantics and source accounting checked."
+}

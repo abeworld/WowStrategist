@@ -1,0 +1,42 @@
+GROUP 22: Shadow Priest / Subtlety Rogue__vs__Shadow Priest / Unholy Death Knight
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Shadow Priest / Unholy Death Knight", "total_games": 5, "wins": 2, "losses": 3, "unknown_result": 0, "opening_target_known": 5, "opening_target_unknown": 0, "opening_targets": {"Unholy Death Knight": 3, "Shadow Priest": 2}, "kill_target_known": 3, "kill_target_unknown": 2, "kill_targets": {"Unholy Death Knight": 3}, "records_with_quality_flags": 1, "records_with_source_exceptions": 1, "records_with_source_win_condition_hypothesis": 5, "source_batch_distribution": {"june_7th_2700_20260913": 5}}
+
+M166 | loss | open=Unholy Death Knight | kill=None | extraction=high | flags=
+OBS: One 2v2; active scan 36-94s at 1s, loss finish 88-94s at 0.5s
+OBS: Full frame 84s: Rogue death dialog, own team 1 player, enemies 2
+OBS: Full frame 92s: Uncle Dead, own team 0 players, enemies 2
+OBS: Enemy specs explicitly Shadow/Unholy; Priest Flash Heal 82s
+SOURCE CONVERSION: Renewed DK damage fails to finish the depleted target; Priest healing restores DK before friendly Rogue death, followed by friendly Priest death
+SOURCE RESET: Priest resumes casts after 66s; Death Knight recovers from 17% through 33% then 69% by 84s; Gargoyle is disrupted but no pet death established
+SOURCE FAILURE: Damage fails to finish Death Knight before recovery; Rogue dies by 84s under sustained enemy pressure, then Priest dies by 92s
+
+M176 | loss | open=Shadow Priest | kill=None | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: One 2v2; scan 31-75s at 1s, final window 68-75s at 0.5s
+OBS: Explicit Shadow/Unholy labels; native frame confirms Priest Ghost at 74s while Rogue alive
+OBS: Both enemies alive at cut; final score not shown
+SOURCE CONVERSION: Friendly Priest dead by 74s, Rogue alive and exits around 75s with both enemies alive; concession inferred, final score absent
+SOURCE RESET: Priest selections during opener are offensive control despite little health damage. Clear sustained damage branch DK starts 52s; later Priest selection 59s is control
+SOURCE FAILURE: Opener fails to deplete Priest; DK branch lacks sustained Priest suppression, and enemy pressure kills friendly Priest before a kill
+EXCEPTION: - **match_027** (uncertain, medium): Loss/concession follows friendly Priest death and immediate exit; final result is inferred from this sequence; Apparent objective: Create a depleted Priest window through DK control, then pursue a depleted DK branch after Priest pressure is absorbed
+
+M178 | loss | open=Shadow Priest | kill=Unholy Death Knight | extraction=high | flags=
+OBS: One 2v2; active scan 36-239s at 1s, first kill 145-151s at 0.5s
+OBS: Native frames confirm DK killed, Rogue dead first on our team, Priest dead at final loss score
+OBS: Explicit Shadow/Unholy labels; Gargoyle disruption and repeated enemy Flash Heal observed
+SOURCE CONVERSION: DK DEAD 149.5s: first kill succeeds. Enemy Priest kills friendly Rogue by 157s, then wins the Priest duel; friendly Priest dead 238s and enemy win score 239s
+SOURCE RESET: DK falls to 12% 113s but Priest Flash Heal restores him to full 133s. Renewed setup kills DK; subsequent cleanup becomes 1v1 after Rogue death
+SOURCE FAILURE: Successful DK conversion does not secure round: enemy Priest survives cleanup, kills the low friendly Rogue, and later kills friendly Priest
+
+M169 | win | open=Unholy Death Knight | kill=Unholy Death Knight | extraction=high | flags=
+OBS: One 2v2; active scan 31-100s at 1s, finish 90-98s at 0.5s
+OBS: Shadow/Unholy labels; both Trinket cooldown overlays
+OBS: Priest resumes casts briefly between control windows; Death Knight final death explicit
+SOURCE CONVERSION: Renewed overlapping control 95s; Death Knight DEAD 96.5s, result screen 100s
+SOURCE RESET: First Death Knight pressure reaches 41% 56s then recovers to 96% 63s; repeated later pressure converts. Priest selections chiefly establish control, not a sustained damage swap
+
+M181 | win | open=Unholy Death Knight | kill=Unholy Death Knight | extraction=high | flags=
+OBS: One 2v2; scan 32-85s at 1s, first kill 76-83s at 0.5s
+OBS: Explicit Shadow/Unholy labels; DK Trinket remains ready through death
+OBS: Gargoyle appears late; no confirmed pet damage or death
+SOURCE CONVERSION: DK 8% 79.5s, DEAD 80s; Priest controlled in cleanup and win score 84s
+SOURCE RESET: Priest selections 51-55s are control and Priest remains full. DK recovers from 27% 70s to 46% 74s, then renewed pressure/control converts

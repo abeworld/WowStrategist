@@ -1,0 +1,48 @@
+GROUP 19: Shadow Priest / Subtlety Rogue__vs__Fire Mage / Subtlety Rogue
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Fire Mage / Subtlety Rogue", "total_games": 5, "wins": 4, "losses": 1, "unknown_result": 0, "opening_target_known": 5, "opening_target_unknown": 0, "opening_targets": {"Fire Mage": 5}, "kill_target_known": 5, "kill_target_unknown": 0, "kill_targets": {"Fire Mage": 3, "Subtlety Rogue": 2}, "records_with_quality_flags": 1, "records_with_source_exceptions": 1, "records_with_source_win_condition_hypothesis": 5, "source_batch_distribution": {"august_31st_2550_20260912": 1, "may_24th_vod2_2600_20260913": 4}}
+
+M314 | loss | open=Fire Mage | kill=Fire Mage | extraction=high | flags=
+OBS: Gladius identifies Misstimal Fire and Wit Subtlety
+OBS: Mage Silence overlaps Rogue Gouge around 56.5-57.5. Repeated Blind macro attempts do not establish a landed friendly Blind.
+OBS: Maslohej has died message at 65.5
+OBS: Mage DEAD at 75
+OBS: Our Rogue health is almost empty by 80.5; no heal to full occurs
+OBS: Our Rogue dies at 85; Green Team Wins at 86.5
+SOURCE CONVERSION: Short isolation overlaps enemy Blind on our Rogue; Mage survives the opening, then dies after our Priest has already died. Our Rogue loses the remaining 1v1.
+SOURCE RESET: Continue on Mage after Priest death; enemy Rogue returns from Stealth after Mage kill.
+SOURCE FAILURE: Enemy Blind prevents joint follow-through during the initial isolation. Priest dies before Mage is killed, leaving a low-health Rogue unable to survive the enemy Rogue.
+
+M014 | win | open=Fire Mage | kill=Fire Mage | extraction=high | flags=source_exception_present
+OBS: Mage Silence 50-52 and health 68% by 51.
+OBS: Rogue repeated stuns reduce health to 64%; Trinket cooldown 61.
+OBS: Rogue Fear 61.5-69.5; Mage Kidney 63.5 and Scorch interrupted with Kick.
+OBS: Mage 45% at 64 to 6% at 69.5, dead 71; Gold wins 77.
+SOURCE CONVERSION: Rogue Trinkets renewed stun 61, then remains feared 61.5-69.5; swap Mage 62.5, Kidney 63.5-68 and confirmed Kick interrupts Scorch, Mage dies about 71.
+SOURCE RESET: Brief Rogue pressure replaces Mage opener before returning to Mage; no full reset.
+EXCEPTION: - `match_014.mp4`: No Mage Trinket or Ice Block spend confirmed. Enemy Blind is reported by chat near 71 but application is not independently resolved; not treated as a forced resource.
+
+M312 | win | open=Fire Mage | kill=Subtlety Rogue | extraction=high | flags=
+OBS: Gladius identifies Misstimal Fire and Wit Subtlety
+OBS: Friendly Priest death message at 93
+OBS: Rogue falls from 78% at 91 to 15% at 94; dead at 95.5
+OBS: Mage Blind confirmed at 100 and immediately broken with PvP Trinket at 101
+OBS: Mage dies at 106; Gold Team Wins at 107
+SOURCE CONVERSION: Kill Rogue in Kidney despite friendly Priest death, then win the 1v1 by forcing Mage Trinket with Blind and following with damage and stun
+SOURCE RESET: Switch Mage to Rogue as Rogue reveals. Priest dies at 93, Rogue dies at 95.5; continue 1v1 on Mage rather than reset.
+
+M316 | win | open=Fire Mage | kill=Fire Mage | extraction=high | flags=
+OBS: Gladius identifies Misstimal Fire and Wit Subtlety
+OBS: Mage Sap application and Trinket cooldown are visible
+OBS: Mage DEAD at 80.5; Rogue remains at full health when Gold Team Wins at 87
+OBS: Friendly Blind announcements at 85 do not establish a landed Blind
+OBS: Trailing city footage and next arena preparation contain no second active game
+SOURCE CONVERSION: Continue opening burst on Mage after Sap is broken; Mage dies at 80.5
+
+M320 | win | open=Fire Mage | kill=Subtlety Rogue | extraction=high | flags=
+OBS: Gladius identifies Misstimal Fire and Wit Subtlety
+OBS: Replay match ID 36505678
+OBS: Rogue Fear ends with a Trinket cooldown change near 66.5; Kidney Shot at 72.5 persists through the lethal damage
+OBS: Rogue DEAD near 76.5; Blind application on Mage at 78 and Mage Trinket at 79 are visible
+OBS: Gold Team Wins at 93; Mage remains alive around 40 percent and both friendly players survive
+SOURCE CONVERSION: Commit damage to Rogue through the renewed stun window; Rogue dies near 76.5. Blind Mage afterward forces Trinket, and the round ends with Mage still alive.
+SOURCE RESET: Switch from initial Mage damage to the Rogue after Rogue exposure and Trinket expenditure.

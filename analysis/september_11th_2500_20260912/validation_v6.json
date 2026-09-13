@@ -1,0 +1,158 @@
+{
+  "validated_at_utc": "2026-09-12T20:22:42.062262+00:00",
+  "instructions_version": "V6",
+  "pass": true,
+  "checks": {
+    "all_lines_are_flat_schema_records": true,
+    "ids_order_and_game_count_preserved": true,
+    "one_valid_game_one_jsonl_line": true,
+    "record_manifest_bijection": true,
+    "source_boundary_confidence_status_manifest_agreement": true,
+    "protected_fields_preserved": true,
+    "all_original_observations_preserved": true,
+    "all_original_inferences_preserved": true,
+    "enemy_resource_arrays_populated_and_forced_subset": true,
+    "no_availability_or_interrupt_only_spends": true,
+    "confidence_and_status_values_valid": true,
+    "condition_flags_boolean_and_independently_reviewed": true,
+    "true_conditions_have_pre_death_witnesses": true,
+    "conversion_failed_losses_obtained": true,
+    "losses_keep_failure_and_resource_fields": true,
+    "no_kill_as_win_condition": true,
+    "racial_not_misreported_as_pvp_trinket": true,
+    "announcement_only_blinds_not_resource_spends": true,
+    "exclusion_rows_preserved_exactly": true,
+    "excluded_rounds_absent_from_corpus": true,
+    "valid_intervals_do_not_overlap_excluded_intervals": true,
+    "non_2v2_manifest_only": true,
+    "source_inventory_count_and_sizes_preserved": true,
+    "all_original_inputs_unchanged": true,
+    "saved_evidence_unchanged": true,
+    "record_results_preserved": true
+  },
+  "input_sha256": {
+    "ARENA_ANALYSIS_INSTRUCTIONS.md": "453be04d71c2bfbaad8cdddaeca0c8b6646f77708ed232c6c967e83e72c9d53b",
+    "analysis\\september_11th_2500_20260912\\records\\matches.jsonl": "e480d055e82477cdc179c0af18d582feaa2984256c2f069ff478890d775403ae",
+    "analysis\\september_11th_2500_20260912\\exceptions.md": "dfd5bc1d7560846802eff0171a0c42967d35602fb5c7530be33e0b60a0c32dae",
+    "analysis\\september_11th_2500_20260912\\manifest.csv": "899d7520b09e16f16538e3873ce7c0d6a2bd7fc8f948cb217adf66ef985f1316",
+    "analysis\\september_11th_2500_20260912\\batch_manifest.json": "dcaea33701f89aab5fc71ba57acc7e2a76f4da682ec0a9c97b91e4e863166b1e",
+    "analysis\\september_11th_2500_20260912\\validation.json": "f72db2784857339896f2db0735e244b4977cab74a8bcfbff57c020fc5a9661d3"
+  },
+  "output_sha256": {
+    "analysis\\september_11th_2500_20260912\\records\\matches_v6.jsonl": "c48cefa2550fef0ea4eaf144cc27a85bc004b5c7516879a91f81514d583f093b"
+  },
+  "saved_evidence_checked_sha256": {
+    "match_034/dense_48_112_4.jpg": "da34d50423a213d379113a492f39bb0b6bc129ad0476de59a891307a2530eb19",
+    "match_028/dense_48_138_4.jpg": "68ba90ac8aae2cab00fd432817ade73219143379c595560e360503795e961488",
+    "match_028/dense_48_138_5.jpg": "7c04a5435bfbbbe23c5cc4a0a9e21098efd862b113e708340e7746a0def3b8df",
+    "match_030/dense_49_110_4.jpg": "1eb270df922bef9095873a90f7b289a63c0d1e7aee7ad6c2cb12293a34af0d53",
+    "match_032/dense_53_108_5.jpg": "9e48fc090909b8843977156c0159506bd41c9d4cd205337bb9bbcb43597b4902",
+    "match_037/dense_34_141_3.jpg": "0523aaf0e224cabe421a2ac21c736b34d329d2adb93b0bd7cb18b3155b9ab579",
+    "match_041/dense_33_120_7.jpg": "9d07d04cc3a8586728d9050315f5451e8bca90623d17f0811cd75928f8431872",
+    "match_006/critical_74_82/sheet_1.jpg": "7987fa6dd9d59bf930ef29dcc286ba606727d3998abc9e05cd97ff4578be8bea",
+    "match_034/dense_48_112_3.jpg": "a83f27924819b88090c29cdba7c964b0c9fe98c6233f3da54155a3dfa853c033",
+    "match_034/critical_78_88/sheet_1.jpg": "44b9260759eebb642e833cdd35af6b277001be04ad492ceab2ee767c9d43ccef",
+    "match_037/full_139.5.jpg": "9f17746632e4363ac77d785302b1d0413859d7dc66c7491ccd570a3cea64e745",
+    "match_017/full_85.jpg": "9ad2e024c0d13a8af8dcada53fee3cd4ff03dfb7bc4a98f319518399cdb359ab",
+    "match_023/dense_73_111_3.jpg": "8cc0b2a93f31de42dbf84a9abc172c8ec8567ac3ddf001d9954b2ed9fc3cc6bd"
+  },
+  "discovered_mp4_count": 42,
+  "requested_mp4_count": 42,
+  "original_reviewed_mp4_count": 42,
+  "source_videos_reopened_in_repair": 0,
+  "current_source_folder": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\output\\done\\2v2_SPR_+2500_MMR_September_11th_Stream_VOD_WOW_R1_Gladiator_Rogue_Arena_PVP_-_Warmane_WOTLK",
+  "original_v5_source_folder": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\output\\2v2_SPR_+2500_MMR_September_11th_Stream_VOD_WOW_R1_Gladiator_Rogue_Arena_PVP_-_Warmane_WOTLK",
+  "manifest_segments": 44,
+  "valid_2v2_games": 40,
+  "jsonl_lines": 40,
+  "unique_match_ids": 40,
+  "analysed": 38,
+  "uncertain": 2,
+  "failed": 0,
+  "confidence_counts": {
+    "high": 38,
+    "medium": 2
+  },
+  "ignored_non_2v2": 0,
+  "excluded_non_evidentiary_2v2": 4,
+  "excluded_rounds": [
+    {
+      "source_file": "match_011.mp4",
+      "match_id": "",
+      "status": "excluded_non_evidentiary_2v2",
+      "confidence": "",
+      "clip_start_seconds": "10",
+      "clip_end_seconds": "18",
+      "reason": "Aborted/unopposed arena: join at~11s, immediate Gold Team result~16s, no opponents or meaningful combat established. Full clip inspected at1-second cadence."
+    },
+    {
+      "source_file": "match_012.mp4",
+      "match_id": "",
+      "status": "excluded_non_evidentiary_2v2",
+      "confidence": "",
+      "clip_start_seconds": "103",
+      "clip_end_seconds": "123",
+      "reason": "Separate arena admission (Replay ID 38621084) ends with Green Team winning before visible opponents or meaningful combat. Chat plans are not executed evidence."
+    },
+    {
+      "source_file": "match_014.mp4",
+      "match_id": "",
+      "status": "excluded_non_evidentiary_2v2",
+      "confidence": "",
+      "clip_start_seconds": "13",
+      "clip_end_seconds": "19",
+      "reason": "Arena admission (Replay ID 38621143) ends with Gold Team winning around 17 seconds while friendly players remain behind the preparation gate; no opponents or meaningful combat. Full clip reviewed at one-second intervals."
+    },
+    {
+      "source_file": "match_042.mp4",
+      "match_id": "",
+      "status": "excluded_non_evidentiary_2v2",
+      "confidence": "",
+      "clip_start_seconds": "10",
+      "clip_end_seconds": "90",
+      "reason": "Abnormal short round (Replay 38622380): both opponents leave the team count around 89–90s while still showing health; winner scoreboard has zero killing blows for all players. Brief Sap/trinket/Blind exchanges and limited damage do not establish a normal completed 2v2 conversion. Excluded from strategic corpus and statistics; exact departure/termination cause unknown."
+    }
+  ],
+  "results": {
+    "win": 36,
+    "loss": 4
+  },
+  "count_mismatch": false,
+  "loss_condition_audit": [
+    {
+      "match_id": "sep11_2500_match_017",
+      "result": "loss",
+      "failure_stage": "survival_failed",
+      "win_condition_obtained": false,
+      "win_condition": "Crab support is removed and Hunter health is exposed during renewed stuns with Priest support disrupted",
+      "failure_reason": "Rogue dies before enemy player pressure becomes lethal. Hunter control initially overlaps full-health absorbs, while the Priest is able to complete Mind Control; subsequent attacks do not create a kill window."
+    },
+    {
+      "match_id": "sep11_2500_match_018",
+      "result": "loss",
+      "failure_stage": "win_condition_not_reached",
+      "win_condition_obtained": false,
+      "win_condition": "Priest health is exposed under control while Hunter is isolated by Blind and our Rogue can sustain the attack",
+      "failure_reason": "Hunter isolation expires before Priest health pressure begins. The later Priest trinket is forced, but damage remains nonlethal and Rogue dies before another conversion; attempted defensive stealth does not secure survival."
+    },
+    {
+      "match_id": "sep11_2500_match_028",
+      "result": "loss",
+      "failure_stage": "conversion_failed",
+      "win_condition_obtained": true,
+      "win_condition": "Enemy Priest is weakened with PvP Trinket unavailable while enemy Rogue is temporarily Feared with PvP Trinket also spent and both friendly players remain alive",
+      "failure_reason": "A favourable Priest-pressure window exists ~80-82s with both enemy trinkets spent and enemy Rogue Feared. Rogue control expires ~82.5s; subsequent Blind attempts are not confirmed applied, so the ~8-9% Priest near-kill is no longer fully isolated. Uncle dies ~86s before conversion. Both enemies recover and win the later 1v2."
+    },
+    {
+      "match_id": "sep11_2500_match_034",
+      "result": "loss",
+      "failure_stage": "conversion_failed",
+      "win_condition_obtained": true,
+      "win_condition": "Enemy Rogue has reduced health and no PvP Trinket while Priest, whose PvP Trinket is also spent, is briefly Feared and both friendly players remain alive",
+      "failure_reason": "The favourable reduced-health Rogue window with both enemy trinkets spent and Priest Feared exists ~76-78s, but Priest Fear expires ~78s. Enemy Rogue reaches ~3% around 83.5s with Priest free; our Rogue dies ~84s before conversion. Priest heals afterward and both enemies recover."
+    }
+  ],
+  "semantic_review": "Explicit per-record resource attribution, objective inference, pre-kill witness and confidence review are recorded in v6_repair_changes.json. Structural checks verify preservation and exclusion coverage; they do not independently establish visual facts.",
+  "limitations": "Visual interpretation of sampled local footage: preparation/inactive checks at approximately 4 seconds, active combat UI/full-scene frames at 1 second, selected decisive windows at 0.5 seconds with full-frame checks where needed. Not every control or defensive event was independently checked at half-second cadence. Times approximate due to sampling. No combat log, audio transcription or matchup-wide synthesis.",
+  "cross_match_synthesis_performed": false
+}

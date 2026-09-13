@@ -1,0 +1,3576 @@
+{
+  "unit_note": "Family match counts overlap. Windows are reviewed episodes, including collapsed series, not exact counts of attacks or independent games. Classifications are semantic review annotations; aggregation is deterministic.",
+  "groups": {
+    "SPR_vs_Arms_HPal": {
+      "reviewed_matches": 80,
+      "round_results": {
+        "win": 66,
+        "loss": 14
+      },
+      "first_death_classifications": {
+        "enemy_death_confirmed_friendly_order_unknown": 45,
+        "win_without_established_enemy_death": 1,
+        "enemy_before_friendly": 19,
+        "friendly_first_no_enemy_kill": 13,
+        "enemy_first_then_friendly_collapse": 1,
+        "simultaneous_healer_trade_then_solo_win": 1
+      },
+      "families": {
+        "W": {
+          "definition": "Warrior attack before a substantive Paladin commitment",
+          "distinct_matches": 69,
+          "denominator_reviewed_matches": 80,
+          "match_ids": [
+            "august_31st_2550_20260912__august31_2550_match_006",
+            "august_31st_2550_20260912__august31_2550_match_029",
+            "august_31st_2550_20260912__august31_2550_match_030",
+            "august_31st_2550_20260912__august31_2550_match_032",
+            "february_3rd_2550_20260912__feb03_2550_match_006",
+            "february_3rd_2550_20260912__feb03_2550_match_010",
+            "february_3rd_2550_20260912__feb03_2550_match_020",
+            "february_3rd_2550_20260912__feb03_2550_match_022",
+            "january_4th_2700_20260913__match_003",
+            "january_4th_2700_20260913__match_004",
+            "january_4th_2700_20260913__match_009",
+            "january_4th_2700_20260913__match_011",
+            "january_4th_2700_20260913__match_012",
+            "january_4th_2700_20260913__match_017",
+            "january_4th_2700_20260913__match_024",
+            "january_4th_2700_20260913__match_026",
+            "january_4th_2700_20260913__match_030",
+            "january_4th_2700_20260913__match_031",
+            "january_4th_2700_20260913__match_033",
+            "january_4th_2700_20260913__match_035",
+            "january_4th_2700_20260913__match_037",
+            "january_4th_2700_20260913__match_039",
+            "january_4th_2700_20260913__match_041",
+            "january_4th_2700_20260913__match_042",
+            "january_4th_2700_20260913__match_045",
+            "january_4th_2700_20260913__match_050",
+            "january_4th_2700_20260913__match_051",
+            "january_4th_2700_20260913__match_053",
+            "january_5th_full_20260912__match_018",
+            "january_5th_full_20260912__match_028",
+            "january_5th_full_20260912__match_029",
+            "january_5th_full_20260912__match_031b",
+            "january_5th_full_20260912__match_033a",
+            "january_5th_full_20260912__match_038",
+            "january_5th_full_20260912__match_040",
+            "june_7th_2700_20260913__match_003",
+            "june_7th_2700_20260913__match_031",
+            "june_7th_2700_20260913__match_036",
+            "june_7th_2700_20260913__match_037",
+            "may_18th_2500_20260913__may18_2500_match_025",
+            "may_18th_2500_20260913__may18_2500_match_042",
+            "may_18th_2500_20260913__may18_2500_match_044",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_014",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_027",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_029",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_034",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_035",
+            "may_4th_2350_20260913__may04_2350_match_008",
+            "may_4th_2350_20260913__may04_2350_match_024",
+            "may_4th_2350_20260913__may04_2350_match_044",
+            "may_4th_2350_20260913__may04_2350_match_046",
+            "may_4th_2350_20260913__may04_2350_match_047",
+            "may_4th_2350_20260913__may04_2350_match_050",
+            "may_4th_2350_20260913__may04_2350_match_061",
+            "may_4th_2350_20260913__may04_2350_match_064",
+            "september_11th_2500_20260912__sep11_2500_match_005",
+            "september_11th_2500_20260912__sep11_2500_match_010",
+            "september_11th_2500_20260912__sep11_2500_match_013",
+            "september_11th_2500_20260912__sep11_2500_match_025",
+            "september_11th_2500_20260912__sep11_2500_match_042b",
+            "september_20th_2650_20260913__september20_2650_match_013",
+            "september_20th_2650_20260913__september20_2650_match_015",
+            "september_20th_2650_20260913__september20_2650_match_027",
+            "september_28th_2700_20260913__september28_2700_match_017",
+            "september_28th_2700_20260913__september28_2700_match_019",
+            "september_28th_2700_20260913__september28_2700_match_021",
+            "september_28th_2700_20260913__september28_2700_match_025"
+          ],
+          "reviewed_episode_windows": 81,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "escape_spend": 14,
+            "recovered": 30,
+            "enemy_kill": 17,
+            "continued_pressure": 19,
+            "protection_response": 1
+          },
+          "round_results_by_distinct_match": {
+            "win": 59,
+            "loss": 10
+          },
+          "source_batches": {
+            "august_31st_2550_20260912": 4,
+            "february_3rd_2550_20260912": 4,
+            "january_4th_2700_20260913": 20,
+            "january_5th_full_20260912": 7,
+            "june_7th_2700_20260913": 4,
+            "may_18th_2500_20260913": 3,
+            "may_24th_vod2_2600_20260913": 7,
+            "may_4th_2350_20260913": 8,
+            "september_11th_2500_20260912": 5,
+            "september_20th_2650_20260913": 3,
+            "september_28th_2700_20260913": 4
+          },
+          "window_refs": [
+            {
+              "match_id": "august_31st_2550_20260912__august31_2550_match_006",
+              "window_id": "M006-w01"
+            },
+            {
+              "match_id": "august_31st_2550_20260912__august31_2550_match_029",
+              "window_id": "M023-w01"
+            },
+            {
+              "match_id": "august_31st_2550_20260912__august31_2550_match_030",
+              "window_id": "M024-w01"
+            },
+            {
+              "match_id": "august_31st_2550_20260912__august31_2550_match_032",
+              "window_id": "M026-w01"
+            },
+            {
+              "match_id": "february_3rd_2550_20260912__feb03_2550_match_006",
+              "window_id": "M032-w01"
+            },
+            {
+              "match_id": "february_3rd_2550_20260912__feb03_2550_match_010",
+              "window_id": "M036-w01"
+            },
+            {
+              "match_id": "february_3rd_2550_20260912__feb03_2550_match_020",
+              "window_id": "M046-w01"
+            },
+            {
+              "match_id": "february_3rd_2550_20260912__feb03_2550_match_022",
+              "window_id": "M048-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_003",
+              "window_id": "M052-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_004",
+              "window_id": "M053-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_009",
+              "window_id": "M056-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_011",
+              "window_id": "M057-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_012",
+              "window_id": "M058-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_017",
+              "window_id": "M063-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_024",
+              "window_id": "M070-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_026",
+              "window_id": "M072-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_030",
+              "window_id": "M076-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_031",
+              "window_id": "M077-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_033",
+              "window_id": "M079-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_035",
+              "window_id": "M081-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_037",
+              "window_id": "M083-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_039",
+              "window_id": "M085-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_041",
+              "window_id": "M087-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_042",
+              "window_id": "M088-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_045",
+              "window_id": "M091-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_045",
+              "window_id": "M091-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_050",
+              "window_id": "M096-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_051",
+              "window_id": "M097-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_053",
+              "window_id": "M099-w01"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_018",
+              "window_id": "M117-w01"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_028",
+              "window_id": "M126-w01"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_029",
+              "window_id": "M127-w01"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_031b",
+              "window_id": "M131-w01"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_033a",
+              "window_id": "M133-w01"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_033a",
+              "window_id": "M133-w02"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_038",
+              "window_id": "M140-w01"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_040",
+              "window_id": "M142-w01"
+            },
+            {
+              "match_id": "june_7th_2700_20260913__match_003",
+              "window_id": "M152-w01"
+            },
+            {
+              "match_id": "june_7th_2700_20260913__match_031",
+              "window_id": "M180-w01"
+            },
+            {
+              "match_id": "june_7th_2700_20260913__match_036",
+              "window_id": "M185-w01"
+            },
+            {
+              "match_id": "june_7th_2700_20260913__match_036",
+              "window_id": "M185-w02"
+            },
+            {
+              "match_id": "june_7th_2700_20260913__match_037",
+              "window_id": "M186-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_025",
+              "window_id": "M213-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_042",
+              "window_id": "M227-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_044",
+              "window_id": "M229-w01"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_014",
+              "window_id": "M317-w01"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+              "window_id": "M321-w01"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+              "window_id": "M322-w01"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+              "window_id": "M322-w02"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_027",
+              "window_id": "M327-w01"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_029",
+              "window_id": "M329-w01"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_034",
+              "window_id": "M334-w01"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_035",
+              "window_id": "M335-w01"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_035",
+              "window_id": "M335-w02"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_035",
+              "window_id": "M335-w03"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_008",
+              "window_id": "M342-w01"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_024",
+              "window_id": "M357-w01"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_044",
+              "window_id": "M374-w01"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_046",
+              "window_id": "M376-w01"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_047",
+              "window_id": "M377-w01"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_047",
+              "window_id": "M377-w02"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_050",
+              "window_id": "M379-w01"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_050",
+              "window_id": "M379-w02"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_061",
+              "window_id": "M387-w01"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_064",
+              "window_id": "M390-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_005",
+              "window_id": "M396-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_010",
+              "window_id": "M401-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_013",
+              "window_id": "M403-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_013",
+              "window_id": "M403-w02"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_025",
+              "window_id": "M414-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_042b",
+              "window_id": "M431-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_042b",
+              "window_id": "M431-w02"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_013",
+              "window_id": "M444-w01"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_015",
+              "window_id": "M446-w01"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_027",
+              "window_id": "M456-w01"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_027",
+              "window_id": "M456-w02"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_027",
+              "window_id": "M456-w03"
+            },
+            {
+              "match_id": "september_28th_2700_20260913__september28_2700_match_017",
+              "window_id": "M472-w01"
+            },
+            {
+              "match_id": "september_28th_2700_20260913__september28_2700_match_019",
+              "window_id": "M474-w01"
+            },
+            {
+              "match_id": "september_28th_2700_20260913__september28_2700_match_021",
+              "window_id": "M475-w01"
+            },
+            {
+              "match_id": "september_28th_2700_20260913__september28_2700_match_025",
+              "window_id": "M479-w01"
+            }
+          ]
+        },
+        "P": {
+          "definition": "Paladin damage commitment following Warrior pressure",
+          "distinct_matches": 57,
+          "denominator_reviewed_matches": 80,
+          "match_ids": [
+            "august_31st_2550_20260912__august31_2550_match_006",
+            "august_31st_2550_20260912__august31_2550_match_029",
+            "august_31st_2550_20260912__august31_2550_match_030",
+            "august_31st_2550_20260912__august31_2550_match_032",
+            "february_3rd_2550_20260912__feb03_2550_match_006",
+            "february_3rd_2550_20260912__feb03_2550_match_013",
+            "february_3rd_2550_20260912__feb03_2550_match_020",
+            "january_4th_2700_20260913__match_003",
+            "january_4th_2700_20260913__match_004",
+            "january_4th_2700_20260913__match_009",
+            "january_4th_2700_20260913__match_011",
+            "january_4th_2700_20260913__match_012",
+            "january_4th_2700_20260913__match_017",
+            "january_4th_2700_20260913__match_024",
+            "january_4th_2700_20260913__match_026",
+            "january_4th_2700_20260913__match_030",
+            "january_4th_2700_20260913__match_031",
+            "january_4th_2700_20260913__match_033",
+            "january_4th_2700_20260913__match_035",
+            "january_4th_2700_20260913__match_037",
+            "january_4th_2700_20260913__match_039",
+            "january_4th_2700_20260913__match_041",
+            "january_4th_2700_20260913__match_043",
+            "january_4th_2700_20260913__match_044",
+            "january_4th_2700_20260913__match_050",
+            "january_4th_2700_20260913__match_051",
+            "january_4th_2700_20260913__match_053",
+            "january_5th_full_20260912__match_018",
+            "january_5th_full_20260912__match_028",
+            "january_5th_full_20260912__match_029",
+            "january_5th_full_20260912__match_031b",
+            "january_5th_full_20260912__match_038",
+            "january_5th_full_20260912__match_040",
+            "june_7th_2700_20260913__match_031",
+            "june_7th_2700_20260913__match_037",
+            "may_18th_2500_20260913__may18_2500_match_025",
+            "may_18th_2500_20260913__may18_2500_match_042",
+            "may_18th_2500_20260913__may18_2500_match_044",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_014",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_022",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_027",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_028",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_029",
+            "may_4th_2350_20260913__may04_2350_match_008",
+            "may_4th_2350_20260913__may04_2350_match_024",
+            "may_4th_2350_20260913__may04_2350_match_044",
+            "may_4th_2350_20260913__may04_2350_match_046",
+            "may_4th_2350_20260913__may04_2350_match_061",
+            "may_4th_2350_20260913__may04_2350_match_064",
+            "september_11th_2500_20260912__sep11_2500_match_010",
+            "september_11th_2500_20260912__sep11_2500_match_025",
+            "september_20th_2650_20260913__september20_2650_match_013",
+            "september_28th_2700_20260913__september28_2700_match_017",
+            "september_28th_2700_20260913__september28_2700_match_019",
+            "september_28th_2700_20260913__september28_2700_match_021",
+            "september_28th_2700_20260913__september28_2700_match_025"
+          ],
+          "reviewed_episode_windows": 64,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "protection_response": 28,
+            "recovered": 12,
+            "unknown_ending": 1,
+            "continued_pressure": 1,
+            "escape_spend": 3,
+            "no_kill": 4,
+            "enemy_kill": 12,
+            "friendly_death": 2,
+            "trade": 1
+          },
+          "round_results_by_distinct_match": {
+            "win": 44,
+            "loss": 13
+          },
+          "source_batches": {
+            "august_31st_2550_20260912": 4,
+            "february_3rd_2550_20260912": 3,
+            "january_4th_2700_20260913": 20,
+            "january_5th_full_20260912": 6,
+            "june_7th_2700_20260913": 2,
+            "may_18th_2500_20260913": 3,
+            "may_24th_vod2_2600_20260913": 6,
+            "may_4th_2350_20260913": 6,
+            "september_11th_2500_20260912": 2,
+            "september_20th_2650_20260913": 1,
+            "september_28th_2700_20260913": 4
+          },
+          "window_refs": [
+            {
+              "match_id": "august_31st_2550_20260912__august31_2550_match_006",
+              "window_id": "M006-w02"
+            },
+            {
+              "match_id": "august_31st_2550_20260912__august31_2550_match_029",
+              "window_id": "M023-w02"
+            },
+            {
+              "match_id": "august_31st_2550_20260912__august31_2550_match_030",
+              "window_id": "M024-w02"
+            },
+            {
+              "match_id": "august_31st_2550_20260912__august31_2550_match_032",
+              "window_id": "M026-w02"
+            },
+            {
+              "match_id": "february_3rd_2550_20260912__feb03_2550_match_006",
+              "window_id": "M032-w02"
+            },
+            {
+              "match_id": "february_3rd_2550_20260912__feb03_2550_match_013",
+              "window_id": "M039-w03"
+            },
+            {
+              "match_id": "february_3rd_2550_20260912__feb03_2550_match_020",
+              "window_id": "M046-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_003",
+              "window_id": "M052-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_004",
+              "window_id": "M053-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_009",
+              "window_id": "M056-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_011",
+              "window_id": "M057-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_012",
+              "window_id": "M058-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_017",
+              "window_id": "M063-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_017",
+              "window_id": "M063-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_024",
+              "window_id": "M070-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_026",
+              "window_id": "M072-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_030",
+              "window_id": "M076-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_031",
+              "window_id": "M077-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_033",
+              "window_id": "M079-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_035",
+              "window_id": "M081-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_037",
+              "window_id": "M083-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_039",
+              "window_id": "M085-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_041",
+              "window_id": "M087-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_043",
+              "window_id": "M089-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_044",
+              "window_id": "M090-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_050",
+              "window_id": "M096-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_051",
+              "window_id": "M097-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_053",
+              "window_id": "M099-w02"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_018",
+              "window_id": "M117-w02"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_028",
+              "window_id": "M126-w02"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_029",
+              "window_id": "M127-w02"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_031b",
+              "window_id": "M131-w02"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_038",
+              "window_id": "M140-w02"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_040",
+              "window_id": "M142-w02"
+            },
+            {
+              "match_id": "june_7th_2700_20260913__match_031",
+              "window_id": "M180-w02"
+            },
+            {
+              "match_id": "june_7th_2700_20260913__match_037",
+              "window_id": "M186-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_025",
+              "window_id": "M213-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_042",
+              "window_id": "M227-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_044",
+              "window_id": "M229-w02"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_014",
+              "window_id": "M317-w02"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+              "window_id": "M321-w02"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+              "window_id": "M321-w04"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_022",
+              "window_id": "M324-w03"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_027",
+              "window_id": "M327-w02"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_028",
+              "window_id": "M328-w03"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_029",
+              "window_id": "M329-w02"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_008",
+              "window_id": "M342-w02"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_008",
+              "window_id": "M342-w04"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_024",
+              "window_id": "M357-w02"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_044",
+              "window_id": "M374-w02"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_044",
+              "window_id": "M374-w04"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_046",
+              "window_id": "M376-w02"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_046",
+              "window_id": "M376-w04"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_061",
+              "window_id": "M387-w02"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_061",
+              "window_id": "M387-w04"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_064",
+              "window_id": "M390-w02"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_010",
+              "window_id": "M401-w02"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_025",
+              "window_id": "M414-w02"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_025",
+              "window_id": "M414-w06"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_013",
+              "window_id": "M444-w02"
+            },
+            {
+              "match_id": "september_28th_2700_20260913__september28_2700_match_017",
+              "window_id": "M472-w02"
+            },
+            {
+              "match_id": "september_28th_2700_20260913__september28_2700_match_019",
+              "window_id": "M474-w02"
+            },
+            {
+              "match_id": "september_28th_2700_20260913__september28_2700_match_021",
+              "window_id": "M475-w02"
+            },
+            {
+              "match_id": "september_28th_2700_20260913__september28_2700_match_025",
+              "window_id": "M479-w02"
+            }
+          ]
+        },
+        "R": {
+          "definition": "Return to Warrior after a substantive Paladin commitment",
+          "distinct_matches": 45,
+          "denominator_reviewed_matches": 80,
+          "match_ids": [
+            "august_31st_2550_20260912__august31_2550_match_029",
+            "august_31st_2550_20260912__august31_2550_match_032",
+            "february_3rd_2550_20260912__feb03_2550_match_006",
+            "february_3rd_2550_20260912__feb03_2550_match_013",
+            "february_3rd_2550_20260912__feb03_2550_match_020",
+            "january_4th_2700_20260913__match_003",
+            "january_4th_2700_20260913__match_004",
+            "january_4th_2700_20260913__match_009",
+            "january_4th_2700_20260913__match_011",
+            "january_4th_2700_20260913__match_012",
+            "january_4th_2700_20260913__match_017",
+            "january_4th_2700_20260913__match_020",
+            "january_4th_2700_20260913__match_026",
+            "january_4th_2700_20260913__match_030",
+            "january_4th_2700_20260913__match_031",
+            "january_4th_2700_20260913__match_033",
+            "january_4th_2700_20260913__match_035",
+            "january_4th_2700_20260913__match_037",
+            "january_4th_2700_20260913__match_039",
+            "january_4th_2700_20260913__match_041",
+            "january_4th_2700_20260913__match_043",
+            "january_4th_2700_20260913__match_044",
+            "january_4th_2700_20260913__match_047",
+            "january_4th_2700_20260913__match_050",
+            "january_4th_2700_20260913__match_052",
+            "january_4th_2700_20260913__match_053",
+            "january_5th_full_20260912__match_018",
+            "january_5th_full_20260912__match_025",
+            "january_5th_full_20260912__match_029",
+            "january_5th_full_20260912__match_040",
+            "june_7th_2700_20260913__match_031",
+            "june_7th_2700_20260913__match_037",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_014",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_022",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_028",
+            "may_4th_2350_20260913__may04_2350_match_008",
+            "may_4th_2350_20260913__may04_2350_match_044",
+            "may_4th_2350_20260913__may04_2350_match_046",
+            "may_4th_2350_20260913__may04_2350_match_061",
+            "may_4th_2350_20260913__may04_2350_match_064",
+            "september_11th_2500_20260912__sep11_2500_match_025",
+            "september_20th_2650_20260913__september20_2650_match_013",
+            "september_28th_2700_20260913__september28_2700_match_019",
+            "september_28th_2700_20260913__september28_2700_match_021"
+          ],
+          "reviewed_episode_windows": 59,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "enemy_kill": 10,
+            "continued_pressure": 12,
+            "recovered": 19,
+            "escape_spend": 8,
+            "friendly_death": 10
+          },
+          "round_results_by_distinct_match": {
+            "win": 33,
+            "loss": 12
+          },
+          "source_batches": {
+            "august_31st_2550_20260912": 2,
+            "february_3rd_2550_20260912": 3,
+            "january_4th_2700_20260913": 21,
+            "january_5th_full_20260912": 4,
+            "june_7th_2700_20260913": 2,
+            "may_24th_vod2_2600_20260913": 4,
+            "may_4th_2350_20260913": 5,
+            "september_11th_2500_20260912": 1,
+            "september_20th_2650_20260913": 1,
+            "september_28th_2700_20260913": 2
+          },
+          "window_refs": [
+            {
+              "match_id": "august_31st_2550_20260912__august31_2550_match_029",
+              "window_id": "M023-w03"
+            },
+            {
+              "match_id": "august_31st_2550_20260912__august31_2550_match_032",
+              "window_id": "M026-w03"
+            },
+            {
+              "match_id": "february_3rd_2550_20260912__feb03_2550_match_006",
+              "window_id": "M032-w03"
+            },
+            {
+              "match_id": "february_3rd_2550_20260912__feb03_2550_match_013",
+              "window_id": "M039-w02"
+            },
+            {
+              "match_id": "february_3rd_2550_20260912__feb03_2550_match_013",
+              "window_id": "M039-w04"
+            },
+            {
+              "match_id": "february_3rd_2550_20260912__feb03_2550_match_020",
+              "window_id": "M046-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_003",
+              "window_id": "M052-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_004",
+              "window_id": "M053-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_009",
+              "window_id": "M056-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_011",
+              "window_id": "M057-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_012",
+              "window_id": "M058-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_017",
+              "window_id": "M063-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_017",
+              "window_id": "M063-w05"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_020",
+              "window_id": "M066-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_026",
+              "window_id": "M072-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_030",
+              "window_id": "M076-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_030",
+              "window_id": "M076-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_031",
+              "window_id": "M077-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_033",
+              "window_id": "M079-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_033",
+              "window_id": "M079-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_035",
+              "window_id": "M081-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_037",
+              "window_id": "M083-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_039",
+              "window_id": "M085-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_039",
+              "window_id": "M085-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_041",
+              "window_id": "M087-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_043",
+              "window_id": "M089-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_043",
+              "window_id": "M089-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_044",
+              "window_id": "M090-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_044",
+              "window_id": "M090-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_047",
+              "window_id": "M093-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_047",
+              "window_id": "M093-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_050",
+              "window_id": "M096-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_052",
+              "window_id": "M098-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_052",
+              "window_id": "M098-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_053",
+              "window_id": "M099-w03"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_018",
+              "window_id": "M117-w03"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_025",
+              "window_id": "M123-w02"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_025",
+              "window_id": "M123-w03"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_029",
+              "window_id": "M127-w03"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_040",
+              "window_id": "M142-w03"
+            },
+            {
+              "match_id": "june_7th_2700_20260913__match_031",
+              "window_id": "M180-w03"
+            },
+            {
+              "match_id": "june_7th_2700_20260913__match_037",
+              "window_id": "M186-w03"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_014",
+              "window_id": "M317-w03"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+              "window_id": "M321-w03"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_022",
+              "window_id": "M324-w02"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_028",
+              "window_id": "M328-w02"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_028",
+              "window_id": "M328-w05"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_008",
+              "window_id": "M342-w03"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_044",
+              "window_id": "M374-w03"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_046",
+              "window_id": "M376-w03"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_061",
+              "window_id": "M387-w03"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_064",
+              "window_id": "M390-w03"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_025",
+              "window_id": "M414-w03"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_025",
+              "window_id": "M414-w05"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_013",
+              "window_id": "M444-w04"
+            },
+            {
+              "match_id": "september_28th_2700_20260913__september28_2700_match_019",
+              "window_id": "M474-w03"
+            },
+            {
+              "match_id": "september_28th_2700_20260913__september28_2700_match_019",
+              "window_id": "M474-w04"
+            },
+            {
+              "match_id": "september_28th_2700_20260913__september28_2700_match_021",
+              "window_id": "M475-w03"
+            },
+            {
+              "match_id": "september_28th_2700_20260913__september28_2700_match_021",
+              "window_id": "M475-w05"
+            }
+          ]
+        },
+        "H": {
+          "definition": "Paladin opening damage commitment",
+          "distinct_matches": 11,
+          "denominator_reviewed_matches": 80,
+          "match_ids": [
+            "february_3rd_2550_20260912__feb03_2550_match_013",
+            "january_4th_2700_20260913__match_020",
+            "january_4th_2700_20260913__match_043",
+            "january_4th_2700_20260913__match_044",
+            "january_4th_2700_20260913__match_047",
+            "january_4th_2700_20260913__match_052",
+            "january_5th_full_20260912__match_023",
+            "january_5th_full_20260912__match_025",
+            "january_5th_full_20260912__match_044",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_022",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_028"
+          ],
+          "reviewed_episode_windows": 11,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "continued_pressure": 6,
+            "protection_response": 2,
+            "escape_spend": 1,
+            "recovered": 2
+          },
+          "round_results_by_distinct_match": {
+            "win": 7,
+            "loss": 4
+          },
+          "source_batches": {
+            "february_3rd_2550_20260912": 1,
+            "january_4th_2700_20260913": 5,
+            "january_5th_full_20260912": 3,
+            "may_24th_vod2_2600_20260913": 2
+          },
+          "window_refs": [
+            {
+              "match_id": "february_3rd_2550_20260912__feb03_2550_match_013",
+              "window_id": "M039-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_020",
+              "window_id": "M066-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_043",
+              "window_id": "M089-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_044",
+              "window_id": "M090-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_047",
+              "window_id": "M093-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_052",
+              "window_id": "M098-w01"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_023",
+              "window_id": "M122-w01"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_025",
+              "window_id": "M123-w01"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_044",
+              "window_id": "M146-w01"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_022",
+              "window_id": "M324-w01"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_028",
+              "window_id": "M328-w01"
+            }
+          ]
+        },
+        "I": {
+          "definition": "Paladin recommit after a recorded protection response",
+          "distinct_matches": 27,
+          "denominator_reviewed_matches": 80,
+          "match_ids": [
+            "august_31st_2550_20260912__august31_2550_match_006",
+            "august_31st_2550_20260912__august31_2550_match_032",
+            "february_3rd_2550_20260912__feb03_2550_match_006",
+            "january_4th_2700_20260913__match_003",
+            "january_4th_2700_20260913__match_004",
+            "january_4th_2700_20260913__match_017",
+            "january_4th_2700_20260913__match_020",
+            "january_4th_2700_20260913__match_026",
+            "january_4th_2700_20260913__match_031",
+            "january_4th_2700_20260913__match_035",
+            "january_4th_2700_20260913__match_041",
+            "january_4th_2700_20260913__match_050",
+            "january_4th_2700_20260913__match_053",
+            "january_5th_full_20260912__match_018",
+            "january_5th_full_20260912__match_023",
+            "january_5th_full_20260912__match_040",
+            "january_5th_full_20260912__match_044",
+            "june_7th_2700_20260913__match_031",
+            "may_18th_2500_20260913__may18_2500_match_042",
+            "may_18th_2500_20260913__may18_2500_match_044",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_028",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_029",
+            "september_11th_2500_20260912__sep11_2500_match_010",
+            "september_11th_2500_20260912__sep11_2500_match_025",
+            "september_20th_2650_20260913__september20_2650_match_013",
+            "september_28th_2700_20260913__september28_2700_match_021",
+            "september_28th_2700_20260913__september28_2700_match_025"
+          ],
+          "reviewed_episode_windows": 27,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "enemy_kill": 16,
+            "friendly_death": 1,
+            "recovered": 6,
+            "escape_spend": 2,
+            "protection_response": 1,
+            "continued_pressure": 1
+          },
+          "round_results_by_distinct_match": {
+            "win": 23,
+            "loss": 4
+          },
+          "source_batches": {
+            "august_31st_2550_20260912": 2,
+            "february_3rd_2550_20260912": 1,
+            "january_4th_2700_20260913": 10,
+            "january_5th_full_20260912": 4,
+            "june_7th_2700_20260913": 1,
+            "may_18th_2500_20260913": 2,
+            "may_24th_vod2_2600_20260913": 2,
+            "september_11th_2500_20260912": 2,
+            "september_20th_2650_20260913": 1,
+            "september_28th_2700_20260913": 2
+          },
+          "window_refs": [
+            {
+              "match_id": "august_31st_2550_20260912__august31_2550_match_006",
+              "window_id": "M006-w03"
+            },
+            {
+              "match_id": "august_31st_2550_20260912__august31_2550_match_032",
+              "window_id": "M026-w04"
+            },
+            {
+              "match_id": "february_3rd_2550_20260912__feb03_2550_match_006",
+              "window_id": "M032-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_003",
+              "window_id": "M052-w05"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_004",
+              "window_id": "M053-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_017",
+              "window_id": "M063-w06"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_020",
+              "window_id": "M066-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_026",
+              "window_id": "M072-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_031",
+              "window_id": "M077-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_035",
+              "window_id": "M081-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_041",
+              "window_id": "M087-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_050",
+              "window_id": "M096-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_053",
+              "window_id": "M099-w04"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_018",
+              "window_id": "M117-w04"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_023",
+              "window_id": "M122-w03"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_040",
+              "window_id": "M142-w04"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_044",
+              "window_id": "M146-w02"
+            },
+            {
+              "match_id": "june_7th_2700_20260913__match_031",
+              "window_id": "M180-w04"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_042",
+              "window_id": "M227-w03"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_044",
+              "window_id": "M229-w03"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_028",
+              "window_id": "M328-w04"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_029",
+              "window_id": "M329-w03"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_010",
+              "window_id": "M401-w03"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_025",
+              "window_id": "M414-w04"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_013",
+              "window_id": "M444-w05"
+            },
+            {
+              "match_id": "september_28th_2700_20260913__september28_2700_match_021",
+              "window_id": "M475-w04"
+            },
+            {
+              "match_id": "september_28th_2700_20260913__september28_2700_match_025",
+              "window_id": "M479-w03"
+            }
+          ]
+        },
+        "B": {
+          "definition": "Renewed Paladin attack without a newly established protection interval",
+          "distinct_matches": 13,
+          "denominator_reviewed_matches": 80,
+          "match_ids": [
+            "february_3rd_2550_20260912__feb03_2550_match_020",
+            "january_4th_2700_20260913__match_003",
+            "january_4th_2700_20260913__match_004",
+            "january_4th_2700_20260913__match_012",
+            "january_4th_2700_20260913__match_017",
+            "january_4th_2700_20260913__match_020",
+            "january_4th_2700_20260913__match_031",
+            "january_4th_2700_20260913__match_035",
+            "january_5th_full_20260912__match_023",
+            "june_7th_2700_20260913__match_037",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_027",
+            "september_11th_2500_20260912__sep11_2500_match_010",
+            "september_20th_2650_20260913__september20_2650_match_013"
+          ],
+          "reviewed_episode_windows": 16,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "enemy_kill": 10,
+            "protection_response": 3,
+            "recovered": 1,
+            "escape_spend": 1,
+            "no_kill": 1
+          },
+          "round_results_by_distinct_match": {
+            "win": 10,
+            "loss": 3
+          },
+          "source_batches": {
+            "february_3rd_2550_20260912": 1,
+            "january_4th_2700_20260913": 7,
+            "january_5th_full_20260912": 1,
+            "june_7th_2700_20260913": 1,
+            "may_24th_vod2_2600_20260913": 1,
+            "september_11th_2500_20260912": 1,
+            "september_20th_2650_20260913": 1
+          },
+          "window_refs": [
+            {
+              "match_id": "february_3rd_2550_20260912__feb03_2550_match_020",
+              "window_id": "M046-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_003",
+              "window_id": "M052-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_004",
+              "window_id": "M053-w05"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_012",
+              "window_id": "M058-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_017",
+              "window_id": "M063-w07"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_020",
+              "window_id": "M066-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_020",
+              "window_id": "M066-w05"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_031",
+              "window_id": "M077-w05"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_035",
+              "window_id": "M081-w05"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_023",
+              "window_id": "M122-w02"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_023",
+              "window_id": "M122-w04"
+            },
+            {
+              "match_id": "june_7th_2700_20260913__match_037",
+              "window_id": "M186-w04"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_027",
+              "window_id": "M327-w03"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_010",
+              "window_id": "M401-w04"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_010",
+              "window_id": "M401-w05"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_013",
+              "window_id": "M444-w03"
+            }
+          ]
+        },
+        "D": {
+          "definition": "Post-first-death continuation",
+          "distinct_matches": 4,
+          "denominator_reviewed_matches": 80,
+          "match_ids": [
+            "january_4th_2700_20260913__match_004",
+            "january_4th_2700_20260913__match_051",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_022",
+            "september_28th_2700_20260913__september28_2700_match_021"
+          ],
+          "reviewed_episode_windows": 4,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "friendly_death": 1,
+            "protection_response": 1,
+            "enemy_kill": 1,
+            "recovered": 1
+          },
+          "round_results_by_distinct_match": {
+            "loss": 3,
+            "win": 1
+          },
+          "source_batches": {
+            "january_4th_2700_20260913": 2,
+            "may_24th_vod2_2600_20260913": 1,
+            "september_28th_2700_20260913": 1
+          },
+          "window_refs": [
+            {
+              "match_id": "january_4th_2700_20260913__match_004",
+              "window_id": "M053-w06"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_051",
+              "window_id": "M097-w03"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_022",
+              "window_id": "M324-w04"
+            },
+            {
+              "match_id": "september_28th_2700_20260913__september28_2700_match_021",
+              "window_id": "M475-w06"
+            }
+          ]
+        }
+      }
+    },
+    "SPR_vs_SP_Sub": {
+      "reviewed_matches": 104,
+      "round_results": {
+        "win": 67,
+        "loss": 37
+      },
+      "first_death_classifications": {
+        "enemy_death_confirmed_friendly_order_unknown": 40,
+        "friendly_first_no_enemy_kill": 34,
+        "enemy_before_friendly": 19,
+        "loss_without_established_death": 1,
+        "win_without_established_enemy_death": 6,
+        "enemy_kill_after_friendly_death_then_loss": 2,
+        "enemy_kill_after_friendly_death_then_solo_win": 1,
+        "near_trade_friendly_first_then_solo_win": 1
+      },
+      "families": {
+        "W": {
+          "definition": "Enemy Rogue attack before a substantive Priest commitment",
+          "distinct_matches": 76,
+          "denominator_reviewed_matches": 104,
+          "match_ids": [
+            "august_31st_2550_20260912__august31_2550_match_027",
+            "january_4th_2700_20260913__match_018",
+            "january_4th_2700_20260913__match_021",
+            "january_4th_2700_20260913__match_025",
+            "january_4th_2700_20260913__match_032",
+            "january_4th_2700_20260913__match_034",
+            "january_4th_2700_20260913__match_038",
+            "january_4th_2700_20260913__match_040",
+            "january_4th_2700_20260913__match_046",
+            "january_5th_full_20260912__match_004",
+            "january_5th_full_20260912__match_027",
+            "january_5th_full_20260912__match_035",
+            "january_5th_full_20260912__match_045",
+            "june_7th_2700_20260913__match_040",
+            "may_18th_2500_20260913__may18_2500_match_002",
+            "may_18th_2500_20260913__may18_2500_match_004",
+            "may_18th_2500_20260913__may18_2500_match_006",
+            "may_18th_2500_20260913__may18_2500_match_007",
+            "may_18th_2500_20260913__may18_2500_match_008",
+            "may_18th_2500_20260913__may18_2500_match_010",
+            "may_18th_2500_20260913__may18_2500_match_012",
+            "may_18th_2500_20260913__may18_2500_match_014",
+            "may_18th_2500_20260913__may18_2500_match_015",
+            "may_18th_2500_20260913__may18_2500_match_017",
+            "may_18th_2500_20260913__may18_2500_match_020",
+            "may_18th_2500_20260913__may18_2500_match_022",
+            "may_18th_2500_20260913__may18_2500_match_035",
+            "may_18th_2500_20260913__may18_2500_match_037",
+            "may_18th_2500_20260913__may18_2500_match_039",
+            "may_18th_2500_20260913__may18_2500_match_041",
+            "may_18th_2500_20260913__may18_2500_match_045",
+            "may_18th_2500_20260913__may18_2500_match_049",
+            "may_18th_2500_20260913__may18_2500_match_056",
+            "may_18th_2500_20260913__may18_2500_match_061",
+            "may_18th_2500_20260913__may18_2500_match_064",
+            "may_18th_2500_20260913__may18_2500_match_067",
+            "may_18th_2500_20260913__may18_2500_match_068",
+            "may_18th_2500_20260913__may18_2500_match_070",
+            "may_24th_2450_20260913__may24_2450_match_002",
+            "may_24th_2450_20260913__may24_2450_match_003",
+            "may_24th_2450_20260913__may24_2450_match_004",
+            "may_24th_2450_20260913__may24_2450_match_007",
+            "may_24th_2450_20260913__may24_2450_match_011",
+            "may_24th_2450_20260913__may24_2450_match_013",
+            "may_24th_2450_20260913__may24_2450_match_015",
+            "may_24th_2450_20260913__may24_2450_match_022",
+            "may_24th_2450_20260913__may24_2450_match_024",
+            "may_24th_2450_20260913__may24_2450_match_026",
+            "may_24th_2450_20260913__may24_2450_match_028",
+            "may_24th_2450_20260913__may24_2450_match_029",
+            "may_24th_2450_20260913__may24_2450_match_030",
+            "may_24th_2450_20260913__may24_2450_match_031",
+            "may_24th_2450_20260913__may24_2450_match_032",
+            "may_24th_2450_20260913__may24_2450_match_034",
+            "may_24th_2450_20260913__may24_2450_match_036",
+            "may_24th_2450_20260913__may24_2450_match_038",
+            "may_24th_2450_20260913__may24_2450_match_040",
+            "may_24th_2450_20260913__may24_2450_match_041",
+            "may_24th_2450_20260913__may24_2450_match_042",
+            "may_24th_2450_20260913__may24_2450_match_044",
+            "may_4th_2350_20260913__may04_2350_match_003",
+            "may_4th_2350_20260913__may04_2350_match_005",
+            "may_4th_2350_20260913__may04_2350_match_052",
+            "may_4th_2350_20260913__may04_2350_match_056",
+            "may_4th_2350_20260913__may04_2350_match_060",
+            "september_11th_2500_20260912__sep11_2500_match_006",
+            "september_11th_2500_20260912__sep11_2500_match_027",
+            "september_11th_2500_20260912__sep11_2500_match_030",
+            "september_11th_2500_20260912__sep11_2500_match_032",
+            "september_11th_2500_20260912__sep11_2500_match_034",
+            "september_11th_2500_20260912__sep11_2500_match_037",
+            "september_11th_2500_20260912__sep11_2500_match_039",
+            "september_11th_2500_20260912__sep11_2500_match_040",
+            "september_11th_2500_20260912__sep11_2500_match_041",
+            "september_20th_2650_20260913__september20_2650_match_004",
+            "september_28th_2700_20260913__september28_2700_match_005"
+          ],
+          "reviewed_episode_windows": 97,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "escape_spend": 13,
+            "friendly_death": 20,
+            "recovered": 31,
+            "enemy_kill": 17,
+            "continued_pressure": 15,
+            "unknown_ending": 1
+          },
+          "round_results_by_distinct_match": {
+            "win": 49,
+            "loss": 27
+          },
+          "source_batches": {
+            "august_31st_2550_20260912": 1,
+            "january_4th_2700_20260913": 8,
+            "january_5th_full_20260912": 4,
+            "june_7th_2700_20260913": 1,
+            "may_18th_2500_20260913": 24,
+            "may_24th_2450_20260913": 22,
+            "may_4th_2350_20260913": 5,
+            "september_11th_2500_20260912": 9,
+            "september_20th_2650_20260913": 1,
+            "september_28th_2700_20260913": 1
+          },
+          "window_refs": [
+            {
+              "match_id": "august_31st_2550_20260912__august31_2550_match_027",
+              "window_id": "M021-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_018",
+              "window_id": "M064-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_021",
+              "window_id": "M067-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_021",
+              "window_id": "M067-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_021",
+              "window_id": "M067-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_025",
+              "window_id": "M071-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_025",
+              "window_id": "M071-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_025",
+              "window_id": "M071-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_032",
+              "window_id": "M078-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_034",
+              "window_id": "M080-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_038",
+              "window_id": "M084-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_040",
+              "window_id": "M086-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_046",
+              "window_id": "M092-w01"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_004",
+              "window_id": "M103-w01"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_027",
+              "window_id": "M125-w01"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_035",
+              "window_id": "M136-w01"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_045",
+              "window_id": "M147-w01"
+            },
+            {
+              "match_id": "june_7th_2700_20260913__match_040",
+              "window_id": "M189-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_002",
+              "window_id": "M190-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_004",
+              "window_id": "M192-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_006",
+              "window_id": "M194-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_007",
+              "window_id": "M195-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_008",
+              "window_id": "M196-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_008",
+              "window_id": "M196-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_010",
+              "window_id": "M198-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_012",
+              "window_id": "M200-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_014",
+              "window_id": "M202-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_015",
+              "window_id": "M203-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_017",
+              "window_id": "M205-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_020",
+              "window_id": "M208-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_020",
+              "window_id": "M208-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_022",
+              "window_id": "M210-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_035",
+              "window_id": "M220-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_037",
+              "window_id": "M222-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_039",
+              "window_id": "M224-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_041",
+              "window_id": "M226-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_045",
+              "window_id": "M230-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_045",
+              "window_id": "M230-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_045",
+              "window_id": "M230-w03"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_049",
+              "window_id": "M234-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_049",
+              "window_id": "M234-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_056",
+              "window_id": "M241-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_056",
+              "window_id": "M241-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_061",
+              "window_id": "M246-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_064",
+              "window_id": "M249-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_067",
+              "window_id": "M252-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_068",
+              "window_id": "M253-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_068",
+              "window_id": "M253-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_070",
+              "window_id": "M255-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_070",
+              "window_id": "M255-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_002",
+              "window_id": "M265-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_003",
+              "window_id": "M266-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_004",
+              "window_id": "M267-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_007",
+              "window_id": "M270-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_011",
+              "window_id": "M274-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_011",
+              "window_id": "M274-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_013",
+              "window_id": "M276-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_013",
+              "window_id": "M276-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_015",
+              "window_id": "M278-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_015",
+              "window_id": "M278-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_022",
+              "window_id": "M285-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_024",
+              "window_id": "M286-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_026",
+              "window_id": "M288-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_028",
+              "window_id": "M290-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_029",
+              "window_id": "M291-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_030",
+              "window_id": "M292-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_031",
+              "window_id": "M293-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_032",
+              "window_id": "M294-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_034",
+              "window_id": "M296-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_036",
+              "window_id": "M298-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_038",
+              "window_id": "M300-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_040",
+              "window_id": "M302-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_041",
+              "window_id": "M303-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_042",
+              "window_id": "M304-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_044",
+              "window_id": "M306-w01"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_003",
+              "window_id": "M337-w01"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_005",
+              "window_id": "M339-w01"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_052",
+              "window_id": "M380-w01"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_052",
+              "window_id": "M380-w02"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_056",
+              "window_id": "M383-w01"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_060",
+              "window_id": "M386-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_006",
+              "window_id": "M397-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_006",
+              "window_id": "M397-w02"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_027",
+              "window_id": "M416-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_030",
+              "window_id": "M419-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_032",
+              "window_id": "M421-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_034",
+              "window_id": "M423-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_037",
+              "window_id": "M426-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_039",
+              "window_id": "M428-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_040",
+              "window_id": "M429-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_040",
+              "window_id": "M429-w02"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_041",
+              "window_id": "M430-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_041",
+              "window_id": "M430-w02"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_004",
+              "window_id": "M435-w01"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_004",
+              "window_id": "M435-w02"
+            },
+            {
+              "match_id": "september_28th_2700_20260913__september28_2700_match_005",
+              "window_id": "M461-w02"
+            },
+            {
+              "match_id": "september_28th_2700_20260913__september28_2700_match_005",
+              "window_id": "M461-w03"
+            }
+          ]
+        },
+        "P": {
+          "definition": "Enemy Priest commitment following Rogue pressure",
+          "distinct_matches": 47,
+          "denominator_reviewed_matches": 104,
+          "match_ids": [
+            "august_31st_2550_20260912__august31_2550_match_027",
+            "january_4th_2700_20260913__match_027",
+            "january_4th_2700_20260913__match_032",
+            "january_4th_2700_20260913__match_036",
+            "january_4th_2700_20260913__match_038",
+            "january_4th_2700_20260913__match_040",
+            "january_5th_full_20260912__match_004",
+            "january_5th_full_20260912__match_027",
+            "january_5th_full_20260912__match_032",
+            "january_5th_full_20260912__match_045",
+            "june_7th_2700_20260913__match_040",
+            "may_18th_2500_20260913__may18_2500_match_002",
+            "may_18th_2500_20260913__may18_2500_match_004",
+            "may_18th_2500_20260913__may18_2500_match_006",
+            "may_18th_2500_20260913__may18_2500_match_007",
+            "may_18th_2500_20260913__may18_2500_match_012",
+            "may_18th_2500_20260913__may18_2500_match_014",
+            "may_18th_2500_20260913__may18_2500_match_015",
+            "may_18th_2500_20260913__may18_2500_match_017",
+            "may_18th_2500_20260913__may18_2500_match_022",
+            "may_18th_2500_20260913__may18_2500_match_035",
+            "may_18th_2500_20260913__may18_2500_match_039",
+            "may_18th_2500_20260913__may18_2500_match_041",
+            "may_18th_2500_20260913__may18_2500_match_059",
+            "may_18th_2500_20260913__may18_2500_match_061",
+            "may_18th_2500_20260913__may18_2500_match_072",
+            "may_24th_2450_20260913__may24_2450_match_002",
+            "may_24th_2450_20260913__may24_2450_match_004",
+            "may_24th_2450_20260913__may24_2450_match_009",
+            "may_24th_2450_20260913__may24_2450_match_020",
+            "may_24th_2450_20260913__may24_2450_match_022",
+            "may_24th_2450_20260913__may24_2450_match_024",
+            "may_24th_2450_20260913__may24_2450_match_029",
+            "may_24th_2450_20260913__may24_2450_match_031",
+            "may_24th_2450_20260913__may24_2450_match_034",
+            "may_24th_2450_20260913__may24_2450_match_036",
+            "may_24th_2450_20260913__may24_2450_match_038",
+            "may_24th_2450_20260913__may24_2450_match_040",
+            "may_24th_2450_20260913__may24_2450_match_041",
+            "may_4th_2350_20260913__may04_2350_match_005",
+            "may_4th_2350_20260913__may04_2350_match_045",
+            "may_4th_2350_20260913__may04_2350_match_056",
+            "may_4th_2350_20260913__may04_2350_match_060",
+            "september_11th_2500_20260912__sep11_2500_match_027",
+            "september_11th_2500_20260912__sep11_2500_match_030",
+            "september_11th_2500_20260912__sep11_2500_match_036",
+            "september_11th_2500_20260912__sep11_2500_match_039"
+          ],
+          "reviewed_episode_windows": 51,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "enemy_kill": 19,
+            "friendly_death": 8,
+            "unknown_ending": 3,
+            "recovered": 10,
+            "escape_spend": 4,
+            "continued_pressure": 3,
+            "no_kill": 4
+          },
+          "round_results_by_distinct_match": {
+            "win": 36,
+            "loss": 11
+          },
+          "source_batches": {
+            "august_31st_2550_20260912": 1,
+            "january_4th_2700_20260913": 5,
+            "january_5th_full_20260912": 4,
+            "june_7th_2700_20260913": 1,
+            "may_18th_2500_20260913": 15,
+            "may_24th_2450_20260913": 13,
+            "may_4th_2350_20260913": 4,
+            "september_11th_2500_20260912": 4
+          },
+          "window_refs": [
+            {
+              "match_id": "august_31st_2550_20260912__august31_2550_match_027",
+              "window_id": "M021-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_027",
+              "window_id": "M073-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_032",
+              "window_id": "M078-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_036",
+              "window_id": "M082-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_038",
+              "window_id": "M084-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_040",
+              "window_id": "M086-w02"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_004",
+              "window_id": "M103-w02"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_027",
+              "window_id": "M125-w02"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_027",
+              "window_id": "M125-w04"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_032",
+              "window_id": "M132-w03"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_045",
+              "window_id": "M147-w02"
+            },
+            {
+              "match_id": "june_7th_2700_20260913__match_040",
+              "window_id": "M189-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_002",
+              "window_id": "M190-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_004",
+              "window_id": "M192-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_006",
+              "window_id": "M194-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_006",
+              "window_id": "M194-w04"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_007",
+              "window_id": "M195-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_012",
+              "window_id": "M200-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_014",
+              "window_id": "M202-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_015",
+              "window_id": "M203-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_017",
+              "window_id": "M205-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_022",
+              "window_id": "M210-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_035",
+              "window_id": "M220-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_039",
+              "window_id": "M224-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_041",
+              "window_id": "M226-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_059",
+              "window_id": "M244-w03"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_061",
+              "window_id": "M246-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_072",
+              "window_id": "M257-w03"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_002",
+              "window_id": "M265-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_004",
+              "window_id": "M267-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_009",
+              "window_id": "M272-w03"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_020",
+              "window_id": "M283-w03"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_022",
+              "window_id": "M285-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_024",
+              "window_id": "M286-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_029",
+              "window_id": "M291-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_031",
+              "window_id": "M293-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_034",
+              "window_id": "M296-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_036",
+              "window_id": "M298-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_038",
+              "window_id": "M300-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_040",
+              "window_id": "M302-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_041",
+              "window_id": "M303-w02"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_005",
+              "window_id": "M339-w02"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_045",
+              "window_id": "M375-w03"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_056",
+              "window_id": "M383-w02"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_060",
+              "window_id": "M386-w02"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_027",
+              "window_id": "M416-w02"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_027",
+              "window_id": "M416-w04"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_030",
+              "window_id": "M419-w02"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_036",
+              "window_id": "M425-w03"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_039",
+              "window_id": "M428-w02"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_039",
+              "window_id": "M428-w04"
+            }
+          ]
+        },
+        "R": {
+          "definition": "Return to enemy Rogue after Priest damage commitment",
+          "distinct_matches": 31,
+          "denominator_reviewed_matches": 104,
+          "match_ids": [
+            "january_4th_2700_20260913__match_027",
+            "january_4th_2700_20260913__match_029",
+            "january_4th_2700_20260913__match_036",
+            "january_4th_2700_20260913__match_038",
+            "january_4th_2700_20260913__match_040",
+            "january_5th_full_20260912__match_027",
+            "january_5th_full_20260912__match_032",
+            "may_18th_2500_20260913__may18_2500_match_006",
+            "may_18th_2500_20260913__may18_2500_match_007",
+            "may_18th_2500_20260913__may18_2500_match_041",
+            "may_18th_2500_20260913__may18_2500_match_043",
+            "may_18th_2500_20260913__may18_2500_match_059",
+            "may_18th_2500_20260913__may18_2500_match_061",
+            "may_18th_2500_20260913__may18_2500_match_066",
+            "may_18th_2500_20260913__may18_2500_match_072",
+            "may_24th_2450_20260913__may24_2450_match_002",
+            "may_24th_2450_20260913__may24_2450_match_009",
+            "may_24th_2450_20260913__may24_2450_match_018",
+            "may_24th_2450_20260913__may24_2450_match_020",
+            "may_24th_2450_20260913__may24_2450_match_022",
+            "may_24th_2450_20260913__may24_2450_match_024",
+            "may_24th_2450_20260913__may24_2450_match_031",
+            "may_24th_2450_20260913__may24_2450_match_037",
+            "may_24th_2450_20260913__may24_2450_match_038",
+            "may_24th_2450_20260913__may24_2450_match_039",
+            "may_4th_2350_20260913__may04_2350_match_043",
+            "may_4th_2350_20260913__may04_2350_match_045",
+            "may_4th_2350_20260913__may04_2350_match_060",
+            "september_11th_2500_20260912__sep11_2500_match_027",
+            "september_11th_2500_20260912__sep11_2500_match_036",
+            "september_11th_2500_20260912__sep11_2500_match_039"
+          ],
+          "reviewed_episode_windows": 36,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "escape_spend": 2,
+            "recovered": 11,
+            "enemy_kill": 13,
+            "continued_pressure": 4,
+            "no_kill": 1,
+            "friendly_death": 2,
+            "unknown_ending": 3
+          },
+          "round_results_by_distinct_match": {
+            "loss": 4,
+            "win": 27
+          },
+          "source_batches": {
+            "january_4th_2700_20260913": 5,
+            "january_5th_full_20260912": 2,
+            "may_18th_2500_20260913": 8,
+            "may_24th_2450_20260913": 10,
+            "may_4th_2350_20260913": 3,
+            "september_11th_2500_20260912": 3
+          },
+          "window_refs": [
+            {
+              "match_id": "january_4th_2700_20260913__match_027",
+              "window_id": "M073-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_029",
+              "window_id": "M075-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_029",
+              "window_id": "M075-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_036",
+              "window_id": "M082-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_038",
+              "window_id": "M084-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_038",
+              "window_id": "M084-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_040",
+              "window_id": "M086-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_040",
+              "window_id": "M086-w04"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_027",
+              "window_id": "M125-w03"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_032",
+              "window_id": "M132-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_006",
+              "window_id": "M194-w03"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_007",
+              "window_id": "M195-w03"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_041",
+              "window_id": "M226-w03"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_043",
+              "window_id": "M228-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_059",
+              "window_id": "M244-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_061",
+              "window_id": "M246-w03"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_066",
+              "window_id": "M251-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_066",
+              "window_id": "M251-w03"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_072",
+              "window_id": "M257-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_002",
+              "window_id": "M265-w03"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_009",
+              "window_id": "M272-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_018",
+              "window_id": "M281-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_020",
+              "window_id": "M283-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_022",
+              "window_id": "M285-w03"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_024",
+              "window_id": "M286-w03"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_031",
+              "window_id": "M293-w04"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_037",
+              "window_id": "M299-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_038",
+              "window_id": "M300-w03"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_039",
+              "window_id": "M301-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_039",
+              "window_id": "M301-w03"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_043",
+              "window_id": "M373-w02"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_045",
+              "window_id": "M375-w02"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_060",
+              "window_id": "M386-w03"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_027",
+              "window_id": "M416-w03"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_036",
+              "window_id": "M425-w02"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_039",
+              "window_id": "M428-w03"
+            }
+          ]
+        },
+        "H": {
+          "definition": "Enemy Priest opening commitment",
+          "distinct_matches": 26,
+          "denominator_reviewed_matches": 104,
+          "match_ids": [
+            "january_4th_2700_20260913__match_027",
+            "january_4th_2700_20260913__match_028",
+            "january_4th_2700_20260913__match_029",
+            "january_4th_2700_20260913__match_036",
+            "january_4th_2700_20260913__match_048",
+            "january_5th_full_20260912__match_003",
+            "january_5th_full_20260912__match_032",
+            "may_18th_2500_20260913__may18_2500_match_033",
+            "may_18th_2500_20260913__may18_2500_match_043",
+            "may_18th_2500_20260913__may18_2500_match_054",
+            "may_18th_2500_20260913__may18_2500_match_059",
+            "may_18th_2500_20260913__may18_2500_match_066",
+            "may_18th_2500_20260913__may18_2500_match_072",
+            "may_24th_2450_20260913__may24_2450_match_009",
+            "may_24th_2450_20260913__may24_2450_match_018",
+            "may_24th_2450_20260913__may24_2450_match_020",
+            "may_24th_2450_20260913__may24_2450_match_035",
+            "may_24th_2450_20260913__may24_2450_match_037",
+            "may_24th_2450_20260913__may24_2450_match_039",
+            "may_4th_2350_20260913__may04_2350_match_002",
+            "may_4th_2350_20260913__may04_2350_match_006",
+            "may_4th_2350_20260913__may04_2350_match_043",
+            "may_4th_2350_20260913__may04_2350_match_045",
+            "may_4th_2350_20260913__may04_2350_match_063",
+            "september_11th_2500_20260912__sep11_2500_match_028",
+            "september_11th_2500_20260912__sep11_2500_match_036"
+          ],
+          "reviewed_episode_windows": 27,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "continued_pressure": 8,
+            "recovered": 9,
+            "friendly_death": 3,
+            "escape_spend": 4,
+            "enemy_kill": 3
+          },
+          "round_results_by_distinct_match": {
+            "loss": 8,
+            "win": 18
+          },
+          "source_batches": {
+            "january_4th_2700_20260913": 5,
+            "january_5th_full_20260912": 2,
+            "may_18th_2500_20260913": 6,
+            "may_24th_2450_20260913": 6,
+            "may_4th_2350_20260913": 5,
+            "september_11th_2500_20260912": 2
+          },
+          "window_refs": [
+            {
+              "match_id": "january_4th_2700_20260913__match_027",
+              "window_id": "M073-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_028",
+              "window_id": "M074-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_028",
+              "window_id": "M074-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_029",
+              "window_id": "M075-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_036",
+              "window_id": "M082-w01"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_048",
+              "window_id": "M094-w01"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_003",
+              "window_id": "M102-w01"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_032",
+              "window_id": "M132-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_033",
+              "window_id": "M218-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_043",
+              "window_id": "M228-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_054",
+              "window_id": "M239-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_059",
+              "window_id": "M244-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_066",
+              "window_id": "M251-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_072",
+              "window_id": "M257-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_009",
+              "window_id": "M272-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_018",
+              "window_id": "M281-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_020",
+              "window_id": "M283-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_035",
+              "window_id": "M297-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_037",
+              "window_id": "M299-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_039",
+              "window_id": "M301-w01"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_002",
+              "window_id": "M336-w01"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_006",
+              "window_id": "M340-w01"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_043",
+              "window_id": "M373-w01"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_045",
+              "window_id": "M375-w01"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_063",
+              "window_id": "M389-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_028",
+              "window_id": "M417-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_036",
+              "window_id": "M425-w01"
+            }
+          ]
+        },
+        "B": {
+          "definition": "Renewed enemy Priest commitment",
+          "distinct_matches": 11,
+          "denominator_reviewed_matches": 104,
+          "match_ids": [
+            "january_4th_2700_20260913__match_048",
+            "may_18th_2500_20260913__may18_2500_match_014",
+            "may_18th_2500_20260913__may18_2500_match_017",
+            "may_18th_2500_20260913__may18_2500_match_039",
+            "may_18th_2500_20260913__may18_2500_match_054",
+            "may_24th_2450_20260913__may24_2450_match_020",
+            "may_24th_2450_20260913__may24_2450_match_031",
+            "may_4th_2350_20260913__may04_2350_match_002",
+            "may_4th_2350_20260913__may04_2350_match_005",
+            "september_11th_2500_20260912__sep11_2500_match_028",
+            "september_11th_2500_20260912__sep11_2500_match_030"
+          ],
+          "reviewed_episode_windows": 12,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "friendly_death": 3,
+            "enemy_kill": 7,
+            "recovered": 1,
+            "protection_response": 1
+          },
+          "round_results_by_distinct_match": {
+            "loss": 3,
+            "win": 8
+          },
+          "source_batches": {
+            "january_4th_2700_20260913": 1,
+            "may_18th_2500_20260913": 4,
+            "may_24th_2450_20260913": 2,
+            "may_4th_2350_20260913": 2,
+            "september_11th_2500_20260912": 2
+          },
+          "window_refs": [
+            {
+              "match_id": "january_4th_2700_20260913__match_048",
+              "window_id": "M094-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_014",
+              "window_id": "M202-w03"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_017",
+              "window_id": "M205-w03"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_039",
+              "window_id": "M224-w03"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_054",
+              "window_id": "M239-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_020",
+              "window_id": "M283-w04"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_031",
+              "window_id": "M293-w03"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_002",
+              "window_id": "M336-w02"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_005",
+              "window_id": "M339-w03"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_028",
+              "window_id": "M417-w02"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_030",
+              "window_id": "M419-w03"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_030",
+              "window_id": "M419-w04"
+            }
+          ]
+        },
+        "X": {
+          "definition": "Sequence not established",
+          "distinct_matches": 3,
+          "denominator_reviewed_matches": 104,
+          "match_ids": [
+            "january_4th_2700_20260913__match_013",
+            "may_24th_2450_20260913__may24_2450_match_043",
+            "september_28th_2700_20260913__september28_2700_match_005"
+          ],
+          "reviewed_episode_windows": 3,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "friendly_death": 2,
+            "control_only": 1
+          },
+          "round_results_by_distinct_match": {
+            "loss": 2,
+            "win": 1
+          },
+          "source_batches": {
+            "january_4th_2700_20260913": 1,
+            "may_24th_2450_20260913": 1,
+            "september_28th_2700_20260913": 1
+          },
+          "window_refs": [
+            {
+              "match_id": "january_4th_2700_20260913__match_013",
+              "window_id": "M059-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_043",
+              "window_id": "M305-w01"
+            },
+            {
+              "match_id": "september_28th_2700_20260913__september28_2700_match_005",
+              "window_id": "M461-w01"
+            }
+          ]
+        },
+        "D": {
+          "definition": "Post-first-death continuation",
+          "distinct_matches": 25,
+          "denominator_reviewed_matches": 104,
+          "match_ids": [
+            "january_4th_2700_20260913__match_018",
+            "january_4th_2700_20260913__match_027",
+            "january_4th_2700_20260913__match_028",
+            "january_4th_2700_20260913__match_034",
+            "january_4th_2700_20260913__match_036",
+            "january_4th_2700_20260913__match_048",
+            "january_5th_full_20260912__match_035",
+            "may_18th_2500_20260913__may18_2500_match_012",
+            "may_18th_2500_20260913__may18_2500_match_067",
+            "may_24th_2450_20260913__may24_2450_match_003",
+            "may_24th_2450_20260913__may24_2450_match_024",
+            "may_24th_2450_20260913__may24_2450_match_026",
+            "may_24th_2450_20260913__may24_2450_match_028",
+            "may_24th_2450_20260913__may24_2450_match_029",
+            "may_24th_2450_20260913__may24_2450_match_030",
+            "may_24th_2450_20260913__may24_2450_match_032",
+            "may_24th_2450_20260913__may24_2450_match_035",
+            "may_24th_2450_20260913__may24_2450_match_040",
+            "may_24th_2450_20260913__may24_2450_match_041",
+            "may_24th_2450_20260913__may24_2450_match_042",
+            "may_24th_2450_20260913__may24_2450_match_044",
+            "may_4th_2350_20260913__may04_2350_match_063",
+            "september_11th_2500_20260912__sep11_2500_match_028",
+            "september_11th_2500_20260912__sep11_2500_match_034",
+            "september_11th_2500_20260912__sep11_2500_match_037"
+          ],
+          "reviewed_episode_windows": 29,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "no_kill": 8,
+            "escape_spend": 6,
+            "recovered": 5,
+            "friendly_death": 4,
+            "enemy_kill": 5,
+            "unknown_ending": 1
+          },
+          "round_results_by_distinct_match": {
+            "loss": 23,
+            "win": 2
+          },
+          "source_batches": {
+            "january_4th_2700_20260913": 6,
+            "january_5th_full_20260912": 1,
+            "may_18th_2500_20260913": 2,
+            "may_24th_2450_20260913": 12,
+            "may_4th_2350_20260913": 1,
+            "september_11th_2500_20260912": 3
+          },
+          "window_refs": [
+            {
+              "match_id": "january_4th_2700_20260913__match_018",
+              "window_id": "M064-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_027",
+              "window_id": "M073-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_028",
+              "window_id": "M074-w03"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_034",
+              "window_id": "M080-w02"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_036",
+              "window_id": "M082-w04"
+            },
+            {
+              "match_id": "january_4th_2700_20260913__match_048",
+              "window_id": "M094-w03"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_035",
+              "window_id": "M136-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_012",
+              "window_id": "M200-w03"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_067",
+              "window_id": "M252-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_003",
+              "window_id": "M266-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_024",
+              "window_id": "M286-w04"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_026",
+              "window_id": "M288-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_028",
+              "window_id": "M290-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_029",
+              "window_id": "M291-w03"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_030",
+              "window_id": "M292-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_032",
+              "window_id": "M294-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_032",
+              "window_id": "M294-w03"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_035",
+              "window_id": "M297-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_035",
+              "window_id": "M297-w03"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_040",
+              "window_id": "M302-w03"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_041",
+              "window_id": "M303-w03"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_042",
+              "window_id": "M304-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_044",
+              "window_id": "M306-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_044",
+              "window_id": "M306-w03"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_063",
+              "window_id": "M389-w02"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_028",
+              "window_id": "M417-w03"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_034",
+              "window_id": "M423-w02"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_037",
+              "window_id": "M426-w02"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_037",
+              "window_id": "M426-w03"
+            }
+          ]
+        }
+      }
+    },
+    "SPR_vs_Disc_Feral": {
+      "reviewed_matches": 31,
+      "round_results": {
+        "win": 29,
+        "loss": 2
+      },
+      "first_death_classifications": {
+        "enemy_before_friendly": 8,
+        "enemy_death_confirmed_friendly_order_unknown": 20,
+        "friendly_first_no_enemy_kill": 2,
+        "enemy_first_then_near_trade_solo_win": 1
+      },
+      "families": {
+        "W": {
+          "definition": "Feral attack before a substantive Priest commitment",
+          "distinct_matches": 25,
+          "denominator_reviewed_matches": 31,
+          "match_ids": [
+            "january_4th_2700_20260913__match_005",
+            "january_5th_full_20260912__match_030a",
+            "january_5th_full_20260912__match_037a",
+            "may_18th_2500_20260913__may18_2500_match_060",
+            "may_18th_2500_20260913__may18_2500_match_063",
+            "may_24th_2450_20260913__may24_2450_match_014",
+            "may_24th_2450_20260913__may24_2450_match_017",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_016",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+            "may_4th_2350_20260913__may04_2350_match_040",
+            "may_4th_2350_20260913__may04_2350_match_055",
+            "september_11th_2500_20260912__sep11_2500_match_001",
+            "september_11th_2500_20260912__sep11_2500_match_007",
+            "september_20th_2650_20260913__september20_2650_match_001",
+            "september_20th_2650_20260913__september20_2650_match_003",
+            "september_20th_2650_20260913__september20_2650_match_005",
+            "september_20th_2650_20260913__september20_2650_match_006",
+            "september_20th_2650_20260913__september20_2650_match_007",
+            "september_20th_2650_20260913__september20_2650_match_008",
+            "september_20th_2650_20260913__september20_2650_match_017",
+            "september_20th_2650_20260913__september20_2650_match_020",
+            "september_20th_2650_20260913__september20_2650_match_022",
+            "september_20th_2650_20260913__september20_2650_match_023",
+            "september_20th_2650_20260913__september20_2650_match_025"
+          ],
+          "reviewed_episode_windows": 42,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "recovered": 22,
+            "enemy_kill": 15,
+            "continued_pressure": 5
+          },
+          "round_results_by_distinct_match": {
+            "win": 24,
+            "loss": 1
+          },
+          "source_batches": {
+            "january_4th_2700_20260913": 1,
+            "january_5th_full_20260912": 2,
+            "may_18th_2500_20260913": 2,
+            "may_24th_2450_20260913": 2,
+            "may_24th_vod2_2600_20260913": 3,
+            "may_4th_2350_20260913": 2,
+            "september_11th_2500_20260912": 2,
+            "september_20th_2650_20260913": 11
+          },
+          "window_refs": [
+            {
+              "match_id": "january_4th_2700_20260913__match_005",
+              "window_id": "M054-w01"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_030a",
+              "window_id": "M128-w01"
+            },
+            {
+              "match_id": "january_5th_full_20260912__match_037a",
+              "window_id": "M138-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_060",
+              "window_id": "M245-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_060",
+              "window_id": "M245-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_063",
+              "window_id": "M248-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_063",
+              "window_id": "M248-w02"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_014",
+              "window_id": "M277-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_017",
+              "window_id": "M280-w01"
+            },
+            {
+              "match_id": "may_24th_2450_20260913__may24_2450_match_017",
+              "window_id": "M280-w02"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003",
+              "window_id": "M308-w01"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003",
+              "window_id": "M308-w02"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_016",
+              "window_id": "M319-w01"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+              "window_id": "M325-w01"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+              "window_id": "M325-w02"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+              "window_id": "M325-w03"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_040",
+              "window_id": "M370-w01"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_040",
+              "window_id": "M370-w02"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_055",
+              "window_id": "M382-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_001",
+              "window_id": "M392-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_007",
+              "window_id": "M398-w01"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_007",
+              "window_id": "M398-w03"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_001",
+              "window_id": "M432-w01"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_003",
+              "window_id": "M434-w01"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_003",
+              "window_id": "M434-w02"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_005",
+              "window_id": "M436-w01"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_005",
+              "window_id": "M436-w02"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_006",
+              "window_id": "M437-w01"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_006",
+              "window_id": "M437-w02"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_006",
+              "window_id": "M437-w03"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_007",
+              "window_id": "M438-w01"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_008",
+              "window_id": "M439-w01"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_017",
+              "window_id": "M448-w01"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_017",
+              "window_id": "M448-w02"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_020",
+              "window_id": "M451-w01"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_022",
+              "window_id": "M452-w01"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_022",
+              "window_id": "M452-w02"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_022",
+              "window_id": "M452-w03"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_023",
+              "window_id": "M453-w01"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_023",
+              "window_id": "M453-w02"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_023",
+              "window_id": "M453-w03"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_025",
+              "window_id": "M454-w01"
+            }
+          ]
+        },
+        "P": {
+          "definition": "Discipline Priest commitment following Feral pressure",
+          "distinct_matches": 14,
+          "denominator_reviewed_matches": 31,
+          "match_ids": [
+            "january_4th_2700_20260913__match_005",
+            "may_18th_2500_20260913__may18_2500_match_051",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_016",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_021",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_026",
+            "may_4th_2350_20260913__may04_2350_match_055",
+            "september_11th_2500_20260912__sep11_2500_match_001",
+            "september_20th_2650_20260913__september20_2650_match_001",
+            "september_20th_2650_20260913__september20_2650_match_007",
+            "september_20th_2650_20260913__september20_2650_match_008",
+            "september_20th_2650_20260913__september20_2650_match_020",
+            "september_20th_2650_20260913__september20_2650_match_025"
+          ],
+          "reviewed_episode_windows": 15,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "escape_spend": 1,
+            "continued_pressure": 1,
+            "enemy_kill": 6,
+            "recovered": 5,
+            "no_kill": 2
+          },
+          "round_results_by_distinct_match": {
+            "win": 13,
+            "loss": 1
+          },
+          "source_batches": {
+            "january_4th_2700_20260913": 1,
+            "may_18th_2500_20260913": 1,
+            "may_24th_vod2_2600_20260913": 5,
+            "may_4th_2350_20260913": 1,
+            "september_11th_2500_20260912": 1,
+            "september_20th_2650_20260913": 5
+          },
+          "window_refs": [
+            {
+              "match_id": "january_4th_2700_20260913__match_005",
+              "window_id": "M054-w02"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_051",
+              "window_id": "M236-w03"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+              "window_id": "M307-w04"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003",
+              "window_id": "M308-w03"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_016",
+              "window_id": "M319-w02"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_016",
+              "window_id": "M319-w04"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_021",
+              "window_id": "M323-w03"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_026",
+              "window_id": "M326-w03"
+            },
+            {
+              "match_id": "may_4th_2350_20260913__may04_2350_match_055",
+              "window_id": "M382-w02"
+            },
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_001",
+              "window_id": "M392-w02"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_001",
+              "window_id": "M432-w02"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_007",
+              "window_id": "M438-w02"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_008",
+              "window_id": "M439-w02"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_020",
+              "window_id": "M451-w02"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_025",
+              "window_id": "M454-w02"
+            }
+          ]
+        },
+        "R": {
+          "definition": "Return to Feral after Priest damage commitment",
+          "distinct_matches": 9,
+          "denominator_reviewed_matches": 31,
+          "match_ids": [
+            "january_4th_2700_20260913__match_005",
+            "may_18th_2500_20260913__may18_2500_match_051",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_016",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_021",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_026",
+            "september_20th_2650_20260913__september20_2650_match_019",
+            "september_20th_2650_20260913__september20_2650_match_025"
+          ],
+          "reviewed_episode_windows": 13,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "enemy_kill": 4,
+            "continued_pressure": 2,
+            "recovered": 4,
+            "escape_spend": 1,
+            "friendly_death": 2
+          },
+          "round_results_by_distinct_match": {
+            "win": 7,
+            "loss": 2
+          },
+          "source_batches": {
+            "january_4th_2700_20260913": 1,
+            "may_18th_2500_20260913": 1,
+            "may_24th_vod2_2600_20260913": 5,
+            "september_20th_2650_20260913": 2
+          },
+          "window_refs": [
+            {
+              "match_id": "january_4th_2700_20260913__match_005",
+              "window_id": "M054-w03"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_051",
+              "window_id": "M236-w02"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+              "window_id": "M307-w02"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+              "window_id": "M307-w03"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003",
+              "window_id": "M308-w04"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_016",
+              "window_id": "M319-w03"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_016",
+              "window_id": "M319-w05"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_021",
+              "window_id": "M323-w02"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_026",
+              "window_id": "M326-w02"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_026",
+              "window_id": "M326-w04"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_026",
+              "window_id": "M326-w05"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_019",
+              "window_id": "M450-w02"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_025",
+              "window_id": "M454-w03"
+            }
+          ]
+        },
+        "H": {
+          "definition": "Discipline Priest opening commitment",
+          "distinct_matches": 6,
+          "denominator_reviewed_matches": 31,
+          "match_ids": [
+            "january_4th_2700_20260913__match_019",
+            "may_18th_2500_20260913__may18_2500_match_051",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_021",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_026",
+            "september_20th_2650_20260913__september20_2650_match_019"
+          ],
+          "reviewed_episode_windows": 6,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "enemy_kill": 1,
+            "escape_spend": 1,
+            "recovered": 2,
+            "continued_pressure": 1,
+            "no_kill": 1
+          },
+          "round_results_by_distinct_match": {
+            "win": 5,
+            "loss": 1
+          },
+          "source_batches": {
+            "january_4th_2700_20260913": 1,
+            "may_18th_2500_20260913": 1,
+            "may_24th_vod2_2600_20260913": 3,
+            "september_20th_2650_20260913": 1
+          },
+          "window_refs": [
+            {
+              "match_id": "january_4th_2700_20260913__match_019",
+              "window_id": "M065-w01"
+            },
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_051",
+              "window_id": "M236-w01"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+              "window_id": "M307-w01"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_021",
+              "window_id": "M323-w01"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_026",
+              "window_id": "M326-w01"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_019",
+              "window_id": "M450-w01"
+            }
+          ]
+        },
+        "B": {
+          "definition": "Renewed Discipline Priest commitment",
+          "distinct_matches": 3,
+          "denominator_reviewed_matches": 31,
+          "match_ids": [
+            "may_18th_2500_20260913__may18_2500_match_051",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_021",
+            "september_20th_2650_20260913__september20_2650_match_007"
+          ],
+          "reviewed_episode_windows": 3,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "enemy_kill": 3
+          },
+          "round_results_by_distinct_match": {
+            "win": 3
+          },
+          "source_batches": {
+            "may_18th_2500_20260913": 1,
+            "may_24th_vod2_2600_20260913": 1,
+            "september_20th_2650_20260913": 1
+          },
+          "window_refs": [
+            {
+              "match_id": "may_18th_2500_20260913__may18_2500_match_051",
+              "window_id": "M236-w04"
+            },
+            {
+              "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_021",
+              "window_id": "M323-w04"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_007",
+              "window_id": "M438-w03"
+            }
+          ]
+        },
+        "X": {
+          "definition": "Sequence not established",
+          "distinct_matches": 1,
+          "denominator_reviewed_matches": 31,
+          "match_ids": [
+            "september_11th_2500_20260912__sep11_2500_match_007"
+          ],
+          "reviewed_episode_windows": 1,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "no_kill": 1
+          },
+          "round_results_by_distinct_match": {
+            "win": 1
+          },
+          "source_batches": {
+            "september_11th_2500_20260912": 1
+          },
+          "window_refs": [
+            {
+              "match_id": "september_11th_2500_20260912__sep11_2500_match_007",
+              "window_id": "M398-w02"
+            }
+          ]
+        },
+        "D": {
+          "definition": "Post-first-death continuation",
+          "distinct_matches": 1,
+          "denominator_reviewed_matches": 31,
+          "match_ids": [
+            "september_20th_2650_20260913__september20_2650_match_020"
+          ],
+          "reviewed_episode_windows": 2,
+          "exact_attempt_count": null,
+          "local_outcomes": {
+            "friendly_death": 1,
+            "enemy_kill": 1
+          },
+          "round_results_by_distinct_match": {
+            "win": 1
+          },
+          "source_batches": {
+            "september_20th_2650_20260913": 1
+          },
+          "window_refs": [
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_020",
+              "window_id": "M451-w03"
+            },
+            {
+              "match_id": "september_20th_2650_20260913__september20_2650_match_020",
+              "window_id": "M451-w04"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

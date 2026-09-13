@@ -1,0 +1,2405 @@
+[
+  {
+    "match_id": "sep11_2500_match_001",
+    "reason": "Infer Feral-control purpose; move the post-kill Feral trinket to spent-only because causal attribution is unclear.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Use the Feral engagement to create a stun-isolation window for a Priest commitment"
+      },
+      "resources_forced": {
+        "before": [
+          "Feral Druid PvP Trinket (~101s, after Priest death)"
+        ],
+        "after": []
+      },
+      "win_condition": {
+        "before": "Priest takes Horror and damage while Feral is stunned; Priest trinket remains available",
+        "after": "Priest is exposed to Horror and health pressure while Feral is stunned; Priest PvP Trinket remains available"
+      },
+      "inferred": {
+        "before": [
+          "Feral stun overlaps the main Priest damage window; enemy-trinket removal was not required for this kill."
+        ],
+        "after": [
+          "Feral stun overlaps the main Priest damage window; enemy-trinket removal was not required for this kill.",
+          "V6 initial-objective inference: Brief Feral health pressure (~84-87s) becomes a renewed Feral stun, immediately followed by the Priest swap (~87.5s) and Horror (~88.5s); no pre-swap escape spend is established.",
+          "V6 win-condition assessment: Feral stun and Priest Horror overlap before Priest reaches 4% (~91.5s); Feral stun expires just before death.",
+          "V6 resource split: confirmed offensive control and post-kill spends without clear causal attribution remain enemy_resources_spent only; they are not treated as resources our pressure necessarily forced.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Feral Druid PvP Trinket (~101s, after Priest death)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 88.5,
+      "end_seconds": 91,
+      "before_death_or_first_friendly_loss_seconds": 92.5,
+      "evidence": "Feral stun and Priest Horror overlap before Priest reaches 4% (~91.5s); Feral stun expires just before death."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_002",
+    "reason": "Infer extended Priest isolation; preserve that Warrior trinket follows the initial swap.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Create a Priest-isolation window through Warrior control, extending it once Warrior spends PvP Trinket"
+      },
+      "resources_forced": {
+        "before": [
+          "Arms Warrior PvP Trinket around 69.5–70s."
+        ],
+        "after": [
+          "Arms Warrior PvP Trinket (~69.5-70s, after the initial Priest swap)"
+        ]
+      },
+      "win_condition": {
+        "before": "Warrior trinket unavailable and Warrior Blinded while Priest is pressured",
+        "after": "Warrior PvP Trinket is unavailable and Warrior is Blinded while Priest is exposed to health pressure"
+      },
+      "inferred": {
+        "before": [
+          "Warrior resource use enables later Blind isolation; post-round chat supports an intended Warrior opening."
+        ],
+        "after": [
+          "Warrior resource use enables later Blind isolation; post-round chat supports an intended Warrior opening.",
+          "V6 initial-objective inference: Warrior engagement under Priest Sap precedes the Priest swap (~69s); Warrior trinkets just afterward (~69.5-70s), and Blind (~78s) extends isolation. Trinket removal is not claimed to precede the first swap.",
+          "V6 win-condition assessment: Warrior Blind (~78s) overlaps Priest health loss to ~17% (~81s), after Warrior trinket.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Arms Warrior PvP Trinket (~69.5-70s, after the initial Priest swap)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 78,
+      "end_seconds": 81,
+      "before_death_or_first_friendly_loss_seconds": 82.5,
+      "evidence": "Warrior Blind (~78s) overlaps Priest health loss to ~17% (~81s), after Warrior trinket."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_003",
+    "reason": "Keep mana depletion as pressure-linked spend; remove unsupported named Gouge application.",
+    "changed_fields": [
+      "setup_actions",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "setup_actions": {
+        "before": [
+          "Renew Hunter stun pressure after trinket",
+          "Blind Paladin (~92s), followed by Gouge/renewed control after Blind ends",
+          "Sustain Hunter pressure while Paladin spends mana healing"
+        ],
+        "after": [
+          "Renew Hunter stun pressure after trinket",
+          "Blind Paladin (~92s); later Paladin control is observed, but Gouge macro lines alone do not establish named Gouge application",
+          "Sustain Hunter pressure while Paladin spends mana healing"
+        ]
+      },
+      "resources_forced": {
+        "before": [
+          "Marksmanship Hunter PvP Trinket (~78s)",
+          "Retribution Paladin mana falls from ~7k to ~1.6k before Hunter death"
+        ],
+        "after": [
+          "Marksmanship Hunter PvP Trinket (~78s)",
+          "Retribution Paladin mana spent during healing (~7k to ~1.6k before Hunter death)"
+        ]
+      },
+      "win_condition": {
+        "before": "Hunter trinket remains unavailable and Paladin is controlled during renewed Hunter burst",
+        "after": "Hunter PvP Trinket is unavailable and Paladin is controlled during renewed Hunter health pressure after healing recovery"
+      },
+      "inferred": {
+        "before": [
+          "Repeated denial of Paladin support allows another Hunter commitment; mana depletion assists but is not established as mandatory."
+        ],
+        "after": [
+          "Repeated denial of Paladin support allows another Hunter commitment; mana depletion assists but is not established as mandatory.",
+          "V6 objective review: the existing sequence does not distinguish a meaningful initial purpose from ordinary pressure/control; later resource use is not assigned retroactively as proven initial intent.",
+          "V6 win-condition assessment: Paladin control (~130-133.5s) overlaps Hunter health loss from ~43% toward single digits.",
+          "V6 resource causality: sustained pressure and visible support/dispel expenditure plausibly demand the documented mana spend; exact costs and the share attributable to each cast are not reconstructed.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Marksmanship Hunter PvP Trinket (~78s)",
+          "Retribution Paladin mana spent during healing (~7k to ~1.6k before Hunter death)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 130,
+      "end_seconds": 133,
+      "before_death_or_first_friendly_loss_seconds": 133.5,
+      "evidence": "Paladin control (~130-133.5s) overlaps Hunter health loss from ~43% toward single digits."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_004",
+    "reason": "Infer Priest escape extraction; Polymorph announcements remain attempts, not proven applications.",
+    "changed_fields": [
+      "initial_objective",
+      "win_condition",
+      "conversion",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Extract Priest escape resources so renewed Priest stuns can produce a health-pressure window"
+      },
+      "win_condition": {
+        "before": "Priest trinket unavailable during renewed damage and stun pressure",
+        "after": "Priest PvP Trinket is unavailable and renewed Priest control exposes health that the opening absorbs had preserved"
+      },
+      "conversion": {
+        "before": "Priest pressure initially absorbed; health starts falling ~92s. After Priest trinket ~95s, return from brief Mage control selection to Priest; Priest drops57% ->19% ->DEAD ~103s despite Mage Polymorphs. Green Team wins ~105s; Mage death not visible.",
+        "after": "Priest pressure initially absorbed; health starts falling ~92s. After Priest trinket ~95s, return from brief Mage control selection to Priest; Priest drops57% ->19% ->DEAD ~103s while Mage Polymorph attempts are reported. Successful Polymorph applications are not established by chat alone. Green Team wins ~105s; Mage death not visible."
+      },
+      "inferred": {
+        "before": [
+          "Renewed Priest pressure after escape-resource use creates the finish; Mage disruption did not prevent this kill."
+        ],
+        "after": [
+          "Renewed Priest pressure after escape-resource use creates the finish; Mage disruption did not prevent this kill.",
+          "V6 initial-objective inference: Sustained Priest stuns initially overlap full-health absorbs; Priest trinket (~95s) is followed by continued health pressure. Brief Mage selection supplies control, not a proven damage swap.",
+          "V6 win-condition assessment: Priest health pressure continues after trinket (~95s), reaching ~19% before death.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Frost Mage PvP Trinket (~77s)",
+          "Discipline Priest PvP Trinket (~95s)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 95,
+      "end_seconds": 102,
+      "before_death_or_first_friendly_loss_seconds": 103,
+      "evidence": "Priest health pressure continues after trinket (~95s), reaching ~19% before death."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_005",
+    "reason": "Infer renewed Warrior window; favourable state precedes healer control expiry.",
+    "changed_fields": [
+      "initial_objective",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Remove Warrior escape resources for a renewed Warrior control window with Paladin support disrupted"
+      },
+      "win_condition": {
+        "before": "Continued Warrior damage after both enemy trinkets, with earlier renewed healer control",
+        "after": "Warrior has spent PvP Trinket and is at reduced health under renewed control while Paladin is briefly Feared with PvP Trinket also spent"
+      },
+      "inferred": {
+        "before": [
+          "Renewed healer denial supports continued damage after Warrior escape-resource use."
+        ],
+        "after": [
+          "Renewed healer denial supports continued damage after Warrior escape-resource use.",
+          "V6 initial-objective inference: Warrior control draws trinket (~51s), followed by renewed control and Paladin Fear (~53-54s). Paladin control is not claimed to last through the kill.",
+          "V6 win-condition assessment: Paladin Fear (~53-54s) overlaps renewed Warrior control/low health before the icon changes; no uninterrupted healer control at death is claimed.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Holy Paladin PvP Trinket (~47-48s)",
+          "Arms Warrior PvP Trinket (~51s)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 53,
+      "end_seconds": 54,
+      "before_death_or_first_friendly_loss_seconds": 55,
+      "evidence": "Paladin Fear (~53-54s) overlaps renewed Warrior control/low health before the icon changes; no uninterrupted healer control at death is claimed."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_006",
+    "reason": "Infer Sap-trinket-Blind isolation; reported enemy Blind is attempt-only; restealth is a state, not proven Vanish.",
+    "changed_fields": [
+      "initial_objective",
+      "setup_actions",
+      "resources_forced",
+      "win_condition",
+      "conversion",
+      "observed",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Remove Priest PvP Trinket so Blind can isolate the Priest during the initial Rogue attack"
+      },
+      "setup_actions": {
+        "before": [
+          "Blind Priest immediately after its Sap escape",
+          "Sustain Rogue pressure through Rogue trinket, Blind counterplay and healing recovery"
+        ],
+        "after": [
+          "Blind Priest immediately after its Sap escape",
+          "Sustain Rogue pressure through Rogue trinket, reported enemy Blind attempt and healing recovery"
+        ]
+      },
+      "resources_forced": {
+        "before": [
+          "Shadow Priest PvP Trinket (~57.5s)",
+          "Subtlety Rogue PvP Trinket (~76s)",
+          "Enemy Rogue Blind on our Rogue (~76s)",
+          "Enemy Rogue restealth (~88s; exact ability unknown)"
+        ],
+        "after": [
+          "Shadow Priest PvP Trinket (~57.5s)",
+          "Subtlety Rogue PvP Trinket (~76s)"
+        ]
+      },
+      "win_condition": {
+        "before": "Enemy Rogue trinket unavailable during continued damage after its recovery",
+        "after": "Enemy Rogue PvP Trinket is unavailable and the Rogue is again at low health after its healing recovery"
+      },
+      "conversion": {
+        "before": "Rogue pressure begins after Priest Sap/Blind. Rogue trinkets and Blinds our Rogue ~76s at low health; Priest Flash Heals recover Rogue12% ->59% ~78-81.5s. Continued Rogue pressure reaches6% ~85s, then lingering low health and renewed damage yield DEAD ~93s. Green Team wins ~96s.",
+        "after": "Rogue pressure begins after Priest Sap/Blind. Rogue trinkets ~76s at low health; enemy Blind on our Rogue is announced, with application unconfirmed. Priest Flash Heals recover Rogue12% ->59% ~78-81.5s. Continued Rogue pressure reaches6% ~85s, then lingering low health and renewed damage yield DEAD ~93s. Green Team wins ~96s."
+      },
+      "observed": {
+        "before": [
+          "~52s Priest Sap, ~57.5s trinket, ~58.5-68s Blind; both enemies initially remain100%.",
+          "~68-75.5s Rogue94% ->30% under renewed stun pressure.",
+          "~76s Rogue trinket and Blind chat; ~78-81.5s Priest Flash Heal casts, Rogue12% ->59%.",
+          "~84-93s Rogue8% ->2% ->DEAD, both enemy trinkets still cooling; Priest remains100%.",
+          "~96s Green Team wins with friendly Rogue alive; final Priest departure versus kill unknown."
+        ],
+        "after": [
+          "~52s Priest Sap, ~57.5s trinket, ~58.5-68s Blind; both enemies initially remain100%.",
+          "~68-75.5s Rogue94% ->30% under renewed stun pressure.",
+          "~76s Rogue trinket and Blind chat; ~78-81.5s Priest Flash Heal casts, Rogue12% ->59%.",
+          "~84-93s Rogue8% ->2% ->DEAD, both enemy trinkets still cooling; Priest remains100%.",
+          "~96s Green Team wins with friendly Rogue alive; final Priest departure versus kill unknown.",
+          "V6 evidence qualification: enemy Blind on our Rogue is announced ~76s; successful application and cooldown expenditure are not visually established by the saved evidence reviewed for this repair. Retain as an attempt only, outside enemy_resources_spent and resources_forced.",
+          "V6 resource qualification: restealth ~88s is an observed state; the ability causing it is unknown and is not recorded as confirmed Vanish or another named cooldown spend."
+        ]
+      },
+      "inferred": {
+        "before": [
+          "Priest escape-resource removal allows the initial Blind isolation; later pressure still converts despite a healing recovery."
+        ],
+        "after": [
+          "Priest escape-resource removal allows the initial Blind isolation; later pressure still converts despite a healing recovery.",
+          "V6 initial-objective inference: Priest Sap (~52s) draws trinket (~57.5s), immediately followed by confirmed Priest Blind (~58.5-68s) and subsequent Rogue health pressure.",
+          "V6 win-condition assessment: Rogue returns to ~8% and then ~2% after recovery to ~59%; trinket remains on cooldown. Final Priest isolation is unconfirmed.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Shadow Priest PvP Trinket (~57.5s)",
+          "Subtlety Rogue PvP Trinket (~76s)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 84,
+      "end_seconds": 92,
+      "before_death_or_first_friendly_loss_seconds": 93,
+      "evidence": "Rogue returns to ~8% and then ~2% after recovery to ~59%; trinket remains on cooldown. Final Priest isolation is unconfirmed."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_007",
+    "reason": "Infer repeat Feral window after escape extraction; brief Priest control is not a proven intended kill swap.",
+    "changed_fields": [
+      "initial_objective",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Extract Feral escape resources and renew healer denial for another Feral attack after recovery"
+      },
+      "win_condition": {
+        "before": "Both trinkets unavailable, Feral Cyclone interrupted and Priest Blinded during renewed Feral finish",
+        "after": "Both enemy PvP Trinkets are unavailable, Feral Cyclone has been interrupted and Priest is Blinded during renewed Feral health pressure"
+      },
+      "inferred": {
+        "before": [
+          "Renewed denial of Priest support and Feral counter-control enables another Feral commitment after healing recovery."
+        ],
+        "after": [
+          "Renewed denial of Priest support and Feral counter-control enables another Feral commitment after healing recovery.",
+          "V6 initial-objective inference: The Feral heals out of the first low-health window, spends trinket (~89s), and is attacked again after brief Priest control, Priest trinket (~94.5s), Cyclone interruption (~98s) and Priest Blind (~100s).",
+          "V6 win-condition assessment: Confirmed Priest Blind (~100s) overlaps Feral health pressure following Cyclone interruption (~98s).",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Feral Druid PvP Trinket (~89s)",
+          "Discipline Priest PvP Trinket (~94.5s)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 100,
+      "end_seconds": 100.5,
+      "before_death_or_first_friendly_loss_seconds": 101,
+      "evidence": "Confirmed Priest Blind (~100s) overlaps Feral health pressure following Cyclone interruption (~98s)."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_008",
+    "reason": "Replace finish wording with a pre-death Fear/low-health state; retain unknown defensive name.",
+    "changed_fields": [
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "resources_forced": {
+        "before": [
+          "Marksmanship Hunter PvP Trinket (~98.5s)",
+          "Hunter temporary defensive/control-immunity state (~98.5-101s; ability unknown)",
+          "Paladin mana reduced to ~0.5k around Hunter death"
+        ],
+        "after": [
+          "Marksmanship Hunter PvP Trinket (~98.5s)",
+          "Hunter temporary defensive/control-immunity state (~98.5-101s; ability unknown)",
+          "Retribution Paladin mana spent during repeated healing (down to ~0.5k around Hunter death)"
+        ]
+      },
+      "win_condition": {
+        "before": "Hunter trinket unavailable and Paladin under renewed control during final Hunter collapse",
+        "after": "Hunter PvP Trinket is unavailable and Paladin is Feared while Hunter is at low health after incomplete healing recovery"
+      },
+      "inferred": {
+        "before": [
+          "Renewed off-target disruption and continued Hunter pressure eventually outpace Paladin support after healing recoveries."
+        ],
+        "after": [
+          "Renewed off-target disruption and continued Hunter pressure eventually outpace Paladin support after healing recoveries.",
+          "V6 objective review: the existing sequence does not distinguish a meaningful initial purpose from ordinary pressure/control; later resource use is not assigned retroactively as proven initial intent.",
+          "V6 win-condition assessment: Paladin Fear is visible before the sustained Hunter death; Hunter has fallen from ~28% through single digits.",
+          "V6 resource causality: sustained pressure and visible support/dispel expenditure plausibly demand the documented mana spend; exact costs and the share attributable to each cast are not reconstructed.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Marksmanship Hunter PvP Trinket (~98.5s)",
+          "Hunter temporary defensive/control-immunity state (~98.5-101s; ability unknown)",
+          "Retribution Paladin mana spent during repeated healing (down to ~0.5k around Hunter death)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 126,
+      "end_seconds": 126,
+      "before_death_or_first_friendly_loss_seconds": 126.5,
+      "evidence": "Paladin Fear is visible before the sustained Hunter death; Hunter has fallen from ~28% through single digits."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_009",
+    "reason": "Infer Mage-control purpose; trinkets are spent after the initial Priest switch.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Use Mage engagement and control to create a Priest-isolation window"
+      },
+      "resources_forced": {
+        "before": [
+          "Mage PvP Trinket (~99-99.5s)",
+          "Priest PvP Trinket (~99-99.5s)",
+          "Priest defensive state (~97.5-105s; ability unknown)"
+        ],
+        "after": [
+          "Frost Mage PvP Trinket (~99-99.5s)",
+          "Discipline Priest PvP Trinket (~99-99.5s)",
+          "Priest defensive state (~97.5-105s; ability unknown)"
+        ]
+      },
+      "win_condition": {
+        "before": "Priest trinket unavailable with renewed stun and continued Priest pressure after recovery",
+        "after": "Priest PvP Trinket is unavailable and renewed stun pressure exposes reduced Priest health after its first recovery"
+      },
+      "inferred": {
+        "before": [
+          "Mage control creates a Priest damage swap; renewed pressure after trinkets converts despite Priest recovery."
+        ],
+        "after": [
+          "Mage control creates a Priest damage swap; renewed pressure after trinkets converts despite Priest recovery.",
+          "V6 initial-objective inference: Mage pressure remains absorbed, then Mage control (~92-97s) overlaps the Priest swap (~93.5s). Both trinkets are spent later; they were not removed before this initial switch.",
+          "V6 win-condition assessment: Both trinkets are spent (~99-99.5s); renewed Priest stun (~100-102s) overlaps reduced health after recovery from 1%.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Frost Mage PvP Trinket (~99-99.5s)",
+          "Discipline Priest PvP Trinket (~99-99.5s)",
+          "Priest defensive state (~97.5-105s; ability unknown)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 100,
+      "end_seconds": 102,
+      "before_death_or_first_friendly_loss_seconds": 108.5,
+      "evidence": "Both trinkets are spent (~99-99.5s); renewed Priest stun (~100-102s) overlaps reduced health after recovery from 1%."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_010",
+    "reason": "Infer repeated healer isolation; preserve Paladin trinket recovery at final commitment.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Use Warrior engagement to create repeated Paladin-isolation windows"
+      },
+      "resources_forced": {
+        "before": [
+          "Paladin defensive/immunity state (~93-103s; ability unknown)",
+          "Paladin PvP Trinket (~120s), recovered ~239s before kill",
+          "Paladin further defensive state (~123-129s; ability unknown)",
+          "Warrior PvP Trinket (~179s), still ~50s cooldown at Paladin death"
+        ],
+        "after": [
+          "Holy Paladin defensive/immunity state (~93-103s; ability unknown)",
+          "Holy Paladin PvP Trinket (~120s; recovered by ~239s before the kill)",
+          "Holy Paladin further defensive state (~123-129s; ability unknown)",
+          "Arms Warrior PvP Trinket (~179s; still cooling at Paladin death)"
+        ]
+      },
+      "win_condition": {
+        "before": "Warrior trinket unavailable during final control-and-Paladin damage sequence; Paladin trinket available but not used at lethal collapse",
+        "after": "Warrior PvP Trinket remains unavailable and Warrior control overlaps a renewed Paladin attack; Paladin PvP Trinket has recovered"
+      },
+      "inferred": {
+        "before": [
+          "Repeated survival and rebuilding permit another Paladin commitment after earlier defensives. Final Warrior control limits intervention, despite Paladin trinket being ready."
+        ],
+        "after": [
+          "Repeated survival and rebuilding permit another Paladin commitment after earlier defensives. Final Warrior control limits intervention, despite Paladin trinket being ready.",
+          "V6 initial-objective inference: Warrior control precedes the first Paladin swap (~86.5s), and later Warrior escape removal and rebuilt control precede further Paladin commitments. Paladin trinket has recovered at the final window.",
+          "V6 win-condition assessment: Final Warrior control (~236-244s) overlaps Paladin commitment (~241s) and Horror (~244s); Paladin trinket is ready by ~239s.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Holy Paladin defensive/immunity state (~93-103s; ability unknown)",
+          "Holy Paladin PvP Trinket (~120s; recovered by ~239s before the kill)",
+          "Holy Paladin further defensive state (~123-129s; ability unknown)",
+          "Arms Warrior PvP Trinket (~179s; still cooling at Paladin death)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 241,
+      "end_seconds": 244,
+      "before_death_or_first_friendly_loss_seconds": 248.5,
+      "evidence": "Final Warrior control (~236-244s) overlaps Paladin commitment (~241s) and Horror (~244s); Paladin trinket is ready by ~239s."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_012a",
+    "reason": "Infer Warlock-control setup for Shaman; replace lethal-damage tautology and preserve unused trinkets.",
+    "changed_fields": [
+      "initial_objective",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown; chat calls Shaman before the first damage lands on Warlock",
+        "after": "Create a Shaman-isolation window by establishing Warlock control before committing to Shaman"
+      },
+      "win_condition": {
+        "before": "Shaman takes lethal damage while stunned, with Warlock controlled during the swap; both enemy trinkets remain available",
+        "after": "Shaman is stunned and exposed to health pressure while Warlock is controlled during the switch; both enemy PvP Trinkets remain available"
+      },
+      "inferred": {
+        "before": [
+          "The short Warlock opener establishes control before committing lethal pressure to Shaman; precise intended sequencing is unconfirmed"
+        ],
+        "after": [
+          "The short Warlock opener establishes control before committing lethal pressure to Shaman; precise intended sequencing is unconfirmed",
+          "V6 initial-objective inference: A brief Warlock stun/damage opener (~80-84s) precedes the Shaman swap (~85s) while Warlock remains controlled. The Shaman chat call alone is not proof of execution.",
+          "V6 win-condition assessment: Shaman health falls under stun after the ~85s switch while Warlock remains controlled; no enemy trinket removal precedes it.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": []
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 85.5,
+      "end_seconds": 89,
+      "before_death_or_first_friendly_loss_seconds": 90.5,
+      "evidence": "Shaman health falls under stun after the ~85s switch while Warlock remains controlled; no enemy trinket removal precedes it."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_013",
+    "reason": "Infer renewed Warrior window; define reduced-health stun plus interrupted heal before death.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown; a war call appears around 73 seconds",
+        "after": "Remove Warrior PvP Trinket for a renewed Warrior stun with the next Paladin heal denied"
+      },
+      "resources_forced": {
+        "before": [
+          "Warrior trinket around 79 seconds"
+        ],
+        "after": [
+          "Arms Warrior PvP Trinket (~79s)"
+        ]
+      },
+      "win_condition": {
+        "before": "Renewed Warrior stun and lethal pressure while Warrior trinket remains unavailable, with a Paladin healing cast interrupted during conversion",
+        "after": "Warrior PvP Trinket is unavailable during a renewed stun at reduced health, with the next Paladin Flash of Light interrupted"
+      },
+      "inferred": {
+        "before": [
+          "The second conversion prevents enough immediate healing to finish Warrior despite the failed first pressure window"
+        ],
+        "after": [
+          "The second conversion prevents enough immediate healing to finish Warrior despite the failed first pressure window",
+          "V6 initial-objective inference: Warrior spends trinket (~79s), heals substantially, then receives renewed stun (~100s) while Paladin Flash of Light is interrupted (~102s).",
+          "V6 win-condition assessment: Warrior stun (~100-104s) overlaps the confirmed heal interruption (~102s) and subsequent health loss.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Arms Warrior PvP Trinket (~79s)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 102,
+      "end_seconds": 103,
+      "before_death_or_first_friendly_loss_seconds": 104.5,
+      "evidence": "Warrior stun (~100-104s) overlaps the confirmed heal interruption (~102s) and subsequent health loss."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_015",
+    "reason": "Infer deliberate Blind extraction before damage; replace lethal-health wording with renewed control state.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Force Hunter PvP Trinket with Blind before committing the renewed stun and damage opener"
+      },
+      "resources_forced": {
+        "before": [
+          "Hunter trinket around 79 seconds",
+          "Paladin trinket around 85 seconds"
+        ],
+        "after": [
+          "Marksmanship Hunter PvP Trinket (~79s, breaking Blind)",
+          "Retribution Paladin PvP Trinket (~85s)"
+        ]
+      },
+      "win_condition": {
+        "before": "Hunter is brought to lethal health through repeated control and sustained pressure with both enemy trinkets unavailable; final off-target control is unconfirmed",
+        "after": "Hunter PvP Trinket is unavailable during renewed control and reduced health, with Paladin PvP Trinket also spent"
+      },
+      "inferred": {
+        "before": [
+          "Immediate Blind removal fails to prevent the following Hunter control and damage sequence"
+        ],
+        "after": [
+          "Immediate Blind removal fails to prevent the following Hunter control and damage sequence",
+          "V6 initial-objective inference: Confirmed Hunter Blind (~78s) is immediately trinketed (~79s), before first health damage (~81s); renewed Hunter control follows.",
+          "V6 win-condition assessment: Both trinkets are spent before later Hunter stun/control (~88-93s); final Paladin CC is not required or asserted.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Marksmanship Hunter PvP Trinket (~79s, breaking Blind)",
+          "Retribution Paladin PvP Trinket (~85s)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 88,
+      "end_seconds": 93,
+      "before_death_or_first_friendly_loss_seconds": 94,
+      "evidence": "Both trinkets are spent before later Hunter stun/control (~88-93s); final Paladin CC is not required or asserted."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_016",
+    "reason": "Replace lethal-damage wording with overlapping Shaman control/Warlock Fear; no pet kill inferred.",
+    "changed_fields": [
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "win_condition": {
+        "before": "Shaman takes lethal damage in renewed stun/Horror while the Warlock remains feared; both enemy trinkets are still available.",
+        "after": "Shaman is exposed to renewed stun and Horror while Warlock remains Feared; both enemy PvP Trinkets remain available"
+      },
+      "inferred": {
+        "before": [
+          "The lethal window combines Shaman control with interruption of the Warlock's participation; spending either enemy trinket was not a prerequisite in this game."
+        ],
+        "after": [
+          "The lethal window combines Shaman control with interruption of the Warlock's participation; spending either enemy trinket was not a prerequisite in this game.",
+          "V6 objective review: the existing sequence does not distinguish a meaningful initial purpose from ordinary pressure/control; later resource use is not assigned retroactively as proven initial intent.",
+          "V6 win-condition assessment: Renewed Shaman stun (~102s) and Horror (~105s) overlap Warlock Fear before Shaman death; pet removal is not established.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": []
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 102,
+      "end_seconds": 105,
+      "before_death_or_first_friendly_loss_seconds": 105.5,
+      "evidence": "Renewed Shaman stun (~102s) and Horror (~105s) overlap Warlock Fear before Shaman death; pet removal is not established."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_017",
+    "reason": "Infer pet-removal purpose but retain inferred death; add confirmed Mind Control spent-only; confidence medium.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "confidence",
+      "inferred",
+      "analysis_status",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Remove the Crab pet before recommitting to Hunter to reduce pet support"
+      },
+      "resources_forced": {
+        "before": [
+          "Enemy Priest Will of the Forsaken announced around 84-85s; the escape display then counts down from 44 seconds.",
+          "Hunter trinket announced about 104-104.5s, immediately before Rogue death."
+        ],
+        "after": [
+          "Discipline Priest Will of the Forsaken (~84-85s; racial cooldown visible)",
+          "Marksmanship Hunter PvP Trinket (~104-104.5s)"
+        ]
+      },
+      "win_condition": {
+        "before": "unknown: no lethal player-health state was reached despite pet removal and Hunter stuns.",
+        "after": "Crab support is removed and Hunter health is exposed during renewed stuns with Priest support disrupted"
+      },
+      "confidence": {
+        "before": "high",
+        "after": "medium"
+      },
+      "inferred": {
+        "before": [
+          "Successful pet removal was not converted into meaningful Hunter health pressure; survival became the limiting stage.",
+          "Loss information: Pet removal alone did not produce player kill pressure. The visible failure occurs while enemy player health is high and a major Hunter escape remains unused until the final moments; it is not evidence of a near-completed kill defeated by one early Hunter trinket."
+        ],
+        "after": [
+          "Successful pet removal was not converted into meaningful Hunter health pressure; survival became the limiting stage.",
+          "Loss information: Pet removal alone did not produce player kill pressure. The visible failure occurs while enemy player health is high and a major Hunter escape remains unused until the final moments; it is not evidence of a near-completed kill defeated by one early Hunter trinket.",
+          "V6 initial-objective inference: Sustained pet targeting (~45-53s) drives its health sharply down before Hunter engagement; the later failed Revive Pet (~113-114s) supports removal. Pet death itself remains inferred.",
+          "V6 win-condition assessment: Pet removal is inferred, but Hunter remains protected near full health during the initial stuns; Priest completes Mind Control (~63-65s), and Hunter is full at the first friendly death. The combined state never exists.",
+          "V6 resource split: confirmed offensive control and post-kill spends without clear causal attribution remain enemy_resources_spent only; they are not treated as resources our pressure necessarily forced.",
+          "V6 confidence assessment: The pet-removal objective is strategically supported, but pet death remains inferred rather than explicitly shown; this uncertainty affects the principal setup action. The survival failure itself is clear."
+        ]
+      },
+      "analysis_status": {
+        "before": "analysed",
+        "after": "uncertain"
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Discipline Priest Mind Control channel (~63-65s)",
+          "Discipline Priest Will of the Forsaken (~84-85s; racial cooldown visible)",
+          "Marksmanship Hunter PvP Trinket (~104-104.5s)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": false,
+      "start_seconds": null,
+      "end_seconds": null,
+      "before_death_or_first_friendly_loss_seconds": null,
+      "evidence": "Pet removal is inferred, but Hunter remains protected near full health during the initial stuns; Priest completes Mind Control (~63-65s), and Hunter is full at the first friendly death. The combined state never exists."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_018",
+    "reason": "Infer Hunter-Blind isolation objective; condition stays false because health pressure starts after Blind; remove non-use from spent.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Use Hunter Blind to create a Priest-isolation window before committing Priest health pressure"
+      },
+      "resources_forced": {
+        "before": [
+          "Priest PvP trinket announced at about 81s after renewed control.",
+          "Hunter trinket is not used before Rogue death."
+        ],
+        "after": [
+          "Discipline Priest PvP Trinket (~81s)"
+        ]
+      },
+      "win_condition": {
+        "before": "A lethal Priest attack while Hunter cannot interfere was not obtained: Hunter Blind ends before substantial Priest health loss, and Priest survives the later pressure.",
+        "after": "Priest health is exposed under control while Hunter is isolated by Blind and our Rogue can sustain the attack"
+      },
+      "inferred": {
+        "before": [
+          "The Blind window and actual Priest health damage do not overlap enough to isolate the lethal attack. Reported failed Vanishes are consistent with visible repeated cooldown use and immediate continued pressure, but their exact break sources are unknown.",
+          "Loss information: Forcing the Priest trinket did not establish a kill condition. This game shows a timing gap between Hunter isolation and Priest health damage, followed by failure of defensive recovery; it does not support a rule that an enemy trinket being spent guarantees the next kill."
+        ],
+        "after": [
+          "The Blind window and actual Priest health damage do not overlap enough to isolate the lethal attack. Reported failed Vanishes are consistent with visible repeated cooldown use and immediate continued pressure, but their exact break sources are unknown.",
+          "Loss information: Forcing the Priest trinket did not establish a kill condition. This game shows a timing gap between Hunter isolation and Priest health damage, followed by failure of defensive recovery; it does not support a rule that an enemy trinket being spent guarantees the next kill.",
+          "V6 initial-objective inference: Confirmed Hunter Blind (~62-72s) overlaps early Priest stuns; meaningful Priest health loss only begins (~77s) after Blind expires. This inferred objective was not achieved.",
+          "V6 win-condition assessment: Hunter Blind ends (~72s) before meaningful Priest health loss (~77s); forcing Priest trinket (~81s) does not restore Hunter isolation, and Rogue survival then fails.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Discipline Priest PvP Trinket (~81s)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": false,
+      "start_seconds": null,
+      "end_seconds": null,
+      "before_death_or_first_friendly_loss_seconds": null,
+      "evidence": "Hunter Blind ends (~72s) before meaningful Priest health loss (~77s); forcing Priest trinket (~81s) does not restore Hunter isolation, and Rogue survival then fails."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_019",
+    "reason": "Replace pet-removal bucket with visible resummon cast-time spend; add Hex spent-only; opening purpose stays unknown.",
+    "changed_fields": [
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "resources_forced": {
+        "before": [
+          "Shaman PvP trinket announced at about 164s during renewed control, well after surviving the initial low-health attack.",
+          "Warlock PvP trinket announced around 191s during final stun pressure; lethal damage continues afterward.",
+          "Repeated Succubus removal/renewed summoning observed; exact pet kill instants are not labelled DEAD."
+        ],
+        "after": [
+          "Restoration Shaman PvP Trinket (~164s)",
+          "Destruction Warlock PvP Trinket (~191s)",
+          "Warlock Summon Succubus cast time (~152s and ~173s onward; successful completions not individually established)"
+        ]
+      },
+      "win_condition": {
+        "before": "Final Warlock attack continues after its trinket while Shaman, with trinket on cooldown, is isolated by Sap followed by Fear.",
+        "after": "Warlock PvP Trinket is spent during renewed stun pressure while Shaman, whose PvP Trinket is also spent, is isolated by Sap then Fear"
+      },
+      "inferred": {
+        "before": [
+          "The successful final branch differs from the initial Shaman attack: both escapes have been spent and healer isolation persists while Warlock damage continues after trinket."
+        ],
+        "after": [
+          "The successful final branch differs from the initial Shaman attack: both escapes have been spent and healer isolation persists while Warlock damage continues after trinket.",
+          "V6 objective review: the existing sequence does not distinguish a meaningful initial purpose from ordinary pressure/control; later resource use is not assigned retroactively as proven initial intent.",
+          "V6 win-condition assessment: Warlock trinket (~191s) is followed by continued control/health pressure; Shaman Sap (~183-193s) transitions into Fear before Warlock death.",
+          "V6 resource causality: visible Summon Succubus cast time follows sustained pet pressure/removal evidence; that expenditure is plausibly demanded by pet removal, but individual summon completion and exact pet death instants remain unconfirmed. Hex is counterplay, not automatically forced.",
+          "V6 resource split: confirmed offensive control and post-kill spends without clear causal attribution remain enemy_resources_spent only; they are not treated as resources our pressure necessarily forced.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Restoration Shaman PvP Trinket (~164s)",
+          "Destruction Warlock PvP Trinket (~191s)",
+          "Warlock Summon Succubus cast time (~152s and ~173s onward; successful completions not individually established)",
+          "Restoration Shaman Hex on our Rogue (~173-178s)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 191,
+      "end_seconds": 194,
+      "before_death_or_first_friendly_loss_seconds": 195.5,
+      "evidence": "Warlock trinket (~191s) is followed by continued control/health pressure; Shaman Sap (~183-193s) transitions into Fear before Warlock death."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_020",
+    "reason": "Define low Hunter plus Priest-stun state; conflicting chat does not establish opening purpose.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown; chat requests 'pri more' at 53s, but the first meaningful player-health pressure is on Hunter.",
+        "after": "unknown"
+      },
+      "resources_forced": {
+        "before": [
+          "Priest trinket announced around 80s.",
+          "Hunter trinket announced around 90s; both enemy trinkets on cooldown at the sustained Hunter death."
+        ],
+        "after": [
+          "Discipline Priest PvP Trinket (~80s)",
+          "Marksmanship Hunter PvP Trinket (~90s)"
+        ]
+      },
+      "win_condition": {
+        "before": "Sustained Hunter damage with Priest stunned during the final health collapse; both enemy trinkets unavailable.",
+        "after": "Hunter is at reduced health with PvP Trinket unavailable while Priest is stunned and its PvP Trinket is also cooling"
+      },
+      "inferred": {
+        "before": [
+          "Final Priest stun limits healing during the lethal Hunter drop."
+        ],
+        "after": [
+          "Final Priest stun limits healing during the lethal Hunter drop.",
+          "V6 objective review: the existing sequence does not distinguish a meaningful initial purpose from ordinary pressure/control; later resource use is not assigned retroactively as proven initial intent.",
+          "V6 win-condition assessment: Priest stun (~95.5-100.5s) overlaps the sustained Hunter health decline after the temporary DEAD display and subsequent recovery.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Discipline Priest PvP Trinket (~80s)",
+          "Marksmanship Hunter PvP Trinket (~90s)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 95.5,
+      "end_seconds": 99,
+      "before_death_or_first_friendly_loss_seconds": 99.5,
+      "evidence": "Priest stun (~95.5-100.5s) overlaps the sustained Hunter health decline after the temporary DEAD display and subsequent recovery."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_021",
+    "reason": "Infer sustain/escape extraction; add documented mana expenditure and remove availability-only bucket.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Exhaust Priest sustain and escape resources while preparing renewed Warrior isolation for a Priest commitment"
+      },
+      "resources_forced": {
+        "before": [
+          "Warrior trinket around 100s, followed by Blind at 103.5s.",
+          "Priest trinket around 111.5s, followed immediately by renewed stun.",
+          "Both enemy trinkets unavailable at Priest death."
+        ],
+        "after": [
+          "Arms Warrior PvP Trinket (~100s)",
+          "Discipline Priest PvP Trinket (~111.5s)",
+          "Discipline Priest mana spent during extended setup (~23.3k to ~1.1k by ~100s; repeated Mass Dispel casts visible)"
+        ]
+      },
+      "win_condition": {
+        "before": "Renewed Priest stun after its trinket, continued Priest health damage, and Warrior control first by Blind then Fear.",
+        "after": "Priest is at reduced health in a renewed stun with PvP Trinket unavailable and mana depleted, while Warrior is controlled with PvP Trinket also cooling"
+      },
+      "inferred": {
+        "before": [
+          "Warrior isolation and renewed Priest stun prevent recovery in the final branch."
+        ],
+        "after": [
+          "Warrior isolation and renewed Priest stun prevent recovery in the final branch.",
+          "V6 initial-objective inference: Priest pressure persists through long full-health absorbs while mana falls (~23.3k to ~1.1k); Warrior trinket (~100s) enables Blind (~103.5s), then Priest trinket (~111.5s) is followed by renewed stuns. Exact mana expenditure attribution remains incomplete.",
+          "V6 win-condition assessment: Priest trinket (~111.5s) is followed by renewed stun (~112-115.5s); Warrior Blind then Fear limits interference and Priest mana is already low.",
+          "V6 resource causality: sustained pressure and visible support/dispel expenditure plausibly demand the documented mana spend; exact costs and the share attributable to each cast are not reconstructed.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Arms Warrior PvP Trinket (~100s)",
+          "Discipline Priest PvP Trinket (~111.5s)",
+          "Discipline Priest mana spent during extended setup (~23.3k to ~1.1k by ~100s; repeated Mass Dispel casts visible)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 112,
+      "end_seconds": 115,
+      "before_death_or_first_friendly_loss_seconds": 116,
+      "evidence": "Priest trinket (~111.5s) is followed by renewed stun (~112-115.5s); Warrior Blind then Fear limits interference and Priest mana is already low."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_022",
+    "reason": "Keep initial pet purpose unknown; track WOTF separately and include pressure-linked Penance use.",
+    "changed_fields": [
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "resources_forced": {
+        "before": [
+          "Hunter trinket around 61s; remains on cooldown at its death.",
+          "Priest Will of the Forsaken around 62s, shown with about 33s remaining at Hunter death. Its separate PvP trinket availability is not established."
+        ],
+        "after": [
+          "Marksmanship Hunter PvP Trinket (~61s)",
+          "Discipline Priest Will of the Forsaken (~62s; separate PvP Trinket state unknown)",
+          "Discipline Priest Penance (~64s and ~72-73s; latter cut off by Blind)"
+        ]
+      },
+      "win_condition": {
+        "before": "Renewed Hunter stun and damage after its trinket, with late Blind interrupting the Priest's Penance near lethal health.",
+        "after": "Hunter PvP Trinket is unavailable during renewed low-health pressure and Priest Penance has been cut off by Blind; Priest Will of the Forsaken is cooling"
+      },
+      "inferred": {
+        "before": [
+          "Late Blind cuts off the final Priest healing attempt while Hunter has no trinket."
+        ],
+        "after": [
+          "Late Blind cuts off the final Priest healing attempt while Hunter has no trinket.",
+          "V6 objective review: the existing sequence does not distinguish a meaningful initial purpose from ordinary pressure/control; later resource use is not assigned retroactively as proven initial intent.",
+          "V6 win-condition assessment: Late confirmed Priest Blind (~73.5s) cuts the visible Penance after Hunter renewed stuns and health decline. Priest PvP Trinket state remains unknown.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Marksmanship Hunter PvP Trinket (~61s)",
+          "Discipline Priest Will of the Forsaken (~62s; separate PvP Trinket state unknown)",
+          "Discipline Priest Penance (~64s and ~72-73s; latter cut off by Blind)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 73.5,
+      "end_seconds": 73.5,
+      "before_death_or_first_friendly_loss_seconds": 74,
+      "evidence": "Late confirmed Priest Blind (~73.5s) cuts the visible Penance after Hunter renewed stuns and health decline. Priest PvP Trinket state remains unknown."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_023",
+    "reason": "Infer Shaman escape/support denial; off-target pet Blind remains distinct from Warlock CC.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Extract Shaman escape resources while isolating Shaman from Warlock and pet support"
+      },
+      "resources_forced": {
+        "before": [
+          "Shaman trinket around 98.5s at approximately 84% health, followed by continued pressure and renewed stuns.",
+          "Shaman trinket unavailable at death; Warlock Human escape/trinket icon still available and unused."
+        ],
+        "after": [
+          "Restoration Shaman PvP Trinket (~98.5s)"
+        ]
+      },
+      "win_condition": {
+        "before": "Shaman trinket spent, renewed Shaman stun and damage, Warlock Fear overlapping the final damage phase; pet separately blinded during setup.",
+        "after": "Shaman PvP Trinket is spent and renewed Shaman stuns expose reduced health while Warlock is Feared and the pet has been separately Blinded"
+      },
+      "inferred": {
+        "before": [
+          "Pet Blind and Warlock Fear reduce interference while renewed stuns close the Shaman kill."
+        ],
+        "after": [
+          "Pet Blind and Warlock Fear reduce interference while renewed stuns close the Shaman kill.",
+          "V6 initial-objective inference: Warlock Sap precedes Shaman stuns; pet Blind is a separate support-denial action. Shaman trinket (~98.5s) is followed by renewed stuns while Warlock is Feared.",
+          "V6 win-condition assessment: Shaman trinket (~98.5s) is followed by renewed stuns; Warlock Fear (~99.5-104s) and pet Blind (~94-104s) overlap this pre-kill window.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Restoration Shaman PvP Trinket (~98.5s)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 100.5,
+      "end_seconds": 103.5,
+      "before_death_or_first_friendly_loss_seconds": 105.5,
+      "evidence": "Shaman trinket (~98.5s) is followed by renewed stuns; Warlock Fear (~99.5-104s) and pet Blind (~94-104s) overlap this pre-kill window."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_024",
+    "reason": "Infer Hunter escape extraction for Priest switch; condition exists before Blind expires, not throughout kill.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Remove Hunter PvP Trinket so Hunter Blind can support a later Priest commitment"
+      },
+      "resources_forced": {
+        "before": [
+          "Hunter PvP trinket used around 66s, unavailable at Priest death.",
+          "Priest Will of the Forsaken used around 66s, approximately 23s remaining at death; Priest PvP trinket availability not established.",
+          "Hunter has an immunity/defensive interval around 66â€“71s; exact spell not established."
+        ],
+        "after": [
+          "Marksmanship Hunter PvP Trinket (~66s)",
+          "Discipline Priest Will of the Forsaken (~66s; separate PvP Trinket state unknown)",
+          "Hunter temporary defensive/immunity state (~66-71s; ability unknown)",
+          "Discipline Priest Penance (~78-79s, before renewed Priest stuns)"
+        ]
+      },
+      "win_condition": {
+        "before": "Convert renewed Priest stun pressure after Penance recovery, with Hunter trinket spent and an earlier full Blind isolating the Priest.",
+        "after": "Priest is exposed to a renewed stun after Penance recovery while Hunter is Blinded with PvP Trinket unavailable"
+      },
+      "inferred": {
+        "before": [
+          "Priest damage before Rogue's selection switch likely includes friendly Shadow Priest pressure; individual damage attribution cannot be fully isolated."
+        ],
+        "after": [
+          "Priest damage before Rogue's selection switch likely includes friendly Shadow Priest pressure; individual damage attribution cannot be fully isolated.",
+          "V6 initial-objective inference: Hunter spends trinket (~66s), then confirmed Hunter Blind (~77-87s) overlaps the Priest switch (~80s) and early renewed Priest stun. Priest racial use is distinct from PvP Trinket.",
+          "V6 win-condition assessment: Renewed Priest stun starts ~85.7s while Hunter Blind lasts until ~87s. This state exists before Blind ends and before Priest death; Priest PvP Trinket is unknown.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Marksmanship Hunter PvP Trinket (~66s)",
+          "Discipline Priest Will of the Forsaken (~66s; separate PvP Trinket state unknown)",
+          "Hunter temporary defensive/immunity state (~66-71s; ability unknown)",
+          "Discipline Priest Penance (~78-79s, before renewed Priest stuns)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 85.7,
+      "end_seconds": 86.5,
+      "before_death_or_first_friendly_loss_seconds": 88.5,
+      "evidence": "Renewed Priest stun starts ~85.7s while Hunter Blind lasts until ~87s. This state exists before Blind ends and before Priest death; Priest PvP Trinket is unknown."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_025",
+    "reason": "Infer repeated Paladin-isolation purpose; unknown defensive names remain unknown.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Create repeated Paladin-isolation windows through Warrior control and escape extraction"
+      },
+      "resources_forced": {
+        "before": [
+          "Warrior PvP trinket around 101s and Paladin PvP trinket around 104s; both remain on cooldown at Paladin death.",
+          "Paladin defensive/immunity effects during the first switch around 76â€“94s; exact abilities not established."
+        ],
+        "after": [
+          "Arms Warrior PvP Trinket (~101s)",
+          "Holy Paladin PvP Trinket (~104s)",
+          "Holy Paladin defensive/immunity effects (~76-94s; abilities unknown)"
+        ]
+      },
+      "win_condition": {
+        "before": "Paladin is exposed to renewed damage/control while Warrior is fully Blinded and both enemy trinkets are unavailable.",
+        "after": "Paladin is exposed to renewed control and reduced health while Warrior is Blinded and both enemy PvP Trinkets are unavailable"
+      },
+      "inferred": {
+        "before": [
+          "The second Paladin conversion makes use of the trinkets obtained during earlier alternating pressure."
+        ],
+        "after": [
+          "The second Paladin conversion makes use of the trinkets obtained during earlier alternating pressure.",
+          "V6 initial-objective inference: Warrior engagement precedes the first Paladin switch; after defensive recovery, Warrior and Paladin trinkets (~101s/~104s) are spent before the later confirmed Warrior Blind and Paladin commitment.",
+          "V6 win-condition assessment: Confirmed Warrior Blind (~129-139s) overlaps Paladin stuns/Fear/Horror and health pressure before death.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Arms Warrior PvP Trinket (~101s)",
+          "Holy Paladin PvP Trinket (~104s)",
+          "Holy Paladin defensive/immunity effects (~76-94s; abilities unknown)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 129,
+      "end_seconds": 136,
+      "before_death_or_first_friendly_loss_seconds": 136.5,
+      "evidence": "Confirmed Warrior Blind (~129-139s) overlaps Paladin stuns/Fear/Horror and health pressure before death."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_026",
+    "reason": "Infer Hunter-Blind recovery purpose; favourable state is renewed same-target pressure after recovery.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Remove Hunter PvP Trinket to secure a Blind recovery interval before a renewed Hunter attack"
+      },
+      "resources_forced": {
+        "before": [
+          "Hunter PvP trinket at 88s remains unavailable at Hunter death around 118s.",
+          "Priest Will of the Forsaken at 84s remains unavailable with roughly 10s left at death; Priest PvP trinket not separately established."
+        ],
+        "after": [
+          "Marksmanship Hunter PvP Trinket (~88s)",
+          "Discipline Priest Will of the Forsaken (~84s; separate PvP Trinket state unknown)"
+        ]
+      },
+      "win_condition": {
+        "before": "Recover during Hunter Blind, then obtain a fresh Hunter damage window under repeated stuns and Priest control with Hunter trinket unavailable.",
+        "after": "Our Rogue has recovered during Hunter Blind and Hunter is exposed to a fresh stun window with PvP Trinket unavailable while Priest is controlled"
+      },
+      "inferred": {
+        "before": [
+          "Blind functions as a recovery interval before recommitting to Hunter."
+        ],
+        "after": [
+          "Blind functions as a recovery interval before recommitting to Hunter.",
+          "V6 initial-objective inference: Hunter trinket (~88s) precedes confirmed Hunter Blind (~93-103s), during which our Rogue recovers; the next meaningful commitment remains Hunter, not Priest.",
+          "V6 win-condition assessment: Rogue recovery during Blind is followed by Hunter renewed stuns and Priest Horror (~112.5-115.8s). The condition exists before Priest Horror expires; it is not asserted through death.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Marksmanship Hunter PvP Trinket (~88s)",
+          "Discipline Priest Will of the Forsaken (~84s; separate PvP Trinket state unknown)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 112.5,
+      "end_seconds": 115.5,
+      "before_death_or_first_friendly_loss_seconds": 118,
+      "evidence": "Rogue recovery during Blind is followed by Hunter renewed stuns and Priest Horror (~112.5-115.8s). The condition exists before Priest Horror expires; it is not asserted through death."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_027",
+    "reason": "Infer initial Priest-trinket/Blind setup for Rogue; preserve later Priest-switch branch and Hymn.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Remove Priest PvP Trinket so Blind can isolate the Priest during the initial Rogue commitment"
+      },
+      "resources_forced": {
+        "before": [
+          "Enemy Priest trinket around 91s and Rogue trinket around 127s; both unavailable at Priest death.",
+          "Enemy Priest Divine Hymn around 112â€“116s produces intermittent recovery before renewed pressure."
+        ],
+        "after": [
+          "Shadow Priest PvP Trinket (~91s)",
+          "Subtlety Rogue PvP Trinket (~127s)",
+          "Shadow Priest Divine Hymn channel (~112-116s)"
+        ]
+      },
+      "win_condition": {
+        "before": "Priest trinket is unavailable, renewed Priest damage persists after healing, and enemy Rogue is controlled during the decisive window.",
+        "after": "Priest PvP Trinket is unavailable and Priest is at reduced health after healing recovery while enemy Rogue is controlled with PvP Trinket also spent"
+      },
+      "inferred": {
+        "before": [
+          "Later Rogue control isolates the weakened Priest; initial intent beyond the observed sequence is unknown."
+        ],
+        "after": [
+          "Later Rogue control isolates the weakened Priest; initial intent beyond the observed sequence is unknown.",
+          "V6 initial-objective inference: Priest Sap (~89s) draws trinket (~91s), immediately followed by Blind (~92-102s) and Rogue engagement. Later Priest swaps are separate branches after absorbed Rogue pressure.",
+          "V6 win-condition assessment: Rogue trinket (~127s) is followed by renewed Fear (~128-133s), overlapping renewed Priest health pressure.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Shadow Priest PvP Trinket (~91s)",
+          "Subtlety Rogue PvP Trinket (~127s)",
+          "Shadow Priest Divine Hymn channel (~112-116s)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 128,
+      "end_seconds": 131,
+      "before_death_or_first_friendly_loss_seconds": 131.5,
+      "evidence": "Rogue trinket (~127s) is followed by renewed Fear (~128-133s), overlapping renewed Priest health pressure."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_028",
+    "reason": "Condition false -> true at ~80-82s despite loss; Fear expires before finish and Blind is unconfirmed; add later Mind Control spent-only.",
+    "changed_fields": [
+      "setup_actions",
+      "resources_forced",
+      "win_condition",
+      "win_condition_obtained",
+      "failure_reason",
+      "observed",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "setup_actions": {
+        "before": [
+          "Priest trinkets Sap at 63s; stun pressure reduces him to approximately 47% by 70s.",
+          "Rogue selects enemy Rogue 71-79s while Priest remains pressured; enemy Rogue trinkets at 72s and casts Blind on our Rogue at 74s.",
+          "Return to Priest 80-83s with Kick; Priest falls to 8-9% at 83-85s, but enemy Rogue control ends by 82.5s.",
+          "Enemy Rogue selected again 84-87s; two Blind attempts are announced without confirmed application. Uncle dies at 86s.",
+          "Our Rogue continues 1v2, reducing enemy Rogue to approximately 10% at 101s. Enemy Priest repeatedly Flash Heals and recovers to full; Mind Control channels approximately 120-129s precede the final collapse."
+        ],
+        "after": [
+          "Priest trinkets Sap at 63s; stun pressure reduces him to approximately 47% by 70s.",
+          "Rogue selects enemy Rogue 71-79s while Priest remains pressured; enemy Rogue trinkets at 72s and has a Blind attempt on our Rogue announced at 74s; application unconfirmed.",
+          "Return to Priest 80-83s with Kick; Priest falls to 8-9% at 83-85s, but enemy Rogue control ends by 82.5s.",
+          "Enemy Rogue selected again 84-87s; two Blind attempts are announced without confirmed application. Uncle dies at 86s.",
+          "Our Rogue continues 1v2, reducing enemy Rogue to approximately 10% at 101s. Enemy Priest repeatedly Flash Heals and recovers to full; Mind Control channels approximately 120-129s precede the final collapse."
+        ]
+      },
+      "resources_forced": {
+        "before": [
+          "Enemy Priest trinket 63s",
+          "Enemy Rogue trinket 72s"
+        ],
+        "after": [
+          "Shadow Priest PvP Trinket (~63s)",
+          "Subtlety Rogue PvP Trinket (~72s)"
+        ]
+      },
+      "win_condition": {
+        "before": "Convert the nearly dead Priest before losing our Priest, with enemy Rogue unable to stop the finish",
+        "after": "Enemy Priest is weakened with PvP Trinket unavailable while enemy Rogue is temporarily Feared with PvP Trinket also spent and both friendly players remain alive"
+      },
+      "win_condition_obtained": {
+        "before": false,
+        "after": true
+      },
+      "failure_reason": {
+        "before": "Priest pressure did not convert before Uncle died. Both enemies survived, recovered, and won the subsequent 1v2. A decisive successful friendly Blind at the near-kill is not established.",
+        "after": "A favourable Priest-pressure window exists ~80-82s with both enemy trinkets spent and enemy Rogue Feared. Rogue control expires ~82.5s; subsequent Blind attempts are not confirmed applied, so the ~8-9% Priest near-kill is no longer fully isolated. Uncle dies ~86s before conversion. Both enemies recover and win the later 1v2."
+      },
+      "observed": {
+        "before": [
+          "Replay 38621675, Dalaran Sewers, four player frames",
+          "Enemy Priest remains alive at 8-11% across 84-88s",
+          "Uncle death message and Dead target-of-target at 86s",
+          "Our Rogue has zero health and death dialog at 136s; enemy winner announced afterward"
+        ],
+        "after": [
+          "Replay 38621675, Dalaran Sewers, four player frames",
+          "Enemy Priest remains alive at 8-11% across 84-88s",
+          "Uncle death message and Dead target-of-target at 86s",
+          "Our Rogue has zero health and death dialog at 136s; enemy winner announced afterward",
+          "V6 evidence qualification: enemy Blind on our Rogue is announced ~74s; successful application and cooldown expenditure are not visually established by the saved evidence reviewed for this repair. Retain as an attempt only, outside enemy_resources_spent and resources_forced."
+        ]
+      },
+      "inferred": {
+        "before": [
+          "Temporary enemy Rogue control helped Priest pressure but ended before the near-kill",
+          "Exact cause of the unconfirmed Blind attempts is unknown",
+          "Loss information: Shows a near Priest kill failing despite both enemy trinkets spent; loss of our Priest separates the opening conversion failure from the later healed-out 1v2 Rogue attempt."
+        ],
+        "after": [
+          "Temporary enemy Rogue control helped Priest pressure but ended before the near-kill",
+          "Exact cause of the unconfirmed Blind attempts is unknown",
+          "Loss information: Shows a near Priest kill failing despite both enemy trinkets spent; loss of our Priest separates the opening conversion failure from the later healed-out 1v2 Rogue attempt.",
+          "V6 objective review: the existing sequence does not distinguish a meaningful initial purpose from ordinary pressure/control; later resource use is not assigned retroactively as proven initial intent.",
+          "V6 win-condition assessment: Saved frames show Priest ~26% at 80s, ~23% at 81s and ~16% at 82s while Rogue Fear counts down; both trinkets show cooldowns. Fear ends ~82.5s, the later Blind attempts are unconfirmed, and Uncle dies ~86s. The favourable state was reached, then lost without conversion.",
+          "V6 resource split: confirmed offensive control and post-kill spends without clear causal attribution remain enemy_resources_spent only; they are not treated as resources our pressure necessarily forced.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Shadow Priest PvP Trinket (~63s)",
+          "Subtlety Rogue PvP Trinket (~72s)",
+          "Shadow Priest Mind Control channel (~120-129s, during the later 1v2)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 80,
+      "end_seconds": 82,
+      "before_death_or_first_friendly_loss_seconds": 86,
+      "evidence": "Saved frames show Priest ~26% at 80s, ~23% at 81s and ~16% at 82s while Rogue Fear counts down; both trinkets show cooldowns. Fear ends ~82.5s, the later Blind attempts are unconfirmed, and Uncle dies ~86s. The favourable state was reached, then lost without conversion."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_029",
+    "reason": "Infer Blind escape-extraction branch; preserve WOTF distinction and Blind expiry before Priest kill.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Extract Hunter escape resources through Blind to support a Priest-switch branch"
+      },
+      "resources_forced": {
+        "before": [
+          "Priest WOTF 78s (racial, not confirmed PvP trinket)",
+          "Hunter trinket 84s ends Blind early"
+        ],
+        "after": [
+          "Discipline Priest Will of the Forsaken (~78s; separate PvP Trinket state unknown)",
+          "Marksmanship Hunter PvP Trinket (~84s, breaking Blind)"
+        ]
+      },
+      "win_condition": {
+        "before": "Sustain the Priest switch through Horror and renewed stuns after the Hunter spends trinket",
+        "after": "Priest is exposed to Horror and renewed stuns after Hunter spends PvP Trinket breaking Blind; Priest Will of the Forsaken is unavailable"
+      },
+      "inferred": {
+        "before": [
+          "Blind and Hunter trinket create a branch, but Blind itself ends before the Priest kill"
+        ],
+        "after": [
+          "Blind and Hunter trinket create a branch, but Blind itself ends before the Priest kill",
+          "V6 initial-objective inference: Hunter engagement precedes Blind (~77s), Hunter trinket breaks it (~84s), and a Priest switch under Horror and renewed stuns follows. Blind is not claimed to cover the kill.",
+          "V6 win-condition assessment: Priest Horror (~83-86.5s) overlaps renewed stuns after Hunter trinket (~84s); Blind is already over, and exact final Hunter control is not a prerequisite.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Discipline Priest Will of the Forsaken (~78s; separate PvP Trinket state unknown)",
+          "Marksmanship Hunter PvP Trinket (~84s, breaking Blind)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 85,
+      "end_seconds": 86,
+      "before_death_or_first_friendly_loss_seconds": 91,
+      "evidence": "Priest Horror (~83-86.5s) overlaps renewed stuns after Hunter trinket (~84s); Blind is already over, and exact final Hunter control is not a prerequisite."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_030",
+    "reason": "Infer Rogue escape extraction; define post-Dispersion state; early Blind reports remain attempt-only.",
+    "changed_fields": [
+      "initial_objective",
+      "setup_actions",
+      "resources_forced",
+      "win_condition",
+      "observed",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Remove Rogue PvP Trinket so Blind and Sap can isolate the Rogue during a Priest commitment"
+      },
+      "setup_actions": {
+        "before": [
+          "Priest drinks during the stealth standoff; Sap Priest 76s, friendly Priest Sapped at 77s.",
+          "Enemy Rogue receives brief pressure 78-79s and trinkets at 79s, then casts Blind on Uncle. Friendly Blind attempts at 80s are not confirmed applied.",
+          "Switch Priest 86s with repeated stuns; Priest falls to 33% at 90s, recovers to 76% at 91s and trinkets 93s.",
+          "Blind enemy Rogue confirmed 94-103.5s; Vampiric Touch interrupted and Rogue Kick on Priest 94s.",
+          "Priest uses Dispersion approximately 99-104.5s and holds near 32-34%. Sap replaces Blind on enemy Rogue 103.5s; Horror Priest 105s, Priest falls to 8% and dies at 106.5s."
+        ],
+        "after": [
+          "Priest drinks during the stealth standoff; Sap Priest 76s, friendly Priest Sapped at 77s.",
+          "Enemy Rogue receives brief pressure 78-79s and trinkets at 79s, then has a Blind attempt on Uncle announced; application unconfirmed. Friendly Blind attempts at 80s are not confirmed applied.",
+          "Switch Priest 86s with repeated stuns; Priest falls to 33% at 90s, recovers to 76% at 91s and trinkets 93s.",
+          "Blind enemy Rogue confirmed 94-103.5s; Vampiric Touch interrupted and Rogue Kick on Priest 94s.",
+          "Priest uses Dispersion approximately 99-104.5s and holds near 32-34%. Sap replaces Blind on enemy Rogue 103.5s; Horror Priest 105s, Priest falls to 8% and dies at 106.5s."
+        ]
+      },
+      "resources_forced": {
+        "before": [
+          "Enemy Rogue trinket 79s",
+          "Enemy Priest trinket 93s",
+          "Enemy Priest Dispersion approximately 99-104.5s"
+        ],
+        "after": [
+          "Subtlety Rogue PvP Trinket (~79s)",
+          "Shadow Priest PvP Trinket (~93s)",
+          "Shadow Priest Dispersion (~99-104.5s)"
+        ]
+      },
+      "win_condition": {
+        "before": "Maintain Priest pressure after Dispersion ends, with enemy Rogue in Sap and both enemy trinkets on cooldown",
+        "after": "Priest Dispersion has ended and Priest is exposed to Horror at reduced health while enemy Rogue is Sapped and both enemy PvP Trinkets are cooling"
+      },
+      "observed": {
+        "before": [
+          "Replay 38621789, Nagrand Arena",
+          "Blind UP on Pumpitx at 94s, Sap UP and Blind DOWN at 103.5s",
+          "Dispersion appearance and stable Priest health during 99-104s; Horror immediately precedes death",
+          "Next replay 38621822 prep at clip tail belongs to match_031, not another record here"
+        ],
+        "after": [
+          "Replay 38621789, Nagrand Arena",
+          "Blind UP on Pumpitx at 94s, Sap UP and Blind DOWN at 103.5s",
+          "Dispersion appearance and stable Priest health during 99-104s; Horror immediately precedes death",
+          "Next replay 38621822 prep at clip tail belongs to match_031, not another record here",
+          "V6 evidence qualification: enemy Blind on Uncle is announced ~80s; successful application and cooldown expenditure are not visually established by the saved evidence reviewed for this repair. Retain as an attempt only, outside enemy_resources_spent and resources_forced."
+        ]
+      },
+      "inferred": {
+        "before": [
+          "Waiting through Dispersion and replacing off-target Blind with Sap enables the later finish"
+        ],
+        "after": [
+          "Waiting through Dispersion and replacing off-target Blind with Sap enables the later finish",
+          "V6 initial-objective inference: Brief Rogue pressure draws trinket (~79s); after the Priest switch (~86s), confirmed Rogue Blind (~94s) is replaced by Sap (~103.5s) for the post-Dispersion window.",
+          "V6 win-condition assessment: Dispersion ends ~104.5s; Priest Horror (~105s) overlaps Rogue Sap (~103.5s onward) before death.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Subtlety Rogue PvP Trinket (~79s)",
+          "Shadow Priest PvP Trinket (~93s)",
+          "Shadow Priest Dispersion (~99-104.5s)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 105,
+      "end_seconds": 106,
+      "before_death_or_first_friendly_loss_seconds": 106.5,
+      "evidence": "Dispersion ends ~104.5s; Priest Horror (~105s) overlaps Rogue Sap (~103.5s onward) before death."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_031",
+    "reason": "Define health-exposure plus Priest-control state; Hunter trinket ready, Priest racial tracked separately.",
+    "changed_fields": [
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "resources_forced": {
+        "before": [
+          "Priest WOTF 59s",
+          "Priest Divine Hymn channel 67-68s"
+        ],
+        "after": [
+          "Discipline Priest Will of the Forsaken (~59s; separate PvP Trinket state unknown)",
+          "Discipline Priest Divine Hymn channel (~67-68s)"
+        ]
+      },
+      "win_condition": {
+        "before": "Convert sustained Hunter pressure once absorbs stop preserving his health, with Priest controlled during the last damage window",
+        "after": "Hunter absorbs no longer preserve full health and Priest is controlled during renewed low-health Hunter pressure; Hunter PvP Trinket remains ready"
+      },
+      "inferred": {
+        "before": [
+          "Final Priest control coincides with the Hunter kill despite earlier successful healing channel"
+        ],
+        "after": [
+          "Final Priest control coincides with the Hunter kill despite earlier successful healing channel",
+          "V6 objective review: the existing sequence does not distinguish a meaningful initial purpose from ordinary pressure/control; later resource use is not assigned retroactively as proven initial intent.",
+          "V6 win-condition assessment: After visible health loss begins ~64s, renewed Priest control (~69-72.5s) overlaps Hunter health pressure. Priest racial cooldown is not evidence of PvP Trinket use.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Discipline Priest Will of the Forsaken (~59s; separate PvP Trinket state unknown)",
+          "Discipline Priest Divine Hymn channel (~67-68s)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 69,
+      "end_seconds": 71,
+      "before_death_or_first_friendly_loss_seconds": 71.5,
+      "evidence": "After visible health loss begins ~64s, renewed Priest control (~69-72.5s) overlaps Hunter health pressure. Priest racial cooldown is not evidence of PvP Trinket use."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_032",
+    "reason": "Replace kill tautology; post-death Priest trinket spent-only; enemy Blind report stays attempt-only.",
+    "changed_fields": [
+      "resources_forced",
+      "win_condition",
+      "observed",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "resources_forced": {
+        "before": [
+          "Enemy Rogue casts Blind on Uncle around 90s",
+          "Enemy Priest uses trinket at approximately 103.5s, after Rogue death"
+        ],
+        "after": []
+      },
+      "win_condition": {
+        "before": "Kill Rogue during sustained stun pressure while Priest is controlled",
+        "after": "Enemy Rogue is at reduced health after consecutive stuns while Priest support is denied by Sap and later Fear; both enemy PvP Trinkets remain ready"
+      },
+      "observed": {
+        "before": [
+          "Blade's Edge Arena replay 38621862; four player frames establish 2v2",
+          "Both enemy trinkets remain available at Rogue death; Priest trinket is spent afterwards",
+          "Friendly Rogue survives; Priest remains full health at enemy Rogue death"
+        ],
+        "after": [
+          "Blade's Edge Arena replay 38621862; four player frames establish 2v2",
+          "Both enemy trinkets remain available at Rogue death; Priest trinket is spent afterwards",
+          "Friendly Rogue survives; Priest remains full health at enemy Rogue death",
+          "V6 evidence qualification: enemy Blind on Uncle is announced ~90s; successful application and cooldown expenditure are not visually established by the saved evidence reviewed for this repair. Retain as an attempt only, outside enemy_resources_spent and resources_forced."
+        ]
+      },
+      "inferred": {
+        "before": [
+          "Off-target Priest control supports the Rogue kill; opponent intent is unknown"
+        ],
+        "after": [
+          "Off-target Priest control supports the Rogue kill; opponent intent is unknown",
+          "V6 objective review: the existing sequence does not distinguish a meaningful initial purpose from ordinary pressure/control; later resource use is not assigned retroactively as proven initial intent.",
+          "V6 win-condition assessment: Final Priest Fear (~100.5s) overlaps the already weakened Rogue before death. Priest trinket at ~103.5s is afterward and cannot explain the first kill.",
+          "V6 resource split: confirmed offensive control and post-kill spends without clear causal attribution remain enemy_resources_spent only; they are not treated as resources our pressure necessarily forced.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Shadow Priest PvP Trinket (~103.5s, after Rogue death)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 100.5,
+      "end_seconds": 102,
+      "before_death_or_first_friendly_loss_seconds": 102.5,
+      "evidence": "Final Priest Fear (~100.5s) overlaps the already weakened Rogue before death. Priest trinket at ~103.5s is afterward and cannot explain the first kill."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_033",
+    "reason": "Define denied late heal before death; interrupt/non-use are not resources spent; retain Penance.",
+    "changed_fields": [
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "resources_forced": {
+        "before": [
+          "Priest Penance at 87â€“88s",
+          "Priest Flash Heal interrupted around 90.5â€“91s",
+          "Neither enemy trinket visibly used before the kill"
+        ],
+        "after": [
+          "Discipline Priest Penance (~87-88s)"
+        ]
+      },
+      "win_condition": {
+        "before": "Sustain Hunter pressure and deny the late Priest heal during the final low-health window",
+        "after": "Hunter is at low health and the next Priest Flash Heal is interrupted after Penance recovery; both enemy PvP Trinkets remain available"
+      },
+      "inferred": {
+        "before": [
+          "The late healing interruption supports conversion; earlier control alone does not establish continuous healing denial"
+        ],
+        "after": [
+          "The late healing interruption supports conversion; earlier control alone does not establish continuous healing denial",
+          "V6 objective review: the existing sequence does not distinguish a meaningful initial purpose from ordinary pressure/control; later resource use is not assigned retroactively as proven initial intent.",
+          "V6 win-condition assessment: Confirmed Kick (~90.5-91s) denies the late heal before Hunter death. Priest is not continuously controlled, and the unlabelled Hunter effect is not named as CC or a cooldown spend.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Discipline Priest Penance (~87-88s)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 91,
+      "end_seconds": 92,
+      "before_death_or_first_friendly_loss_seconds": 92.5,
+      "evidence": "Confirmed Kick (~90.5-91s) denies the late heal before Hunter death. Priest is not continuously controlled, and the unlabelled Hunter effect is not named as CC or a cooldown spend."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_034",
+    "reason": "Condition false -> true at ~76-78s despite loss; Priest free before near-kill; enemy Blind report attempt-only.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "win_condition_obtained",
+      "failure_reason",
+      "observed",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Remove Priest PvP Trinket with Blind so follow-up Priest control can isolate a Rogue attack"
+      },
+      "resources_forced": {
+        "before": [
+          "Priest trinket around 66s",
+          "Rogue trinket around 76s",
+          "Enemy Rogue casts Blind on Uncle around 86s; Priest Flash Heal completes around 87s"
+        ],
+        "after": [
+          "Shadow Priest PvP Trinket (~66s)",
+          "Subtlety Rogue PvP Trinket (~76s)"
+        ]
+      },
+      "win_condition": {
+        "before": "Convert the Rogue low-health window while both friendly players survive and Priest assistance is denied",
+        "after": "Enemy Rogue has reduced health and no PvP Trinket while Priest, whose PvP Trinket is also spent, is briefly Feared and both friendly players remain alive"
+      },
+      "win_condition_obtained": {
+        "before": false,
+        "after": true
+      },
+      "failure_reason": {
+        "before": "Friendly Rogue dies before the enemy Rogue's approximately 3% health can be converted; Priest is free to act and heal after earlier control ends",
+        "after": "The favourable reduced-health Rogue window with both enemy trinkets spent and Priest Feared exists ~76-78s, but Priest Fear expires ~78s. Enemy Rogue reaches ~3% around 83.5s with Priest free; our Rogue dies ~84s before conversion. Priest heals afterward and both enemies recover."
+      },
+      "observed": {
+        "before": [
+          "Nagrand Arena replay 38621958; four player frames establish 2v2",
+          "Full frame at 84s confirms Rogue death and Gold 1 versus Green 2 remaining",
+          "Green enemy victory around 110s; enemy Priest stays full health and enemy Rogue recovers"
+        ],
+        "after": [
+          "Nagrand Arena replay 38621958; four player frames establish 2v2",
+          "Full frame at 84s confirms Rogue death and Gold 1 versus Green 2 remaining",
+          "Green enemy victory around 110s; enemy Priest stays full health and enemy Rogue recovers",
+          "V6 evidence qualification: enemy Blind on Uncle is announced ~86s; successful application and cooldown expenditure are not visually established by the saved evidence reviewed for this repair. Retain as an attempt only, outside enemy_resources_spent and resources_forced."
+        ]
+      },
+      "inferred": {
+        "before": [
+          "Loss of friendly Rogue pressure permits enemy recovery; exact fatal damage combination and later Priest ending are unknown",
+          "Loss information: High: shows a near kill failing at the first friendly death, followed by enemy healing recovery; final reason for the surviving Priest's loss is less clear"
+        ],
+        "after": [
+          "Loss of friendly Rogue pressure permits enemy recovery; exact fatal damage combination and later Priest ending are unknown",
+          "Loss information: High: shows a near kill failing at the first friendly death, followed by enemy healing recovery; final reason for the surviving Priest's loss is less clear",
+          "V6 initial-objective inference: Confirmed Priest Blind (~62-66s) draws trinket (~66s), immediately followed by Priest Horror and Rogue stuns. Later Priest Fear briefly overlaps a Rogue with trinket spent and reduced health.",
+          "V6 win-condition assessment: Saved frames show Rogue ~50% at 76-77s and ~46% at 78s, both trinkets cooling and Priest Fear counting down to expiry ~78s. Priest is free by the ~3% Rogue near-kill (~83.5s); our Rogue dies ~84s. The favourable window was reached but not converted.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Shadow Priest PvP Trinket (~66s)",
+          "Subtlety Rogue PvP Trinket (~76s)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 76,
+      "end_seconds": 78,
+      "before_death_or_first_friendly_loss_seconds": 84,
+      "evidence": "Saved frames show Rogue ~50% at 76-77s and ~46% at 78s, both trinkets cooling and Priest Fear counting down to expiry ~78s. Priest is free by the ~3% Rogue near-kill (~83.5s); our Rogue dies ~84s. The favourable window was reached but not converted."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_035",
+    "reason": "Infer renewed Hunter escape/control window; confirmed offensive Mind Control spent-only.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Extract Hunter escape resources and renew healer denial for another Hunter window after the disrupted opener"
+      },
+      "resources_forced": {
+        "before": [
+          "Priest trinket approximately 57s",
+          "Hunter trinket approximately 80s",
+          "Priest Mind Control around 54â€“56s"
+        ],
+        "after": [
+          "Discipline Priest PvP Trinket (~57s)",
+          "Marksmanship Hunter PvP Trinket (~80s)"
+        ]
+      },
+      "win_condition": {
+        "before": "Renew Hunter pressure with both enemy trinkets unavailable and Priest controlled during the final damage window",
+        "after": "Hunter PvP Trinket is unavailable during renewed stuns at reduced health while Priest is controlled with PvP Trinket also spent"
+      },
+      "inferred": {
+        "before": [
+          "Renewed damage converts after the absorbed opening; exact reason for the interim pet selections is unknown"
+        ],
+        "after": [
+          "Renewed damage converts after the absorbed opening; exact reason for the interim pet selections is unknown",
+          "V6 initial-objective inference: Early Hunter pressure is absorbed and Mind Control disrupts participation; later Hunter Blind (~78-80s) draws trinket, then renewed Hunter stuns and Priest Fear/Horror support the next window.",
+          "V6 win-condition assessment: Priest Horror (~94-97s) overlaps renewed Hunter stuns and health loss to ~4% (~96.5s). Sub-frame expiry/death ordering is not needed to establish the prior state.",
+          "V6 resource split: confirmed offensive control and post-kill spends without clear causal attribution remain enemy_resources_spent only; they are not treated as resources our pressure necessarily forced.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Discipline Priest PvP Trinket (~57s)",
+          "Marksmanship Hunter PvP Trinket (~80s)",
+          "Discipline Priest Mind Control channel (~54-56s)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 94,
+      "end_seconds": 96.5,
+      "before_death_or_first_friendly_loss_seconds": 97,
+      "evidence": "Priest Horror (~94-97s) overlaps renewed Hunter stuns and health loss to ~4% (~96.5s). Sub-frame expiry/death ordering is not needed to establish the prior state."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_036",
+    "reason": "Infer escape extraction and later isolation; replace action sequence with pre-kill state.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Extract Priest escape resources while developing Rogue isolation for a later Priest recommitment"
+      },
+      "resources_forced": {
+        "before": [
+          "Enemy Priest trinket about 79s.",
+          "Enemy Rogue trinket about 90s, immediately after Blind about 89s."
+        ],
+        "after": [
+          "Shadow Priest PvP Trinket (~79s)",
+          "Subtlety Rogue PvP Trinket (~90s, after Blind)"
+        ]
+      },
+      "win_condition": {
+        "before": "Return to Priest after both trinkets are spent, renew control on the enemy Rogue with Sap into Fear, and maintain final Priest damage with short stuns.",
+        "after": "Priest is at reduced health in renewed short stuns after both enemy PvP Trinkets are spent, while enemy Rogue is isolated by Sap then Fear"
+      },
+      "inferred": {
+        "before": [
+          "The renewed Sap/Fear sequence limits enemy Rogue interference during the successful Priest finish."
+        ],
+        "after": [
+          "The renewed Sap/Fear sequence limits enemy Rogue interference during the successful Priest finish.",
+          "V6 initial-objective inference: Opening Priest Sap/Horror and health pressure precede Priest trinket (~79s); intervening Rogue pressure draws Rogue trinket after Blind (~90s), and renewed Rogue Sap/Fear accompanies the return to Priest.",
+          "V6 win-condition assessment: Priest final Flash Heal is interrupted ~109.5s with short stuns while Rogue Fear (~108.5-114s) denies interference.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Shadow Priest PvP Trinket (~79s)",
+          "Subtlety Rogue PvP Trinket (~90s, after Blind)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 109.5,
+      "end_seconds": 111,
+      "before_death_or_first_friendly_loss_seconds": 112,
+      "evidence": "Priest final Flash Heal is interrupted ~109.5s with short stuns while Rogue Fear (~108.5-114s) denies interference."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_037",
+    "reason": "Define first favourable Rogue window before trade; Blind report attempt-only; confidence medium for inferred final Priest conversion.",
+    "changed_fields": [
+      "initial_objective",
+      "setup_actions",
+      "resources_forced",
+      "win_condition",
+      "confidence",
+      "observed",
+      "inferred",
+      "analysis_status",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Extract enemy escape resources to create a renewed Rogue window with Priest support denied"
+      },
+      "setup_actions": {
+        "before": [
+          "Enemy Priest uses trinket after opening Sap; enemy Rogue takes opening stuns and begins losing health about 49s.",
+          "Enemy Rogue trinkets about 52s and casts Blind on our Rogue; our Rogue later reports being Sapped.",
+          "Priest Fear about 64.5â€“69.5s accompanies the enemy Rogue's health decline.",
+          "Our Priest dies about 74.5s; enemy Rogue becomes DEAD about 75.5s, leaving our Rogue against the enemy Priest.",
+          "Our Rogue applies repeated short controls to Priest and stops Resurrection attempts about 101s and 124s.",
+          "Priest recovers through Flash Heal during the 1v1, then falls from about 65% at 130s to 3% at 138â€“139.5s."
+        ],
+        "after": [
+          "Enemy Priest uses trinket after opening Sap; enemy Rogue takes opening stuns and begins losing health about 49s.",
+          "Enemy Rogue trinkets about 52s and has a Blind attempt on our Rogue announced, application unconfirmed; our Rogue later reports being Sapped.",
+          "Priest Fear about 64.5â€“69.5s accompanies the enemy Rogue's health decline.",
+          "Our Priest dies about 74.5s; enemy Rogue becomes DEAD about 75.5s, leaving our Rogue against the enemy Priest.",
+          "Our Rogue applies repeated short controls to Priest and stops Resurrection attempts about 101s and 124s.",
+          "Priest recovers through Flash Heal during the 1v1, then falls from about 65% at 130s to 3% at 138â€“139.5s."
+        ]
+      },
+      "resources_forced": {
+        "before": [
+          "Enemy Priest trinket about 45s.",
+          "Enemy Rogue trinket about 52s and Blind on our Rogue immediately afterward."
+        ],
+        "after": [
+          "Shadow Priest PvP Trinket (~45s)",
+          "Subtlety Rogue PvP Trinket (~52s)"
+        ]
+      },
+      "win_condition": {
+        "before": "Convert the enemy Rogue's low health despite the friendly Priest trade, prevent Resurrection, and sustain the ensuing Rogue-versus-Priest finish.",
+        "after": "Enemy Rogue PvP Trinket is unavailable and renewed Rogue health pressure overlaps Priest Fear after Priest has also spent PvP Trinket"
+      },
+      "confidence": {
+        "before": "high",
+        "after": "medium"
+      },
+      "observed": {
+        "before": [
+          "Replay 38622096, Dalaran.",
+          "Uncle death message about 74.5s; Pumpitx DEAD about 75.5s.",
+          "Resurrection casts at about 96â€“101s and 117â€“124s show Failed followed by short Priest control.",
+          "Enemy Rogue remains DEAD throughout the 1v1; Priest trinket has about 25s remaining at 139.5s.",
+          "Gold victory at 140s and our Rogue remains alive."
+        ],
+        "after": [
+          "Replay 38622096, Dalaran.",
+          "Uncle death message about 74.5s; Pumpitx DEAD about 75.5s.",
+          "Resurrection casts at about 96â€“101s and 117â€“124s show Failed followed by short Priest control.",
+          "Enemy Rogue remains DEAD throughout the 1v1; Priest trinket has about 25s remaining at 139.5s.",
+          "Gold victory at 140s and our Rogue remains alive.",
+          "V6 evidence qualification: enemy Blind on our Rogue is announced ~52s; successful application and cooldown expenditure are not visually established by the saved evidence reviewed for this repair. Retain as an attempt only, outside enemy_resources_spent and resources_forced."
+        ]
+      },
+      "inferred": {
+        "before": [
+          "Sustained 1v1 damage and denial of Resurrection convert the trade into the final win.",
+          "Priest likely dies immediately after the last 3% frame, but the exact death event is not visible in the reviewed frames."
+        ],
+        "after": [
+          "Sustained 1v1 damage and denial of Resurrection convert the trade into the final win.",
+          "Priest likely dies immediately after the last 3% frame, but the exact death event is not visible in the reviewed frames.",
+          "V6 initial-objective inference: Priest trinkets opening Sap (~45s), Rogue trinkets opening stuns (~52s), then renewed Priest Fear (~64.5-69.5s) accompanies Rogue health pressure. The ensuing 1v1 is a later branch.",
+          "V6 win-condition assessment: Priest Fear (~64.5-69.5s) overlaps renewed Rogue health pressure with both trinkets spent. Friendly Priest later dies ~74.5s and enemy Rogue ~75.5s; Resurrection denial and the final 1v1 remain a later branch, with final Priest death inferred.",
+          "V6 confidence assessment: The initial window, player trade and Resurrection denials are clear, but the final Priest death/conversion remains inferred from low health and the immediate result; a departure cannot be definitively excluded."
+        ]
+      },
+      "analysis_status": {
+        "before": "analysed",
+        "after": "uncertain"
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Shadow Priest PvP Trinket (~45s)",
+          "Subtlety Rogue PvP Trinket (~52s)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 64.5,
+      "end_seconds": 69,
+      "before_death_or_first_friendly_loss_seconds": 75.5,
+      "evidence": "Priest Fear (~64.5-69.5s) overlaps renewed Rogue health pressure with both trinkets spent. Friendly Priest later dies ~74.5s and enemy Rogue ~75.5s; Resurrection denial and the final 1v1 remain a later branch, with final Priest death inferred."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_038",
+    "reason": "Infer repeated Warrior window; replace conversion actions with stun/Fear state and include Penance recovery.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Remove Warrior PvP Trinket for a renewed Warrior stun with Priest healing denied"
+      },
+      "resources_forced": {
+        "before": [
+          "Warrior trinket about 89s."
+        ],
+        "after": [
+          "Arms Warrior PvP Trinket (~89s)",
+          "Discipline Priest Penance (~96-99s healing-recovery window)"
+        ]
+      },
+      "win_condition": {
+        "before": "Continue Warrior pressure after his trinket, then land renewed Priest Fear during the final Warrior stun and health collapse.",
+        "after": "Warrior PvP Trinket is unavailable during a renewed stun at reduced health while Priest is Feared; Priest PvP Trinket remains available"
+      },
+      "inferred": {
+        "before": [
+          "The final healer control prevents another visible healing recovery during the decisive Warrior damage."
+        ],
+        "after": [
+          "The final healer control prevents another visible healing recovery during the decisive Warrior damage.",
+          "V6 initial-objective inference: Warrior trinket (~89s) precedes healing recovery (~96-99s), then renewed Warrior stun and Priest Fear (~102-107s) overlap.",
+          "V6 win-condition assessment: Renewed Warrior stun and Priest Fear (~102-107s) overlap after earlier healing recovery, before Warrior death.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Arms Warrior PvP Trinket (~89s)",
+          "Discipline Priest Penance (~96-99s healing-recovery window)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 102.5,
+      "end_seconds": 104,
+      "before_death_or_first_friendly_loss_seconds": 104.5,
+      "evidence": "Renewed Warrior stun and Priest Fear (~102-107s) overlap after earlier healing recovery, before Warrior death."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_039",
+    "reason": "Infer Rogue extraction for later Priest branch; replace successful-finish wording with low Priest under off-target Fear.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Extract Rogue escape resources to enable a later Priest-isolation branch"
+      },
+      "resources_forced": {
+        "before": [
+          "Priest trinket about 73s, ending Sap.",
+          "Enemy Rogue trinket about 81s, ending a stun."
+        ],
+        "after": [
+          "Shadow Priest PvP Trinket (~73s, ending Sap)",
+          "Subtlety Rogue PvP Trinket (~81s, ending a stun)"
+        ]
+      },
+      "win_condition": {
+        "before": "After spending both trinkets and lowering enemy Rogue health, switch to Priest and maintain renewed Rogue Fear during the successful Priest finish.",
+        "after": "Priest is at low health after both enemy PvP Trinkets are spent while renewed enemy Rogue Fear denies interference"
+      },
+      "inferred": {
+        "before": [
+          "The final off-target Rogue Fear limits interference while Priest pressure converts."
+        ],
+        "after": [
+          "The final off-target Rogue Fear limits interference while Priest pressure converts.",
+          "V6 initial-objective inference: The first sustained Rogue attack (~71-81s) draws Rogue trinket (~81s); later Priest recommitment (~94s) is supported by renewed off-target Rogue Fear (~102-109s).",
+          "V6 win-condition assessment: Enemy Rogue Fear (~102-109s) overlaps Priest health plateau near ~13% and later short control, before sustained Priest death. Exact defensive contribution remains unknown.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Shadow Priest PvP Trinket (~73s, ending Sap)",
+          "Subtlety Rogue PvP Trinket (~81s, ending a stun)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 102,
+      "end_seconds": 106,
+      "before_death_or_first_friendly_loss_seconds": 107,
+      "evidence": "Enemy Rogue Fear (~102-109s) overlaps Priest health plateau near ~13% and later short control, before sustained Priest death. Exact defensive contribution remains unknown."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_040",
+    "reason": "Infer renewed Rogue window; condition excludes immediate Blind break and later Priest cleanup.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Extract Rogue PvP Trinket for a renewed Rogue stun window after the opener is disrupted"
+      },
+      "resources_forced": {
+        "before": [
+          "Enemy Rogue trinket about 62s, ending Fear."
+        ],
+        "after": [
+          "Subtlety Rogue PvP Trinket (~62s, ending Fear)"
+        ]
+      },
+      "win_condition": {
+        "before": "After the opening is delayed by friendly control, spend the enemy Rogue trinket and renew Rogue stuns with meaningful damage, then complete the Priest cleanup.",
+        "after": "Enemy Rogue PvP Trinket is unavailable and renewed stuns expose health that the initial absorbs had preserved"
+      },
+      "inferred": {
+        "before": [
+          "The short Priest Flash Heal attempt starts too late to restore his Rogue before the observed death."
+        ],
+        "after": [
+          "The short Priest Flash Heal attempt starts too late to restore his Rogue before the observed death.",
+          "V6 initial-objective inference: Initial stuns are absorbed and friendly control delays participation; Rogue trinket breaks Fear (~62s), followed by brief Blind and renewed stuns with health pressure (~65-71s).",
+          "V6 win-condition assessment: Health declines during renewed stuns (~65-68s) after Fear is trinketed (~62s). The brief Blind ends almost immediately and Priest is later free to cast; neither continuous Blind nor healer control is required.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Subtlety Rogue PvP Trinket (~62s, ending Fear)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 65,
+      "end_seconds": 68,
+      "before_death_or_first_friendly_loss_seconds": 71.5,
+      "evidence": "Health declines during renewed stuns (~65-68s) after Fear is trinketed (~62s). The brief Blind ends almost immediately and Priest is later free to cast; neither continuous Blind nor healer control is required."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_041",
+    "reason": "Infer Priest escape extraction for healer isolation; enemy Blind report attempt-only; cleanup Mind Control spent-only.",
+    "changed_fields": [
+      "initial_objective",
+      "resources_forced",
+      "win_condition",
+      "observed",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "initial_objective": {
+        "before": "unknown",
+        "after": "Remove Priest PvP Trinket to enable renewed healer isolation during repeated Rogue attacks"
+      },
+      "resources_forced": {
+        "before": [
+          "Priest PvP trinket around 66s.",
+          "Rogue PvP trinket around 94s.",
+          "Enemy Rogue casts Blind on Uncle around 83s."
+        ],
+        "after": [
+          "Shadow Priest PvP Trinket (~66s)",
+          "Subtlety Rogue PvP Trinket (~94s)"
+        ]
+      },
+      "win_condition": {
+        "before": "Sustain damage on the low Rogue while the Priest is controlled after using his trinket.",
+        "after": "Enemy Rogue is at low health after its PvP Trinket and healing recovery while Priest is stunned with PvP Trinket also unavailable"
+      },
+      "observed": {
+        "before": [
+          "Replay 38622316, Nagrand; Lesbianboy Shadow Priest and Nothanqx Subtlety Rogue.",
+          "Blind UP on Priest appears around 84.5s; Rogue remains alive at 1â€“9% before the later trinket.",
+          "Half-second frames show Rogue trinket around 94s, 18% at 95s, 16% at 96s, DEAD at 97s; Priest stun continues through this death.",
+          "Both enemies display DEAD at 119s before loading."
+        ],
+        "after": [
+          "Replay 38622316, Nagrand; Lesbianboy Shadow Priest and Nothanqx Subtlety Rogue.",
+          "Blind UP on Priest appears around 84.5s; Rogue remains alive at 1â€“9% before the later trinket.",
+          "Half-second frames show Rogue trinket around 94s, 18% at 95s, 16% at 96s, DEAD at 97s; Priest stun continues through this death.",
+          "Both enemies display DEAD at 119s before loading.",
+          "V6 evidence qualification: enemy Blind on Uncle is announced ~83s; successful application and cooldown expenditure are not visually established by the saved evidence reviewed for this repair. Retain as an attempt only, outside enemy_resources_spent and resources_forced."
+        ]
+      },
+      "inferred": {
+        "before": [
+          "Blind and renewed Priest control limit healing during the successful Rogue conversion; exact initial strategic intent is not established."
+        ],
+        "after": [
+          "Blind and renewed Priest control limit healing during the successful Rogue conversion; exact initial strategic intent is not established.",
+          "V6 initial-objective inference: Priest trinket (~66s) precedes healing recoveries and a confirmed Priest Blind (~84.5-94s); renewed Priest stun (~95-100s) follows Rogue trinket and recovery. This is inferred purpose, not directly proven intent.",
+          "V6 win-condition assessment: Rogue trinket (~94s) is followed by ~18% at 95s and ~16% at 96s, with Priest stun (~95-100s) denying healing before the first kill.",
+          "V6 resource split: confirmed offensive control and post-kill spends without clear causal attribution remain enemy_resources_spent only; they are not treated as resources our pressure necessarily forced.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": [
+          "Shadow Priest PvP Trinket (~66s)",
+          "Subtlety Rogue PvP Trinket (~94s)",
+          "Shadow Priest Mind Control channel (~105-114s, during 2v1 cleanup)"
+        ]
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 95,
+      "end_seconds": 96,
+      "before_death_or_first_friendly_loss_seconds": 97,
+      "evidence": "Rogue trinket (~94s) is followed by ~18% at 95s and ~16% at 96s, with Priest stun (~95-100s) denying healing before the first kill."
+    }
+  },
+  {
+    "match_id": "sep11_2500_match_042b",
+    "reason": "Replace damage-exceeds-health tautology with reduced-health renewed-stun state; empty spent/forced arrays, trinkets unused.",
+    "changed_fields": [
+      "resources_forced",
+      "win_condition",
+      "inferred",
+      "enemy_resources_spent"
+    ],
+    "changes": {
+      "resources_forced": {
+        "before": [
+          "Neither enemy PvP trinket is observed used; both icons remain ready through the Warrior kill."
+        ],
+        "after": []
+      },
+      "win_condition": {
+        "before": "Sustain Warrior damage through healing and repeated control until it exceeds his remaining health; healer control at the exact kill is not established.",
+        "after": "Warrior remains at reduced health after incomplete healing recoveries and is exposed to renewed stuns while both friendly players remain active; both enemy PvP Trinkets are ready"
+      },
+      "inferred": {
+        "before": [
+          "Continued Warrior damage converts despite intermittent healing; exact defensive ability names and initial intent are not established."
+        ],
+        "after": [
+          "Continued Warrior damage converts despite intermittent healing; exact defensive ability names and initial intent are not established.",
+          "V6 objective review: the existing sequence does not distinguish a meaningful initial purpose from ordinary pressure/control; later resource use is not assigned retroactively as proven initial intent.",
+          "V6 win-condition assessment: Warrior remains in the ~19-33% health range before renewed stuns (~199-202s and ~206-207.5s). Paladin later casts freely; healer isolation and escape removal are not asserted as prerequisites. Sustained Warrior death is ~213s, not the transient zero-health frame ~211s.",
+          "V6 confidence assessment: the important target/resource/control transitions and condition assessment are supported; unknown minor ability names, attempted CC and approximate GCD timing do not materially change the recorded strategic arc."
+        ]
+      },
+      "enemy_resources_spent": {
+        "before": null,
+        "after": []
+      }
+    },
+    "win_condition_witness": {
+      "obtained": true,
+      "start_seconds": 199,
+      "end_seconds": 202,
+      "before_death_or_first_friendly_loss_seconds": 213,
+      "evidence": "Warrior remains in the ~19-33% health range before renewed stuns (~199-202s and ~206-207.5s). Paladin later casts freely; healer isolation and escape removal are not asserted as prerequisites. Sustained Warrior death is ~213s, not the transient zero-health frame ~211s."
+    }
+  }
+]

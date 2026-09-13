@@ -1,0 +1,22 @@
+GROUP 32: Shadow Priest / Subtlety Rogue__vs__Protection Warrior / Retribution Paladin
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Protection Warrior / Retribution Paladin", "total_games": 2, "wins": 2, "losses": 0, "unknown_result": 0, "opening_target_known": 2, "opening_target_unknown": 0, "opening_targets": {"Protection Warrior": 2}, "kill_target_known": 2, "kill_target_unknown": 0, "kill_targets": {"Protection Warrior": 2}, "records_with_quality_flags": 1, "records_with_source_exceptions": 1, "records_with_source_win_condition_hypothesis": 2, "source_batch_distribution": {"february_3rd_2550_20260912": 1, "january_5th_full_20260912": 1}}
+
+M041 | win | open=Protection Warrior | kill=Protection Warrior | extraction=high | flags=
+OBS: Nagrand gates around 64s; Gladius identifies Darkioron as Retribution at 81s and Kennik as Protection at 91s.
+OBS: Friendly Priest falls critically low around 83-88s but recovers through Flash Heal around 90-94s.
+OBS: Half-second review confirms Warrior death while Paladin remains controlled and both friendly players are alive.
+OBS: No Paladin Divine Shield or Hand of Protection use is confirmed.
+OBS: Opening-target qualification retained: Protection Warrior (Kennik); earlier Priest chip on Paladin does not start sustained Rogue damage.
+SOURCE CONVERSION: Warrior dies around 107.5s under renewed stun while Paladin remains controlled; Paladin is killed around 123s and Gold Team victory appears around 124s.
+SOURCE RESET: Warrior opening, brief Paladin damage branches, and a final Warrior return after friendly Priest heals.
+
+M105 | win | open=Protection Warrior | kill=Protection Warrior | extraction=high | flags=source_exception_present
+OBS: UI identifies Paladin as Retribution and Warrior as Protection.
+OBS: ~50s: Paladin trinket; ~58s: Warrior trinket announcements.
+OBS: ~70–77s: Warrior low, then recovers during Paladin Flash of Light casts.
+OBS: ~81s: Blind explicitly announced/applied to Paladin. ~82–88s: Warrior stun, health collapse, DEAD.
+OBS: ~88s onward: Paladin Silence/control and cleanup. ~97s: winner message.
+SOURCE CONVERSION: Blind Paladin (~81s), stun and burst Warrior (~82–88s). Warrior dies; Paladin is controlled/pressured during cleanup.
+SOURCE RESET: Warrior Sap breaks early without a verified trinket. First Warrior pressure is healed: Paladin Flash of Light visible ~73–75s. Resume Warrior in a later healer-control window.
+UNKNOWN: ["Cause of initial Warrior Sap break is unknown; Berserker Rage is not verified.", "No Paladin bubble or other named defensive is verified."]
+EXCEPTION: - **match_006** (analysed): Cause of initial Warrior Sap break is unknown; Berserker Rage is not verified. No Paladin bubble or other named defensive is verified.

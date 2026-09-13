@@ -1,0 +1,10 @@
+GROUP 42: Shadow Priest / Subtlety Rogue__vs__Enhancement Shaman / Subtlety Rogue
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Enhancement Shaman / Subtlety Rogue", "total_games": 1, "wins": 1, "losses": 0, "unknown_result": 0, "opening_target_known": 1, "opening_target_unknown": 0, "opening_targets": {"Enhancement Shaman": 1}, "kill_target_known": 1, "kill_target_unknown": 0, "kill_targets": {"Enhancement Shaman": 1}, "records_with_quality_flags": 0, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 1, "source_batch_distribution": {"may_4th_2350_20260913": 1}}
+
+M355 | win | open=Enhancement Shaman | kill=Enhancement Shaman | extraction=medium | flags=
+OBS: Only Shaman visible early; Rogue appears ~89s and participates, so valid normal2v2
+OBS: Both trinket cooldowns show2m by91s after Fear
+OBS: Rogue control is intermittent, not continuous isolation; short renewed countdown ~95-97s and103-106s
+OBS: Shaman remains ~30% ~100-104s; defensive spell identity not confidently readable
+OBS: Rogue remains alive after Shaman death; no second death proved by victory
+SOURCE CONVERSION: Shaman reaches ~30% ~100s, remains there briefly, Healing Wave interrupted ~104s and Shaman DEAD ~107s; victory111s

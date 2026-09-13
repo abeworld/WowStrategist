@@ -1,0 +1,844 @@
+{
+  "strategy_id": "SPR_vs_Destro_RDruid_v1",
+  "strategy_key": "SPR_vs_Destro_RDruid",
+  "version": 1,
+  "schema_version": "1.0.0",
+  "status": "provisional",
+  "created_date": "2026-09-13",
+  "our_comp": "Shadow Priest / Subtlety Rogue",
+  "enemy_comp": "Destruction Warlock / Restoration Druid",
+  "evidence": {
+    "total_games": 5,
+    "wins": 5,
+    "losses": 0,
+    "unknown_result": 0,
+    "confidence": "low",
+    "supporting_match_ids": [
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+      "september_20th_2650_20260913__september20_2650_match_018",
+      "may_18th_2500_20260913__may18_2500_match_050",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+    ],
+    "contradicting_match_ids": [
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+    ],
+    "contradiction_scope": "Challenges to candidate or stronger universal rules, not necessarily to the final qualified wording.",
+    "representative_match_ids": [
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+      "september_20th_2650_20260913__september20_2650_match_018"
+    ],
+    "all_match_ids": [
+      "may_18th_2500_20260913__may18_2500_match_050",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+      "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033",
+      "september_20th_2650_20260913__september20_2650_match_018"
+    ],
+    "data_quality_notes": [
+      "Source extractions reviewed; original videos were not reopened during synthesis.",
+      "Both dedicated player-role fields are empty in all input records; roles remain unknown except where explicit narrative evidence is cited.",
+      "Sample win rate is a property of selected footage, not expected ladder performance.",
+      "Absent events are unknown unless the record explicitly establishes availability or absence.",
+      "A reported enemy kill can occur after a friendly death; the round result is stored separately.",
+      "No losses in this matchup; outcome discrimination and loss-derived failure modes cannot be established.",
+      "1 records carry source quality flags; consult evidence and exceptions before treating a claim as footage-verified."
+    ],
+    "source_batches": {
+      "may_18th_2500_20260913": 1,
+      "may_24th_vod2_2600_20260913": 3,
+      "september_20th_2650_20260913": 1
+    }
+  },
+  "facts": {
+    "by_result": {
+      "win": {
+        "total": 5,
+        "opening_targets": {
+          "Destruction Warlock": 5
+        },
+        "enemy_kill_targets": {
+          "Restoration Druid": 2,
+          "Destruction Warlock": 3
+        }
+      },
+      "loss": {
+        "total": 0,
+        "opening_targets": {},
+        "enemy_kill_targets": {}
+      },
+      "unknown": {
+        "total": 0,
+        "opening_targets": {},
+        "enemy_kill_targets": {}
+      }
+    },
+    "opening_targets": {
+      "Destruction Warlock": 5
+    },
+    "kill_targets": {
+      "Restoration Druid": 2,
+      "Destruction Warlock": 3
+    },
+    "opening_to_reported_enemy_kill": [
+      {
+        "opening_target": "Destruction Warlock",
+        "reported_enemy_kill": "Destruction Warlock",
+        "result": "win",
+        "count": 3,
+        "match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+          "september_20th_2650_20260913__september20_2650_match_018"
+        ]
+      },
+      {
+        "opening_target": "Destruction Warlock",
+        "reported_enemy_kill": "Restoration Druid",
+        "result": "win",
+        "count": 2,
+        "match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_050",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+        ]
+      }
+    ],
+    "sequence_limit": "Endpoints only. No intermediate swap timing, causal sequence, or survival at the enemy death is inferred by this computation.",
+    "source_resource_labels": [
+      {
+        "label": "Destruction Warlock PvP trinket at approximately 85.5s",
+        "records": 1
+      },
+      {
+        "label": "Druid PvP Trinket at 155",
+        "records": 1
+      },
+      {
+        "label": "Druid PvP Trinket at 193",
+        "records": 1
+      },
+      {
+        "label": "Druid PvP Trinket at 193 after sustained control and pressure",
+        "records": 1
+      },
+      {
+        "label": "Druid PvP Trinket breaks Kidney Shot during low-health healer pressure",
+        "records": 1
+      },
+      {
+        "label": "Druid Trinket (95.5s)",
+        "records": 1
+      },
+      {
+        "label": "Druid Trinket at 144 during low-health Kidney Shot pressure.",
+        "records": 1
+      },
+      {
+        "label": "Druid Trinket at 144.",
+        "records": 1
+      },
+      {
+        "label": "Restoration Druid PvP trinket at approximately 111.5s",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket again at 237",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket at 103",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket at 103 under control",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket at 152.5",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket at 237 during renewed control",
+        "records": 1
+      },
+      {
+        "label": "Warlock PvP Trinket breaks Sap during healer pressure",
+        "records": 1
+      },
+      {
+        "label": "Warlock Succubus resummon at 106.",
+        "records": 1
+      },
+      {
+        "label": "Warlock Succubus resummon following concentrated pet damage; pet removal inferred rather than directly established.",
+        "records": 1
+      },
+      {
+        "label": "Warlock Trinket (78s)",
+        "records": 1
+      },
+      {
+        "label": "Warlock Trinket at 125 during Fear while Druid is being pressured.",
+        "records": 1
+      },
+      {
+        "label": "Warlock Trinket at 125.",
+        "records": 1
+      }
+    ],
+    "resource_count_limit": "Exact source-listed labels, deduplicated within each match. They include uncertain or offensive entries and are not verified forced-resource frequencies.",
+    "cc_lexical_mentions": {
+      "Sap": 1,
+      "Blind": 1,
+      "Kidney Shot": 1,
+      "Fear": 2,
+      "Cyclone": 1
+    },
+    "cc_count_limit": "Literal mentions in observed notes, including negated/uncertain/post-death mentions. These are search aids, not counts of landed CC.",
+    "recovery_text_present": 5,
+    "recovery_count_limit": "Field coverage only: texts may explicitly say no reset. Not a reset-event rate.",
+    "missing_fields": {
+      "priest_role": 5,
+      "rogue_role": 5,
+      "recovery_text": 0,
+      "result": 0,
+      "opening_target": 0,
+      "enemy_kill_target": 0
+    },
+    "quality_flags": {
+      "source_exception_present": 1
+    },
+    "extraction_confidence": {
+      "high": 5
+    }
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "H1",
+      "statement": "One opening target also explains every reported enemy kill in wins.",
+      "tested_target": "Destruction Warlock",
+      "disposition": "rejected_as_exhaustive",
+      "supporting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+        "september_20th_2650_20260913__september20_2650_match_018"
+      ],
+      "contradicting_match_ids": [
+        "may_18th_2500_20260913__may18_2500_match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+      ],
+      "unknown_kill_wins": 0,
+      "limitation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability."
+    },
+    {
+      "hypothesis_id": "H2",
+      "statement": "Warlock or Druid health loss persists through renewed pressure; full partner isolation is useful in some wins but not a proven requirement.",
+      "disposition": "provisional_interpretation",
+      "supporting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+        "september_20th_2650_20260913__september20_2650_match_018",
+        "may_18th_2500_20260913__may18_2500_match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+      ],
+      "contradicting_match_ids": [],
+      "limitation": "Five wins without losses and two different kill targets limit certainty. A surviving replacement pet and an active Warlock do not preclude observed wins."
+    },
+    {
+      "hypothesis_id": "H3",
+      "statement": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+      ],
+      "limitation": "Five wins without losses and two different kill targets limit certainty. A surviving replacement pet and an active Warlock do not preclude observed wins."
+    }
+  ],
+  "default_line": {
+    "opening_target": {
+      "text": "Destruction Warlock; recorded in 5/5 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "basis": "pattern",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "may_18th_2500_20260913__may18_2500_match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033",
+        "september_20th_2650_20260913__september20_2650_match_018"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "all_labeled_openers_in_this_matchup"
+    },
+    "initial_objective": {
+      "text": "Develop Warlock pressure with healer and pet disruption, retaining a Druid-switch possibility.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+        "september_20th_2650_20260913__september20_2650_match_018",
+        "may_18th_2500_20260913__may18_2500_match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "win_condition": {
+      "text": "Warlock or Druid health loss persists through renewed pressure; full partner isolation is useful in some wins but not a proven requirement.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+        "september_20th_2650_20260913__september20_2650_match_018",
+        "may_18th_2500_20260913__may18_2500_match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "manufacture": {
+      "text": "All five records open Warlock; repeated healing and pet interactions precede either a renewed Warlock attempt or Druid commitment.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+        "september_20th_2650_20260913__september20_2650_match_018",
+        "may_18th_2500_20260913__may18_2500_match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "conversion": {
+      "text": "Usually return Warlock with Druid control; two wins instead finish Druid.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+        "september_20th_2650_20260913__september20_2650_match_018",
+        "may_18th_2500_20260913__may18_2500_match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "reset": {
+      "text": "Renew player pressure after heals and pet replacement; avoid treating a transient missing pet as permanent removal.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+        "september_20th_2650_20260913__september20_2650_match_018",
+        "may_18th_2500_20260913__may18_2500_match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "important_resources": []
+  },
+  "states": [
+    {
+      "state_id": "opening",
+      "description": "All five records open Warlock; repeated healing and pet interactions precede either a renewed Warlock attempt or Druid commitment.",
+      "team_objective": {
+        "text": "All five records open Warlock; repeated healing and pet interactions precede either a renewed Warlock attempt or Druid commitment.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+          "september_20th_2650_20260913__september20_2650_match_018",
+          "may_18th_2500_20260913__may18_2500_match_050",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "An actual pressure commitment has begun.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+            "september_20th_2650_20260913__september20_2650_match_018",
+            "may_18th_2500_20260913__may18_2500_match_050",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+        "september_20th_2650_20260913__september20_2650_match_018",
+        "may_18th_2500_20260913__may18_2500_match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "pressure",
+      "description": "Develop Warlock pressure with healer and pet disruption, retaining a Druid-switch possibility.",
+      "team_objective": {
+        "text": "Develop Warlock pressure with healer and pet disruption, retaining a Druid-switch possibility.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+          "september_20th_2650_20260913__september20_2650_match_018",
+          "may_18th_2500_20260913__may18_2500_match_050",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+        "september_20th_2650_20260913__september20_2650_match_018",
+        "may_18th_2500_20260913__may18_2500_match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "conversion",
+      "description": "Usually return Warlock with Druid control; two wins instead finish Druid.",
+      "team_objective": {
+        "text": "Usually return Warlock with Druid control; two wins instead finish Druid.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+          "september_20th_2650_20260913__september20_2650_match_018",
+          "may_18th_2500_20260913__may18_2500_match_050",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "Warlock or Druid health loss persists through renewed pressure; full partner isolation is useful in some wins but not a proven requirement.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+            "september_20th_2650_20260913__september20_2650_match_018",
+            "may_18th_2500_20260913__may18_2500_match_050",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+        "september_20th_2650_20260913__september20_2650_match_018",
+        "may_18th_2500_20260913__may18_2500_match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "recovery",
+      "description": "Renew player pressure after heals and pet replacement; avoid treating a transient missing pet as permanent removal.",
+      "team_objective": {
+        "text": "Renew player pressure after heals and pet replacement; avoid treating a transient missing pet as permanent removal.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+          "september_20th_2650_20260913__september20_2650_match_018",
+          "may_18th_2500_20260913__may18_2500_match_050",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "The preceding attempt is healed, protected, or interrupted.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+            "september_20th_2650_20260913__september20_2650_match_018",
+            "may_18th_2500_20260913__may18_2500_match_050",
+            "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+        "september_20th_2650_20260913__september20_2650_match_018",
+        "may_18th_2500_20260913__may18_2500_match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "branches": [
+    {
+      "branch_id": "branch_1",
+      "from_state": "pressure",
+      "next_state": "conversion",
+      "trigger": {
+        "text": "Warlock pressure is restored and a later Druid pressure window forms.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_050",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "response": {
+        "text": "Commit Druid through partial recovery; long Warlock isolation is not established in every example.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_050",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "classification": "real reactive branch",
+      "team_objective": {
+        "text": "Commit Druid through partial recovery; long Warlock isolation is not established in every example.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_050",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "evidence": [
+        "may_18th_2500_20260913__may18_2500_match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "match_assessments": [
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_050",
+      "review_id": "M235",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Restoration Druid",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+      "review_id": "M310",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Destruction Warlock",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+      "review_id": "M318",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Destruction Warlock",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033",
+      "review_id": "M333",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Restoration Druid",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_018",
+      "review_id": "M449",
+      "result": "win",
+      "observed_opening_target": "Destruction Warlock",
+      "reported_enemy_kill_target": "Destruction Warlock",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    }
+  ],
+  "failure_modes": [],
+  "runtime_observability": {
+    "automatic": [],
+    "automatic_candidates": [
+      {
+        "signal": "Verified cast/aura, present health, or an observed control start/end",
+        "status": "unvalidated_candidate",
+        "scope": "Raw events only; not strategic intent or reliable absence of an enemy cooldown.",
+        "limitation": "No addon implementation or API testing was performed; no automatic transition is certified."
+      }
+    ],
+    "manual_possible": [
+      {
+        "transition": "pressure_to_conversion",
+        "confirmation": "A meaningful enemy health window, current partner control and friendly readiness overlap."
+      },
+      {
+        "transition": "conversion_to_recovery",
+        "confirmation": "Target recovered or became protected; team needs a new usable attempt."
+      }
+    ],
+    "web_only": [
+      "Strategic intent",
+      "Reasons for a target-selection branch",
+      "Causal counterfactuals",
+      "Full comparison with losses and unresolved evidence"
+    ]
+  },
+  "uncertainties": [
+    "Five wins without losses and two different kill targets limit certainty. A surviving replacement pet and an active Warlock do not preclude observed wins.",
+    "Precise Priest/Rogue division of labour by phase is mostly unknown.",
+    "Exact runtime detection reliability on Warmane 3.3.5 is untested.",
+    "No robust failure mode is established from this sample; absence of a failure entry is not evidence of safety."
+  ],
+  "mechanics_context": [],
+  "provenance": {
+    "prepared_corpus_version": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Destruction_Warlock__Restoration_Druid.jsonl",
+    "review_file": "evidence_review/group_17.txt",
+    "prepared_stats": {
+      "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Destruction Warlock / Restoration Druid",
+      "total_games": 5,
+      "wins": 5,
+      "losses": 0,
+      "unknown_result": 0,
+      "opening_target_known": 5,
+      "opening_target_unknown": 0,
+      "opening_targets": {
+        "Warlock": 1,
+        "Destruction Warlock": 4
+      },
+      "kill_target_known": 5,
+      "kill_target_unknown": 0,
+      "kill_targets": {
+        "Druid": 1,
+        "Destruction Warlock": 3,
+        "Restoration Druid": 1
+      },
+      "records_with_quality_flags": 1,
+      "records_with_source_exceptions": 1,
+      "records_with_source_win_condition_hypothesis": 5,
+      "source_batch_distribution": {
+        "may_18th_2500_20260913": 1,
+        "may_24th_vod2_2600_20260913": 3,
+        "september_20th_2650_20260913": 1
+      }
+    },
+    "review_group": 17,
+    "date": "2026-09-13"
+  },
+  "version_history": [
+    {
+      "version": 1,
+      "date": "2026-09-13",
+      "corpus": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+      "change": "Initial evidence-constrained synthesis; no prior approved strategy replaced.",
+      "reason": "First canonical package for review."
+    }
+  ]
+}

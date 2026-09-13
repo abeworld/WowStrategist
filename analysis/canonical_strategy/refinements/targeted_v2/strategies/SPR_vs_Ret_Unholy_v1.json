@@ -1,0 +1,1122 @@
+{
+  "strategy_id": "SPR_vs_Ret_Unholy_v1",
+  "strategy_key": "SPR_vs_Ret_Unholy",
+  "version": 1,
+  "schema_version": "1.0.0",
+  "status": "provisional",
+  "created_date": "2026-09-13",
+  "our_comp": "Shadow Priest / Subtlety Rogue",
+  "enemy_comp": "Retribution Paladin / Unholy Death Knight",
+  "evidence": {
+    "total_games": 12,
+    "wins": 9,
+    "losses": 3,
+    "unknown_result": 0,
+    "confidence": "low",
+    "supporting_match_ids": [
+      "january_5th_full_20260912__match_033b",
+      "may_18th_2500_20260913__may18_2500_match_003",
+      "may_18th_2500_20260913__may18_2500_match_040",
+      "may_18th_2500_20260913__may18_2500_match_073",
+      "may_18th_2500_20260913__may18_2500_match_077",
+      "may_18th_2500_20260913__may18_2500_match_057",
+      "may_18th_2500_20260913__may18_2500_match_069"
+    ],
+    "contradicting_match_ids": [
+      "may_18th_2500_20260913__may18_2500_match_077",
+      "may_18th_2500_20260913__may18_2500_match_069",
+      "may_18th_2500_20260913__may18_2500_match_076",
+      "may_18th_2500_20260913__may18_2500_match_065",
+      "may_18th_2500_20260913__may18_2500_match_074"
+    ],
+    "contradiction_scope": "Challenges to candidate or stronger universal rules, not necessarily to the final qualified wording.",
+    "representative_match_ids": [
+      "january_5th_full_20260912__match_033b",
+      "may_18th_2500_20260913__may18_2500_match_003",
+      "may_18th_2500_20260913__may18_2500_match_040"
+    ],
+    "all_match_ids": [
+      "february_3rd_2550_20260912__feb03_2550_match_019",
+      "january_5th_full_20260912__match_033b",
+      "may_18th_2500_20260913__may18_2500_match_003",
+      "may_18th_2500_20260913__may18_2500_match_040",
+      "may_18th_2500_20260913__may18_2500_match_057",
+      "may_18th_2500_20260913__may18_2500_match_062",
+      "may_18th_2500_20260913__may18_2500_match_065",
+      "may_18th_2500_20260913__may18_2500_match_069",
+      "may_18th_2500_20260913__may18_2500_match_073",
+      "may_18th_2500_20260913__may18_2500_match_074",
+      "may_18th_2500_20260913__may18_2500_match_076",
+      "may_18th_2500_20260913__may18_2500_match_077"
+    ],
+    "data_quality_notes": [
+      "Source extractions reviewed; original videos were not reopened during synthesis.",
+      "Both dedicated player-role fields are empty in all input records; roles remain unknown except where explicit narrative evidence is cited.",
+      "Sample win rate is a property of selected footage, not expected ladder performance.",
+      "Absent events are unknown unless the record explicitly establishes availability or absence.",
+      "A reported enemy kill can occur after a friendly death; the round result is stored separately.",
+      "1 records carry source quality flags; consult evidence and exceptions before treating a claim as footage-verified."
+    ],
+    "source_batches": {
+      "february_3rd_2550_20260912": 1,
+      "january_5th_full_20260912": 1,
+      "may_18th_2500_20260913": 10
+    }
+  },
+  "facts": {
+    "by_result": {
+      "win": {
+        "total": 9,
+        "opening_targets": {
+          "Unholy Death Knight": 8,
+          "Retribution Paladin": 1
+        },
+        "enemy_kill_targets": {
+          "Unholy Death Knight": 6,
+          "Retribution Paladin": 3
+        }
+      },
+      "loss": {
+        "total": 3,
+        "opening_targets": {
+          "Unholy Death Knight": 3
+        },
+        "enemy_kill_targets": {
+          "unknown_or_no_enemy_kill": 3
+        }
+      },
+      "unknown": {
+        "total": 0,
+        "opening_targets": {},
+        "enemy_kill_targets": {}
+      }
+    },
+    "opening_targets": {
+      "Unholy Death Knight": 11,
+      "Retribution Paladin": 1
+    },
+    "kill_targets": {
+      "Unholy Death Knight": 6,
+      "Retribution Paladin": 3,
+      "unknown_or_no_enemy_kill": 3
+    },
+    "opening_to_reported_enemy_kill": [
+      {
+        "opening_target": "Retribution Paladin",
+        "reported_enemy_kill": "Retribution Paladin",
+        "result": "win",
+        "count": 1,
+        "match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_076"
+        ]
+      },
+      {
+        "opening_target": "Unholy Death Knight",
+        "reported_enemy_kill": "Retribution Paladin",
+        "result": "win",
+        "count": 2,
+        "match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_057",
+          "may_18th_2500_20260913__may18_2500_match_069"
+        ]
+      },
+      {
+        "opening_target": "Unholy Death Knight",
+        "reported_enemy_kill": "Unholy Death Knight",
+        "result": "win",
+        "count": 6,
+        "match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_019",
+          "january_5th_full_20260912__match_033b",
+          "may_18th_2500_20260913__may18_2500_match_003",
+          "may_18th_2500_20260913__may18_2500_match_040",
+          "may_18th_2500_20260913__may18_2500_match_073",
+          "may_18th_2500_20260913__may18_2500_match_077"
+        ]
+      },
+      {
+        "opening_target": "Unholy Death Knight",
+        "reported_enemy_kill": "unknown_or_no_enemy_kill",
+        "result": "loss",
+        "count": 3,
+        "match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_062",
+          "may_18th_2500_20260913__may18_2500_match_065",
+          "may_18th_2500_20260913__may18_2500_match_074"
+        ]
+      }
+    ],
+    "sequence_limit": "Endpoints only. No intermediate swap timing, causal sequence, or survival at the enemy death is inferred by this computation.",
+    "source_resource_labels": [
+      {
+        "label": "Death Knight Anti-Magic Shell (50–55s)",
+        "records": 1
+      },
+      {
+        "label": "Death Knight Anti-Magic Shell (82–86s, 130–134s)",
+        "records": 1
+      },
+      {
+        "label": "Death Knight Anti-Magic Shell (89–93s)",
+        "records": 1
+      },
+      {
+        "label": "Death Knight PvP Trinket (148s)",
+        "records": 1
+      },
+      {
+        "label": "Death Knight PvP Trinket (46s)",
+        "records": 1
+      },
+      {
+        "label": "Death Knight PvP Trinket (48s)",
+        "records": 1
+      },
+      {
+        "label": "Death Knight PvP Trinket (52s)",
+        "records": 1
+      },
+      {
+        "label": "Death Knight Trinket (73s)",
+        "records": 1
+      },
+      {
+        "label": "Death Knight defensive (82s; exact ability unknown)",
+        "records": 1
+      },
+      {
+        "label": "Gargoyle (126s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket (134s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket (71s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin PvP Trinket (93s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin Trinket (78s)",
+        "records": 1
+      },
+      {
+        "label": "Paladin major defensive (123s; exact ability unknown)",
+        "records": 1
+      },
+      {
+        "label": "Paladin unidentified major protection (54–66s)",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin PvP Trinket",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin PvP Trinket (~174s)",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin PvP Trinket at approximately 54s",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin: PvP Trinket, 110.5s",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin: PvP Trinket, 65s",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin: PvP Trinket, 77.5s",
+        "records": 1
+      },
+      {
+        "label": "Retribution Paladin: major protection, exact ability unknown, 73-85s",
+        "records": 1
+      },
+      {
+        "label": "Unholy Death Knight PvP Trinket",
+        "records": 1
+      },
+      {
+        "label": "Unholy Death Knight PvP Trinket (~159s)",
+        "records": 1
+      },
+      {
+        "label": "Unholy Death Knight PvP Trinket at approximately 93s",
+        "records": 1
+      },
+      {
+        "label": "Unholy Death Knight Summon Gargoyle",
+        "records": 1
+      },
+      {
+        "label": "Unholy Death Knight Summon Gargoyle at approximately 81s",
+        "records": 1
+      },
+      {
+        "label": "Unholy Death Knight magic protection at approximately 77-81s (exact ability unknown)",
+        "records": 1
+      },
+      {
+        "label": "Unholy Death Knight: PvP Trinket, 50s",
+        "records": 1
+      },
+      {
+        "label": "Unholy Death Knight: PvP Trinket, 80.5s",
+        "records": 1
+      },
+      {
+        "label": "Unholy Death Knight: short defensive effect, exact ability unknown, 51-53s",
+        "records": 1
+      },
+      {
+        "label": "Unholy Death Knight: short defensive effect, exact ability unknown, approximately 71-76s and 117-119s",
+        "records": 1
+      },
+      {
+        "label": "Unholy Death Knight: short defensive effect, exact ability unknown, approximately 86-89s",
+        "records": 1
+      }
+    ],
+    "resource_count_limit": "Exact source-listed labels, deduplicated within each match. They include uncertain or offensive entries and are not verified forced-resource frequencies.",
+    "cc_lexical_mentions": {
+      "Sap": 4,
+      "Blind": 6,
+      "Silence": 3,
+      "Gouge": 3,
+      "Fear": 2
+    },
+    "cc_count_limit": "Literal mentions in observed notes, including negated/uncertain/post-death mentions. These are search aids, not counts of landed CC.",
+    "recovery_text_present": 10,
+    "recovery_count_limit": "Field coverage only: texts may explicitly say no reset. Not a reset-event rate.",
+    "missing_fields": {
+      "priest_role": 12,
+      "rogue_role": 12,
+      "recovery_text": 2,
+      "result": 0,
+      "opening_target": 0,
+      "enemy_kill_target": 3
+    },
+    "quality_flags": {
+      "truncated_evidence": 1,
+      "source_exception_present": 1
+    },
+    "extraction_confidence": {
+      "high": 10,
+      "medium": 2
+    }
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "H1",
+      "statement": "One opening target also explains every reported enemy kill in wins.",
+      "tested_target": "Unholy Death Knight",
+      "disposition": "rejected_as_exhaustive",
+      "supporting_match_ids": [
+        "february_3rd_2550_20260912__feb03_2550_match_019",
+        "january_5th_full_20260912__match_033b",
+        "may_18th_2500_20260913__may18_2500_match_003",
+        "may_18th_2500_20260913__may18_2500_match_040",
+        "may_18th_2500_20260913__may18_2500_match_073",
+        "may_18th_2500_20260913__may18_2500_match_077"
+      ],
+      "contradicting_match_ids": [
+        "may_18th_2500_20260913__may18_2500_match_057",
+        "may_18th_2500_20260913__may18_2500_match_069",
+        "may_18th_2500_20260913__may18_2500_match_076"
+      ],
+      "unknown_kill_wins": 0,
+      "limitation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability."
+    },
+    {
+      "hypothesis_id": "H2",
+      "statement": "Death Knight health pressure persists into renewed control or an interrupt; alternatively Paladin becomes vulnerable while Death Knight is controlled.",
+      "disposition": "provisional_interpretation",
+      "supporting_match_ids": [
+        "january_5th_full_20260912__match_033b",
+        "may_18th_2500_20260913__may18_2500_match_003",
+        "may_18th_2500_20260913__may18_2500_match_040",
+        "may_18th_2500_20260913__may18_2500_match_073",
+        "may_18th_2500_20260913__may18_2500_match_077",
+        "may_18th_2500_20260913__may18_2500_match_057",
+        "may_18th_2500_20260913__may18_2500_match_069"
+      ],
+      "contradicting_match_ids": [],
+      "limitation": "Wins occur with ready escapes or active Paladin healing; spending both escapes also occurs without threatening enemy health in losses."
+    },
+    {
+      "hypothesis_id": "H3",
+      "statement": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [
+        "may_18th_2500_20260913__may18_2500_match_077",
+        "may_18th_2500_20260913__may18_2500_match_069",
+        "may_18th_2500_20260913__may18_2500_match_076",
+        "may_18th_2500_20260913__may18_2500_match_065",
+        "may_18th_2500_20260913__may18_2500_match_074"
+      ],
+      "limitation": "Wins occur with ready escapes or active Paladin healing; spending both escapes also occurs without threatening enemy health in losses."
+    }
+  ],
+  "default_line": {
+    "opening_target": {
+      "text": "Unholy Death Knight; recorded in 11/12 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "basis": "pattern",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "february_3rd_2550_20260912__feb03_2550_match_019",
+        "january_5th_full_20260912__match_033b",
+        "may_18th_2500_20260913__may18_2500_match_003",
+        "may_18th_2500_20260913__may18_2500_match_040",
+        "may_18th_2500_20260913__may18_2500_match_057",
+        "may_18th_2500_20260913__may18_2500_match_062",
+        "may_18th_2500_20260913__may18_2500_match_065",
+        "may_18th_2500_20260913__may18_2500_match_069",
+        "may_18th_2500_20260913__may18_2500_match_073",
+        "may_18th_2500_20260913__may18_2500_match_074",
+        "may_18th_2500_20260913__may18_2500_match_077"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "all_labeled_openers_in_this_matchup"
+    },
+    "initial_objective": {
+      "text": "Develop Death Knight pressure while disrupting Paladin healing, with a possible Paladin return.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "january_5th_full_20260912__match_033b",
+        "may_18th_2500_20260913__may18_2500_match_003",
+        "may_18th_2500_20260913__may18_2500_match_040",
+        "may_18th_2500_20260913__may18_2500_match_073",
+        "may_18th_2500_20260913__may18_2500_match_077",
+        "may_18th_2500_20260913__may18_2500_match_057",
+        "may_18th_2500_20260913__may18_2500_match_069"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "win_condition": {
+      "text": "Death Knight health pressure persists into renewed control or an interrupt; alternatively Paladin becomes vulnerable while Death Knight is controlled.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "january_5th_full_20260912__match_033b",
+        "may_18th_2500_20260913__may18_2500_match_003",
+        "may_18th_2500_20260913__may18_2500_match_040",
+        "may_18th_2500_20260913__may18_2500_match_073",
+        "may_18th_2500_20260913__may18_2500_match_077",
+        "may_18th_2500_20260913__may18_2500_match_057",
+        "may_18th_2500_20260913__may18_2500_match_069"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "manufacture": {
+      "text": "Usually open Death Knight. Renew Paladin disruption after recoveries; observed Gargoyle interruptions are support disruption, not evidence that a summon or pet must be removed.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "january_5th_full_20260912__match_033b",
+        "may_18th_2500_20260913__may18_2500_match_003",
+        "may_18th_2500_20260913__may18_2500_match_040",
+        "may_18th_2500_20260913__may18_2500_match_073",
+        "may_18th_2500_20260913__may18_2500_match_077",
+        "may_18th_2500_20260913__may18_2500_match_057",
+        "may_18th_2500_20260913__may18_2500_match_069"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "conversion": {
+      "text": "Usually finish Death Knight. Some repeated Paladin branches use Death Knight control to support actual Paladin damage.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "january_5th_full_20260912__match_033b",
+        "may_18th_2500_20260913__may18_2500_match_003",
+        "may_18th_2500_20260913__may18_2500_match_040",
+        "may_18th_2500_20260913__may18_2500_match_073",
+        "may_18th_2500_20260913__may18_2500_match_077",
+        "may_18th_2500_20260913__may18_2500_match_057",
+        "may_18th_2500_20260913__may18_2500_match_069"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "reset": {
+      "text": "Renew the same target after healing, or recommit Paladin after its protection/recovery. Do not label unidentified protective effects.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "january_5th_full_20260912__match_033b",
+        "may_18th_2500_20260913__may18_2500_match_003",
+        "may_18th_2500_20260913__may18_2500_match_040",
+        "may_18th_2500_20260913__may18_2500_match_073",
+        "may_18th_2500_20260913__may18_2500_match_077",
+        "may_18th_2500_20260913__may18_2500_match_057",
+        "may_18th_2500_20260913__may18_2500_match_069"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "important_resources": []
+  },
+  "states": [
+    {
+      "state_id": "opening",
+      "description": "Usually open Death Knight. Renew Paladin disruption after recoveries; observed Gargoyle interruptions are support disruption, not evidence that a summon or pet must be removed.",
+      "team_objective": {
+        "text": "Usually open Death Knight. Renew Paladin disruption after recoveries; observed Gargoyle interruptions are support disruption, not evidence that a summon or pet must be removed.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_033b",
+          "may_18th_2500_20260913__may18_2500_match_003",
+          "may_18th_2500_20260913__may18_2500_match_040",
+          "may_18th_2500_20260913__may18_2500_match_073",
+          "may_18th_2500_20260913__may18_2500_match_077",
+          "may_18th_2500_20260913__may18_2500_match_057",
+          "may_18th_2500_20260913__may18_2500_match_069"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "An actual pressure commitment has begun.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "january_5th_full_20260912__match_033b",
+            "may_18th_2500_20260913__may18_2500_match_003",
+            "may_18th_2500_20260913__may18_2500_match_040",
+            "may_18th_2500_20260913__may18_2500_match_073",
+            "may_18th_2500_20260913__may18_2500_match_077",
+            "may_18th_2500_20260913__may18_2500_match_057",
+            "may_18th_2500_20260913__may18_2500_match_069"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "january_5th_full_20260912__match_033b",
+        "may_18th_2500_20260913__may18_2500_match_003",
+        "may_18th_2500_20260913__may18_2500_match_040",
+        "may_18th_2500_20260913__may18_2500_match_073",
+        "may_18th_2500_20260913__may18_2500_match_077",
+        "may_18th_2500_20260913__may18_2500_match_057",
+        "may_18th_2500_20260913__may18_2500_match_069"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "pressure",
+      "description": "Develop Death Knight pressure while disrupting Paladin healing, with a possible Paladin return.",
+      "team_objective": {
+        "text": "Develop Death Knight pressure while disrupting Paladin healing, with a possible Paladin return.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_033b",
+          "may_18th_2500_20260913__may18_2500_match_003",
+          "may_18th_2500_20260913__may18_2500_match_040",
+          "may_18th_2500_20260913__may18_2500_match_073",
+          "may_18th_2500_20260913__may18_2500_match_077",
+          "may_18th_2500_20260913__may18_2500_match_057",
+          "may_18th_2500_20260913__may18_2500_match_069"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "january_5th_full_20260912__match_033b",
+        "may_18th_2500_20260913__may18_2500_match_003",
+        "may_18th_2500_20260913__may18_2500_match_040",
+        "may_18th_2500_20260913__may18_2500_match_073",
+        "may_18th_2500_20260913__may18_2500_match_077",
+        "may_18th_2500_20260913__may18_2500_match_057",
+        "may_18th_2500_20260913__may18_2500_match_069"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "conversion",
+      "description": "Usually finish Death Knight. Some repeated Paladin branches use Death Knight control to support actual Paladin damage.",
+      "team_objective": {
+        "text": "Usually finish Death Knight. Some repeated Paladin branches use Death Knight control to support actual Paladin damage.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_033b",
+          "may_18th_2500_20260913__may18_2500_match_003",
+          "may_18th_2500_20260913__may18_2500_match_040",
+          "may_18th_2500_20260913__may18_2500_match_073",
+          "may_18th_2500_20260913__may18_2500_match_077",
+          "may_18th_2500_20260913__may18_2500_match_057",
+          "may_18th_2500_20260913__may18_2500_match_069"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "Death Knight health pressure persists into renewed control or an interrupt; alternatively Paladin becomes vulnerable while Death Knight is controlled.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "january_5th_full_20260912__match_033b",
+            "may_18th_2500_20260913__may18_2500_match_003",
+            "may_18th_2500_20260913__may18_2500_match_040",
+            "may_18th_2500_20260913__may18_2500_match_073",
+            "may_18th_2500_20260913__may18_2500_match_077",
+            "may_18th_2500_20260913__may18_2500_match_057",
+            "may_18th_2500_20260913__may18_2500_match_069"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "january_5th_full_20260912__match_033b",
+        "may_18th_2500_20260913__may18_2500_match_003",
+        "may_18th_2500_20260913__may18_2500_match_040",
+        "may_18th_2500_20260913__may18_2500_match_073",
+        "may_18th_2500_20260913__may18_2500_match_077",
+        "may_18th_2500_20260913__may18_2500_match_057",
+        "may_18th_2500_20260913__may18_2500_match_069"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "recovery",
+      "description": "Renew the same target after healing, or recommit Paladin after its protection/recovery. Do not label unidentified protective effects.",
+      "team_objective": {
+        "text": "Renew the same target after healing, or recommit Paladin after its protection/recovery. Do not label unidentified protective effects.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_033b",
+          "may_18th_2500_20260913__may18_2500_match_003",
+          "may_18th_2500_20260913__may18_2500_match_040",
+          "may_18th_2500_20260913__may18_2500_match_073",
+          "may_18th_2500_20260913__may18_2500_match_077",
+          "may_18th_2500_20260913__may18_2500_match_057",
+          "may_18th_2500_20260913__may18_2500_match_069"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "The preceding attempt is healed, protected, or interrupted.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "january_5th_full_20260912__match_033b",
+            "may_18th_2500_20260913__may18_2500_match_003",
+            "may_18th_2500_20260913__may18_2500_match_040",
+            "may_18th_2500_20260913__may18_2500_match_073",
+            "may_18th_2500_20260913__may18_2500_match_077",
+            "may_18th_2500_20260913__may18_2500_match_057",
+            "may_18th_2500_20260913__may18_2500_match_069"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "january_5th_full_20260912__match_033b",
+        "may_18th_2500_20260913__may18_2500_match_003",
+        "may_18th_2500_20260913__may18_2500_match_040",
+        "may_18th_2500_20260913__may18_2500_match_073",
+        "may_18th_2500_20260913__may18_2500_match_077",
+        "may_18th_2500_20260913__may18_2500_match_057",
+        "may_18th_2500_20260913__may18_2500_match_069"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "branches": [
+    {
+      "branch_id": "branch_1",
+      "from_state": "pressure",
+      "next_state": "conversion",
+      "trigger": {
+        "text": "Death Knight control supports meaningful Paladin pressure after initial Death Knight attempts.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_057",
+          "may_18th_2500_20260913__may18_2500_match_069"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "response": {
+        "text": "Commit or renew Paladin pressure through partial recovery.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_057",
+          "may_18th_2500_20260913__may18_2500_match_069"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "classification": "real reactive branch",
+      "team_objective": {
+        "text": "Commit or renew Paladin pressure through partial recovery.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_057",
+          "may_18th_2500_20260913__may18_2500_match_069"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "evidence": [
+        "may_18th_2500_20260913__may18_2500_match_057",
+        "may_18th_2500_20260913__may18_2500_match_069"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "match_assessments": [
+    {
+      "match_id": "february_3rd_2550_20260912__feb03_2550_match_019",
+      "review_id": "M045",
+      "result": "win",
+      "observed_opening_target": "Unholy Death Knight",
+      "reported_enemy_kill_target": "Unholy Death Knight",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_033b",
+      "review_id": "M134",
+      "result": "win",
+      "observed_opening_target": "Unholy Death Knight",
+      "reported_enemy_kill_target": "Unholy Death Knight",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_003",
+      "review_id": "M191",
+      "result": "win",
+      "observed_opening_target": "Unholy Death Knight",
+      "reported_enemy_kill_target": "Unholy Death Knight",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_040",
+      "review_id": "M225",
+      "result": "win",
+      "observed_opening_target": "Unholy Death Knight",
+      "reported_enemy_kill_target": "Unholy Death Knight",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_057",
+      "review_id": "M242",
+      "result": "win",
+      "observed_opening_target": "Unholy Death Knight",
+      "reported_enemy_kill_target": "Retribution Paladin",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_062",
+      "review_id": "M247",
+      "result": "loss",
+      "observed_opening_target": "Unholy Death Knight",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_065",
+      "review_id": "M250",
+      "result": "loss",
+      "observed_opening_target": "Unholy Death Knight",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_069",
+      "review_id": "M254",
+      "result": "win",
+      "observed_opening_target": "Unholy Death Knight",
+      "reported_enemy_kill_target": "Retribution Paladin",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_073",
+      "review_id": "M258",
+      "result": "win",
+      "observed_opening_target": "Unholy Death Knight",
+      "reported_enemy_kill_target": "Unholy Death Knight",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_074",
+      "review_id": "M259",
+      "result": "loss",
+      "observed_opening_target": "Unholy Death Knight",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_076",
+      "review_id": "M261",
+      "result": "win",
+      "observed_opening_target": "Retribution Paladin",
+      "reported_enemy_kill_target": "Retribution Paladin",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_077",
+      "review_id": "M262",
+      "result": "win",
+      "observed_opening_target": "Unholy Death Knight",
+      "reported_enemy_kill_target": "Unholy Death Knight",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    }
+  ],
+  "failure_modes": [
+    {
+      "text": "Paladin healing restores Death Knight and friendly countercontrol/survival breaks before a renewed finish.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "may_18th_2500_20260913__may18_2500_match_062",
+        "may_18th_2500_20260913__may18_2500_match_065",
+        "may_18th_2500_20260913__may18_2500_match_074"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    }
+  ],
+  "runtime_observability": {
+    "automatic": [],
+    "automatic_candidates": [
+      {
+        "signal": "Verified cast/aura, present health, or an observed control start/end",
+        "status": "unvalidated_candidate",
+        "scope": "Raw events only; not strategic intent or reliable absence of an enemy cooldown.",
+        "limitation": "No addon implementation or API testing was performed; no automatic transition is certified."
+      }
+    ],
+    "manual_possible": [
+      {
+        "transition": "pressure_to_conversion",
+        "confirmation": "A meaningful enemy health window, current partner control and friendly readiness overlap."
+      },
+      {
+        "transition": "conversion_to_recovery",
+        "confirmation": "Target recovered or became protected; team needs a new usable attempt."
+      }
+    ],
+    "web_only": [
+      "Strategic intent",
+      "Reasons for a target-selection branch",
+      "Causal counterfactuals",
+      "Full comparison with losses and unresolved evidence"
+    ]
+  },
+  "uncertainties": [
+    "Wins occur with ready escapes or active Paladin healing; spending both escapes also occurs without threatening enemy health in losses.",
+    "Precise Priest/Rogue division of labour by phase is mostly unknown.",
+    "Exact runtime detection reliability on Warmane 3.3.5 is untested."
+  ],
+  "mechanics_context": [],
+  "provenance": {
+    "prepared_corpus_version": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Retribution_Paladin__Unholy_Death_Knight.jsonl",
+    "review_file": "evidence_review/group_09.txt",
+    "prepared_stats": {
+      "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Retribution Paladin / Unholy Death Knight",
+      "total_games": 12,
+      "wins": 9,
+      "losses": 3,
+      "unknown_result": 0,
+      "opening_target_known": 12,
+      "opening_target_unknown": 0,
+      "opening_targets": {
+        "Unholy Death Knight": 10,
+        "Death Knight": 1,
+        "Retribution Paladin": 1
+      },
+      "kill_target_known": 9,
+      "kill_target_unknown": 3,
+      "kill_targets": {
+        "Unholy Death Knight": 5,
+        "Death Knight": 1,
+        "Retribution Paladin": 3
+      },
+      "records_with_quality_flags": 1,
+      "records_with_source_exceptions": 1,
+      "records_with_source_win_condition_hypothesis": 12,
+      "source_batch_distribution": {
+        "february_3rd_2550_20260912": 1,
+        "january_5th_full_20260912": 1,
+        "may_18th_2500_20260913": 10
+      }
+    },
+    "review_group": 9,
+    "date": "2026-09-13"
+  },
+  "version_history": [
+    {
+      "version": 1,
+      "date": "2026-09-13",
+      "corpus": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+      "change": "Initial evidence-constrained synthesis; no prior approved strategy replaced.",
+      "reason": "First canonical package for review."
+    }
+  ]
+}

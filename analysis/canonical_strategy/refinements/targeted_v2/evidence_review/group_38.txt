@@ -1,0 +1,11 @@
+GROUP 38: Shadow Priest / Subtlety Rogue__vs__Balance Druid / Holy Paladin
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Balance Druid / Holy Paladin", "total_games": 1, "wins": 1, "losses": 0, "unknown_result": 0, "opening_target_known": 1, "opening_target_unknown": 0, "opening_targets": {"Holy Paladin": 1}, "kill_target_known": 1, "kill_target_unknown": 0, "kill_targets": {"Holy Paladin": 1}, "records_with_quality_flags": 0, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 1, "source_batch_distribution": {"may_4th_2350_20260913": 1}}
+
+M369 | win | open=Holy Paladin | kill=Holy Paladin | extraction=high | flags=
+OBS: Neither enemy visibly spends PvP trinket before first death; both icons remain ready
+OBS: Druid is free56-60s and casts Nourish59-60s; no interruption of that cast established
+OBS: No Divine Shield use confidently established; do not infer it from class or outcome
+OBS: Both enemy deaths independently shown
+OBS: Next replay36064984 preparation89s continues in039
+SOURCE CONVERSION: Paladin first burst reaches~20%55.5s, small recovery follows, renewed pressure/control kills it60.5s; Druid DEAD74s, victory75s
+SOURCE RESET: Continue Paladin after small recovery once Druid Fear expires

@@ -1,0 +1,1060 @@
+{
+  "strategy_id": "SPR_vs_Frost_SP_v1",
+  "strategy_key": "SPR_vs_Frost_SP",
+  "version": 1,
+  "schema_version": "1.0.0",
+  "status": "provisional",
+  "created_date": "2026-09-13",
+  "our_comp": "Shadow Priest / Subtlety Rogue",
+  "enemy_comp": "Frost Mage / Shadow Priest",
+  "evidence": {
+    "total_games": 11,
+    "wins": 11,
+    "losses": 0,
+    "unknown_result": 0,
+    "confidence": "low",
+    "supporting_match_ids": [
+      "january_4th_2700_20260913__match_001",
+      "january_5th_full_20260912__match_042",
+      "may_18th_2500_20260913__may18_2500_match_009",
+      "may_4th_2350_20260913__may04_2350_match_016",
+      "september_20th_2650_20260913__september20_2650_match_009",
+      "september_20th_2650_20260913__september20_2650_match_011"
+    ],
+    "contradicting_match_ids": [
+      "may_4th_2350_20260913__may04_2350_match_023",
+      "september_20th_2650_20260913__september20_2650_match_011",
+      "january_5th_full_20260912__match_034",
+      "september_20th_2650_20260913__september20_2650_match_010"
+    ],
+    "contradiction_scope": "Challenges to candidate or stronger universal rules, not necessarily to the final qualified wording.",
+    "representative_match_ids": [
+      "january_4th_2700_20260913__match_001",
+      "january_5th_full_20260912__match_042",
+      "may_18th_2500_20260913__may18_2500_match_009"
+    ],
+    "all_match_ids": [
+      "february_3rd_2550_20260912__feb03_2550_match_003",
+      "january_4th_2700_20260913__match_001",
+      "january_5th_full_20260912__match_034",
+      "january_5th_full_20260912__match_036",
+      "january_5th_full_20260912__match_042",
+      "may_18th_2500_20260913__may18_2500_match_009",
+      "may_4th_2350_20260913__may04_2350_match_016",
+      "may_4th_2350_20260913__may04_2350_match_023",
+      "september_20th_2650_20260913__september20_2650_match_009",
+      "september_20th_2650_20260913__september20_2650_match_010",
+      "september_20th_2650_20260913__september20_2650_match_011"
+    ],
+    "data_quality_notes": [
+      "Source extractions reviewed; original videos were not reopened during synthesis.",
+      "Both dedicated player-role fields are empty in all input records; roles remain unknown except where explicit narrative evidence is cited.",
+      "Sample win rate is a property of selected footage, not expected ladder performance.",
+      "Absent events are unknown unless the record explicitly establishes availability or absence.",
+      "A reported enemy kill can occur after a friendly death; the round result is stored separately.",
+      "No losses in this matchup; outcome discrimination and loss-derived failure modes cannot be established.",
+      "6 records carry source quality flags; consult evidence and exceptions before treating a claim as footage-verified."
+    ],
+    "source_batches": {
+      "february_3rd_2550_20260912": 1,
+      "january_4th_2700_20260913": 1,
+      "january_5th_full_20260912": 3,
+      "may_18th_2500_20260913": 1,
+      "may_4th_2350_20260913": 2,
+      "september_20th_2650_20260913": 3
+    }
+  },
+  "facts": {
+    "by_result": {
+      "win": {
+        "total": 11,
+        "opening_targets": {
+          "Shadow Priest": 6,
+          "Frost Mage": 5
+        },
+        "enemy_kill_targets": {
+          "Frost Mage": 3,
+          "Shadow Priest": 7,
+          "unknown_or_no_enemy_kill": 1
+        }
+      },
+      "loss": {
+        "total": 0,
+        "opening_targets": {},
+        "enemy_kill_targets": {}
+      },
+      "unknown": {
+        "total": 0,
+        "opening_targets": {},
+        "enemy_kill_targets": {}
+      }
+    },
+    "opening_targets": {
+      "Shadow Priest": 6,
+      "Frost Mage": 5
+    },
+    "kill_targets": {
+      "Frost Mage": 3,
+      "Shadow Priest": 7,
+      "unknown_or_no_enemy_kill": 1
+    },
+    "opening_to_reported_enemy_kill": [
+      {
+        "opening_target": "Frost Mage",
+        "reported_enemy_kill": "Frost Mage",
+        "result": "win",
+        "count": 2,
+        "match_ids": [
+          "september_20th_2650_20260913__september20_2650_match_009",
+          "september_20th_2650_20260913__september20_2650_match_011"
+        ]
+      },
+      {
+        "opening_target": "Frost Mage",
+        "reported_enemy_kill": "Shadow Priest",
+        "result": "win",
+        "count": 2,
+        "match_ids": [
+          "january_4th_2700_20260913__match_001",
+          "january_5th_full_20260912__match_042"
+        ]
+      },
+      {
+        "opening_target": "Frost Mage",
+        "reported_enemy_kill": "unknown_or_no_enemy_kill",
+        "result": "win",
+        "count": 1,
+        "match_ids": [
+          "january_5th_full_20260912__match_034"
+        ]
+      },
+      {
+        "opening_target": "Shadow Priest",
+        "reported_enemy_kill": "Frost Mage",
+        "result": "win",
+        "count": 1,
+        "match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_003"
+        ]
+      },
+      {
+        "opening_target": "Shadow Priest",
+        "reported_enemy_kill": "Shadow Priest",
+        "result": "win",
+        "count": 5,
+        "match_ids": [
+          "january_5th_full_20260912__match_036",
+          "may_18th_2500_20260913__may18_2500_match_009",
+          "may_4th_2350_20260913__may04_2350_match_016",
+          "may_4th_2350_20260913__may04_2350_match_023",
+          "september_20th_2650_20260913__september20_2650_match_010"
+        ]
+      }
+    ],
+    "sequence_limit": "Endpoints only. No intermediate swap timing, causal sequence, or survival at the enemy death is inferred by this computation.",
+    "source_resource_labels": [
+      {
+        "label": "Frost Mage Ice Block about 55-60s",
+        "records": 1
+      },
+      {
+        "label": "Frost Mage PvP Trinket",
+        "records": 1
+      },
+      {
+        "label": "Frost Mage PvP Trinket (~134s)",
+        "records": 1
+      },
+      {
+        "label": "Frost Mage PvP Trinket (~60s)",
+        "records": 1
+      },
+      {
+        "label": "Frost Mage PvP Trinket (~67-69s)",
+        "records": 1
+      },
+      {
+        "label": "Frost Mage PvP Trinket (~78s)",
+        "records": 1
+      },
+      {
+        "label": "Frost Mage PvP Trinket (~80s)",
+        "records": 1
+      },
+      {
+        "label": "Frost Mage PvP Trinket about 45s",
+        "records": 1
+      },
+      {
+        "label": "Frost Mage immunity (~94s; likely Ice Block)",
+        "records": 1
+      },
+      {
+        "label": "Frost Mage: PvP Trinket (~117s, after Priest death)",
+        "records": 1
+      },
+      {
+        "label": "Frost Mage: PvP Trinket (~83s)",
+        "records": 1
+      },
+      {
+        "label": "Mage Evocation around 184–189s",
+        "records": 1
+      },
+      {
+        "label": "Mage Ice Block around 66–69.5s",
+        "records": 1
+      },
+      {
+        "label": "Mage PvP trinket around 181s",
+        "records": 1
+      },
+      {
+        "label": "Mage PvP trinket around 42s",
+        "records": 1
+      },
+      {
+        "label": "Mage PvP trinket around 49.5s",
+        "records": 1
+      },
+      {
+        "label": "Priest PvP trinket around 54s",
+        "records": 1
+      },
+      {
+        "label": "Shadow Priest Divine Hymn (~99–105s)",
+        "records": 1
+      },
+      {
+        "label": "Shadow Priest Divine Hymn about 57-60s",
+        "records": 1
+      },
+      {
+        "label": "Shadow Priest PvP Trinket (used by ~78s; exact second unknown)",
+        "records": 1
+      },
+      {
+        "label": "Shadow Priest PvP Trinket (~78s)",
+        "records": 1
+      },
+      {
+        "label": "Shadow Priest PvP Trinket (~86s)",
+        "records": 1
+      },
+      {
+        "label": "Shadow Priest PvP Trinket (~99s)",
+        "records": 1
+      },
+      {
+        "label": "Shadow Priest: PvP Trinket (~73s)",
+        "records": 1
+      }
+    ],
+    "resource_count_limit": "Exact source-listed labels, deduplicated within each match. They include uncertain or offensive entries and are not verified forced-resource frequencies.",
+    "cc_lexical_mentions": {
+      "Sap": 5,
+      "Blind": 5,
+      "Fear": 2
+    },
+    "cc_count_limit": "Literal mentions in observed notes, including negated/uncertain/post-death mentions. These are search aids, not counts of landed CC.",
+    "recovery_text_present": 8,
+    "recovery_count_limit": "Field coverage only: texts may explicitly say no reset. Not a reset-event rate.",
+    "missing_fields": {
+      "priest_role": 11,
+      "rogue_role": 11,
+      "recovery_text": 3,
+      "result": 0,
+      "opening_target": 0,
+      "enemy_kill_target": 1
+    },
+    "quality_flags": {
+      "truncated_evidence": 3,
+      "source_exception_present": 6
+    },
+    "extraction_confidence": {
+      "high": 6,
+      "medium": 5
+    }
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "H1",
+      "statement": "One opening target also explains every reported enemy kill in wins.",
+      "tested_target": "Shadow Priest",
+      "disposition": "rejected_as_exhaustive",
+      "supporting_match_ids": [
+        "january_4th_2700_20260913__match_001",
+        "january_5th_full_20260912__match_036",
+        "january_5th_full_20260912__match_042",
+        "may_18th_2500_20260913__may18_2500_match_009",
+        "may_4th_2350_20260913__may04_2350_match_016",
+        "may_4th_2350_20260913__may04_2350_match_023",
+        "september_20th_2650_20260913__september20_2650_match_010"
+      ],
+      "contradicting_match_ids": [
+        "february_3rd_2550_20260912__feb03_2550_match_003",
+        "september_20th_2650_20260913__september20_2650_match_009",
+        "september_20th_2650_20260913__september20_2650_match_011"
+      ],
+      "unknown_kill_wins": 1,
+      "limitation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability."
+    },
+    {
+      "hypothesis_id": "H2",
+      "statement": "A Priest or Mage remains vulnerable through renewed short control; no single resource prerequisite is established.",
+      "disposition": "provisional_interpretation",
+      "supporting_match_ids": [
+        "january_4th_2700_20260913__match_001",
+        "january_5th_full_20260912__match_042",
+        "may_18th_2500_20260913__may18_2500_match_009",
+        "may_4th_2350_20260913__may04_2350_match_016",
+        "september_20th_2650_20260913__september20_2650_match_009",
+        "september_20th_2650_20260913__september20_2650_match_011"
+      ],
+      "contradicting_match_ids": [],
+      "limitation": "All eleven records are wins, so loss discrimination is unavailable. Kills can occur with partner active or escapes ready; one victory has no confirmed enemy death."
+    },
+    {
+      "hypothesis_id": "H3",
+      "statement": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [
+        "may_4th_2350_20260913__may04_2350_match_023",
+        "september_20th_2650_20260913__september20_2650_match_011",
+        "january_5th_full_20260912__match_034",
+        "september_20th_2650_20260913__september20_2650_match_010"
+      ],
+      "limitation": "All eleven records are wins, so loss discrimination is unavailable. Kills can occur with partner active or escapes ready; one victory has no confirmed enemy death."
+    }
+  ],
+  "default_line": {
+    "opening_target": {
+      "text": "unknown",
+      "basis": "unknown",
+      "confidence": "insufficient",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [],
+      "evidence_scope": "none"
+    },
+    "initial_objective": {
+      "text": "Create caster health pressure and use disruption to maintain the chosen target through healing or immunity responses.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "january_4th_2700_20260913__match_001",
+        "january_5th_full_20260912__match_042",
+        "may_18th_2500_20260913__may18_2500_match_009",
+        "may_4th_2350_20260913__may04_2350_match_016",
+        "september_20th_2650_20260913__september20_2650_match_009",
+        "september_20th_2650_20260913__september20_2650_match_011"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "win_condition": {
+      "text": "A Priest or Mage remains vulnerable through renewed short control; no single resource prerequisite is established.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "january_4th_2700_20260913__match_001",
+        "january_5th_full_20260912__match_042",
+        "may_18th_2500_20260913__may18_2500_match_009",
+        "may_4th_2350_20260913__may04_2350_match_016",
+        "september_20th_2650_20260913__september20_2650_match_009",
+        "september_20th_2650_20260913__september20_2650_match_011"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "manufacture": {
+      "text": "Openers are nearly split. Priest is the more frequent confirmed kill; Mage control into Priest pressure is repeated, but direct Mage finishes also occur.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "january_4th_2700_20260913__match_001",
+        "january_5th_full_20260912__match_042",
+        "may_18th_2500_20260913__may18_2500_match_009",
+        "may_4th_2350_20260913__may04_2350_match_016",
+        "september_20th_2650_20260913__september20_2650_match_009",
+        "september_20th_2650_20260913__september20_2650_match_011"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "conversion": {
+      "text": "Commit Priest under available Mage disruption, or resume Mage after Block if that target remains the actual damage opportunity.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "january_4th_2700_20260913__match_001",
+        "january_5th_full_20260912__match_042",
+        "may_18th_2500_20260913__may18_2500_match_009",
+        "may_4th_2350_20260913__may04_2350_match_016",
+        "september_20th_2650_20260913__september20_2650_match_009",
+        "september_20th_2650_20260913__september20_2650_match_011"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "reset": {
+      "text": "Mage immunity can lead to a Priest switch or to renewed Mage pressure after it ends; partial Priest healing is often met with continued pressure.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "january_4th_2700_20260913__match_001",
+        "january_5th_full_20260912__match_042",
+        "may_18th_2500_20260913__may18_2500_match_009",
+        "may_4th_2350_20260913__may04_2350_match_016",
+        "september_20th_2650_20260913__september20_2650_match_009",
+        "september_20th_2650_20260913__september20_2650_match_011"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "important_resources": [
+      {
+        "name": "Ice Block",
+        "relevance": "conditional",
+        "assessment": {
+          "text": "An observed interruption of Mage pressure with two different follow-ups, not proof of an automatic switch.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "january_5th_full_20260912__match_042",
+            "september_20th_2650_20260913__september20_2650_match_009",
+            "september_20th_2650_20260913__september20_2650_match_011"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        },
+        "requirement": "not_established_as_universal_prerequisite",
+        "relevance_test": {
+          "repeated_forcing": "Not computed from copied source hypotheses; cited observations reviewed individually.",
+          "before_successful_conversion": "See cited match chronology; a spend elsewhere in the round is insufficient.",
+          "different_behavior_after_spend": "Supported only for the cited control/immunity sequences; no complete frequency estimate.",
+          "wins_with_resource_available": [],
+          "sufficiency_in_losses": "Not established; compare the matchup failure examples.",
+          "pressure_side_effect": "Cannot be excluded from a spend alone.",
+          "control_interaction": "An observed interruption of Mage pressure with two different follow-ups, not proof of an automatic switch."
+        }
+      }
+    ]
+  },
+  "states": [
+    {
+      "state_id": "opening",
+      "description": "Openers are nearly split. Priest is the more frequent confirmed kill; Mage control into Priest pressure is repeated, but direct Mage finishes also occur.",
+      "team_objective": {
+        "text": "Openers are nearly split. Priest is the more frequent confirmed kill; Mage control into Priest pressure is repeated, but direct Mage finishes also occur.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_4th_2700_20260913__match_001",
+          "january_5th_full_20260912__match_042",
+          "may_18th_2500_20260913__may18_2500_match_009",
+          "may_4th_2350_20260913__may04_2350_match_016",
+          "september_20th_2650_20260913__september20_2650_match_009",
+          "september_20th_2650_20260913__september20_2650_match_011"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "An actual pressure commitment has begun.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "january_4th_2700_20260913__match_001",
+            "january_5th_full_20260912__match_042",
+            "may_18th_2500_20260913__may18_2500_match_009",
+            "may_4th_2350_20260913__may04_2350_match_016",
+            "september_20th_2650_20260913__september20_2650_match_009",
+            "september_20th_2650_20260913__september20_2650_match_011"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "january_4th_2700_20260913__match_001",
+        "january_5th_full_20260912__match_042",
+        "may_18th_2500_20260913__may18_2500_match_009",
+        "may_4th_2350_20260913__may04_2350_match_016",
+        "september_20th_2650_20260913__september20_2650_match_009",
+        "september_20th_2650_20260913__september20_2650_match_011"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "pressure",
+      "description": "Create caster health pressure and use disruption to maintain the chosen target through healing or immunity responses.",
+      "team_objective": {
+        "text": "Create caster health pressure and use disruption to maintain the chosen target through healing or immunity responses.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_4th_2700_20260913__match_001",
+          "january_5th_full_20260912__match_042",
+          "may_18th_2500_20260913__may18_2500_match_009",
+          "may_4th_2350_20260913__may04_2350_match_016",
+          "september_20th_2650_20260913__september20_2650_match_009",
+          "september_20th_2650_20260913__september20_2650_match_011"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "january_4th_2700_20260913__match_001",
+        "january_5th_full_20260912__match_042",
+        "may_18th_2500_20260913__may18_2500_match_009",
+        "may_4th_2350_20260913__may04_2350_match_016",
+        "september_20th_2650_20260913__september20_2650_match_009",
+        "september_20th_2650_20260913__september20_2650_match_011"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "conversion",
+      "description": "Commit Priest under available Mage disruption, or resume Mage after Block if that target remains the actual damage opportunity.",
+      "team_objective": {
+        "text": "Commit Priest under available Mage disruption, or resume Mage after Block if that target remains the actual damage opportunity.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_4th_2700_20260913__match_001",
+          "january_5th_full_20260912__match_042",
+          "may_18th_2500_20260913__may18_2500_match_009",
+          "may_4th_2350_20260913__may04_2350_match_016",
+          "september_20th_2650_20260913__september20_2650_match_009",
+          "september_20th_2650_20260913__september20_2650_match_011"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "A Priest or Mage remains vulnerable through renewed short control; no single resource prerequisite is established.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "january_4th_2700_20260913__match_001",
+            "january_5th_full_20260912__match_042",
+            "may_18th_2500_20260913__may18_2500_match_009",
+            "may_4th_2350_20260913__may04_2350_match_016",
+            "september_20th_2650_20260913__september20_2650_match_009",
+            "september_20th_2650_20260913__september20_2650_match_011"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "january_4th_2700_20260913__match_001",
+        "january_5th_full_20260912__match_042",
+        "may_18th_2500_20260913__may18_2500_match_009",
+        "may_4th_2350_20260913__may04_2350_match_016",
+        "september_20th_2650_20260913__september20_2650_match_009",
+        "september_20th_2650_20260913__september20_2650_match_011"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "recovery",
+      "description": "Mage immunity can lead to a Priest switch or to renewed Mage pressure after it ends; partial Priest healing is often met with continued pressure.",
+      "team_objective": {
+        "text": "Mage immunity can lead to a Priest switch or to renewed Mage pressure after it ends; partial Priest healing is often met with continued pressure.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_4th_2700_20260913__match_001",
+          "january_5th_full_20260912__match_042",
+          "may_18th_2500_20260913__may18_2500_match_009",
+          "may_4th_2350_20260913__may04_2350_match_016",
+          "september_20th_2650_20260913__september20_2650_match_009",
+          "september_20th_2650_20260913__september20_2650_match_011"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "The preceding attempt is healed, protected, or interrupted.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "january_4th_2700_20260913__match_001",
+            "january_5th_full_20260912__match_042",
+            "may_18th_2500_20260913__may18_2500_match_009",
+            "may_4th_2350_20260913__may04_2350_match_016",
+            "september_20th_2650_20260913__september20_2650_match_009",
+            "september_20th_2650_20260913__september20_2650_match_011"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "january_4th_2700_20260913__match_001",
+        "january_5th_full_20260912__match_042",
+        "may_18th_2500_20260913__may18_2500_match_009",
+        "may_4th_2350_20260913__may04_2350_match_016",
+        "september_20th_2650_20260913__september20_2650_match_009",
+        "september_20th_2650_20260913__september20_2650_match_011"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "branches": [
+    {
+      "branch_id": "branch_1",
+      "from_state": "pressure",
+      "next_state": "conversion",
+      "trigger": {
+        "text": "Mage immunity stops the first attempt.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_042",
+          "september_20th_2650_20260913__september20_2650_match_009",
+          "september_20th_2650_20260913__september20_2650_match_011"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "response": {
+        "text": "A Priest switch and a renewed Mage attempt are both observed; their selection trigger is unknown.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_042",
+          "september_20th_2650_20260913__september20_2650_match_009",
+          "september_20th_2650_20260913__september20_2650_match_011"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "classification": "unknown",
+      "team_objective": {
+        "text": "A Priest switch and a renewed Mage attempt are both observed; their selection trigger is unknown.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_042",
+          "september_20th_2650_20260913__september20_2650_match_009",
+          "september_20th_2650_20260913__september20_2650_match_011"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "evidence": [
+        "january_5th_full_20260912__match_042",
+        "september_20th_2650_20260913__september20_2650_match_009",
+        "september_20th_2650_20260913__september20_2650_match_011"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "match_assessments": [
+    {
+      "match_id": "february_3rd_2550_20260912__feb03_2550_match_003",
+      "review_id": "M029",
+      "result": "win",
+      "observed_opening_target": "Shadow Priest",
+      "reported_enemy_kill_target": "Frost Mage",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_4th_2700_20260913__match_001",
+      "review_id": "M050",
+      "result": "win",
+      "observed_opening_target": "Frost Mage",
+      "reported_enemy_kill_target": "Shadow Priest",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_034",
+      "review_id": "M135",
+      "result": "win",
+      "observed_opening_target": "Frost Mage",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_036",
+      "review_id": "M137",
+      "result": "win",
+      "observed_opening_target": "Shadow Priest",
+      "reported_enemy_kill_target": "Shadow Priest",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_042",
+      "review_id": "M144",
+      "result": "win",
+      "observed_opening_target": "Frost Mage",
+      "reported_enemy_kill_target": "Shadow Priest",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_18th_2500_20260913__may18_2500_match_009",
+      "review_id": "M197",
+      "result": "win",
+      "observed_opening_target": "Shadow Priest",
+      "reported_enemy_kill_target": "Shadow Priest",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_016",
+      "review_id": "M349",
+      "result": "win",
+      "observed_opening_target": "Shadow Priest",
+      "reported_enemy_kill_target": "Shadow Priest",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "may_4th_2350_20260913__may04_2350_match_023",
+      "review_id": "M356",
+      "result": "win",
+      "observed_opening_target": "Shadow Priest",
+      "reported_enemy_kill_target": "Shadow Priest",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_009",
+      "review_id": "M440",
+      "result": "win",
+      "observed_opening_target": "Frost Mage",
+      "reported_enemy_kill_target": "Frost Mage",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_010",
+      "review_id": "M441",
+      "result": "win",
+      "observed_opening_target": "Shadow Priest",
+      "reported_enemy_kill_target": "Shadow Priest",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_20th_2650_20260913__september20_2650_match_011",
+      "review_id": "M442",
+      "result": "win",
+      "observed_opening_target": "Frost Mage",
+      "reported_enemy_kill_target": "Frost Mage",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    }
+  ],
+  "failure_modes": [],
+  "runtime_observability": {
+    "automatic": [],
+    "automatic_candidates": [
+      {
+        "signal": "Verified cast/aura, present health, or an observed control start/end",
+        "status": "unvalidated_candidate",
+        "scope": "Raw events only; not strategic intent or reliable absence of an enemy cooldown.",
+        "limitation": "No addon implementation or API testing was performed; no automatic transition is certified."
+      }
+    ],
+    "manual_possible": [
+      {
+        "transition": "pressure_to_conversion",
+        "confirmation": "A meaningful enemy health window, current partner control and friendly readiness overlap."
+      },
+      {
+        "transition": "conversion_to_recovery",
+        "confirmation": "Target recovered or became protected; team needs a new usable attempt."
+      }
+    ],
+    "web_only": [
+      "Strategic intent",
+      "Reasons for a target-selection branch",
+      "Causal counterfactuals",
+      "Full comparison with losses and unresolved evidence"
+    ]
+  },
+  "uncertainties": [
+    "All eleven records are wins, so loss discrimination is unavailable. Kills can occur with partner active or escapes ready; one victory has no confirmed enemy death.",
+    "Precise Priest/Rogue division of labour by phase is mostly unknown.",
+    "Exact runtime detection reliability on Warmane 3.3.5 is untested.",
+    "A reliable default opener is not established; the factual distribution remains available.",
+    "No robust failure mode is established from this sample; absence of a failure entry is not evidence of safety."
+  ],
+  "mechanics_context": [],
+  "provenance": {
+    "prepared_corpus_version": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Frost_Mage__Shadow_Priest.jsonl",
+    "review_file": "evidence_review/group_10.txt",
+    "prepared_stats": {
+      "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Frost Mage / Shadow Priest",
+      "total_games": 11,
+      "wins": 11,
+      "losses": 0,
+      "unknown_result": 0,
+      "opening_target_known": 11,
+      "opening_target_unknown": 0,
+      "opening_targets": {
+        "Shadow Priest": 6,
+        "Frost Mage": 5
+      },
+      "kill_target_known": 10,
+      "kill_target_unknown": 1,
+      "kill_targets": {
+        "Frost Mage": 3,
+        "Shadow Priest": 7
+      },
+      "records_with_quality_flags": 6,
+      "records_with_source_exceptions": 6,
+      "records_with_source_win_condition_hypothesis": 11,
+      "source_batch_distribution": {
+        "february_3rd_2550_20260912": 1,
+        "january_4th_2700_20260913": 1,
+        "january_5th_full_20260912": 3,
+        "may_18th_2500_20260913": 1,
+        "may_4th_2350_20260913": 2,
+        "september_20th_2650_20260913": 3
+      }
+    },
+    "review_group": 10,
+    "date": "2026-09-13"
+  },
+  "version_history": [
+    {
+      "version": 1,
+      "date": "2026-09-13",
+      "corpus": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+      "change": "Initial evidence-constrained synthesis; no prior approved strategy replaced.",
+      "reason": "First canonical package for review."
+    }
+  ]
+}

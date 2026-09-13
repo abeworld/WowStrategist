@@ -1,0 +1,45 @@
+GROUP 18: Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Unholy Death Knight
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Unholy Death Knight", "total_games": 5, "wins": 5, "losses": 0, "unknown_result": 0, "opening_target_known": 5, "opening_target_unknown": 0, "opening_targets": {"Unholy Death Knight": 3, "Discipline Priest": 1, "Death Knight": 1}, "kill_target_known": 5, "kill_target_unknown": 0, "kill_targets": {"Unholy Death Knight": 4, "Death Knight": 1}, "records_with_quality_flags": 0, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 5, "source_batch_distribution": {"january_5th_full_20260912": 1, "may_18th_2500_20260913": 4}}
+
+M143 | win | open=Unholy Death Knight | kill=Unholy Death Knight | extraction=medium | flags=
+OBS: ~30-35s DeathKnight92-91%selected; Priestcontrolled100%.
+OBS: ~40s BlindDK thentrinketannouncement; ~55s DK81%stunned, Priestfull.
+OBS: ~65s Priestfreshtrinket; ~70s FlashHealinterrupted; DK54% ->31%80s ->15%85s.
+OBS: ~90s DKDEAD Priest92%controlled; exit95s ownRoguealive.
+SOURCE CONVERSION: Stay Death Knight; burst81%55s ->39%65s but heals54%70s; interrupt Priest Flash Heal and renew stun/control, Death Knight15%85s ->DEAD90s withPriest92%.
+SOURCE RESET: Death Knight partially recovers during burst; continued pressure and healing denial finish.
+
+M193 | win | open=Unholy Death Knight | kill=Unholy Death Knight | extraction=high | flags=
+OBS: 72-82s: Priest Sapped while DK is the damage target
+OBS: 90-92s: DK stunned, falls toward 59%, and Trinkets at 92s
+OBS: 95-98s: DK controlled again and falls to 17%; Gargoyle appears and its Strike is interrupted at 98s
+OBS: 98-100s: Priest Penance and DK partial recovery to 28%
+OBS: 102.5-105s: Priest Silence icon; DK falls from 17% to DEAD at 105s
+OBS: 108s: Gold Team wins; Priest alive and its Trinket indicator remains available
+SOURCE CONVERSION: DK Trinkets stun -> continuing pressure outpaces partial Penance recovery -> Priest Silence -> DK finish
+
+M199 | win | open=Unholy Death Knight | kill=Unholy Death Knight | extraction=high | flags=
+OBS: 41-51s: Priest Sap; Blind DK 46-50s, DK Trinket at 50s
+OBS: 51-60s: renewed DK control, Priest Silence at 59.5s
+OBS: 60.5-62.5s: DK damage begins under control; Priest Silence expires around 63s
+OBS: 62-67s: DK held through stuns and drops from 80% to DEAD at 67s
+OBS: 63.5-67s: Priest Divine Hymn continues while DK health falls
+OBS: 70s: Gold Team wins; Priest alive with Trinket indicator still available
+SOURCE CONVERSION: DK escapes Blind -> renewed control -> Priest Silence during damage entry -> DK stun chain and finish despite later Hymn
+
+M201 | win | open=Discipline Priest | kill=Unholy Death Knight | extraction=high | flags=
+OBS: 48-59s: Death Knight Sapped; Priest pressured and Trinket cooldown appears at 59.5s
+OBS: 69-71s: Gargoyle and interrupt of Strangulate visible; not inferred as forced
+OBS: 108-115s: Death Knight drops below 20%; Priest Silence then Gouge; Blind at 115.5s
+OBS: 119s: Death Knight recovers to 53% while Priest still Blinded; recovery ability unknown
+OBS: 123-125.5s: renewed Death Knight stun pressure lowers it to 1%; Priest Blind becomes Sap
+OBS: 126s: Death Knight Trinket appears only at 0%; DEAD at 126.5s; Gold wins 128s
+SOURCE CONVERSION: Continue Death Knight pressure through its recovery and renew stuns while Priest remains controlled
+SOURCE RESET: Death Knight recovers from 17% to 53% at 119s during Priest Blind; renewed pressure still converts
+
+M212 | win | open=Death Knight | kill=Death Knight | extraction=high | flags=
+OBS: Priest Trinket remains available through Death Knight death
+OBS: Priest casts Penance during the last Death Knight burst
+OBS: Both friendlies survive
+SOURCE CONVERSION: Initial 49→26% window at 69–73s recovers to about 54%; renewed damage drops Death Knight to 0% at 85.5s despite resumed Priest healing; Priest subsequently dies around 94s; victory at 95s
+SOURCE RESET: Priest Penance/Flash Heal recovers Death Knight around 75–81s; pressure is renewed

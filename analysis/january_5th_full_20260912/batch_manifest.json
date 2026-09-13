@@ -1,0 +1,1208 @@
+{
+  "source_folder": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\output\\2v2_SPR_+2200_MMR___January_5th_Stream_VOD___WOW_R1_Gladiator_Rogue_Arena_PVP_-_Warmane_WOTLK",
+  "guidance_file": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\ARENA_ANALYSIS_INSTRUCTIONS.md",
+  "discovered_mp4_files": 47,
+  "requested_mp4_files": 47,
+  "arena_game_records": 52,
+  "analysed": 46,
+  "uncertain": 6,
+  "failed": 0,
+  "result_counts": {
+    "win": 50,
+    "loss": 2
+  },
+  "count_mismatch": false,
+  "multi_game_sources": {
+    "match_010.mp4": [
+      "match_010a",
+      "match_010b"
+    ],
+    "match_030.mp4": [
+      "match_030a",
+      "match_030b"
+    ],
+    "match_031.mp4": [
+      "match_031a",
+      "match_031b"
+    ],
+    "match_033.mp4": [
+      "match_033a",
+      "match_033b"
+    ],
+    "match_037.mp4": [
+      "match_037a",
+      "match_037b"
+    ]
+  },
+  "review_method": "Prior visual calibration for clips 001-010 (11 games) reused and schema-normalized; clips 011-047 scanned across full duration with ~5-second overview samples and targeted ~1-second decisive windows. All 47 clips decoded successfully. No audio transcription or continuous-playback/combat-log claim.",
+  "boundary_basis": "Approximate arena-instance windows, including preparation where available and ending around result/exit. Repeated preceding result tails and next-round preparation overlaps are not counted as extra games.",
+  "unusual_rounds": [
+    "match_016: only one enemy visible",
+    "match_024: unopposed/aborted instance; no normal combat"
+  ],
+  "result_caveats": [
+    "match_043 loss inferred from friendly death and surviving Rogue departure; no terminal scoreboard",
+    "match_024 administrative/unopposed win retained outside normal 2v2 strategic evidence"
+  ],
+  "preserved_prior_files": [
+    "matches.jsonl",
+    "manifest.csv",
+    "batch_manifest.json",
+    "arena_analysis_001_010.md"
+  ],
+  "prior_corpus_sha256": "98269b9bbc39af4f562d88217c792cea2ea3cde5023ac7431e7011eb6efefcc8",
+  "all_source_folder_files": [
+    {
+      "relative_path": "debug/boundaries/match_001_end.png",
+      "bytes": 27310
+    },
+    {
+      "relative_path": "debug/boundaries/match_001_end_mask.png",
+      "bytes": 797
+    },
+    {
+      "relative_path": "debug/boundaries/match_001_start.png",
+      "bytes": 25565
+    },
+    {
+      "relative_path": "debug/boundaries/match_001_start_mask.png",
+      "bytes": 844
+    },
+    {
+      "relative_path": "debug/boundaries/match_002_end.png",
+      "bytes": 26647
+    },
+    {
+      "relative_path": "debug/boundaries/match_002_end_mask.png",
+      "bytes": 595
+    },
+    {
+      "relative_path": "debug/boundaries/match_002_start.png",
+      "bytes": 26366
+    },
+    {
+      "relative_path": "debug/boundaries/match_002_start_mask.png",
+      "bytes": 892
+    },
+    {
+      "relative_path": "debug/boundaries/match_003_end.png",
+      "bytes": 25255
+    },
+    {
+      "relative_path": "debug/boundaries/match_003_end_mask.png",
+      "bytes": 853
+    },
+    {
+      "relative_path": "debug/boundaries/match_003_start.png",
+      "bytes": 26405
+    },
+    {
+      "relative_path": "debug/boundaries/match_003_start_mask.png",
+      "bytes": 863
+    },
+    {
+      "relative_path": "debug/boundaries/match_004_end.png",
+      "bytes": 26663
+    },
+    {
+      "relative_path": "debug/boundaries/match_004_end_mask.png",
+      "bytes": 883
+    },
+    {
+      "relative_path": "debug/boundaries/match_004_start.png",
+      "bytes": 25246
+    },
+    {
+      "relative_path": "debug/boundaries/match_004_start_mask.png",
+      "bytes": 853
+    },
+    {
+      "relative_path": "debug/boundaries/match_005_end.png",
+      "bytes": 27192
+    },
+    {
+      "relative_path": "debug/boundaries/match_005_end_mask.png",
+      "bytes": 969
+    },
+    {
+      "relative_path": "debug/boundaries/match_005_start.png",
+      "bytes": 24534
+    },
+    {
+      "relative_path": "debug/boundaries/match_005_start_mask.png",
+      "bytes": 893
+    },
+    {
+      "relative_path": "debug/boundaries/match_006_end.png",
+      "bytes": 26041
+    },
+    {
+      "relative_path": "debug/boundaries/match_006_end_mask.png",
+      "bytes": 700
+    },
+    {
+      "relative_path": "debug/boundaries/match_006_start.png",
+      "bytes": 25082
+    },
+    {
+      "relative_path": "debug/boundaries/match_006_start_mask.png",
+      "bytes": 773
+    },
+    {
+      "relative_path": "debug/boundaries/match_007_end.png",
+      "bytes": 27114
+    },
+    {
+      "relative_path": "debug/boundaries/match_007_end_mask.png",
+      "bytes": 856
+    },
+    {
+      "relative_path": "debug/boundaries/match_007_start.png",
+      "bytes": 24890
+    },
+    {
+      "relative_path": "debug/boundaries/match_007_start_mask.png",
+      "bytes": 874
+    },
+    {
+      "relative_path": "debug/boundaries/match_008_end.png",
+      "bytes": 26209
+    },
+    {
+      "relative_path": "debug/boundaries/match_008_end_mask.png",
+      "bytes": 853
+    },
+    {
+      "relative_path": "debug/boundaries/match_008_start.png",
+      "bytes": 25530
+    },
+    {
+      "relative_path": "debug/boundaries/match_008_start_mask.png",
+      "bytes": 867
+    },
+    {
+      "relative_path": "debug/boundaries/match_009_end.png",
+      "bytes": 27004
+    },
+    {
+      "relative_path": "debug/boundaries/match_009_end_mask.png",
+      "bytes": 702
+    },
+    {
+      "relative_path": "debug/boundaries/match_009_start.png",
+      "bytes": 24865
+    },
+    {
+      "relative_path": "debug/boundaries/match_009_start_mask.png",
+      "bytes": 877
+    },
+    {
+      "relative_path": "debug/boundaries/match_010_end.png",
+      "bytes": 26254
+    },
+    {
+      "relative_path": "debug/boundaries/match_010_end_mask.png",
+      "bytes": 858
+    },
+    {
+      "relative_path": "debug/boundaries/match_010_start.png",
+      "bytes": 24935
+    },
+    {
+      "relative_path": "debug/boundaries/match_010_start_mask.png",
+      "bytes": 704
+    },
+    {
+      "relative_path": "debug/boundaries/match_011_end.png",
+      "bytes": 25739
+    },
+    {
+      "relative_path": "debug/boundaries/match_011_end_mask.png",
+      "bytes": 893
+    },
+    {
+      "relative_path": "debug/boundaries/match_011_start.png",
+      "bytes": 27697
+    },
+    {
+      "relative_path": "debug/boundaries/match_011_start_mask.png",
+      "bytes": 799
+    },
+    {
+      "relative_path": "debug/boundaries/match_012_end.png",
+      "bytes": 29389
+    },
+    {
+      "relative_path": "debug/boundaries/match_012_end_mask.png",
+      "bytes": 750
+    },
+    {
+      "relative_path": "debug/boundaries/match_012_start.png",
+      "bytes": 25352
+    },
+    {
+      "relative_path": "debug/boundaries/match_012_start_mask.png",
+      "bytes": 876
+    },
+    {
+      "relative_path": "debug/boundaries/match_013_end.png",
+      "bytes": 24500
+    },
+    {
+      "relative_path": "debug/boundaries/match_013_end_mask.png",
+      "bytes": 850
+    },
+    {
+      "relative_path": "debug/boundaries/match_013_start.png",
+      "bytes": 25665
+    },
+    {
+      "relative_path": "debug/boundaries/match_013_start_mask.png",
+      "bytes": 867
+    },
+    {
+      "relative_path": "debug/boundaries/match_014_end.png",
+      "bytes": 25506
+    },
+    {
+      "relative_path": "debug/boundaries/match_014_end_mask.png",
+      "bytes": 876
+    },
+    {
+      "relative_path": "debug/boundaries/match_014_start.png",
+      "bytes": 24972
+    },
+    {
+      "relative_path": "debug/boundaries/match_014_start_mask.png",
+      "bytes": 832
+    },
+    {
+      "relative_path": "debug/boundaries/match_015_end.png",
+      "bytes": 24257
+    },
+    {
+      "relative_path": "debug/boundaries/match_015_end_mask.png",
+      "bytes": 842
+    },
+    {
+      "relative_path": "debug/boundaries/match_015_start.png",
+      "bytes": 25490
+    },
+    {
+      "relative_path": "debug/boundaries/match_015_start_mask.png",
+      "bytes": 882
+    },
+    {
+      "relative_path": "debug/boundaries/match_016_end.png",
+      "bytes": 26739
+    },
+    {
+      "relative_path": "debug/boundaries/match_016_end_mask.png",
+      "bytes": 685
+    },
+    {
+      "relative_path": "debug/boundaries/match_016_start.png",
+      "bytes": 25393
+    },
+    {
+      "relative_path": "debug/boundaries/match_016_start_mask.png",
+      "bytes": 789
+    },
+    {
+      "relative_path": "debug/boundaries/match_017_end.png",
+      "bytes": 27551
+    },
+    {
+      "relative_path": "debug/boundaries/match_017_end_mask.png",
+      "bytes": 825
+    },
+    {
+      "relative_path": "debug/boundaries/match_017_start.png",
+      "bytes": 27574
+    },
+    {
+      "relative_path": "debug/boundaries/match_017_start_mask.png",
+      "bytes": 851
+    },
+    {
+      "relative_path": "debug/boundaries/match_018_end.png",
+      "bytes": 29164
+    },
+    {
+      "relative_path": "debug/boundaries/match_018_end_mask.png",
+      "bytes": 926
+    },
+    {
+      "relative_path": "debug/boundaries/match_018_start.png",
+      "bytes": 26645
+    },
+    {
+      "relative_path": "debug/boundaries/match_018_start_mask.png",
+      "bytes": 803
+    },
+    {
+      "relative_path": "debug/boundaries/match_019_end.png",
+      "bytes": 27252
+    },
+    {
+      "relative_path": "debug/boundaries/match_019_end_mask.png",
+      "bytes": 711
+    },
+    {
+      "relative_path": "debug/boundaries/match_019_start.png",
+      "bytes": 26859
+    },
+    {
+      "relative_path": "debug/boundaries/match_019_start_mask.png",
+      "bytes": 788
+    },
+    {
+      "relative_path": "debug/boundaries/match_020_end.png",
+      "bytes": 24293
+    },
+    {
+      "relative_path": "debug/boundaries/match_020_end_mask.png",
+      "bytes": 891
+    },
+    {
+      "relative_path": "debug/boundaries/match_020_start.png",
+      "bytes": 25676
+    },
+    {
+      "relative_path": "debug/boundaries/match_020_start_mask.png",
+      "bytes": 859
+    },
+    {
+      "relative_path": "debug/boundaries/match_021_end.png",
+      "bytes": 25742
+    },
+    {
+      "relative_path": "debug/boundaries/match_021_end_mask.png",
+      "bytes": 856
+    },
+    {
+      "relative_path": "debug/boundaries/match_021_start.png",
+      "bytes": 26731
+    },
+    {
+      "relative_path": "debug/boundaries/match_021_start_mask.png",
+      "bytes": 865
+    },
+    {
+      "relative_path": "debug/boundaries/match_022_end.png",
+      "bytes": 24782
+    },
+    {
+      "relative_path": "debug/boundaries/match_022_end_mask.png",
+      "bytes": 902
+    },
+    {
+      "relative_path": "debug/boundaries/match_022_start.png",
+      "bytes": 25528
+    },
+    {
+      "relative_path": "debug/boundaries/match_022_start_mask.png",
+      "bytes": 879
+    },
+    {
+      "relative_path": "debug/boundaries/match_023_end.png",
+      "bytes": 26232
+    },
+    {
+      "relative_path": "debug/boundaries/match_023_end_mask.png",
+      "bytes": 707
+    },
+    {
+      "relative_path": "debug/boundaries/match_023_start.png",
+      "bytes": 25914
+    },
+    {
+      "relative_path": "debug/boundaries/match_023_start_mask.png",
+      "bytes": 851
+    },
+    {
+      "relative_path": "debug/boundaries/match_024_end.png",
+      "bytes": 26036
+    },
+    {
+      "relative_path": "debug/boundaries/match_024_end_mask.png",
+      "bytes": 876
+    },
+    {
+      "relative_path": "debug/boundaries/match_024_start.png",
+      "bytes": 25403
+    },
+    {
+      "relative_path": "debug/boundaries/match_024_start_mask.png",
+      "bytes": 816
+    },
+    {
+      "relative_path": "debug/boundaries/match_025_end.png",
+      "bytes": 27435
+    },
+    {
+      "relative_path": "debug/boundaries/match_025_end_mask.png",
+      "bytes": 878
+    },
+    {
+      "relative_path": "debug/boundaries/match_025_start.png",
+      "bytes": 25919
+    },
+    {
+      "relative_path": "debug/boundaries/match_025_start_mask.png",
+      "bytes": 872
+    },
+    {
+      "relative_path": "debug/boundaries/match_026_end.png",
+      "bytes": 26149
+    },
+    {
+      "relative_path": "debug/boundaries/match_026_end_mask.png",
+      "bytes": 807
+    },
+    {
+      "relative_path": "debug/boundaries/match_026_start.png",
+      "bytes": 24484
+    },
+    {
+      "relative_path": "debug/boundaries/match_026_start_mask.png",
+      "bytes": 661
+    },
+    {
+      "relative_path": "debug/boundaries/match_027_end.png",
+      "bytes": 24637
+    },
+    {
+      "relative_path": "debug/boundaries/match_027_end_mask.png",
+      "bytes": 885
+    },
+    {
+      "relative_path": "debug/boundaries/match_027_start.png",
+      "bytes": 25907
+    },
+    {
+      "relative_path": "debug/boundaries/match_027_start_mask.png",
+      "bytes": 710
+    },
+    {
+      "relative_path": "debug/boundaries/match_028_end.png",
+      "bytes": 24778
+    },
+    {
+      "relative_path": "debug/boundaries/match_028_end_mask.png",
+      "bytes": 711
+    },
+    {
+      "relative_path": "debug/boundaries/match_028_start.png",
+      "bytes": 24019
+    },
+    {
+      "relative_path": "debug/boundaries/match_028_start_mask.png",
+      "bytes": 639
+    },
+    {
+      "relative_path": "debug/boundaries/match_029_end.png",
+      "bytes": 27220
+    },
+    {
+      "relative_path": "debug/boundaries/match_029_end_mask.png",
+      "bytes": 759
+    },
+    {
+      "relative_path": "debug/boundaries/match_029_start.png",
+      "bytes": 25760
+    },
+    {
+      "relative_path": "debug/boundaries/match_029_start_mask.png",
+      "bytes": 808
+    },
+    {
+      "relative_path": "debug/boundaries/match_030_end.png",
+      "bytes": 25965
+    },
+    {
+      "relative_path": "debug/boundaries/match_030_end_mask.png",
+      "bytes": 875
+    },
+    {
+      "relative_path": "debug/boundaries/match_030_start.png",
+      "bytes": 23205
+    },
+    {
+      "relative_path": "debug/boundaries/match_030_start_mask.png",
+      "bytes": 864
+    },
+    {
+      "relative_path": "debug/boundaries/match_031_end.png",
+      "bytes": 26324
+    },
+    {
+      "relative_path": "debug/boundaries/match_031_end_mask.png",
+      "bytes": 878
+    },
+    {
+      "relative_path": "debug/boundaries/match_031_start.png",
+      "bytes": 26142
+    },
+    {
+      "relative_path": "debug/boundaries/match_031_start_mask.png",
+      "bytes": 872
+    },
+    {
+      "relative_path": "debug/boundaries/match_032_end.png",
+      "bytes": 24185
+    },
+    {
+      "relative_path": "debug/boundaries/match_032_end_mask.png",
+      "bytes": 571
+    },
+    {
+      "relative_path": "debug/boundaries/match_032_start.png",
+      "bytes": 25208
+    },
+    {
+      "relative_path": "debug/boundaries/match_032_start_mask.png",
+      "bytes": 853
+    },
+    {
+      "relative_path": "debug/boundaries/match_033_end.png",
+      "bytes": 25505
+    },
+    {
+      "relative_path": "debug/boundaries/match_033_end_mask.png",
+      "bytes": 870
+    },
+    {
+      "relative_path": "debug/boundaries/match_033_start.png",
+      "bytes": 25675
+    },
+    {
+      "relative_path": "debug/boundaries/match_033_start_mask.png",
+      "bytes": 790
+    },
+    {
+      "relative_path": "debug/boundaries/match_034_end.png",
+      "bytes": 25818
+    },
+    {
+      "relative_path": "debug/boundaries/match_034_end_mask.png",
+      "bytes": 868
+    },
+    {
+      "relative_path": "debug/boundaries/match_034_start.png",
+      "bytes": 26095
+    },
+    {
+      "relative_path": "debug/boundaries/match_034_start_mask.png",
+      "bytes": 910
+    },
+    {
+      "relative_path": "debug/boundaries/match_035_end.png",
+      "bytes": 27556
+    },
+    {
+      "relative_path": "debug/boundaries/match_035_end_mask.png",
+      "bytes": 829
+    },
+    {
+      "relative_path": "debug/boundaries/match_035_start.png",
+      "bytes": 24296
+    },
+    {
+      "relative_path": "debug/boundaries/match_035_start_mask.png",
+      "bytes": 719
+    },
+    {
+      "relative_path": "debug/boundaries/match_036_end.png",
+      "bytes": 28161
+    },
+    {
+      "relative_path": "debug/boundaries/match_036_end_mask.png",
+      "bytes": 571
+    },
+    {
+      "relative_path": "debug/boundaries/match_036_start.png",
+      "bytes": 24985
+    },
+    {
+      "relative_path": "debug/boundaries/match_036_start_mask.png",
+      "bytes": 897
+    },
+    {
+      "relative_path": "debug/boundaries/match_037_end.png",
+      "bytes": 32087
+    },
+    {
+      "relative_path": "debug/boundaries/match_037_end_mask.png",
+      "bytes": 999
+    },
+    {
+      "relative_path": "debug/boundaries/match_037_start.png",
+      "bytes": 26105
+    },
+    {
+      "relative_path": "debug/boundaries/match_037_start_mask.png",
+      "bytes": 860
+    },
+    {
+      "relative_path": "debug/boundaries/match_038_end.png",
+      "bytes": 26475
+    },
+    {
+      "relative_path": "debug/boundaries/match_038_end_mask.png",
+      "bytes": 820
+    },
+    {
+      "relative_path": "debug/boundaries/match_038_start.png",
+      "bytes": 26414
+    },
+    {
+      "relative_path": "debug/boundaries/match_038_start_mask.png",
+      "bytes": 866
+    },
+    {
+      "relative_path": "debug/boundaries/match_039_end.png",
+      "bytes": 26283
+    },
+    {
+      "relative_path": "debug/boundaries/match_039_end_mask.png",
+      "bytes": 761
+    },
+    {
+      "relative_path": "debug/boundaries/match_039_start.png",
+      "bytes": 26592
+    },
+    {
+      "relative_path": "debug/boundaries/match_039_start_mask.png",
+      "bytes": 829
+    },
+    {
+      "relative_path": "debug/boundaries/match_040_end.png",
+      "bytes": 32035
+    },
+    {
+      "relative_path": "debug/boundaries/match_040_end_mask.png",
+      "bytes": 1012
+    },
+    {
+      "relative_path": "debug/boundaries/match_040_start.png",
+      "bytes": 24964
+    },
+    {
+      "relative_path": "debug/boundaries/match_040_start_mask.png",
+      "bytes": 804
+    },
+    {
+      "relative_path": "debug/boundaries/match_041_end.png",
+      "bytes": 27070
+    },
+    {
+      "relative_path": "debug/boundaries/match_041_end_mask.png",
+      "bytes": 878
+    },
+    {
+      "relative_path": "debug/boundaries/match_041_start.png",
+      "bytes": 25795
+    },
+    {
+      "relative_path": "debug/boundaries/match_041_start_mask.png",
+      "bytes": 906
+    },
+    {
+      "relative_path": "debug/boundaries/match_042_end.png",
+      "bytes": 25182
+    },
+    {
+      "relative_path": "debug/boundaries/match_042_end_mask.png",
+      "bytes": 744
+    },
+    {
+      "relative_path": "debug/boundaries/match_042_start.png",
+      "bytes": 23654
+    },
+    {
+      "relative_path": "debug/boundaries/match_042_start_mask.png",
+      "bytes": 672
+    },
+    {
+      "relative_path": "debug/boundaries/match_043_end.png",
+      "bytes": 25028
+    },
+    {
+      "relative_path": "debug/boundaries/match_043_end_mask.png",
+      "bytes": 867
+    },
+    {
+      "relative_path": "debug/boundaries/match_043_start.png",
+      "bytes": 25264
+    },
+    {
+      "relative_path": "debug/boundaries/match_043_start_mask.png",
+      "bytes": 860
+    },
+    {
+      "relative_path": "debug/boundaries/match_044_end.png",
+      "bytes": 23686
+    },
+    {
+      "relative_path": "debug/boundaries/match_044_end_mask.png",
+      "bytes": 885
+    },
+    {
+      "relative_path": "debug/boundaries/match_044_start.png",
+      "bytes": 24589
+    },
+    {
+      "relative_path": "debug/boundaries/match_044_start_mask.png",
+      "bytes": 876
+    },
+    {
+      "relative_path": "debug/boundaries/match_045_end.png",
+      "bytes": 27435
+    },
+    {
+      "relative_path": "debug/boundaries/match_045_end_mask.png",
+      "bytes": 902
+    },
+    {
+      "relative_path": "debug/boundaries/match_045_start.png",
+      "bytes": 24801
+    },
+    {
+      "relative_path": "debug/boundaries/match_045_start_mask.png",
+      "bytes": 857
+    },
+    {
+      "relative_path": "debug/boundaries/match_046_end.png",
+      "bytes": 28615
+    },
+    {
+      "relative_path": "debug/boundaries/match_046_end_mask.png",
+      "bytes": 780
+    },
+    {
+      "relative_path": "debug/boundaries/match_046_start.png",
+      "bytes": 26376
+    },
+    {
+      "relative_path": "debug/boundaries/match_046_start_mask.png",
+      "bytes": 784
+    },
+    {
+      "relative_path": "debug/boundaries/match_047_end.png",
+      "bytes": 26958
+    },
+    {
+      "relative_path": "debug/boundaries/match_047_end_mask.png",
+      "bytes": 859
+    },
+    {
+      "relative_path": "debug/boundaries/match_047_start.png",
+      "bytes": 25136
+    },
+    {
+      "relative_path": "debug/boundaries/match_047_start_mask.png",
+      "bytes": 864
+    },
+    {
+      "relative_path": "debug/ffmpeg_commands.txt",
+      "bytes": 19106
+    },
+    {
+      "relative_path": "debug/samples.csv",
+      "bytes": 131961
+    },
+    {
+      "relative_path": "debug/segments.json",
+      "bytes": 11621
+    },
+    {
+      "relative_path": "manifest.csv",
+      "bytes": 13772
+    },
+    {
+      "relative_path": "manifest.json",
+      "bytes": 45105
+    },
+    {
+      "relative_path": "match_001.mp4",
+      "bytes": 62824375
+    },
+    {
+      "relative_path": "match_002.mp4",
+      "bytes": 58085168
+    },
+    {
+      "relative_path": "match_003.mp4",
+      "bytes": 38351430
+    },
+    {
+      "relative_path": "match_004.mp4",
+      "bytes": 53558201
+    },
+    {
+      "relative_path": "match_005.mp4",
+      "bytes": 72427493
+    },
+    {
+      "relative_path": "match_006.mp4",
+      "bytes": 63560617
+    },
+    {
+      "relative_path": "match_007.mp4",
+      "bytes": 56623004
+    },
+    {
+      "relative_path": "match_008.mp4",
+      "bytes": 64172322
+    },
+    {
+      "relative_path": "match_009.mp4",
+      "bytes": 55554030
+    },
+    {
+      "relative_path": "match_010.mp4",
+      "bytes": 141183754
+    },
+    {
+      "relative_path": "match_011.mp4",
+      "bytes": 55099703
+    },
+    {
+      "relative_path": "match_012.mp4",
+      "bytes": 39138027
+    },
+    {
+      "relative_path": "match_013.mp4",
+      "bytes": 36052072
+    },
+    {
+      "relative_path": "match_014.mp4",
+      "bytes": 46893266
+    },
+    {
+      "relative_path": "match_015.mp4",
+      "bytes": 67718291
+    },
+    {
+      "relative_path": "match_016.mp4",
+      "bytes": 43060154
+    },
+    {
+      "relative_path": "match_017.mp4",
+      "bytes": 49790732
+    },
+    {
+      "relative_path": "match_018.mp4",
+      "bytes": 65832845
+    },
+    {
+      "relative_path": "match_019.mp4",
+      "bytes": 56599482
+    },
+    {
+      "relative_path": "match_020.mp4",
+      "bytes": 41887766
+    },
+    {
+      "relative_path": "match_021.mp4",
+      "bytes": 48545842
+    },
+    {
+      "relative_path": "match_022.mp4",
+      "bytes": 41219260
+    },
+    {
+      "relative_path": "match_023.mp4",
+      "bytes": 154216813
+    },
+    {
+      "relative_path": "match_024.mp4",
+      "bytes": 20056759
+    },
+    {
+      "relative_path": "match_025.mp4",
+      "bytes": 107791126
+    },
+    {
+      "relative_path": "match_026.mp4",
+      "bytes": 41826996
+    },
+    {
+      "relative_path": "match_027.mp4",
+      "bytes": 113183757
+    },
+    {
+      "relative_path": "match_028.mp4",
+      "bytes": 78847269
+    },
+    {
+      "relative_path": "match_029.mp4",
+      "bytes": 74675677
+    },
+    {
+      "relative_path": "match_030.mp4",
+      "bytes": 120343308
+    },
+    {
+      "relative_path": "match_031.mp4",
+      "bytes": 178924756
+    },
+    {
+      "relative_path": "match_032.mp4",
+      "bytes": 65213872
+    },
+    {
+      "relative_path": "match_033.mp4",
+      "bytes": 136830707
+    },
+    {
+      "relative_path": "match_034.mp4",
+      "bytes": 50669447
+    },
+    {
+      "relative_path": "match_035.mp4",
+      "bytes": 68650442
+    },
+    {
+      "relative_path": "match_036.mp4",
+      "bytes": 80216295
+    },
+    {
+      "relative_path": "match_037.mp4",
+      "bytes": 90127951
+    },
+    {
+      "relative_path": "match_038.mp4",
+      "bytes": 69494471
+    },
+    {
+      "relative_path": "match_039.mp4",
+      "bytes": 58106365
+    },
+    {
+      "relative_path": "match_040.mp4",
+      "bytes": 129888873
+    },
+    {
+      "relative_path": "match_041.mp4",
+      "bytes": 58469642
+    },
+    {
+      "relative_path": "match_042.mp4",
+      "bytes": 68207680
+    },
+    {
+      "relative_path": "match_043.mp4",
+      "bytes": 60136639
+    },
+    {
+      "relative_path": "match_044.mp4",
+      "bytes": 68086657
+    },
+    {
+      "relative_path": "match_045.mp4",
+      "bytes": 64610066
+    },
+    {
+      "relative_path": "match_046.mp4",
+      "bytes": 152184622
+    },
+    {
+      "relative_path": "match_047.mp4",
+      "bytes": 64447283
+    },
+    {
+      "relative_path": "review/index.html",
+      "bytes": 20746
+    },
+    {
+      "relative_path": "review/match_001.jpg",
+      "bytes": 219598
+    },
+    {
+      "relative_path": "review/match_002.jpg",
+      "bytes": 214527
+    },
+    {
+      "relative_path": "review/match_003.jpg",
+      "bytes": 198313
+    },
+    {
+      "relative_path": "review/match_004.jpg",
+      "bytes": 200674
+    },
+    {
+      "relative_path": "review/match_005.jpg",
+      "bytes": 217466
+    },
+    {
+      "relative_path": "review/match_006.jpg",
+      "bytes": 227810
+    },
+    {
+      "relative_path": "review/match_007.jpg",
+      "bytes": 211772
+    },
+    {
+      "relative_path": "review/match_008.jpg",
+      "bytes": 201194
+    },
+    {
+      "relative_path": "review/match_009.jpg",
+      "bytes": 217031
+    },
+    {
+      "relative_path": "review/match_010.jpg",
+      "bytes": 208688
+    },
+    {
+      "relative_path": "review/match_011.jpg",
+      "bytes": 205926
+    },
+    {
+      "relative_path": "review/match_012.jpg",
+      "bytes": 190479
+    },
+    {
+      "relative_path": "review/match_013.jpg",
+      "bytes": 191385
+    },
+    {
+      "relative_path": "review/match_014.jpg",
+      "bytes": 204781
+    },
+    {
+      "relative_path": "review/match_015.jpg",
+      "bytes": 208815
+    },
+    {
+      "relative_path": "review/match_016.jpg",
+      "bytes": 216473
+    },
+    {
+      "relative_path": "review/match_017.jpg",
+      "bytes": 222594
+    },
+    {
+      "relative_path": "review/match_018.jpg",
+      "bytes": 212809
+    },
+    {
+      "relative_path": "review/match_019.jpg",
+      "bytes": 217819
+    },
+    {
+      "relative_path": "review/match_020.jpg",
+      "bytes": 198733
+    },
+    {
+      "relative_path": "review/match_021.jpg",
+      "bytes": 191484
+    },
+    {
+      "relative_path": "review/match_022.jpg",
+      "bytes": 199109
+    },
+    {
+      "relative_path": "review/match_023.jpg",
+      "bytes": 218378
+    },
+    {
+      "relative_path": "review/match_024.jpg",
+      "bytes": 178623
+    },
+    {
+      "relative_path": "review/match_025.jpg",
+      "bytes": 200277
+    },
+    {
+      "relative_path": "review/match_026.jpg",
+      "bytes": 218760
+    },
+    {
+      "relative_path": "review/match_027.jpg",
+      "bytes": 230682
+    },
+    {
+      "relative_path": "review/match_028.jpg",
+      "bytes": 224986
+    },
+    {
+      "relative_path": "review/match_029.jpg",
+      "bytes": 231351
+    },
+    {
+      "relative_path": "review/match_030.jpg",
+      "bytes": 209142
+    },
+    {
+      "relative_path": "review/match_031.jpg",
+      "bytes": 218242
+    },
+    {
+      "relative_path": "review/match_032.jpg",
+      "bytes": 212554
+    },
+    {
+      "relative_path": "review/match_033.jpg",
+      "bytes": 205318
+    },
+    {
+      "relative_path": "review/match_034.jpg",
+      "bytes": 197120
+    },
+    {
+      "relative_path": "review/match_035.jpg",
+      "bytes": 224313
+    },
+    {
+      "relative_path": "review/match_036.jpg",
+      "bytes": 212723
+    },
+    {
+      "relative_path": "review/match_037.jpg",
+      "bytes": 203815
+    },
+    {
+      "relative_path": "review/match_038.jpg",
+      "bytes": 224511
+    },
+    {
+      "relative_path": "review/match_039.jpg",
+      "bytes": 220961
+    },
+    {
+      "relative_path": "review/match_040.jpg",
+      "bytes": 211322
+    },
+    {
+      "relative_path": "review/match_041.jpg",
+      "bytes": 221835
+    },
+    {
+      "relative_path": "review/match_042.jpg",
+      "bytes": 230574
+    },
+    {
+      "relative_path": "review/match_043.jpg",
+      "bytes": 207330
+    },
+    {
+      "relative_path": "review/match_044.jpg",
+      "bytes": 204063
+    },
+    {
+      "relative_path": "review/match_045.jpg",
+      "bytes": 203857
+    },
+    {
+      "relative_path": "review/match_046.jpg",
+      "bytes": 204805
+    },
+    {
+      "relative_path": "review/match_047.jpg",
+      "bytes": 211327
+    }
+  ]
+}

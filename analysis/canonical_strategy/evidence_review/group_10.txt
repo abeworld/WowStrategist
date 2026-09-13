@@ -1,0 +1,104 @@
+GROUP 10: Shadow Priest / Subtlety Rogue__vs__Frost Mage / Shadow Priest
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Frost Mage / Shadow Priest", "total_games": 11, "wins": 11, "losses": 0, "unknown_result": 0, "opening_target_known": 11, "opening_target_unknown": 0, "opening_targets": {"Shadow Priest": 6, "Frost Mage": 5}, "kill_target_known": 10, "kill_target_unknown": 1, "kill_targets": {"Frost Mage": 3, "Shadow Priest": 7}, "records_with_quality_flags": 6, "records_with_source_exceptions": 6, "records_with_source_win_condition_hypothesis": 11, "source_batch_distribution": {"february_3rd_2550_20260912": 1, "january_4th_2700_20260913": 1, "january_5th_full_20260912": 3, "may_18th_2500_20260913": 1, "may_4th_2350_20260913": 2, "september_20th_2650_20260913": 3}}
+
+M029 | win | open=Shadow Priest | kill=Frost Mage | extraction=high | flags=
+OBS: Enemy Shadow/Frost labels and two players each visible
+OBS: ~69s slight Priest health loss; Priest quickly returns full and stays full through Mage attack
+OBS: Mage Sap ~72–77s, Trinket cooldown/announcement ~78s; friendly Priest Polymorphed ~80s
+OBS: Blind Mage debuff ~87–88s; Mage target selected ~89s, controlled ~90–93s and takes sustained damage ~92s onward
+OBS: Enemy Priest fear ~95–97s; Divine Hymn cast ~99–105s
+OBS: Half-second review 102–105s confirms Mage death while both friendlies survive; result ~113s
+OBS: Opening-target qualification retained: Shadow Priest (brief initial damage); Frost Mage is first sustained Rogue pressure
+SOURCE CONVERSION: Mage health falls from full ~92s to ~56% ~98s. Priest Divine Hymn produces a brief recovery, but Mage falls to ~2% ~103.5s and DEAD ~104s; enemy Priest leaves and Gold Team wins ~113s.
+SOURCE RESET: Early Priest selection does not develop sustained damage. Mage Trinkets Sap and Polymorphs friendly Priest; Rogue withstands counterpressure and changes to Mage.
+
+M050 | win | open=Frost Mage | kill=Shadow Priest | extraction=high | flags=
+OBS: Two enemy spec labels and two players per team; friendly Priest in Shadowform and Rogue Shadow Dance visible
+OBS: 71–114s reviewed at 1s; 104–114s at 0.5s
+OBS: Mage Sap debuff before Trinket cooldown ~80s; Priest Sap debuff then Trinket cooldown ~86s
+OBS: Mage Blind remains active through Priest death; full 113s scoreboard shows four players and one friendly killing blow
+SOURCE CONVERSION: Blind Mage ~104.5s; Priest falls from ~80% to DEAD ~110s; Green Team wins ~113s. Mage death not shown.
+SOURCE RESET: Both casters initially selected; Priest selection before Sap is not a Rogue damage swap. Rogue first commits Mage ~81s, then Priest ~92s.
+
+M135 | win | open=Frost Mage | kill=None | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: ~60s Mage trinkets Sap and receives renewed Sap; Priest initially full.
+OBS: ~78s Mage 17% and both enemy trinkets show cooldown; ~79s Mage recovers to 46%.
+OBS: ~83-86s Priest Blind is confirmed by chat and countdown while Mage is pressured 46% ->26%.
+OBS: ~87s Mage 24%, Priest 96%; ~88s Gold Team wins and Mage frame resets to full. Our Rogue alive.
+SOURCE CONVERSION: Mage pressure reaches 53% ~75s and 17% ~78s, then recovers to 46%. Blind Priest is confirmed ~83s. Renewed Mage pressure reaches 24% ~87s, followed by Gold Team win ~88s without a visible DEAD frame.
+UNKNOWN: ["Outcome is a win, but final player death versus opponent departure cannot be distinguished. Exact Priest trinket timing is unknown."]
+EXCEPTION: - **match_034** (uncertain): Outcome is a win, but final player death versus opponent departure cannot be distinguished. Exact Priest trinket timing is unknown.
+
+M137 | win | open=Shadow Priest | kill=Shadow Priest | extraction=medium | flags=source_exception_present
+OBS: ~95s Priest86%, Mage100%; Priest fresh trinket by100s.
+OBS: ~105s Priest63%, ~110s49%, ~115sDEAD; Mage90%.
+OBS: ~130s Mage81% stunned; ~135s77% with fresh trinket; exit140s with our Rogue alive.
+SOURCE CONVERSION: Priest opening transitions through brief Mage pressure, then returns to Priest; Priest DEAD ~115s. Mage remains ~77% through ~135s; Green Team wins ~136s without a visible final Mage death.
+SOURCE RESET: Brief Mage pressure while Priest is controlled, then recommit Priest.
+UNKNOWN: ["Priest death is verified; final Mage kill versus departure remains unknown. Post-round Priest frame resetting to full is not a resurrection."]
+EXCEPTION: - **match_036** (analysed): Priest death is verified; final Mage kill versus departure remains unknown. Post-round Priest frame resetting to full is not a resurrection.
+
+M144 | win | open=Frost Mage | kill=Shadow Priest | extraction=medium | flags=source_exception_present
+OBS: ~70s Magefreshtrinket,re-Sap; ~80s bothfreshtrinkets,PriestBlind9.4s.
+OBS: ~95s Mage42%underblueimmunityaura8.3s and Immune text; ~100s83%aura3.3s.
+OBS: ~105-120s Priest93% ->65% ->21% ->DEAD, Mage83%; ownRoguealive.
+SOURCE CONVERSION: Mage burst100%85s ->63%90s ->42%95s; immunity prevents finish and Mage recovers83%100s. SwapPriest105s, stun pressure93% ->65%110s ->21%115s ->DEAD120s; arenaends~123s.
+SOURCE RESET: Mage Polymorph delays friendly Priest; Mage immunity stops first conversion; Priest becomes kill target.
+UNKNOWN: ["Mage immunity inferred from blue icon/duration and Immune; no spell-name text captured."]
+EXCEPTION: - **match_042** (analysed): Mage immunity inferred from blue icon/duration and Immune; no spell-name text captured.
+
+M197 | win | open=Shadow Priest | kill=Shadow Priest | extraction=high | flags=
+OBS: 75-76s: Mage Sap and Mage Trinket
+OBS: 78-91.5s: repeated Priest Sap states, no meaningful Priest damage yet
+OBS: 92.5-97.5s: Priest stun pressure and Mage Sap from 93.5s; Priest drops to 66%
+OBS: 99-103.5s: renewed control on Mage; Priest health falls to 0% at 102s, DEAD at 102.5s
+OBS: 104s: Gold Team wins, Mage alive at full health; Priest Trinket indicator remains available
+SOURCE CONVERSION: Priest stun pressure -> Mage Sap and follow-up control -> finish Priest
+
+M349 | win | open=Shadow Priest | kill=Shadow Priest | extraction=high | flags=
+OBS: Priest sustained damage ~70s; no meaningful Mage damage before Priest death
+OBS: Mage Blind/control countdown ~88-98s after its trinket
+OBS: Priest remains ~6-10% briefly but named defensive not established; DEAD ~93s
+OBS: Mage pressured after Priest death; final death not visible before win
+SOURCE CONVERSION: Sustain Priest damage through Mage control; Priest DEAD ~93s, round win ~112s
+
+M356 | win | open=Shadow Priest | kill=Shadow Priest | extraction=high | flags=
+OBS: Mage remains full health until Priest death; selection was for control, not a damage swap
+OBS: No Priest trinket use established before death; escape removal not asserted as prerequisite
+OBS: Mage free and casting ~106-115s during later Priest finish
+OBS: Mage trinket cooldown begins117s after Fear, therefore cannot explain the preceding Priest kill
+OBS: Next match preparation begins ~134s without second combat in this clip
+SOURCE CONVERSION: Initial Priest pressure reaches30%, heals to43% ~104.5s; continued pressure kills Priest ~113.5s with Mage active, victory124s
+SOURCE RESET: Initial control-supported burst is healed; maintain Priest pressure despite Mage Polymorph/Frostbolt activity
+
+M440 | win | open=Frost Mage | kill=Frost Mage | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Explicit Shadow/Frost panels
+OBS: Priest briefly loses about 5% around 43s before healing; first sustained coordinated damage is on Mage
+OBS: Mage trinket cooldown appears about 45s; Blind follows at 100%
+OBS: Ice Block timer begins about 55s at 63%; Mage recovers up to about 84% before renewed decline
+OBS: Mage DEAD about 73.5s; Priest remains alive and near full until departure; friendly victory about 81s
+SOURCE CONVERSION: Resume Mage pressure after Block and a partial healing recovery; renewed stuns reduce Mage below 20% and kill it about 73.5s
+SOURCE RESET: First Mage damage window is interrupted by Ice Block and partial Divine Hymn recovery; pressure resumes
+EXCEPTION: - **match_009.mp4 / september20_2650_match_009** — No second Ice Block or Cold Snap use established. Priest is free during final Mage conversion; no sustained off-target CC prerequisite is claimed.
+
+M441 | win | open=Shadow Priest | kill=Shadow Priest | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Gladius identifies Shadow Priest and Frost Mage; two players on each team engage.
+OBS: Priest trinket is spent during opening control; Mage opening trinket recovers before being spent again around 181s.
+OBS: Priest DEAD around 110s and friendly Rogue death around 112.5s leave one player per team.
+OBS: Friendly Priest survives very low health around 143–150s and recovers through healing.
+OBS: Mage mana falls very low before Evocation; its health recovers before renewed pressure.
+OBS: Mage is Feared around 203.5–206s, falls to 20%, then the victory scoreboard appears with zero enemy players remaining.
+SOURCE CONVERSION: Priest dies around 110s; our Rogue dies around 112.5s. Friendly Shadow Priest survives the resulting Mage duel and obtains victory around 206s. Mage is last visibly alive at 20% around 205.5s; its death versus departure is unresolved.
+SOURCE RESET: The initial Priest pressure is followed by a Mage-pressure/control branch, then a return to Priest. The first kill becomes a trade and a prolonged friendly Priest versus Mage finish.
+EXCEPTION: - **match_010.mp4 / september20_2650_match_010** — Victory follows a trade and 1v1. Mage death versus departure unresolved; do not infer a second kill from scoreboard.
+
+M442 | win | open=Frost Mage | kill=Frost Mage | extraction=high | flags=source_exception_present
+OBS: Two normal enemy players engage; Gladius identifies Shadow Priest and Frost Mage.
+OBS: Early Priest chip damage heals to full before coordinated Mage pressure begins.
+OBS: Mage spends trinket, then Ice Block; block ends shortly after friendly Mass Dispel casts.
+OBS: Mage DEAD around 77.5s; both friendlies remain alive.
+OBS: Enemy Priest trinket remains ready during Mage conversion; Priest is not controlled in the final Mage health collapse.
+OBS: Priest reaches 10% around 88s before victory around 89s.
+SOURCE CONVERSION: Mage falls from 88% to DEAD around 77.5s despite enemy Priest being free during the final pressure. Friendlies then control and pressure Priest; victory appears around 89s. Priest death versus departure is unresolved.
+SOURCE RESET: Mage heals during the Ice Block interruption; team recommits to Mage rather than changing the first kill target.
+EXCEPTION: - **match_011.mp4** — Priest trinket stays ready; final Mage pressure converts without final Priest CC. Second enemy removal mechanism unresolved.

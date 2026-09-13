@@ -1,0 +1,823 @@
+{
+  "scope": "Candidate rules and stronger universal claims; consult each hypothesis, not just the match ID.",
+  "entries": [
+    {
+      "strategy_id": "SPR_vs_SP_Sub_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_027",
+        "january_5th_full_20260912__match_003",
+        "january_5th_full_20260912__match_004",
+        "january_5th_full_20260912__match_032",
+        "january_5th_full_20260912__match_045",
+        "june_7th_2700_20260913__match_040",
+        "may_18th_2500_20260913__may18_2500_match_004",
+        "may_18th_2500_20260913__may18_2500_match_006",
+        "may_18th_2500_20260913__may18_2500_match_014",
+        "may_18th_2500_20260913__may18_2500_match_015",
+        "may_18th_2500_20260913__may18_2500_match_017",
+        "may_18th_2500_20260913__may18_2500_match_022",
+        "may_18th_2500_20260913__may18_2500_match_033",
+        "may_18th_2500_20260913__may18_2500_match_054",
+        "may_18th_2500_20260913__may18_2500_match_059",
+        "may_18th_2500_20260913__may18_2500_match_072",
+        "may_24th_2450_20260913__may24_2450_match_009",
+        "may_24th_2450_20260913__may24_2450_match_020",
+        "may_24th_2450_20260913__may24_2450_match_034",
+        "may_24th_2450_20260913__may24_2450_match_036",
+        "may_4th_2350_20260913__may04_2350_match_002",
+        "may_4th_2350_20260913__may04_2350_match_005",
+        "may_4th_2350_20260913__may04_2350_match_006",
+        "may_4th_2350_20260913__may04_2350_match_045",
+        "may_4th_2350_20260913__may04_2350_match_056",
+        "september_11th_2500_20260912__sep11_2500_match_027",
+        "september_11th_2500_20260912__sep11_2500_match_030",
+        "september_11th_2500_20260912__sep11_2500_match_036",
+        "september_11th_2500_20260912__sep11_2500_match_039"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_SP_Sub_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "The nearly balanced enemy-kill split rejects a single compulsory kill target. Ready Trinkets, active healing and short control gaps occur in wins. Counter-kills after a friendly death must be separated from intact-team conversions.",
+      "contradicting_match_ids": [
+        "may_18th_2500_20260913__may18_2500_match_020",
+        "may_18th_2500_20260913__may18_2500_match_070",
+        "may_24th_2450_20260913__may24_2450_match_009",
+        "may_4th_2350_20260913__may04_2350_match_003",
+        "september_11th_2500_20260912__sep11_2500_match_032",
+        "may_24th_2450_20260913__may24_2450_match_032",
+        "may_24th_2450_20260913__may24_2450_match_035",
+        "may_24th_2450_20260913__may24_2450_match_044",
+        "september_11th_2500_20260912__sep11_2500_match_037",
+        "january_4th_2700_20260913__match_032"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Arms_HPal_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_006",
+        "august_31st_2550_20260912__august31_2550_match_032",
+        "february_3rd_2550_20260912__feb03_2550_match_006",
+        "february_3rd_2550_20260912__feb03_2550_match_020",
+        "january_4th_2700_20260913__match_017",
+        "january_4th_2700_20260913__match_020",
+        "january_4th_2700_20260913__match_024",
+        "january_4th_2700_20260913__match_026",
+        "january_4th_2700_20260913__match_031",
+        "january_4th_2700_20260913__match_035",
+        "january_4th_2700_20260913__match_041",
+        "january_4th_2700_20260913__match_050",
+        "january_4th_2700_20260913__match_053",
+        "january_5th_full_20260912__match_018",
+        "january_5th_full_20260912__match_023",
+        "january_5th_full_20260912__match_028",
+        "january_5th_full_20260912__match_031b",
+        "january_5th_full_20260912__match_038",
+        "january_5th_full_20260912__match_040",
+        "january_5th_full_20260912__match_044",
+        "june_7th_2700_20260913__match_031",
+        "june_7th_2700_20260913__match_037",
+        "may_18th_2500_20260913__may18_2500_match_042",
+        "may_18th_2500_20260913__may18_2500_match_044",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_022",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_027",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_029",
+        "may_4th_2350_20260913__may04_2350_match_008",
+        "may_4th_2350_20260913__may04_2350_match_024",
+        "may_4th_2350_20260913__may04_2350_match_044",
+        "may_4th_2350_20260913__may04_2350_match_046",
+        "may_4th_2350_20260913__may04_2350_match_061",
+        "september_11th_2500_20260912__sep11_2500_match_010",
+        "september_11th_2500_20260912__sep11_2500_match_025",
+        "september_20th_2650_20260913__september20_2650_match_013",
+        "september_28th_2700_20260913__september28_2700_match_017",
+        "september_28th_2700_20260913__september28_2700_match_025"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Arms_HPal_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Mandatory double-Trinket removal, mandatory Warrior Blind, continuous partner isolation, and an inevitable Paladin kill all fail as universal rules. Some kills succeed with escapes ready or the partner active; a Paladin kill can still lose the round.",
+      "contradicting_match_ids": [
+        "january_4th_2700_20260913__match_024",
+        "january_4th_2700_20260913__match_041",
+        "january_4th_2700_20260913__match_042",
+        "january_4th_2700_20260913__match_045",
+        "january_4th_2700_20260913__match_052",
+        "january_4th_2700_20260913__match_053",
+        "january_5th_full_20260912__match_040",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_034",
+        "september_11th_2500_20260912__sep11_2500_match_042b",
+        "september_28th_2700_20260913__september28_2700_match_017",
+        "january_4th_2700_20260913__match_004"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Disc_Feral_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "january_4th_2700_20260913__match_019",
+        "may_18th_2500_20260913__may18_2500_match_051",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_021",
+        "may_4th_2350_20260913__may04_2350_match_055",
+        "september_11th_2500_20260912__sep11_2500_match_001",
+        "september_20th_2650_20260913__september20_2650_match_001",
+        "september_20th_2650_20260913__september20_2650_match_007",
+        "september_20th_2650_20260913__september20_2650_match_008",
+        "september_20th_2650_20260913__september20_2650_match_020",
+        "september_20th_2650_20260913__september20_2650_match_025"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Disc_Feral_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Both-Trinkets-spent and continuous Priest denial are not necessary. Some Priest wins happen with Feral free or escapes still ready. Cyclone is not automatically fatal: both a loss and wins occur around it.",
+      "contradicting_match_ids": [
+        "may_18th_2500_20260913__may18_2500_match_060",
+        "may_18th_2500_20260913__may18_2500_match_063",
+        "may_24th_2450_20260913__may24_2450_match_017",
+        "september_20th_2650_20260913__september20_2650_match_008",
+        "september_20th_2650_20260913__september20_2650_match_017",
+        "september_20th_2650_20260913__september20_2650_match_025",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_026",
+        "september_20th_2650_20260913__september20_2650_match_003"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Balance_Sub_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "june_7th_2700_20260913__match_001",
+        "june_7th_2700_20260913__match_005",
+        "june_7th_2700_20260913__match_006",
+        "june_7th_2700_20260913__match_008",
+        "june_7th_2700_20260913__match_009",
+        "june_7th_2700_20260913__match_011",
+        "june_7th_2700_20260913__match_013",
+        "june_7th_2700_20260913__match_015",
+        "june_7th_2700_20260913__match_016",
+        "june_7th_2700_20260913__match_018",
+        "june_7th_2700_20260913__match_024"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Balance_Sub_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Nineteen of twenty games come from one source batch. Opening families are nearly balanced; their triggers are not established. Druid Trinket removal and continuous Druid control are not necessary for every Rogue kill.",
+      "contradicting_match_ids": [
+        "june_7th_2700_20260913__match_001",
+        "june_7th_2700_20260913__match_011",
+        "june_7th_2700_20260913__match_016",
+        "june_7th_2700_20260913__match_018",
+        "june_7th_2700_20260913__match_024",
+        "may_4th_2350_20260913__may04_2350_match_027"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Arms_RDruid_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "february_3rd_2550_20260912__feb03_2550_match_012",
+        "february_3rd_2550_20260912__feb03_2550_match_016",
+        "february_3rd_2550_20260912__feb03_2550_match_021",
+        "january_4th_2700_20260913__match_049",
+        "may_24th_2450_20260913__may24_2450_match_001",
+        "may_4th_2350_20260913__may04_2350_match_057"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Arms_RDruid_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Both targets win; some kills retain Trinkets or happen after partner control ends. One active-combat clip has no result and must not enter win/loss comparisons.",
+      "contradicting_match_ids": [
+        "february_3rd_2550_20260912__feb03_2550_match_023",
+        "january_4th_2700_20260913__match_049",
+        "february_3rd_2550_20260912__feb03_2550_match_021",
+        "may_4th_2350_20260913__may04_2350_match_017",
+        "february_3rd_2550_20260912__feb03_2550_match_014"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Arms_Disc_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_007",
+        "august_31st_2550_20260912__august31_2550_match_008",
+        "august_31st_2550_20260912__august31_2550_match_010",
+        "august_31st_2550_20260912__august31_2550_match_011",
+        "january_5th_full_20260912__match_010b",
+        "may_18th_2500_20260913__may18_2500_match_078",
+        "september_11th_2500_20260912__sep11_2500_match_002",
+        "september_11th_2500_20260912__sep11_2500_match_021"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Arms_Disc_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Successful healer kills can outlast Warrior control or leave Priest Trinket ready; direct Warrior kills are frequent enough to reject a compulsory healer swap.",
+      "contradicting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_010",
+        "may_18th_2500_20260913__may18_2500_match_078",
+        "september_11th_2500_20260912__sep11_2500_match_002",
+        "may_24th_2450_20260913__may24_2450_match_025",
+        "september_11th_2500_20260912__sep11_2500_match_038"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_MM_Ret_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "january_4th_2700_20260913__match_014",
+        "january_4th_2700_20260913__match_022"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_MM_Ret_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Some Hunter wins retain both escapes or happen while Paladin heals. Paladin immunity is not healer incapacitation; many protective icons remain unnamed.",
+      "contradicting_match_ids": [
+        "january_4th_2700_20260913__match_023",
+        "may_18th_2500_20260913__may18_2500_match_026",
+        "january_4th_2700_20260913__match_022",
+        "january_4th_2700_20260913__match_016"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Destro_HPal_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "september_28th_2700_20260913__september28_2700_match_024",
+        "september_28th_2700_20260913__september28_2700_match_028",
+        "september_28th_2700_20260913__september28_2700_match_029"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Destro_HPal_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Pet work is not sufficient, and kills occur with a pet still present or Paladin free late. The three Paladin kills differ: only one explicitly shows severe mana depletion.",
+      "contradicting_match_ids": [
+        "june_7th_2700_20260913__match_007",
+        "may_4th_2350_20260913__may04_2350_match_037",
+        "september_28th_2700_20260913__september28_2700_match_024",
+        "september_28th_2700_20260913__september28_2700_match_028",
+        "september_28th_2700_20260913__september28_2700_match_029",
+        "september_28th_2700_20260913__september28_2700_match_031"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Disc_MM_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "september_11th_2500_20260912__sep11_2500_match_024",
+        "september_11th_2500_20260912__sep11_2500_match_029"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Disc_MM_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Most evidence comes from the repaired September 11 batch. Wins occur with ready Trinkets and active Priest healing; pet removal is not a proven requirement.",
+      "contradicting_match_ids": [
+        "september_11th_2500_20260912__sep11_2500_match_031",
+        "september_11th_2500_20260912__sep11_2500_match_033",
+        "september_11th_2500_20260912__sep11_2500_match_017",
+        "september_11th_2500_20260912__sep11_2500_match_018"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Ret_Unholy_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "may_18th_2500_20260913__may18_2500_match_057",
+        "may_18th_2500_20260913__may18_2500_match_069",
+        "may_18th_2500_20260913__may18_2500_match_076"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Ret_Unholy_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Wins occur with ready escapes or active Paladin healing; spending both escapes also occurs without threatening enemy health in losses.",
+      "contradicting_match_ids": [
+        "may_18th_2500_20260913__may18_2500_match_077",
+        "may_18th_2500_20260913__may18_2500_match_069",
+        "may_18th_2500_20260913__may18_2500_match_076",
+        "may_18th_2500_20260913__may18_2500_match_065",
+        "may_18th_2500_20260913__may18_2500_match_074"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Frost_SP_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "february_3rd_2550_20260912__feb03_2550_match_003",
+        "september_20th_2650_20260913__september20_2650_match_009",
+        "september_20th_2650_20260913__september20_2650_match_011"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Frost_SP_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "All eleven records are wins, so loss discrimination is unavailable. Kills can occur with partner active or escapes ready; one victory has no confirmed enemy death.",
+      "contradicting_match_ids": [
+        "may_4th_2350_20260913__may04_2350_match_023",
+        "september_20th_2650_20260913__september20_2650_match_011",
+        "january_5th_full_20260912__match_034",
+        "september_20th_2650_20260913__september20_2650_match_010"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Disc_Frost_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "february_3rd_2550_20260912__feb03_2550_match_005",
+        "january_5th_full_20260912__match_039",
+        "june_7th_2700_20260913__match_002",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_030",
+        "may_4th_2350_20260913__may04_2350_match_013",
+        "september_11th_2500_20260912__sep11_2500_match_004",
+        "september_11th_2500_20260912__sep11_2500_match_009",
+        "september_20th_2650_20260913__september20_2650_match_002"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Disc_Frost_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Nine wins and no losses limit validation. One direct Mage kill contradicts an exclusive Priest-kill rule, and some Priest wins retain escapes or tolerate an active Mage.",
+      "contradicting_match_ids": [
+        "february_3rd_2550_20260912__feb03_2550_match_008",
+        "june_7th_2700_20260913__match_002",
+        "may_4th_2350_20260913__may04_2350_match_013"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Disc_Sub_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "february_3rd_2550_20260912__feb03_2550_match_002",
+        "february_3rd_2550_20260912__feb03_2550_match_004",
+        "february_3rd_2550_20260912__feb03_2550_match_007",
+        "january_5th_full_20260912__match_030b",
+        "may_24th_2450_20260913__may24_2450_match_021",
+        "may_24th_2450_20260913__may24_2450_match_033",
+        "may_4th_2350_20260913__may04_2350_match_054",
+        "september_28th_2700_20260913__september28_2700_match_033"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Disc_Sub_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "All nine games are wins. Active Hymn/late healing and ready Priest or Rogue escapes occur in successful Rogue finishes; one game ultimately kills Priest.",
+      "contradicting_match_ids": [
+        "may_24th_2450_20260913__may24_2450_match_021",
+        "may_4th_2350_20260913__may04_2350_match_054",
+        "may_4th_2350_20260913__may04_2350_match_042"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Destro_Ele_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Warlock Trinket removal, continuous Warlock isolation and killing the Succubus are not supported prerequisites. The one Warlock-focused loss is an association, not proof that targeting Warlock causes defeat.",
+      "contradicting_match_ids": [
+        "may_18th_2500_20260913__may18_2500_match_021",
+        "may_18th_2500_20260913__may18_2500_match_023",
+        "january_5th_full_20260912__match_015",
+        "may_18th_2500_20260913__may18_2500_match_016"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Enh_Ret_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "A tied opener and mixed kills do not establish independent default strategies. One Paladin win lacks confirmed Shaman isolation and Shaman escape use.",
+      "contradicting_match_ids": [
+        "may_4th_2350_20260913__may04_2350_match_025"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Balance_Frost_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "may_18th_2500_20260913__may18_2500_match_055",
+        "may_24th_2450_20260913__may24_2450_match_006",
+        "september_20th_2650_20260913__september20_2650_match_012",
+        "september_20th_2650_20260913__september20_2650_match_014"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Balance_Frost_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Mage-to-Druid is recurrent, not mandatory. Wins occur with ready escapes and active Mage casts; one Druid-first loss cannot prove that opener wrong.",
+      "contradicting_match_ids": [
+        "june_7th_2700_20260913__match_038",
+        "may_18th_2500_20260913__may18_2500_match_052",
+        "may_24th_2450_20260913__may24_2450_match_006",
+        "september_20th_2650_20260913__september20_2650_match_012",
+        "may_18th_2500_20260913__may18_2500_match_047"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Destro_RSham_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "september_11th_2500_20260912__sep11_2500_match_019",
+        "september_28th_2700_20260913__september28_2700_match_018"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Destro_RSham_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Deep Shaman lows can recover with its Trinket retained, while other Shaman wins retain both escapes. Pet Blind in one record is not Warlock Blind.",
+      "contradicting_match_ids": [
+        "september_11th_2500_20260912__sep11_2500_match_012a",
+        "september_11th_2500_20260912__sep11_2500_match_016",
+        "september_11th_2500_20260912__sep11_2500_match_023",
+        "september_28th_2700_20260913__september28_2700_match_022",
+        "september_28th_2700_20260913__september28_2700_match_018"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Destro_RDruid_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "may_18th_2500_20260913__may18_2500_match_050",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Destro_RDruid_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Five wins without losses and two different kill targets limit certainty. A surviving replacement pet and an active Warlock do not preclude observed wins.",
+      "contradicting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Disc_Unholy_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Five wins and no losses cannot validate failure predictors. Ready Priest Trinket and active Hymn/Penance coexist with winning finishes.",
+      "contradicting_match_ids": [
+        "may_18th_2500_20260913__may18_2500_match_005",
+        "may_18th_2500_20260913__may18_2500_match_011",
+        "may_18th_2500_20260913__may18_2500_match_024"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Fire_Sub_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Fire_Sub_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Four of five games come from one batch and share the same displayed opponent pair. The sole loss includes a Mage counter-kill after friendly Priest death.",
+      "contradicting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_009",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Frost_Sub_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "january_5th_full_20260912__match_009",
+        "may_4th_2350_20260913__may04_2350_match_019"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Frost_Sub_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Only five games, mixed targets, and two trade wins. Mage escape removal alone does not guarantee useful control or survival.",
+      "contradicting_match_ids": [
+        "january_5th_full_20260912__match_031a",
+        "may_4th_2350_20260913__may04_2350_match_015",
+        "september_28th_2700_20260913__september28_2700_match_001"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Ret_Sub_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Two wins and three losses do not establish a dependable default. Exact Paladin defensives remain unidentified, so no named defensive-removal rule is justified.",
+      "contradicting_match_ids": [
+        "january_4th_2700_20260913__match_002",
+        "may_18th_2500_20260913__may18_2500_match_029",
+        "may_18th_2500_20260913__may18_2500_match_036"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_SP_Unholy_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Only two wins and three losses from one source batch. One Death Knight kill loses the round to the remaining Priest; an escape is still ready in another win.",
+      "contradicting_match_ids": [
+        "june_7th_2700_20260913__match_029",
+        "june_7th_2700_20260913__match_032"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Arms_Ret_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Four wins without losses are too few for a strong default. The physical-protection interaction is one observed case, not a required sequence.",
+      "contradicting_match_ids": [
+        "february_3rd_2550_20260912__feb03_2550_match_018"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Assa_Ret_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "One Paladin kill and two Rogue kills cannot settle a default target or a mandatory defensive sequence.",
+      "contradicting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_006",
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_008"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Destro_Disc_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "june_7th_2700_20260913__match_030",
+        "june_7th_2700_20260913__match_033",
+        "june_7th_2700_20260913__match_034",
+        "june_7th_2700_20260913__match_035"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Destro_Disc_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "All four wins come from one source batch. This is a tentative pattern; Priest escape removal, permanent Warlock control and pet death are not established prerequisites.",
+      "contradicting_match_ids": [
+        "june_7th_2700_20260913__match_030",
+        "june_7th_2700_20260913__match_034",
+        "june_7th_2700_20260913__match_035"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Arcane_Sub_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "january_5th_full_20260912__match_005"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Arms_Balance_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_005",
+        "august_31st_2550_20260912__august31_2550_match_016"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Feral_RSham_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "may_18th_2500_20260913__may18_2500_match_053"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Fury_HPal_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "may_4th_2350_20260913__may04_2350_match_009"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_ProtPal_RSham_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "june_7th_2700_20260913__match_010"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_ProtWar_Unholy_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "may_4th_2350_20260913__may04_2350_match_029",
+        "may_4th_2350_20260913__may04_2350_match_041"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Ret_SP_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "january_5th_full_20260912__match_046"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Ret_SP_v1",
+      "hypothesis_id": "H3",
+      "rule": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "explanation": "Only one win and one inferred loss from one batch. Both start Priest; the win eventually kills Paladin. Both escapes are also spent in the loss, without threatening health pressure. Final Priest control in the win is not a second Blind.",
+      "contradicting_match_ids": [
+        "january_5th_full_20260912__match_043",
+        "january_5th_full_20260912__match_046"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Aff_RSham_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "september_20th_2650_20260913__september20_2650_match_026"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Assa_Disc_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "january_5th_full_20260912__match_010a"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Disc_Fire_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "may_24th_vod2_2600_20260913__may24_vod2_2600_match_032"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Disc_Ret_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "august_31st_2550_20260912__august31_2550_match_009"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_Feral_MM_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "may_4th_2350_20260913__may04_2350_match_021"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_MM_Unholy_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "may_4th_2350_20260913__may04_2350_match_014"
+      ]
+    },
+    {
+      "strategy_id": "SPR_vs_ProtWar_RDruid_v1",
+      "hypothesis_id": "H1",
+      "rule": "One opening target also explains every reported enemy kill in wins.",
+      "disposition": "rejected_as_exhaustive",
+      "explanation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability.",
+      "contradicting_match_ids": [
+        "september_28th_2700_20260913__september28_2700_match_023"
+      ]
+    }
+  ]
+}

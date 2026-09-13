@@ -1,0 +1,43 @@
+GROUP 21: Shadow Priest / Subtlety Rogue__vs__Retribution Paladin / Subtlety Rogue
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Retribution Paladin / Subtlety Rogue", "total_games": 5, "wins": 2, "losses": 3, "unknown_result": 0, "opening_target_known": 5, "opening_target_unknown": 0, "opening_targets": {"Subtlety Rogue": 1, "Paladin": 3, "Rogue": 1}, "kill_target_known": 4, "kill_target_unknown": 1, "kill_targets": {"none observed": 2, "Paladin": 2}, "records_with_quality_flags": 4, "records_with_source_exceptions": 4, "records_with_source_win_condition_hypothesis": 5, "source_batch_distribution": {"january_4th_2700_20260913": 1, "may_18th_2500_20260913": 4}}
+
+M051 | loss | open=Subtlety Rogue | kill=None | extraction=high | flags=
+OBS: 46–100s reviewed at 1s; 81–87s and 91–99s at 0.5s
+OBS: Enemy UI establishes Retribution Paladin and Subtlety Rogue
+OBS: Both enemy Trinket cooldowns displayed after first pressure
+OBS: Full 97–98s frames show friendly Priest DEAD and both enemies alive; arena exited at ~99s
+SOURCE CONVERSION: First Rogue pressure is healed through; friendly Priest dies before a clean renewed isolation converts. Rogue continues alone briefly, then exits.
+SOURCE RESET: Brief Paladin selection for control; damage remains primarily on Rogue. No successful team reset before Priest death.
+SOURCE FAILURE: Priest dies around 86s while both enemies remain alive; resource extraction does not lead to a clean second conversion.
+
+M215 | loss | open=Paladin | kill=none observed | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Our Rogue survives Priest death
+OBS: Late target selections do not establish a successful Rogue kill swap
+OBS: Exact Paladin defensive is unresolved
+SOURCE CONVERSION: Paladin remains above half; our Priest dies around 119s and team exits around 122s
+SOURCE FAILURE: Enemy defenses preserve Paladin health; our Priest dies before a lethal pressure window develops
+EXCEPTION: | `match_029.mp4` | Exact Paladin defensive response is unresolved; loss is inferred from teammate death and departure. |
+
+M221 | loss | open=Paladin | kill=none observed | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Our Rogue survives
+OBS: Paladin defensive permits healing and is not incapacitation
+OBS: Paladin spec appears as Retribution later in this clip
+OBS: Exact defensive unknown
+SOURCE CONVERSION: Paladin 42% under stun at 58s and 24% by 59.5s; defensive stops burst and healing restores 88% by 74s; our Priest dies at 81.5s
+SOURCE FAILURE: Paladin defensive and recovery defeat first burst; our Priest dies before renewed low-health pressure
+EXCEPTION: | `match_036.mp4` | Exact Paladin defensive response affecting recovery is unresolved. |
+
+M217 | win | open=Rogue | kill=Paladin | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Both friendlies survive
+OBS: Rogue controlled through much of 123–130.5s
+OBS: Exact Paladin defensive identities unresolved
+SOURCE CONVERSION: Paladin 48% at 125s during Rogue control, 16% at 128.5s; short recovery to 33% followed by Fear and renewed damage; Paladin dies at 132s, victory 135s
+SOURCE RESET: Early Rogue pressure and first Paladin swap recover; renewed Paladin burst after defensive windows converts
+EXCEPTION: | `match_032.mp4` | Exact Paladin defensive identities during the renewed isolation sequence are unresolved. |
+
+M223 | win | open=Paladin | kill=Paladin | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Both friendlies survive
+OBS: Exact Paladin defensive unresolved
+SOURCE CONVERSION: Paladin 45% at 101s during Rogue Gouge; 26% at 102.5s; Fear both at 103.5s supports damage to 7% at 105.5s, death 106.5s and victory 109s
+SOURCE RESET: First Paladin burst forces defensive but heals; later Rogue control supports renewed burst
+EXCEPTION: | `match_038.mp4` | Exact Paladin defensive response before renewed isolation is unresolved. |

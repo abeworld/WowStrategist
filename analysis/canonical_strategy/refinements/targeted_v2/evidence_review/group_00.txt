@@ -1,0 +1,893 @@
+GROUP 00: Shadow Priest / Subtlety Rogue__vs__Shadow Priest / Subtlety Rogue
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Shadow Priest / Subtlety Rogue", "total_games": 104, "wins": 67, "losses": 37, "unknown_result": 0, "opening_target_known": 103, "opening_target_unknown": 1, "opening_targets": {"Subtlety Rogue": 44, "Shadow Priest": 20, "Rogue": 29, "Priest": 7, "Enemy Rogue for the first sustained Rogue attack about 48â€“52s": 1, "Enemy Rogue for the first sustained Rogue attack about 71s": 1, "Enemy Rogue": 1}, "kill_target_known": 66, "kill_target_unknown": 38, "kill_targets": {"Shadow Priest": 23, "Subtlety Rogue": 18, "Rogue": 11, "Priest": 7, "none observed": 3, "Rogue at approximately 102.5s": 1, "Enemy Rogue": 2, "Rogue first": 1}, "records_with_quality_flags": 18, "records_with_source_exceptions": 13, "records_with_source_win_condition_hypothesis": 104, "source_batch_distribution": {"august_31st_2550_20260912": 1, "january_4th_2700_20260913": 14, "january_5th_full_20260912": 6, "june_7th_2700_20260913": 1, "may_18th_2500_20260913": 30, "may_24th_2450_20260913": 29, "may_4th_2350_20260913": 10, "september_11th_2500_20260912": 11, "september_20th_2650_20260913": 1, "september_28th_2700_20260913": 1}}
+
+M059 | loss | open=Subtlety Rogue | kill=None | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Whole clip at 4s; active 50–102s at 1s; 60–80s and 93–101s at 0.5s
+OBS: Native 67s confirms friendly Rogue stunned at low health and both teams still have two players
+OBS: Friendly Rogue death ~97s and loss scoreboard ~101s; no enemy death
+SOURCE CONVERSION: No damaging isolated enemy window is established; enemies remain ~98–100% throughout the main exchange
+SOURCE RESET: Defensive retreat around tomb after the opener; brief simultaneous enemy control followed by continued retreat
+SOURCE FAILURE: Friendly Rogue dies ~97s after remaining critically low for most of combat; both opponents remain alive and near full health
+EXCEPTION: - **match_013** (uncertain, medium): Friendly Rogue dies ~97s after remaining critically low for most of combat; both opponents remain alive and near full health
+
+M064 | loss | open=Subtlety Rogue | kill=None | extraction=high | flags=
+OBS: Whole clip at 4s; active 61–128s at 1s; 82–96s, 102–106s and 119–126s at 0.5s
+OBS: Native 105s shows friendly Priest critically low; native 124s confirms Uncle Ghost and Rogue alive before departure
+OBS: Own 30s portrait buff is Fear Ward, not evidence of friendly Sap
+OBS: Enemy Rogue Stealth is reported ~120–124s, but no specific Vanish expenditure is asserted; enemy remains full health
+SOURCE CONVERSION: No covered low-health enemy Rogue window; Priest dies before conversion and remaining Rogue pressure is healed
+SOURCE RESET: Post-Priest-death solo Rogue switches to Priest, then exits; no successful team reset
+SOURCE FAILURE: Friendly Priest dies around ~106s while enemy Rogue remains near ~87% with Trinket ready; solo continuation produces no kill and ends in departure
+
+M073 | loss | open=Shadow Priest | kill=None | extraction=high | flags=
+OBS: Whole clip at4s; active65–190s at1s;135–149,160–166,164–190s at0.5s; native160,165,170,175,179–182,186,188.5s
+OBS: Chat death and Gold1/Green2 at163.5s precede Blind165.5s
+OBS: Native188.5s shows friendly Rogue alive; do not invent Rogue death
+SOURCE CONVERSION: Both enemy escapes are removed, but long Rogue control starts only after our Priest dies; solo continuation produces no kill
+SOURCE RESET: Priest pressure -> brief Rogue escape extraction -> Priest pressure; delayed Blind/Sap during solo continuation
+SOURCE FAILURE: Friendly Priest dies ~163.5s before the long Rogue control window. Escape removal was achieved, but two-player conversion was lost before isolation
+
+M074 | loss | open=Shadow Priest | kill=None | extraction=high | flags=
+OBS: Whole clip at4s; active54–122s at1s;69–76,83–96,91–97,98–110,119–129s at0.5s; native93–95,122s
+OBS: Native95s establishes friendly Priest death; native122s Ghost and Gold1/Green2 confirm solo continuation
+OBS: Blind macro attempts do not establish long enemy Rogue Blind; offensive enemy Blind is spent, not forced
+SOURCE CONVERSION: Priest pressure is healed before any lasting Rogue isolation is established; friendly Priest dies and solo Rogue branch does not convert
+SOURCE RESET: Priest pressure -> Rogue damage after friendly Priest death; no successful team recovery
+SOURCE FAILURE: Friendly Priest dies around95s before a sustained Priest-isolation conversion; both enemy escapes were removed but the early Priest damage recovered
+
+M078 | loss | open=Subtlety Rogue | kill=None | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Whole clip4s; active51–118s1s;65–81 and98–119s0.5s; native76,83,88,94,108,112,114–118s
+OBS: Native88 and94s show friendly Priest alive; do not infer death from a missing compact crop
+OBS: Loss established by friendly -7/opponent+8 scoreboard; native116–117s still shows friendly Rogue alive and Priest party frame active
+SOURCE CONVERSION: Isolation and both escape removal are achieved; Priest reaches~13% but no death is established before the loss scoreboard
+SOURCE RESET: Rogue escape extraction -> controlled/disengaged interval -> Blind/Sap Rogue with Priest return
+SOURCE FAILURE: Favourable isolation existed and Priest became very low, but the round ended as a loss without a visibly established player death; termination cause unknown
+EXCEPTION: - **match_032** (uncertain, medium): Favourable isolation existed and Priest became very low, but the round ended as a loss without a visibly established player death; termination cause unknown
+
+M080 | loss | open=Subtlety Rogue | kill=None | extraction=high | flags=
+OBS: Whole clip4s; active32–111s1s;89–110s0.5s; native95,101,105,108s
+OBS: Native101s friendly Priest critically low,105s explicitly Dead and chat confirms death
+OBS: Native108s confirms enemy Rogue late Trinket; friendly Rogue survives departure109s
+SOURCE CONVERSION: No covered conversion is reached; meaningful Rogue escape removal occurs only after friendly Priest is dead
+SOURCE RESET: Long concealed setup -> late Rogue commitment -> solo Rogue continuation after Priest death
+SOURCE FAILURE: Friendly Priest dies while enemy Rogue retains Trinket and enemy Priest remains free and healthy; late solo escape extraction cannot restore the two-player setup
+
+M082 | loss | open=Shadow Priest | kill=None | extraction=high | flags=
+OBS: Whole clip4s; active37–154s1s;108–120 and130–141s0.5s; native138,140,145s
+OBS: Native140/145s confirms friendly Priest alive and healthy after Rogue death
+OBS: Late chat asks why disarm Priest and not Rogue; this supports player dissatisfaction but is not proof of intended strategy
+SOURCE CONVERSION: Priest escape removal and very low health occur, but off-target Rogue isolation is not established before friendly Rogue dies
+SOURCE RESET: Long preparation/early Priest Blind -> short Rogue stun interval -> Priest return -> surviving Priest alone
+SOURCE FAILURE: Enemy Rogue remains free with escape ready during the late Priest pressure; friendly Rogue dies with enemy Priest~6–14% and the Priest then recovers
+
+M094 | loss | open=Shadow Priest | kill=None | extraction=high | flags=
+OBS: Whole clip4s; active35–115s1s;81–85,94–103,109–115s0.5s; native84,96,103,104,106–110,114,115s
+OBS: Native104s friendly Priest critical; native106s DEAD and death chat. Enemy Hymn starts after this death
+OBS: Enemy Rogue remains100% throughout pre-death stun sequence; targeting it does not establish a damage swap
+OBS: Priest mana visibly recovers during the damage window; mechanism not identified, so no mana-drain win condition asserted
+SOURCE CONVERSION: Priest pressure stalls near75–77%; Rogue control after its Trinket does not produce renewed low Priest health before friendly Priest dies between104–106s
+SOURCE RESET: Priest escape extraction -> modest actual Priest commitment -> Rogue control and selected-target branch; meaningful Rogue damage only after friendly death
+SOURCE FAILURE: Enemy Priest is free after the damage stun and both enemies remain far from lethal. Friendly Priest becomes critical104s and dies by106s during the potential renewed commitment; post-death enemy Hymn restores both enemies
+
+M136 | loss | open=Subtlety Rogue | kill=None | extraction=medium | flags=source_exception_present
+OBS: ~75s Priesttrinket, RoguefullSapped; ~80s PriestBlind7s, Roguefullstunned.
+OBS: ~85s enemyRogue freshtrinket34%; enemyBlindannouncementonourRogue.
+OBS: ~94-98s enemy Rogue falls 11% ->7% ->5% ->3% as our Rogue loses its remaining health. Enemy Priest is free to cast Mind Blast.
+OBS: ~98s our Rogue dead; ~99s enemy Rogue heals to 26%; both enemies survive.
+OBS: ~136s chat confirms Maslohej death; ~137s scoreboard and Gold Team win follow after both friendly deaths.
+SOURCE CONVERSION: Rogue burst reaches 7% ~95s and 3% ~98s. Our Rogue dies by ~98s without finishing it; enemy Rogue heals to 26% ~99s, then recovers further. Friendly Priest continues alone and dies ~136s; Gold Team win ~137s is the enemy victory.
+SOURCE RESET: PriestBlindendsbeforefinishingdamage; enemyRogue recovers after our Rogue death.
+SOURCE FAILURE: Enemy Rogue survives the finishing window; our Rogue dies before it can finish. Exact cause of lost finishing damage and defensive choices unknown.
+UNKNOWN: ["Resource/control prerequisites existed briefly, but finishing damage was not sustained through friendly survival. Exact lethal source and whether a viable defensive/reset was available are unknown."]
+EXCEPTION: - **match_035** (analysed): Resource/control prerequisites existed briefly, but finishing damage was not sustained through friendly survival. Exact lethal source and whether a viable defensive/reset was available are unknown.
+
+M190 | loss | open=Subtlety Rogue | kill=None | extraction=high | flags=
+OBS: 60-68s: opening Sap states on Rogue then Priest; 72-85s: our Rogue Sapped
+OBS: 89-120s: Rogue is the principal damage target, recovering after pressure
+OBS: 135.5-138s: short Priest pressure/control window, Priest remains approximately 93%
+OBS: 138.5s: Blind lands on Rogue; 140.5s: Rogue PvP Trinket starts and Blind ends
+OBS: 143-146s: enemy Priest recovers to full and Rogue remains approximately 80%; 146.5s: our Rogue dies
+OBS: 153.5s: Green Team wins
+SOURCE CONVERSION: Brief Priest attempt is followed by Blind Rogue; Rogue immediately escapes and Priest remains near full health
+SOURCE FAILURE: Blind is trinketed and no sustained replacement isolation develops before our Rogue dies
+
+M198 | loss | open=Subtlety Rogue | kill=None | extraction=high | flags=
+OBS: 65-75s: Priest Sap; damage opener on Rogue follows
+OBS: 77-78s: Rogue and Priest Trinket indicators start
+OBS: 82-87s: Rogue roughly 65-59%; Priest drops from 69% to 32%
+OBS: 86-88.5s: friendly Priest controlled; Rogue avoidance icon and miss events visible
+OBS: 89-91.5s: enemy Priest Flash Heals from 32% to 61%; our Rogue health empties by 89.5s and portrait greys by 91s
+OBS: 92s: Green Team wins; enemy Rogue and Priest survive, friendly Priest was still alive immediately before ending
+SOURCE CONVERSION: Spread pressure depletes Priest to 32%, but Rogue stays near 60% and our Rogue dies before either enemy is finished
+SOURCE FAILURE: Enemy counterpressure kills our Rogue while friendly Priest is briefly controlled; depleted enemy Priest resumes self-healing
+
+M200 | loss | open=Subtlety Rogue | kill=None | extraction=high | flags=
+OBS: 67-84s: repeated Priest Sap; friendly Priest Sap/Blind announcements and visible countercontrol
+OBS: 85-88s: Blind Priest; Priest Trinket at 88s
+OBS: 91-101s: Rogue drops to 76%, then recovers to 97%; enemy Priest remains full
+OBS: 132-139s: brief Priest pressure to about 82%; enemy Rogue remains about 76%
+OBS: 139.5-145s: friendly Priest feared while our Rogue health falls to empty at 145s
+OBS: 146-147s: both opponents feared after our Rogue dies; Rogue Trinkets at 147s
+OBS: 154.5s: Green Team wins, both enemies alive; friendly Priest alive before ending
+SOURCE CONVERSION: Rogue pressure reaches about 76% and recovers; brief Priest pressure later leaves both enemies near 80% when our Rogue dies
+SOURCE FAILURE: Enemy Rogue repeatedly countercontrols friendly Priest; pressure fails to create a low-health finish before our Rogue dies
+
+M220 | loss | open=Rogue | kill=none observed | extraction=high | flags=
+OBS: Our Rogue survives
+OBS: Enemy Rogue remains above 90% late
+OBS: No surviving-team victory message before departure
+SOURCE CONVERSION: Priest 43% under stun at 120.5s while our Priest still alive but low; our Priest dies at 121s and team leaves
+SOURCE FAILURE: A late favorable Priest pressure window forms, but our Priest dies before conversion
+
+M222 | loss | open=Rogue | kill=none observed | extraction=high | flags=
+OBS: Our Rogue survives
+OBS: Blind macro requests around 58s do not prove a landed Priest Blind at that time
+OBS: Confirmed Priest Blind is late at 72s
+SOURCE CONVERSION: Enemy health remains about 89% Priest/93% Rogue; our Priest dies 73.5s; departure 78s
+SOURCE FAILURE: Enemy countercontrol interrupts pressure and our Priest dies before a low-health target is created
+
+M224 | loss | open=Rogue | kill=none observed | extraction=high | flags=
+OBS: Our Rogue survives Priest death
+OBS: Enemy Rogue never approaches low health
+SOURCE CONVERSION: Priest heals from 58% to 82%; our Priest dies 135.5s with enemies about 90%/96%; departure 145s
+SOURCE FAILURE: Countercontrol and Priest healing interrupt pressure; our Priest dies before low enemy health is created
+
+M249 | loss | open=Subtlety Rogue | kill=None | extraction=high | flags=
+OBS: 55s first Rogue health loss, repeated stuns leave Rogue around 94–98%; enemy Priest free after 56s
+OBS: Our Priest was Sapped in opening; later health stays critically low while enemy Priest can cast
+OBS: 68–76.5s Rogue remains 91–94%; Priest 82–100%; both enemy Trinkets available
+OBS: 75s our Priest explicitly Dead, 75.5s death chat, 76s Ghost; our Rogue alive and leaves around 77s
+OBS: No enemy major defensive/escape use established
+SOURCE CONVERSION: No established favourable burst; our Priest dies and POV leaves
+SOURCE FAILURE: Rogue pressure produces little health deficit or resource extraction; our Priest dies while enemy Priest is free
+
+M251 | loss | open=Shadow Priest | kill=None | extraction=high | flags=
+OBS: 82s first sustained Priest health loss; Priest reaches about 64–66% at 95–97s; Rogue brief damage from 98s
+OBS: 106–113s Rogue Blind and Trinket; 123–133s Priest Sap; Priest heals to full
+OBS: 143s Priest Trinket on renewed Sap; both Trinkets on cooldown at failure
+OBS: 160–164s Rogue stun/Gouge pressure reaches 76%; Priest remains above 92% and free
+OBS: Our Priest Flash Heal attempt fails at 164.5s; confirmed dead 167s while our Rogue lives; POV leaves at 173s
+OBS: Initial strategic objective unresolved rather than inferred from generic target/control selection
+SOURCE CONVERSION: Escapes are extracted but neither enemy develops a below-half burst window before friendly death
+SOURCE RESET: Priest pressure heals during Rogue Blind/positioning; repeated Saps bridge to late Rogue pressure
+SOURCE FAILURE: Enemy Priest remains free during late Rogue burst and our Priest dies while trying to heal at low health
+
+M252 | loss | open=Subtlety Rogue | kill=None | extraction=high | flags=
+OBS: Both opponents present throughout the arena; positioning until first Rogue damage around 137s
+OBS: 135–137s Priest Gouge; Rogue stun/Gouge leaves roughly 87–94% health
+OBS: Our Priest heals at 142.5–143.5s then falls rapidly and is dead 145.5s; Priest Trinket cooldown appears simultaneously
+OBS: 146.5s Rogue confirmed Blind, Trinket at 147s after friendly death
+OBS: Rogue 81–88% after death; enemy Priest around 96%; our Rogue survives and leaves 152s
+OBS: Our Blind at 146.5s occurs after the first failure, not before it
+SOURCE CONVERSION: Rogue never falls below half; escapes are removed only as/after our Priest dies
+SOURCE FAILURE: Priest control expires with little Rogue health pressure; our Priest dies before a resource-free Rogue finishing setup exists
+
+M266 | loss | open=Subtlety Rogue | kill=None | extraction=high | flags=
+OBS: Enemy Shadow Priest and Subtlety Rogue established in two enemy frames
+OBS: ~73s Priest Trinket appears after Sap; ~74s Blind icon, absent ~74.5s; Priest casting Vampiric Touch ~75s
+OBS: ~82-85s Priest Silence; enemy Rogue remains ~99-100% and briefly stealths
+OBS: ~87s Maslohej has died; both enemies alive; subsequent solo Priest pressure and exit ~95s
+SOURCE CONVERSION: Blind breaks before meaningful Rogue damage; Rogue remains ~99-100% when friendly Priest dies ~87s
+SOURCE RESET: Enemy Rogue re-enters stealth ~84.5s; no successful team recovery before Priest death
+SOURCE FAILURE: Priest Blind lasts less than a second and renewed engagement never develops meaningful Rogue pressure; friendly Priest dies
+
+M270 | loss | open=Subtlety Rogue | kill=None | extraction=high | flags=
+OBS: Leading 0-6s repeats the end of match_006; new preparation begins ~14s and gates open ~39s
+OBS: Two enemies established after Rogue reveals; initial Rogue damage ~87s
+OBS: Priest Trinket cooldown ~95s; Priest Blind ~101-105.5s then Gouge ~106s
+OBS: Rogue remains ~82% through 108s; Priest remains 100% during control
+OBS: Enemy Rogue Blind announcement ~112s; enemy Rogue Fear ~118-122.5s
+OBS: Friendly Rogue is Sapped ~121s; friendly Priest portrait dead by ~123s; exit ~126s
+SOURCE CONVERSION: Priest Blind is confirmed, but Rogue stays ~82% throughout Blind/Gouge rather than taking renewed meaningful damage; friendly Priest later dies
+SOURCE RESET: Later Rogue Fear and attempted repositioning do not establish another damaging setup before friendly Priest death
+SOURCE FAILURE: The post-Trinket Priest isolation is not converted into Rogue damage; own Priest dies while enemy Rogue remains healthy
+
+M274 | loss | open=Subtlety Rogue | kill=None | extraction=high | flags=
+OBS: Leading 0-3s repeats match_010 result
+OBS: Priest Trinket cooldown ~71s; Blind ~82-85s confirmed
+OBS: Enemy Divine Hymn ~93-96s during Rogue pressure; both recover afterward
+OBS: Enemy Rogue Blind announcement ~111s; Rogue Trinket ~119s after Fear
+OBS: Late Priest Silence ~122-125s while both enemies 100%; Rogue stun ~125.5s
+OBS: Chat confirms Maslohej died ~128.5s; no enemy death; exit ~135s
+SOURCE CONVERSION: Rogue pressure reaches ~66% ~95s but Priest Divine Hymn and later recovery restore both enemies; no kill follows the isolation window
+SOURCE RESET: Enemy Rogue restealth and Blind disrupt later pressure; dual enemy Fear ~116s and late Priest Silence do not establish another useful damage window
+SOURCE FAILURE: Priest isolation is not converted before enemy recovery; enemy counter-control delays follow-up and friendly Priest dies
+
+M276 | loss | open=Subtlety Rogue | kill=None | extraction=high | flags=
+OBS: Leading 0-4s repeats match_012 ending; new gates ~39s with two enemies
+OBS: Priest Silence ~59-62s; Rogue first health loss ~69s
+OBS: Enemy Blind announcement ~74s; Rogue Fear ~76s followed by Trinket ~76.5s
+OBS: Rogue Fear ~79.5-82.5s with Rogue 100%; Priest continues casting
+OBS: Friendly Priest death chat/portrait ~80.5-81s; full frame 82s shows friendly Priest Dead, two enemies alive
+OBS: Exit ~84s
+SOURCE CONVERSION: No damaging conversion established after Rogue Trinket; Rogue stays 100% during late Fear
+SOURCE FAILURE: Own Rogue is delayed by enemy Sap/Blind and cannot establish follow-up pressure before friendly Priest dies
+
+M278 | loss | open=Rogue | kill=None | extraction=high | flags=
+OBS: Both normal enemy players participate
+OBS: Rogue ~86% at 92s, ~66% at 93s, ~58% at 95s
+OBS: Rogue Feared ~95-98s; Blind macro ~95.5s does not replace Fear with confirmed Blind
+OBS: Maslohej death chat ~96s; exit ~100s
+OBS: Enemy Priest Gladius label identifies Shadow; normalization checked against native UI
+SOURCE CONVERSION: Rogue reaches ~58% but Priest remains ~98% and can cast; no confirmed lethal isolation
+SOURCE RESET: Early Rogue damage recovers before later pressure; no completed reset
+SOURCE FAILURE: Friendly Priest dies before Rogue pressure reaches a confirmed kill opportunity
+
+M286 | loss | open=Rogue | kill=None | extraction=high | flags=
+OBS: Maslohej has died chat132s
+OBS: Priest~51%, Rogue79% at132s
+OBS: Hymn begins133.5s after death; not counted as forced before failure
+SOURCE CONVERSION: No kill; Priest~51% and Rogue~79% when Maslohej dies132s
+SOURCE RESET: Priest-to-Rogue damage branch; solo continuation after friendly Priest death, exits142s
+SOURCE FAILURE: Friendly Priest dies before either enemy is isolated at critical health
+
+M288 | loss | open=Rogue | kill=None | extraction=high | flags=
+OBS: Maslohej dies105.5s
+OBS: Rogue Trinket107s follows renewed stun106.5s after death
+OBS: Blind107s announced on POV Rogue; exit109s
+SOURCE CONVERSION: No kill; enemy Priest97% and Rogue89% at friendly death105.5s
+SOURCE RESET: Long setup waiting period; short solo continuation after death
+SOURCE FAILURE: Friendly Priest dies before meaningful low-health pressure
+
+M290 | loss | open=Rogue | kill=None | extraction=high | flags=
+OBS: Maslohej dies61s
+OBS: Both enemies100% at61s
+OBS: Enemy Rogue Blind68s is post-failure; no Rogue Trinket observed
+SOURCE CONVERSION: No kill; both enemies100% when Maslohej dies61s; damage after death excluded from window assessment
+SOURCE RESET: Solo Rogue pressure after friendly death; exit69s
+SOURCE FAILURE: Friendly Priest dies before sustained damage can use extracted escape
+
+M291 | loss | open=Rogue | kill=None | extraction=high | flags=
+OBS: Maslohej dies112.5s
+OBS: Hymn116s begins after death
+OBS: No confirmed Priest Blind
+SOURCE CONVERSION: No kill; Priest~59% and Rogue92% when Maslohej dies112.5s
+SOURCE RESET: Damage transfers to Priest then Rogue; solo continuation until121s
+SOURCE FAILURE: Friendly Priest dies before low-health pressure and denial align
+
+M292 | loss | open=Rogue | kill=None | extraction=high | flags=
+OBS: Maslohej death chat already present79s
+OBS: Both enemies~93%/~98% at79s
+OBS: No critically low Rogue claimed from misread percentages
+SOURCE CONVERSION: Blind isolation window yields no sustained Rogue reduction; enemies~93%/~98% when friendly Priest dies by79s
+SOURCE RESET: Blind window does not convert; solo stun pressure after death ends in exit84s
+SOURCE FAILURE: Obtained healer isolation does not create a kill before friendly Priest dies
+
+M294 | loss | open=Rogue | kill=Rogue | extraction=high | flags=
+OBS: Friendly death chat72s precedes late Hymn and Rogue Trinket
+OBS: Rogue death96.5s clearly visible; no enemy Priest kill
+OBS: Scoreboard180s: enemy team wins; enemy Priest two killing blows, POV Rogue one
+OBS: Arena-replay health frames reset on scoreboard; visible full bars at ending do not establish survival
+SOURCE CONVERSION: Rogue2%92-95s; Priest resumes Flash Heal95-96s, Rogue briefly9% then DEAD96.5s; enemy Priest wins final1v1~180s
+SOURCE RESET: Friendly Priest dies72s; Rogue secures counter-kill then repeatedly resets during extended Priest 1v1
+SOURCE FAILURE: Friendly Priest dies72s; solo counter-kill succeeds, but surviving enemy Priest wins final1v1. Scoreboard credits enemy Priest two killing blows.
+
+M297 | loss | open=Priest | kill=Priest | extraction=high | flags=
+OBS: Priest DEAD79s; both enemy escapes are not removed before the friendly death
+OBS: Later Rogue Trinket belongs to solo duel and cannot explain original 2v2 setup
+SOURCE CONVERSION: Solo Rogue kills Priest79s, but loses the subsequent duel; scoreboard162s gives enemy Rogue2 killing blows and our Rogue1
+SOURCE RESET: Priest counter-kill -> prolonged solo Rogue duel and repeated stealth/Sap resets
+SOURCE FAILURE: Friendly Priest dies before enemy Priest; counter-kill does not restore 2v2 survival, and final Rogue duel is lost
+
+M302 | loss | open=Rogue | kill=None | extraction=medium | flags=
+OBS: Loss inferred from arena departure after friendly death; final scoreboard not shown
+OBS: Both opponents alive before exit; enemy Blind and Hymn must not be used as pre-failure extraction evidence
+SOURCE CONVERSION: No enemy death established; friendly Priest dies88.5s and own Rogue exits103s with both opponents alive
+SOURCE RESET: Modest Rogue pressure heals -> actual Priest damage87s -> unsuccessful solo continuation
+SOURCE FAILURE: Friendly Priest dies before either opponent is critically low; later control and Hymn belong to solo continuation
+
+M303 | loss | open=Rogue | kill=None | extraction=medium | flags=
+OBS: Final scoreboard not shown; loss inferred from departure after friendly death
+OBS: Priest57%109s and55%110s occur after friendly death
+SOURCE CONVERSION: Friendly Priest dies108s with enemy Priest71% and Rogue84%; own Rogue leaves113s with both enemies alive
+SOURCE RESET: Minor Rogue opener -> actual Priest damage~92s, continued after friendly death
+SOURCE FAILURE: Friendly Priest dies before renewed control produces critically low Priest health; post-death Blind does not establish a pre-failure conversion
+
+M304 | loss | open=Rogue | kill=None | extraction=medium | flags=
+OBS: Both enemy players participate in opposed2v2 combat
+OBS: Later Priest Hymn cannot explain original2v2 escape extraction
+OBS: Final scoreboard not shown; loss inferred from departure after friendly death
+SOURCE CONVERSION: No enemy death; friendly Priest dies165.5s with Rogue55% and Priest64%; own Rogue leaves172s
+SOURCE RESET: Prolonged mutual-stealth/Sap resets -> late Rogue commitment and modest concurrent Priest damage~157s onward
+SOURCE FAILURE: Rogue retains Trinket and survives pressure; friendly Priest dies before a clean critical isolation window
+
+M305 | loss | open=None | kill=None | extraction=medium | flags=
+OBS: Rogue Fear precedes Priest Blind; Blind macros~86s alone do not prove early application
+OBS: Priest Trinket escapes Gouge after earlier Silence has expired
+OBS: Normal opposed2v2 interaction established by both enemies and repeated control/damage on our team
+OBS: Final scoreboard not shown; loss inferred from departure after friendly death
+SOURCE CONVERSION: Control never yields a meaningful damage window; friendly Priest dies103.5s and own Rogue leaves109s with both enemies100%
+SOURCE RESET: Control-only opening is countered by Blind/Sap on own Rogue; no actual damage swap established
+SOURCE FAILURE: Enemy control prevents meaningful damage commitment while friendly Priest is killed
+
+M389 | loss | open=Shadow Priest | kill=None | extraction=medium | flags=
+OBS: Friendly Priest death158.5s is explicit; no claim that Mind Sear alone caused it
+OBS: Our Blind159s and enemy trinket159.5s are after the failure point
+OBS: Friendly major defensive use before death is unknown
+OBS: Enemy Priest remains alive (~84%158.5s); enemy Rogue alive/full
+SOURCE CONVERSION: Friendly Priest dies158.5s while enemy Priest pressure has stabilised; late Blind cannot restore the normal2v2 setup
+SOURCE RESET: Solo Rogue attempts to disengage after death; no enemy first death, then own arena departure196s
+SOURCE FAILURE: Neither enemy trinket has been removed at friendly Priest death, prior Rogue control has ended, and shallow Priest pressure recovers; late Rogue Blind/trinket exchange occurs after the failure point
+
+M417 | loss | open=Shadow Priest | kill=None | extraction=high | flags=
+OBS: Replay 38621675, Dalaran Sewers, four player frames
+OBS: Enemy Priest remains alive at 8-11% across 84-88s
+OBS: Uncle death message and Dead target-of-target at 86s
+OBS: Our Rogue has zero health and death dialog at 136s; enemy winner announced afterward
+OBS: V6 evidence qualification: enemy Blind on our Rogue is announced ~74s; successful application and cooldown expenditure are not visually established by the saved evidence reviewed for this repair. Retain as an attempt only, outside enemy_resources_spent and resources_forced.
+SOURCE CONVERSION: Enemy Priest survives at approximately 8%; Uncle dies at 86s, and our Rogue dies at approximately 136s. Enemy Green team wins at 137.5s.
+SOURCE RESET: After Uncle dies, pressure switches to enemy Rogue in a prolonged 1v2; he is healed from approximately 10% to 46% before our Rogue dies.
+SOURCE FAILURE: A favourable Priest-pressure window exists ~80-82s with both enemy trinkets spent and enemy Rogue Feared. Rogue control expires ~82.5s; subsequent Blind attempts are not confirmed applied, so the ~8-9% Priest near-kill is no longer fully isolated. Uncle dies ~86s before conversion. Both enemies recover and win the later 1v2.
+
+M423 | loss | open=Rogue | kill=None | extraction=high | flags=
+OBS: Nagrand Arena replay 38621958; four player frames establish 2v2
+OBS: Full frame at 84s confirms Rogue death and Gold 1 versus Green 2 remaining
+OBS: Green enemy victory around 110s; enemy Priest stays full health and enemy Rogue recovers
+OBS: V6 evidence qualification: enemy Blind on Uncle is announced ~86s; successful application and cooldown expenditure are not visually established by the saved evidence reviewed for this repair. Retain as an attempt only, outside enemy_resources_spent and resources_forced.
+SOURCE CONVERSION: Enemy Rogue survives at approximately 3%; friendly Rogue dies around 84s, then Priest heals the enemy Rogue to 18% by 87.5s and later full health
+SOURCE RESET: Uncle continues alone after Rogue death; no enemy player kill before enemy victory around 110s
+SOURCE FAILURE: The favourable reduced-health Rogue window with both enemy trinkets spent and Priest Feared exists ~76-78s, but Priest Fear expires ~78s. Enemy Rogue reaches ~3% around 83.5s with Priest free; our Rogue dies ~84s before conversion. Priest heals afterward and both enemies recover.
+
+M021 | win | open=Subtlety Rogue | kill=Shadow Priest | extraction=high | flags=source_exception_present
+OBS: Repeated Priest Sap and Gouge precede Rogue opening stun ~68.5s; Rogue Trinket cooldown appears ~69.5s
+OBS: Enemy Rogue Blind cast reported ~69.5s; friendly control application/removal is not fully resolved
+OBS: Blind Rogue persists during Priest swap; Priest Trinkets ~81.5s at 61%, falls to 8% by 88.5s and dies ~89s; Rogue Sap begins ~87.5s; Gold wins ~91s
+SOURCE CONVERSION: Blind Rogue ~79-87.5s; commit Priest ~80s, draw Priest Trinket ~81.5s and continue damage; Sap Rogue ~87.5s extends isolation, Priest dies ~89s
+SOURCE RESET: Brief renewed Rogue stun pressure precedes Blind; no full recovery/reset before Priest conversion
+EXCEPTION: - `match_027.mp4`: Exact enemy Blind application/removal unknown; offensive Blind is not classified as forced
+
+M067 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: Whole clip at 4s, active 33–106s at 1s; 43–46s,75–80s,83–105s at 0.5s; native 85s,94s,105s,106s
+OBS: Both friendlies alive at win; Priest stays ~91% before departure
+OBS: Exact short Rogue defensive buff name is left unresolved; not counted as confirmed Cloak or Evasion
+SOURCE CONVERSION: Rogue briefly heals from critical health but renewed Priest control supports finish ~101s; surviving Priest departs and native 106s confirms one-kill victory
+SOURCE RESET: Blind/Sap Rogue during largely non-damaging Priest branch -> recommit Rogue
+
+M071 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: Whole clip at4s; active44–154s at1s;84–100,104–120,126–137,140–156s at0.5s; native146,150,154s
+OBS: Priest Trinket remains ready through134s; early Rogue Blind is brief
+OBS: Native154s establishes only one enemy kill
+SOURCE CONVERSION: Recommit Rogue through a brief heal; Horror stops late Divine Hymn and Rogue dies ~149.5s. Priest survives and departs; native154s confirms one-kill friendly win
+SOURCE RESET: Healed first Rogue pressure extracts Trinket; survive/recover, renew Priest control and return Rogue
+
+M075 | win | open=Shadow Priest | kill=Subtlety Rogue | extraction=high | flags=
+OBS: Whole clip4s; active59–178s1s;120–140 and150–176s0.5s; native134,155,169,174,177s
+OBS: Native134s visibly labels Divine Hymn; native155s confirms Priest Blind application
+OBS: Rogue still has ready Trinket through157s
+SOURCE CONVERSION: Continue Rogue damage while renewing Priest Horror/Gouge; Rogue dies ~173.5–174.5s. Priest remains alive; one-kill win
+SOURCE RESET: Priest escape extraction -> Rogue pressure -> enemy Hymn recovery -> renew Priest control and recommit Rogue
+
+M084 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: Whole clip4s; active30–130s1s;79–83,95–99 and117–125s0.5s; native124,133s
+OBS: Final Priest Blind supported by macro plus actual incapacitation timer; macro alone does not prove application
+OBS: Native124s shows friendly Priest alive and healthy; enemy Priest survives Rogue death
+SOURCE CONVERSION: Commit renewed Rogue pressure under Priest Fear/Blind; Rogue reaches zero ~123.5s and dies ~124.5s while Priest remains alive. Both friendlies survive
+SOURCE RESET: Priest escape extraction -> Rogue escape extraction -> healed Rogue pressure -> renewed Rogue commitment with Priest isolated
+
+M086 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: Whole clip4s; active50–147s1s;86–100 and132–146s0.5s; native128,136,144,146s
+OBS: Final Priest is healthy and free, not in an uninterrupted Blind chain; decisive support constraint is mana
+OBS: Native136/144s friendly Priest alive and healthy; native146s confirms victory
+OBS: Friendly Rogue Sap announcement ~135–136s is an attempted enemy disruption during renewed pressure
+SOURCE CONVERSION: Recommit Rogue after the enemy recovery; incapacitation into renewed stun holds critically low Rogue while free Priest has almost no mana. Rogue dies ~144s; victory ~145.5s
+SOURCE RESET: Rogue escape extraction -> Priest pressure/escape extraction -> split pressure and enemy recovery -> renewed Rogue commitment after mana exhaustion
+
+M092 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=source_exception_present
+OBS: Whole clip4s; active35–57s1s;40–54s0.5s; native43,50,54,56s
+OBS: Native54s confirms Rogue DEAD and friendly Priest alive; Sap on Priest ends early ~42s, rather than lasting its maximum timer
+OBS: No separate Priest Horror is established after Fear; enemy Priest Trinket remains ready
+SOURCE CONVERSION: Commit Rogue through the covered stun and renewed Gouge; Rogue dies ~53.5s. Both friendlies survive; enemy Priest retains Trinket
+SOURCE RESET: Direct Rogue branch after Sap escape; no actual Priest commitment before Rogue death
+EXCEPTION: - **match_046**: Rogue kill with enemy Priest Trinket retained.
+
+M102 | win | open=Shadow Priest | kill=Shadow Priest | extraction=medium | flags=source_exception_present
+OBS: ~49s: enemy Priest Sap.
+OBS: ~59–60s: Priest Silence/stun and Rogue opening damage onto Priest.
+OBS: ~61–66s: Priest approximately 55%, then approximately 20%, then DEAD.
+OBS: ~67–70s: enemy Rogue appears/receives control, remains high health; winner message around 70s.
+SOURCE CONVERSION: Priest health collapses during ~60–66s; control enemy Rogue afterward and win (~70s).
+SOURCE RESET: Wait through stealth phase after Sap; commit to Priest when combat starts. No reset observed.
+UNKNOWN: ["No enemy trinket use verified in the decisive sequence.", "The surviving Rogue is not visibly killed before the round ends; surrender/leave cannot be distinguished."]
+EXCEPTION: - **match_003** (analysed): No enemy trinket use verified in the decisive sequence. The surviving Rogue is not visibly killed before the round ends; surrender/leave cannot be distinguished.
+
+M103 | win | open=Subtlety Rogue | kill=Shadow Priest | extraction=high | flags=source_exception_present
+OBS: ~60–65s: Rogue stun/pressure; Rogue trinket announcement at ~64s and health falls to about 67%.
+OBS: ~77s: Rogue Blind; ~78s: current target changes to Priest, which shows a fear-like control icon and loses health.
+OBS: ~80–87s: Priest falls to about 42%, receives further control, trinkets ~85s, then DEAD ~87s.
+OBS: ~86–87s: Sap reapplied to enemy Rogue as Blind expires. ~92s: winner message.
+SOURCE CONVERSION: Blind Rogue (~77s), swap damage to Priest (~78s), continue pressure and follow-up control, kill Priest (~87s); Sap Rogue as Blind ends.
+SOURCE RESET: Initial Rogue pressure becomes a real damage swap. Own Rogue takes pressure and recovers. Priest stabilises briefly earlier, then the swap succeeds. No full reset confirmed.
+UNKNOWN: ["No Dispersion use is confidently verified; the blue portrait icon during the swap is treated as control, not a named defensive."]
+EXCEPTION: - **match_004** (analysed): No Dispersion use is confidently verified; the blue portrait icon during the swap is treated as control, not a named defensive.
+
+M125 | win | open=Subtlety Rogue | kill=None | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: ~95s Rogue41%, fresh trinket; ~100-105s Divine Hymn and Rogue recovery to100%.
+OBS: ~125s Rogue Blinded, Priest selected87%, Priest trinket; Priest59% by140s.
+OBS: ~155s Rogue7% while Priest casts Binding Heal; Rogue77% at160s.
+OBS: ~185-186s Priest controlled at 85%, Rogue 100%; ~187s Gold Team wins with our Rogue alive. Neither enemy frame shows DEAD before the scoreboard.
+SOURCE CONVERSION: Multiple Rogue bursts recover through Priest healing, with a Priest swap during Rogue Blind and later return to Rogue. Final Priest pressure stops at ~85% before Gold Team wins at ~187s. No decisive player death is visible.
+SOURCE RESET: Divine Hymn heals Rogue to full after first burst; later Rogue falls to ~7% but recovers through Binding Heal; another Rogue burst also recovers.
+UNKNOWN: ["Win is visible, but the ending cannot establish a kill rather than opponent departure. Do not infer a successful final damage conversion."]
+EXCEPTION: - **match_027** (uncertain): Win is visible, but the ending cannot establish a kill rather than opponent departure. Do not infer a successful final damage conversion.
+
+M132 | win | open=Shadow Priest | kill=Shadow Priest | extraction=medium | flags=source_exception_present
+OBS: ~54-65s Priest trinkets Sap, is re-Sapped, then Blinded; Rogue is controlled at full health.
+OBS: ~69-76s Priest selected, initially absorbs damage, then health falls to 90%; Rogue remains 100%.
+OBS: ~76-80s Rogue becomes selected, receives control and falls to 85%, while Priest also falls to 77%.
+OBS: ~85s Rogue has used trinket and is ~82%; Priest ~17%, stunned, with Vampiric Touch interruption visible. ~90s Priest DEAD; Rogue subsequently falls to 0%.
+SOURCE CONVERSION: After Sap/trinket/re-Sap/Blind setup on Priest, first pressure is on Priest (~69-76s); it loses health while Rogue stays full. Switch Rogue ~76s, then return Priest after Rogue trinket/recovery; interrupt Vampiric Touch and stun pressure finishes Priest by ~90s. Rogue cleanup follows.
+SOURCE RESET: Roguetrinket/recovery prompts Priestkilltargetchange.
+UNKNOWN: ["Both enemies take damage after ~76s; sampled frames cannot allocate each player damage contribution or identify the exact intended opening objective."]
+EXCEPTION: - **match_032** (analysed): Both enemies take damage after ~76s; sampled frames cannot allocate each player damage contribution or identify the exact intended opening objective.
+
+M147 | win | open=Subtlety Rogue | kill=Shadow Priest | extraction=medium | flags=
+OBS: ~55-72s PriestSappedrepeatedly, friendlyPriestSapped~60s.
+OBS: ~80s Roguefreshtrinket82%, Priest81%stunned; ~85s Priesttrinket60%, enemyBlindonourRogue.
+OBS: ~90s Priest20%, RogueBlind8.3s; ~95s PriestDEAD; ~105s Rogue52%; exit110s ownRoguealive.
+SOURCE CONVERSION: Roguebriefpressure100%75s ->82%80s andtrinket; swapPriest, control/damage81%80s ->60%85s ->20%90s ->DEAD95s whileRogueBlinded; Roguecleanup.
+SOURCE RESET: Enemy Blind on our Rogue after its trinket interruptspressure, then Priest becomes kill target.
+
+M189 | win | open=Subtlety Rogue | kill=Shadow Priest | extraction=high | flags=
+OBS: One 2v2; scan 51-121s at 1s, damage branch 83-90s and first kill 93-99s at 0.5s
+OBS: Explicit Shadow/Subtlety labels; both enemy deaths established
+OBS: Priest control icons do not establish a named defensive cooldown; none inferred from those icons
+SOURCE CONVERSION: Priest 10% 95s, DEAD 95.5s; Rogue Trinkets cleanup control 100s, sustained Rogue damage and stuns lead to DEAD 119s; victory 120s
+SOURCE RESET: Priest Sap is opening control, not a demonstrated damage commitment. First Rogue offensive branch has shallow damage; later Priest damage converts. Rogue control expires before Priest kill and his escape is spent only in cleanup
+
+M192 | win | open=Subtlety Rogue | kill=Shadow Priest | extraction=high | flags=
+OBS: 31-40s: Rogue Sap announcement, visible Priest Sap from 36s; Priest Trinket at 40s
+OBS: 42-50.5s: Blind visible on Priest, Rogue is selected/pressured
+OBS: 51.5-53s: Rogue falls rapidly and Trinkets at 53s; Priest simultaneously falls from full to 73%
+OBS: 54.5s: Priest approximately 49%, Rogue approximately 54%; 55s: Rogue selects Priest and green control icon appears on Rogue
+OBS: 56.5s: Priest DEAD; 75s: Gold Team wins with surviving Rogue still alive
+SOURCE CONVERSION: Rogue pressure plus Priest spread damage -> renewed Rogue control -> brief Priest switch and finish
+
+M194 | win | open=Subtlety Rogue | kill=Shadow Priest | extraction=high | flags=
+OBS: 34-55s: Priest opening control sequence, Trinket at 40s, then Blind and further control
+OBS: 60-67s: Rogue pressure and Rogue Trinket; Priest Divine Hymn visible
+OBS: 67-88s: Priest switch, then Rogue pressure; both opponents recover to full
+OBS: 97.5-98s: enemy Priest Vampiric Touch interrupted
+OBS: 102-109s: Priest stun, Silence at 106s, then simultaneous Fear icons on both opponents at 107.5s
+OBS: 109.5-112.5s: Priest drops to 13%, then 4%, with Rogue still feared
+OBS: 114-115s: Priest attempts Flash Heal and dies at 115s; both Trinkets on cooldown
+OBS: 130s: Gold Team wins with Rogue still alive
+SOURCE CONVERSION: Renew Priest pressure -> Silence and simultaneous control -> Priest falls to 4% -> final damage kills before recovery
+SOURCE RESET: First Priest and subsequent Rogue attempts recover to full; a later Priest attempt succeeds
+
+M195 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: 110-120s: Sap Priest; Priest Trinket at 120s; Blind follows 122-131s
+OBS: 123-134s: principal Rogue pressure, then brief Priest selection; enemy Rogue Blind announcement at 125s
+OBS: 144-167s: Priest pressure/control branch followed by return to Rogue and Priest recovery
+OBS: 177-184s: renewed Rogue stuns, health drops toward 41%; Rogue Trinket at 184s
+OBS: 190-197s: further Rogue control and pressure; Priest Silence visible 195-198s
+OBS: 198.5-202.5s: Rogue remains 5% or lower despite evasive/miss events
+OBS: 203s: Rogue DEAD; 209s: Green Team wins, both friendly players alive, enemy Priest full health
+SOURCE CONVERSION: Rogue Trinkets -> continued stun/control pressure -> Silence Priest at 195s -> Rogue falls critically low and is finished
+SOURCE RESET: Early Rogue pressure and a brief Priest branch recover; sustained renewed Rogue pressure succeeds later
+
+M196 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: 114-123s: Rogue Sap; Priest Trinket visible by 117s
+OBS: 124.5-127s: Rogue stun pressure, drops from 77% to 47% and Trinkets at 127s
+OBS: 126s: Priest Divine Hymn; 126.5-130s: Silence replaces channel
+OBS: 130-131s: Rogue falls to 4%, then 3%; 131.5s: temporarily leaves target view with avoidance icon and Stealth announcement
+OBS: 133-135s: Priest Flash Heal and Rogue partial recovery to 18%; Priest briefly selected, without a sustained damage swap
+OBS: 137.5s: Rogue DEAD; 140s: Green Team wins; both enemy Trinkets still on cooldown
+SOURCE CONVERSION: Opening Rogue pressure -> Rogue Trinket -> Priest Silence cuts Hymn -> Rogue reaches 3% -> avoidance and partial heal -> return pressure finishes Rogue
+SOURCE RESET: Rogue survives briefly at 3% and recovers to 18%; follow-up still kills
+
+M202 | win | open=Subtlety Rogue | kill=Shadow Priest | extraction=high | flags=
+OBS: 73-91s: Priest Sap, Trinket at 80s, then Blind; Rogue pressure and Trinket at 88s
+OBS: 94-108s: damage shifts Priest, reaching 4%; Rogue separately controlled briefly
+OBS: 117-123s: Priest remains 8-19% while self-casting Flash Heal; Rogue briefly controlled then disarmed (exact icon not used as proof of incapacitation)
+OBS: 124.5-125s: Priest 14% then DEAD; Gold victory at 126s
+SOURCE CONVERSION: Sustain Priest damage after partial self-healing and finish with both friendly players alive
+SOURCE RESET: Priest initially reaches 4% near 108s then partially recovers; pressure continues through 125s
+
+M203 | win | open=Subtlety Rogue | kill=Shadow Priest | extraction=high | flags=
+OBS: 66-74s: Priest Sap while Rogue pressured
+OBS: 84-87.5s: Priest Hymn, then Silence/Fear; Rogue falls to 7-9%
+OBS: 88s: Priest Trinket confirmed; Rogue Trinket indicator remains available
+OBS: 89-96s: damage shifts Priest to 34-35%; Rogue remains 7% with avoidance/disarm icons rather than assumed sustained CC
+OBS: 97-100s: Binding Heal recovers Rogue to 55%; Priest Vampiric Touch interrupted at 100s, Priest falls 24% then 5%
+OBS: 102s: Priest DEAD; Gold wins 104s
+SOURCE CONVERSION: Finish Priest under interrupt and renewed pressure despite Binding Heal recovering Rogue
+SOURCE RESET: Rogue reaches 7% but survives; Priest becomes kill target and heals Rogue to 55-60% before dying
+
+M205 | win | open=Subtlety Rogue | kill=Shadow Priest | extraction=high | flags=
+OBS: 65-72s: Priest Sap; Rogue opener drops Rogue to 40%; both Trinket cooldowns appear at 72s
+OBS: 72s onward: enemy Rogue Blind on friendly Priest; not counted as forced
+OBS: 90-109.5s: Rogue Blind then Sap; initial Priest stun at 96-100s barely lowers health, subsequent pressure drops Priest to 37% at 108.5s
+OBS: 109.5-111s: Priest Fear while friendly Priest casts; selecting Rogue for control does not prove a damage swap
+OBS: 113-114s: Priest falls 8% then DEAD; Rogue subsequently dies 122s; Green wins 124s
+SOURCE CONVERSION: Pressure Priest during Rogue isolation and continue through Priest Fear until its death
+
+M208 | win | open=Rogue | kill=Rogue | extraction=high | flags=
+OBS: Both enemy Trinket icons remain available through the kill
+OBS: Blind macro around 89–90s does not establish a landed Blind
+OBS: Priest channels Hymn while Rogue receives the final damage
+SOURCE CONVERSION: Rogue reaches 2% at 100.5s, recovers to 18% during Hymn, then dies at 105s; victory at 107s
+SOURCE RESET: Counter-control delays initial pressure; late Hymn partly heals the Rogue but continued damage finishes him
+
+M210 | win | open=Rogue | kill=Priest | extraction=high | flags=source_exception_present
+OBS: Rogue remains healthy around 92–100% during Priest conversion
+OBS: Repeated Blind macro messages do not prove Blind landed on Rogue
+OBS: Both enemy Trinkets show cooldowns in the decisive window
+SOURCE CONVERSION: Priest drops from 49% at 108.5s to 7% at 111s and dies at 111.5s; victory at 116s
+SOURCE RESET: Early Rogue pressure heals back; sustained damage later switches to Priest
+EXCEPTION: Timestamp precision: existing whole-second record ends are preserved. `match_022.mp4` end 133s versus exact duration 132.850s; `match_024.mp4` end 111s versus exact duration 110.850s; `match_035.mp4` end 140s versus exact duration 139.850s; `match_036.mp4` end 101s versus exact duration 100.550s; `match_037.mp4` end 93s versus exact duration 92.650s. These subsecond rounding differences are also flagged in the manifest; no additional footage is implied.
+
+M218 | win | open=Priest | kill=Priest | extraction=high | flags=
+OBS: Priest Trinket remains available through death
+OBS: Enemy Rogue remains at 100% through Priest kill
+OBS: Our Priest survives enemy Blind; both friendlies survive
+SOURCE CONVERSION: Priest 44% at 89s, 17% at 91s, 4% at 93s; dies at 94.5s; victory at 102s
+
+M226 | win | open=Rogue | kill=Rogue | extraction=high | flags=
+OBS: Priest Trinket available through Rogue death
+OBS: Priest free and casting heals during final Rogue damage
+OBS: Both friendlies survive
+OBS: Chat corroborates Blind application before Rogue Trinket
+SOURCE CONVERSION: Rogue 34% under stun at 119s and 6% at 120.5s recovers; renewed damage from 150s reaches 7% at 155.5s; Priest Flash Heals cannot recover Rogue above 9%, death 162.5s and victory 171s
+SOURCE RESET: First low Rogue window heals; brief Priest pressure/cast denial precedes renewed Rogue commitment
+
+M228 | win | open=Priest | kill=Rogue | extraction=high | flags=
+OBS: Both friendlies survive
+OBS: Blind Priest macro attempts do not establish a landed Blind
+OBS: Next arena preparation overlaps match_044.mp4
+SOURCE CONVERSION: Rogue 42% at 125s while Priest Gouged, 20% at 125.5s and 1% at 126.5s; death confirmed 128.5s, victory 131s
+
+M230 | win | open=Rogue | kill=Rogue | extraction=high | flags=
+OBS: Priest remains free during final Rogue burst
+OBS: Priest mana near empty at final conversion
+OBS: Both friendlies survive
+SOURCE CONVERSION: Rogue 38% at 152.5s under stun while Priest casts heals with little mana; 7% at 155.5s, death 157s, victory 160s
+SOURCE RESET: First pressure heals; Rogue hides at low health; pressure renewed after Priest Trinket and mana expenditure
+
+M234 | win | open=Rogue | kill=None | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Both friendlies alive at victory
+OBS: Enemy Rogue health display stays 4% at round end; no confirmed player death
+OBS: Priest briefly drinks at 124s before meaningful combat
+SOURCE CONVERSION: Rogue 17% at 187s and 2% at 188s under stun, recovers to 4%; Priest Silence 190–194s; Gold victory 194.5s without visible death confirmation
+SOURCE RESET: Rogue hides after first low-health burst and heals; renewed stun pressure reaches critical health
+EXCEPTION: | `match_049.mp4` | Victory is established but Rogue remains displayed at 4%; no specific player death is established. |
+
+M239 | win | open=Shadow Priest | kill=Shadow Priest | extraction=high | flags=
+OBS: 74–77s: Priest opening stun and both enemy Trinket cooldowns appear
+OBS: 91–100s: confirmed Priest Blind, then renewed damage
+OBS: 99.5s Priest 50%; 100.5s 44%; 102.5s 18%; 103.5–105.5s Fear
+OBS: 109.5s Priest dead, both friendlies alive; remaining Rogue still 82% at round end; scoreboard enemies −12 at 118s
+SOURCE CONVERSION: Renew Priest pressure at 97s; Silence/stun lowers Priest to 18%, Fear extends control, and Priest dies at 109.5s
+SOURCE RESET: First pressure heals to full; Priest Blind bridges to the renewed same-target burst
+
+M241 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: 63–78s Priest Sap/Trinket, Blind/Sap support, Rogue primary pressure and Trinket
+OBS: 85–92s Rogue reaches roughly 37–39%, then recovers above half before renewed pressure
+OBS: 105–109.5s Priest confirmed Silence; Rogue 40% at 105s, 20% at 106s, 4% at 108s, dead 111.5s
+OBS: Both enemy Trinkets remain on cooldown at conversion; both friendlies survive
+SOURCE CONVERSION: Renew Rogue burst at 104–105s as Priest Silence starts; Rogue falls 40% to 4% by 108s and dies at 111.5s
+SOURCE RESET: Rogue survives an earlier low-health window and heals before the renewed burst
+
+M244 | win | open=Shadow Priest | kill=Shadow Priest | extraction=high | flags=
+OBS: 69–75s first sustained Priest damage; Rogue reaches 66% during brief branch
+OBS: 87s Rogue Stealth is visible; Vanish not established
+OBS: 105–110s Rogue Blind, Trinket 110s; Priest Silence 107–112s
+OBS: 115.5s renewed Rogue Blind with short duration; Priest dead 116.5s
+OBS: Our Priest is low but alive at conversion; both friendlies survive; Gold victory 121s
+SOURCE CONVERSION: Priest falls 47% to 5% during 113.5–116s stun and dies at 116.5s
+SOURCE RESET: Brief Rogue pressure at 75–79s; return to Priest and renew after healing
+
+M246 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: 81s Rogue health first chips to 97%; substantial middle damage is Priest from 100s, so initial commitment is ambiguous
+OBS: Priest Silence 99–101.5s, stun 104–107s; Priest 43% at 108s and 23% at 111s
+OBS: 109s Rogue 26% under confirmed Blind; Priest simultaneously pressured
+OBS: Rogue 5% at 119.5s, displayed 0% at 120s; Trinket and offensive Blind at 120.5s; death only established at 122.5s
+OBS: Both friendlies survive; scoreboard win 126s
+SOURCE CONVERSION: Swap committed damage to Rogue at 118s; Rogue remains at displayed 0% before confirmed death at 122.5s
+SOURCE RESET: Middle Priest burst reaches 23% but heals to 49%; finish Rogue instead
+EXCEPTION: | `match_061.mp4` | First committed opening target is ambiguous; early Rogue chip precedes substantial Priest damage. |
+
+M253 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: Both enemy cooldown markers appear at 112s; both full until substantial Rogue damage at 122s
+OBS: 114–124s Priest confirmed Blind; 124.5–127.5s additional short Priest control, exact ability unresolved
+OBS: 124.5s Rogue 43% under renewed stun, 125s 20%, 126s 8%; both friendlies alive
+OBS: 129.5s Priest free and channels Divine Hymn; Rogue heals 7% to 23% at 131s but is confirmed dead 132s
+OBS: Gladius later resets dead Rogue to full; no resurrection established, do not use reset value as live health
+OBS: Priest then dies at 145s; scoreboard enemy −12 and Gold victory 146s
+SOURCE CONVERSION: Rogue falls to 8% by 126s; continued pressure kills Rogue at 132s despite late Divine Hymn recovery
+
+M255 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: Rogue first takes committed damage at 93s; Priest Trinket changes to cooldown at 94s
+OBS: Rogue falls below half at 107s and to 6% at 110.5s; Priest briefly casts Flash Heal
+OBS: Rogue Silence is visible 111.5-116s; Priest Gouge 113.5-114.5s is followed by stun
+OBS: Rogue is DEAD at 116s with its Trinket still available; both friendly players are alive
+OBS: Scoreboard confirms our team wins, irrespective of changing team colors
+SOURCE CONVERSION: Continue Rogue pressure through small heals; renew Priest Gouge/stun and finish Rogue during Silence
+SOURCE RESET: Initial Rogue pressure is partially healed; renewed pressure remains on Rogue. Enemy Rogue visibly enters Stealth at 112s; Vanish is not established.
+
+M257 | win | open=Shadow Priest | kill=Shadow Priest | extraction=high | flags=
+OBS: Priest first takes sustained damage at 74s; Rogue receives small damage during control at 79-80s
+OBS: Rogue stun is visible 80-84s; Priest falls from 82% at 80.5s to 29% at 83.5s
+OBS: Rogue uses Trinket at 84.5s; Priest has a short control effect approximately 85-88.5s, exact ability unknown
+OBS: Priest is DEAD at 90.5s with its Trinket still available and both friendly players alive
+OBS: Our team wins at 101s; initial town/preparation overlaps match_071 preparation, not its combat
+SOURCE CONVERSION: Return committed damage to Priest after Rogue control; sustain pressure through short Priest lockdown and finish Priest
+
+M265 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: Enemy frames explicitly identify Shadow Priest and Subtlety Rogue
+OBS: ~99-101s Priest Sapped then Trinket; ~102-111s Priest Blind icon is present
+OBS: ~105s Rogue first small health loss; ~108-114s Rogue Feared while Priest later Silenced
+OBS: ~115-118s Rogue Sapped, Priest pressured to ~80%, Rogue Trinkets Sap ~117s
+OBS: ~125-128s Priest Divine Hymn; enemy Rogue Blind announcement ~126s is offensive rather than a forced defensive spend
+OBS: ~148-151s renewed Rogue stun: ~63% to ~4%; Priest mana falls from ~1.7k to ~0.9k of20.4k
+OBS: ~151.5-154s Rogue small healing recovery, then DEAD ~154.5s; Green Team wins ~159s
+SOURCE CONVERSION: Return to Rogue after the brief Priest window; successive stuns reduce Rogue to ~4% ~151s and continued damage defeats small Flash Heal recoveries; Rogue dies ~154.5s
+SOURCE RESET: Initial Blind/Fear chain does not kill; brief Priest pressure under Rogue Fear/Sap, then sustained Rogue commitment
+
+M267 | win | open=Subtlety Rogue | kill=None | extraction=medium | flags=truncated_evidence
+OBS: Both enemy players actively interact in normal 2v2 combat
+OBS: ~71-81s Priest Trinket then Blind; enemy Rogue Blind announced ~79s
+OBS: ~82-92s Rogue damage/control; Rogue Trinket ~92s; ~95-100s Priest Divine Hymn restores Rogue
+OBS: ~105-123s meaningful Priest damage; Rogue Gouge ~118s, Priest stun ~122s at35%
+OBS: ~131s Gold Team2, Green Team1; friendly Priest alive; enemy Priest frame stale35%
+OBS: ~132s Gold Team wins; no enemy DEAD indicator or established death
+OBS: Scoreboard132s: both opponents contributed damage, our team wins +17, all four killing blows zero
+SOURCE CONVERSION: Priest pressure leaves health~35% without a confirmed death; scoreboard132s confirms our win and zero killing blows for all four players. Administrative ending after meaningful normal2v2 combat.
+SOURCE RESET: Rogue first drops low then recovers through Divine Hymn; change damage to Priest while controlling Rogue; later Vanish/restealth attempt
+
+M272 | win | open=Shadow Priest | kill=Shadow Priest | extraction=high | flags=
+OBS: Two enemy frames identify Shadow Priest and Subtlety Rogue; lengthy Sap exchange before damage
+OBS: Priest first meaningful health loss ~110-117s; Rogue remains full until later commitment
+OBS: Priest channels Divine Hymn during Rogue pressure ~126-132s
+OBS: Priest Silence ~139-142s; ~36% at 140.5s; Rogue Fear ~144.5-147.5s
+OBS: Priest heals briefly, then drops ~24% at 147.5s to ~7% at 149s; DEAD ~154s
+OBS: Priest Trinket remains ready throughout kill; Rogue Trinket cooldown appears ~168s; victory ~172s
+SOURCE CONVERSION: Priest falls to ~29% during Silence ~139-142s, briefly heals to ~36%, then reaches ~7% ~149s and DEAD ~154s during renewed Rogue Fear
+SOURCE RESET: Intermediate Rogue pressure is healed by Divine Hymn; later Priest swap succeeds. Rogue Trinket ~168s occurs after the decisive Priest kill
+
+M281 | win | open=Priest | kill=Rogue | extraction=high | flags=
+OBS: Enemy Priest is labelled Shadow
+OBS: Both enemy Trinkets show cooldown ~58s
+OBS: Rogue Blind announcement names friendly Priest ~66s
+OBS: Priest Blind icon ~99.5s confirms application
+OBS: Rogue ~1-2% at 114-115.5s then DEAD ~116.5s; victory ~118s
+SOURCE CONVERSION: Rogue ~63% at 94s drops ~17% at 99s; modest recovery ~27% is suppressed by continued damage and renewed Priest Silence; Rogue DEAD ~116.5s
+SOURCE RESET: Priest opener does not kill; control and renewed engagement lead to Rogue kill branch
+
+M283 | win | open=Priest | kill=Priest | extraction=high | flags=
+OBS: Rogue appears ~84s and participates in sustained combat
+OBS: Both Trinkets cooldown during final setup
+OBS: Priest healing partially recovers health ~130-138s
+OBS: Rogue Blind and Sap confirmed; both Fear 146.5s; Priest Silence 149.5s
+OBS: Priest DEAD 151s; victory ~152s
+SOURCE CONVERSION: Priest recovers some midgame damage but final Fear and Silence push ~42% at 149s to ~4% at 150.5s and DEAD 151s
+SOURCE RESET: Initial Rogue kill branch stalls; actual Priest damage begins ~111s and succeeds on renewed control
+
+M285 | win | open=Rogue | kill=Rogue | extraction=high | flags=
+OBS: Enemy Rogue Trinket remains ready through kill
+OBS: Priest Silence confirmed by Gladius demon icon despite Gouge macros
+OBS: Victory184s
+SOURCE CONVERSION: Rogue ~46% at175s falls24%177.5s,9%178.5s; DEAD181.5s before Priest Silence ends
+SOURCE RESET: Long stealth wait; early Blind window does not convert, later Rogue push succeeds
+
+M293 | win | open=Rogue | kill=Rogue | extraction=high | flags=
+OBS: Priest can Flash Heal during earlier near-kill; no continuous healer lock claimed
+OBS: Both enemy Trinkets unavailable in final push
+OBS: Victory195s
+SOURCE CONVERSION: Rogue24%189s,8%189.5s,3%192s; Priest Silence190.5-193s then Fear both193s, Rogue DEAD193.5s
+SOURCE RESET: Priest near-kill self-heals; real Rogue damage branch176s becomes final conversion
+
+M296 | win | open=Rogue | kill=Priest | extraction=high | flags=
+OBS: Rogue remains95% during Priest conversion
+OBS: Final Priest Silence not established; isolation is Rogue Fear/Blind
+SOURCE CONVERSION: Priest31%69.5s,18%72s,12%74s, DEAD74.5s while Rogue remains Blinded; victory78s
+SOURCE RESET: Minor Rogue opener becomes sustained Priest damage from59s
+
+M298 | win | open=Rogue | kill=Priest | extraction=high | flags=
+OBS: Both enemy Trinkets spent before decisive Priest window
+OBS: No final Priest Silence established; final confirmed interruption is Gouge
+SOURCE CONVERSION: Priest22%98.5s,17%100s, DEAD101s; scoreboard107.5s confirms our win
+SOURCE RESET: Minor Rogue opener -> sustained Priest damage; brief Rogue damage96.5s does not change the eventual Priest finish
+
+M299 | win | open=Priest | kill=None | extraction=medium | flags=truncated_evidence
+OBS: Scoreboard records enemy Rogue damage and Priest healing, establishing meaningful opposed 2v2 combat
+OBS: No enemy DEAD state or killing blow establishes a conversion kill
+SOURCE CONVERSION: Rogue briefly displays0%143s but returns7%143.5s and remains alive; victory149s is administrative, with all four scoreboard killing blows zero
+SOURCE RESET: Priest pressure heals to full -> renewed Rogue commitment after prolonged control/reset
+
+M300 | win | open=Rogue | kill=Rogue | extraction=high | flags=
+OBS: Friendly Priest is Sapped154s, not killed; full frame162s shows alive at full health
+OBS: Final Silence expires before Rogue death; do not describe continuous healer denial through the kill
+SOURCE CONVERSION: Rogue38%185s,20%186s,8%187s, DEAD187.5s; scoreboard201.5s confirms our win
+SOURCE RESET: Rogue heals after first pressure -> Blind/Sap Rogue during actual Priest branch -> recommit Rogue177s
+
+M301 | win | open=Priest | kill=Rogue | extraction=high | flags=
+OBS: Blind on enemy Rogue confirmed through debuff, not chat alone
+OBS: Rogue0% precedes DEAD by roughly2s; death established103.5s
+SOURCE CONVERSION: Rogue7%101s,0%101.5-103s, DEAD103.5s during Priest Silence; win105s
+SOURCE RESET: Meaningful Priest opener heals -> actual Rogue pressure, renewed after Priest Hymn
+
+M306 | win | open=Rogue | kill=Rogue | extraction=high | flags=
+OBS: Friendly Priest DEAD99s; favourable Rogue finish occurs later in solo continuation
+OBS: Earlier Priest Trinket has recovered before second use195.5s; both uses tracked separately
+OBS: Final Priest21%250.5s then scoreboard death251s; exact finishing ability unknown
+SOURCE CONVERSION: Rogue20%111s,15%112s,9%113s, DEAD116s; solo Priest duel follows. Scoreboard251s confirms our win and own Rogue2 killing blows, establishing later Priest kill
+SOURCE RESET: Original2v2 survival fails99s -> solo Rogue counter-kill116s -> prolonged Priest duel and repeated resets -> Priest kill251s
+
+M336 | win | open=Shadow Priest | kill=Shadow Priest | extraction=high | flags=
+OBS: Priest is the first sustained pressure target (~85-96s); brief Rogue selections serve control
+OBS: Rogue trinket announcement and arena cooldown transition ~97s
+OBS: Blind debuff countdown on Rogue is visible again ~110-118s
+OBS: Priest trinket cooldown begins ~116s and Priest is DEAD ~118s
+OBS: Scoreboard at ~129s identifies Maslohej / Lingusterqqx as winners with only one killing blow; remaining Rogue death is not established
+SOURCE CONVERSION: Renew Rogue control and recommit to Priest; Priest dies around 118s despite a late escape-resource spend
+SOURCE RESET: Priest initially heals substantially through Divine Hymn; pressure is renewed rather than treating that recovery as the end of the plan
+
+M337 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: Early Priest selections show no sustained Priest health loss
+OBS: Priest Sap countdown appears ~91-96s; Silence/control countdown follows ~100-106s
+OBS: Rogue health falls ~96-107s while Priest remains near full
+OBS: Enemy Rogue is DEAD ~107s; friendly Priest and Rogue survive and round win follows
+OBS: Both enemy PvP Trinket icons remain available in the decisive window; no enemy trinket use established
+SOURCE CONVERSION: Burst Rogue while Priest is controlled; Rogue drops from near full health at ~96s to DEAD ~107s
+
+M339 | win | open=Subtlety Rogue | kill=Shadow Priest | extraction=high | flags=
+OBS: Early Priest selections are control; first Rogue pressure occurs ~91-96s
+OBS: Rogue trinket announcement/cooldown ~100s followed by Blind countdown ~101-109s
+OBS: Priest trinket announcement/cooldown ~104s
+OBS: Rogue Blind refreshed ~110s and Sap applied ~117-124s
+OBS: Priest is DEAD ~126s; victory follows with Rogue still alive/remaining death unproven
+SOURCE CONVERSION: Continue Priest damage with renewed off-target control; Priest is DEAD ~126s
+SOURCE RESET: Initial Priest pressure is healed partially; refresh Rogue control and continue rather than disengaging completely
+
+M340 | win | open=Shadow Priest | kill=Shadow Priest | extraction=medium | flags=
+OBS: Priest first loses sustained health ~81-88s, while Rogue remains near full
+OBS: Both trinket announcements/cooldown transitions ~88-89s
+OBS: Victory follows; surviving Rogue death is not established
+OBS: Green decoding artifacts occur ~48-69s during inspection/preparation/approach; decisive combat UI is readable
+OBS: Priest renewed stun ~90-94s after its trinket spend; Priest DEAD ~99s
+OBS: Blind macro attempts ~94s do not establish Rogue control; enemy Rogue remains active and Blind announcement on our Priest appears ~98s
+SOURCE CONVERSION: Continue Priest commitment after its trinket spend; Priest dies ~99s. Attempted Rogue Blind is not confirmed; Rogue remains active and uses Blind offensively on our Priest ~98s
+
+M373 | win | open=Shadow Priest | kill=None | extraction=medium | flags=truncated_evidence
+OBS: Priest free through much of Rogue commitment129-161s and casts heals and Mind Control
+OBS: Enemy Blind138s is offensive use on our Rogue, not our healer-isolation Blind
+OBS: Priest control ends166s; later Priest target selection166.5s is utility/small damage, not a demonstrated sustained swap
+OBS: Priest PvP Trinket remains ready; Rogue stays5% with no DEAD indicator through168.5s
+OBS: Victory is visible but kill target and exact reason for round termination remain unknown
+SOURCE CONVERSION: Rogue reaches5%164.5s during renewed Priest control; victory169s occurs with both enemy frames still alive, so no player death is established
+SOURCE RESET: Shallow Priest pressure and later Rogue pressure are healed before final renewed burst
+
+M375 | win | open=Shadow Priest | kill=Shadow Priest | extraction=high | flags=
+OBS: Blind is independently visible90.5s but ends91.5s; no continuous long Blind assumed
+OBS: Divine Hymn visibly channels90.5-93.5s; no interruption of that channel established
+OBS: Priest free during Hymn and Flash Heal97.5s; Rogue Fear ends96s before first death
+OBS: Both enemy trinkets remain unavailable at Priest death; Rogue alive~73%
+SOURCE CONVERSION: Priest survives earlier22% window with Flash Heal, then Hymn gives a small recovery; renewed Rogue control supports continued Priest damage, DEAD98s, victory103s
+SOURCE RESET: Brief Rogue branch after early Priest low-health recovery; return Priest and continue through another small recovery
+
+M380 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: Priest selections before153s show control/dispelling and mana changes, not a demonstrated Priest damage opener
+OBS: Rogue first shallow health drop153s precedes the sustained175s attempt
+OBS: Priest Sap ends183.5s, then renewed Blind begins185.5s; gap acknowledged
+OBS: Rogue death independently visible188s; Priest alive/full at victory
+SOURCE CONVERSION: Sap Priest supports Rogue commitment; late Rogue trinket182.5s does not stop damage, renew Priest Blind185.5s, Rogue DEAD188s and victory188.5s
+SOURCE RESET: Long Sap/mana-utility phase precedes first shallow Rogue pressure and a reset; renewed Rogue attempt converts
+
+M383 | win | open=Subtlety Rogue | kill=Shadow Priest | extraction=high | flags=
+OBS: Off-target enemy Rogue is free130-155.5s; Blind announcements150-155s do not establish landed control before Priest death
+OBS: Our Rogue selects enemy Rogue148-155s while team damage continues on Priest; selection is not proof of Rogue damage or landed Blind
+OBS: Priest Flash Heal154.5-155s occurs shortly before first death
+OBS: Enemy Rogue alive~94% near victory173s; victory does not prove a second death
+OBS: Hymn is verified expenditure, but shallow preceding Rogue damage does not establish that this resource was forced
+SOURCE CONVERSION: Renew Priest stun143-145s after trinket; Priest falls to14%148s and5%149s, briefly heals, then DEAD155.5s; victory174s with enemy Rogue alive
+SOURCE RESET: Early shallow Rogue pressure is healed by Hymn; repeated Priest Saps precede actual Priest damage136s
+
+M386 | win | open=Subtlety Rogue | kill=None | extraction=medium | flags=truncated_evidence
+OBS: Enemy Priest trinket remains ready throughout the decisive window
+OBS: Enemy Rogue is2%210-215.5s without DEAD; enemy Priest remains full at victory
+OBS: Our Rogue is very low during final pressure but survives and recovers before victory
+OBS: Victory is directly visible216s; cause of round end/player death is unresolved
+SOURCE CONVERSION: Renewed Priest control205.5-209.5s overlaps Rogue fall~20%206s to2%210s; both enemy frames remain alive until victory216s, so a particular player kill is not established
+SOURCE RESET: Healed Rogue attempt141s and shallow Priest branch175s precede renewed Rogue pressure188s
+
+M397 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: ~52s Priest Sap, ~57.5s trinket, ~58.5-68s Blind; both enemies initially remain100%.
+OBS: ~68-75.5s Rogue94% ->30% under renewed stun pressure.
+OBS: ~76s Rogue trinket and Blind chat; ~78-81.5s Priest Flash Heal casts, Rogue12% ->59%.
+OBS: ~84-93s Rogue8% ->2% ->DEAD, both enemy trinkets still cooling; Priest remains100%.
+OBS: ~96s Green Team wins with friendly Rogue alive; final Priest departure versus kill unknown.
+OBS: V6 evidence qualification: enemy Blind on our Rogue is announced ~76s; successful application and cooldown expenditure are not visually established by the saved evidence reviewed for this repair. Retain as an attempt only, outside enemy_resources_spent and resources_forced.
+OBS: V6 resource qualification: restealth ~88s is an observed state; the ability causing it is unknown and is not recorded as confirmed Vanish or another named cooldown spend.
+SOURCE CONVERSION: Rogue pressure begins after Priest Sap/Blind. Rogue trinkets ~76s at low health; enemy Blind on our Rogue is announced, with application unconfirmed. Priest Flash Heals recover Rogue12% ->59% ~78-81.5s. Continued Rogue pressure reaches6% ~85s, then lingering low health and renewed damage yield DEAD ~93s. Green Team wins ~96s.
+SOURCE RESET: Priest healing interrupts the first low-health finish; Rogue restealth ~88s does not prevent death. Brief Priest selections late are control attempts, no damaging swap established.
+
+M416 | win | open=Rogue | kill=Shadow Priest | extraction=high | flags=
+OBS: Dalaran Sewers, replay 38621614, enemy Lesbianboy and Nothanqx.
+OBS: Both opposing specs visible in arena frames.
+OBS: Priest trinket and later Rogue trinket have separate announcements.
+OBS: Priest death persists through 134s; post-round frame reset is not treated as revival.
+SOURCE CONVERSION: Priest reaches roughly 11% at 124s, recovers only to 16%, is Feared around 125.5â€“131s, then dies at 131.5s. Rogue control overlaps most of this window but expires around 133s. Gold team wins around 135s with friendly Rogue alive and enemy Rogue full health.
+SOURCE RESET: Absorbed opening Rogue pressure does not produce a kill; alternating pressure and later Sap on Rogue create a Priest conversion.
+
+M419 | win | open=Rogue | kill=Priest | extraction=high | flags=
+OBS: Replay 38621789, Nagrand Arena
+OBS: Blind UP on Pumpitx at 94s, Sap UP and Blind DOWN at 103.5s
+OBS: Dispersion appearance and stable Priest health during 99-104s; Horror immediately precedes death
+OBS: Next replay 38621822 prep at clip tail belongs to match_031, not another record here
+OBS: V6 evidence qualification: enemy Blind on Uncle is announced ~80s; successful application and cooldown expenditure are not visually established by the saved evidence reviewed for this repair. Retain as an attempt only, outside enemy_resources_spent and resources_forced.
+SOURCE CONVERSION: Priest DEAD at 106.5s; friendly Gold team wins 107.5s, our Rogue alive and enemy Rogue approximately 96%.
+SOURCE RESET: Brief opening on Rogue switches to Priest 86s; Blind into Sap on enemy Rogue covers the post-Dispersion finish.
+
+M421 | win | open=Rogue | kill=Rogue at approximately 102.5s | extraction=high | flags=
+OBS: Blade's Edge Arena replay 38621862; four player frames establish 2v2
+OBS: Both enemy trinkets remain available at Rogue death; Priest trinket is spent afterwards
+OBS: Friendly Rogue survives; Priest remains full health at enemy Rogue death
+OBS: V6 evidence qualification: enemy Blind on Uncle is announced ~90s; successful application and cooldown expenditure are not visually established by the saved evidence reviewed for this repair. Retain as an attempt only, outside enemy_resources_spent and resources_forced.
+SOURCE CONVERSION: Rogue falls from full health to single digits during the opening stuns, then dies before Priest can restore him; friendly victory follows at approximately 106s
+SOURCE RESET: Priest selected after Rogue death; no separate reset before kill
+
+M425 | win | open=Shadow Priest | kill=Shadow Priest | extraction=high | flags=
+OBS: Replay 38622055, Lordaeron.
+OBS: Priest reaches about 2% at 83s, then visibly casts Flash Heal and recovers.
+OBS: Priest DEAD at about 112s; enemy Rogue Fear remains active through the kill.
+OBS: Both enemy trinkets are on cooldown at Priest death.
+SOURCE CONVERSION: Priest dies while the full-health enemy Rogue remains feared; friendly Gold victory about 114s with our Rogue alive.
+SOURCE RESET: An early near-kill on Priest does not convert; he heals back to about 83% by 92s before our Rogue returns to him for the later controlled go.
+
+M426 | win | open=Enemy Rogue for the first sustained Rogue attack about 48â€“52s | kill=Enemy Rogue | extraction=medium | flags=truncated_evidence
+OBS: Replay 38622096, Dalaran.
+OBS: Uncle death message about 74.5s; Pumpitx DEAD about 75.5s.
+OBS: Resurrection casts at about 96â€“101s and 117â€“124s show Failed followed by short Priest control.
+OBS: Enemy Rogue remains DEAD throughout the 1v1; Priest trinket has about 25s remaining at 139.5s.
+OBS: Gold victory at 140s and our Rogue remains alive.
+OBS: V6 evidence qualification: enemy Blind on our Rogue is announced ~52s; successful application and cooldown expenditure are not visually established by the saved evidence reviewed for this repair. Retain as an attempt only, outside enemy_resources_spent and resources_forced.
+SOURCE CONVERSION: Friendly Priest dies first, then enemy Rogue dies about one second later. Our Rogue survives the 1v1 and friendly Gold victory appears about 140s after enemy Priest reaches 3%.
+SOURCE RESET: The first conversion produces a 1v1 rather than a 2v1 cleanup. Enemy Priest heals repeatedly and attempts Resurrection twice; neither attempt restores his dead Rogue.
+
+M428 | win | open=Enemy Rogue for the first sustained Rogue attack about 71s | kill=Shadow Priest | extraction=high | flags=
+OBS: Replay 38622193, Nagrand.
+OBS: Blind UP and DOWN on Priest are visible about 87â€“92s.
+OBS: Priest DEAD about 107s; full frame at 108s shows Gold 1, Green 2 and living friendly Priest.
+OBS: Both enemy trinkets remain on cooldown at the Priest kill.
+SOURCE CONVERSION: Priest dies with enemy Rogue still feared at about 37% health. Friendly Green victory appears about 109s; both friendly players survive.
+SOURCE RESET: Pressure alternates between enemy Rogue and Priest; the enemy Rogue remains alive through the Priest kill and the match ends shortly afterward.
+
+M429 | win | open=Enemy Rogue | kill=Enemy Rogue | extraction=high | flags=
+OBS: Replay 38622263, Lordaeron.
+OBS: Enemy Rogue trinket message precedes the confirmed brief Blind UP/DOWN.
+OBS: Enemy Rogue DEAD about 71.5s; Priest is beginning Flash Heal at that time.
+OBS: Priest trinket remains available through the enemy Rogue kill and his own later death.
+SOURCE CONVERSION: Enemy Rogue falls from full health at 62s to death about 71.5s, then Priest dies in the ensuing 2v1. Friendly Gold victory about 85s with our Rogue alive.
+SOURCE RESET: Early enemy Rogue control does not lower health; the renewed attack after his trinket is the damaging conversion.
+
+M430 | win | open=Rogue | kill=Rogue first | extraction=high | flags=
+OBS: Replay 38622316, Nagrand; Lesbianboy Shadow Priest and Nothanqx Subtlety Rogue.
+OBS: Blind UP on Priest appears around 84.5s; Rogue remains alive at 1â€“9% before the later trinket.
+OBS: Half-second frames show Rogue trinket around 94s, 18% at 95s, 16% at 96s, DEAD at 97s; Priest stun continues through this death.
+OBS: Both enemies display DEAD at 119s before loading.
+OBS: V6 evidence qualification: enemy Blind on Uncle is announced ~83s; successful application and cooldown expenditure are not visually established by the saved evidence reviewed for this repair. Retain as an attempt only, outside enemy_resources_spent and resources_forced.
+SOURCE CONVERSION: Rogue DEAD at 97s while Priest is stunned; both friendly players survive. Priest uses Mind Control during the 2v1 cleanup around 105â€“114s, then drops from 58% to DEAD around 115â€“119s.
+SOURCE RESET: Several near-kills on Rogue precede the actual death; Priest cleanup follows instead of treating the first low-health frame as a kill.
+
+M435 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Enemy panels explicitly identify Shadow and Subtlety
+OBS: Enemy Priest briefly loses health about 63s while our Rogue remains stealthed; first melee/coordinated commitment is enemy Rogue about 86-87s
+OBS: Priest Sap at 85s, trinket timer about 88s, then a new Sap about 92s
+OBS: Rogue trinket timer begins about 98s; health reaches about 4% by 102s
+OBS: Both Priests channel Divine Hymn about 103-109s; enemy Rogue partially heals
+OBS: Priest short control about 110s followed by Fear about 111s overlaps Rogue DEAD about 112s
+OBS: Scoreboard about 114s confirms friendly win and one killing blow
+SOURCE CONVERSION: Keep Rogue under pressure after trinket, survive the healing interruption, then Gouge/Fear Priest around 110-111s and finish Rogue about 112s
+SOURCE RESET: Enemy Priest Divine Hymn restores Rogue from about 4% to 27%; retain Rogue as kill target and renew off-target control.
+EXCEPTION: - **match_004.mp4 / september20_2650_match_004** — Opening target denotes first coordinated Rogue engagement; earlier ranged damage on Priest makes the team's initial target priority ambiguous. Blind macro lines are attempts, not confirmed landed Blinds. Several Rogue buff/control icons are unnamed. Surviving Priest departure is not a confirmed kill.
+
+M461 | win | open=Shadow Priest | kill=Subtlety Rogue | extraction=high | flags=
+OBS: ~84-89s: friendly Rogue Sapped; enemy Rogue becomes visible
+OBS: ~95-100s: enemy Rogue Fear icon; ~98-104s: Priest Gouge/stun UI while remaining near full health
+OBS: ~102.5s onward: Rogue takes substantial damage in stuns; falls to ~45% before partial recovery
+OBS: ~124s: enemy Blind announcement and control on friendly Rogue; this offensive spend is not classified as forced
+OBS: ~127.5s: enemy Rogue Trinket cooldown appears at ~13% health
+OBS: ~130.5s: Rogue DEAD; enemy Priest continues Flash Heal and retains visibly available Trinket
+OBS: ~133s: Gold Team wins; ~145s onward only preparation for the following round, not an additional combat game
+SOURCE CONVERSION: Continue damage on Rogue through late Trinket and Flash Heal casts; Rogue dies ~130.5s
+SOURCE RESET: Initial Priest control causes little visible health loss; switch damage to Rogue, whose first low-health window is partly healed before renewed pressure

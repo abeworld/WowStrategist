@@ -1,0 +1,1135 @@
+{
+  "strategy_id": "SPR_vs_Disc_MM_v1",
+  "strategy_key": "SPR_vs_Disc_MM",
+  "version": 1,
+  "schema_version": "1.0.0",
+  "status": "provisional",
+  "created_date": "2026-09-13",
+  "our_comp": "Shadow Priest / Subtlety Rogue",
+  "enemy_comp": "Discipline Priest / Marksmanship Hunter",
+  "evidence": {
+    "total_games": 13,
+    "wins": 11,
+    "losses": 2,
+    "unknown_result": 0,
+    "confidence": "low",
+    "supporting_match_ids": [
+      "january_5th_full_20260912__match_037b",
+      "january_5th_full_20260912__match_047",
+      "september_11th_2500_20260912__sep11_2500_match_020",
+      "september_11th_2500_20260912__sep11_2500_match_022",
+      "september_11th_2500_20260912__sep11_2500_match_035",
+      "september_28th_2700_20260913__september28_2700_match_003"
+    ],
+    "contradicting_match_ids": [
+      "september_11th_2500_20260912__sep11_2500_match_031",
+      "september_11th_2500_20260912__sep11_2500_match_033",
+      "september_11th_2500_20260912__sep11_2500_match_017",
+      "september_11th_2500_20260912__sep11_2500_match_018"
+    ],
+    "contradiction_scope": "Challenges to candidate or stronger universal rules, not necessarily to the final qualified wording.",
+    "representative_match_ids": [
+      "january_5th_full_20260912__match_037b",
+      "january_5th_full_20260912__match_047",
+      "september_11th_2500_20260912__sep11_2500_match_020"
+    ],
+    "all_match_ids": [
+      "january_5th_full_20260912__match_037b",
+      "january_5th_full_20260912__match_047",
+      "september_11th_2500_20260912__sep11_2500_match_017",
+      "september_11th_2500_20260912__sep11_2500_match_018",
+      "september_11th_2500_20260912__sep11_2500_match_020",
+      "september_11th_2500_20260912__sep11_2500_match_022",
+      "september_11th_2500_20260912__sep11_2500_match_024",
+      "september_11th_2500_20260912__sep11_2500_match_026",
+      "september_11th_2500_20260912__sep11_2500_match_029",
+      "september_11th_2500_20260912__sep11_2500_match_031",
+      "september_11th_2500_20260912__sep11_2500_match_033",
+      "september_11th_2500_20260912__sep11_2500_match_035",
+      "september_28th_2700_20260913__september28_2700_match_003"
+    ],
+    "data_quality_notes": [
+      "Source extractions reviewed; original videos were not reopened during synthesis.",
+      "Both dedicated player-role fields are empty in all input records; roles remain unknown except where explicit narrative evidence is cited.",
+      "Sample win rate is a property of selected footage, not expected ladder performance.",
+      "Absent events are unknown unless the record explicitly establishes availability or absence.",
+      "A reported enemy kill can occur after a friendly death; the round result is stored separately.",
+      "3 records carry source quality flags; consult evidence and exceptions before treating a claim as footage-verified."
+    ],
+    "source_batches": {
+      "january_5th_full_20260912": 2,
+      "september_11th_2500_20260912": 10,
+      "september_28th_2700_20260913": 1
+    }
+  },
+  "facts": {
+    "by_result": {
+      "win": {
+        "total": 11,
+        "opening_targets": {
+          "Discipline Priest": 1,
+          "Marksmanship Hunter": 9,
+          "Crab pet": 1
+        },
+        "enemy_kill_targets": {
+          "Marksmanship Hunter": 9,
+          "Discipline Priest": 2
+        }
+      },
+      "loss": {
+        "total": 2,
+        "opening_targets": {
+          "Hunter's Crab pet": 1,
+          "Discipline Priest": 1
+        },
+        "enemy_kill_targets": {
+          "unknown_or_no_enemy_kill": 2
+        }
+      },
+      "unknown": {
+        "total": 0,
+        "opening_targets": {},
+        "enemy_kill_targets": {}
+      }
+    },
+    "opening_targets": {
+      "Discipline Priest": 2,
+      "Marksmanship Hunter": 9,
+      "Hunter's Crab pet": 1,
+      "Crab pet": 1
+    },
+    "kill_targets": {
+      "Marksmanship Hunter": 9,
+      "unknown_or_no_enemy_kill": 2,
+      "Discipline Priest": 2
+    },
+    "opening_to_reported_enemy_kill": [
+      {
+        "opening_target": "Crab pet",
+        "reported_enemy_kill": "Marksmanship Hunter",
+        "result": "win",
+        "count": 1,
+        "match_ids": [
+          "september_11th_2500_20260912__sep11_2500_match_022"
+        ]
+      },
+      {
+        "opening_target": "Discipline Priest",
+        "reported_enemy_kill": "Marksmanship Hunter",
+        "result": "win",
+        "count": 1,
+        "match_ids": [
+          "january_5th_full_20260912__match_037b"
+        ]
+      },
+      {
+        "opening_target": "Discipline Priest",
+        "reported_enemy_kill": "unknown_or_no_enemy_kill",
+        "result": "loss",
+        "count": 1,
+        "match_ids": [
+          "september_11th_2500_20260912__sep11_2500_match_018"
+        ]
+      },
+      {
+        "opening_target": "Hunter's Crab pet",
+        "reported_enemy_kill": "unknown_or_no_enemy_kill",
+        "result": "loss",
+        "count": 1,
+        "match_ids": [
+          "september_11th_2500_20260912__sep11_2500_match_017"
+        ]
+      },
+      {
+        "opening_target": "Marksmanship Hunter",
+        "reported_enemy_kill": "Discipline Priest",
+        "result": "win",
+        "count": 2,
+        "match_ids": [
+          "september_11th_2500_20260912__sep11_2500_match_024",
+          "september_11th_2500_20260912__sep11_2500_match_029"
+        ]
+      },
+      {
+        "opening_target": "Marksmanship Hunter",
+        "reported_enemy_kill": "Marksmanship Hunter",
+        "result": "win",
+        "count": 7,
+        "match_ids": [
+          "january_5th_full_20260912__match_047",
+          "september_11th_2500_20260912__sep11_2500_match_020",
+          "september_11th_2500_20260912__sep11_2500_match_026",
+          "september_11th_2500_20260912__sep11_2500_match_031",
+          "september_11th_2500_20260912__sep11_2500_match_033",
+          "september_11th_2500_20260912__sep11_2500_match_035",
+          "september_28th_2700_20260913__september28_2700_match_003"
+        ]
+      }
+    ],
+    "sequence_limit": "Endpoints only. No intermediate swap timing, causal sequence, or survival at the enemy death is inferred by this computation.",
+    "source_resource_labels": [
+      {
+        "label": "Discipline Priest Divine Hymn channel (~67-68s)",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest Mind Control channel (~54-56s)",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest Mind Control channel (~63-65s)",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest Penance (~64s and ~72-73s; latter cut off by Blind)",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest Penance (~78-79s, before renewed Priest stuns)",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest Penance (~87-88s)",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest PvP Trinket (~124s)",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest PvP Trinket (~57s)",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest PvP Trinket (~79s)",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest PvP Trinket (~80s)",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest PvP Trinket (~81s)",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest Will of the Forsaken (~59s; separate PvP Trinket state unknown)",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest Will of the Forsaken (~62s; separate PvP Trinket state unknown)",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest Will of the Forsaken (~66s; separate PvP Trinket state unknown)",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest Will of the Forsaken (~78s; separate PvP Trinket state unknown)",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest Will of the Forsaken (~84-85s; racial cooldown visible)",
+        "records": 1
+      },
+      {
+        "label": "Discipline Priest Will of the Forsaken (~84s; separate PvP Trinket state unknown)",
+        "records": 1
+      },
+      {
+        "label": "Hunter PvP Trinket ~82s",
+        "records": 1
+      },
+      {
+        "label": "Hunter temporary defensive/immunity state (~66-71s; ability unknown)",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter PvP Trinket (~104-104.5s)",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter PvP Trinket (~153s)",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter PvP Trinket (~61s)",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter PvP Trinket (~66s)",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter PvP Trinket (~78s)",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter PvP Trinket (~80s)",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter PvP Trinket (~84s, breaking Blind)",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter PvP Trinket (~88s)",
+        "records": 1
+      },
+      {
+        "label": "Marksmanship Hunter PvP Trinket (~90s)",
+        "records": 1
+      },
+      {
+        "label": "Priest Divine Hymn ~107-111s",
+        "records": 1
+      }
+    ],
+    "resource_count_limit": "Exact source-listed labels, deduplicated within each match. They include uncertain or offensive entries and are not verified forced-resource frequencies.",
+    "cc_lexical_mentions": {
+      "Silence": 1,
+      "Gouge": 1,
+      "Blind": 5
+    },
+    "cc_count_limit": "Literal mentions in observed notes, including negated/uncertain/post-death mentions. These are search aids, not counts of landed CC.",
+    "recovery_text_present": 12,
+    "recovery_count_limit": "Field coverage only: texts may explicitly say no reset. Not a reset-event rate.",
+    "missing_fields": {
+      "priest_role": 13,
+      "rogue_role": 13,
+      "recovery_text": 1,
+      "result": 0,
+      "opening_target": 0,
+      "enemy_kill_target": 2
+    },
+    "quality_flags": {
+      "source_exception_present": 2,
+      "truncated_evidence": 1
+    },
+    "extraction_confidence": {
+      "medium": 3,
+      "high": 10
+    }
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "H1",
+      "statement": "One opening target also explains every reported enemy kill in wins.",
+      "tested_target": "Marksmanship Hunter",
+      "disposition": "rejected_as_exhaustive",
+      "supporting_match_ids": [
+        "january_5th_full_20260912__match_037b",
+        "january_5th_full_20260912__match_047",
+        "september_11th_2500_20260912__sep11_2500_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_022",
+        "september_11th_2500_20260912__sep11_2500_match_026",
+        "september_11th_2500_20260912__sep11_2500_match_031",
+        "september_11th_2500_20260912__sep11_2500_match_033",
+        "september_11th_2500_20260912__sep11_2500_match_035",
+        "september_28th_2700_20260913__september28_2700_match_003"
+      ],
+      "contradicting_match_ids": [
+        "september_11th_2500_20260912__sep11_2500_match_024",
+        "september_11th_2500_20260912__sep11_2500_match_029"
+      ],
+      "unknown_kill_wins": 0,
+      "limitation": "Descriptive endpoint comparison. Does not establish intended kill target, causes, or conditional win probability."
+    },
+    {
+      "hypothesis_id": "H2",
+      "statement": "Hunter has a sustained health deficit during renewed pressure, with useful healer disruption or a decisive late interrupt.",
+      "disposition": "provisional_interpretation",
+      "supporting_match_ids": [
+        "january_5th_full_20260912__match_037b",
+        "january_5th_full_20260912__match_047",
+        "september_11th_2500_20260912__sep11_2500_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_022",
+        "september_11th_2500_20260912__sep11_2500_match_035",
+        "september_28th_2700_20260913__september28_2700_match_003"
+      ],
+      "contradicting_match_ids": [],
+      "limitation": "Most evidence comes from the repaired September 11 batch. Wins occur with ready Trinkets and active Priest healing; pet removal is not a proven requirement."
+    },
+    {
+      "hypothesis_id": "H3",
+      "statement": "A stronger fixed resource/target/control prerequisite is necessary.",
+      "disposition": "not_established",
+      "supporting_match_ids": [],
+      "contradicting_match_ids": [
+        "september_11th_2500_20260912__sep11_2500_match_031",
+        "september_11th_2500_20260912__sep11_2500_match_033",
+        "september_11th_2500_20260912__sep11_2500_match_017",
+        "september_11th_2500_20260912__sep11_2500_match_018"
+      ],
+      "limitation": "Most evidence comes from the repaired September 11 batch. Wins occur with ready Trinkets and active Priest healing; pet removal is not a proven requirement."
+    }
+  ],
+  "default_line": {
+    "opening_target": {
+      "text": "Marksmanship Hunter; recorded in 9/13 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "basis": "pattern",
+      "confidence": "medium",
+      "supporting_match_ids": [
+        "january_5th_full_20260912__match_047",
+        "september_11th_2500_20260912__sep11_2500_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_024",
+        "september_11th_2500_20260912__sep11_2500_match_026",
+        "september_11th_2500_20260912__sep11_2500_match_029",
+        "september_11th_2500_20260912__sep11_2500_match_031",
+        "september_11th_2500_20260912__sep11_2500_match_033",
+        "september_11th_2500_20260912__sep11_2500_match_035",
+        "september_28th_2700_20260913__september28_2700_match_003"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "all_labeled_openers_in_this_matchup"
+    },
+    "initial_objective": {
+      "text": "Develop Hunter pressure through absorbs and healing while limiting Priest support.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "january_5th_full_20260912__match_037b",
+        "january_5th_full_20260912__match_047",
+        "september_11th_2500_20260912__sep11_2500_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_022",
+        "september_11th_2500_20260912__sep11_2500_match_035",
+        "september_28th_2700_20260913__september28_2700_match_003"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "win_condition": {
+      "text": "Hunter has a sustained health deficit during renewed pressure, with useful healer disruption or a decisive late interrupt.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "january_5th_full_20260912__match_037b",
+        "january_5th_full_20260912__match_047",
+        "september_11th_2500_20260912__sep11_2500_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_022",
+        "september_11th_2500_20260912__sep11_2500_match_035",
+        "september_28th_2700_20260913__september28_2700_match_003"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "manufacture": {
+      "text": "Hunter is the most frequent opening player target; pet-first and Priest-first records are retained separately. Actual health damage may start substantially after control.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "january_5th_full_20260912__match_037b",
+        "january_5th_full_20260912__match_047",
+        "september_11th_2500_20260912__sep11_2500_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_022",
+        "september_11th_2500_20260912__sep11_2500_match_035",
+        "september_28th_2700_20260913__september28_2700_match_003"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "conversion": {
+      "text": "Usually finish Hunter; a healed or absorbed Hunter attempt sometimes leads to a Priest switch under Hunter control.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "january_5th_full_20260912__match_037b",
+        "january_5th_full_20260912__match_047",
+        "september_11th_2500_20260912__sep11_2500_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_022",
+        "september_11th_2500_20260912__sep11_2500_match_035",
+        "september_28th_2700_20260913__september28_2700_match_003"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "reset": {
+      "text": "Renew Hunter pressure after recovery. Defensive Vanish alone did not guarantee stabilization in the losses.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "january_5th_full_20260912__match_037b",
+        "january_5th_full_20260912__match_047",
+        "september_11th_2500_20260912__sep11_2500_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_022",
+        "september_11th_2500_20260912__sep11_2500_match_035",
+        "september_28th_2700_20260913__september28_2700_match_003"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    "important_resources": []
+  },
+  "states": [
+    {
+      "state_id": "opening",
+      "description": "Hunter is the most frequent opening player target; pet-first and Priest-first records are retained separately. Actual health damage may start substantially after control.",
+      "team_objective": {
+        "text": "Hunter is the most frequent opening player target; pet-first and Priest-first records are retained separately. Actual health damage may start substantially after control.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_037b",
+          "january_5th_full_20260912__match_047",
+          "september_11th_2500_20260912__sep11_2500_match_020",
+          "september_11th_2500_20260912__sep11_2500_match_022",
+          "september_11th_2500_20260912__sep11_2500_match_035",
+          "september_28th_2700_20260913__september28_2700_match_003"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "An actual pressure commitment has begun.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "january_5th_full_20260912__match_037b",
+            "january_5th_full_20260912__match_047",
+            "september_11th_2500_20260912__sep11_2500_match_020",
+            "september_11th_2500_20260912__sep11_2500_match_022",
+            "september_11th_2500_20260912__sep11_2500_match_035",
+            "september_28th_2700_20260913__september28_2700_match_003"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "january_5th_full_20260912__match_037b",
+        "january_5th_full_20260912__match_047",
+        "september_11th_2500_20260912__sep11_2500_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_022",
+        "september_11th_2500_20260912__sep11_2500_match_035",
+        "september_28th_2700_20260913__september28_2700_match_003"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "pressure",
+      "description": "Develop Hunter pressure through absorbs and healing while limiting Priest support.",
+      "team_objective": {
+        "text": "Develop Hunter pressure through absorbs and healing while limiting Priest support.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_037b",
+          "january_5th_full_20260912__match_047",
+          "september_11th_2500_20260912__sep11_2500_match_020",
+          "september_11th_2500_20260912__sep11_2500_match_022",
+          "september_11th_2500_20260912__sep11_2500_match_035",
+          "september_28th_2700_20260913__september28_2700_match_003"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "january_5th_full_20260912__match_037b",
+        "january_5th_full_20260912__match_047",
+        "september_11th_2500_20260912__sep11_2500_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_022",
+        "september_11th_2500_20260912__sep11_2500_match_035",
+        "september_28th_2700_20260913__september28_2700_match_003"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "conversion",
+      "description": "Usually finish Hunter; a healed or absorbed Hunter attempt sometimes leads to a Priest switch under Hunter control.",
+      "team_objective": {
+        "text": "Usually finish Hunter; a healed or absorbed Hunter attempt sometimes leads to a Priest switch under Hunter control.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_037b",
+          "january_5th_full_20260912__match_047",
+          "september_11th_2500_20260912__sep11_2500_match_020",
+          "september_11th_2500_20260912__sep11_2500_match_022",
+          "september_11th_2500_20260912__sep11_2500_match_035",
+          "september_28th_2700_20260913__september28_2700_match_003"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "Hunter has a sustained health deficit during renewed pressure, with useful healer disruption or a decisive late interrupt.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "january_5th_full_20260912__match_037b",
+            "january_5th_full_20260912__match_047",
+            "september_11th_2500_20260912__sep11_2500_match_020",
+            "september_11th_2500_20260912__sep11_2500_match_022",
+            "september_11th_2500_20260912__sep11_2500_match_035",
+            "september_28th_2700_20260913__september28_2700_match_003"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "january_5th_full_20260912__match_037b",
+        "january_5th_full_20260912__match_047",
+        "september_11th_2500_20260912__sep11_2500_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_022",
+        "september_11th_2500_20260912__sep11_2500_match_035",
+        "september_28th_2700_20260913__september28_2700_match_003"
+      ],
+      "confidence": "low"
+    },
+    {
+      "state_id": "recovery",
+      "description": "Renew Hunter pressure after recovery. Defensive Vanish alone did not guarantee stabilization in the losses.",
+      "team_objective": {
+        "text": "Renew Hunter pressure after recovery. Defensive Vanish alone did not guarantee stabilization in the losses.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_037b",
+          "january_5th_full_20260912__match_047",
+          "september_11th_2500_20260912__sep11_2500_match_020",
+          "september_11th_2500_20260912__sep11_2500_match_022",
+          "september_11th_2500_20260912__sep11_2500_match_035",
+          "september_28th_2700_20260913__september28_2700_match_003"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "entry_conditions": [
+        {
+          "text": "The preceding attempt is healed, protected, or interrupted.",
+          "basis": "inferred",
+          "confidence": "low",
+          "supporting_match_ids": [
+            "january_5th_full_20260912__match_037b",
+            "january_5th_full_20260912__match_047",
+            "september_11th_2500_20260912__sep11_2500_match_020",
+            "september_11th_2500_20260912__sep11_2500_match_022",
+            "september_11th_2500_20260912__sep11_2500_match_035",
+            "september_28th_2700_20260913__september28_2700_match_003"
+          ],
+          "contradicting_match_ids": [],
+          "evidence_scope": "cited_examples_not_exhaustive_frequency"
+        }
+      ],
+      "exit_conditions": [
+        {
+          "text": "unknown",
+          "basis": "unknown",
+          "confidence": "insufficient",
+          "supporting_match_ids": [],
+          "contradicting_match_ids": [],
+          "evidence_scope": "none"
+        }
+      ],
+      "evidence": [
+        "january_5th_full_20260912__match_037b",
+        "january_5th_full_20260912__match_047",
+        "september_11th_2500_20260912__sep11_2500_match_020",
+        "september_11th_2500_20260912__sep11_2500_match_022",
+        "september_11th_2500_20260912__sep11_2500_match_035",
+        "september_28th_2700_20260913__september28_2700_match_003"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "branches": [
+    {
+      "branch_id": "branch_1",
+      "from_state": "pressure",
+      "next_state": "conversion",
+      "trigger": {
+        "text": "Hunter pressure is absorbed or healed and Hunter control supports an actual Priest switch.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "september_11th_2500_20260912__sep11_2500_match_024",
+          "september_11th_2500_20260912__sep11_2500_match_029"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "response": {
+        "text": "Commit Priest and renew pressure around the healer escape.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "september_11th_2500_20260912__sep11_2500_match_024",
+          "september_11th_2500_20260912__sep11_2500_match_029"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "classification": "real reactive branch",
+      "team_objective": {
+        "text": "Commit Priest and renew pressure around the healer escape.",
+        "basis": "inferred",
+        "confidence": "low",
+        "supporting_match_ids": [
+          "september_11th_2500_20260912__sep11_2500_match_024",
+          "september_11th_2500_20260912__sep11_2500_match_029"
+        ],
+        "contradicting_match_ids": [],
+        "evidence_scope": "cited_examples_not_exhaustive_frequency"
+      },
+      "priest_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "rogue_instruction": {
+        "text": "unknown",
+        "basis": "unknown",
+        "confidence": "insufficient",
+        "supporting_match_ids": [],
+        "contradicting_match_ids": [],
+        "evidence_scope": "none"
+      },
+      "evidence": [
+        "september_11th_2500_20260912__sep11_2500_match_024",
+        "september_11th_2500_20260912__sep11_2500_match_029"
+      ],
+      "confidence": "low"
+    }
+  ],
+  "match_assessments": [
+    {
+      "match_id": "january_5th_full_20260912__match_037b",
+      "review_id": "M139",
+      "result": "win",
+      "observed_opening_target": "Discipline Priest",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "january_5th_full_20260912__match_047",
+      "review_id": "M149",
+      "result": "win",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_017",
+      "review_id": "M406",
+      "result": "loss",
+      "observed_opening_target": "Hunter's Crab pet",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_018",
+      "review_id": "M407",
+      "result": "loss",
+      "observed_opening_target": "Discipline Priest",
+      "reported_enemy_kill_target": null,
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_020",
+      "review_id": "M409",
+      "result": "win",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_022",
+      "review_id": "M411",
+      "result": "win",
+      "observed_opening_target": "Crab pet",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "candidate_endpoint_deviation",
+      "deviation_classification": "unknown",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_024",
+      "review_id": "M413",
+      "result": "win",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": "Discipline Priest",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_026",
+      "review_id": "M415",
+      "result": "win",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_029",
+      "review_id": "M418",
+      "result": "win",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": "Discipline Priest",
+      "assessment": "cited_branch_example",
+      "deviation_classification": "real reactive branch",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_031",
+      "review_id": "M420",
+      "result": "win",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_033",
+      "review_id": "M422",
+      "result": "win",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_11th_2500_20260912__sep11_2500_match_035",
+      "review_id": "M424",
+      "result": "win",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    },
+    {
+      "match_id": "september_28th_2700_20260913__september28_2700_match_003",
+      "review_id": "M459",
+      "result": "win",
+      "observed_opening_target": "Marksmanship Hunter",
+      "reported_enemy_kill_target": "Marksmanship Hunter",
+      "assessment": "consistent_endpoint_example",
+      "deviation_classification": "not_applicable",
+      "limitation": "Descriptive review classification; no unobserved intent, positioning trigger or player error assigned.",
+      "evidence_fields": [
+        "evidence_notes.observed",
+        "conversion_from_source",
+        "reset_or_recovery_observed",
+        "failure_or_turning_point_from_source",
+        "exception_notes"
+      ]
+    }
+  ],
+  "failure_modes": [
+    {
+      "text": "Hunter isolation expires before meaningful Priest damage starts; friendly Rogue is already critically low and cannot survive another conversion.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "september_11th_2500_20260912__sep11_2500_match_018"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    },
+    {
+      "text": "Pet work and absorbed Hunter attacks do not create threatening player damage before friendly Rogue death.",
+      "basis": "inferred",
+      "confidence": "low",
+      "supporting_match_ids": [
+        "september_11th_2500_20260912__sep11_2500_match_017"
+      ],
+      "contradicting_match_ids": [],
+      "evidence_scope": "cited_examples_not_exhaustive_frequency"
+    }
+  ],
+  "runtime_observability": {
+    "automatic": [],
+    "automatic_candidates": [
+      {
+        "signal": "Verified cast/aura, present health, or an observed control start/end",
+        "status": "unvalidated_candidate",
+        "scope": "Raw events only; not strategic intent or reliable absence of an enemy cooldown.",
+        "limitation": "No addon implementation or API testing was performed; no automatic transition is certified."
+      }
+    ],
+    "manual_possible": [
+      {
+        "transition": "pressure_to_conversion",
+        "confirmation": "A meaningful enemy health window, current partner control and friendly readiness overlap."
+      },
+      {
+        "transition": "conversion_to_recovery",
+        "confirmation": "Target recovered or became protected; team needs a new usable attempt."
+      }
+    ],
+    "web_only": [
+      "Strategic intent",
+      "Reasons for a target-selection branch",
+      "Causal counterfactuals",
+      "Full comparison with losses and unresolved evidence"
+    ]
+  },
+  "uncertainties": [
+    "Most evidence comes from the repaired September 11 batch. Wins occur with ready Trinkets and active Priest healing; pet removal is not a proven requirement.",
+    "Precise Priest/Rogue division of labour by phase is mostly unknown.",
+    "Exact runtime detection reliability on Warmane 3.3.5 is untested."
+  ],
+  "mechanics_context": [],
+  "provenance": {
+    "prepared_corpus_version": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+    "matchup_file": "analysis/prepared_corpus/matchups/Shadow_Priest__Subtlety_Rogue__vs__Discipline_Priest__Marksmanship_Hunter.jsonl",
+    "review_file": "evidence_review/group_08.txt",
+    "prepared_stats": {
+      "matchup_key": "Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Marksmanship Hunter",
+      "total_games": 13,
+      "wins": 11,
+      "losses": 2,
+      "unknown_result": 0,
+      "opening_target_known": 13,
+      "opening_target_unknown": 0,
+      "opening_targets": {
+        "Discipline Priest briefly": 1,
+        "Marksmanship Hunter": 2,
+        "Hunter's Crab pet": 1,
+        "Priest: first substantial enemy player damage": 1,
+        "Hunter": 7,
+        "Crab pet": 1
+      },
+      "kill_target_known": 13,
+      "kill_target_unknown": 0,
+      "kill_targets": {
+        "Marksmanship Hunter": 3,
+        "No enemy player killed": 1,
+        "No enemy player killed. Rogue dies at approximately 99s": 1,
+        "Hunter": 3,
+        "Hunter around 74s": 1,
+        "Priest": 2,
+        "Hunter at approximately 92.5s": 1,
+        "Hunter at approximately 97s": 1
+      },
+      "records_with_quality_flags": 3,
+      "records_with_source_exceptions": 2,
+      "records_with_source_win_condition_hypothesis": 13,
+      "source_batch_distribution": {
+        "january_5th_full_20260912": 2,
+        "september_11th_2500_20260912": 10,
+        "september_28th_2700_20260913": 1
+      }
+    },
+    "review_group": 8,
+    "date": "2026-09-13"
+  },
+  "version_history": [
+    {
+      "version": 1,
+      "date": "2026-09-13",
+      "corpus": "sha256:90f807125699c79a984c8d4ea23ffd9aff9853cab3acc764f79694750eb9c4df",
+      "change": "Initial evidence-constrained synthesis; no prior approved strategy replaced.",
+      "reason": "First canonical package for review."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+GROUP 27: Shadow Priest / Subtlety Rogue__vs__Arms Warrior / Balance Druid
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Arms Warrior / Balance Druid", "total_games": 3, "wins": 3, "losses": 0, "unknown_result": 0, "opening_target_known": 3, "opening_target_unknown": 0, "opening_targets": {"Arms Warrior": 3}, "kill_target_known": 3, "kill_target_unknown": 0, "kill_targets": {"Balance Druid": 2, "Arms Warrior": 1}, "records_with_quality_flags": 2, "records_with_source_exceptions": 2, "records_with_source_win_condition_hypothesis": 3, "source_batch_distribution": {"august_31st_2550_20260912": 3}}
+
+M005 | win | open=Arms Warrior | kill=Balance Druid | extraction=high | flags=
+OBS: ~50s Sap Warrior then Warrior stun pressure; Warrior heals to full
+OBS: ~63-69s Druid health falls while Warrior controlled
+OBS: ~68s Warrior Fear; Trinket cooldown appears ~70s
+OBS: ~74-84s Rogue damage on Druid; Druid dead ~84s and Green wins ~85s
+OBS: Druid Trinket cooldown not observed
+SOURCE CONVERSION: Partner already pressures Druid during Warrior setup; Rogue commits Druid ~74s, stuns ~75-78s and renews control ~82s; Druid dies ~84s
+SOURCE RESET: Warrior opening damage is healed; use repeated Warrior control rather than continue damage tunnel
+
+M016 | win | open=Arms Warrior | kill=Balance Druid | extraction=high | flags=source_exception_present
+OBS: Warrior stuns reduce health to 51% at 59, then healing restores full by 69.
+OBS: Warrior Fear 67-74; Druid Moonkin portrait visible at 71-73.
+OBS: Druid stuns 73.5-77.5; 4% and Trinket cooldown 78.5, dead 80.
+OBS: Warrior Trinket 95, then Blind at 95; Gold wins 99 after Druid kill.
+SOURCE CONVERSION: Warrior Fear 67-74 enables Druid swap 71; Druid stun 73.5-77.5 followed by short renewed control. Druid Trinkets about 78.5 at 4% and dies 80.
+SOURCE RESET: Warrior reaches about 51% then heals full; switch to Druid during Warrior Fear. Warrior's late Trinket/Blind happens after Druid death.
+EXCEPTION: - `match_016.mp4`: Druid spec inferred from visible Moonkin form; other defensive buff names unresolved.
+
+M018 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=source_exception_present
+OBS: ~83-96s Sap and stuns Warrior; Rogue briefly pressures Druid92-100s
+OBS: Warrior17%~99s recovers~70% by112s; Druid Silence106-111s and health19% recovers60%112s
+OBS: Warrior Trinket cooldown115.5s; renewed stuns117s, Druid Gouge118s; Warrior dead123.5s Gold127s
+SOURCE CONVERSION: Warrior Trinkets115.5s; immediately restunned~117-121.5s with Druid Gouge~118-121.5s; Warrior falls43% to dead123.5s
+SOURCE RESET: Brief Druid pressure92-100s while Warrior falls17%; Warrior recovers during unidentified blue defensive/debuff indicator~100s; return and renew Warrior pressure
+EXCEPTION: - `match_018.mp4`: Unidentified blue Warrior indicator~100s could be buff or debuff; do not assert a named enemy defensive. Druid Trinket remains ready

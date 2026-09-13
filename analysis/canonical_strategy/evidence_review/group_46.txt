@@ -1,0 +1,15 @@
+GROUP 46: Shadow Priest / Subtlety Rogue__vs__Marksmanship Hunter / Protection Warrior
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Marksmanship Hunter / Protection Warrior", "total_games": 1, "wins": 1, "losses": 0, "unknown_result": 0, "opening_target_known": 1, "opening_target_unknown": 0, "opening_targets": {"Marksmanship Hunter": 1}, "kill_target_known": 1, "kill_target_unknown": 0, "kill_targets": {"Marksmanship Hunter": 1}, "records_with_quality_flags": 0, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 1, "source_batch_distribution": {"september_28th_2700_20260913": 1}}
+
+M486 | win | open=Marksmanship Hunter | kill=Marksmanship Hunter | extraction=high | flags=
+OBS: Full-duration review: one arena, gates at 44s, victory at approximately 89.5s, then town through 105s
+OBS: Gladius identifies Marksmanship Hunter and Protection Warrior
+OBS: First meaningful Hunter damage begins at 49s; Warrior opening damage is minor control-associated damage
+OBS: Hunter Trinket at 53.5s is confirmed by debuff removal and cooldown; Warrior Trinket remains available throughout
+OBS: Repeated Dodge/Parry/Immune messages during early Hunter pressure; exact avoidance ability unknown
+OBS: Blind Hunter at 60.5s is confirmed by the timed green-eye debuff and ends by 61s
+OBS: Hunter briefly heals to 82% at 70s, then falls to 58% at 73.5s; renewed Kidney Shot drives 52%, 33%, 20%, 9% and confirmed death at 77s
+OBS: Warrior is free during the decisive Hunter low; no sustained off-target CC is claimed as a prerequisite
+OBS: Both friendlies survive. Warrior is approximately 73% and alive at the round win; no Warrior kill is established
+SOURCE CONVERSION: Maintain Hunter damage through Kidney Shot at 73.5–79.5s; Hunter reaches 9% at 76.5s and dies at 77s
+SOURCE RESET: The opening Hunter window heals and brief Blind breaks; Hunter remains the damage focus. Warrior is pressured after Hunter death, then the round ends with Warrior still alive.

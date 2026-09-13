@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "requested_mp4_files": 44,
+    "discovered_mp4_files": 44,
+    "full_duration_reviewed_files": 44,
+    "valid_normal_2v2_games": 43,
+    "jsonl_game_records": 43,
+    "analysed": 39,
+    "uncertain": 4,
+    "failed": 0,
+    "ignored_non_2v2_files": 0,
+    "excluded_non_evidentiary_2v2": 1,
+    "wins": 26,
+    "losses": 17,
+    "high_confidence": 35,
+    "medium_confidence": 8,
+    "source_duration_seconds": 6348.767
+  },
+  "count_mismatch": false,
+  "validation_passed": true,
+  "validation_errors": [],
+  "matches_jsonl_sha256": "8b4dcb4c4659aaa8d69244b0e584248ed520638a2197c7309e94baca6a5d848e",
+  "manifest_sha256": "dd4aff6dcca63d16cc4064c9cdff5d05e8ba2160d580cc2fde62cc343e334519",
+  "review_method": "Visual review of full-duration 1s UI/scene frame scans, 0.5s decisive-window scans and native full-frame scoreboard checks. Timestamps are approximate clip-relative positions; no combat log reconstruction."
+}

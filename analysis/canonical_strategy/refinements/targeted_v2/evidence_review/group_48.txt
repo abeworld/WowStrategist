@@ -1,0 +1,15 @@
+GROUP 48: Shadow Priest / Subtlety Rogue__vs__Protection Warrior / Restoration Druid
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Protection Warrior / Restoration Druid", "total_games": 1, "wins": 1, "losses": 0, "unknown_result": 0, "opening_target_known": 1, "opening_target_unknown": 0, "opening_targets": {"Protection Warrior": 1}, "kill_target_known": 1, "kill_target_unknown": 0, "kill_targets": {"Restoration Druid": 1}, "records_with_quality_flags": 0, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 1, "source_batch_distribution": {"september_28th_2700_20260913": 1}}
+
+M477 | win | open=Protection Warrior | kill=Restoration Druid | extraction=high | flags=
+OBS: Single arena; combat begins approximately 43s; full preparation/town tail and next arena preparation at 113s inspected
+OBS: Gladius identifies Cig as Protection Warrior and Qft as Restoration Druid
+OBS: Initial Druid stuns around 59-63s leave health 98-100%; Warrior pressure from 63s is the first substantive damage sequence
+OBS: Warrior spends Trinket at 70.5s during stun pressure; Druid Fear continues without Trinket use
+OBS: Warrior is disarmed around 71.5-83s; green arm debuff is distinct from later Blind
+OBS: Warrior Blind confirmed at 85-95s, Warrior 62%; Druid falls to 24% at 86s then heals to 55% at 86.5s
+OBS: Druid escapes renewed stun with Trinket at 87.5s; further stuns 90-94s and Kidney at 94s accompany 32%,24%,21%,26%,7% and death at 95s
+OBS: Warrior remains alive at 63%; Gold Team win at 98s
+OBS: Full active sequence inspected at 1s; critical 70-72,85-89,91-96s at 0.5s
+SOURCE CONVERSION: Druid heals during an earlier 24-35% window, then renewed stuns drive 44% to 21%, brief 26% recovery, 7% and confirmed death at 95s before Warrior Blind ends
+SOURCE RESET: Warrior damage establishes escape expenditure; Druid becomes kill target around 81s while friendly Rogue is also low

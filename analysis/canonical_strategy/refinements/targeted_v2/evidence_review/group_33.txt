@@ -1,0 +1,21 @@
+GROUP 33: Shadow Priest / Subtlety Rogue__vs__Protection Warrior / Unholy Death Knight
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Protection Warrior / Unholy Death Knight", "total_games": 2, "wins": 2, "losses": 0, "unknown_result": 0, "opening_target_known": 2, "opening_target_unknown": 0, "opening_targets": {"Unholy Death Knight": 2}, "kill_target_known": 2, "kill_target_unknown": 0, "kill_targets": {"Protection Warrior": 2}, "records_with_quality_flags": 0, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 2, "source_batch_distribution": {"may_4th_2350_20260913": 2}}
+
+M362 | win | open=Unholy Death Knight | kill=Protection Warrior | extraction=medium | flags=
+OBS: Protection Warrior spec explicitly displayed with rage resource, not Paladin
+OBS: Death Knight first damage~4%34s, then Warrior damage40s
+OBS: Warrior recovers health during59-70s; named defensive/recovery spell not confidently established
+OBS: Death Knight renewed control countdown70-73s while Warrior stun71-73s ends in DEAD
+OBS: Death Knight later pressured; last readable~13%88s before victory, second death not established
+OBS: Next game preparation100s, continues in030
+SOURCE CONVERSION: Warrior reaches~10-16% early but recovers to~36%70s; renewed Warrior burst under Death Knight control kills Warrior73s, victory89s
+SOURCE RESET: Early Warrior finish stalls; brief Death Knight branch/control precedes renewed Warrior commitment
+
+M371 | win | open=Unholy Death Knight | kill=Protection Warrior | extraction=high | flags=
+OBS: Protection Warrior is explicitly displayed with rage, not Paladin
+OBS: Warrior never visibly spends PvP trinket before death; escape remains ready
+OBS: Death Knight free51-64s; no continuous Blind coverage claimed
+OBS: Gargoyle Strike cast interrupted67s; pet utility target selection does not establish pet kill
+OBS: Both enemy deaths independently shown
+SOURCE CONVERSION: Warrior reaches~12%53s then recovers near20%; renewed Death Knight control65s overlaps Warrior finish to DEAD67s; Death Knight DEAD81s, victory82s
+SOURCE RESET: Short initial Death Knight branch leads to sustained Warrior pressure; early off-target control ends before renewed final control

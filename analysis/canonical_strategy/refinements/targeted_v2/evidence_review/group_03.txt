@@ -1,0 +1,155 @@
+GROUP 03: Shadow Priest / Subtlety Rogue__vs__Balance Druid / Subtlety Rogue
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Balance Druid / Subtlety Rogue", "total_games": 20, "wins": 17, "losses": 3, "unknown_result": 0, "opening_target_known": 20, "opening_target_unknown": 0, "opening_targets": {"Subtlety Rogue": 9, "Balance Druid": 11}, "kill_target_known": 17, "kill_target_unknown": 3, "kill_targets": {"Subtlety Rogue": 11, "Balance Druid": 6}, "records_with_quality_flags": 2, "records_with_source_exceptions": 2, "records_with_source_win_condition_hypothesis": 20, "source_batch_distribution": {"june_7th_2700_20260913": 19, "may_4th_2350_20260913": 1}}
+
+M153 | loss | open=Subtlety Rogue | kill=None | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: 152–215s scanned at 1s; 208–216s at 0.5s
+OBS: Enemy UI establishes Balance / Subtlety; both Trinket overlays ~166s
+OBS: Druid Nourish ~182s restores Rogue from ~33% to ~70%, then full
+OBS: Full 213s frame shows friendly Priest Ghost, two enemies alive, subsequent arena exit
+SOURCE CONVERSION: Renewed overlap of Rogue stun and Druid control ~188s does not convert; Rogue recovers and friendly Priest dies; Rogue exits while both enemies survive.
+SOURCE RESET: Brief Druid control selections ~171s and ~180–185s; no sustained damage swap. Druid repeatedly casts Cyclone and Nourish.
+SOURCE FAILURE: Rogue recovers through Druid healing and friendly Priest is dead by 213s; further Rogue pressure cannot produce a kill.
+EXCEPTION: - **match_004** (uncertain, medium): Renewed control overlap constitutes an isolation opportunity independently of final loss; exact friendly Priest death timing is unresolved
+
+M174 | loss | open=Subtlety Rogue | kill=None | extraction=high | flags=
+OBS: One 2v2; scan 85-134s at 1s, Rogue death window 104-110s at 0.5s
+OBS: Native frame confirms Rogue dead first, Priest alive; final score and chat confirm Priest death and loss
+OBS: Explicit Balance/Subtlety labels; both Trinket cooldowns tracked
+SOURCE CONVERSION: Druid survives around 59-64% then heals to 84% 113s and full 128s. Friendly Rogue is already dead 104.5s; Priest dies 134s and enemy wins
+SOURCE RESET: Brief Rogue opening gives way to real Druid damage 96s. After friendly Rogue death, Priest continues pressure without a kill
+SOURCE FAILURE: Enemy counterpressure kills our Rogue while Druid remains near 60%; Druid then recovers and both enemies finish Priest
+
+M175 | loss | open=Balance Druid | kill=None | extraction=high | flags=
+OBS: One 2v2; scan 99-199s at 1s, friendly Rogue death 132-139s at 0.5s
+OBS: Native frame confirms Rogue dead and Priest alive; end score confirms loss
+OBS: Explicit Balance/Subtlety labels, Druid Nourish/Regrowth and enemy recovery visible
+SOURCE CONVERSION: Friendly Rogue dead by 135s; Priest continues alone, enemies recover, loss score appears at end around 199-200s
+SOURCE RESET: Druid opening recovers; Rogue initially selected for Blind and remains almost full. Later Rogue damage occurs after our Rogue death and is healed back
+SOURCE FAILURE: Druid control breaks and healing restores the opener while enemy Rogue counterpressure kills our Rogue; solo Priest pressure cannot finish either enemy
+
+M150 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: 103–140s scanned at 1s; 122–134s at 0.5s
+OBS: UI explicitly establishes Balance Druid at ~129s and Subtlety Rogue
+OBS: Rogue Trinket cooldown appears ~120s; Druid Trinket retained
+OBS: Sap and later Blind debuffs visible on Druid; Rogue death visible
+SOURCE CONVERSION: Renew Rogue pressure ~130.5s; Rogue DEAD ~132.5s; round ends ~135s.
+SOURCE RESET: Druid heals through first low-health window; brief Druid selections ~125–130s precede Rogue recommit. Druid casts Cyclone at the death, so uninterrupted healer control is not established.
+
+M154 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: 135–159s scanned at 1s; 150–159s at 0.5s
+OBS: Balance Druid / Subtlety Rogue labels visible
+OBS: Rogue ~4% with 2m Trinket cooldown ~150s; Druid control visible
+OBS: Rogue DEAD ~157s; friendly Rogue remains alive with low health
+SOURCE CONVERSION: Rogue DEAD ~157s; both friendlies remain alive at death and arena exits ~159s.
+SOURCE RESET: Druid retains Trinket; Nourish resumes near ~156s but Rogue dies before recovery. Win inferred from enemy death and subsequent exit, no victory text inspected.
+
+M155 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: 87–148s scanned at 1s; 142–148s at 0.5s
+OBS: Explicit Balance / Subtlety UI labels
+OBS: Both Trinkets remain on cooldown through final damage; Druid control ~140s
+OBS: Rogue DEAD ~145.5s; friendly Rogue low but alive
+SOURCE CONVERSION: Druid control persists ~140–145s; Rogue DEAD ~145.5s, then round ends ~148s.
+SOURCE RESET: Several healed pressure windows; no successful team disengagement. Brief Druid selections serve control, damage repeatedly returns Rogue.
+
+M157 | win | open=Balance Druid | kill=Subtlety Rogue | extraction=high | flags=
+OBS: 68–132s scanned at 1s; 126–132s at 0.5s
+OBS: Balance / Subtlety labels visible; both Trinkets on cooldown through conversion
+OBS: Tranquility ~121–126s; Rogue ~4–7% ~126–128s
+OBS: Druid long control applied ~128.5s; Rogue DEAD ~129s
+SOURCE CONVERSION: Rogue DEAD ~129s after Druid control ~128.5s; round ends ~132–133s.
+SOURCE RESET: Druid recovers after first Druid pressure, then Rogue becomes sustained damage target. Earlier Rogue selections ~109–114s mainly control; clear commitment ~118s.
+
+M158 | win | open=Balance Druid | kill=Subtlety Rogue | extraction=high | flags=
+OBS: 63–188s scanned at 1s; 180–186s at 0.5s
+OBS: UI Balance / Subtlety; both enemy Trinkets on cooldown at death
+OBS: Druid healing restores its own pressure windows; Rogue initially stays full health
+OBS: Rogue sustained health loss begins ~174s; Druid CC visible ~179–185s; Rogue DEAD ~184s
+SOURCE CONVERSION: Rogue reaches ~1% ~181s and DEAD ~184s under Druid control; round ends ~188–189s.
+SOURCE RESET: Long Druid pressure does not kill Druid; later Rogue swap converts. Rogue control selections ~120s and ~140s do not by themselves establish earlier damage swaps.
+
+M160 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: One 2v2 game; active scan 141-170s at 1s, finish 162-169s at 0.5s
+OBS: Enemy UI explicitly labels Balance and Subtlety
+OBS: Druid remains alive at Rogue death; both enemy Trinket cooldown overlays visible
+SOURCE CONVERSION: Rogue falls to near zero 165.5-167.5s and DEAD at 168s; round ends 170s
+SOURCE RESET: Brief Druid selection 150-153s establishes control, without a confirmed damage swap; Druid channels Tranquility and resumes Nourish in the finish
+
+M162 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: One 2v2 game; active scan 136-186s at 1s, finish 179-185s at 0.5s
+OBS: Balance/Subtlety labels; both Trinket cooldowns visible
+OBS: Druid remains alive and controlled in decisive finish
+SOURCE CONVERSION: Rogue falls to 7% at 184s and DEAD at 184.5s; score screen 186s
+SOURCE RESET: Earlier Rogue near-zero health 151-154s recovers through Druid Nourish to full by 173s; later renewed control creates a separate conversion window
+
+M163 | win | open=Subtlety Rogue | kill=Balance Druid | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: One 2v2 game; scan 130-174s at 1s, finish 166-172s at 0.5s
+OBS: UI labels Balance and Subtlety
+OBS: Druid Cyclone cast 167-168s visible during sustained damage; Rogue survives first death
+SOURCE CONVERSION: Druid drops to 6% at 171s and DEAD at 171.5s; round ends 174s
+SOURCE RESET: Rogue selections 132-155s include control with no verified Rogue health reduction; clear damage branch is Druid 156s onward. Rogue selection 170s is renewed control, while Druid continues losing health
+EXCEPTION: - **match_014** (uncertain, medium): Initial Rogue offensive commitment may be absorbed; exact first damaging hit is uncertain, while Druid damage branch and kill are clear; Apparent objective: Extract opening escape resources and create an exposed Druid damage window through Rogue control
+
+M164 | win | open=Balance Druid | kill=Subtlety Rogue | extraction=high | flags=
+OBS: One 2v2; scan 123-174s at 1s, finish 167-173s at 0.5s
+OBS: UI labels Balance and Subtlety; both Trinket cooldowns tracked
+OBS: Druid casting Wrath after Rogue death
+SOURCE CONVERSION: Rogue 3% 168.5s, DEAD 169s; Druid controlled again 172s and round exits 175s
+SOURCE RESET: Rogue recovers from 55% 145s to full 156s through Nourish/Regrowth; final renewed overlapping control converts. Druid selection 160s is not a sustained damage swap
+
+M165 | win | open=Balance Druid | kill=Subtlety Rogue | extraction=high | flags=
+OBS: One 2v2; scan 99-118s at 1s, finish 110-117s at 0.5s
+OBS: Balance/Subtlety labels; Druid ready Trinket icon persists
+OBS: Rogue death explicit at 116.5s
+SOURCE CONVERSION: Rogue near zero 115s, DEAD 116.5s; round ends 118s
+SOURCE RESET: Early Druid control transitions to Rogue damage. Druid retains Trinket throughout; Nourish begins 116s but Rogue dies before recovery
+
+M167 | win | open=Balance Druid | kill=Subtlety Rogue | extraction=high | flags=
+OBS: One 2v2; active scan 147-230s at 1s, finish 220-228s at 0.5s
+OBS: Enemy UI labels Balance/Subtlety
+OBS: Druid ready Trinket icon through final death; Rogue Trinket cooldown visible
+OBS: Rogue death explicit at 226.5s
+SOURCE CONVERSION: Rogue drops to near zero at 225.5s with renewed stun and Druid control, DEAD 226.5s; score screen 229s
+SOURCE RESET: Druid recovers from 39% to 88% 217s, so Druid attempt does not convert. Clear final damage swap to Rogue 221s; Druid Nourish 224-226s precedes renewed Druid control. Druid Trinket retained throughout
+
+M168 | win | open=Balance Druid | kill=Balance Druid | extraction=high | flags=
+OBS: One 2v2; scan 112-138s at 1s, finish 130-137s at 0.5s
+OBS: Balance/Subtlety UI labels; Rogue health stays 100% through Druid death
+OBS: Both Trinket cooldowns visible
+SOURCE CONVERSION: Druid 11% 132s, DEAD 132.5s; Rogue then controlled for cleanup, result screen 138s
+SOURCE RESET: No sustained damage swap before Druid kill; Rogue selection 136s follows first enemy death
+
+M170 | win | open=Balance Druid | kill=Balance Druid | extraction=high | flags=
+OBS: One 2v2; scan 123-202s at 1s, finish 194-201s at 0.5s
+OBS: Explicit Balance/Subtlety labels; both enemy Trinket cooldowns tracked
+OBS: Druid repeated healing, Cyclone and Hurricane visible; final death established
+SOURCE CONVERSION: Druid 17% 200s, DEAD 200.5s; Rogue controlled for cleanup and round exits 203s
+SOURCE RESET: Rogue falls to 4% 165s but heals through Druid Nourish to full 182s. Later Druid branch 190s converts; Rogue selections afterward are control
+
+M172 | win | open=Balance Druid | kill=Balance Druid | extraction=high | flags=
+OBS: One 2v2; active scan 83-143s at 1s, finish 130-136s at 0.5s
+OBS: Explicit Balance and Subtlety labels, both Trinket overlays and Druid death visible
+OBS: Druid briefly recovers from 14% to 19% 132s before death
+SOURCE CONVERSION: Druid 1% 132.5s, DEAD 133s; Rogue pressured during cleanup and score appears 141s
+SOURCE RESET: Brief Rogue damage branch after emergence; sustained Druid damage resumes 111s. Rogue selections in final setup renew control
+
+M173 | win | open=Subtlety Rogue | kill=Subtlety Rogue | extraction=high | flags=
+OBS: One 2v2; scan 124-147s at 1s, finish 140-147s at 0.5s
+OBS: Explicit Balance/Subtlety labels; both enemy Trinket ready indicators persist through kill
+OBS: Druid control and Rogue death visible; exact final control ability unconfirmed
+SOURCE CONVERSION: Rogue 2% 143s, 1% 144.5s, DEAD 145s; score and exit 147s
+SOURCE RESET: Druid healing temporarily raises Rogue from 29% to 39%; healer control closes that recovery. Neither enemy Trinket is observed spent
+
+M177 | win | open=Balance Druid | kill=Balance Druid | extraction=high | flags=
+OBS: One 2v2; scan 76-104s at 1s, finish 98-104s at 0.5s
+OBS: Druid explicit Balance label appears 101s; Rogue explicit Subtlety
+OBS: Rogue Trinket remains ready; Druid escape and death visible
+SOURCE CONVERSION: Druid 5% 101.5s, DEAD 102s; score and exit 103.5-104s
+SOURCE RESET: Rogue selected 90-100s to maintain control and stays full until late splash/cleanup damage; selection does not demonstrate a damage swap
+
+M360 | win | open=Balance Druid | kill=Balance Druid | extraction=high | flags=
+OBS: Druid first incidental health loss65s is healed before sustained opener72s
+OBS: Rogue Fear69-76s and Sap77-78s established
+OBS: Rogue is free after its trinket78s; no Blind or continuing off-target isolation established
+OBS: Druid escape78.5s, renewed stun82-83s and DEAD84s
+OBS: Rogue survives at full health through round end
+SOURCE CONVERSION: Druid initial pressure72-78s reaches~45%, then continued pressure and renewed stun lead to DEAD84s; victory87s

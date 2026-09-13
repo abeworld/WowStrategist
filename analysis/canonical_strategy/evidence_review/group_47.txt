@@ -1,0 +1,9 @@
+GROUP 47: Shadow Priest / Subtlety Rogue__vs__Marksmanship Hunter / Unholy Death Knight
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Marksmanship Hunter / Unholy Death Knight", "total_games": 1, "wins": 1, "losses": 0, "unknown_result": 0, "opening_target_known": 1, "opening_target_unknown": 0, "opening_targets": {"Unholy Death Knight": 1}, "kill_target_known": 1, "kill_target_unknown": 0, "kill_targets": {"Marksmanship Hunter": 1}, "records_with_quality_flags": 0, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 1, "source_batch_distribution": {"may_4th_2350_20260913": 1}}
+
+M347 | win | open=Unholy Death Knight | kill=Marksmanship Hunter | extraction=high | flags=
+OBS: DK first loses health ~44-45s while Hunter remains full; Hunter sustained damage starts ~51s
+OBS: Both trinket announcements and cooldown transitions ~46-47s
+OBS: DK Blind countdown ~49-58s; Hunter stun pressure ~55-60s
+OBS: Hunter DEAD ~61s, DK DEAD ~88s; friendly Rogue survives a severe early health drop
+SOURCE CONVERSION: DK Blind ~49-58s isolates Hunter pressure; Hunter dies ~61s, DK ~88s

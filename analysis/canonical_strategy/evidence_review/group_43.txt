@@ -1,0 +1,10 @@
+GROUP 43: Shadow Priest / Subtlety Rogue__vs__Feral Druid / Marksmanship Hunter
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Feral Druid / Marksmanship Hunter", "total_games": 1, "wins": 1, "losses": 0, "unknown_result": 0, "opening_target_known": 1, "opening_target_unknown": 0, "opening_targets": {"Feral Druid": 1}, "kill_target_known": 1, "kill_target_unknown": 0, "kill_targets": {"Marksmanship Hunter": 1}, "records_with_quality_flags": 0, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 1, "source_batch_distribution": {"may_4th_2350_20260913": 1}}
+
+M354 | win | open=Feral Druid | kill=Marksmanship Hunter | extraction=high | flags=
+OBS: Feral spec explicitly shown on second enemy frame when appearing ~48s
+OBS: Hunter briefly reads DEAD then returns full during Feign Death, distinct from final death
+OBS: Hunter already takes small damage ~49-51s alongside Feral opening commitment, then becomes sustained target ~53s
+OBS: Feral renewed control countdown ~56-59s; Hunter DEAD59.5s
+OBS: No Feral trinket use established; Blind announcement ~65s is after Hunter death and does not prove Feral kill
+SOURCE CONVERSION: Feral briefly drops ~10%; Hunter sustained pressure ~53s then DEAD ~59.5s, round win ~66s

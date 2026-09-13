@@ -1,0 +1,84 @@
+GROUP 11: Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Frost Mage
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Discipline Priest / Frost Mage", "total_games": 9, "wins": 9, "losses": 0, "unknown_result": 0, "opening_target_known": 9, "opening_target_unknown": 0, "opening_targets": {"Discipline Priest": 4, "Frost Mage": 5}, "kill_target_known": 9, "kill_target_unknown": 0, "kill_targets": {"Discipline Priest": 8, "Frost Mage": 1}, "records_with_quality_flags": 2, "records_with_source_exceptions": 2, "records_with_source_win_condition_hypothesis": 9, "source_batch_distribution": {"february_3rd_2550_20260912": 2, "january_5th_full_20260912": 1, "june_7th_2700_20260913": 1, "may_24th_vod2_2600_20260913": 1, "may_4th_2350_20260913": 1, "september_11th_2500_20260912": 2, "september_20th_2650_20260913": 1}}
+
+M031 | win | open=Discipline Priest | kill=Discipline Priest | extraction=high | flags=
+OBS: Enemy labels identify Wannabexx as Discipline and Whos as Frost.
+OBS: Mage remains at full health through the Priest kill.
+OBS: Priest Trinket is explicitly announced and shown on cooldown at 94s.
+OBS: Mage Trinket is explicitly announced at 110.5s; stun debuff appears by 112s.
+OBS: Priest is dead at 113.5s; both friendly players remain alive.
+OBS: Late Blind macro announcements do not establish a landed Blind debuff.
+SOURCE CONVERSION: Priest falls from about 22% at 110s to dead at 113.5s during Mage stun; Mage leaves and Green wins at 123s.
+SOURCE RESET: Priest recovers partially with healing between stun windows; damage remains on Priest.
+
+M034 | win | open=Frost Mage | kill=Frost Mage | extraction=high | flags=
+OBS: Priest is selected early but remains at 100% through 73s; first meaningful damage is on Mage.
+OBS: Mage Trinket is announced and shown on cooldown at 65s.
+OBS: Mage falls to 35% at 79s, partially recovers to 55% at 83s, then falls to 10% at 90s and is dead at 91s.
+OBS: Priest freely casts healing during the final push, including Flash Heal at 88.5-90.5s.
+OBS: Priest stun at 93-95s occurs after Mage death and did not enable that kill.
+OBS: No Mage Ice Block or Priest Trinket expenditure is confirmed.
+SOURCE CONVERSION: Continued Mage damage after the stun window outpaces Flash Heal; Mage dies between 90.5s and 91s. Priest leaves and Gold Team win is confirmed at 98s.
+
+M141 | win | open=Frost Mage | kill=Discipline Priest | extraction=medium | flags=
+OBS: ~45s Magefreshtrinket100%; ~50s78%; ~55s90%underBlind9.9s.
+OBS: ~65s PriestfullSapped and MageBlind3.3s; ~70s Priest92%stunned and MageSap7.7s.
+OBS: ~80s PriestDEAD MagefullSapped; ~90s bothenemiesDEAD, ownRoguealive.
+SOURCE CONVERSION: Mage first burst reaches78%50s but recovers90%55s; Blind Mage then Sap as Blind expires. Swap Priest65s, stun/Silence pressure92%70s ->28%75s ->DEAD80s; finish Mage90s.
+SOURCE RESET: Mage recovers from first pressure; Priest becomes kill target during Mage isolation.
+
+M151 | win | open=Frost Mage | kill=Discipline Priest | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: 78–110s scanned at 1s; 98–104s at 0.5s; inactive time scanned at 4s
+OBS: UI Frost Mage / Discipline Priest; Priest DEAD ~104s; round ends ~110s
+OBS: Mage Trinket displays 2m after Sap; Priest Trinket has no cooldown overlay
+OBS: Mage health does not visibly fall during first Rogue stun; Priest becomes sustained damage target ~89s
+SOURCE CONVERSION: Priest falls from ~42% at 101s to DEAD ~104s despite Mage continuing casts.
+SOURCE RESET: Mage continues Polymorph/Frostbolt during conversion; Priest Trinket remains displayed ready. No claim that removing Priest Trinket or permanently controlling Mage is required.
+EXCEPTION: - **match_002** (uncertain, medium): First Mage commitment is uncertain as damage is absorbed or minimal; later Priest commitment is clear; Renewed Priest control creates the favourable depleted state; precise defensive/resource contribution unknown
+
+M330 | win | open=Frost Mage | kill=Discipline Priest | extraction=high | flags=
+OBS: Sewers arena, replay 36506951; displayed enemy specializations establish composition.
+OBS: Priest Trinket becomes ready at 217, immediately after death; it remains unavailable throughout the final pressure window.
+OBS: Mage can freely cast Blizzard and Polymorph during several earlier healer pressure windows; no continuous Mage control is claimed.
+OBS: Mage Polymorph on our Priest is announced around 212, just before confirmed Mage Blind at 213.
+OBS: Priest casts Penance and Flash Heal after Silence ends; the finish is sustained pressure during Mage Blind, not uninterrupted Priest healing denial.
+OBS: Both friendly players remain alive at victory; postgame town footage contains no additional arena game.
+SOURCE CONVERSION: Priest partially heals after Silence but remains low; Mage Blind at 213 limits disruption while continued damage takes Priest to death at 216.5. Gold wins at 218.5 with Mage alive.
+SOURCE RESET: Initial Mage kill window is stopped by Ice Block and healing. Multiple later pressure/control windows are healed before renewed Priest control and a second Mage Trinket extraction produce the final healer conversion.
+
+M346 | win | open=Discipline Priest | kill=Discipline Priest | extraction=high | flags=
+OBS: Priest first sustained health loss ~54-59s; Mage remains full
+OBS: Priest stun and Mage control coincide ~54-57s
+OBS: Mage becomes active and lands Polymorph ~61-63s; Priest recovers
+OBS: Priest second drop ~66-72s while Mage casts; no enemy trinket use established
+OBS: Priest DEAD ~72s, Mage reaches ~3% before victory ~85s; final Mage death not explicitly visible
+SOURCE CONVERSION: First controlled burst is healed; continued Priest commitment kills it ~72s despite Mage becoming active; round win ~85s
+SOURCE RESET: Priest heals after first burst; no full disengage, continue same target
+
+M395 | win | open=Discipline Priest | kill=Discipline Priest | extraction=high | flags=
+OBS: ~77s Mage Sap/trinket chat; Mage staysfull while Priest is main target.
+OBS: ~84-91s Priest stunned at100%, health loss begins ~92s; ~95s Priesttrinket chat/cooldown.
+OBS: ~98-103s Priest62% ->19% ->DEAD; Mage casts Polymorph on both friendly players, per chat.
+OBS: ~105s Green Team wins with friendly Rogue alive; Mage remains100% before result.
+SOURCE CONVERSION: Priest pressure initially absorbed; health starts falling ~92s. After Priest trinket ~95s, return from brief Mage control selection to Priest; Priest drops57% ->19% ->DEAD ~103s while Mage Polymorph attempts are reported. Successful Polymorph applications are not established by chat alone. Green Team wins ~105s; Mage death not visible.
+SOURCE RESET: Mage selection ~79-80s and ~94-95s applies control at full health; neither is established as a damage swap.
+
+M400 | win | open=Frost Mage | kill=Discipline Priest | extraction=high | flags=
+OBS: ~84s Sap up on Seva; ~94s Sap down. Mage100% through opening absorption.
+OBS: ~92-97s Mage control portrait; ~93.5s select Priest, ~94-97s Priest Horror/stun and94% ->39%.
+OBS: ~98s Priest1%; ~98.5s Priest16% with Fear portrait; ~99.5s both trinket announcements/cooldowns and Priest30%.
+OBS: ~100s Priest renewed stun; ~106s Penance at10%, ~107.5s1%, ~108.5s DEAD.
+OBS: Mage Polymorph casts ~98s and107s; ~110s win, friendly Rogue alive, Mage94% alive before result.
+SOURCE CONVERSION: Mage opening remains absorbed at100%. Mage controlled ~92-97s; swap Priest ~93.5s, Priest94% ->1% by98s. Fear/control and defensive state accompany recovery to30%, then both opponents trinket ~99.5s. Renewed Priest stun ~100-102s and continued pressure overcome Penance recovery; Priest dies ~108.5s. Gold Team win ~110s.
+SOURCE RESET: Priest recovers from1% to30%; continued commitment rather than full reset. Mage continues Polymorph attempts during final Priest pressure.
+
+M433 | win | open=Discipline Priest | kill=Discipline Priest | extraction=high | flags=source_exception_present
+OBS: Enemy specs shown as Discipline and Frost
+OBS: Mage health remains 100% during initial approach; Priest is first meaningful damage target about 81s
+OBS: Mage brief control at 77s disappears about 78s; short purple Silence timer about 79-81s
+OBS: Priest falls to about 63%, recovers to 70%, then drops under renewed pressure
+OBS: Priest trinket cooldown begins about 94s; Priest DEAD about 96s
+OBS: Mage Ice Block about 109s; scoreboard about 117s gives our Priest one killing blow and friendly win, Mage still about 93%
+SOURCE CONVERSION: Keep damaging Priest through short controls and a partial heal, stun again about 93s, and finish after his trinket about 95-96s
+SOURCE RESET: Mage control breaks early and repeated Polymorphs interfere with our Priest; maintain Priest pressure rather than obtain a long reset. Fight surviving Mage until he leaves.
+EXCEPTION: - **match_002.mp4** — Opening Sap application before Mage trinket is not independently confirmed; no early Mage damage opener. Blind lasts briefly. Mage departure, not a confirmed Mage kill.

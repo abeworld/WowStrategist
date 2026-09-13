@@ -1,0 +1,213 @@
+GROUP 04: Shadow Priest / Subtlety Rogue__vs__Arms Warrior / Restoration Druid
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Arms Warrior / Restoration Druid", "total_games": 19, "wins": 14, "losses": 4, "unknown_result": 1, "opening_target_known": 19, "opening_target_unknown": 0, "opening_targets": {"Restoration Druid": 13, "Arms Warrior": 6}, "kill_target_known": 14, "kill_target_unknown": 5, "kill_targets": {"Restoration Druid": 8, "Arms Warrior": 6}, "records_with_quality_flags": 3, "records_with_source_exceptions": 3, "records_with_source_win_condition_hypothesis": 19, "source_batch_distribution": {"february_3rd_2550_20260912": 9, "january_4th_2700_20260913": 1, "may_24th_2450_20260913": 1, "may_4th_2350_20260913": 2, "september_28th_2700_20260913": 6}}
+
+M043 | loss | open=Arms Warrior | kill=None | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Blades Edge arena; four players established; normal combat from approximately 47s
+OBS: Druid reaches approximately 36% around 92-96s but recovers to full by 117s
+OBS: Warrior reaches approximately 36-39% around 167-169s while Druid is free; friendly Priest channels Mind Control rather than maintaining a finishing damage push
+OBS: Druid Trinket ready announcement and icon at 213s; Warrior Trinket remains on cooldown at Rogue death
+OBS: Repeated Cyclone announcements on Rogue and Priest at 172s onward are supported by control UI
+OBS: Half-second death review: Rogue dead at 240s, friendly Priest alive, opposing team retains two players; arena exit follows
+OBS: Post-arena chat reports lag; actual impact cannot be isolated
+SOURCE CONVERSION: Earlier low-health Druid and Warrior windows recover without a confirmed isolated finishing state; friendly Rogue dies at approximately 240s and the viewpoint leaves the arena
+SOURCE RESET: Repeated Druid/Warrior damage branches and healing stabilisations; early Druid Trinket recovers at 213s before the final failure
+SOURCE FAILURE: Repeated recovery prevents a lethal isolated target; friendly Rogue remains low under Warrior pressure while Druid repeatedly Cyclones and friendly Priest has little mana. Rogue dies with both enemies essentially full health. Later chat reports lag, but footage does not establish lag as the cause.
+EXCEPTION: | match_017.mp4 | Friendly Rogue dies around 240s while Priest and both enemies remain alive; arena exit follows. Loss is inferred without a final defeat banner. Repeated enemy recovery, friendly low health and low Priest mana support `survival_failed`; no single execution error is proven. Later chat reports lag, but its causal effect is unknown. Retained as uncertain/medium, with medium loss information value. |
+EXCEPTION: - **001:** Warrior's earlier Trinket recovers before the last Druid attack; its second spend around 186.5s, rather than the earlier spend, supports the final Blind window.
+EXCEPTION: - **006:** Warrior Trinket becomes available again just before Paladin death. The Paladin kill cannot be described as requiring Warrior Trinket to remain unavailable throughout conversion.
+EXCEPTION: - **007–008:** The opposing Priest can heal during the finishing damage. Final healer CC is not established; later control cannot retrospectively explain the first kill. No Ice Block or Priest Trinket spend is confirmed in 008.
+EXCEPTION: - **011:** Druid's preceding control expires before death and friendly Rogue is Cycloned near the kill. Continuing Priest pressure is visible; the exact killing spell is unresolved.
+EXCEPTION: - **012:** Warrior Trinket remains available at the decisive Warrior kill. Druid control has also just expired; earlier control is preserved separately from the actual death moment.
+EXCEPTION: - **018:** Mass Dispel is followed by early removal of Paladin Divine Shield. Warrior Hand of Protection persists until approximately 94s; do not describe it as removed by the same cast.
+EXCEPTION: - **019:** Death Knight magic protection is visible, but the exact ability is unknown. Paladin leaves while Death Knight remains alive; departure is distinguished from a Paladin kill. Both opponents participated in normal combat before departure.
+EXCEPTION: - **021:** Druid remains free and has Trinket available at Warrior death. The subsequent Fear lands after that death.
+EXCEPTION: - **023:** Both enemy Trinkets remain available. Druid control expires before the kill; Warrior Sap continues through it. Druid partially recovers before renewed damage finishes him.
+
+M463 | loss | open=Restoration Druid | kill=None | extraction=high | flags=
+OBS: ~88-97s: Druid remains near full health through opener; ~96s onward: Warrior is the damage target
+OBS: ~108-119s: Warrior reaches roughly 25-29%, then recovers during renewed Druid healing
+OBS: ~132s: Druid Blind icon and chat; ~132.5s: Trinket cooldown and Blind removal
+OBS: ~133-138s: Warrior stun reduces health to ~46%, but Druid Nourish and Cyclone restore recovery; Warrior Trinket remains available
+OBS: ~162-185s: renewed Druid pressure/control produces little sustained health loss; later Druid Fear occurs with Warrior comparatively healthy
+OBS: ~196-199s: friendly Rogue Cycloned; ~199.5s: Uncle DEAD and death chat; Druid 100%, Warrior ~82%
+OBS: ~203s: exit after friendly Priest death
+SOURCE CONVERSION: No kill conversion; Warrior recovers after Druid breaks Blind, and later pressure changes do not restore the proposed lethal state
+SOURCE RESET: Druid opener causes little health loss; Warrior pressure creates an earlier low-health window but is healed. After Druid Trinket, damage and control alternate between both enemies without a confirmed full reset.
+SOURCE FAILURE: Druid breaks Blind before the renewed Warrior stun, then healing and Cyclone interrupt pressure; friendly Priest dies with both enemies healthy
+
+M467 | loss | open=Restoration Druid | kill=None | extraction=high | flags=
+OBS: ~0-10s town, ~11-67s arena preparation; one game
+OBS: ~90s Warrior Sap; ~92-101s Druid opening stuns produce little health loss
+OBS: ~98s meaningful Warrior damage; ~103s Warrior stun, Trinket ~104s; Druid control ~103-107s
+OBS: ~108-113s Warrior ~29-25%; subsequent healing while Druid free, Cyclone on Rogue ~117s
+OBS: ~162-169s Warrior Fear while healthy; Druid brief pressure and control ~170-186s, no substantial health reduction
+OBS: ~210-220s Warrior Blind; Druid stuns and damage; Kidney Shot ~220s then Druid Trinket ~220.5s confirmed by cooldown and chat
+OBS: ~225-232s Druid control and health ~53-38% while Warrior free; Druid subsequently heals to full
+OBS: ~262s Warrior brief stun then Trinket ~262.5s; ~272s Kick interrupts Druid Hurricane, confirmed by interrupt text and chat
+OBS: ~296-299s Druid free to cast Cyclone repeatedly; Uncle death chat ~299.5s with Druid and Warrior ~100%
+OBS: ~303s Rogue exits arena; town/party discussion through ~317s; no second game
+SOURCE CONVERSION: No kill; early low Warrior heals and the later Druid branch does not reach a low-health window while Warrior remains isolated.
+SOURCE RESET: Warrior reaches ~25% ~112s but heals. Blind Warrior supports Druid branch ~210-229s; Druid Trinkets ~220.5s after Blind ends and reaches ~38% ~232s with Warrior free, then heals to full.
+SOURCE FAILURE: Target health pressure and sustained partner isolation do not overlap sufficiently; repeated Cyclones disrupt friendly pressure and Priest dies after both enemies have recovered.
+
+M468 | loss | open=Arms Warrior | kill=None | extraction=high | flags=
+OBS: Town ~0-10s, preparation ~11-68s, one arena game
+OBS: Warrior Sap ~77-86s and ~87-90s; Druid Fear ~90-98s
+OBS: Warrior opening stun ~92-95s, health falls to ~74% then heals; Kidney Shot ~96-99s
+OBS: Druid damage and stuns ~101-113s, health ~41% ~110s, heals to ~89% ~115s while Warrior free
+OBS: Warrior Blind ~120-130s; Druid ~80% then heals above ~90%
+OBS: Druid Kidney Shot ~129-134s while nearly full health; both enemy Trinkets remain available
+OBS: Druid Cyclones Uncle ~127s and Rogue ~136-142s
+OBS: Priest Uncle death ~138.5s, Druid ~96%, Warrior ~100%; Rogue exits ~144s
+OBS: Town through clip end ~159s; no further game
+SOURCE CONVERSION: Druid reaches ~41% while Warrior is free, then heals; Warrior Blind occurs after recovery and Druid remains healthy.
+SOURCE RESET: Warrior opening pressure transitions to Druid; the later Blind window fails to reproduce the earlier low-health window.
+SOURCE FAILURE: Druid health pressure and Warrior isolation do not align; Druid heals and repeatedly Cyclones friendlies before Priest dies.
+
+M040 | None | open=Restoration Druid | kill=None | extraction=medium | flags=truncated_evidence,source_exception_present
+OBS: Nagrand; Latebloomer Restoration Night Elf and Frid Arms Human; gates around 41s.
+OBS: Both enemy Trinkets stay ready through the opening; Druid Trinket remains ready in the final frames.
+OBS: The clip ends during active combat with all four players alive; Warrior roughly 78%, Druid 96%, friendly Priest critically low.
+OBS: The next source begins a different game with different opponents, so it does not resolve this outcome.
+OBS: Opening-target qualification retained: Restoration Druid (Latebloomer)
+SOURCE CONVERSION: No visible kill or match result before the clip ends.
+SOURCE RESET: Druid opening changes to repeated Warrior pressure and brief Druid switches; healing and Mind Control create recovery periods.
+EXCEPTION: | match_014.mp4 | Ends during active combat with all four players alive. Result and eventual kill target are unknown. The following source has different opponents and does not resolve the outcome. Retained as uncertain/medium; not counted as a win or loss. |
+
+M027 | win | open=Restoration Druid | kill=Restoration Druid | extraction=high | flags=
+OBS: Two enemy spec labels and two players per team visible; Priest casts Vampiric Touch and Rogue uses Shadow Dance.
+OBS: ~20–24s Warrior Sap; ~28s Druid selected; Warrior remains full while Druid takes repeated pressure.
+OBS: ~41s Warrior Blind debuff, ~42s its Trinket cooldown and announcement; Druid heals from ~47% to ~95% ~49s.
+OBS: ~99s Druid Trinket cooldown/announcement; both recover health during later repositioning.
+OBS: Half-second full-scene review 186–193s confirms Warrior Trinket ~186.5s, Blind ~188s, Druid stun ~189s, Druid DEAD ~190.5s; Rogue survives near death.
+OBS: ~215s Warrior DEAD; ~217s Green Team wins with both friendly players surviving.
+SOURCE CONVERSION: Druid pressure resumes ~182s; Warrior second Trinket ~186.5s, Blind ~188s, renewed Druid stun ~189s, Druid DEAD ~190.5s. Survive low Rogue health with Priest healing and kill remaining Warrior ~215s; Green Team wins ~217s.
+SOURCE RESET: First Druid window reaches ~47% before recovery; later no-Trinket Druid window also heals up. Warrior's first Trinket is ready again ~162s, so its second spend matters at conversion.
+
+M035 | win | open=Restoration Druid | kill=Restoration Druid | extraction=high | flags=
+OBS: Druid has only small early chip damage and Warrior remains near full before the sustained Druid push.
+OBS: Rogue becomes critically low at 91-96s but survives while Priest channels Divine Hymn at 97-99s.
+OBS: Both enemy Trinkets have chat announcements and cooldown displays.
+OBS: Druid remains stunned during the final lethal damage.
+OBS: Warrior is free during Druid death; the Blind at 107s follows the kill.
+OBS: Opening-target qualification retained: Warrior brief early pressure; Druid first sustained Rogue damage commitment
+SOURCE CONVERSION: Druid falls from 45% at 100s to 30% at 102s, spends Trinket, is restunned at 103s and dies between 104.5s and 105s. Warrior is killed at 121-122s; return to city and incremented win counter confirm victory.
+SOURCE RESET: After Druid death, Blind Warrior at 107-116s allows friendly healing before the Warrior finish.
+
+M037 | win | open=Arms Warrior | kill=Restoration Druid | extraction=high | flags=
+OBS: Druid Trinket announcement and cooldown appear at 94s.
+OBS: Druid recovers near full after Trinket; the later Horror window is a fresh push.
+OBS: Druid is free after Horror expires and changes forms during the final damage.
+OBS: Friendly Rogue is Cycloned at 107.5-109s; the Druid kill does not occur with uninterrupted Rogue uptime.
+OBS: Warrior Trinket is first confirmed after the principal Druid kill.
+SOURCE CONVERSION: Druid drops sharply at 105-107s, Cyclones the friendly Rogue around 107.5s, then dies by 109s to continuing damage while Rogue remains Cycloned. Warrior dies at 133-134s; Gold Team win at 135s.
+SOURCE RESET: Abandon the healed opening Warrior push; Sap Warrior and commit Druid. Finish Warrior after Druid death.
+
+M038 | win | open=Restoration Druid | kill=Arms Warrior | extraction=high | flags=
+OBS: Druid Trinket announced with matching cooldown around 124s; about 34s remain at the Warrior kill
+OBS: Blind Druid debuff visible 193-196s, Sap 197-200s and Fear 201-206s; subsequent control icons around 207-209s
+OBS: Warrior has no observed PvP Trinket spend and its indicator remains ready at the decisive window
+OBS: Warrior is approximately 30% at 209s, 5% at 209.5s, dead at approximately 211s
+OBS: Druid control expires near 210s, shortly before Warrior dies; repeated late Blind announcements do not independently prove another landed Blind
+OBS: Both friendly players survive; Druid returns to full health after Warrior death and then leaves; victory at 213s
+SOURCE CONVERSION: Druid control supports the Warrior damage switch; Warrior reaches approximately 25% at 197s and dies around 211s after further pressure. Druid then leaves; Gold Team wins.
+SOURCE RESET: Druid recovers from approximately 16% at 93s to near full health by 95s. Later Druid pressure is also healed; repeated Warrior control and friendly healing precede the eventual Warrior damage switch.
+
+M042 | win | open=Restoration Druid | kill=Arms Warrior | extraction=high | flags=
+OBS: Dalaran gates around 67-68s; Latebloomer Restoration Night Elf and Frid Arms Human.
+OBS: Both enemy Trinkets are still cooling down at the Warrior death.
+OBS: Half-second review confirms Druid fear followed by Gouge before the death; renewed healer control is not inferred from chat alone.
+OBS: Friendly Priest is low during the final push but both friendly players remain alive.
+OBS: Opening-target qualification retained: Restoration Druid (Latebloomer); brief Warrior chip/control around 75-79s precedes sustained Druid engagement around 82s.
+SOURCE CONVERSION: Warrior drops from roughly 19% at 164s to 3% at 168.5s and is dead in the 169s sample while Druid remains Gouged; Druid leaves and Green Team victory appears around 171s.
+SOURCE RESET: Druid pressure removes healer Trinket; repeated Warrior branches and recovery periods lead to the final Warrior finish.
+
+M047 | win | open=Restoration Druid | kill=Arms Warrior | extraction=high | flags=
+OBS: Dalaran arena; gate opens approximately 36s; one normal four-player engagement; enemies Leencos and Baustelac
+OBS: Druid damage begins approximately 53s after Warrior control; brief Warrior chip at 49s heals immediately
+OBS: Warrior Trinket announcement and cooldown begin at 99s during Mind Control; Druid Trinket remains available throughout reviewed combat
+OBS: Blind debuff confirmed at 98-99s and replaced by Gouge around 100s
+OBS: Half-second review shows Druid stun expires around 115.5s; Warrior 12% at 116s, 2% at 116.5s, dead at 117s while Druid remains free and alive at 69%
+OBS: Druid Fear at 118.5s follows Warrior death; Gold Team win at 119s, both friendlies survive
+SOURCE CONVERSION: Renew Warrior stun around 114.5s and damage through the final decline; Warrior dies around 117s. Druid is free at the kill, Fear is applied at 118.5s after the kill, then Druid leaves and Gold Team wins at 119s
+SOURCE RESET: Druid survives the first low-health window and heals fully; alternate Druid and Warrior pressure rather than a complete disengagement. Priest drops to roughly half health during the final Warrior stun but survives
+
+M049 | win | open=Restoration Druid | kill=Restoration Druid | extraction=high | flags=
+OBS: 59–70s: Warrior Sap followed by stuns; Druid becomes meaningful damage target around 67s
+OBS: 74–79s: Fear/Horror/stuns on Druid; Warrior Fear continues to about 81.5s
+OBS: 81–82s: friendly Rogue Vanish cooldown appears and Sap lands on Warrior
+OBS: 82–85.5s: Druid is low, briefly heals to about 44%, then dies while Warrior remains Sapped at 100%
+OBS: Both enemy Trinket icons remain available at conversion; neither spend is confirmed
+OBS: Druid is free of the preceding control chain by about 79s; no final healer stun is claimed
+OBS: 88s: Gold Team victory
+SOURCE CONVERSION: Continue pressure after Druid control expires; a partial recovery from about 8% to 44% is overcome, Druid dies about 85.5s, and the surviving Sapped Warrior leaves before the Gold Team win at 88s
+SOURCE RESET: Brief Warrior chip around 65s does not become sustained opening damage; Rogue temporarily moves to Warrior to renew Sap around 81.5s before returning to Druid
+
+M095 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=source_exception_present
+OBS: Whole clip4s; active68–125s1s;110–123s0.5s; native116,119,122,124s
+OBS: Native122s confirms Warrior DEAD, Druid in Horror, healthy friendly Priest; native124s winner chat
+OBS: Druid Trinket stays ready; no requirement to remove it is inferred from this win
+SOURCE CONVERSION: Commit Warrior through renewed control while Druid remains unable to heal; Warrior dies ~121.5s. Both friendlies survive and Druid retains Trinket
+SOURCE RESET: Early Warrior poke is healed -> later covered Warrior commitment; Druid selections mainly control rather than meaningful damage swaps
+EXCEPTION: - **match_049**: Warrior kill with Druid Trinket retained.
+
+M264 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=
+OBS: Two enemy frames identify Restoration Druid and Arms Warrior; friendly Priest in Shadowform
+OBS: ~65s Warrior first loses health, recovers; ~74s Sap indicator on Warrior, then Druid Gouge/control ~76-80s
+OBS: ~81-88s Druid Fear while Warrior pressure grows; ~87s Warrior stun
+OBS: ~89s Warrior Trinket cooldown appears, followed by Warrior at ~15% ~89.5s
+OBS: ~90.5-92.5s Druid Silence icon; ~94.5s Druid Gouge and Warrior DEAD
+OBS: ~98s victory/result screen; Druid remains alive
+SOURCE CONVERSION: Maintain Warrior damage after Trinket; renew Druid control rather than treating Druid selection as a damage swap; Warrior dies ~94.5s
+
+M350 | win | open=Arms Warrior | kill=Restoration Druid | extraction=high | flags=
+OBS: Warrior briefly loses health ~61-64s then returns full
+OBS: Druid loses health from ~68s; Warrior Fear countdown ~72-77s
+OBS: Druid drops ~72% to 4% during stun/control then DEAD ~75s
+OBS: No enemy trinket use established; no escape-removal prerequisite assumed
+SOURCE CONVERSION: Warrior control -> Druid burst; Druid DEAD ~75s, round win ~78s with Warrior surviving
+
+M384 | win | open=Restoration Druid | kill=Arms Warrior | extraction=high | flags=
+OBS: Druid free180.5-185.5s; short Druid control185s begins just before first death
+OBS: Druid alive~85% at first death and full186s
+OBS: Warrior and Druid trinkets have~43s/~17s remaining at first death
+OBS: Next arena preparation206-208s continues into match_058.mp4
+SOURCE CONVERSION: Warrior falls~65%173s to21%178.5s during renewed healer control; pressure continues after Fear ends180.5s, Warrior DEAD185.5s; victory192s
+SOURCE RESET: Initial Druid pressure creates escape expenditure; long Warrior commitment and a shallow Druid branch precede renewed Warrior burst
+
+M464 | win | open=Restoration Druid | kill=Restoration Druid | extraction=high | flags=
+OBS: ~57-69s: Warrior Sap followed by Druid stuns; Druid remains near full health; ~66s: meaningful Warrior damage begins
+OBS: ~83-90s: Warrior roughly 23-24% and heals; ~133-134s: Warrior ~5-7% before recovery
+OBS: ~154s: Warrior Trinket cooldown appears after stun; ~165-174s: Blind Warrior icon/chat and meaningful Druid damage
+OBS: ~179-179.5s: Druid Fear then Trinket; Warrior and Druid recover
+OBS: ~277s: Warrior spends recovered Trinket; ~290-301s: Warrior Blind while Druid damage resumes
+OBS: ~299.5s: Druid recovered Trinket is used during stun; ~303.5-308s: Druid controlled, Warrior Fear ~306s, Druid ~25% before continued damage
+OBS: ~311.5s: Druid DEAD; ~317s: friendly Rogue dead; Priest remains alive and Warrior falls to DEAD ~331s
+OBS: ~333s: Gold Team wins; remaining clip is town/queue time
+SOURCE CONVERSION: Blind Warrior ~290s, stun and continue damage to Druid through its second Trinket and renewed control; Druid dies ~311.5s. Friendly Rogue then dies ~317s; Priest finishes Warrior ~331s.
+SOURCE RESET: Warrior reaches ~5% ~134s but recovers; initial Warrior escape extraction supports a Druid damage branch that is also healed. Later both Trinkets recover and are spent again before the decisive Druid branch.
+
+M465 | win | open=Restoration Druid | kill=Restoration Druid | extraction=high | flags=
+OBS: ~72s: Sap Warrior confirmed by icon and chat; Druid first stun/damage ~81-84s
+OBS: ~84s: Warrior Trinket cooldown and subsequent use chat after Fear; Druid remains ~88-98%
+OBS: ~109s: Druid Entangling Roots interrupted by Kick
+OBS: ~135-145s: Warrior Blind followed by Druid Fear; Druid heals and retains Trinket
+OBS: ~223.5-224s: Warrior Kidney Shot then Trinket at ~45%; Druid controlled briefly, Warrior reaches ~16% ~228s then heals
+OBS: ~263-273s: Warrior Blind and Druid damage/control, followed by recovery
+OBS: ~370-371s: Warrior stun then recovered Trinket; ~388s: Warrior Blind while Druid takes sustained damage
+OBS: ~390.5-391.5s: Druid ~24% then ~15%; ~392s: heals to ~61%; ~393-393.5s: Kidney Shot then Druid Trinket cooldown appears
+OBS: ~396s: Druid DEAD; ~397.5s: Gold Team wins, Warrior still ~100% in frame; no Warrior death shown
+OBS: ~400-413s: town/queue tail
+SOURCE CONVERSION: Warrior Blind ~388s supports Druid pressure. Druid heals after reaching ~15%, spends Trinket during renewed Kidney Shot ~393s, then falls to DEAD ~396s. Gold Team wins ~397.5s with Warrior still shown alive.
+SOURCE RESET: Numerous healed Druid and Warrior branches. Warrior reaches ~16% ~228s but Druid resumes healing. Warrior Trinket recovers between three uses; Druid retains Trinket until final branch.
+
+M466 | win | open=Restoration Druid | kill=Restoration Druid | extraction=high | flags=
+OBS: ~57-70s: chat plan says all-in Druid, disarm Warrior and Fear Warrior; landed Disarm not established
+OBS: ~83-98s: Warrior Sap, brief stun and Fear; Warrior retains Trinket during first Fear
+OBS: ~94-107.5s: Druid opening stun, Kidney Shot and further control; health falls to ~24%
+OBS: ~109-109.5s: Druid ~12% then heals to ~73%; sustained Druid damage continues
+OBS: ~116.5s: Druid Fear; Warrior also feared and spends Trinket ~117.5s
+OBS: ~119.5-121.5s: renewed Druid Cheap Shot, health ~7-5%, then DEAD; Druid Trinket icon remains available
+OBS: ~129s: Gold Team wins with Warrior ~77%, both friendlies survived Druid kill; town tail ~131-145s
+SOURCE CONVERSION: Druid reaches ~20% ~119s, receives Cheap Shot ~119.5s and dies ~121.5s. Gold Team wins ~129s with Warrior still alive.
+SOURCE RESET: Druid heals from ~12% to ~73% ~109.5s, but remains the damage target; renewed pressure and control convert the next low-health window.

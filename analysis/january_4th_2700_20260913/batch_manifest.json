@@ -1,0 +1,53 @@
+{
+  "batch_status": "complete",
+  "instructions": "ARENA_ANALYSIS_INSTRUCTIONS.md V6",
+  "source_folder": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\output\\2v2_SPR_+2700_MMR_January_4th_Stream_VOD_WOW_R1_Gladiator_Rogue_Arena_PVP_-_Warmane_WOTLK",
+  "counts": {
+    "discovered_mp4_files": 53,
+    "requested_mp4_files": 53,
+    "reviewed_files": 53,
+    "pending_files": 0,
+    "valid_2v2_games": 50,
+    "jsonl_records": 50,
+    "analysed": 46,
+    "uncertain": 4,
+    "failed": 0,
+    "ignored_non_2v2": 3,
+    "excluded_non_evidentiary_2v2": 0
+  },
+  "result_balance": {
+    "win": 28,
+    "loss": 22
+  },
+  "matchup_sample_balance": {
+    "Shadow Priest / Subtlety Rogue vs Enhancement Shaman / Marksmanship Hunter": {
+      "loss": 1
+    },
+    "Shadow Priest / Subtlety Rogue vs Feral Druid / Discipline Priest": {
+      "win": 2
+    },
+    "Shadow Priest / Subtlety Rogue vs Frost Mage / Shadow Priest": {
+      "win": 1
+    },
+    "Shadow Priest / Subtlety Rogue vs Holy Paladin / Arms Warrior": {
+      "loss": 10,
+      "win": 15
+    },
+    "Shadow Priest / Subtlety Rogue vs Restoration Druid / Arms Warrior": {
+      "win": 1
+    },
+    "Shadow Priest / Subtlety Rogue vs Retribution Paladin / Marksmanship Hunter": {
+      "win": 3,
+      "loss": 2
+    },
+    "Shadow Priest / Subtlety Rogue vs Retribution Paladin / Subtlety Rogue": {
+      "loss": 1
+    },
+    "Shadow Priest / Subtlety Rogue vs Shadow Priest / Subtlety Rogue": {
+      "loss": 8,
+      "win": 6
+    }
+  },
+  "count_mismatches": [],
+  "verification": "All records parsed; exact schema, field types, unique source/match IDs, source duration bounds, forced-resource subset, loss fields and manifest counts checked. All 53 source files accounted for; no pending files or count mismatches."
+}

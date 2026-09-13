@@ -1,0 +1,27 @@
+GROUP 28: Shadow Priest / Subtlety Rogue__vs__Elemental Shaman / Retribution Paladin
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Elemental Shaman / Retribution Paladin", "total_games": 3, "wins": 3, "losses": 0, "unknown_result": 0, "opening_target_known": 3, "opening_target_unknown": 0, "opening_targets": {"Retribution Paladin": 3}, "kill_target_known": 2, "kill_target_unknown": 1, "kill_targets": {"Retribution Paladin": 2}, "records_with_quality_flags": 1, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 3, "source_batch_distribution": {"may_4th_2350_20260913": 3}}
+
+M351 | win | open=Retribution Paladin | kill=None | extraction=medium | flags=truncated_evidence
+OBS: Paladin first damage ~48-50s; Shaman first substantial damage ~58s
+OBS: Shaman reaches ~31% but heals through Lesser Healing Wave/Paladin Flash of Light ~72-86s
+OBS: Shaman Blind/control countdown ~91-95s; Paladin drops during sustained commitment
+OBS: Victory ~96s while last readable Paladin health ~13%; do not infer Paladin kill from victory
+SOURCE CONVERSION: Shaman control supports Paladin drop from ~71% to ~13%; victory ~96s before a specific player death is established
+SOURCE RESET: Shaman pressure is healed to full ~86s; switch back Paladin
+
+M359 | win | open=Retribution Paladin | kill=Retribution Paladin | extraction=high | flags=
+OBS: First meaningful Paladin damage52s, Shaman damage59s
+OBS: Shaman heals to~97% before final Paladin window
+OBS: Shaman Sap confirmed89-92s, down93s then brief renewed Sap93.5s; not uninterrupted isolation
+OBS: Paladin DEAD94.5s confirmed independently of victory
+SOURCE CONVERSION: Paladin ~83%88s to52%91.5s during Shaman Sap; continue through its break and Paladin DEAD94.5s, victory95s
+SOURCE RESET: Shaman recovers after initial focus; return Paladin and renew setup after shared Fear
+
+M391 | win | open=Retribution Paladin | kill=Retribution Paladin | extraction=high | flags=
+OBS: Shaman trinket has~10s and Paladin~41s remaining at first death; Shaman recovers225s after Paladin death
+OBS: Earlier Shaman Blind163.5-165.5s is replaced by other control; later green effects coexist with casts, so no continuous Blind chain is assumed
+OBS: Shaman free171-198s casts multiple Lesser Healing Waves while earlier Paladin pressure heals
+OBS: Selected Cleansing Totem is not proof of its destruction
+OBS: Shaman remains alive at victory; no second kill invented
+SOURCE CONVERSION: Paladin falls70%208s to15%213s,1%214s and DEAD214.5s while Shaman remains Sapped; victory227s
+SOURCE RESET: Alternating Shaman/Paladin commitments and a healed Paladin low184s precede renewed Shaman isolation207.5s

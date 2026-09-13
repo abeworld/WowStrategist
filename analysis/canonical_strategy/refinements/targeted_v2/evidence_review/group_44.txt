@@ -1,0 +1,13 @@
+GROUP 44: Shadow Priest / Subtlety Rogue__vs__Feral Druid / Shadow Priest
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Feral Druid / Shadow Priest", "total_games": 1, "wins": 1, "losses": 0, "unknown_result": 0, "opening_target_known": 1, "opening_target_unknown": 0, "opening_targets": {"Feral Druid": 1}, "kill_target_known": 1, "kill_target_unknown": 0, "kill_targets": {"Feral Druid": 1}, "records_with_quality_flags": 1, "records_with_source_exceptions": 1, "records_with_source_win_condition_hypothesis": 1, "source_batch_distribution": {"january_5th_full_20260912": 1}}
+
+M100 | win | open=Feral Druid | kill=Feral Druid | extraction=high | flags=source_exception_present
+OBS: ~68s: enemy Priest sapped; ~71s: Feral stunned and pressured.
+OBS: ~77s: friendly Priest Silence on enemy Priest; ~79–80s: Feral trinket announcement and cooldown.
+OBS: ~93s: chat reports Cyclone on our Rogue. The immunity text is on our Rogue, not a Feral defensive.
+OBS: ~97s: enemy Priest Gouged; ~99–102s: return to Feral, stun, Feral DEAD. Enemy Priest remains approximately full health.
+OBS: ~112s: win; quest counter subsequently becomes 1.
+SOURCE CONVERSION: Return to Feral after Cyclone interrupts uptime; renewed stun and damage finish it (~102s).
+SOURCE RESET: First pressure leaves Feral around 40–50%. Cyclone on our Rogue (~93s) delays conversion; brief Priest control, then resume Feral. No full reset confirmed.
+UNKNOWN: ["Exact damage contribution and complete Priest control chain cannot be reconstructed from sampled frames."]
+EXCEPTION: - **match_001** (analysed): Exact damage contribution and complete Priest control chain cannot be reconstructed from sampled frames.

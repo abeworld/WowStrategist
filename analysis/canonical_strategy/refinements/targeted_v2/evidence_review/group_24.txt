@@ -1,0 +1,44 @@
+GROUP 24: Shadow Priest / Subtlety Rogue__vs__Assassination Rogue / Retribution Paladin
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Assassination Rogue / Retribution Paladin", "total_games": 4, "wins": 3, "losses": 1, "unknown_result": 0, "opening_target_known": 4, "opening_target_unknown": 0, "opening_targets": {"Retribution Paladin": 1, "Assassination Rogue": 2, "Retribution Paladin briefly": 1}, "kill_target_known": 3, "kill_target_unknown": 1, "kill_targets": {"Assassination Rogue": 2, "Retribution Paladin": 1}, "records_with_quality_flags": 1, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 4, "source_batch_distribution": {"may_24th_vod2_2600_20260913": 3, "may_4th_2350_20260913": 1}}
+
+M311 | loss | open=Assassination Rogue | kill=None | extraction=medium | flags=truncated_evidence
+OBS: Gladius labels Dragonblanc Retribution and Angryrogue Assassination
+OBS: Rogue falls from 96% at 51 to 27% at 54.5; stays at 27% through 63
+OBS: Multiple defensive buff icons and Dodge/Miss appear, but exact protection spell is not established
+OBS: Maslohej has died appears at 80; both opponents alive
+OBS: Player leaves arena alive at 85; no result banner before exit
+SOURCE CONVERSION: Opening burst reaches 27% but stops before a kill; Rogue recovers and friendly Priest dies before a new conversion
+SOURCE RESET: Enemy Rogue disappears and recovers; resumed pressure fails. After Priest death, Blind Rogue and briefly pressure Paladin before leaving.
+SOURCE FAILURE: Rogue survives low health behind defensive protection/avoidance, then recovers. Friendly Priest dies before the renewed control can produce a kill.
+
+M309 | win | open=Retribution Paladin | kill=Assassination Rogue | extraction=high | flags=
+OBS: 39-53s: Sap confirmed repeatedly on Paladin; friendly Priest Sap announced
+OBS: 60-61s: Paladin PvP Trinket cooldown begins and announcement appears
+OBS: 64-85s: second opponent appears; Gladius establishes Retribution Paladin and Assassination Rogue; Rogue becomes damage target
+OBS: 66s: enemy Rogue Blind cast on friendly Rogue announced
+OBS: 74-80s: Rogue falls from about 79% to 42% while both opponents undergo control
+OBS: 89s: friendly Rogue Trinket cooldown begins during enemy stun pressure
+OBS: 96-102s: renewed Sap confirmed on Paladin; enemy Rogue returns to Stealth near 98s
+OBS: 109s: Rogue PvP Trinket cooldown begins after stun pressure
+OBS: 115-123s: both enemies undergo control; Rogue falls to about 23% and Paladin to about 46%
+OBS: 128-132s: Paladin controlled while Rogue falls from about 16% to dead
+OBS: 134.5-136s: Paladin also dies and Gold Team wins
+SOURCE CONVERSION: Continue Rogue damage while Paladin is controlled at 128-132s; Rogue dies, then finish the already damaged Paladin
+SOURCE RESET: Paladin opener branches to Rogue pressure; Rogue returns to Stealth near 98s and reappears, while friendly Rogue recovers from a near-death period around 91-98s
+
+M313 | win | open=Retribution Paladin briefly | kill=Retribution Paladin | extraction=high | flags=
+OBS: Gladius identifies Dragonblanc Retribution and Angryrogue Assassination
+OBS: Both enemy PvP Trinkets visibly enter cooldown after control
+OBS: Blind on Rogue confirmed at 120.5 and ends by 121.5; cause of early break is not established
+OBS: Paladin drops from approximately 81% at 141 to 4% at 150.5 and dies at 151
+OBS: Rogue remains alive when Gold Team Wins appears around 154
+OBS: Paladin long pink debuff around 116-127.5 is not used as evidence of hard isolation; target remains able to act.
+SOURCE CONVERSION: After the early Rogue Blind ends, switch to Paladin and finish with sustained damage while Rogue is stunned
+SOURCE RESET: Rogue opener does not kill; switch to Paladin at 122 and continue pressure rather than wait for another long Blind chain.
+
+M363 | win | open=Assassination Rogue | kill=Assassination Rogue | extraction=high | flags=
+OBS: Rogue first small damage42s; Paladin sustained branch49-52s and58-65s before later Rogue commitment
+OBS: Both escape cooldowns remain~1m during final window
+OBS: Paladin Fear countdown independently confirmed86-93s; no healer-immunity use established
+OBS: Rogue DEAD92.5s; Paladin remains~83% and alive at round end
+SOURCE CONVERSION: Rogue repeated pressure initially heals; renewed Rogue stun82-88s overlaps Paladin Fear86-93s and Rogue DEAD92.5s, victory94s

@@ -1,0 +1,462 @@
+{
+  "batch_status": "complete",
+  "instructions": "ARENA_ANALYSIS_INSTRUCTIONS.md V6",
+  "instructions_sha256": "453be04d71c2bfbaad8cdddaeca0c8b6646f77708ed232c6c967e83e72c9d53b",
+  "source_folder": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\output\\2v2_SPR_+2650_MMR_September_20th_Stream_VOD_WOW_R1_Gladiator_Rogue_Arena_PVP_-_Warmane_WOTLK",
+  "output_folder": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\analysis\\september_20th_2650_20260913",
+  "completed_utc": "2026-09-13T06:33:23.129417+00:00",
+  "counts": {
+    "discovered_mp4_files": 27,
+    "requested_mp4_files": 27,
+    "reviewed_files": 27,
+    "pending_files": 0,
+    "arena_2v2_instances_found": 27,
+    "valid_2v2_games": 25,
+    "jsonl_records": 25,
+    "analysed": 22,
+    "uncertain": 3,
+    "failed": 0,
+    "ignored_non_2v2": 0,
+    "excluded_non_evidentiary_2v2": 2
+  },
+  "confidence_counts": {
+    "high": 22,
+    "medium": 3
+  },
+  "results": {
+    "win": 24,
+    "loss": 1
+  },
+  "count_mismatches": [],
+  "review_method": "Frame-based visual review. Entire file scopes at approximately 4s, active arena intervals at 1s, targeted critical windows at 0.5s. Timestamps approximate; not a combat log. One arena instance was identified per file by scope review, not assumed from filenames. Loading, city and queue portions provide context only.",
+  "sources": [
+    {
+      "source_file": "match_001.mp4",
+      "bytes": 46914206,
+      "duration_seconds": 138.266625,
+      "sha256": "ed776b81c8a7f534728aa796c8ffdcc14faeeb59ade820b97a0569c69a42a5fe",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": {
+        "active": [
+          61,
+          123
+        ],
+        "critical": [
+          [
+            98,
+            114
+          ]
+        ],
+        "overview_pages": 3
+      }
+    },
+    {
+      "source_file": "match_002.mp4",
+      "bytes": 51629467,
+      "duration_seconds": 132.767625,
+      "sha256": "5010971e229c5b31b815b161b8c712b2c7ae68e1df2ee65479e43762ebcb81a2",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": {
+        "active": [
+          61,
+          118
+        ],
+        "critical": [
+          [
+            76,
+            98
+          ]
+        ],
+        "overview_pages": 3
+      }
+    },
+    {
+      "source_file": "match_003.mp4",
+      "bytes": 43388285,
+      "duration_seconds": 98.666625,
+      "sha256": "862f10596d52294f157103575d31a2948cc6f98c306e56b7a239041be7f213cd",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": {
+        "active": [
+          33,
+          84
+        ],
+        "critical": [
+          [
+            62,
+            82
+          ]
+        ],
+        "overview_pages": 3
+      }
+    },
+    {
+      "source_file": "match_004.mp4",
+      "bytes": 48156905,
+      "duration_seconds": 130.232625,
+      "sha256": "d982c8b634cc0cc4f5263e4d2af25bd3dffe9c03359157199fe5fe78bee6315e",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "uncertain",
+      "review": {
+        "active": [
+          61,
+          115
+        ],
+        "critical": [
+          [
+            96,
+            114
+          ]
+        ],
+        "overview_pages": 3
+      }
+    },
+    {
+      "source_file": "match_005.mp4",
+      "bytes": 45470066,
+      "duration_seconds": 121.132625,
+      "sha256": "e1518d8fd82f13b25c4232a55c0e28ed0092557256fa97ca6e54730074a6e3c3",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": {
+        "active": [
+          67,
+          106
+        ],
+        "critical": [
+          [
+            87,
+            106
+          ]
+        ],
+        "overview_pages": 3
+      }
+    },
+    {
+      "source_file": "match_006.mp4",
+      "bytes": 177242200,
+      "duration_seconds": 382.266625,
+      "sha256": "51665cbb74bc715bee486de4729aabd432a1fa19218b66056e8715270059d3be",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": {
+        "active": [
+          33,
+          367
+        ],
+        "critical": [
+          [
+            52,
+            73
+          ],
+          [
+            214,
+            222
+          ],
+          [
+            287,
+            294
+          ],
+          [
+            345,
+            367
+          ]
+        ],
+        "overview_pages": 8
+      }
+    },
+    {
+      "source_file": "match_007.mp4",
+      "bytes": 74184276,
+      "duration_seconds": 175.132625,
+      "sha256": "6cd6cd8ed710958b7d1a8f5a3eae8a42233cf834fea5260df7a5215c76577707",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": {
+        "active": [
+          43,
+          160
+        ],
+        "critical": [
+          [
+            89,
+            96
+          ],
+          [
+            132,
+            151
+          ]
+        ],
+        "overview_pages": 4
+      }
+    },
+    {
+      "source_file": "match_008.mp4",
+      "bytes": 31136101,
+      "duration_seconds": 77.899625,
+      "sha256": "f087a4c74ffd5ad18311d7f881658e7b94bf92709721d80761cc1d0ba305c6cf",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": {
+        "active": [
+          35,
+          63
+        ],
+        "critical": [
+          [
+            50,
+            63
+          ]
+        ],
+        "overview_pages": 2
+      }
+    },
+    {
+      "source_file": "match_009.mp4",
+      "bytes": 40169822,
+      "duration_seconds": 97.132625,
+      "sha256": "adb18389f2e3078fd5af050b92fc351ed8cc0ed77ce520cd54cd4560dade66b3",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "uncertain",
+      "review": {
+        "active": [
+          41,
+          82
+        ],
+        "critical": [
+          [
+            64,
+            76
+          ]
+        ],
+        "overview_pages": 3
+      }
+    },
+    {
+      "source_file": "match_010.mp4",
+      "bytes": 77031603,
+      "duration_seconds": 222.500625,
+      "sha256": "c8fb59461e6de227735ef90cf57f0fcca2f786600ffd66460be0975b69cf782e",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "uncertain",
+      "review": "Full 4s scope, 1s active coverage, 0.5s trade 105–116 and final 197–207."
+    },
+    {
+      "source_file": "match_011.mp4",
+      "bytes": 44245237,
+      "duration_seconds": 105.332625,
+      "sha256": "6db3c962669416ff5e56451644a5516c4f26e9310b06fd3b921ee667d6aad633",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": "Full 4s scope; 1s active 41–89; 0.5s 48–78."
+    },
+    {
+      "source_file": "match_012.mp4",
+      "bytes": 65747407,
+      "duration_seconds": 157.832625,
+      "sha256": "c490fdfc27f7364cd6545fcc59b94dbcdfb14edf898d55ce60910e15d0516d33",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": "Full 4s scope; 1s arena 64–142; 0.5s 104–142."
+    },
+    {
+      "source_file": "match_013.mp4",
+      "bytes": 85372733,
+      "duration_seconds": 221.466625,
+      "sha256": "e89c5f164290304639ddc74ee91ea85ece26cade6168edb6c6857c1269380575",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": "Full 4s scope; 1s active 67–206; 0.5s 87–100,130–140,197–206."
+    },
+    {
+      "source_file": "match_014.mp4",
+      "bytes": 45610592,
+      "duration_seconds": 112.500625,
+      "sha256": "c0b06a5ddab9d6a04733505637283ae79d66c743dd1b988122f7a7a5cc51186f",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": "Full 4s scope; 1s active 34–97; 0.5s 57–97."
+    },
+    {
+      "source_file": "match_015.mp4",
+      "bytes": 33732870,
+      "duration_seconds": 91.233625,
+      "sha256": "fd5eb322373fe2c01b986bd77eae8875b75d9b228440b4de2534d6b92e0ab642",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": "Full 4s scope; 1s active 45–76; 0.5s 50–77."
+    },
+    {
+      "source_file": "match_016.mp4",
+      "bytes": 52869267,
+      "duration_seconds": 129.632625,
+      "sha256": "a350859d267963883800d3a8acef56450d21b1490d82bb7b6cdb55c674955cdf",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": "Full 4s scope; 1s active 47–114; 0.5s 54–72, 78–92, 102–115."
+    },
+    {
+      "source_file": "match_017.mp4",
+      "bytes": 50336438,
+      "duration_seconds": 139.099625,
+      "sha256": "827af3dadcba7f7935691d787b827a67d51e95e65aba3a537f18f76ee104b7f9",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": "Full 4s scope; 1s active 69–123; 0.5s 81–95 and 95–124."
+    },
+    {
+      "source_file": "match_018.mp4",
+      "bytes": 49558110,
+      "duration_seconds": 129.666625,
+      "sha256": "515354e7ea7855abbbc92275f08e33f6c393b490267555059a0a09d0b7cc6bc5",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": "Full 4s scope; 1s active 64–114; 0.5s 77–90 and 100–115."
+    },
+    {
+      "source_file": "match_019.mp4",
+      "bytes": 40661361,
+      "duration_seconds": 99.932625,
+      "sha256": "a5824016a1cb396acc5bc80dd20925f9d3c20b2fe03621452fdc4ab67be1528b",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": "Full 4s scope; 1s active 38–85; 0.5s 47–59 and 71–87; full frames 64,79,81 for friendly cooldowns."
+    },
+    {
+      "source_file": "match_020.mp4",
+      "bytes": 78539083,
+      "duration_seconds": 177.266625,
+      "sha256": "4505bb2e48db28f814baa0f19760a399fe59a1f3f6787fc0df76b014588bbe9e",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": "Entire scope at 4s, active combat at 1s; 0.5s at 59–73,73–93,132–149,150–164."
+    },
+    {
+      "source_file": "match_021.mp4",
+      "bytes": 26858100,
+      "duration_seconds": 84.566625,
+      "sha256": "43ceea68a6563d8b7b1f1789106d0dae2e09e66b66e320f7d1422f0bdbc0555d",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 0,
+      "status": "excluded_non_evidentiary_2v2",
+      "review": "Entire 84.57s scope at 4s; gate/exit interval at 1s."
+    },
+    {
+      "source_file": "match_022.mp4",
+      "bytes": 87400773,
+      "duration_seconds": 190.366625,
+      "sha256": "ee9c35c9ae9b1c2ed213f342841293d8fddc57eb51d19bafe886dc38b9883d15",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": "Entire scope at 4s, combat 32–175s at 1s, critical 42–62,101–121,151–175 at 0.5s."
+    },
+    {
+      "source_file": "match_023.mp4",
+      "bytes": 64655486,
+      "duration_seconds": 142.800625,
+      "sha256": "2758f84fed893d6cb921bb730ab5a3952202c9d5f1e706e5e44f37a891c58725",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": "Entire 142.8s scope at 4s; active 40–125s at 1s; critical 53–70,95–126 at 0.5s."
+    },
+    {
+      "source_file": "match_024.mp4",
+      "bytes": 37127774,
+      "duration_seconds": 94.699625,
+      "sha256": "0bbdea6e98cf04944ae2406029dd4f9f81fc936617abd86ab41cdbdc30ce90f0",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 0,
+      "status": "excluded_non_evidentiary_2v2",
+      "review": "Entire 94.7s scope at 4s; active 40–79.5s at 1s; 49–79s at 0.5s; full-resolution scoreboard confirms both enemy damage values are zero."
+    },
+    {
+      "source_file": "match_025.mp4",
+      "bytes": 41643997,
+      "duration_seconds": 100.732625,
+      "sha256": "29d9ca2f23f55aea2b695a0dde3259f52d850d294063d37e03b0e22c15d4af82",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": "Entire 100.73s at 4s; active 37–86s at 1s; 53–86s at 0.5s."
+    },
+    {
+      "source_file": "match_026.mp4",
+      "bytes": 53714946,
+      "duration_seconds": 128.032625,
+      "sha256": "e6948496481e3ce8d89eb273ec16526c13ddb388ef9d65a8cb647c902f892806",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": "Entire 128.03s at 4s; active 34–112.5s at 1s; 41–64s and 75–114s at 0.5s; full scoreboard."
+    },
+    {
+      "source_file": "match_027.mp4",
+      "bytes": 96084345,
+      "duration_seconds": 238.399625,
+      "sha256": "57a58e04d77f53255eb5e76525b119063fea222dc0f933819ccc578eba210ca6",
+      "full_scope_reviewed": true,
+      "arena_instances_found": 1,
+      "valid_evidentiary_games": 1,
+      "status": "analysed",
+      "review": "Entire 238.40s at 4s; active 66–222.5s at 1s; 76–96s, 122–149s, 189–223s at 0.5s; full-resolution 127/131/136s."
+    }
+  ],
+  "outputs": [
+    "records/matches.jsonl",
+    "manifest.csv",
+    "batch_manifest.json",
+    "exceptions.md",
+    "verification.json"
+  ]
+}

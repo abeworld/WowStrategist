@@ -1,0 +1,19 @@
+GROUP 31: Shadow Priest / Subtlety Rogue__vs__Protection Paladin / Restoration Shaman
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Protection Paladin / Restoration Shaman", "total_games": 2, "wins": 2, "losses": 0, "unknown_result": 0, "opening_target_known": 2, "opening_target_unknown": 0, "opening_targets": {"Protection Paladin": 2}, "kill_target_known": 2, "kill_target_unknown": 0, "kill_targets": {"Restoration Shaman": 1, "Protection Paladin": 1}, "records_with_quality_flags": 0, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 2, "source_batch_distribution": {"june_7th_2700_20260913": 2}}
+
+M159 | win | open=Protection Paladin | kill=Restoration Shaman | extraction=high | flags=
+OBS: 73–280s scanned at 1s; 260–266s and 274–280s at 0.5s
+OBS: UI explicitly Protection Paladin / Restoration Shaman
+OBS: Paladin immunity state follows first low-health window; exact spell left unknown
+OBS: Trinket states checked at first death: Shaman cooldown ~27s, Paladin still ready
+OBS: Shaman DEAD ~264s; Paladin uses Trinket after first death, DEAD ~278s
+SOURCE CONVERSION: Shaman DEAD ~264s; then kill isolated Paladin ~278s; round ends ~280s.
+SOURCE RESET: Early Paladin pressure extracts immunity but heals through; several Shaman attempts recover. Late Shaman conversion succeeds, then Paladin is cleanup. Totem attacks are setup work, not player-target swaps.
+
+M161 | win | open=Protection Paladin | kill=Protection Paladin | extraction=high | flags=
+OBS: One 2v2 game; active scan 63-105s at 1s, finish 98-104s at 0.5s
+OBS: UI labels Protection Paladin and Restoration Shaman
+OBS: Paladin 34% 84-92s, 23% 94-99s; no major healing recovery before death
+OBS: Both enemy Trinkets remain available; no forced Trinket claim
+SOURCE CONVERSION: Paladin drops to 3% at 102.5s and DEAD 103s; score/end screen 105s
+SOURCE RESET: Totem disruption between Paladin pressure windows; both enemy Trinkets retain ready icons through the decisive kill

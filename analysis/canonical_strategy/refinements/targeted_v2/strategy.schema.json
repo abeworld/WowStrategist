@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:wow-arena-strategist:strategy:1.0.0",
+  "title": "Canonical arena strategy, version 1.0.0",
+  "type": "object",
+  "required": ["strategy_id", "strategy_key", "version", "schema_version", "status", "our_comp", "enemy_comp", "evidence", "facts", "hypotheses", "default_line", "states", "branches", "failure_modes", "runtime_observability", "uncertainties", "mechanics_context", "provenance", "version_history"],
+  "properties": {
+    "strategy_id": {"type": "string"},
+    "strategy_key": {"type": "string"},
+    "version": {"type": "integer", "minimum": 1},
+    "schema_version": {"const": "1.0.0"},
+    "status": {"enum": ["provisional", "insufficient_evidence", "approved", "superseded"]},
+    "our_comp": {"type": "string"},
+    "enemy_comp": {"type": "string"},
+    "evidence": {
+      "type": "object",
+      "required": ["total_games", "wins", "losses", "unknown_result", "confidence", "supporting_match_ids", "contradicting_match_ids", "representative_match_ids", "all_match_ids", "data_quality_notes"],
+      "properties": {
+        "total_games": {"type": "integer", "minimum": 0},
+        "wins": {"type": "integer", "minimum": 0},
+        "losses": {"type": "integer", "minimum": 0},
+        "unknown_result": {"type": "integer", "minimum": 0},
+        "confidence": {"$ref": "#/$defs/confidence"},
+        "supporting_match_ids": {"$ref": "#/$defs/ids"},
+        "contradicting_match_ids": {"$ref": "#/$defs/ids"},
+        "representative_match_ids": {"$ref": "#/$defs/ids"},
+        "all_match_ids": {"$ref": "#/$defs/ids"},
+        "data_quality_notes": {"$ref": "#/$defs/strings"}
+      }
+    },
+    "facts": {"type": "object"},
+    "hypotheses": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["hypothesis_id", "statement", "disposition", "supporting_match_ids", "contradicting_match_ids", "limitation"]}},
+    "default_line": {
+      "type": "object",
+      "required": ["opening_target", "initial_objective", "important_resources", "win_condition", "manufacture", "conversion", "reset"],
+      "properties": {
+        "opening_target": {"$ref": "#/$defs/claim"},
+        "initial_objective": {"$ref": "#/$defs/claim"},
+        "win_condition": {"$ref": "#/$defs/claim"},
+        "manufacture": {"$ref": "#/$defs/claim"},
+        "conversion": {"$ref": "#/$defs/claim"},
+        "reset": {"$ref": "#/$defs/claim"},
+        "important_resources": {"type": "array", "items": {"type": "object", "required": ["name", "relevance", "assessment", "requirement", "relevance_test"], "properties": {"assessment": {"$ref": "#/$defs/claim"}}}}
+      }
+    },
+    "states": {"type": "array", "items": {"$ref": "#/$defs/state"}},
+    "branches": {"type": "array", "items": {"type": "object", "required": ["branch_id", "from_state", "next_state", "trigger", "response", "classification", "team_objective", "priest_instruction", "rogue_instruction", "evidence", "confidence"], "properties": {"trigger": {"$ref": "#/$defs/claim"}, "response": {"$ref": "#/$defs/claim"}, "team_objective": {"$ref": "#/$defs/claim"}, "priest_instruction": {"$ref": "#/$defs/claim"}, "rogue_instruction": {"$ref": "#/$defs/claim"}, "evidence": {"$ref": "#/$defs/ids"}, "confidence": {"$ref": "#/$defs/confidence"}}}},
+    "failure_modes": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+    "runtime_observability": {"type": "object", "required": ["automatic", "automatic_candidates", "manual_possible", "web_only"]},
+    "uncertainties": {"$ref": "#/$defs/strings"},
+    "mechanics_context": {"type": "array"},
+    "provenance": {"type": "object", "required": ["prepared_corpus_version", "matchup_file", "review_file", "prepared_stats"]},
+    "version_history": {"type": "array", "minItems": 1}
+  },
+  "$defs": {
+    "confidence": {"enum": ["high", "medium", "low", "insufficient"]},
+    "strings": {"type": "array", "items": {"type": "string"}},
+    "ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "claim": {
+      "type": "object",
+      "required": ["text", "basis", "confidence", "supporting_match_ids", "contradicting_match_ids", "evidence_scope"],
+      "properties": {
+        "text": {"type": "string"},
+        "basis": {"enum": ["observed", "inferred", "pattern", "unknown"]},
+        "confidence": {"$ref": "#/$defs/confidence"},
+        "supporting_match_ids": {"$ref": "#/$defs/ids"},
+        "contradicting_match_ids": {"$ref": "#/$defs/ids"},
+        "evidence_scope": {"type": "string"}
+      }
+    },
+    "state": {
+      "type": "object",
+      "required": ["state_id", "description", "team_objective", "priest_instruction", "rogue_instruction", "entry_conditions", "exit_conditions", "evidence", "confidence"],
+      "properties": {
+        "state_id": {"type": "string"},
+        "description": {"type": "string"},
+        "team_objective": {"$ref": "#/$defs/claim"},
+        "priest_instruction": {"$ref": "#/$defs/claim"},
+        "rogue_instruction": {"$ref": "#/$defs/claim"},
+        "entry_conditions": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "exit_conditions": {"type": "array", "items": {"$ref": "#/$defs/claim"}},
+        "evidence": {"$ref": "#/$defs/ids"},
+        "confidence": {"$ref": "#/$defs/confidence"}
+      }
+    }
+  }
+}

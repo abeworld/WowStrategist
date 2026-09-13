@@ -1,0 +1,36 @@
+source_file,match_id,status,confidence,segment_role,distinct_games_added,duration_seconds,clip_start_seconds,clip_end_seconds,ignore_reason,notes
+match_001.mp4,,ignored_non_2v2,,excluded_footage,0,35.483333,,,City footage and brief spectator fragment at 14-20; no complete intended normal 2v2 can be established.,
+match_002.mp4,may24_vod2_2600_match_002,analysed,high,primary_game,1,189.883333,51,173,,
+match_003.mp4,may24_vod2_2600_match_003,analysed,high,primary_game,1,192.45,49,177,,
+match_004.mp4,may24_vod2_2600_match_004,analysed,high,primary_game,1,151.916667,29,136,,
+match_005.mp4,may24_vod2_2600_match_005,analysed,high,primary_game,1,276.183333,66,260,,
+match_006.mp4,may24_vod2_2600_match_006,uncertain,medium,primary_game,1,99.583333,29,85,,
+match_007.mp4,may24_vod2_2600_match_007,analysed,high,primary_game,1,122.816667,69,107,,
+match_008.mp4,may24_vod2_2600_match_008,analysed,high,primary_game,1,169.35,32,154,,
+match_009.mp4,may24_vod2_2600_match_009,analysed,high,primary_game,1,102.083333,42,87,,
+match_010.mp4,,excluded_non_evidentiary_2v2,,excluded_footage,0,30.483333,,,Arena entry at 11 ends with victory at 15 before combat; no opponents appear.,
+match_011.mp4,,excluded_non_evidentiary_2v2,,excluded_footage,0,30.55,,,Arena entry at 12 ends with victory at 14 before combat; no opponents appear.,
+match_012.mp4,may24_vod2_2600_match_012,analysed,high,primary_game,1,195.616667,45,180,,
+match_013.mp4,may24_vod2_2600_match_013,analysed,high,primary_game,1,114.216667,64,87,,Next-game preparation at 98-114 overlaps match_014 preparation; no second active game here.
+match_014.mp4,may24_vod2_2600_match_014,analysed,high,primary_game,1,134.033333,65,118,,
+match_015.mp4,may24_vod2_2600_match_015,analysed,high,primary_game,1,218.416667,67,202.5,,
+match_016.mp4,may24_vod2_2600_match_016,analysed,high,primary_game,1,196.95,47,196.9,,Same game continues and finishes in match_017.mp4; continuation times are named explicitly in record.
+match_017.mp4,may24_vod2_2600_match_016,analysed,high,continuation_overlap,0,64.216667,,,,Overlaps match_016.mp4 by approximately 24 seconds and completes that same Priest/Feral game (replay 36505485). No additional game.
+match_018.mp4,may24_vod2_2600_match_018,analysed,high,primary_game,1,109.15,46,93,,
+match_019.mp4,may24_vod2_2600_match_019,analysed,high,primary_game,1,258.35,38,243,,
+match_020.mp4,may24_vod2_2600_match_020,analysed,high,primary_game,1,147.683333,63,133,,
+match_021.mp4,may24_vod2_2600_match_021,analysed,high,primary_game,1,128.916667,34,103,,Next-game preparation from 112 overlaps match_022 preparation; no second active game here.
+match_022.mp4,may24_vod2_2600_match_022,analysed,high,primary_game,1,189.55,68,189.6,,Same game continues in match_023.mp4 and finishes in match_024.mp4; continuation times are named explicitly in record.
+match_023.mp4,may24_vod2_2600_match_022,analysed,high,continuation_overlap,0,238.116667,,,,"Approximately 17-second overlap with match_022; continues the same normal 2v2 game, replay 36506177, including the healer trade and duel. No additional game."
+match_024.mp4,may24_vod2_2600_match_022,analysed,high,continuation_overlap,0,46.083333,,,,"Approximately 15-second overlap with match_023; completes the Rogue/Warrior duel of the normal 2v2 game beginning in match_022, replay 36506177. No additional game."
+match_025.mp4,may24_vod2_2600_match_025,analysed,high,primary_game,1,104.683333,32,89,,Beginning town footage overlaps the inactive tail of match_024; active game is distinct.
+match_026.mp4,may24_vod2_2600_match_026,analysed,high,primary_game,1,169.65,36,154,,
+match_027.mp4,may24_vod2_2600_match_027,analysed,high,primary_game,1,131.016667,70,115,,
+match_028.mp4,may24_vod2_2600_match_028,analysed,high,primary_game,1,456.083333,60,440.5,,
+match_029.mp4,may24_vod2_2600_match_029,analysed,high,primary_game,1,160.933333,44,143,,
+match_030.mp4,may24_vod2_2600_match_030,analysed,high,primary_game,1,234.783333,32,218.5,,
+match_031.mp4,may24_vod2_2600_match_031,analysed,high,primary_game,1,107.983333,32,92.5,,
+match_032.mp4,may24_vod2_2600_match_032,analysed,high,primary_game,1,120.95,51,105,,
+match_033.mp4,may24_vod2_2600_match_033,analysed,high,primary_game,1,199.783333,69,184,,
+match_034.mp4,may24_vod2_2600_match_034,analysed,high,primary_game,1,88.55,41,71,,
+match_035.mp4,may24_vod2_2600_match_035,analysed,high,primary_game,1,158.65,38,143,,

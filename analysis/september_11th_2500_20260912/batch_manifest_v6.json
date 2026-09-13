@@ -1,0 +1,226 @@
+{
+  "source_folder": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\output\\done\\2v2_SPR_+2500_MMR_September_11th_Stream_VOD_WOW_R1_Gladiator_Rogue_Arena_PVP_-_Warmane_WOTLK",
+  "reference_document": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\ARENA_ANALYSIS_INSTRUCTIONS.md",
+  "instructions_version": "V6",
+  "instruction_sha256": "453be04d71c2bfbaad8cdddaeca0c8b6646f77708ed232c6c967e83e72c9d53b",
+  "discovered_mp4_count": 42,
+  "requested_mp4_count": 42,
+  "reviewed_mp4_count": 42,
+  "pending_mp4_count": 0,
+  "valid_2v2_games_found": 40,
+  "jsonl_game_records": 40,
+  "analysed": 38,
+  "uncertain": 2,
+  "failed": 0,
+  "ignored_non_2v2": 0,
+  "excluded_non_evidentiary_2v2": 4,
+  "result_counts": {
+    "win": 36,
+    "loss": 4
+  },
+  "count_mismatch": false,
+  "processing_complete": true,
+  "method": "V5 to V6 semantic repair of existing records, exceptions and validation, with targeted checks of existing saved frames. No source MP4 reopened and no fresh source-video analysis. Original V5 review method and sampling limitations remain applicable.",
+  "review_evidence_directory": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\.inspection\\september11_20260912",
+  "source_inventory": [
+    {
+      "source_file": "match_001.mp4",
+      "bytes": 49564486
+    },
+    {
+      "source_file": "match_002.mp4",
+      "bytes": 36447156
+    },
+    {
+      "source_file": "match_003.mp4",
+      "bytes": 70691977
+    },
+    {
+      "source_file": "match_004.mp4",
+      "bytes": 36251346
+    },
+    {
+      "source_file": "match_005.mp4",
+      "bytes": 33052314
+    },
+    {
+      "source_file": "match_006.mp4",
+      "bytes": 44024827
+    },
+    {
+      "source_file": "match_007.mp4",
+      "bytes": 51316328
+    },
+    {
+      "source_file": "match_008.mp4",
+      "bytes": 61526607
+    },
+    {
+      "source_file": "match_009.mp4",
+      "bytes": 39265105
+    },
+    {
+      "source_file": "match_010.mp4",
+      "bytes": 131993711
+    },
+    {
+      "source_file": "match_011.mp4",
+      "bytes": 8976398
+    },
+    {
+      "source_file": "match_012.mp4",
+      "bytes": 48115593
+    },
+    {
+      "source_file": "match_013.mp4",
+      "bytes": 44987053
+    },
+    {
+      "source_file": "match_014.mp4",
+      "bytes": 12198269
+    },
+    {
+      "source_file": "match_015.mp4",
+      "bytes": 31924349
+    },
+    {
+      "source_file": "match_016.mp4",
+      "bytes": 44260554
+    },
+    {
+      "source_file": "match_017.mp4",
+      "bytes": 60945336
+    },
+    {
+      "source_file": "match_018.mp4",
+      "bytes": 59065926
+    },
+    {
+      "source_file": "match_019.mp4",
+      "bytes": 87993938
+    },
+    {
+      "source_file": "match_020.mp4",
+      "bytes": 40062917
+    },
+    {
+      "source_file": "match_021.mp4",
+      "bytes": 51490437
+    },
+    {
+      "source_file": "match_022.mp4",
+      "bytes": 36465037
+    },
+    {
+      "source_file": "match_023.mp4",
+      "bytes": 48941522
+    },
+    {
+      "source_file": "match_024.mp4",
+      "bytes": 53428296
+    },
+    {
+      "source_file": "match_025.mp4",
+      "bytes": 61667869
+    },
+    {
+      "source_file": "match_026.mp4",
+      "bytes": 53317549
+    },
+    {
+      "source_file": "match_027.mp4",
+      "bytes": 64046032
+    },
+    {
+      "source_file": "match_028.mp4",
+      "bytes": 56727561
+    },
+    {
+      "source_file": "match_029.mp4",
+      "bytes": 46704623
+    },
+    {
+      "source_file": "match_030.mp4",
+      "bytes": 53381990
+    },
+    {
+      "source_file": "match_031.mp4",
+      "bytes": 35523445
+    },
+    {
+      "source_file": "match_032.mp4",
+      "bytes": 52302775
+    },
+    {
+      "source_file": "match_033.mp4",
+      "bytes": 44551095
+    },
+    {
+      "source_file": "match_034.mp4",
+      "bytes": 52724803
+    },
+    {
+      "source_file": "match_035.mp4",
+      "bytes": 50493909
+    },
+    {
+      "source_file": "match_036.mp4",
+      "bytes": 49030491
+    },
+    {
+      "source_file": "match_037.mp4",
+      "bytes": 65609987
+    },
+    {
+      "source_file": "match_038.mp4",
+      "bytes": 37937451
+    },
+    {
+      "source_file": "match_039.mp4",
+      "bytes": 54594904
+    },
+    {
+      "source_file": "match_040.mp4",
+      "bytes": 35991720
+    },
+    {
+      "source_file": "match_041.mp4",
+      "bytes": 61176405
+    },
+    {
+      "source_file": "match_042.mp4",
+      "bytes": 86682911
+    }
+  ],
+  "original_v5_source_folder": "C:\\Users\\Gary Goldman\\Downloads\\Codex_work\\Wow strategist\\output\\2v2_SPR_+2500_MMR_September_11th_Stream_VOD_WOW_R1_Gladiator_Rogue_Arena_PVP_-_Warmane_WOTLK",
+  "repair_from": "V5",
+  "records_file": "records\\matches_v6.jsonl",
+  "manifest_file": "manifest_v6.csv",
+  "validation_file": "validation_v6.json",
+  "source_videos_reopened": 0,
+  "cross_match_synthesis_performed": false,
+  "repair_input_sha256": {
+    "ARENA_ANALYSIS_INSTRUCTIONS.md": "453be04d71c2bfbaad8cdddaeca0c8b6646f77708ed232c6c967e83e72c9d53b",
+    "analysis\\september_11th_2500_20260912\\records\\matches.jsonl": "e480d055e82477cdc179c0af18d582feaa2984256c2f069ff478890d775403ae",
+    "analysis\\september_11th_2500_20260912\\exceptions.md": "dfd5bc1d7560846802eff0171a0c42967d35602fb5c7530be33e0b60a0c32dae",
+    "analysis\\september_11th_2500_20260912\\manifest.csv": "899d7520b09e16f16538e3873ce7c0d6a2bd7fc8f948cb217adf66ef985f1316",
+    "analysis\\september_11th_2500_20260912\\batch_manifest.json": "dcaea33701f89aab5fc71ba57acc7e2a76f4da682ec0a9c97b91e4e863166b1e",
+    "analysis\\september_11th_2500_20260912\\validation.json": "f72db2784857339896f2db0735e244b4977cab74a8bcfbff57c020fc5a9661d3"
+  },
+  "saved_evidence_checked_sha256": {
+    "match_034/dense_48_112_4.jpg": "da34d50423a213d379113a492f39bb0b6bc129ad0476de59a891307a2530eb19",
+    "match_028/dense_48_138_4.jpg": "68ba90ac8aae2cab00fd432817ade73219143379c595560e360503795e961488",
+    "match_028/dense_48_138_5.jpg": "7c04a5435bfbbbe23c5cc4a0a9e21098efd862b113e708340e7746a0def3b8df",
+    "match_030/dense_49_110_4.jpg": "1eb270df922bef9095873a90f7b289a63c0d1e7aee7ad6c2cb12293a34af0d53",
+    "match_032/dense_53_108_5.jpg": "9e48fc090909b8843977156c0159506bd41c9d4cd205337bb9bbcb43597b4902",
+    "match_037/dense_34_141_3.jpg": "0523aaf0e224cabe421a2ac21c736b34d329d2adb93b0bd7cb18b3155b9ab579",
+    "match_041/dense_33_120_7.jpg": "9d07d04cc3a8586728d9050315f5451e8bca90623d17f0811cd75928f8431872",
+    "match_006/critical_74_82/sheet_1.jpg": "7987fa6dd9d59bf930ef29dcc286ba606727d3998abc9e05cd97ff4578be8bea",
+    "match_034/dense_48_112_3.jpg": "a83f27924819b88090c29cdba7c964b0c9fe98c6233f3da54155a3dfa853c033",
+    "match_034/critical_78_88/sheet_1.jpg": "44b9260759eebb642e833cdd35af6b277001be04ad492ceab2ee767c9d43ccef",
+    "match_037/full_139.5.jpg": "9f17746632e4363ac77d785302b1d0413859d7dc66c7491ccd570a3cea64e745",
+    "match_017/full_85.jpg": "9ad2e024c0d13a8af8dcada53fee3cd4ff03dfb7bc4a98f319518399cdb359ab",
+    "match_023/dense_73_111_3.jpg": "8cc0b2a93f31de42dbf84a9abc172c8ec8567ac3ddf001d9954b2ed9fc3cc6bd"
+  },
+  "original_v5_review_method": "Visual interpretation of sampled local footage: preparation/inactive checks at approximately 4 seconds, active combat UI/full-scene frames at 1 second, selected decisive windows at 0.5 seconds with full-frame checks where needed. Not every control or defensive event was independently checked at half-second cadence. Times approximate due to sampling. No combat log, audio transcription or matchup-wide synthesis."
+}

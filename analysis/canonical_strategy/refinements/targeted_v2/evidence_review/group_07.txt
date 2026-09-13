@@ -1,0 +1,180 @@
+GROUP 07: Shadow Priest / Subtlety Rogue__vs__Destruction Warlock / Holy Paladin
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Destruction Warlock / Holy Paladin", "total_games": 16, "wins": 15, "losses": 1, "unknown_result": 0, "opening_target_known": 16, "opening_target_unknown": 0, "opening_targets": {"Destruction Warlock": 13, "Holy Paladin": 3}, "kill_target_known": 14, "kill_target_unknown": 2, "kill_targets": {"Destruction Warlock": 11, "Holy Paladin": 3}, "records_with_quality_flags": 1, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 16, "source_batch_distribution": {"june_7th_2700_20260913": 1, "may_24th_vod2_2600_20260913": 1, "may_4th_2350_20260913": 6, "september_28th_2700_20260913": 8}}
+
+M485 | loss | open=Holy Paladin | kill=None | extraction=high | flags=
+OBS: Full-duration review: one arena, gates at 43s, loss announcement at 413s, then town through 429s
+OBS: Paladin is the first substantive damage target at 52s; early Warlock selections principally apply control
+OBS: Paladin reaches approximately 26% at 110s but heals; the red timed icon while casting is not established as Divine Shield or CC
+OBS: Warlock reaches 11% at 208s and 5% at 211s; Paladin Fear ends approximately 205s and Flash of Light restores Warlock
+OBS: Succubus is explicitly alive during the 203–208s pressure window; earlier temporary disappearance is not treated as a confirmed death
+OBS: Succubus approaches zero at 305s and disappears at 305.5s; later replacement summon completes
+OBS: Paladin reaches approximately 31% at 345s while Warlock is free to countercontrol, then heals
+OBS: Rogue dies at 409s; Warlock is 89%, Paladin 98%, Paladin Trinket available and Warlock Trinket on cooldown
+OBS: Full screen at 410s confirms Priest still alive; no enemy death is visible
+SOURCE CONVERSION: No enemy kill; Paladin heals the midgame Warlock low and later player pressure is restored before Rogue death
+SOURCE RESET: Alternates Paladin and Warlock pressure with repeated pet attacks; a removed pet is successfully replaced rather than producing sustained player isolation
+SOURCE FAILURE: The deepest Warlock low occurs after healer Fear expires and with a live Succubus. Later pet removal does not coincide with critically vulnerable isolated player pressure; counterpressure kills the Rogue.
+
+M156 | win | open=Destruction Warlock | kill=Destruction Warlock | extraction=high | flags=
+OBS: 81–140s scanned at 1s; 134–140s at 0.5s
+OBS: Destruction Warlock / Holy Paladin labels visible
+OBS: Succubus remains targeted through repeated Health Funnel; no pet DEAD indicator observed
+OBS: Paladin control ~133s followed by 2m Trinket overlay ~135s
+OBS: Warlock DEAD ~137s; round ends ~140s
+SOURCE CONVERSION: Warlock falls ~98% at 128s to ~40% at 134s, then DEAD ~137s despite Paladin recovering control and casting.
+SOURCE RESET: Pet pressure is a meaningful setup attempt; pet death/removal and a replacement summon are not established. Paladin healing resumes before death.
+
+M315 | win | open=Destruction Warlock | kill=Destruction Warlock | extraction=high | flags=
+OBS: Gladius identifies Jaxh Holy and Devourng Destruction
+OBS: Nimnva Succubus repeatedly casts Seduction while selected and pressured
+OBS: Blind up at 72 and down by 73.5; Warlock resumes Fear by 75, so no full 10-second Blind isolation is claimed
+OBS: Both enemy Trinkets are still on cooldown during the final setup
+OBS: Warlock goes from approximately 51% at 162 to DEAD at 167.5
+OBS: Paladin dies at 178; Gold Team Wins at 180
+SOURCE CONVERSION: Burst Warlock during Kidney Shot, interrupt Paladin Flash of Light and add Silence; Warlock dies before the stun finishes
+SOURCE RESET: Initial Warlock pressure does not kill. Repeatedly attack and interrupt Succubus, then return to Warlock for the decisive setup.
+
+M361 | win | open=Holy Paladin | kill=Destruction Warlock | extraction=high | flags=
+OBS: Warlock selection66s with no sustained health loss; Paladin first meaningful target75s
+OBS: Warlock casts long Hellfire during approach56-63s
+OBS: Succubus Nimthea is repeatedly selected to interrupt Seduction; no confirmed pet kill
+OBS: Paladin Flash of Light interrupted143s; Paladin short control153-157s then Fear157.5-162.5s
+OBS: Warlock DEAD162s while its trinket has~36s remaining; Paladin trinket~1m
+OBS: Paladin later falls to7% before victory; second death not established
+OBS: Next game preparation starts182s and continues in029
+SOURCE CONVERSION: Prolonged Warlock pressure improves from~86%144s to~59%153s; Paladin control supports final burst to Warlock DEAD162s, victory171s
+SOURCE RESET: Paladin branch is healed; commit Warlock while repeatedly interrupting pet utility and healer casts
+
+M364 | win | open=Destruction Warlock | kill=Destruction Warlock | extraction=high | flags=
+OBS: Succubus Domnen target selections are utility interrupts, with no confirmed pet kill
+OBS: Both trinket icons change to2m after shared Fear81s
+OBS: Paladin control countdown106.5-111s is confirmed; Blind announcement alone does not establish exact control identity/duration
+OBS: Paladin free and casting Flash of Light111.5-112.5s, Warlock heals~56% to61%113s
+OBS: Flash of Light interrupt113s explicitly announced; no continuous Paladin Blind or Silence debuff assumed113-118s
+OBS: Warlock DEAD118s, Paladin alive at victory
+SOURCE CONVERSION: Warlock falls from~96%106.5s to~55%109s, partially heals after Paladin control ends, then Flash of Light interrupt113s supports finish to DEAD118s; victory123s
+SOURCE RESET: Initial Warlock damage stalls; later healer control creates a burst, followed by healer interrupt after a small recovery
+
+M365 | win | open=Holy Paladin | kill=Destruction Warlock | extraction=high | flags=
+OBS: Paladin loses~8%62s before Warlock commitment; pet selections do not establish damage swaps or pet deaths
+OBS: Warlock reaches~14%100s then recovers to full by145s
+OBS: Paladin trinket stays ready through Fear153-156s and is first visibly spent191s
+OBS: Warlock trinket available~208s, second use224s confirms fresh2m cooldown in final window
+OBS: Paladin Blind/control221-228s ends before final finish; renewed control independently visible231.5s onward
+OBS: Summon Succubus231-233.5s completes; no interruption or pet death inferred
+OBS: Warlock DEAD239.5s, Paladin still alive near91% at round end
+SOURCE CONVERSION: First healer-control burst221-228s reduces Warlock to~60% but does not kill; renewed Paladin control231.5s followed by Fear supports Warlock DEAD239.5s, victory243s
+SOURCE RESET: Early Warlock burst is healed, short Paladin branch resets pressure; long fight requires treating recovered Warlock trinket as available again until224s
+
+M366 | win | open=Destruction Warlock | kill=Destruction Warlock | extraction=high | flags=
+OBS: Pet Domyssa repeatedly selected for Seduction interrupts; no pet kill established
+OBS: Warlock interrupted while attempting Summon Succubus67s, later casts again
+OBS: Paladin free and healing161-164s, not continuously isolated
+OBS: Paladin short control175-178s confirmed; Blind179s occurs after Warlock death and is not the pre-kill enabling event
+OBS: Final trinket cooldowns~17s Warlock and52s Paladin at first death; no cooldown recovery before finish
+SOURCE CONVERSION: Warlock renewed pressure154s onward survives small recoveries; final Paladin short control175s supports Warlock DEAD177.5s, victory181s
+SOURCE RESET: Earlier Warlock pressure heals repeatedly; regenerate control and interrupt utility before a later finish
+
+M367 | win | open=Destruction Warlock | kill=Destruction Warlock | extraction=high | flags=
+OBS: Paladin trinkets immediately after Blind attempt99s; no lasting Blind coverage assumed from announcement
+OBS: Paladin briefly free151s between independently observed final control segments
+OBS: Warlock trinket~55s and Paladin~1m remain at death
+OBS: Paladin alive/full at victory; scoreboard refresh to full does not undo observed Warlock death
+SOURCE CONVERSION: Warlock repeatedly heals earlier damage; renewed pressure147s reduces~94% to~16%153s and DEAD155.5s while Paladin is held in renewed control; victory158s
+SOURCE RESET: Early resource extraction causes little lasting damage; extended cast/pet interruptions precede decisive renewed burst
+
+M368 | win | open=Destruction Warlock | kill=Destruction Warlock | extraction=high | flags=
+OBS: Paladin health falls while pet selected86-95s, so selection alone cannot identify Rogue damage target
+OBS: Blind Warlock95s announced then down97s; no continuous Blind assumed
+OBS: Paladin free128.5s until Warlock death; finish is not fully covered by healer CC
+OBS: Paladin later pressured to low health; victory does not independently prove its second death
+OBS: Next replay36064969 preparation155s onward continues in038
+SOURCE CONVERSION: Paladin control125-128s supports Warlock fall~70% to35%; control ends128.5s and continued pressure kills Warlock130.5s; victory143s
+SOURCE RESET: Earlier shallow Warlock damage and a Paladin damage branch are healed; return Warlock for renewed setup
+
+M458 | win | open=Destruction Warlock | kill=Destruction Warlock | extraction=high | flags=
+OBS: Warlock and Paladin specs shown in enemy frames; two players per team
+OBS: ~46-50s Gouge Warlock and Fear Paladin; ~51-57s Succubus Hellia pressured while Warlock channels Health Funnel
+OBS: ~71s Warlock ~14%, then Trinket ~72s and heals back ~69%
+OBS: ~89-98s renewed Succubus pressure and Seduction interruption; pet target disappears ~98s
+OBS: ~110-112s Summon Succubus cast becomes Failed before completion
+OBS: ~139s Blind Paladin followed by Paladin Trinket cooldown ~140s
+OBS: ~149s Paladin Fear; ~151-152s Warlock controlled at16% then5%; ~153s DEAD; Green Team wins ~155s
+SOURCE CONVERSION: Continue Warlock pressure through repeated recoveries; interrupt Howl of Terror ~146s, Fear Paladin ~149s and renew Warlock stun/Gouge before Warlock dies ~153s
+SOURCE RESET: First pet commitment is healed through Health Funnel; later pet removal and interrupted replacement are useful setup, followed by renewed player pressure
+
+M460 | win | open=Destruction Warlock | kill=None | extraction=medium | flags=truncated_evidence
+OBS: ~80-92s: Paladin Sap and renewed Sap are visible; Paladin Trinket cooldown appears ~92s
+OBS: ~83.5-94s: Warlock is stunned and falls from full to ~19-23%; Warlock Trinket still available during this opening window
+OBS: ~98-103s: Succubus selected and pressured; Warlock casts replacement Summon Succubus and cast subsequently reads Failed
+OBS: ~105-107s: later Summon Succubus reaches completion; Warlock heals substantially
+OBS: ~114s: Warlock Trinket becomes unavailable after renewed pressure/control
+OBS: ~116-122s: renewed Succubus pressure; target disappears afterward
+OBS: ~124.5s: Paladin Fear visible; ~126s: Green Team wins with last displayed enemy health ~80% Warlock and ~87% Paladin
+SOURCE CONVERSION: Opening low-Warlock window does not visibly kill; after pet work and renewed pressure, Green Team wins ~126s without an established enemy player death
+SOURCE RESET: Warlock survives ~19-26% opening pressure with defensive buffs whose exact identities are unresolved; first replacement summon fails, later replacement completes, and pet pressure is repeated
+
+M462 | win | open=Destruction Warlock | kill=Destruction Warlock | extraction=high | flags=
+OBS: ~63-72s: Paladin Sap; Warlock opening stun produces little initial health loss
+OBS: ~73.5-74s: Paladin Trinket cooldown appears after Fear; pet Seduction interrupted with Kick
+OBS: ~78-82s: pet pressure, target disappears, then replacement Summon Succubus completes
+OBS: ~107-107.5s: Warlock Trinket cooldown appears after stun; ~108.5-111.5s: Warlock Blind icon and corresponding chat
+OBS: ~107-113s: renewed pet pressure and disappearance; ~119-122s: Summon Felhunter fails with Kick confirmation
+OBS: ~129-134s: Warlock stun and partial healing recovery; ~134-138.5s: Paladin Fear, Warlock falls from ~39% to DEAD
+OBS: ~139s: Green Team wins; first seconds of clip are previous round town tail
+SOURCE CONVERSION: Continue Warlock damage during Paladin Fear ~134-138.5s; Warlock dies ~138s
+SOURCE RESET: Initial pet removal is answered by a completed replacement summon; repeated pet pressure and interrupted Felhunter summon produce a later Warlock window. Blind is applied to Warlock after its Trinket rather than automatically to Paladin.
+
+M478 | win | open=Destruction Warlock | kill=Holy Paladin | extraction=high | flags=
+OBS: Single arena, combat begins around 68s; all preparation and town tail inspected
+OBS: Resanna is Destruction Warlock; Brunee is Holy Paladin; friendly Priest is Uncle
+OBS: Succubus receives sustained attacks and Health Funnel at 109-113s and 116-118s
+OBS: Seduction interrupted around 130s and 167s; Chaos Bolt interrupted around 155s
+OBS: Warlock Gouge at 170.5s ends with Trinket at 171.5s; Blind persists 173-183s
+OBS: Succubus bar reaches near zero around 179s and disappears at 180s; Summon Felhunter completes around 184s
+OBS: Felhunter Maanam receives repeated pressure over the long middle section; its death is not independently confirmed before replacement Succubus at 378s
+OBS: Paladin mana falls from about 15000 at 180s to 3000 at 250s and around 800-1100 at 315-337s
+OBS: Warlock Blind at 300.5s ends with second Trinket at 301s
+OBS: Unidentified blue circular 10s effect appears on Warlock around 148s,305s,347s; ability identity is unknown and no Paladin immunity is inferred
+OBS: Paladin pressure begins around 372s; Fear at 374s ends with Trinket at 375.5s; health fluctuates 28-59% during this escape
+OBS: Paladin has 570/22600 mana and 35% health at 381s,124/22600 and 29% at 382s; falls to 10% then dies at 385.5s
+OBS: Warlock stunned around 382.5-386s, remains alive at victory; Green Team win at 388s
+OBS: No confirmed Paladin Divine Shield expenditure; availability is unknown
+OBS: Active sequence inspected at 1s; critical 170-174,299-302,373-378,381-386s inspected at 0.5s
+SOURCE CONVERSION: Paladin falls from 35% at 381s to 29%,20%,10% and zero at 385s; death confirmed at 385.5s while Rogue controls Warlock
+SOURCE RESET: Long pet pressure and repeated Warlock control precede the late Paladin kill branch; Rogue switches back to Warlock around 381s while teammate/residual pressure finishes Paladin
+
+M481 | win | open=Destruction Warlock | kill=Destruction Warlock | extraction=high | flags=
+OBS: Full-duration review: one arena begins at 74s, friendly Gold win announced at 192s, town at 195s through clip end
+OBS: Warlock Trinket announcement at 137.5s follows a timed control effect whose precise spell is not securely identified
+OBS: Blind landing confirmed by icon and announcement at 138.5s; ends early at approximately 143s rather than completing ten seconds
+OBS: Summon Succubus at 171–174s shows Failed before renewed Warlock stuns; the specific interrupt is not securely established
+OBS: Pet replacement at 135.5s is observed; exact individual pet deaths are not all independently visible
+OBS: Paladin still at 86% during the Warlock death, with Trinket approximately one minute from recovery; Warlock Trinket also unavailable
+OBS: Both friendly players remain alive despite low Rogue health at the conversion
+SOURCE CONVERSION: Warlock falls from 77% at 180s to 44% at 184.5s, then 18% at 186.5s and dies at 188s while Paladin remains controlled
+SOURCE RESET: Repeatedly returns to the Succubus between Warlock pressure attempts, then converts after a failed replacement summon
+
+M482 | win | open=Destruction Warlock | kill=Holy Paladin | extraction=high | flags=
+OBS: Full-duration review: one arena starts at 58s; Gold friendly win at 178s; town from 181s through clip end
+OBS: Warlock opening damage reaches 80% by 69s; several pet target selections are control or short attacks, not evidence of pet death
+OBS: Kick interruptions of Fear at 68s and Immolate at 92s are confirmed in chat
+OBS: Warlock Trinket at 108s removes the Fear effect while Paladin pressure builds
+OBS: Paladin Divine Shield at 139s is supported by the twelve-second icon, immunity messages and cessation of damage
+OBS: Paladin Trinket at 171s is confirmed by announcement and cooldown; Divine Shield remains unavailable
+OBS: Warlock is full health at final Paladin death and resumes casting Fear when its control expires at approximately 175.5s
+OBS: Both friendly players alive at conversion; final damage occurs just as Warlock control ends
+SOURCE CONVERSION: After Trinket the Paladin receives brief healing to 34–47%, then falls to 20% at 174.5s and zero at 175.5s; death confirmed at 176s
+SOURCE RESET: Leaves recoverable Warlock pressure for repeated Paladin attempts, waits out Divine Shield, then converts the next stun and control window
+
+M483 | win | open=Destruction Warlock | kill=Holy Paladin | extraction=high | flags=
+OBS: Full duration reviewed: one arena starts at 56s; Gold friendly victory at 261s; town from 263s through 276.5s
+OBS: Warlock opening damage is only 4%; the later pet attacks are substantive setup, not evidence of a player swap merely from target selection
+OBS: Health Funnel and repeated Paladin heals sustain the pet; Paladin mana remains approximately 10–12k in the final window, not exhausted
+OBS: Trinket announcements and cooldown transitions confirm all three spends
+OBS: Divine Shield is supported by the twelve-second icon and immunity messages at 244.5–245.5s; icon disappears and damage resumes by 246s
+OBS: Warlock Blind covers the first deep Paladin window but has ended before the eventual kill; Warlock casts Fear and briefly resummons during the last pressure
+OBS: The later red ten-second Paladin icon does not prevent healing; its exact ability is unknown and is not treated as CC
+OBS: Paladin death confirmed at 259s, Warlock alive at 93%, both friendly players alive
+SOURCE CONVERSION: Paladin falls to 8–9% at 253–255s, heals from 6% to 21% at 257.5s, then is stunned at 258s and dies at 259s
+SOURCE RESET: Repeated player and pet pressure precedes the late Paladin branch; the initial Warlock Trinket has recovered before the second spend

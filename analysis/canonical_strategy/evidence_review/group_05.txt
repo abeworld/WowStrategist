@@ -1,0 +1,158 @@
+GROUP 05: Shadow Priest / Subtlety Rogue__vs__Arms Warrior / Discipline Priest
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Arms Warrior / Discipline Priest", "total_games": 18, "wins": 16, "losses": 2, "unknown_result": 0, "opening_target_known": 18, "opening_target_unknown": 0, "opening_targets": {"Arms Warrior": 12, "Discipline Priest": 2, "Warrior": 3, "Priest": 1}, "kill_target_known": 15, "kill_target_unknown": 3, "kill_targets": {"Arms Warrior": 5, "Discipline Priest": 7, "Warrior": 2, "Priest around 116s": 1}, "records_with_quality_flags": 8, "records_with_source_exceptions": 7, "records_with_source_win_condition_hypothesis": 18, "source_batch_distribution": {"august_31st_2550_20260912": 7, "january_5th_full_20260912": 5, "may_18th_2500_20260913": 1, "may_24th_2450_20260913": 2, "september_11th_2500_20260912": 3}}
+
+M002 | loss | open=Arms Warrior | kill=None | extraction=high | flags=source_exception_present
+OBS: ~78s Priest sapped, Warrior Feared ~82s; Priest Trinket cooldown appears ~84s
+OBS: ~108-110s Priest pressured to 82% while Warrior controlled
+OBS: ~122-136s Priest pressured42-69%, heals repeatedly
+OBS: ~150s Warrior Blind appears then Trinket cooldown, Priest pressure does notconvert
+OBS: ~165-175s Priest falls43% but recovers; Rogue critical repeatedly
+OBS: ~202s renewed Sap Warrior; Priest Trinket ready~204s; Rogue dies~214s; outcome~217s
+SOURCE CONVERSION: Repeated Priest commitments during Warrior control; Priest heals back after multiple windows; no kill
+SOURCE RESET: Warrior control and Priest pressure renewed; Blind ~150s immediately Trinketed; late disengagement/Sap Warrior ~202s stabilises briefly
+SOURCE FAILURE: Rogue remains critically low across successive attempts and dies~214s; Priest recovers to full and Trinket ready~204s before final attempt
+EXCEPTION: - `match_002.mp4`: Friendly major defensive spends and exact initial resource-extraction intent incompletely visible
+
+M013 | loss | open=Arms Warrior | kill=None | extraction=high | flags=source_exception_present
+OBS: Warrior opener largely absorbed; Priest Mass Dispel coincides with early Sap removal.
+OBS: Warrior Fear 61-62, Trinket appears 63.
+OBS: Priest Kidney 101, Trinket 102.5 followed by brief Silence.
+OBS: Blind Warrior 104.5-107.5, removal cause not established; Priest 77% then Penance heals full.
+OBS: Maslozxy dies 120; Linguster leaves after partner death, enemies alive.
+SOURCE CONVERSION: Priest pressure 97-107 draws Trinket but only reaches about 76%; Blind Warrior 104.5 ends early 107.5, Priest Penance restores full health. Renewed late Priest control fails before partner dies.
+SOURCE RESET: Warrior health is repeatedly restored; Priest commitment and attempted late re-control replace a direct Warrior kill.
+SOURCE FAILURE: The post-Trinket Priest window causes insufficient damage before the short Blind ends; healing restores Priest, and Maslozxy dies at 120.
+EXCEPTION: - `match_013.mp4`: No final arena winner panel before departure. Exact cause of early Blind removal and friendly defensive availability unknown.
+
+M004 | win | open=Arms Warrior | kill=Arms Warrior | extraction=high | flags=
+OBS: Priest Sap ~77s and Trinket cooldown ~84s
+OBS: Warrior feared ~122s then Trinket cooldown ~123s
+OBS: Blind debuff persists on Priest ~141-151s, while Warrior receives consecutive stun pressure
+OBS: Warrior dead ~152s; Green team wins ~154s
+SOURCE CONVERSION: Blind Priest ~141-151s; stun and pressure Warrior, renew stun ~147s; Warrior drops ~89% to dead ~152s
+SOURCE RESET: Brief Priest pressure is healed; return Warrior after both enemy Trinkets are spent
+
+M007 | win | open=Arms Warrior | kill=Discipline Priest | extraction=high | flags=
+OBS: Warrior opening reaches ~48%; Warrior Trinket ~86s, Priest heals and channels Divine Hymn ~101s
+OBS: Priest pressure during Warrior Blind ~120s; Priest Trinket ~124s and Silence; Priest recovers
+OBS: Warrior Fear ~157s followed by Sap ~165s; Priest falls ~67% to dead ~174s under renewed stuns; Gold wins ~176s
+SOURCE CONVERSION: First Priest commitment during Blind Warrior ~120-129s draws Priest Trinket but heals; renew Fear then Sap Warrior ~165-174s and Priest stuns; Priest dies ~174s
+SOURCE RESET: Nonlethal Priest window and friendly low health followed by recovery and renewed Priest commitment
+
+M008 | win | open=Arms Warrior | kill=Discipline Priest | extraction=high | flags=
+OBS: Initial Sap Priest persists ~72-81s, brief Warrior stun ~81s
+OBS: Priest Trinket ~91s and Warrior Sap/Trinket ~92-93s
+OBS: Priest recovers from52% to full by118s
+OBS: Sap Warrior ~137-145s; Priest drops100% to dead under Gouge, renewed stuns and Silence; Gold wins ~146s
+SOURCE CONVERSION: Priest pressure ~82-106s draws both Trinkets but is healed; after brief Warrior pressure, Fear Warrior ~129s then Sap ~137s and renewed Priest stuns/Silence kills Priest ~145s
+SOURCE RESET: First Priest window recovers; renewed healer commitment converts after another control setup
+
+M010 | win | open=Arms Warrior | kill=Discipline Priest | extraction=high | flags=
+OBS: Healer Sap ~44-54s; Warrior falls44% ~58s and recovers
+OBS: Priest stuns ~70-76s and Silence ~76-79s; Trinket spent ~76s
+OBS: Blind Warrior ~86s then Trinket ~87s; Priest remains11-18% and dies ~89s; Gold wins ~100s
+SOURCE CONVERSION: Warrior falls44% but recovers after healer control ends; swap Priest ~70s, draw Trinket ~76s and maintain pressure; Blind Warrior ~86s is immediately Trinketed, Priest nevertheless dies ~89s
+SOURCE RESET: Re-Sap Warrior ~58s during initial arc; then sustained healer swap rather than another Warrior kill attempt
+
+M011 | win | open=Arms Warrior | kill=Discipline Priest | extraction=high | flags=source_exception_present
+OBS: Warrior opener largely absorbed; Sap Priest 74-84.
+OBS: Warrior Fear ends with Trinket about 89.
+OBS: Blind Warrior persists 110-120.
+OBS: Priest Kidney 123.5, Trinket cooldown appears 124; health reaches 3% at 124.5.
+OBS: Penance 126 restores roughly 30%; Priest dies 130.5; Gold wins 142.
+SOURCE CONVERSION: Blind Warrior 110-120 enables renewed Priest pressure. Priest escapes Kidney at 124 and briefly heals with Penance 126, but sustained pressure kills him at 130.5.
+SOURCE RESET: Early Priest pressure and intermediate Warrior touches do not convert; renew Priest control rather than treating the first window as decisive.
+EXCEPTION: - `match_011.mp4`: Exact friendly defensive spends not exhaustively identifiable.
+
+M110 | win | open=Arms Warrior | kill=Discipline Priest | extraction=high | flags=source_exception_present
+OBS: New arena preparation ~134–176s; second separate fight in Ruins of Lordaeron.
+OBS: ~198s: Warrior Sap, break by ~199s without trinket; ~199s: Priest Sap. ~201–205s: Warrior stun/damage and trinket.
+OBS: ~214s: Priest trinket announcement. ~217s: Warrior roughly 46%; visible Penance/Flash Heal restores it to 100% by ~231s.
+OBS: ~233–236s: target changes to Priest; Gouge/control, Blind explicitly applied to Warrior ~236s.
+OBS: ~241–246s: Priest 90%, 72%, 51%, 27%, DEAD during control/Silence; Warrior stays 100% and Blinded until ~246s.
+OBS: ~250s: own recovery/bandage visible in full frames; ~255s: second winner message, Warrior survives at high health.
+SOURCE CONVERSION: Swap to Priest (~233s), control Priest, Blind Warrior (~236s); damage breaks through shields ~241s, renewed Priest stun ~243s and Silence ~245s finish Priest ~246s.
+SOURCE RESET: Warrior Sap breaks early without verified trinket, then Priest is Sapped. Warrior pressure reaches ~46% but Penance/Flash Heal restores it to full ~231s. Swap rather than continue the healed Warrior; own Rogue heals/bandages during post-kill control.
+UNKNOWN: ["Initial Sap-break ability is unknown; Berserker Rage is not verified.", "Priest shields absorb early swap damage; no named major Priest defensive such as Pain Suppression is confidently verified."]
+EXCEPTION: - **match_010b** (analysed): Initial Sap-break ability is unknown; Berserker Rage is not verified. Priest shields absorb early swap damage; no named major Priest defensive such as Pain Suppression is confidently verified.
+
+M114 | win | open=Arms Warrior | kill=Arms Warrior | extraction=medium | flags=source_exception_present
+OBS: ~45-50s Warrior opening target; Priest Sapped at full health; Warrior trinket announcement ~50s.
+OBS: ~55-65s Warrior 77%, 66%, 5%; Priest controlled, then trinkets at ~64-65s.
+OBS: ~66s Warrior DEAD; ~67s chat and debuff confirm Blind on Priest, who remains full health.
+SOURCE CONVERSION: Maintain Warrior pressure through trinket and renewed Priest control/Silence. Warrior reaches 5% at ~65s and is DEAD at ~66s. Blind Priest at ~67s is post-kill control, followed by cleanup.
+UNKNOWN: ["Opening 0-2s repeats match_013 result; it is not a separate game."]
+EXCEPTION: - **match_014** (analysed): Opening 0-2s repeats match_013 result; it is not a separate game.
+
+M116 | win | open=Arms Warrior | kill=Arms Warrior | extraction=medium | flags=
+OBS: ~40s Priest Sap, Warrior full; ~45s Warrior under stun at 94%.
+OBS: ~50s Warrior trinket, 66%; ~55s Warrior 43%, Priest controlled and full.
+OBS: ~60s Priest trinket cooldown/chat, Silence announcement; Warrior 22%, then ~65s 3%.
+OBS: ~70s Warrior DEAD, Priest now cleanup target; ~75s both enemy frames DEAD, friendly Rogue alive.
+SOURCE CONVERSION: Stay Warrior through trinket; Priest healing denial overlaps renewed Warrior pressure; Warrior dies (~66-67s); finish Priest by ~75s.
+
+M118 | win | open=Discipline Priest | kill=Arms Warrior | extraction=medium | flags=source_exception_present
+OBS: ~72s Warrior Sap; ~73-77s Priest selected under control, health stays 100% amid absorbed damage.
+OBS: ~78-84s Warrior selected, falls from full to 96%, 85%, 66%; Priest remains full under renewed control.
+OBS: ~85s Warrior trinket announcement/cooldown, health 35%; ~86-87s 19% ->12%; ~89s DEAD.
+OBS: ~94s Gold Team win, our Rogue alive; Priest is ~85% before result.
+SOURCE CONVERSION: Brief Priest pressure at ~73-77s is absorbed while Warrior remains full. Commit Warrior ~78-81s and renew Priest control/Silence. Warrior trinkets ~85s, falls 35% ->19% ->12%, and is DEAD by ~89s. Gold Team wins ~94s with Priest still alive.
+UNKNOWN: ["Purpose of the brief absorbed Priest pressure is unknown. Priest cleanup kill versus departure is unknown."]
+EXCEPTION: - **match_019** (analysed): Purpose of the brief absorbed Priest pressure is unknown. Priest cleanup kill versus departure is unknown.
+
+M120 | win | open=Arms Warrior | kill=Arms Warrior | extraction=medium | flags=source_exception_present
+OBS: ~80s both full, Priest Sapped; ~85s Warrior stunned at 92%, Priest still Sapped.
+OBS: ~90s Warrior 49%, fresh trinket cooldown, Priest controlled at 100%.
+OBS: ~95s Warrior DEAD, Priest95% controlled; ~100s Gold Team wins; friendly Rogue alive.
+SOURCE CONVERSION: Stay Warrior through trinket; kill by ~94s with Priest still 100%; control Priest during cleanup and Silence before win.
+UNKNOWN: ["End preparation repeats at match_022 opening; do not count it twice."]
+EXCEPTION: - **match_021** (analysed): End preparation repeats at match_022 opening; do not count it twice.
+
+M263 | win | open=Discipline Priest | kill=Discipline Priest | extraction=high | flags=
+OBS: Gladius resolves Discipline Priest and Arms Warrior in preparation/combat
+OBS: Warrior Fear is visible at 63s; Trinket cooldown at 64s
+OBS: Priest falls to 46% at 67s and carries an eight-second effect; it later casts Penance at 70s, so this effect is not recorded as landed Silence
+OBS: Warrior renewed stuns/control are visible around 68-77s while Priest is repeatedly below half
+OBS: Priest death is established in the decisive window; Priest Trinket remains available
+OBS: Our team wins and both friendly players are alive
+SOURCE CONVERSION: Renew Warrior control after Trinket and sustain Priest damage; continue through Priest recovery to establish Priest death
+SOURCE RESET: Warrior takes brief chip at 60s before the first committed Priest burst at 63-65s. Priest heals from 40% to 57% at 70-72s and from 20% to 59% at 75-76s; pressure stays on Priest.
+
+M287 | win | open=Warrior | kill=Warrior | extraction=high | flags=
+OBS: Warrior Trinket stays ready through death
+OBS: Priest~100% through final Warrior push
+OBS: Silence follows Gouge; no uninterrupted long Fear claimed
+OBS: Victory132s
+SOURCE CONVERSION: Warrior~38%117s,19%120s,6%123s,1%124s; DEAD125s
+SOURCE RESET: Initial Warrior pressure recovers; later healer Blind/Sap chain creates sustained second push
+
+M289 | win | open=Warrior | kill=None | extraction=medium | flags=truncated_evidence
+OBS: Priest does not fall critically low before departure
+OBS: Scoreboard111s names Lingusterqqx/Maslohej as winners with +13 rating; opponents have 27,804 and19,998 damage
+OBS: Normal 2v2 interaction established; administrative ending gives no kill-conversion evidence
+SOURCE CONVERSION: No player kill established; vnqx wins111s after enemy roster departure. Scoreboard: all four zero killing blows, both enemies have substantial combat damage.
+SOURCE RESET: Minor Warrior pressure recovers -> actual Priest branch~104s with Warrior Sapped; administrative enemy departure ends the round
+
+M393 | win | open=Arms Warrior | kill=Discipline Priest | extraction=high | flags=
+OBS: ~60-67s Warrior selected under Priest Sap, mostly full health; Priest full.
+OBS: ~69s Priest selected and falls to ~87%; ~70s Warrior trinket chat and cooldown.
+OBS: ~78s Blind Warrior; ~81s Priest17%, ~82s PriestDEAD. Priest trinket still available.
+OBS: ~93s win, our Rogue alive; Warrior death not established.
+OBS: Post-round chat: 'wanted war go' and 're sap + fear pri'.
+SOURCE CONVERSION: Swap Priest ~69s; Warrior trinkets ~70s. Priest pressure reaches ~51%, then Blind Warrior ~78s isolates continued damage; Priest DEAD ~82s. Gold Team win ~93s.
+SOURCE RESET: Priest pressure begins just before Warrior trinket; Blind is added later. Warrior remains alive after Priest death; final departure versus kill unknown.
+
+M410 | win | open=Priest | kill=Priest around 116s | extraction=high | flags=
+OBS: Replay 38621390, Blade's Edge Arena.
+OBS: Priest Gladius returns to 100% at 118s despite opposing team remaining at one player; this is treated as a UI inconsistency, not a resurrection.
+OBS: Prior-opponent discussion before entry mentions preferring Priest against Orc/Undead Hunter/Priest; it is not assigned as this Warrior/Priest game's initial objective.
+SOURCE CONVERSION: Priest loses health from roughly 90% around 104s to 18% at 115s and DEAD at 116s. Full scene confirms opposing team drops to one player at 118s and a Priest corpse. Warrior remains about 87% at Gold-team victory around 129s; both friendly players alive.
+SOURCE RESET: Long absorbed Priest pressure and mana expenditure precede the first meaningful health drop. Priest trinket briefly permits healing around 111.5s, then renewed stun closes the kill.
+
+M427 | win | open=Warrior | kill=Warrior | extraction=high | flags=
+OBS: Replay 38622168, Lordaeron.
+OBS: Priest Sap UP and Warrior trinket messages are visible.
+OBS: Warrior DEAD about 104.5s; Priest Fear continues through this death.
+OBS: Priest trinket remains available at the kill; no Priest death is established before the match ends.
+SOURCE CONVERSION: Warrior dies during Priest Fear; friendly Gold victory about 109s while Priest still has full health and our Rogue survives.
+SOURCE RESET: Priest resumes healing after the intermediate control window, briefly restoring Warrior health; the later Fear/stun go converts.

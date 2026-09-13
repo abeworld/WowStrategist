@@ -1,0 +1,74 @@
+GROUP 13: Shadow Priest / Subtlety Rogue__vs__Destruction Warlock / Elemental Shaman
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Destruction Warlock / Elemental Shaman", "total_games": 8, "wins": 7, "losses": 1, "unknown_result": 0, "opening_target_known": 8, "opening_target_unknown": 0, "opening_targets": {"Warlock pet": 1, "Elemental Shaman": 3, "Destruction Warlock": 1, "Warlock": 1, "Shaman": 2}, "kill_target_known": 7, "kill_target_unknown": 1, "kill_targets": {"Elemental Shaman": 4, "Shaman": 3}, "records_with_quality_flags": 2, "records_with_source_exceptions": 2, "records_with_source_win_condition_hypothesis": 8, "source_batch_distribution": {"january_5th_full_20260912": 2, "may_18th_2500_20260913": 4, "may_4th_2350_20260913": 2}}
+
+M204 | loss | open=Destruction Warlock | kill=None | extraction=high | flags=
+OBS: 52-61s: Shaman selected with negligible damage; main sustained damage begins Warlock around 62s
+OBS: 65-66s: Succubus Seduction disruption; pet kill not established
+OBS: 93.5s: Warlock at 46% uses Trinket; Shaman casts through this window
+OBS: 95.5-99.5s: Warlock Blind while Shaman continues casting; Shaman red countdown is a buff, not incapacitating CC
+OBS: 100-109s: Warlock around 38-40%; friendly Rogue loses health and is dead at 109.5s
+OBS: 111s: Warlock recovers to 70%; Shaman Trinkets Fear at 115s after Rogue death
+OBS: 117.5s: Green wins; friendly Priest alive before ending
+SOURCE CONVERSION: Warlock pressure resumes after Blind but does not establish isolation
+SOURCE FAILURE: Shaman remains active during the Warlock pressure; friendly Rogue dies before a renewed isolated window
+
+M115 | win | open=Warlock pet | kill=Elemental Shaman | extraction=medium | flags=source_exception_present
+OBS: ~75s selected Succubus Dirvina at low health under stun while enemy players full; ~80s Warlock UI reveals Destruction.
+OBS: ~84-85s Warlock trinket announcement/cooldown; Warlock ~70%; Shaman full.
+OBS: ~100s chat reports interrupted Seduction (Dirvina), so pet remains/reappears; no pet removal claim.
+OBS: ~110-120s Shaman targeted, trinkets, falls 85% ->56% ->7%; Warlock Blind then Sap announcements and control.
+OBS: ~125s Shaman DEAD, Warlock ~50% and selected; arena exit by ~129s.
+OBS: ~121s Shaman DEAD; ~126s both enemies DEAD; ~127s Green Team wins.
+SOURCE CONVERSION: Swap from Warlock to Shaman (~108s), Blind Warlock then Sap as Blind expires; Shaman falls to 7% (~120s), dead by ~123s.
+SOURCE RESET: Warlock pressure only reaches ~50-70%; pet support is interrupted; team switches to Shaman rather than forcing a Warlock kill.
+UNKNOWN: ["Pet death/removal after initial attack not verified; Seduction interrupt later confirms pet utility was still present."]
+EXCEPTION: - **match_015** (analysed): Pet death/removal after initial attack not verified; Seduction interrupt later confirms pet utility was still present.
+
+M124 | win | open=Elemental Shaman | kill=Elemental Shaman | extraction=medium | flags=source_exception_present
+OBS: ~50s WarlockSapped100%, Shaman selectedfull; Tremor Totem visible, destructionnotverified.
+OBS: ~55s chatWarlocktrinket + Blindup, Warlock100%underBlind9.2s, Shaman93%.
+OBS: ~60s Shamantrinket,Shaman57% stunned,WarlockBlind4.2; ~65sShamanDEAD Warlockfull; arenaexit ~67s.
+OBS: ~65s Shaman DEAD, Warlock 100%; ~67s Gold Team wins with our Rogue alive.
+SOURCE CONVERSION: Shaman is the sustained target while Warlock trinkets control and is Blinded. Shaman also trinkets, then falls 40% ~62s ->31% ->7% ->DEAD ~65s under renewed stun/Silence pressure. Warlock remains full; Gold Team wins ~67s.
+UNKNOWN: ["No pet or totem removal is established. Warlock cleanup kill versus departure is unknown."]
+EXCEPTION: - **match_026** (analysed): No pet or totem removal is established. Warlock cleanup kill versus departure is unknown.
+
+M207 | win | open=Warlock | kill=Shaman | extraction=high | flags=
+OBS: Warlock Blind around 125s is followed by Trinket at 127s
+OBS: Both enemy Trinkets remain on cooldown in the final window
+OBS: Succubus remains present; Seduction interrupted again around 208s
+OBS: Both friendlies survive the Shaman kill
+SOURCE CONVERSION: Shaman falls from 49% at 202s through 24% at 204.5s and dies at 206s during Warlock Silence; victory at 211s
+SOURCE RESET: Earlier Shaman windows around 129–150s and 163–175s recover through healing; final pressure is renewed
+
+M209 | win | open=Shaman | kill=Shaman | extraction=high | flags=
+OBS: Warlock Trinket remains available throughout the conversion
+OBS: Shaman falls from 28% at 117s to 1% at 117.5s
+OBS: Both friendlies survive
+OBS: Bloodlust/Heroism countdown is a buff, not proof of crowd control
+SOURCE CONVERSION: Shaman falls to 32% at 114.5s; Trinket at 116.5s fails to stop the burst, and Shaman dies at 118s; victory at 122s
+SOURCE RESET: Earlier Shaman drop recovers with self-healing before final pressure
+
+M211 | win | open=Shaman | kill=Shaman | extraction=high | flags=
+OBS: Warlock Trinket remains available
+OBS: Warlock resumes casting around 98s; sustained off-target isolation is not established in the final burst
+OBS: Succubus is controlled rather than visibly killed
+OBS: Both friendlies survive
+SOURCE CONVERSION: Shaman 40% at 98s, briefly recovers from 19% to 39%, then reaches 0% at 104s; victory at 109s
+SOURCE RESET: Opening chip damage heals back; renewed pressure continues through a small late recovery
+
+M344 | win | open=Elemental Shaman | kill=Elemental Shaman | extraction=high | flags=
+OBS: Warlock Sap countdown ~63-70s; selecting pet ~70s is control, not a demonstrated pet-kill attempt
+OBS: Seduction interrupt announcement identifies Succubus Glynyss ~70s
+OBS: Shaman first substantial health decline ~74-79s; trinket cooldown starts ~74s
+OBS: Warlock control countdown spans decisive Shaman burst
+OBS: Shaman DEAD ~79s; Warlock is controlled afterward and round ends without established Warlock death
+SOURCE CONVERSION: Continue Shaman burst under off-target control; Shaman is DEAD ~79s
+
+M353 | win | open=Elemental Shaman | kill=Elemental Shaman | extraction=high | flags=
+OBS: Shaman briefly takes incidental approach damage then returns full before opener
+OBS: Warlock control countdown ~74-75s, ~76-78s and ~82-84s; also casts Fear between windows
+OBS: Shaman Lesser Healing Wave interrupted ~86s immediately before DEAD
+OBS: Succubus selected to interrupt Seduction after Shaman death; pet death not established
+OBS: Warlock survives last readable frame before victory; no specific Warlock death inferred
+SOURCE CONVERSION: Shaman heals from ~29% to ~57% at79s, then continued pressure and interrupted Lesser Healing Wave lead to DEAD ~86.5s; victory ~100s

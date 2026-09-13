@@ -1,0 +1,21 @@
+GROUP 30: Shadow Priest / Subtlety Rogue__vs__Fury Warrior / Holy Paladin
+{"matchup_key": "Shadow Priest / Subtlety Rogue__vs__Fury Warrior / Holy Paladin", "total_games": 2, "wins": 2, "losses": 0, "unknown_result": 0, "opening_target_known": 2, "opening_target_unknown": 0, "opening_targets": {"Fury Warrior": 2}, "kill_target_known": 2, "kill_target_unknown": 0, "kill_targets": {"Fury Warrior": 1, "Holy Paladin": 1}, "records_with_quality_flags": 0, "records_with_source_exceptions": 0, "records_with_source_win_condition_hypothesis": 2, "source_batch_distribution": {"may_4th_2350_20260913": 2}}
+
+M341 | win | open=Fury Warrior | kill=Fury Warrior | extraction=high | flags=
+OBS: Arena UI explicitly reveals Fury Warrior / Holy Paladin; do not normalize Warrior to Arms
+OBS: Warrior first sustained health loss ~66s
+OBS: Paladin trinket cooldown starts ~65s; Warrior trinket announcement ~79s
+OBS: Warrior controlled ~84-90s and Paladin controlled ~86-91s
+OBS: Paladin begins Flash of Light ~92s; interrupt announcement ~93-94s
+OBS: Warrior is DEAD ~95s; both friendlies survive and win
+SOURCE CONVERSION: Renew Warrior burst and prevent Paladin recovery; Warrior is DEAD ~95s
+SOURCE RESET: Warrior is healed from ~46% back toward ~68% after the first burst; remain on Warrior for renewed control rather than swapping healer
+
+M343 | win | open=Fury Warrior | kill=Holy Paladin | extraction=high | flags=
+OBS: UI reveals Fury Warrior, not Arms
+OBS: Warrior health first drops ~50-53s; both trinket cooldowns begin ~52-53s
+OBS: Paladin damage commitment begins ~58s while Warrior controlled ~60-68s
+OBS: Paladin recovers partially ~65-68s; new Silence countdown ~70s precedes death
+OBS: Paladin DEAD ~75s; Warrior DEAD ~81s; victory follows
+SOURCE CONVERSION: Commit Paladin during renewed control; Paladin is DEAD ~75s, then Warrior dies ~81s
+SOURCE RESET: Paladin heals partially after first swap; maintain the healer branch and renew control rather than permanently returning Warrior
