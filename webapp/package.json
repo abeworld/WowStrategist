@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "export-data": "python scripts/export_data.py",
+    "install-canonical": "python scripts/install_canonical.py",
+    "test-pipeline": "python scripts/test_pipeline.py",
     "dev": "vite",
     "start": "vite --host 127.0.0.1 --port 5173",
     "build": "tsc --noEmit && vite build",

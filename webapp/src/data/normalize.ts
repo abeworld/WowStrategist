@@ -136,36 +136,38 @@ export function lookupStrategies<T extends { our_comp: string; enemy_comp: strin
     .map((x) => x.s);
 }
 
-export function currentStrategy<T extends { strategy_key: string; strategy_id: string; version?: number }>(
+export class CurrentPointerError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = "CurrentPointerError";
+  }
+}
+
+export function currentStrategy<T extends { strategy_key: string; strategy_id: string }>(
   strategies: T[],
   current: Record<string, string>,
   strategyKey: string,
 ): T | undefined {
+  if (!Object.prototype.hasOwnProperty.call(current, strategyKey)) return undefined;
   const currentId = current[strategyKey];
-  if (currentId) {
-    const hit = strategies.find((s) => s.strategy_id === currentId);
-    if (hit) return hit;
+  const hit = strategies.find((s) => s.strategy_id === currentId);
+  if (!hit) {
+    throw new CurrentPointerError(`current ${strategyKey} points at missing ${currentId}`);
   }
-  const versions = strategies
-    .filter((s) => s.strategy_key === strategyKey)
-    .slice()
-    .sort((a, b) => (a.version ?? 0) - (b.version ?? 0));
-  return versions.at(-1);
+  if (hit.strategy_key !== strategyKey) {
+    throw new CurrentPointerError(`current ${strategyKey} points at ${currentId} with key ${hit.strategy_key}`);
+  }
+  return hit;
 }
 
-export function currentStrategies<T extends { strategy_key: string; strategy_id: string; version?: number }>(
+export function currentStrategies<T extends { strategy_key: string; strategy_id: string }>(
   strategies: T[],
   current: Record<string, string>,
 ): T[] {
-  const keys = new Set<string>();
   const out: T[] = [];
-  for (const s of strategies) {
-    if (keys.has(s.strategy_key)) continue;
-    const hit = currentStrategy(strategies, current, s.strategy_key);
-    if (hit) {
-      keys.add(s.strategy_key);
-      out.push(hit);
-    }
+  for (const key of Object.keys(current)) {
+    const hit = currentStrategy(strategies, current, key);
+    if (hit) out.push(hit);
   }
   return out;
 }

@@ -51,6 +51,8 @@ button.tab.active { color: var(--bg); background: var(--gold); border-color: var
 .badge.high { color: var(--win); }
 .badge.medium { color: var(--gold); }
 .badge.low { color: var(--muted); }
+.badge.insufficient { color: var(--insufficient); }
+.badge.superseded { color: var(--muted); }
 .hero {
   background: linear-gradient(180deg, #1c2430, var(--panel));
   border: 1px solid var(--line); border-radius: 14px; padding: 18px;

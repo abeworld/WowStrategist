@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { hasApprovedLine, loadMatches, loadPackage, resolveCurrent } from "../data/repo";
+import { hasStrategyContent, isApproved, loadMatches, loadPackage, resolveCurrent } from "../data/repo";
 import type { CanonicalPackage, SlimMatch, Strategy } from "../data/types";
 
 function Dist({ title, known, unknown, values }: { title: string; known: number; unknown: number; values: Record<string, number> }) {
@@ -13,6 +13,7 @@ function Dist({ title, known, unknown, values }: { title: string; known: number;
         Known in {known}/{total}
         {unknown ? <span className="muted"> · {unknown} unknown</span> : null}
       </p>
+      <p className="muted">Frequencies are evidence counts, not a recommended plan.</p>
       {entries.map(([name, n]) => (
         <div key={name} style={{ marginBottom: 8 }}>
           <div className="row" style={{ justifyContent: "space-between" }}>
@@ -34,9 +35,20 @@ function Line({ label, value }: { label: string; value: string | null }) {
   return (
     <>
       <dt>{label}</dt>
-      <dd className={value ? undefined : "empty"}>{value || "No approved strategy text"}</dd>
+      <dd className={value ? undefined : "empty"}>{value || "No strategy text in this package version"}</dd>
     </>
   );
+}
+
+function statusNote(strategy: Strategy): string | null {
+  if (isApproved(strategy.status)) return "Approved canonical strategy.";
+  if (strategy.status === "provisional") {
+    return "Provisional canonical analysis. Visible for study; not human-approved.";
+  }
+  if (strategy.status === "insufficient_evidence") {
+    return "Insufficient evidence for a usable strategy. Any remaining text is not a complete plan.";
+  }
+  return null;
 }
 
 export default function MatchupPage() {
@@ -69,7 +81,8 @@ export default function MatchupPage() {
 
   const related = matches.filter((m) => strategy.evidence.all_match_ids.includes(m.match_id));
   const roleView = strategy.roles[role];
-  const approved = hasApprovedLine(strategy);
+  const content = hasStrategyContent(strategy.default_line);
+  const note = statusNote(strategy);
 
   return (
     <div className="stack">
@@ -79,26 +92,24 @@ export default function MatchupPage() {
         <p className="muted">{strategy.enemy_comp}</p>
         <div className="row">
           <span className={`badge ${strategy.status}`}>{strategy.status}</span>
-          <span className={`badge ${strategy.confidence}`}>{strategy.confidence} confidence</span>
-          <span className="badge">
-            {strategy.evidence.games} games · {strategy.evidence.wins}W/{strategy.evidence.losses}L
-          </span>
+          <span className={`badge ${strategy.confidence}`}>{strategy.confidence} strategy confidence</span>
+          <span className={`badge ${strategy.sample_band}`}>{strategy.evidence.games} games · sample {strategy.sample_band}</span>
           <span className="badge">{strategy.strategy_id}</span>
           <span className="badge">package {pkg.package_version}</span>
         </div>
+        {note ? <p className={isApproved(strategy.status) ? "muted" : "empty"}>{note}</p> : null}
       </section>
 
       <section className="panel plan">
         <div className="kicker">Default plan</div>
-        {!approved && (
-          <p className="empty">
-            No approved canonical line yet. Do not treat the frequencies below as a game plan.
-          </p>
+        {!content && (
+          <p className="empty">No strategy text in this package version. Do not treat the frequencies below as a game plan.</p>
         )}
         <dl>
           <Line label="Start" value={strategy.default_line.start} />
           <Line label="Objective" value={strategy.default_line.objective} />
           <Line label="Win condition" value={strategy.default_line.win_condition} />
+          <Line label="Create it" value={strategy.default_line.create} />
           <Line label="Convert" value={strategy.default_line.convert} />
           <Line label="Alternative" value={strategy.default_line.alternative} />
           <Line label="Reset" value={strategy.default_line.reset} />
@@ -115,13 +126,6 @@ export default function MatchupPage() {
       <section className="panel">
         <div className="kicker">{role === "team" ? "Team" : role === "priest" ? "Priest POV" : "Rogue POV"}</div>
         <p className={roleView.summary ? undefined : "empty"}>{roleView.summary || "Unknown — not in canonical package"}</p>
-        {roleView.responsibilities.length > 0 && (
-          <ul>
-            {roleView.responsibilities.map((r) => (
-              <li key={r}>{r}</li>
-            ))}
-          </ul>
-        )}
       </section>
 
       <section className="panel">
@@ -129,7 +133,7 @@ export default function MatchupPage() {
         {strategy.branches.length ? (
           <ul>
             {strategy.branches.map((b) => (
-              <li key={b.when}>
+              <li key={`${b.when}-${b.then}`}>
                 <strong>If {b.when}</strong> → {b.then}
               </li>
             ))}
@@ -169,29 +173,39 @@ export default function MatchupPage() {
       </div>
 
       <section className="panel">
-        <div className="kicker">Supporting wins</div>
-        <p className="muted">Up to 12 recent supporting match IDs.</p>
-        <div className="row">
-          {strategy.evidence.supporting_match_ids.slice(0, 12).map((id) => (
-            <Link key={id} to={`/match/${encodeURIComponent(id)}`}>
-              {id.split("__").pop()}
-            </Link>
-          ))}
-        </div>
-        <div className="kicker" style={{ marginTop: 16 }}>
-          Counterexample losses
-        </div>
-        <div className="row">
-          {strategy.evidence.counterexample_match_ids.length ? (
-            strategy.evidence.counterexample_match_ids.slice(0, 8).map((id) => (
-              <Link key={id} to={`/match/${encodeURIComponent(id)}`}>
-                {id.split("__").pop()}
-              </Link>
-            ))
-          ) : (
-            <span className="empty">None listed</span>
-          )}
-        </div>
+        <div className="kicker">Supporting matches</div>
+        {strategy.evidence.classification_present ? (
+          <>
+            <p className="muted">Canonical synthesis citations, not “every win”.</p>
+            <div className="row">
+              {strategy.evidence.supporting_match_ids.length ? (
+                strategy.evidence.supporting_match_ids.slice(0, 12).map((id) => (
+                  <Link key={id} to={`/match/${encodeURIComponent(id)}`}>
+                    {id.split("__").pop()}
+                  </Link>
+                ))
+              ) : (
+                <span className="empty">None listed</span>
+              )}
+            </div>
+            <div className="kicker" style={{ marginTop: 16 }}>
+              Contradicting matches
+            </div>
+            <div className="row">
+              {strategy.evidence.contradicting_match_ids.length ? (
+                strategy.evidence.contradicting_match_ids.slice(0, 8).map((id) => (
+                  <Link key={id} to={`/match/${encodeURIComponent(id)}`}>
+                    {id.split("__").pop()}
+                  </Link>
+                ))
+              ) : (
+                <span className="empty">None listed</span>
+              )}
+            </div>
+          </>
+        ) : (
+          <p className="empty">Evidence classification unavailable in this package version.</p>
+        )}
         <p className="muted" style={{ marginTop: 12 }}>
           {related.length} evidence records in this matchup.
         </p>
@@ -199,11 +213,15 @@ export default function MatchupPage() {
 
       <section className="panel">
         <div className="kicker">Version history</div>
-        {strategy.history.map((h) => (
-          <p key={h.strategy_id}>
-            <strong>{h.strategy_id}</strong> — {h.note}
-          </p>
-        ))}
+        {strategy.history.length ? (
+          strategy.history.map((h) => (
+            <p key={`${h.strategy_id}-${h.version}`}>
+              <strong>{h.strategy_id}</strong> — {h.note}
+            </p>
+          ))
+        ) : (
+          <p className="empty">No history notes in this package version.</p>
+        )}
       </section>
     </div>
   );

@@ -20,6 +20,7 @@ export default function CoveragePage() {
   const rows = resolveCatalog(pkg)
     .slice()
     .sort((a, b) => b.evidence.games - a.evidence.games);
+  const emptyFriendlies = pkg.friendly_comps.filter((c) => c.matchup_count === 0);
   return (
     <div className="stack">
       <section className="hero">
@@ -27,8 +28,11 @@ export default function CoveragePage() {
         <h2>Coverage</h2>
         <p className="muted">
           {health.valid_2v2} valid 2v2 · {health.assigned} assigned · {health.unresolved} unresolved ·{" "}
-          {health.matchup_groups} matchups · Disc/Sub evidence: {health.disc_sub_evidence} · package{" "}
-          {pkg.package_version}
+          {health.matchup_groups} matchups · package {pkg.package_version}
+        </p>
+        <p className="muted">
+          Sample-size bands (not strategy confidence): high {health.coverage.high} · medium {health.coverage.medium} ·
+          low {health.coverage.low}
         </p>
       </section>
       <div className="panel" style={{ overflowX: "auto" }}>
@@ -38,7 +42,8 @@ export default function CoveragePage() {
               <th>Matchup</th>
               <th>Games</th>
               <th>W/L</th>
-              <th>Confidence</th>
+              <th>Sample size</th>
+              <th>Strategy confidence</th>
               <th>Status</th>
             </tr>
           </thead>
@@ -55,6 +60,9 @@ export default function CoveragePage() {
                   <span className="loss">{s.evidence.losses}</span>
                 </td>
                 <td>
+                  <span className={`badge ${s.sample_band}`}>{s.sample_band}</span>
+                </td>
+                <td>
                   <span className={`badge ${s.confidence}`}>{s.confidence}</span>
                 </td>
                 <td>
@@ -62,11 +70,11 @@ export default function CoveragePage() {
                 </td>
               </tr>
             ))}
-            {health.disc_sub_evidence === 0 && (
-              <tr>
+            {emptyFriendlies.map((c) => (
+              <tr key={c.name}>
                 <td>
-                  Disc / Sub
-                  <div className="muted">Discipline Priest / Subtlety Rogue</div>
+                  {c.name}
+                  <div className="muted">{c.status}</div>
                 </td>
                 <td>0</td>
                 <td>—</td>
@@ -74,10 +82,13 @@ export default function CoveragePage() {
                   <span className="badge low">low</span>
                 </td>
                 <td>
-                  <span className="badge insufficient_evidence">insufficient_evidence</span>
+                  <span className="badge insufficient">insufficient</span>
+                </td>
+                <td>
+                  <span className="badge insufficient_evidence">no_evidence</span>
                 </td>
               </tr>
-            )}
+            ))}
           </tbody>
         </table>
       </div>

@@ -4,5 +4,24 @@
   "unresolved": 19,
   "excluded": 2,
   "matchup_groups": 49,
-  "disc_sub_evidence": 0
+  "friendly_comps": [
+    {
+      "name": "Priest / Subtlety Rogue",
+      "status": "evidence_available",
+      "matchup_count": 3,
+      "games": 3
+    },
+    {
+      "name": "Shadow Priest / Subtlety Rogue",
+      "status": "evidence_available",
+      "matchup_count": 62,
+      "games": 484
+    }
+  ],
+  "coverage": {
+    "high": 3,
+    "medium": 8,
+    "low": 38
+  },
+  "coverage_note": "high/medium/low here are sample-size bands (>=30 / >=10 / <10 games), not strategic confidence."
 }

@@ -1,85 +1,33 @@
-"""Export a versioned canonical package + slim evidence from prepared_corpus.
+"""Export factual match evidence only.
 
-Does not invent strategy text. Default-line fields stay null until a real
-canonical package supplies them. Evidence frequencies are facts only.
+Never writes canonical-package.json or any strategy text, branches, roles,
+approval state, strategic confidence, or supporting/counterexample labels.
+Those belong to the canonical-strategy track.
+
+Usage:
+  python scripts/export_data.py --corpus "C:\\path\\to\\prepared_corpus"
+  set WAS_CORPUS=... && python scripts/export_data.py
 """
 
 from __future__ import annotations
 
+import argparse
 import json
-import re
-from collections import defaultdict
+import os
+import sys
+from collections import Counter, defaultdict
 from pathlib import Path
 
-CORPUS = Path(r"C:\Users\Gary Goldman\Downloads\Codex_work\Wow strategist\analysis\prepared_corpus")
 OUT = Path(__file__).resolve().parents[1] / "public" / "data"
-
-FRIENDLY = [
-    "Shadow Priest / Subtlety Rogue",
-    "Discipline Priest / Subtlety Rogue",
-]
-
-ABBREV = {
-    "Shadow Priest": "SP",
-    "Discipline Priest": "Disc",
-    "Subtlety Rogue": "Sub",
-    "Assassination Rogue": "Sin",
-    "Combat Rogue": "Combat",
-    "Arms Warrior": "Arms",
-    "Fury Warrior": "Fury",
-    "Protection Warrior": "ProtWar",
-    "Holy Paladin": "HPal",
-    "Retribution Paladin": "Ret",
-    "Protection Paladin": "ProtPal",
-    "Frost Mage": "Frost",
-    "Arcane Mage": "Arcane",
-    "Fire Mage": "Fire",
-    "Feral Druid": "Feral",
-    "Balance Druid": "Boomkin",
-    "Restoration Druid": "Resto",
-    "Restoration Shaman": "Rsham",
-    "Elemental Shaman": "Ele",
-    "Enhancement Shaman": "Enh",
-    "Unholy Death Knight": "Unholy",
-    "Frost Death Knight": "FrostDK",
-    "Blood Death Knight": "Blood",
-    "Marksmanship Hunter": "MM",
-    "Beast Mastery Hunter": "BM",
-    "Survival Hunter": "Surv",
-    "Destruction Warlock": "Destro",
-    "Affliction Warlock": "Aff",
-    "Demonology Warlock": "Demo",
-}
-
-FRIENDLY_KEY = {
-    "Shadow Priest / Subtlety Rogue": "SPR",
-    "Discipline Priest / Subtlety Rogue": "DiscSub",
-}
+CANONICAL_NAME = "canonical-package.json"
 
 
-def short_enemy(comp: str) -> str:
-    parts = [p.strip() for p in comp.split(" / ")]
-    return " / ".join(ABBREV.get(p, p) for p in parts)
-
-
-def strategy_key(our: str, enemy: str) -> str:
-    our_k = FRIENDLY_KEY.get(our, re.sub(r"[^A-Za-z0-9]+", "", our))
-    enemy_k = "_".join(ABBREV.get(p.strip(), re.sub(r"[^A-Za-z0-9]+", "", p)) for p in enemy.split(" / "))
-    return f"{our_k}_vs_{enemy_k}"
-
-
-def confidence(games: int) -> str:
+def coverage_band(games: int) -> str:
     if games >= 30:
         return "high"
     if games >= 10:
         return "medium"
     return "low"
-
-
-def status(games: int) -> str:
-    if games < 5:
-        return "insufficient_evidence"
-    return "provisional"
 
 
 def load_jsonl(path: Path) -> list[dict]:
@@ -92,108 +40,71 @@ def load_jsonl(path: Path) -> list[dict]:
     return rows
 
 
-def main() -> None:
-    OUT.mkdir(parents=True, exist_ok=True)
-    stats = json.loads((CORPUS / "matchup_stats.json").read_text(encoding="utf-8"))
-    index = json.loads((CORPUS / "matchup_index.json").read_text(encoding="utf-8"))
-    matches = load_jsonl(CORPUS / "normalized_matches.jsonl")
-    unresolved = load_jsonl(CORPUS / "unresolved_matches.jsonl")
-    excluded = load_jsonl(CORPUS / "excluded_records.jsonl")
+def field_value(row: dict, name: str) -> str | None:
+    value = row.get(name)
+    if isinstance(value, dict):
+        return value.get("normalized") or value.get("value")
+    return value
 
-    by_matchup = defaultdict(list)
-    for row in index:
-        if row.get("matchup"):
-            by_matchup[row["matchup"]].append(row)
 
-    matches_by_id = {m["match_id"]: m for m in matches}
+def resolve_corpus(explicit: str | None) -> Path:
+    if explicit:
+        return Path(explicit)
+    env = os.environ.get("WAS_CORPUS")
+    if env:
+        return Path(env)
+    raise SystemExit(
+        "prepared_corpus path required. Pass --corpus PATH or set WAS_CORPUS. "
+        "This exporter does not hardcode a machine-specific directory."
+    )
 
-    current = {}
-    strategies = []
-    for st in stats:
-        our, enemy = st["matchup_key"].split("__vs__")
-        key = strategy_key(our, enemy)
-        sid = f"{key}_v1"
-        current[key] = sid
-        rows = by_matchup.get(st["matchup_key"], [])
-        wins = [r["match_id"] for r in rows if r.get("result") == "win"]
-        losses = [r["match_id"] for r in rows if r.get("result") == "loss"]
-        games = st["total_games"]
-        strategies.append(
-            {
-                "strategy_key": key,
-                "strategy_id": sid,
-                "version": 1,
-                "status": status(games),
-                "confidence": confidence(games),
-                "our_comp": our,
-                "enemy_comp": enemy,
-                "enemy_short": short_enemy(enemy),
-                "default_line": {
-                    "start": None,
-                    "objective": None,
-                    "win_condition": None,
-                    "convert": None,
-                    "alternative": None,
-                    "reset": None,
-                },
-                "roles": {
-                    "team": {"summary": None, "responsibilities": []},
-                    "priest": {"summary": None, "responsibilities": []},
-                    "rogue": {"summary": None, "responsibilities": []},
-                },
-                "branches": [],
-                "failure_modes": [],
-                "evidence": {
-                    "games": games,
-                    "wins": st["wins"],
-                    "losses": st["losses"],
-                    "unknown_result": st["unknown_result"],
-                    "opening_target_known": st["opening_target_known"],
-                    "opening_target_unknown": st["opening_target_unknown"],
-                    "opening_targets": st["opening_targets"],
-                    "kill_target_known": st["kill_target_known"],
-                    "kill_target_unknown": st["kill_target_unknown"],
-                    "kill_targets": st["kill_targets"],
-                    "source_batches": st["source_batch_distribution"],
-                    "supporting_match_ids": wins[:40],
-                    "counterexample_match_ids": losses[:20],
-                    "all_match_ids": [r["match_id"] for r in rows],
-                },
-                "history": [
-                    {
-                        "strategy_id": sid,
-                        "version": 1,
-                        "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text.",
-                    }
-                ],
-            }
-        )
 
-    package = {
-        "schema_version": "1.0.0",
-        "package_version": "0.1.0",
-        "package_id": "wow-arena-strategist-canonical",
-        "generated_from": "analysis/prepared_corpus",
-        "notes": "Provisional evidence package. Default-line and role text are empty until Astra supplies approved strategy versions.",
-        "friendly_comps": FRIENDLY,
-        "current": current,
-        "strategies": strategies,
-    }
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description="Export slim match evidence; never overwrite canonical strategy.")
+    parser.add_argument("--corpus", help="Path to prepared_corpus directory")
+    parser.add_argument("--out", default=str(OUT), help="Output directory (default: public/data)")
+    args = parser.parse_args(argv)
+
+    corpus = resolve_corpus(args.corpus)
+    out = Path(args.out)
+    out.mkdir(parents=True, exist_ok=True)
+
+    if not corpus.is_dir():
+        raise SystemExit(f"corpus not found: {corpus}")
+
+    before_canonical = None
+    canonical_path = out / CANONICAL_NAME
+    if canonical_path.exists():
+        before_canonical = canonical_path.read_bytes()
+
+    stats = json.loads((corpus / "matchup_stats.json").read_text(encoding="utf-8"))
+    matches = load_jsonl(corpus / "normalized_matches.jsonl")
+    unresolved = load_jsonl(corpus / "unresolved_matches.jsonl") if (corpus / "unresolved_matches.jsonl").exists() else []
+    excluded = load_jsonl(corpus / "excluded_records.jsonl") if (corpus / "excluded_records.jsonl").exists() else []
 
     slim = []
+    friendly_games: Counter[str] = Counter()
+    friendly_matchups: dict[str, set[str]] = defaultdict(set)
     for m in matches:
+        our = field_value(m, "our_comp")
+        enemy = field_value(m, "enemy_comp")
+        result = field_value(m, "result")
+        if our:
+            friendly_games[our] += 1
+            if enemy:
+                friendly_matchups[our].add(enemy)
         slim.append(
             {
                 "match_id": m["match_id"],
                 "matchup": m.get("matchup_key"),
-                "result": (m.get("result") or {}).get("value"),
-                "our_comp": (m.get("our_comp") or {}).get("normalized"),
-                "enemy_comp": (m.get("enemy_comp") or {}).get("normalized"),
-                "opening_target": (m.get("opening_target") or {}).get("normalized"),
+                "result": result,
+                "our_comp": our,
+                "enemy_comp": enemy,
+                "opening_target": field_value(m, "opening_target"),
                 "opening_cc": m.get("opening_cc"),
-                "kill_target": (m.get("kill_target") or {}).get("normalized"),
-                "source_batch": m.get("provenance", {}).get("source_batch"),
-                "source_clip": m.get("provenance", {}).get("source_clip"),
+                "kill_target": field_value(m, "kill_target"),
+                "source_batch": (m.get("provenance") or {}).get("source_batch"),
+                "source_clip": (m.get("provenance") or {}).get("source_clip"),
                 "quality_flags": m.get("quality_flags") or [],
                 "confidence": m.get("confidence_from_source"),
                 "analysis_status": m.get("analysis_status_from_source"),
@@ -205,20 +116,44 @@ def main() -> None:
             }
         )
 
+    bands = Counter(coverage_band(st["total_games"]) for st in stats)
     health = {
         "valid_2v2": len(matches),
         "assigned": sum(1 for m in matches if m.get("matchup_key")),
         "unresolved": len(unresolved),
         "excluded": len(excluded),
         "matchup_groups": len(stats),
-        "disc_sub_evidence": 0,
+        "friendly_comps": [
+            {
+                "name": name,
+                "status": "evidence_available" if games else "no_evidence",
+                "matchup_count": len(friendly_matchups.get(name, ())),
+                "games": games,
+            }
+            for name, games in sorted(friendly_games.items())
+        ],
+        "coverage": {
+            "high": bands.get("high", 0),
+            "medium": bands.get("medium", 0),
+            "low": bands.get("low", 0),
+        },
+        "coverage_note": "high/medium/low here are sample-size bands (>=30 / >=10 / <10 games), not strategic confidence.",
     }
 
-    (OUT / "canonical-package.json").write_text(json.dumps(package, indent=2), encoding="utf-8")
-    (OUT / "matches-slim.json").write_text(json.dumps(slim), encoding="utf-8")
-    (OUT / "corpus-health.json").write_text(json.dumps(health, indent=2), encoding="utf-8")
-    print(f"wrote {len(strategies)} strategies, {len(slim)} matches -> {OUT}")
+    (out / "matches-slim.json").write_text(json.dumps(slim), encoding="utf-8")
+    (out / "corpus-health.json").write_text(json.dumps(health, indent=2), encoding="utf-8")
+
+    if canonical_path.exists():
+        after = canonical_path.read_bytes()
+        if before_canonical is not None and after != before_canonical:
+            raise SystemExit("refusing to continue: canonical-package.json changed during evidence export")
+    elif before_canonical is not None:
+        raise SystemExit("canonical-package.json disappeared during evidence export")
+
+    print(f"wrote {len(slim)} matches and corpus-health -> {out}")
+    print(f"left {CANONICAL_NAME} untouched")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

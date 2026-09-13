@@ -3,40 +3,50 @@
 Static encyclopedia for Warmane WotLK 3.3.5 2v2. It is a **reader** of a versioned canonical strategy package, not a strategy generator.
 
 ```text
-prepared_corpus  →  scripts/export_data.py  →  public/data/*.json  →  UI
+canonical-strategy track  →  npm run install-canonical  →  public/data/canonical-package.json
+prepared_corpus           →  npm run export-data        →  public/data/matches-slim.json
+                                                        →  public/data/corpus-health.json
+                                                              ↓
+                                                            Vite UI
 ```
 
 Lookup is deterministic. There is no LLM in the matchup path.
 
-## V1 information architecture
+Do **not** edit matchup copy, branches, roles, confidence, or supporting/contradicting IDs in React. Those belong to the canonical package.
+
+## Information architecture
 
 | Route | Purpose |
 | --- | --- |
 | `/` | Friendly-comp selector + enemy alias search |
 | `/matchup/:strategyKey` | Default plan, Team/Priest/Rogue tabs, branches, evidence |
-| `/coverage` | Corpus health and per-matchup sample size |
+| `/coverage` | Corpus health and per-matchup sample size vs strategy confidence |
 | `/match/:matchId` | Single evidence record |
 
 Identity:
 
 - `strategy_key` — stable matchup id, used in routes (`SPR_vs_Arms_HPal`)
 - `strategy_id` — a specific version (`SPR_vs_Arms_HPal_v1`, `_v2`, …)
-- `current` in the package — which `strategy_id` is live
+- `current` in the installed package — which `strategy_id` is live
 
-Until an approved Astra package exists, default-line and role text stay empty. The UI shows **No approved strategy text** and evidence frequencies only. Discipline Priest / Subtlety Rogue has no evidence and is not given a fabricated card.
+`current` is authoritative. If v1 and v2 both exist and `current` points at v1, the UI shows v1. There is no highest-version fallback. A broken `current` pointer fails validation and is not rendered.
+
+## Status vs content
+
+- **Strategy text present** — canonical analysis exists (Start/Objective/…).
+- **`provisional`** — display that text, labelled provisional. Not approved.
+- **`approved`** — package explicitly marks it approved.
+- **`insufficient_evidence`** — too sparse for a usable strategy.
+
+Do not infer approval from non-null default-line fields.
+
+Strategic **confidence** is authored in the canonical package. Coverage **sample-size** bands (`>=30` high, `>=10` medium, else low) are a separate corpus metric.
+
+Supporting / contradicting match IDs come from canonical synthesis. A win is not automatically supporting. A loss is not automatically a counterexample.
 
 ## Run
 
-Double-click `start.bat`. It checks Node.js (installs LTS via winget if missing), installs npm packages, verifies corpus JSON, starts the local server, and opens http://127.0.0.1:5173/
-
-From the repo root you can also double-click `start.bat`, which forwards to `webapp\start.bat`.
-
-```powershell
-cd webapp
-.\start.bat
-```
-
-Manual:
+Double-click `start.bat`, or from `webapp/`:
 
 ```powershell
 npm install
@@ -44,50 +54,54 @@ npm test
 npm start
 ```
 
-Live site (GitHub Pages): https://abeworld.github.io/WowStrategist/
+Live site: https://abeworld.github.io/WowStrategist/
 
-Production build:
+`npm run build` produces `dist/` for any static host. GitHub Actions deploys Pages from `main`.
+
+## Install a canonical strategy package
 
 ```powershell
-npm run build
-npm run preview
+python scripts/install_canonical.py --source "C:\path\to\canonical_strategy\refinements\targeted_v2"
+# or
+npm run install-canonical -- --source "C:\path\to\strategies.json"
 ```
 
-`dist/` is a static site. Any static host works. No database, auth, or backend.
+Source may be:
 
-GitHub Actions builds `webapp/` on every push to `main` and publishes GitHub Pages. Deep links use `404.html` as an SPA fallback. The Vite `base` path is `/WowStrategist/` in CI so assets and `/data/*.json` resolve on the project site.
+- a directory containing `strategies.json` and optionally `matchup_index.json`
+- a `strategies.json` file (sibling `matchup_index.json` is used if present)
 
-## Refresh evidence from prepared_corpus
+The installer validates schema `1.0.0`, unique `strategy_id`s, `current` pointers, status/confidence enums, default-line claims, role structure, and evidence arrays. On failure the previous `public/data/canonical-package.json` is left unchanged.
+
+Do not copy JSON over the live file by hand unless you have already validated it.
+
+## Refresh evidence
 
 ```powershell
+python scripts/export_data.py --corpus "C:\path\to\analysis\prepared_corpus"
+# or set WAS_CORPUS and run:
 npm run export-data
 ```
 
-This rewrites:
+This rewrites **only**:
 
-- `public/data/canonical-package.json`
 - `public/data/matches-slim.json`
 - `public/data/corpus-health.json`
 
-It does **not** invent start/objective/win-condition text.
-
-## Load a new canonical strategy release
-
-Replace `public/data/canonical-package.json` with the new package (schema `1.0.0`).
-
-Required:
-
-1. `current` maps each `strategy_key` to the live `strategy_id`
-2. Both v1 and v2 may live in `strategies[]`; the UI reads `current`, not a `_v1` suffix
-3. `status` remains `provisional` / `insufficient_evidence` / `approved` as the package says
-4. Missing optional sections (`branches`, role summaries, default line) render as empty states
-
-Do **not** edit matchup copy in React components. If the new package needs a UI code change to show a specific matchup, the data boundary is too tight.
-
-Optional: keep `matches-slim.json` in sync if evidence IDs changed.
-
-Then `npm test` and `npm run build`. Unaffected matchups should render from the new JSON without component edits.
+It never writes or mutates `canonical-package.json`. It does not invent strategy text, branches, roles, approval, strategic confidence, or supporting/counterexample labels.
 
 ## Tests
 
-`npm test` covers alias normalization, reversed enemy order, current-version resolution, missing/sparse strategies, role/branch fields, and schema validation of the on-disk package.
+```powershell
+npm test
+npm run test-pipeline
+npm run build
+```
+
+`npm test` covers aliases, reversed enemy order, current-version resolution, approval vs content, Disc/Sub data-driven empty/present states, and package validation. `npm run test-pipeline` proves evidence export cannot clobber canonical JSON and that invalid installs are rejected.
+
+## What not to edit manually
+
+- Matchup strategy wording in `src/pages/*`
+- `current` by guessing `_v2`
+- Opening-target labels in React (normalization belongs upstream; the UI reads canonical `facts`)

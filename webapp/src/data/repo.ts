@@ -1,5 +1,9 @@
-import type { CanonicalPackage, CorpusHealth, SlimMatch, Strategy } from "./types";
+import { adaptPackage, hasStrategyContent, isApproved } from "./adapter";
 import { currentStrategies, currentStrategy } from "./normalize";
+import type { CanonicalPackage, CorpusHealth, RawCanonicalPackage, SlimMatch, Strategy } from "./types";
+import { validateCanonicalPackage } from "./validate";
+
+export { hasStrategyContent, isApproved };
 
 function dataUrl(file: string): string {
   const base = import.meta.env.BASE_URL.endsWith("/")
@@ -14,8 +18,17 @@ async function loadJson<T>(url: string): Promise<T> {
   return (await res.json()) as T;
 }
 
+export function parsePackage(raw: unknown): CanonicalPackage {
+  const errors = validateCanonicalPackage(raw as RawCanonicalPackage);
+  if (errors.length) {
+    throw new Error(`Invalid canonical package:\n- ${errors.join("\n- ")}`);
+  }
+  return adaptPackage(raw as RawCanonicalPackage);
+}
+
 export async function loadPackage(): Promise<CanonicalPackage> {
-  return loadJson(dataUrl("canonical-package.json"));
+  const raw = await loadJson<RawCanonicalPackage>(dataUrl("canonical-package.json"));
+  return parsePackage(raw);
 }
 
 export async function loadMatches(): Promise<SlimMatch[]> {
@@ -34,14 +47,13 @@ export function resolveCatalog(pkg: CanonicalPackage): Strategy[] {
   return currentStrategies(pkg.strategies, pkg.current);
 }
 
-export function hasApprovedLine(strategy: Strategy): boolean {
-  const line = strategy.default_line;
-  return Boolean(line.start || line.objective || line.win_condition);
-}
-
 export function hasRoleText(strategy: Strategy): boolean {
   return (["team", "priest", "rogue"] as const).some((role) => {
     const view = strategy.roles[role];
     return Boolean(view.summary) || view.responsibilities.length > 0;
   });
+}
+
+export function emptyFriendlyMessage(name: string): string {
+  return `No strategies for ${name} in the current canonical package.`;
 }

@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState, type FormEvent } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { lookupStrategies } from "../data/normalize";
-import { loadHealth, loadPackage, resolveCatalog } from "../data/repo";
+import { emptyFriendlyMessage, loadHealth, loadPackage, resolveCatalog } from "../data/repo";
 import type { CanonicalPackage, CorpusHealth } from "../data/types";
 
 const FRIENDLY_KEY = "was.friendly";
@@ -21,6 +21,8 @@ export default function HomePage() {
       .then(([p, h]) => {
         setPkg(p);
         setHealth(h);
+        const names = p.friendly_comps.map((c) => c.name);
+        if (names.length && !names.includes(friendly)) setFriendly(names[0]);
       })
       .catch((err: unknown) => setError(err instanceof Error ? err.message : String(err)));
   }, []);
@@ -30,11 +32,9 @@ export default function HomePage() {
   }, [friendly]);
 
   const catalog = useMemo(() => (pkg ? resolveCatalog(pkg) : []), [pkg]);
-  const hits = useMemo(
-    () => lookupStrategies(catalog, friendly, query),
-    [catalog, friendly, query],
-  );
-  const discSub = friendly === "Discipline Priest / Subtlety Rogue";
+  const hits = useMemo(() => lookupStrategies(catalog, friendly, query), [catalog, friendly, query]);
+  const friendlyMeta = pkg?.friendly_comps.find((c) => c.name === friendly);
+  const noFriendlyStrategies = Boolean(pkg) && !hits.length && !query;
 
   function onSubmit(event: FormEvent) {
     event.preventDefault();
@@ -50,9 +50,8 @@ export default function HomePage() {
         <div className="kicker">Instant matchup lookup</div>
         <h2>What do we do into this comp?</h2>
         <p className="muted">
-          Canonical strategy text is empty until an approved package is loaded. Lookup still
-          returns evidence snapshots from {health?.valid_2v2 ?? "—"} valid 2v2 games · package{" "}
-          {pkg.package_version}.
+          Canonical package {pkg.package_version} · {health?.valid_2v2 ?? "—"} valid 2v2 evidence records. Lookup is
+          deterministic. Strategy text comes only from the installed package.
         </p>
         <form className="row" style={{ marginTop: 12 }} onSubmit={onSubmit}>
           <label>
@@ -60,8 +59,8 @@ export default function HomePage() {
             <div>
               <select value={friendly} onChange={(e) => setFriendly(e.target.value)}>
                 {pkg.friendly_comps.map((c) => (
-                  <option key={c} value={c}>
-                    {c}
+                  <option key={c.name} value={c.name}>
+                    {c.name}
                   </option>
                 ))}
               </select>
@@ -83,10 +82,10 @@ export default function HomePage() {
           </button>
         </form>
       </section>
-      {discSub && (
+      {noFriendlyStrategies && (
         <div className="panel empty">
-          No Discipline Priest / Subtlety Rogue evidence in this corpus. No strategy is invented
-          for this friendly composition.
+          {emptyFriendlyMessage(friendly)}
+          {friendlyMeta ? ` Package status: ${friendlyMeta.status} · ${friendlyMeta.matchup_count} matchups.` : ""}
         </div>
       )}
       <ul className="list">
@@ -97,12 +96,11 @@ export default function HomePage() {
               <span className="muted"> · {s.enemy_comp}</span>
             </Link>
             <div className="muted">
-              {s.evidence.games} games · {s.evidence.wins}W/{s.evidence.losses}L · {s.confidence} ·{" "}
-              {s.status}
+              {s.evidence.games} games · {s.evidence.wins}W/{s.evidence.losses}L · strategy {s.confidence} · {s.status}
             </div>
           </li>
         ))}
-        {!hits.length && !discSub && query && <li className="empty">No matchup matches that search.</li>}
+        {!hits.length && !noFriendlyStrategies && query && <li className="empty">No matchup matches that search.</li>}
       </ul>
     </div>
   );
