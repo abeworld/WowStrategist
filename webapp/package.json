@@ -6,6 +6,7 @@
   "scripts": {
     "export-data": "python scripts/export_data.py",
     "dev": "vite",
+    "start": "vite --host 127.0.0.1 --port 5173",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview --host 127.0.0.1 --port 4173",
     "test": "vitest run"

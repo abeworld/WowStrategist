@@ -27,14 +27,22 @@ Until an approved Astra package exists, default-line and role text stay empty. T
 
 ## Run
 
+Double-click `start.bat`. It checks Node.js (installs LTS via winget if missing), installs npm packages, verifies corpus JSON, starts the local server, and opens http://127.0.0.1:5173/
+
+From the repo root you can also double-click `start.bat`, which forwards to `webapp\start.bat`.
+
 ```powershell
-cd "C:\Users\Gary Goldman\Downloads\Codex_work\Wow strategist\webapp"
-npm install
-npm test
-npm run dev
+cd webapp
+.\start.bat
 ```
 
-Then open http://127.0.0.1:5173/
+Manual:
+
+```powershell
+npm install
+npm test
+npm start
+```
 
 Live site (GitHub Pages): https://abeworld.github.io/WowStrategist/
 

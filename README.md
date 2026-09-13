@@ -4,6 +4,8 @@ Arena VOD cutter plus a static 2v2 encyclopedia.
 
 Live encyclopedia: https://abeworld.github.io/WowStrategist/
 
+Local app: double-click `start.bat` (or `webapp\start.bat`). It installs Node/npm packages if needed, then opens http://127.0.0.1:5173/
+
 # Arena cutter
 
 Local Python tool that takes one World of Warcraft arena VOD, detects each arena session from the top-center Gold/Green team-status block, and exports one MP4 per match plus manifests and a static review page.
