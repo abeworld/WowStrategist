@@ -13,3 +13,7 @@ venv/
 # Local tooling
 .idea/
 .vscode/
+
+# Web encyclopedia
+webapp/node_modules/
+webapp/dist/

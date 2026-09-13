@@ -1,3 +1,9 @@
+# WowStrategist
+
+Arena VOD cutter plus a static 2v2 encyclopedia.
+
+Live encyclopedia: https://abeworld.github.io/WowStrategist/
+
 # Arena cutter
 
 Local Python tool that takes one World of Warcraft arena VOD, detects each arena session from the top-center Gold/Green team-status block, and exports one MP4 per match plus manifests and a static review page.

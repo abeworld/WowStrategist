@@ -1,0 +1,4328 @@
+{
+  "schema_version": "1.0.0",
+  "package_version": "0.1.0",
+  "package_id": "wow-arena-strategist-canonical",
+  "generated_from": "analysis/prepared_corpus",
+  "notes": "Provisional evidence package. Default-line and role text are empty until Astra supplies approved strategy versions.",
+  "friendly_comps": [
+    "Shadow Priest / Subtlety Rogue",
+    "Discipline Priest / Subtlety Rogue"
+  ],
+  "current": {
+    "SPR_vs_SP_Sub": "SPR_vs_SP_Sub_v1",
+    "SPR_vs_Arms_HPal": "SPR_vs_Arms_HPal_v1",
+    "SPR_vs_Disc_Feral": "SPR_vs_Disc_Feral_v1",
+    "SPR_vs_Boomkin_Sub": "SPR_vs_Boomkin_Sub_v1",
+    "SPR_vs_Arms_Resto": "SPR_vs_Arms_Resto_v1",
+    "SPR_vs_Arms_Disc": "SPR_vs_Arms_Disc_v1",
+    "SPR_vs_MM_Ret": "SPR_vs_MM_Ret_v1",
+    "SPR_vs_Destro_HPal": "SPR_vs_Destro_HPal_v1",
+    "SPR_vs_Disc_MM": "SPR_vs_Disc_MM_v1",
+    "SPR_vs_Ret_Unholy": "SPR_vs_Ret_Unholy_v1",
+    "SPR_vs_Frost_SP": "SPR_vs_Frost_SP_v1",
+    "SPR_vs_Disc_Frost": "SPR_vs_Disc_Frost_v1",
+    "SPR_vs_Disc_Sub": "SPR_vs_Disc_Sub_v1",
+    "SPR_vs_Destro_Ele": "SPR_vs_Destro_Ele_v1",
+    "SPR_vs_Enh_Ret": "SPR_vs_Enh_Ret_v1",
+    "SPR_vs_Boomkin_Frost": "SPR_vs_Boomkin_Frost_v1",
+    "SPR_vs_Destro_Rsham": "SPR_vs_Destro_Rsham_v1",
+    "SPR_vs_Destro_Resto": "SPR_vs_Destro_Resto_v1",
+    "SPR_vs_Disc_Unholy": "SPR_vs_Disc_Unholy_v1",
+    "SPR_vs_Fire_Sub": "SPR_vs_Fire_Sub_v1",
+    "SPR_vs_Frost_Sub": "SPR_vs_Frost_Sub_v1",
+    "SPR_vs_Ret_Sub": "SPR_vs_Ret_Sub_v1",
+    "SPR_vs_SP_Unholy": "SPR_vs_SP_Unholy_v1",
+    "SPR_vs_Arms_Ret": "SPR_vs_Arms_Ret_v1",
+    "SPR_vs_Sin_Ret": "SPR_vs_Sin_Ret_v1",
+    "SPR_vs_Destro_Disc": "SPR_vs_Destro_Disc_v1",
+    "SPR_vs_Arcane_Sub": "SPR_vs_Arcane_Sub_v1",
+    "SPR_vs_Arms_Boomkin": "SPR_vs_Arms_Boomkin_v1",
+    "SPR_vs_Ele_Ret": "SPR_vs_Ele_Ret_v1",
+    "SPR_vs_Feral_Rsham": "SPR_vs_Feral_Rsham_v1",
+    "SPR_vs_Fury_HPal": "SPR_vs_Fury_HPal_v1",
+    "SPR_vs_ProtPal_Rsham": "SPR_vs_ProtPal_Rsham_v1",
+    "SPR_vs_ProtWar_Ret": "SPR_vs_ProtWar_Ret_v1",
+    "SPR_vs_ProtWar_Unholy": "SPR_vs_ProtWar_Unholy_v1",
+    "SPR_vs_Rsham_Unholy": "SPR_vs_Rsham_Unholy_v1",
+    "SPR_vs_Ret_SP": "SPR_vs_Ret_SP_v1",
+    "SPR_vs_Aff_Rsham": "SPR_vs_Aff_Rsham_v1",
+    "SPR_vs_Sin_Disc": "SPR_vs_Sin_Disc_v1",
+    "SPR_vs_Boomkin_HPal": "SPR_vs_Boomkin_HPal_v1",
+    "SPR_vs_Disc_Fire": "SPR_vs_Disc_Fire_v1",
+    "SPR_vs_Disc_Ret": "SPR_vs_Disc_Ret_v1",
+    "SPR_vs_Enh_MM": "SPR_vs_Enh_MM_v1",
+    "SPR_vs_Enh_Sub": "SPR_vs_Enh_Sub_v1",
+    "SPR_vs_Feral_MM": "SPR_vs_Feral_MM_v1",
+    "SPR_vs_Feral_SP": "SPR_vs_Feral_SP_v1",
+    "SPR_vs_HPal_SP": "SPR_vs_HPal_SP_v1",
+    "SPR_vs_MM_ProtWar": "SPR_vs_MM_ProtWar_v1",
+    "SPR_vs_MM_Unholy": "SPR_vs_MM_Unholy_v1",
+    "SPR_vs_ProtWar_Resto": "SPR_vs_ProtWar_Resto_v1"
+  },
+  "strategies": [
+    {
+      "strategy_key": "SPR_vs_SP_Sub",
+      "strategy_id": "SPR_vs_SP_Sub_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "high",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_short": "SP / Sub",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 104,
+        "wins": 67,
+        "losses": 37,
+        "unknown_result": 0,
+        "opening_target_known": 103,
+        "opening_target_unknown": 1,
+        "opening_targets": {
+          "Subtlety Rogue": 44,
+          "Shadow Priest": 20,
+          "Rogue": 29,
+          "Priest": 7,
+          "Enemy Rogue for the first sustained Rogue attack about 48\u00e2\u20ac\u201c52s": 1,
+          "Enemy Rogue for the first sustained Rogue attack about 71s": 1,
+          "Enemy Rogue": 1
+        },
+        "kill_target_known": 66,
+        "kill_target_unknown": 38,
+        "kill_targets": {
+          "Shadow Priest": 23,
+          "Subtlety Rogue": 18,
+          "Rogue": 11,
+          "Priest": 7,
+          "none observed": 3,
+          "Rogue at approximately 102.5s": 1,
+          "Enemy Rogue": 2,
+          "Rogue first": 1
+        },
+        "source_batches": {
+          "august_31st_2550_20260912": 1,
+          "january_4th_2700_20260913": 14,
+          "january_5th_full_20260912": 6,
+          "june_7th_2700_20260913": 1,
+          "may_18th_2500_20260913": 30,
+          "may_24th_2450_20260913": 29,
+          "may_4th_2350_20260913": 10,
+          "september_11th_2500_20260912": 11,
+          "september_20th_2650_20260913": 1,
+          "september_28th_2700_20260913": 1
+        },
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_027",
+          "january_4th_2700_20260913__match_021",
+          "january_4th_2700_20260913__match_025",
+          "january_4th_2700_20260913__match_029",
+          "january_4th_2700_20260913__match_038",
+          "january_4th_2700_20260913__match_040",
+          "january_4th_2700_20260913__match_046",
+          "january_5th_full_20260912__match_003",
+          "january_5th_full_20260912__match_004",
+          "january_5th_full_20260912__match_027",
+          "january_5th_full_20260912__match_032",
+          "january_5th_full_20260912__match_045",
+          "june_7th_2700_20260913__match_040",
+          "may_18th_2500_20260913__may18_2500_match_004",
+          "may_18th_2500_20260913__may18_2500_match_006",
+          "may_18th_2500_20260913__may18_2500_match_007",
+          "may_18th_2500_20260913__may18_2500_match_008",
+          "may_18th_2500_20260913__may18_2500_match_014",
+          "may_18th_2500_20260913__may18_2500_match_015",
+          "may_18th_2500_20260913__may18_2500_match_017",
+          "may_18th_2500_20260913__may18_2500_match_020",
+          "may_18th_2500_20260913__may18_2500_match_022",
+          "may_18th_2500_20260913__may18_2500_match_033",
+          "may_18th_2500_20260913__may18_2500_match_041",
+          "may_18th_2500_20260913__may18_2500_match_043",
+          "may_18th_2500_20260913__may18_2500_match_045",
+          "may_18th_2500_20260913__may18_2500_match_049",
+          "may_18th_2500_20260913__may18_2500_match_054",
+          "may_18th_2500_20260913__may18_2500_match_056",
+          "may_18th_2500_20260913__may18_2500_match_059",
+          "may_18th_2500_20260913__may18_2500_match_061",
+          "may_18th_2500_20260913__may18_2500_match_068",
+          "may_18th_2500_20260913__may18_2500_match_070",
+          "may_18th_2500_20260913__may18_2500_match_072",
+          "may_24th_2450_20260913__may24_2450_match_002",
+          "may_24th_2450_20260913__may24_2450_match_004",
+          "may_24th_2450_20260913__may24_2450_match_009",
+          "may_24th_2450_20260913__may24_2450_match_018",
+          "may_24th_2450_20260913__may24_2450_match_020",
+          "may_24th_2450_20260913__may24_2450_match_022"
+        ],
+        "counterexample_match_ids": [
+          "january_4th_2700_20260913__match_013",
+          "january_4th_2700_20260913__match_018",
+          "january_4th_2700_20260913__match_027",
+          "january_4th_2700_20260913__match_028",
+          "january_4th_2700_20260913__match_032",
+          "january_4th_2700_20260913__match_034",
+          "january_4th_2700_20260913__match_036",
+          "january_4th_2700_20260913__match_048",
+          "january_5th_full_20260912__match_035",
+          "may_18th_2500_20260913__may18_2500_match_002",
+          "may_18th_2500_20260913__may18_2500_match_010",
+          "may_18th_2500_20260913__may18_2500_match_012",
+          "may_18th_2500_20260913__may18_2500_match_035",
+          "may_18th_2500_20260913__may18_2500_match_037",
+          "may_18th_2500_20260913__may18_2500_match_039",
+          "may_18th_2500_20260913__may18_2500_match_064",
+          "may_18th_2500_20260913__may18_2500_match_066",
+          "may_18th_2500_20260913__may18_2500_match_067",
+          "may_24th_2450_20260913__may24_2450_match_003",
+          "may_24th_2450_20260913__may24_2450_match_007"
+        ],
+        "all_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_027",
+          "january_4th_2700_20260913__match_013",
+          "january_4th_2700_20260913__match_018",
+          "january_4th_2700_20260913__match_021",
+          "january_4th_2700_20260913__match_025",
+          "january_4th_2700_20260913__match_027",
+          "january_4th_2700_20260913__match_028",
+          "january_4th_2700_20260913__match_029",
+          "january_4th_2700_20260913__match_032",
+          "january_4th_2700_20260913__match_034",
+          "january_4th_2700_20260913__match_036",
+          "january_4th_2700_20260913__match_038",
+          "january_4th_2700_20260913__match_040",
+          "january_4th_2700_20260913__match_046",
+          "january_4th_2700_20260913__match_048",
+          "january_5th_full_20260912__match_003",
+          "january_5th_full_20260912__match_004",
+          "january_5th_full_20260912__match_027",
+          "january_5th_full_20260912__match_032",
+          "january_5th_full_20260912__match_035",
+          "january_5th_full_20260912__match_045",
+          "june_7th_2700_20260913__match_040",
+          "may_18th_2500_20260913__may18_2500_match_002",
+          "may_18th_2500_20260913__may18_2500_match_004",
+          "may_18th_2500_20260913__may18_2500_match_006",
+          "may_18th_2500_20260913__may18_2500_match_007",
+          "may_18th_2500_20260913__may18_2500_match_008",
+          "may_18th_2500_20260913__may18_2500_match_010",
+          "may_18th_2500_20260913__may18_2500_match_012",
+          "may_18th_2500_20260913__may18_2500_match_014",
+          "may_18th_2500_20260913__may18_2500_match_015",
+          "may_18th_2500_20260913__may18_2500_match_017",
+          "may_18th_2500_20260913__may18_2500_match_020",
+          "may_18th_2500_20260913__may18_2500_match_022",
+          "may_18th_2500_20260913__may18_2500_match_033",
+          "may_18th_2500_20260913__may18_2500_match_035",
+          "may_18th_2500_20260913__may18_2500_match_037",
+          "may_18th_2500_20260913__may18_2500_match_039",
+          "may_18th_2500_20260913__may18_2500_match_041",
+          "may_18th_2500_20260913__may18_2500_match_043",
+          "may_18th_2500_20260913__may18_2500_match_045",
+          "may_18th_2500_20260913__may18_2500_match_049",
+          "may_18th_2500_20260913__may18_2500_match_054",
+          "may_18th_2500_20260913__may18_2500_match_056",
+          "may_18th_2500_20260913__may18_2500_match_059",
+          "may_18th_2500_20260913__may18_2500_match_061",
+          "may_18th_2500_20260913__may18_2500_match_064",
+          "may_18th_2500_20260913__may18_2500_match_066",
+          "may_18th_2500_20260913__may18_2500_match_067",
+          "may_18th_2500_20260913__may18_2500_match_068",
+          "may_18th_2500_20260913__may18_2500_match_070",
+          "may_18th_2500_20260913__may18_2500_match_072",
+          "may_24th_2450_20260913__may24_2450_match_002",
+          "may_24th_2450_20260913__may24_2450_match_003",
+          "may_24th_2450_20260913__may24_2450_match_004",
+          "may_24th_2450_20260913__may24_2450_match_007",
+          "may_24th_2450_20260913__may24_2450_match_009",
+          "may_24th_2450_20260913__may24_2450_match_011",
+          "may_24th_2450_20260913__may24_2450_match_013",
+          "may_24th_2450_20260913__may24_2450_match_015",
+          "may_24th_2450_20260913__may24_2450_match_018",
+          "may_24th_2450_20260913__may24_2450_match_020",
+          "may_24th_2450_20260913__may24_2450_match_022",
+          "may_24th_2450_20260913__may24_2450_match_024",
+          "may_24th_2450_20260913__may24_2450_match_026",
+          "may_24th_2450_20260913__may24_2450_match_028",
+          "may_24th_2450_20260913__may24_2450_match_029",
+          "may_24th_2450_20260913__may24_2450_match_030",
+          "may_24th_2450_20260913__may24_2450_match_031",
+          "may_24th_2450_20260913__may24_2450_match_032",
+          "may_24th_2450_20260913__may24_2450_match_034",
+          "may_24th_2450_20260913__may24_2450_match_035",
+          "may_24th_2450_20260913__may24_2450_match_036",
+          "may_24th_2450_20260913__may24_2450_match_037",
+          "may_24th_2450_20260913__may24_2450_match_038",
+          "may_24th_2450_20260913__may24_2450_match_039",
+          "may_24th_2450_20260913__may24_2450_match_040",
+          "may_24th_2450_20260913__may24_2450_match_041",
+          "may_24th_2450_20260913__may24_2450_match_042",
+          "may_24th_2450_20260913__may24_2450_match_043",
+          "may_24th_2450_20260913__may24_2450_match_044",
+          "may_4th_2350_20260913__may04_2350_match_002",
+          "may_4th_2350_20260913__may04_2350_match_003",
+          "may_4th_2350_20260913__may04_2350_match_005",
+          "may_4th_2350_20260913__may04_2350_match_006",
+          "may_4th_2350_20260913__may04_2350_match_043",
+          "may_4th_2350_20260913__may04_2350_match_045",
+          "may_4th_2350_20260913__may04_2350_match_052",
+          "may_4th_2350_20260913__may04_2350_match_056",
+          "may_4th_2350_20260913__may04_2350_match_060",
+          "may_4th_2350_20260913__may04_2350_match_063",
+          "september_11th_2500_20260912__sep11_2500_match_006",
+          "september_11th_2500_20260912__sep11_2500_match_027",
+          "september_11th_2500_20260912__sep11_2500_match_028",
+          "september_11th_2500_20260912__sep11_2500_match_030",
+          "september_11th_2500_20260912__sep11_2500_match_032",
+          "september_11th_2500_20260912__sep11_2500_match_034",
+          "september_11th_2500_20260912__sep11_2500_match_036",
+          "september_11th_2500_20260912__sep11_2500_match_037",
+          "september_11th_2500_20260912__sep11_2500_match_039",
+          "september_11th_2500_20260912__sep11_2500_match_040",
+          "september_11th_2500_20260912__sep11_2500_match_041",
+          "september_20th_2650_20260913__september20_2650_match_004",
+          "september_28th_2700_20260913__september28_2700_match_005"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_SP_Sub_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Arms_HPal",
+      "strategy_id": "SPR_vs_Arms_HPal_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "high",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Arms Warrior / Holy Paladin",
+      "enemy_short": "Arms / HPal",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 80,
+        "wins": 66,
+        "losses": 14,
+        "unknown_result": 0,
+        "opening_target_known": 80,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Arms Warrior": 62,
+          "Holy Paladin": 11,
+          "Arms Warrior briefly": 1,
+          "Warrior": 6
+        },
+        "kill_target_known": 67,
+        "kill_target_unknown": 13,
+        "kill_targets": {
+          "Holy Paladin": 36,
+          "Arms Warrior": 25,
+          "none observed": 1,
+          "Paladin": 3,
+          "Warrior": 1,
+          "Warrior around 213s": 1
+        },
+        "source_batches": {
+          "august_31st_2550_20260912": 4,
+          "february_3rd_2550_20260912": 5,
+          "january_4th_2700_20260913": 25,
+          "january_5th_full_20260912": 10,
+          "june_7th_2700_20260913": 4,
+          "may_18th_2500_20260913": 3,
+          "may_24th_vod2_2600_20260913": 9,
+          "may_4th_2350_20260913": 8,
+          "september_11th_2500_20260912": 5,
+          "september_20th_2650_20260913": 3,
+          "september_28th_2700_20260913": 4
+        },
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_006",
+          "august_31st_2550_20260912__august31_2550_match_029",
+          "august_31st_2550_20260912__august31_2550_match_030",
+          "august_31st_2550_20260912__august31_2550_match_032",
+          "february_3rd_2550_20260912__feb03_2550_match_006",
+          "february_3rd_2550_20260912__feb03_2550_match_010",
+          "february_3rd_2550_20260912__feb03_2550_match_013",
+          "february_3rd_2550_20260912__feb03_2550_match_020",
+          "february_3rd_2550_20260912__feb03_2550_match_022",
+          "january_4th_2700_20260913__match_017",
+          "january_4th_2700_20260913__match_020",
+          "january_4th_2700_20260913__match_024",
+          "january_4th_2700_20260913__match_026",
+          "january_4th_2700_20260913__match_030",
+          "january_4th_2700_20260913__match_031",
+          "january_4th_2700_20260913__match_035",
+          "january_4th_2700_20260913__match_037",
+          "january_4th_2700_20260913__match_039",
+          "january_4th_2700_20260913__match_041",
+          "january_4th_2700_20260913__match_042",
+          "january_4th_2700_20260913__match_045",
+          "january_4th_2700_20260913__match_050",
+          "january_4th_2700_20260913__match_052",
+          "january_4th_2700_20260913__match_053",
+          "january_5th_full_20260912__match_018",
+          "january_5th_full_20260912__match_023",
+          "january_5th_full_20260912__match_025",
+          "january_5th_full_20260912__match_028",
+          "january_5th_full_20260912__match_029",
+          "january_5th_full_20260912__match_031b",
+          "january_5th_full_20260912__match_033a",
+          "january_5th_full_20260912__match_038",
+          "january_5th_full_20260912__match_040",
+          "january_5th_full_20260912__match_044",
+          "june_7th_2700_20260913__match_003",
+          "june_7th_2700_20260913__match_031",
+          "june_7th_2700_20260913__match_036",
+          "june_7th_2700_20260913__match_037",
+          "may_18th_2500_20260913__may18_2500_match_042",
+          "may_18th_2500_20260913__may18_2500_match_044"
+        ],
+        "counterexample_match_ids": [
+          "january_4th_2700_20260913__match_003",
+          "january_4th_2700_20260913__match_004",
+          "january_4th_2700_20260913__match_009",
+          "january_4th_2700_20260913__match_011",
+          "january_4th_2700_20260913__match_012",
+          "january_4th_2700_20260913__match_033",
+          "january_4th_2700_20260913__match_043",
+          "january_4th_2700_20260913__match_044",
+          "january_4th_2700_20260913__match_047",
+          "january_4th_2700_20260913__match_051",
+          "may_18th_2500_20260913__may18_2500_match_025",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_014",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_028",
+          "september_28th_2700_20260913__september28_2700_match_021"
+        ],
+        "all_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_006",
+          "august_31st_2550_20260912__august31_2550_match_029",
+          "august_31st_2550_20260912__august31_2550_match_030",
+          "august_31st_2550_20260912__august31_2550_match_032",
+          "february_3rd_2550_20260912__feb03_2550_match_006",
+          "february_3rd_2550_20260912__feb03_2550_match_010",
+          "february_3rd_2550_20260912__feb03_2550_match_013",
+          "february_3rd_2550_20260912__feb03_2550_match_020",
+          "february_3rd_2550_20260912__feb03_2550_match_022",
+          "january_4th_2700_20260913__match_003",
+          "january_4th_2700_20260913__match_004",
+          "january_4th_2700_20260913__match_009",
+          "january_4th_2700_20260913__match_011",
+          "january_4th_2700_20260913__match_012",
+          "january_4th_2700_20260913__match_017",
+          "january_4th_2700_20260913__match_020",
+          "january_4th_2700_20260913__match_024",
+          "january_4th_2700_20260913__match_026",
+          "january_4th_2700_20260913__match_030",
+          "january_4th_2700_20260913__match_031",
+          "january_4th_2700_20260913__match_033",
+          "january_4th_2700_20260913__match_035",
+          "january_4th_2700_20260913__match_037",
+          "january_4th_2700_20260913__match_039",
+          "january_4th_2700_20260913__match_041",
+          "january_4th_2700_20260913__match_042",
+          "january_4th_2700_20260913__match_043",
+          "january_4th_2700_20260913__match_044",
+          "january_4th_2700_20260913__match_045",
+          "january_4th_2700_20260913__match_047",
+          "january_4th_2700_20260913__match_050",
+          "january_4th_2700_20260913__match_051",
+          "january_4th_2700_20260913__match_052",
+          "january_4th_2700_20260913__match_053",
+          "january_5th_full_20260912__match_018",
+          "january_5th_full_20260912__match_023",
+          "january_5th_full_20260912__match_025",
+          "january_5th_full_20260912__match_028",
+          "january_5th_full_20260912__match_029",
+          "january_5th_full_20260912__match_031b",
+          "january_5th_full_20260912__match_033a",
+          "january_5th_full_20260912__match_038",
+          "january_5th_full_20260912__match_040",
+          "january_5th_full_20260912__match_044",
+          "june_7th_2700_20260913__match_003",
+          "june_7th_2700_20260913__match_031",
+          "june_7th_2700_20260913__match_036",
+          "june_7th_2700_20260913__match_037",
+          "may_18th_2500_20260913__may18_2500_match_025",
+          "may_18th_2500_20260913__may18_2500_match_042",
+          "may_18th_2500_20260913__may18_2500_match_044",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_014",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_019",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_020",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_022",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_027",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_028",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_029",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_034",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_035",
+          "may_4th_2350_20260913__may04_2350_match_008",
+          "may_4th_2350_20260913__may04_2350_match_024",
+          "may_4th_2350_20260913__may04_2350_match_044",
+          "may_4th_2350_20260913__may04_2350_match_046",
+          "may_4th_2350_20260913__may04_2350_match_047",
+          "may_4th_2350_20260913__may04_2350_match_050",
+          "may_4th_2350_20260913__may04_2350_match_061",
+          "may_4th_2350_20260913__may04_2350_match_064",
+          "september_11th_2500_20260912__sep11_2500_match_005",
+          "september_11th_2500_20260912__sep11_2500_match_010",
+          "september_11th_2500_20260912__sep11_2500_match_013",
+          "september_11th_2500_20260912__sep11_2500_match_025",
+          "september_11th_2500_20260912__sep11_2500_match_042b",
+          "september_20th_2650_20260913__september20_2650_match_013",
+          "september_20th_2650_20260913__september20_2650_match_015",
+          "september_20th_2650_20260913__september20_2650_match_027",
+          "september_28th_2700_20260913__september28_2700_match_017",
+          "september_28th_2700_20260913__september28_2700_match_019",
+          "september_28th_2700_20260913__september28_2700_match_021",
+          "september_28th_2700_20260913__september28_2700_match_025"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Arms_HPal_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Disc_Feral",
+      "strategy_id": "SPR_vs_Disc_Feral_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "high",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Discipline Priest / Feral Druid",
+      "enemy_short": "Disc / Feral",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 31,
+        "wins": 29,
+        "losses": 2,
+        "unknown_result": 0,
+        "opening_target_known": 31,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Feral Druid": 25,
+          "Discipline Priest": 5,
+          "Priest": 1
+        },
+        "kill_target_known": 29,
+        "kill_target_unknown": 2,
+        "kill_targets": {
+          "Feral Druid": 18,
+          "Discipline Priest": 10,
+          "Priest": 1
+        },
+        "source_batches": {
+          "january_4th_2700_20260913": 2,
+          "january_5th_full_20260912": 2,
+          "may_18th_2500_20260913": 3,
+          "may_24th_2450_20260913": 2,
+          "may_24th_vod2_2600_20260913": 6,
+          "may_4th_2350_20260913": 2,
+          "september_11th_2500_20260912": 2,
+          "september_20th_2650_20260913": 12
+        },
+        "supporting_match_ids": [
+          "january_4th_2700_20260913__match_005",
+          "january_4th_2700_20260913__match_019",
+          "january_5th_full_20260912__match_030a",
+          "january_5th_full_20260912__match_037a",
+          "may_18th_2500_20260913__may18_2500_match_051",
+          "may_18th_2500_20260913__may18_2500_match_060",
+          "may_18th_2500_20260913__may18_2500_match_063",
+          "may_24th_2450_20260913__may24_2450_match_014",
+          "may_24th_2450_20260913__may24_2450_match_017",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_016",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_021",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_026",
+          "may_4th_2350_20260913__may04_2350_match_040",
+          "may_4th_2350_20260913__may04_2350_match_055",
+          "september_11th_2500_20260912__sep11_2500_match_001",
+          "september_11th_2500_20260912__sep11_2500_match_007",
+          "september_20th_2650_20260913__september20_2650_match_001",
+          "september_20th_2650_20260913__september20_2650_match_003",
+          "september_20th_2650_20260913__september20_2650_match_005",
+          "september_20th_2650_20260913__september20_2650_match_006",
+          "september_20th_2650_20260913__september20_2650_match_007",
+          "september_20th_2650_20260913__september20_2650_match_008",
+          "september_20th_2650_20260913__september20_2650_match_017",
+          "september_20th_2650_20260913__september20_2650_match_020",
+          "september_20th_2650_20260913__september20_2650_match_022",
+          "september_20th_2650_20260913__september20_2650_match_023",
+          "september_20th_2650_20260913__september20_2650_match_025"
+        ],
+        "counterexample_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003",
+          "september_20th_2650_20260913__september20_2650_match_019"
+        ],
+        "all_match_ids": [
+          "january_4th_2700_20260913__match_005",
+          "january_4th_2700_20260913__match_019",
+          "january_5th_full_20260912__match_030a",
+          "january_5th_full_20260912__match_037a",
+          "may_18th_2500_20260913__may18_2500_match_051",
+          "may_18th_2500_20260913__may18_2500_match_060",
+          "may_18th_2500_20260913__may18_2500_match_063",
+          "may_24th_2450_20260913__may24_2450_match_014",
+          "may_24th_2450_20260913__may24_2450_match_017",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_002",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_003",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_016",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_021",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_025",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_026",
+          "may_4th_2350_20260913__may04_2350_match_040",
+          "may_4th_2350_20260913__may04_2350_match_055",
+          "september_11th_2500_20260912__sep11_2500_match_001",
+          "september_11th_2500_20260912__sep11_2500_match_007",
+          "september_20th_2650_20260913__september20_2650_match_001",
+          "september_20th_2650_20260913__september20_2650_match_003",
+          "september_20th_2650_20260913__september20_2650_match_005",
+          "september_20th_2650_20260913__september20_2650_match_006",
+          "september_20th_2650_20260913__september20_2650_match_007",
+          "september_20th_2650_20260913__september20_2650_match_008",
+          "september_20th_2650_20260913__september20_2650_match_017",
+          "september_20th_2650_20260913__september20_2650_match_019",
+          "september_20th_2650_20260913__september20_2650_match_020",
+          "september_20th_2650_20260913__september20_2650_match_022",
+          "september_20th_2650_20260913__september20_2650_match_023",
+          "september_20th_2650_20260913__september20_2650_match_025"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Disc_Feral_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Boomkin_Sub",
+      "strategy_id": "SPR_vs_Boomkin_Sub_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "medium",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Balance Druid / Subtlety Rogue",
+      "enemy_short": "Boomkin / Sub",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 20,
+        "wins": 17,
+        "losses": 3,
+        "unknown_result": 0,
+        "opening_target_known": 20,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Subtlety Rogue": 9,
+          "Balance Druid": 11
+        },
+        "kill_target_known": 17,
+        "kill_target_unknown": 3,
+        "kill_targets": {
+          "Subtlety Rogue": 11,
+          "Balance Druid": 6
+        },
+        "source_batches": {
+          "june_7th_2700_20260913": 19,
+          "may_4th_2350_20260913": 1
+        },
+        "supporting_match_ids": [
+          "june_7th_2700_20260913__match_001",
+          "june_7th_2700_20260913__match_005",
+          "june_7th_2700_20260913__match_006",
+          "june_7th_2700_20260913__match_008",
+          "june_7th_2700_20260913__match_009",
+          "june_7th_2700_20260913__match_011",
+          "june_7th_2700_20260913__match_013",
+          "june_7th_2700_20260913__match_014",
+          "june_7th_2700_20260913__match_015",
+          "june_7th_2700_20260913__match_016",
+          "june_7th_2700_20260913__match_018",
+          "june_7th_2700_20260913__match_019",
+          "june_7th_2700_20260913__match_021",
+          "june_7th_2700_20260913__match_023",
+          "june_7th_2700_20260913__match_024",
+          "june_7th_2700_20260913__match_028",
+          "may_4th_2350_20260913__may04_2350_match_027"
+        ],
+        "counterexample_match_ids": [
+          "june_7th_2700_20260913__match_004",
+          "june_7th_2700_20260913__match_025",
+          "june_7th_2700_20260913__match_026"
+        ],
+        "all_match_ids": [
+          "june_7th_2700_20260913__match_001",
+          "june_7th_2700_20260913__match_004",
+          "june_7th_2700_20260913__match_005",
+          "june_7th_2700_20260913__match_006",
+          "june_7th_2700_20260913__match_008",
+          "june_7th_2700_20260913__match_009",
+          "june_7th_2700_20260913__match_011",
+          "june_7th_2700_20260913__match_013",
+          "june_7th_2700_20260913__match_014",
+          "june_7th_2700_20260913__match_015",
+          "june_7th_2700_20260913__match_016",
+          "june_7th_2700_20260913__match_018",
+          "june_7th_2700_20260913__match_019",
+          "june_7th_2700_20260913__match_021",
+          "june_7th_2700_20260913__match_023",
+          "june_7th_2700_20260913__match_024",
+          "june_7th_2700_20260913__match_025",
+          "june_7th_2700_20260913__match_026",
+          "june_7th_2700_20260913__match_028",
+          "may_4th_2350_20260913__may04_2350_match_027"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Boomkin_Sub_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Arms_Resto",
+      "strategy_id": "SPR_vs_Arms_Resto_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "medium",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Arms Warrior / Restoration Druid",
+      "enemy_short": "Arms / Resto",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 19,
+        "wins": 14,
+        "losses": 4,
+        "unknown_result": 1,
+        "opening_target_known": 19,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Restoration Druid": 13,
+          "Arms Warrior": 6
+        },
+        "kill_target_known": 14,
+        "kill_target_unknown": 5,
+        "kill_targets": {
+          "Restoration Druid": 8,
+          "Arms Warrior": 6
+        },
+        "source_batches": {
+          "february_3rd_2550_20260912": 9,
+          "january_4th_2700_20260913": 1,
+          "may_24th_2450_20260913": 1,
+          "may_4th_2350_20260913": 2,
+          "september_28th_2700_20260913": 6
+        },
+        "supporting_match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_001",
+          "february_3rd_2550_20260912__feb03_2550_match_009",
+          "february_3rd_2550_20260912__feb03_2550_match_011",
+          "february_3rd_2550_20260912__feb03_2550_match_012",
+          "february_3rd_2550_20260912__feb03_2550_match_016",
+          "february_3rd_2550_20260912__feb03_2550_match_021",
+          "february_3rd_2550_20260912__feb03_2550_match_023",
+          "january_4th_2700_20260913__match_049",
+          "may_24th_2450_20260913__may24_2450_match_001",
+          "may_4th_2350_20260913__may04_2350_match_017",
+          "may_4th_2350_20260913__may04_2350_match_057",
+          "september_28th_2700_20260913__september28_2700_match_008",
+          "september_28th_2700_20260913__september28_2700_match_009",
+          "september_28th_2700_20260913__september28_2700_match_010"
+        ],
+        "counterexample_match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_017",
+          "september_28th_2700_20260913__september28_2700_match_007",
+          "september_28th_2700_20260913__september28_2700_match_011",
+          "september_28th_2700_20260913__september28_2700_match_013"
+        ],
+        "all_match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_001",
+          "february_3rd_2550_20260912__feb03_2550_match_009",
+          "february_3rd_2550_20260912__feb03_2550_match_011",
+          "february_3rd_2550_20260912__feb03_2550_match_012",
+          "february_3rd_2550_20260912__feb03_2550_match_014",
+          "february_3rd_2550_20260912__feb03_2550_match_016",
+          "february_3rd_2550_20260912__feb03_2550_match_017",
+          "february_3rd_2550_20260912__feb03_2550_match_021",
+          "february_3rd_2550_20260912__feb03_2550_match_023",
+          "january_4th_2700_20260913__match_049",
+          "may_24th_2450_20260913__may24_2450_match_001",
+          "may_4th_2350_20260913__may04_2350_match_017",
+          "may_4th_2350_20260913__may04_2350_match_057",
+          "september_28th_2700_20260913__september28_2700_match_007",
+          "september_28th_2700_20260913__september28_2700_match_008",
+          "september_28th_2700_20260913__september28_2700_match_009",
+          "september_28th_2700_20260913__september28_2700_match_010",
+          "september_28th_2700_20260913__september28_2700_match_011",
+          "september_28th_2700_20260913__september28_2700_match_013"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Arms_Resto_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Arms_Disc",
+      "strategy_id": "SPR_vs_Arms_Disc_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "medium",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Arms Warrior / Discipline Priest",
+      "enemy_short": "Arms / Disc",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 18,
+        "wins": 16,
+        "losses": 2,
+        "unknown_result": 0,
+        "opening_target_known": 18,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Arms Warrior": 12,
+          "Discipline Priest": 2,
+          "Warrior": 3,
+          "Priest": 1
+        },
+        "kill_target_known": 15,
+        "kill_target_unknown": 3,
+        "kill_targets": {
+          "Arms Warrior": 5,
+          "Discipline Priest": 7,
+          "Warrior": 2,
+          "Priest around 116s": 1
+        },
+        "source_batches": {
+          "august_31st_2550_20260912": 7,
+          "january_5th_full_20260912": 5,
+          "may_18th_2500_20260913": 1,
+          "may_24th_2450_20260913": 2,
+          "september_11th_2500_20260912": 3
+        },
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_004",
+          "august_31st_2550_20260912__august31_2550_match_007",
+          "august_31st_2550_20260912__august31_2550_match_008",
+          "august_31st_2550_20260912__august31_2550_match_010",
+          "august_31st_2550_20260912__august31_2550_match_011",
+          "january_5th_full_20260912__match_010b",
+          "january_5th_full_20260912__match_014",
+          "january_5th_full_20260912__match_017",
+          "january_5th_full_20260912__match_019",
+          "january_5th_full_20260912__match_021",
+          "may_18th_2500_20260913__may18_2500_match_078",
+          "may_24th_2450_20260913__may24_2450_match_025",
+          "may_24th_2450_20260913__may24_2450_match_027",
+          "september_11th_2500_20260912__sep11_2500_match_002",
+          "september_11th_2500_20260912__sep11_2500_match_021",
+          "september_11th_2500_20260912__sep11_2500_match_038"
+        ],
+        "counterexample_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_002",
+          "august_31st_2550_20260912__august31_2550_match_013"
+        ],
+        "all_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_002",
+          "august_31st_2550_20260912__august31_2550_match_004",
+          "august_31st_2550_20260912__august31_2550_match_007",
+          "august_31st_2550_20260912__august31_2550_match_008",
+          "august_31st_2550_20260912__august31_2550_match_010",
+          "august_31st_2550_20260912__august31_2550_match_011",
+          "august_31st_2550_20260912__august31_2550_match_013",
+          "january_5th_full_20260912__match_010b",
+          "january_5th_full_20260912__match_014",
+          "january_5th_full_20260912__match_017",
+          "january_5th_full_20260912__match_019",
+          "january_5th_full_20260912__match_021",
+          "may_18th_2500_20260913__may18_2500_match_078",
+          "may_24th_2450_20260913__may24_2450_match_025",
+          "may_24th_2450_20260913__may24_2450_match_027",
+          "september_11th_2500_20260912__sep11_2500_match_002",
+          "september_11th_2500_20260912__sep11_2500_match_021",
+          "september_11th_2500_20260912__sep11_2500_match_038"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Arms_Disc_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_MM_Ret",
+      "strategy_id": "SPR_vs_MM_Ret_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "medium",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Marksmanship Hunter / Retribution Paladin",
+      "enemy_short": "MM / Ret",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 17,
+        "wins": 12,
+        "losses": 5,
+        "unknown_result": 0,
+        "opening_target_known": 17,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Marksmanship Hunter": 12,
+          "Retribution Paladin": 3,
+          "Hunter": 2
+        },
+        "kill_target_known": 12,
+        "kill_target_unknown": 5,
+        "kill_targets": {
+          "Marksmanship Hunter": 8,
+          "Retribution Paladin": 2,
+          "Hunter": 2
+        },
+        "source_batches": {
+          "august_31st_2550_20260912": 4,
+          "january_4th_2700_20260913": 5,
+          "january_5th_full_20260912": 1,
+          "may_18th_2500_20260913": 1,
+          "may_4th_2350_20260913": 3,
+          "september_11th_2500_20260912": 3
+        },
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_017",
+          "august_31st_2550_20260912__august31_2550_match_019",
+          "august_31st_2550_20260912__august31_2550_match_020",
+          "january_4th_2700_20260913__match_014",
+          "january_4th_2700_20260913__match_022",
+          "january_4th_2700_20260913__match_023",
+          "january_5th_full_20260912__match_007",
+          "may_18th_2500_20260913__may18_2500_match_026",
+          "may_4th_2350_20260913__may04_2350_match_058",
+          "september_11th_2500_20260912__sep11_2500_match_003",
+          "september_11th_2500_20260912__sep11_2500_match_008",
+          "september_11th_2500_20260912__sep11_2500_match_015"
+        ],
+        "counterexample_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_015",
+          "january_4th_2700_20260913__match_015",
+          "january_4th_2700_20260913__match_016",
+          "may_4th_2350_20260913__may04_2350_match_048",
+          "may_4th_2350_20260913__may04_2350_match_062"
+        ],
+        "all_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_015",
+          "august_31st_2550_20260912__august31_2550_match_017",
+          "august_31st_2550_20260912__august31_2550_match_019",
+          "august_31st_2550_20260912__august31_2550_match_020",
+          "january_4th_2700_20260913__match_014",
+          "january_4th_2700_20260913__match_015",
+          "january_4th_2700_20260913__match_016",
+          "january_4th_2700_20260913__match_022",
+          "january_4th_2700_20260913__match_023",
+          "january_5th_full_20260912__match_007",
+          "may_18th_2500_20260913__may18_2500_match_026",
+          "may_4th_2350_20260913__may04_2350_match_048",
+          "may_4th_2350_20260913__may04_2350_match_058",
+          "may_4th_2350_20260913__may04_2350_match_062",
+          "september_11th_2500_20260912__sep11_2500_match_003",
+          "september_11th_2500_20260912__sep11_2500_match_008",
+          "september_11th_2500_20260912__sep11_2500_match_015"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_MM_Ret_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Destro_HPal",
+      "strategy_id": "SPR_vs_Destro_HPal_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "medium",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Destruction Warlock / Holy Paladin",
+      "enemy_short": "Destro / HPal",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 16,
+        "wins": 15,
+        "losses": 1,
+        "unknown_result": 0,
+        "opening_target_known": 16,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Destruction Warlock": 13,
+          "Holy Paladin": 3
+        },
+        "kill_target_known": 14,
+        "kill_target_unknown": 2,
+        "kill_targets": {
+          "Destruction Warlock": 11,
+          "Holy Paladin": 3
+        },
+        "source_batches": {
+          "june_7th_2700_20260913": 1,
+          "may_24th_vod2_2600_20260913": 1,
+          "may_4th_2350_20260913": 6,
+          "september_28th_2700_20260913": 8
+        },
+        "supporting_match_ids": [
+          "june_7th_2700_20260913__match_007",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+          "may_4th_2350_20260913__may04_2350_match_028",
+          "may_4th_2350_20260913__may04_2350_match_031",
+          "may_4th_2350_20260913__may04_2350_match_033",
+          "may_4th_2350_20260913__may04_2350_match_034",
+          "may_4th_2350_20260913__may04_2350_match_036",
+          "may_4th_2350_20260913__may04_2350_match_037",
+          "september_28th_2700_20260913__september28_2700_match_002",
+          "september_28th_2700_20260913__september28_2700_match_004",
+          "september_28th_2700_20260913__september28_2700_match_006",
+          "september_28th_2700_20260913__september28_2700_match_024",
+          "september_28th_2700_20260913__september28_2700_match_027",
+          "september_28th_2700_20260913__september28_2700_match_028",
+          "september_28th_2700_20260913__september28_2700_match_029"
+        ],
+        "counterexample_match_ids": [
+          "september_28th_2700_20260913__september28_2700_match_031"
+        ],
+        "all_match_ids": [
+          "june_7th_2700_20260913__match_007",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_012",
+          "may_4th_2350_20260913__may04_2350_match_028",
+          "may_4th_2350_20260913__may04_2350_match_031",
+          "may_4th_2350_20260913__may04_2350_match_033",
+          "may_4th_2350_20260913__may04_2350_match_034",
+          "may_4th_2350_20260913__may04_2350_match_036",
+          "may_4th_2350_20260913__may04_2350_match_037",
+          "september_28th_2700_20260913__september28_2700_match_002",
+          "september_28th_2700_20260913__september28_2700_match_004",
+          "september_28th_2700_20260913__september28_2700_match_006",
+          "september_28th_2700_20260913__september28_2700_match_024",
+          "september_28th_2700_20260913__september28_2700_match_027",
+          "september_28th_2700_20260913__september28_2700_match_028",
+          "september_28th_2700_20260913__september28_2700_match_029",
+          "september_28th_2700_20260913__september28_2700_match_031"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Destro_HPal_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Disc_MM",
+      "strategy_id": "SPR_vs_Disc_MM_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "medium",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Discipline Priest / Marksmanship Hunter",
+      "enemy_short": "Disc / MM",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 13,
+        "wins": 11,
+        "losses": 2,
+        "unknown_result": 0,
+        "opening_target_known": 13,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Discipline Priest briefly": 1,
+          "Marksmanship Hunter": 2,
+          "Hunter's Crab pet": 1,
+          "Priest: first substantial enemy player damage": 1,
+          "Hunter": 7,
+          "Crab pet": 1
+        },
+        "kill_target_known": 13,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Marksmanship Hunter": 3,
+          "No enemy player killed": 1,
+          "No enemy player killed. Rogue dies at approximately 99s": 1,
+          "Hunter": 3,
+          "Hunter around 74s": 1,
+          "Priest": 2,
+          "Hunter at approximately 92.5s": 1,
+          "Hunter at approximately 97s": 1
+        },
+        "source_batches": {
+          "january_5th_full_20260912": 2,
+          "september_11th_2500_20260912": 10,
+          "september_28th_2700_20260913": 1
+        },
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_037b",
+          "january_5th_full_20260912__match_047",
+          "september_11th_2500_20260912__sep11_2500_match_020",
+          "september_11th_2500_20260912__sep11_2500_match_022",
+          "september_11th_2500_20260912__sep11_2500_match_024",
+          "september_11th_2500_20260912__sep11_2500_match_026",
+          "september_11th_2500_20260912__sep11_2500_match_029",
+          "september_11th_2500_20260912__sep11_2500_match_031",
+          "september_11th_2500_20260912__sep11_2500_match_033",
+          "september_11th_2500_20260912__sep11_2500_match_035",
+          "september_28th_2700_20260913__september28_2700_match_003"
+        ],
+        "counterexample_match_ids": [
+          "september_11th_2500_20260912__sep11_2500_match_017",
+          "september_11th_2500_20260912__sep11_2500_match_018"
+        ],
+        "all_match_ids": [
+          "january_5th_full_20260912__match_037b",
+          "january_5th_full_20260912__match_047",
+          "september_11th_2500_20260912__sep11_2500_match_017",
+          "september_11th_2500_20260912__sep11_2500_match_018",
+          "september_11th_2500_20260912__sep11_2500_match_020",
+          "september_11th_2500_20260912__sep11_2500_match_022",
+          "september_11th_2500_20260912__sep11_2500_match_024",
+          "september_11th_2500_20260912__sep11_2500_match_026",
+          "september_11th_2500_20260912__sep11_2500_match_029",
+          "september_11th_2500_20260912__sep11_2500_match_031",
+          "september_11th_2500_20260912__sep11_2500_match_033",
+          "september_11th_2500_20260912__sep11_2500_match_035",
+          "september_28th_2700_20260913__september28_2700_match_003"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Disc_MM_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Ret_Unholy",
+      "strategy_id": "SPR_vs_Ret_Unholy_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "medium",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Retribution Paladin / Unholy Death Knight",
+      "enemy_short": "Ret / Unholy",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 12,
+        "wins": 9,
+        "losses": 3,
+        "unknown_result": 0,
+        "opening_target_known": 12,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Unholy Death Knight": 10,
+          "Death Knight": 1,
+          "Retribution Paladin": 1
+        },
+        "kill_target_known": 9,
+        "kill_target_unknown": 3,
+        "kill_targets": {
+          "Unholy Death Knight": 5,
+          "Death Knight": 1,
+          "Retribution Paladin": 3
+        },
+        "source_batches": {
+          "february_3rd_2550_20260912": 1,
+          "january_5th_full_20260912": 1,
+          "may_18th_2500_20260913": 10
+        },
+        "supporting_match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_019",
+          "january_5th_full_20260912__match_033b",
+          "may_18th_2500_20260913__may18_2500_match_003",
+          "may_18th_2500_20260913__may18_2500_match_040",
+          "may_18th_2500_20260913__may18_2500_match_057",
+          "may_18th_2500_20260913__may18_2500_match_069",
+          "may_18th_2500_20260913__may18_2500_match_073",
+          "may_18th_2500_20260913__may18_2500_match_076",
+          "may_18th_2500_20260913__may18_2500_match_077"
+        ],
+        "counterexample_match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_062",
+          "may_18th_2500_20260913__may18_2500_match_065",
+          "may_18th_2500_20260913__may18_2500_match_074"
+        ],
+        "all_match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_019",
+          "january_5th_full_20260912__match_033b",
+          "may_18th_2500_20260913__may18_2500_match_003",
+          "may_18th_2500_20260913__may18_2500_match_040",
+          "may_18th_2500_20260913__may18_2500_match_057",
+          "may_18th_2500_20260913__may18_2500_match_062",
+          "may_18th_2500_20260913__may18_2500_match_065",
+          "may_18th_2500_20260913__may18_2500_match_069",
+          "may_18th_2500_20260913__may18_2500_match_073",
+          "may_18th_2500_20260913__may18_2500_match_074",
+          "may_18th_2500_20260913__may18_2500_match_076",
+          "may_18th_2500_20260913__may18_2500_match_077"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Ret_Unholy_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Frost_SP",
+      "strategy_id": "SPR_vs_Frost_SP_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "medium",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Frost Mage / Shadow Priest",
+      "enemy_short": "Frost / SP",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 11,
+        "wins": 11,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 11,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Shadow Priest": 6,
+          "Frost Mage": 5
+        },
+        "kill_target_known": 10,
+        "kill_target_unknown": 1,
+        "kill_targets": {
+          "Frost Mage": 3,
+          "Shadow Priest": 7
+        },
+        "source_batches": {
+          "february_3rd_2550_20260912": 1,
+          "january_4th_2700_20260913": 1,
+          "january_5th_full_20260912": 3,
+          "may_18th_2500_20260913": 1,
+          "may_4th_2350_20260913": 2,
+          "september_20th_2650_20260913": 3
+        },
+        "supporting_match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_003",
+          "january_4th_2700_20260913__match_001",
+          "january_5th_full_20260912__match_034",
+          "january_5th_full_20260912__match_036",
+          "january_5th_full_20260912__match_042",
+          "may_18th_2500_20260913__may18_2500_match_009",
+          "may_4th_2350_20260913__may04_2350_match_016",
+          "may_4th_2350_20260913__may04_2350_match_023",
+          "september_20th_2650_20260913__september20_2650_match_009",
+          "september_20th_2650_20260913__september20_2650_match_010",
+          "september_20th_2650_20260913__september20_2650_match_011"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_003",
+          "january_4th_2700_20260913__match_001",
+          "january_5th_full_20260912__match_034",
+          "january_5th_full_20260912__match_036",
+          "january_5th_full_20260912__match_042",
+          "may_18th_2500_20260913__may18_2500_match_009",
+          "may_4th_2350_20260913__may04_2350_match_016",
+          "may_4th_2350_20260913__may04_2350_match_023",
+          "september_20th_2650_20260913__september20_2650_match_009",
+          "september_20th_2650_20260913__september20_2650_match_010",
+          "september_20th_2650_20260913__september20_2650_match_011"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Frost_SP_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Disc_Frost",
+      "strategy_id": "SPR_vs_Disc_Frost_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Discipline Priest / Frost Mage",
+      "enemy_short": "Disc / Frost",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 9,
+        "wins": 9,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 9,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Discipline Priest": 4,
+          "Frost Mage": 5
+        },
+        "kill_target_known": 9,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Discipline Priest": 8,
+          "Frost Mage": 1
+        },
+        "source_batches": {
+          "february_3rd_2550_20260912": 2,
+          "january_5th_full_20260912": 1,
+          "june_7th_2700_20260913": 1,
+          "may_24th_vod2_2600_20260913": 1,
+          "may_4th_2350_20260913": 1,
+          "september_11th_2500_20260912": 2,
+          "september_20th_2650_20260913": 1
+        },
+        "supporting_match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_005",
+          "february_3rd_2550_20260912__feb03_2550_match_008",
+          "january_5th_full_20260912__match_039",
+          "june_7th_2700_20260913__match_002",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_030",
+          "may_4th_2350_20260913__may04_2350_match_013",
+          "september_11th_2500_20260912__sep11_2500_match_004",
+          "september_11th_2500_20260912__sep11_2500_match_009",
+          "september_20th_2650_20260913__september20_2650_match_002"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_005",
+          "february_3rd_2550_20260912__feb03_2550_match_008",
+          "january_5th_full_20260912__match_039",
+          "june_7th_2700_20260913__match_002",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_030",
+          "may_4th_2350_20260913__may04_2350_match_013",
+          "september_11th_2500_20260912__sep11_2500_match_004",
+          "september_11th_2500_20260912__sep11_2500_match_009",
+          "september_20th_2650_20260913__september20_2650_match_002"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Disc_Frost_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Disc_Sub",
+      "strategy_id": "SPR_vs_Disc_Sub_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Discipline Priest / Subtlety Rogue",
+      "enemy_short": "Disc / Sub",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 9,
+        "wins": 9,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 9,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Discipline Priest": 5,
+          "Subtlety Rogue": 2,
+          "Priest": 1,
+          "Rogue": 1
+        },
+        "kill_target_known": 9,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Subtlety Rogue": 6,
+          "Rogue": 2,
+          "Discipline Priest": 1
+        },
+        "source_batches": {
+          "february_3rd_2550_20260912": 3,
+          "january_5th_full_20260912": 1,
+          "may_24th_2450_20260913": 2,
+          "may_4th_2350_20260913": 2,
+          "september_28th_2700_20260913": 1
+        },
+        "supporting_match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_002",
+          "february_3rd_2550_20260912__feb03_2550_match_004",
+          "february_3rd_2550_20260912__feb03_2550_match_007",
+          "january_5th_full_20260912__match_030b",
+          "may_24th_2450_20260913__may24_2450_match_021",
+          "may_24th_2450_20260913__may24_2450_match_033",
+          "may_4th_2350_20260913__may04_2350_match_042",
+          "may_4th_2350_20260913__may04_2350_match_054",
+          "september_28th_2700_20260913__september28_2700_match_033"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_002",
+          "february_3rd_2550_20260912__feb03_2550_match_004",
+          "february_3rd_2550_20260912__feb03_2550_match_007",
+          "january_5th_full_20260912__match_030b",
+          "may_24th_2450_20260913__may24_2450_match_021",
+          "may_24th_2450_20260913__may24_2450_match_033",
+          "may_4th_2350_20260913__may04_2350_match_042",
+          "may_4th_2350_20260913__may04_2350_match_054",
+          "september_28th_2700_20260913__september28_2700_match_033"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Disc_Sub_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Destro_Ele",
+      "strategy_id": "SPR_vs_Destro_Ele_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Destruction Warlock / Elemental Shaman",
+      "enemy_short": "Destro / Ele",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 8,
+        "wins": 7,
+        "losses": 1,
+        "unknown_result": 0,
+        "opening_target_known": 8,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Warlock pet": 1,
+          "Elemental Shaman": 3,
+          "Destruction Warlock": 1,
+          "Warlock": 1,
+          "Shaman": 2
+        },
+        "kill_target_known": 7,
+        "kill_target_unknown": 1,
+        "kill_targets": {
+          "Elemental Shaman": 4,
+          "Shaman": 3
+        },
+        "source_batches": {
+          "january_5th_full_20260912": 2,
+          "may_18th_2500_20260913": 4,
+          "may_4th_2350_20260913": 2
+        },
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_015",
+          "january_5th_full_20260912__match_026",
+          "may_18th_2500_20260913__may18_2500_match_019",
+          "may_18th_2500_20260913__may18_2500_match_021",
+          "may_18th_2500_20260913__may18_2500_match_023",
+          "may_4th_2350_20260913__may04_2350_match_010",
+          "may_4th_2350_20260913__may04_2350_match_020"
+        ],
+        "counterexample_match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_016"
+        ],
+        "all_match_ids": [
+          "january_5th_full_20260912__match_015",
+          "january_5th_full_20260912__match_026",
+          "may_18th_2500_20260913__may18_2500_match_016",
+          "may_18th_2500_20260913__may18_2500_match_019",
+          "may_18th_2500_20260913__may18_2500_match_021",
+          "may_18th_2500_20260913__may18_2500_match_023",
+          "may_4th_2350_20260913__may04_2350_match_010",
+          "may_4th_2350_20260913__may04_2350_match_020"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Destro_Ele_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Enh_Ret",
+      "strategy_id": "SPR_vs_Enh_Ret_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Enhancement Shaman / Retribution Paladin",
+      "enemy_short": "Enh / Ret",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 8,
+        "wins": 7,
+        "losses": 1,
+        "unknown_result": 0,
+        "opening_target_known": 8,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Enhancement Shaman": 2,
+          "Retribution Paladin": 4,
+          "Shaman": 2
+        },
+        "kill_target_known": 7,
+        "kill_target_unknown": 1,
+        "kill_targets": {
+          "Retribution Paladin": 4,
+          "Enhancement Shaman": 2,
+          "Shaman": 1
+        },
+        "source_batches": {
+          "may_18th_2500_20260913": 1,
+          "may_24th_2450_20260913": 5,
+          "may_4th_2350_20260913": 2
+        },
+        "supporting_match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_071",
+          "may_24th_2450_20260913__may24_2450_match_005",
+          "may_24th_2450_20260913__may24_2450_match_008",
+          "may_24th_2450_20260913__may24_2450_match_010",
+          "may_24th_2450_20260913__may24_2450_match_019",
+          "may_4th_2350_20260913__may04_2350_match_004",
+          "may_4th_2350_20260913__may04_2350_match_025"
+        ],
+        "counterexample_match_ids": [
+          "may_24th_2450_20260913__may24_2450_match_016"
+        ],
+        "all_match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_071",
+          "may_24th_2450_20260913__may24_2450_match_005",
+          "may_24th_2450_20260913__may24_2450_match_008",
+          "may_24th_2450_20260913__may24_2450_match_010",
+          "may_24th_2450_20260913__may24_2450_match_016",
+          "may_24th_2450_20260913__may24_2450_match_019",
+          "may_4th_2350_20260913__may04_2350_match_004",
+          "may_4th_2350_20260913__may04_2350_match_025"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Enh_Ret_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Boomkin_Frost",
+      "strategy_id": "SPR_vs_Boomkin_Frost_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Balance Druid / Frost Mage",
+      "enemy_short": "Boomkin / Frost",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 7,
+        "wins": 6,
+        "losses": 1,
+        "unknown_result": 0,
+        "opening_target_known": 7,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Frost Mage": 4,
+          "Druid": 1,
+          "Mage": 1,
+          "Balance Druid": 1
+        },
+        "kill_target_known": 7,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Frost Mage": 1,
+          "none observed": 1,
+          "Mage": 1,
+          "Balance Druid": 4
+        },
+        "source_batches": {
+          "june_7th_2700_20260913": 1,
+          "may_18th_2500_20260913": 3,
+          "may_24th_2450_20260913": 1,
+          "september_20th_2650_20260913": 2
+        },
+        "supporting_match_ids": [
+          "june_7th_2700_20260913__match_038",
+          "may_18th_2500_20260913__may18_2500_match_052",
+          "may_18th_2500_20260913__may18_2500_match_055",
+          "may_24th_2450_20260913__may24_2450_match_006",
+          "september_20th_2650_20260913__september20_2650_match_012",
+          "september_20th_2650_20260913__september20_2650_match_014"
+        ],
+        "counterexample_match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_047"
+        ],
+        "all_match_ids": [
+          "june_7th_2700_20260913__match_038",
+          "may_18th_2500_20260913__may18_2500_match_047",
+          "may_18th_2500_20260913__may18_2500_match_052",
+          "may_18th_2500_20260913__may18_2500_match_055",
+          "may_24th_2450_20260913__may24_2450_match_006",
+          "september_20th_2650_20260913__september20_2650_match_012",
+          "september_20th_2650_20260913__september20_2650_match_014"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Boomkin_Frost_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Destro_Rsham",
+      "strategy_id": "SPR_vs_Destro_Rsham_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Destruction Warlock / Restoration Shaman",
+      "enemy_short": "Destro / Rsham",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 7,
+        "wins": 5,
+        "losses": 2,
+        "unknown_result": 0,
+        "opening_target_known": 7,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Warlock": 1,
+          "Shaman: first confirmed damage to an enemy player": 1,
+          "Warlock takes first confirmed player health damage": 1,
+          "Shaman": 1,
+          "Destruction Warlock": 1,
+          "Restoration Shaman": 2
+        },
+        "kill_target_known": 5,
+        "kill_target_unknown": 2,
+        "kill_targets": {
+          "Shaman": 1,
+          "Shaman at about 105.5s": 1,
+          "Warlock at approximately 195.5s": 1,
+          "Shaman around 105.5s": 1,
+          "Destruction Warlock": 1
+        },
+        "source_batches": {
+          "september_11th_2500_20260912": 4,
+          "september_28th_2700_20260913": 3
+        },
+        "supporting_match_ids": [
+          "september_11th_2500_20260912__sep11_2500_match_012a",
+          "september_11th_2500_20260912__sep11_2500_match_016",
+          "september_11th_2500_20260912__sep11_2500_match_019",
+          "september_11th_2500_20260912__sep11_2500_match_023",
+          "september_28th_2700_20260913__september28_2700_match_018"
+        ],
+        "counterexample_match_ids": [
+          "september_28th_2700_20260913__september28_2700_match_022",
+          "september_28th_2700_20260913__september28_2700_match_026"
+        ],
+        "all_match_ids": [
+          "september_11th_2500_20260912__sep11_2500_match_012a",
+          "september_11th_2500_20260912__sep11_2500_match_016",
+          "september_11th_2500_20260912__sep11_2500_match_019",
+          "september_11th_2500_20260912__sep11_2500_match_023",
+          "september_28th_2700_20260913__september28_2700_match_018",
+          "september_28th_2700_20260913__september28_2700_match_022",
+          "september_28th_2700_20260913__september28_2700_match_026"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Destro_Rsham_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Destro_Resto",
+      "strategy_id": "SPR_vs_Destro_Resto_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Destruction Warlock / Restoration Druid",
+      "enemy_short": "Destro / Resto",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 5,
+        "wins": 5,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 5,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Warlock": 1,
+          "Destruction Warlock": 4
+        },
+        "kill_target_known": 5,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Druid": 1,
+          "Destruction Warlock": 3,
+          "Restoration Druid": 1
+        },
+        "source_batches": {
+          "may_18th_2500_20260913": 1,
+          "may_24th_vod2_2600_20260913": 3,
+          "september_20th_2650_20260913": 1
+        },
+        "supporting_match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_050",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033",
+          "september_20th_2650_20260913__september20_2650_match_018"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_050",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_005",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_015",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_033",
+          "september_20th_2650_20260913__september20_2650_match_018"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Destro_Resto_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Disc_Unholy",
+      "strategy_id": "SPR_vs_Disc_Unholy_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Discipline Priest / Unholy Death Knight",
+      "enemy_short": "Disc / Unholy",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 5,
+        "wins": 5,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 5,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Unholy Death Knight": 3,
+          "Discipline Priest": 1,
+          "Death Knight": 1
+        },
+        "kill_target_known": 5,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Unholy Death Knight": 4,
+          "Death Knight": 1
+        },
+        "source_batches": {
+          "january_5th_full_20260912": 1,
+          "may_18th_2500_20260913": 4
+        },
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_041",
+          "may_18th_2500_20260913__may18_2500_match_005",
+          "may_18th_2500_20260913__may18_2500_match_011",
+          "may_18th_2500_20260913__may18_2500_match_013",
+          "may_18th_2500_20260913__may18_2500_match_024"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "january_5th_full_20260912__match_041",
+          "may_18th_2500_20260913__may18_2500_match_005",
+          "may_18th_2500_20260913__may18_2500_match_011",
+          "may_18th_2500_20260913__may18_2500_match_013",
+          "may_18th_2500_20260913__may18_2500_match_024"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Disc_Unholy_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Fire_Sub",
+      "strategy_id": "SPR_vs_Fire_Sub_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Fire Mage / Subtlety Rogue",
+      "enemy_short": "Fire / Sub",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 5,
+        "wins": 4,
+        "losses": 1,
+        "unknown_result": 0,
+        "opening_target_known": 5,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Fire Mage": 5
+        },
+        "kill_target_known": 5,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Fire Mage": 3,
+          "Subtlety Rogue": 2
+        },
+        "source_batches": {
+          "august_31st_2550_20260912": 1,
+          "may_24th_vod2_2600_20260913": 4
+        },
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_014",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018"
+        ],
+        "counterexample_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_009"
+        ],
+        "all_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_014",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_007",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_009",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_013",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_018"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Fire_Sub_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Frost_Sub",
+      "strategy_id": "SPR_vs_Frost_Sub_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Frost Mage / Subtlety Rogue",
+      "enemy_short": "Frost / Sub",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 5,
+        "wins": 4,
+        "losses": 1,
+        "unknown_result": 0,
+        "opening_target_known": 5,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Frost Mage": 2,
+          "Subtlety Rogue": 3
+        },
+        "kill_target_known": 4,
+        "kill_target_unknown": 1,
+        "kill_targets": {
+          "Frost Mage": 2,
+          "Subtlety Rogue": 2
+        },
+        "source_batches": {
+          "january_5th_full_20260912": 2,
+          "may_4th_2350_20260913": 2,
+          "september_28th_2700_20260913": 1
+        },
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_009",
+          "january_5th_full_20260912__match_031a",
+          "may_4th_2350_20260913__may04_2350_match_015",
+          "may_4th_2350_20260913__may04_2350_match_019"
+        ],
+        "counterexample_match_ids": [
+          "september_28th_2700_20260913__september28_2700_match_001"
+        ],
+        "all_match_ids": [
+          "january_5th_full_20260912__match_009",
+          "january_5th_full_20260912__match_031a",
+          "may_4th_2350_20260913__may04_2350_match_015",
+          "may_4th_2350_20260913__may04_2350_match_019",
+          "september_28th_2700_20260913__september28_2700_match_001"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Frost_Sub_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Ret_Sub",
+      "strategy_id": "SPR_vs_Ret_Sub_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Retribution Paladin / Subtlety Rogue",
+      "enemy_short": "Ret / Sub",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 5,
+        "wins": 2,
+        "losses": 3,
+        "unknown_result": 0,
+        "opening_target_known": 5,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Subtlety Rogue": 1,
+          "Paladin": 3,
+          "Rogue": 1
+        },
+        "kill_target_known": 4,
+        "kill_target_unknown": 1,
+        "kill_targets": {
+          "none observed": 2,
+          "Paladin": 2
+        },
+        "source_batches": {
+          "january_4th_2700_20260913": 1,
+          "may_18th_2500_20260913": 4
+        },
+        "supporting_match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_032",
+          "may_18th_2500_20260913__may18_2500_match_038"
+        ],
+        "counterexample_match_ids": [
+          "january_4th_2700_20260913__match_002",
+          "may_18th_2500_20260913__may18_2500_match_029",
+          "may_18th_2500_20260913__may18_2500_match_036"
+        ],
+        "all_match_ids": [
+          "january_4th_2700_20260913__match_002",
+          "may_18th_2500_20260913__may18_2500_match_029",
+          "may_18th_2500_20260913__may18_2500_match_032",
+          "may_18th_2500_20260913__may18_2500_match_036",
+          "may_18th_2500_20260913__may18_2500_match_038"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Ret_Sub_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_SP_Unholy",
+      "strategy_id": "SPR_vs_SP_Unholy_v1",
+      "version": 1,
+      "status": "provisional",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Shadow Priest / Unholy Death Knight",
+      "enemy_short": "SP / Unholy",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 5,
+        "wins": 2,
+        "losses": 3,
+        "unknown_result": 0,
+        "opening_target_known": 5,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Unholy Death Knight": 3,
+          "Shadow Priest": 2
+        },
+        "kill_target_known": 3,
+        "kill_target_unknown": 2,
+        "kill_targets": {
+          "Unholy Death Knight": 3
+        },
+        "source_batches": {
+          "june_7th_2700_20260913": 5
+        },
+        "supporting_match_ids": [
+          "june_7th_2700_20260913__match_020",
+          "june_7th_2700_20260913__match_032"
+        ],
+        "counterexample_match_ids": [
+          "june_7th_2700_20260913__match_017",
+          "june_7th_2700_20260913__match_027",
+          "june_7th_2700_20260913__match_029"
+        ],
+        "all_match_ids": [
+          "june_7th_2700_20260913__match_017",
+          "june_7th_2700_20260913__match_020",
+          "june_7th_2700_20260913__match_027",
+          "june_7th_2700_20260913__match_029",
+          "june_7th_2700_20260913__match_032"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_SP_Unholy_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Arms_Ret",
+      "strategy_id": "SPR_vs_Arms_Ret_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Arms Warrior / Retribution Paladin",
+      "enemy_short": "Arms / Ret",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 4,
+        "wins": 4,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 4,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Arms Warrior": 4
+        },
+        "kill_target_known": 4,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Arms Warrior": 4
+        },
+        "source_batches": {
+          "august_31st_2550_20260912": 1,
+          "february_3rd_2550_20260912": 1,
+          "january_5th_full_20260912": 1,
+          "may_24th_vod2_2600_20260913": 1
+        },
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_001",
+          "february_3rd_2550_20260912__feb03_2550_match_018",
+          "january_5th_full_20260912__match_020",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_031"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_001",
+          "february_3rd_2550_20260912__feb03_2550_match_018",
+          "january_5th_full_20260912__match_020",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_031"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Arms_Ret_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Sin_Ret",
+      "strategy_id": "SPR_vs_Sin_Ret_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Assassination Rogue / Retribution Paladin",
+      "enemy_short": "Sin / Ret",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 4,
+        "wins": 3,
+        "losses": 1,
+        "unknown_result": 0,
+        "opening_target_known": 4,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Retribution Paladin": 1,
+          "Assassination Rogue": 2,
+          "Retribution Paladin briefly": 1
+        },
+        "kill_target_known": 3,
+        "kill_target_unknown": 1,
+        "kill_targets": {
+          "Assassination Rogue": 2,
+          "Retribution Paladin": 1
+        },
+        "source_batches": {
+          "may_24th_vod2_2600_20260913": 3,
+          "may_4th_2350_20260913": 1
+        },
+        "supporting_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_004",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_008",
+          "may_4th_2350_20260913__may04_2350_match_030"
+        ],
+        "counterexample_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_006"
+        ],
+        "all_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_004",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_006",
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_008",
+          "may_4th_2350_20260913__may04_2350_match_030"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Sin_Ret_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Destro_Disc",
+      "strategy_id": "SPR_vs_Destro_Disc_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Destruction Warlock / Discipline Priest",
+      "enemy_short": "Destro / Disc",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 4,
+        "wins": 4,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 4,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Destruction Warlock": 4
+        },
+        "kill_target_known": 4,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Discipline Priest": 4
+        },
+        "source_batches": {
+          "june_7th_2700_20260913": 4
+        },
+        "supporting_match_ids": [
+          "june_7th_2700_20260913__match_030",
+          "june_7th_2700_20260913__match_033",
+          "june_7th_2700_20260913__match_034",
+          "june_7th_2700_20260913__match_035"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "june_7th_2700_20260913__match_030",
+          "june_7th_2700_20260913__match_033",
+          "june_7th_2700_20260913__match_034",
+          "june_7th_2700_20260913__match_035"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Destro_Disc_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Arcane_Sub",
+      "strategy_id": "SPR_vs_Arcane_Sub_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Arcane Mage / Subtlety Rogue",
+      "enemy_short": "Arcane / Sub",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 3,
+        "wins": 3,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 2,
+        "opening_target_unknown": 1,
+        "opening_targets": {
+          "Subtlety Rogue": 2
+        },
+        "kill_target_known": 3,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Arcane Mage": 1,
+          "Subtlety Rogue": 2
+        },
+        "source_batches": {
+          "january_5th_full_20260912": 2,
+          "september_20th_2650_20260913": 1
+        },
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_005",
+          "january_5th_full_20260912__match_013",
+          "september_20th_2650_20260913__september20_2650_match_016"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "january_5th_full_20260912__match_005",
+          "january_5th_full_20260912__match_013",
+          "september_20th_2650_20260913__september20_2650_match_016"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Arcane_Sub_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Arms_Boomkin",
+      "strategy_id": "SPR_vs_Arms_Boomkin_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Arms Warrior / Balance Druid",
+      "enemy_short": "Arms / Boomkin",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 3,
+        "wins": 3,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 3,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Arms Warrior": 3
+        },
+        "kill_target_known": 3,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Balance Druid": 2,
+          "Arms Warrior": 1
+        },
+        "source_batches": {
+          "august_31st_2550_20260912": 3
+        },
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_005",
+          "august_31st_2550_20260912__august31_2550_match_016",
+          "august_31st_2550_20260912__august31_2550_match_018"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_005",
+          "august_31st_2550_20260912__august31_2550_match_016",
+          "august_31st_2550_20260912__august31_2550_match_018"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Arms_Boomkin_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Ele_Ret",
+      "strategy_id": "SPR_vs_Ele_Ret_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Elemental Shaman / Retribution Paladin",
+      "enemy_short": "Ele / Ret",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 3,
+        "wins": 3,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 3,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Retribution Paladin": 3
+        },
+        "kill_target_known": 2,
+        "kill_target_unknown": 1,
+        "kill_targets": {
+          "Retribution Paladin": 2
+        },
+        "source_batches": {
+          "may_4th_2350_20260913": 3
+        },
+        "supporting_match_ids": [
+          "may_4th_2350_20260913__may04_2350_match_018",
+          "may_4th_2350_20260913__may04_2350_match_026",
+          "may_4th_2350_20260913__may04_2350_match_065"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "may_4th_2350_20260913__may04_2350_match_018",
+          "may_4th_2350_20260913__may04_2350_match_026",
+          "may_4th_2350_20260913__may04_2350_match_065"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Ele_Ret_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Feral_Rsham",
+      "strategy_id": "SPR_vs_Feral_Rsham_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Feral Druid / Restoration Shaman",
+      "enemy_short": "Feral / Rsham",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 3,
+        "wins": 3,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 3,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Druid": 1,
+          "Restoration Shaman": 1,
+          "Feral Druid": 1
+        },
+        "kill_target_known": 2,
+        "kill_target_unknown": 1,
+        "kill_targets": {
+          "Druid": 1,
+          "Restoration Shaman": 1
+        },
+        "source_batches": {
+          "may_18th_2500_20260913": 3
+        },
+        "supporting_match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_048",
+          "may_18th_2500_20260913__may18_2500_match_053",
+          "may_18th_2500_20260913__may18_2500_match_058"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "may_18th_2500_20260913__may18_2500_match_048",
+          "may_18th_2500_20260913__may18_2500_match_053",
+          "may_18th_2500_20260913__may18_2500_match_058"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Feral_Rsham_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Fury_HPal",
+      "strategy_id": "SPR_vs_Fury_HPal_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Fury Warrior / Holy Paladin",
+      "enemy_short": "Fury / HPal",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 2,
+        "wins": 2,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 2,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Fury Warrior": 2
+        },
+        "kill_target_known": 2,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Fury Warrior": 1,
+          "Holy Paladin": 1
+        },
+        "source_batches": {
+          "may_4th_2350_20260913": 2
+        },
+        "supporting_match_ids": [
+          "may_4th_2350_20260913__may04_2350_match_007",
+          "may_4th_2350_20260913__may04_2350_match_009"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "may_4th_2350_20260913__may04_2350_match_007",
+          "may_4th_2350_20260913__may04_2350_match_009"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Fury_HPal_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_ProtPal_Rsham",
+      "strategy_id": "SPR_vs_ProtPal_Rsham_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Protection Paladin / Restoration Shaman",
+      "enemy_short": "ProtPal / Rsham",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 2,
+        "wins": 2,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 2,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Protection Paladin": 2
+        },
+        "kill_target_known": 2,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Restoration Shaman": 1,
+          "Protection Paladin": 1
+        },
+        "source_batches": {
+          "june_7th_2700_20260913": 2
+        },
+        "supporting_match_ids": [
+          "june_7th_2700_20260913__match_010",
+          "june_7th_2700_20260913__match_012"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "june_7th_2700_20260913__match_010",
+          "june_7th_2700_20260913__match_012"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_ProtPal_Rsham_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_ProtWar_Ret",
+      "strategy_id": "SPR_vs_ProtWar_Ret_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Protection Warrior / Retribution Paladin",
+      "enemy_short": "ProtWar / Ret",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 2,
+        "wins": 2,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 2,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Protection Warrior": 2
+        },
+        "kill_target_known": 2,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Protection Warrior": 2
+        },
+        "source_batches": {
+          "february_3rd_2550_20260912": 1,
+          "january_5th_full_20260912": 1
+        },
+        "supporting_match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_015",
+          "january_5th_full_20260912__match_006"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "february_3rd_2550_20260912__feb03_2550_match_015",
+          "january_5th_full_20260912__match_006"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_ProtWar_Ret_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_ProtWar_Unholy",
+      "strategy_id": "SPR_vs_ProtWar_Unholy_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Protection Warrior / Unholy Death Knight",
+      "enemy_short": "ProtWar / Unholy",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 2,
+        "wins": 2,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 2,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Unholy Death Knight": 2
+        },
+        "kill_target_known": 2,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Protection Warrior": 2
+        },
+        "source_batches": {
+          "may_4th_2350_20260913": 2
+        },
+        "supporting_match_ids": [
+          "may_4th_2350_20260913__may04_2350_match_029",
+          "may_4th_2350_20260913__may04_2350_match_041"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "may_4th_2350_20260913__may04_2350_match_029",
+          "may_4th_2350_20260913__may04_2350_match_041"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_ProtWar_Unholy_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Rsham_Unholy",
+      "strategy_id": "SPR_vs_Rsham_Unholy_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Restoration Shaman / Unholy Death Knight",
+      "enemy_short": "Rsham / Unholy",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 2,
+        "wins": 2,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 2,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Restoration Shaman": 2
+        },
+        "kill_target_known": 2,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Restoration Shaman": 2
+        },
+        "source_batches": {
+          "january_5th_full_20260912": 2
+        },
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_002",
+          "january_5th_full_20260912__match_011"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "january_5th_full_20260912__match_002",
+          "january_5th_full_20260912__match_011"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Rsham_Unholy_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Ret_SP",
+      "strategy_id": "SPR_vs_Ret_SP_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Retribution Paladin / Shadow Priest",
+      "enemy_short": "Ret / SP",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 2,
+        "wins": 1,
+        "losses": 1,
+        "unknown_result": 0,
+        "opening_target_known": 2,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Shadow Priest": 2
+        },
+        "kill_target_known": 1,
+        "kill_target_unknown": 1,
+        "kill_targets": {
+          "Retribution Paladin": 1
+        },
+        "source_batches": {
+          "january_5th_full_20260912": 2
+        },
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_046"
+        ],
+        "counterexample_match_ids": [
+          "january_5th_full_20260912__match_043"
+        ],
+        "all_match_ids": [
+          "january_5th_full_20260912__match_043",
+          "january_5th_full_20260912__match_046"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Ret_SP_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Aff_Rsham",
+      "strategy_id": "SPR_vs_Aff_Rsham_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Affliction Warlock / Restoration Shaman",
+      "enemy_short": "Aff / Rsham",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 1,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Restoration Shaman": 1
+        },
+        "kill_target_known": 1,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Affliction Warlock": 1
+        },
+        "source_batches": {
+          "september_20th_2650_20260913": 1
+        },
+        "supporting_match_ids": [
+          "september_20th_2650_20260913__september20_2650_match_026"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "september_20th_2650_20260913__september20_2650_match_026"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Aff_Rsham_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Sin_Disc",
+      "strategy_id": "SPR_vs_Sin_Disc_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Assassination Rogue / Discipline Priest",
+      "enemy_short": "Sin / Disc",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 1,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Discipline Priest": 1
+        },
+        "kill_target_known": 1,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Assassination Rogue": 1
+        },
+        "source_batches": {
+          "january_5th_full_20260912": 1
+        },
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_010a"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "january_5th_full_20260912__match_010a"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Sin_Disc_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Boomkin_HPal",
+      "strategy_id": "SPR_vs_Boomkin_HPal_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Balance Druid / Holy Paladin",
+      "enemy_short": "Boomkin / HPal",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 1,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Holy Paladin": 1
+        },
+        "kill_target_known": 1,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Holy Paladin": 1
+        },
+        "source_batches": {
+          "may_4th_2350_20260913": 1
+        },
+        "supporting_match_ids": [
+          "may_4th_2350_20260913__may04_2350_match_038"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "may_4th_2350_20260913__may04_2350_match_038"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Boomkin_HPal_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Disc_Fire",
+      "strategy_id": "SPR_vs_Disc_Fire_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Discipline Priest / Fire Mage",
+      "enemy_short": "Disc / Fire",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 1,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Fire Mage": 1
+        },
+        "kill_target_known": 1,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Discipline Priest": 1
+        },
+        "source_batches": {
+          "may_24th_vod2_2600_20260913": 1
+        },
+        "supporting_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_032"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "may_24th_vod2_2600_20260913__may24_vod2_2600_match_032"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Disc_Fire_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Disc_Ret",
+      "strategy_id": "SPR_vs_Disc_Ret_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Discipline Priest / Retribution Paladin",
+      "enemy_short": "Disc / Ret",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 1,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Retribution Paladin": 1
+        },
+        "kill_target_known": 1,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Discipline Priest": 1
+        },
+        "source_batches": {
+          "august_31st_2550_20260912": 1
+        },
+        "supporting_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_009"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "august_31st_2550_20260912__august31_2550_match_009"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Disc_Ret_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Enh_MM",
+      "strategy_id": "SPR_vs_Enh_MM_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Enhancement Shaman / Marksmanship Hunter",
+      "enemy_short": "Enh / MM",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 1,
+        "wins": 0,
+        "losses": 1,
+        "unknown_result": 0,
+        "opening_target_known": 1,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Enhancement Shaman": 1
+        },
+        "kill_target_known": 0,
+        "kill_target_unknown": 1,
+        "kill_targets": {},
+        "source_batches": {
+          "january_4th_2700_20260913": 1
+        },
+        "supporting_match_ids": [],
+        "counterexample_match_ids": [
+          "january_4th_2700_20260913__match_006"
+        ],
+        "all_match_ids": [
+          "january_4th_2700_20260913__match_006"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Enh_MM_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Enh_Sub",
+      "strategy_id": "SPR_vs_Enh_Sub_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Enhancement Shaman / Subtlety Rogue",
+      "enemy_short": "Enh / Sub",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 1,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Enhancement Shaman": 1
+        },
+        "kill_target_known": 1,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Enhancement Shaman": 1
+        },
+        "source_batches": {
+          "may_4th_2350_20260913": 1
+        },
+        "supporting_match_ids": [
+          "may_4th_2350_20260913__may04_2350_match_022"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "may_4th_2350_20260913__may04_2350_match_022"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Enh_Sub_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Feral_MM",
+      "strategy_id": "SPR_vs_Feral_MM_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Feral Druid / Marksmanship Hunter",
+      "enemy_short": "Feral / MM",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 1,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Feral Druid": 1
+        },
+        "kill_target_known": 1,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Marksmanship Hunter": 1
+        },
+        "source_batches": {
+          "may_4th_2350_20260913": 1
+        },
+        "supporting_match_ids": [
+          "may_4th_2350_20260913__may04_2350_match_021"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "may_4th_2350_20260913__may04_2350_match_021"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Feral_MM_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_Feral_SP",
+      "strategy_id": "SPR_vs_Feral_SP_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Feral Druid / Shadow Priest",
+      "enemy_short": "Feral / SP",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 1,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Feral Druid": 1
+        },
+        "kill_target_known": 1,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Feral Druid": 1
+        },
+        "source_batches": {
+          "january_5th_full_20260912": 1
+        },
+        "supporting_match_ids": [
+          "january_5th_full_20260912__match_001"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "january_5th_full_20260912__match_001"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_Feral_SP_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_HPal_SP",
+      "strategy_id": "SPR_vs_HPal_SP_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Holy Paladin / Shadow Priest",
+      "enemy_short": "HPal / SP",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 1,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Holy Paladin": 1
+        },
+        "kill_target_known": 1,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Holy Paladin": 1
+        },
+        "source_batches": {
+          "september_28th_2700_20260913": 1
+        },
+        "supporting_match_ids": [
+          "september_28th_2700_20260913__september28_2700_match_014"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "september_28th_2700_20260913__september28_2700_match_014"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_HPal_SP_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_MM_ProtWar",
+      "strategy_id": "SPR_vs_MM_ProtWar_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Marksmanship Hunter / Protection Warrior",
+      "enemy_short": "MM / ProtWar",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 1,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Marksmanship Hunter": 1
+        },
+        "kill_target_known": 1,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Marksmanship Hunter": 1
+        },
+        "source_batches": {
+          "september_28th_2700_20260913": 1
+        },
+        "supporting_match_ids": [
+          "september_28th_2700_20260913__september28_2700_match_032"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "september_28th_2700_20260913__september28_2700_match_032"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_MM_ProtWar_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_MM_Unholy",
+      "strategy_id": "SPR_vs_MM_Unholy_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Marksmanship Hunter / Unholy Death Knight",
+      "enemy_short": "MM / Unholy",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 1,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Unholy Death Knight": 1
+        },
+        "kill_target_known": 1,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Marksmanship Hunter": 1
+        },
+        "source_batches": {
+          "may_4th_2350_20260913": 1
+        },
+        "supporting_match_ids": [
+          "may_4th_2350_20260913__may04_2350_match_014"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "may_4th_2350_20260913__may04_2350_match_014"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_MM_Unholy_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    },
+    {
+      "strategy_key": "SPR_vs_ProtWar_Resto",
+      "strategy_id": "SPR_vs_ProtWar_Resto_v1",
+      "version": 1,
+      "status": "insufficient_evidence",
+      "confidence": "low",
+      "our_comp": "Shadow Priest / Subtlety Rogue",
+      "enemy_comp": "Protection Warrior / Restoration Druid",
+      "enemy_short": "ProtWar / Resto",
+      "default_line": {
+        "start": null,
+        "objective": null,
+        "win_condition": null,
+        "convert": null,
+        "alternative": null,
+        "reset": null
+      },
+      "roles": {
+        "team": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "priest": {
+          "summary": null,
+          "responsibilities": []
+        },
+        "rogue": {
+          "summary": null,
+          "responsibilities": []
+        }
+      },
+      "branches": [],
+      "failure_modes": [],
+      "evidence": {
+        "games": 1,
+        "wins": 1,
+        "losses": 0,
+        "unknown_result": 0,
+        "opening_target_known": 1,
+        "opening_target_unknown": 0,
+        "opening_targets": {
+          "Protection Warrior": 1
+        },
+        "kill_target_known": 1,
+        "kill_target_unknown": 0,
+        "kill_targets": {
+          "Restoration Druid": 1
+        },
+        "source_batches": {
+          "september_28th_2700_20260913": 1
+        },
+        "supporting_match_ids": [
+          "september_28th_2700_20260913__september28_2700_match_023"
+        ],
+        "counterexample_match_ids": [],
+        "all_match_ids": [
+          "september_28th_2700_20260913__september28_2700_match_023"
+        ]
+      },
+      "history": [
+        {
+          "strategy_id": "SPR_vs_ProtWar_Resto_v1",
+          "version": 1,
+          "note": "Evidence snapshot generated from prepared_corpus. No approved strategy text."
+        }
+      ]
+    }
+  ]
+}
