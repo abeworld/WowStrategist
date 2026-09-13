@@ -13,9 +13,51 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 import tempfile
 from pathlib import Path
+
+CARD_LABELS = (
+    ("start", ("Start",)),
+    ("objective", ("Objective",)),
+    ("win", ("Win condition",)),
+    ("create", ("Create it",)),
+    ("convert", ("Convert",)),
+    ("alternative", ("Alternative",)),
+    ("failure", ("Failure mode", "Failure")),
+    ("reset", ("Reset",)),
+)
+
+
+def parse_card_markdown(text: str, source: str | None = None) -> dict:
+    out: dict[str, str] = {}
+    if source:
+        out["source"] = source
+    for key, labels in CARD_LABELS:
+        if key in out and key != "source":
+            continue
+        for label in labels:
+            match = re.search(rf"\*\*{re.escape(label)}:\*\*\s*(.+)", text)
+            if match:
+                out[key] = match.group(1).strip()
+                break
+    return out
+
+
+def load_presentations(source: Path, strategies: list[dict]) -> dict[str, dict]:
+    cards_dir = source / "cards" if source.is_dir() else source.parent / "cards"
+    presentations: dict[str, dict] = {}
+    if not cards_dir.is_dir():
+        return presentations
+    for strategy in strategies:
+        sid = strategy.get("strategy_id")
+        if not sid:
+            continue
+        path = cards_dir / f"{sid}.md"
+        if path.exists():
+            presentations[sid] = parse_card_markdown(path.read_text(encoding="utf-8-sig"), path.name)
+    return presentations
 
 OUT = Path(__file__).resolve().parents[1] / "public" / "data"
 SUPPORTED_SCHEMA = "1.0.0"
@@ -164,7 +206,10 @@ def load_source(source: Path) -> dict:
     if not isinstance(envelope, dict) or not isinstance(envelope.get("strategies"), list):
         raise SystemExit("source is not a canonical strategies envelope")
 
+    presentations = envelope.get("presentations") or load_presentations(source, envelope["strategies"])
     if isinstance(envelope.get("current"), dict) and envelope.get("friendly_comps"):
+        envelope = dict(envelope)
+        envelope["presentations"] = presentations
         return envelope
 
     return {
@@ -176,6 +221,7 @@ def load_source(source: Path) -> dict:
         or "Installed from canonical-strategy track. Strategies remain as authored; webapp does not synthesize them.",
         "friendly_comps": envelope.get("friendly_comps") or friendly_from_index(index, envelope["strategies"]),
         "current": envelope.get("current") or derive_current(envelope["strategies"], index),
+        "presentations": presentations,
         "strategies": envelope["strategies"],
     }
 

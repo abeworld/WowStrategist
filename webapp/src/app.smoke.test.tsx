@@ -126,6 +126,24 @@ describe("encyclopedia smoke", () => {
     expect(container.textContent).not.toContain("Arms / HPal");
   });
 
+  it("renders Destro/HPal from package 1.1.0 with Paladin branch and unknown roles", async () => {
+    await renderAt("/matchup/SPR_vs_Destro_HPal");
+    expect(container.textContent).toContain("package 1.1.0");
+    expect(container.textContent).not.toContain("package 0.1.0");
+    expect(container.textContent).toContain("Destruction Warlock");
+    expect(container.textContent).toContain("Quick plan");
+    expect(container.textContent).toContain("real reactive branch");
+    expect(container.textContent).toContain("Succubus");
+    expect(container.textContent).toContain("Divine Shield");
+    expect(container.textContent).not.toContain("No approved strategy text");
+    const priest = Array.from(container.querySelectorAll("button")).find((b) => b.textContent === "Priest POV");
+    await act(async () => {
+      priest!.dispatchEvent(new MouseEvent("click", { bubbles: true }));
+    });
+    expect(container.textContent).toContain("No reliable Priest-specific instruction established from this corpus.");
+    expect(container.textContent).not.toContain("Unknown — not in canonical package");
+  });
+
   it("opens a supporting match evidence record", async () => {
     const arms = pkg.strategies.find((s) => s.strategy_key === "SPR_vs_Arms_HPal")!;
     const id = arms.evidence.supporting_match_ids[0];

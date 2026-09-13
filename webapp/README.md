@@ -12,6 +12,8 @@ prepared_corpus           →  npm run export-data        →  public/data/match
 
 Lookup is deterministic. There is no LLM in the matchup path.
 
+The live encyclopedia must show **package 1.1.0** (or later). If you see **package 0.1.0** and empty Start/Objective fields, you are on the old evidence fixture — usually a leftover Vite process from `Downloads\...\webapp\start.bat`. Close that window and start from this repo’s `webapp\start.bat`. Data fetches use `cache: "no-store"` plus `?v=<package_version>` so GitHub Pages JSON is not stuck on a 10-minute CDN cache of 0.1.0.
+
 Do **not** edit matchup copy, branches, roles, confidence, or supporting/contradicting IDs in React. Those belong to the canonical package.
 
 ## Information architecture

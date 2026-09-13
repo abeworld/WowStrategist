@@ -1,8 +1,19 @@
 /// <reference types="vitest/config" />
-import { copyFileSync, existsSync } from "node:fs";
+import { copyFileSync, existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+
+function dataRev(): string {
+  try {
+    const pkg = JSON.parse(readFileSync(resolve(__dirname, "public/data/canonical-package.json"), "utf8")) as {
+      package_version?: string;
+    };
+    return String(pkg.package_version || "unknown");
+  } catch {
+    return "dev";
+  }
+}
 
 function githubPagesBase(): string {
   if (process.env.VITE_BASE) return process.env.VITE_BASE;
@@ -15,6 +26,9 @@ function githubPagesBase(): string {
 
 export default defineConfig({
   base: githubPagesBase(),
+  define: {
+    "import.meta.env.VITE_DATA_REV": JSON.stringify(dataRev()),
+  },
   plugins: [
     react(),
     {

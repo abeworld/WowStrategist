@@ -13,6 +13,13 @@ export interface Claim {
   evidence_scope?: string;
 }
 
+export interface CanonicalResource {
+  name: string;
+  relevance?: string;
+  assessment?: Claim | null;
+  requirement?: string | null;
+}
+
 export interface CanonicalDefaultLine {
   opening_target?: Claim | null;
   initial_objective?: Claim | null;
@@ -20,7 +27,7 @@ export interface CanonicalDefaultLine {
   manufacture?: Claim | null;
   conversion?: Claim | null;
   reset?: Claim | null;
-  important_resources?: unknown[];
+  important_resources?: CanonicalResource[];
 }
 
 export interface CanonicalState {
@@ -36,6 +43,7 @@ export interface CanonicalBranch {
   trigger?: Claim | null;
   response?: Claim | null;
   classification?: string;
+  confidence?: string;
   team_objective?: Claim | null;
   priest_instruction?: Claim | null;
   rogue_instruction?: Claim | null;
@@ -79,36 +87,78 @@ export interface FriendlyComp {
   matchup_count: number;
 }
 
+export interface CardPresentation {
+  source?: string;
+  start?: string;
+  objective?: string;
+  win?: string;
+  create?: string;
+  convert?: string;
+  alternative?: string;
+  failure?: string;
+  reset?: string;
+}
+
 export interface RawCanonicalPackage {
   schema_version: string;
   package_version: string;
   created_date?: string;
   prepared_corpus_version?: string;
   notes?: string;
+  package_id?: string;
   friendly_comps: FriendlyComp[];
   current: Record<string, string>;
   strategies: CanonicalStrategy[];
+  presentations?: Record<string, CardPresentation>;
 }
 
+export type CanonicalField =
+  | { kind: "present"; text: string; basis?: string; confidence?: string }
+  | { kind: "explicit_unknown" }
+  | { kind: "missing" };
+
 export interface DefaultLine {
+  start: CanonicalField;
+  objective: CanonicalField;
+  win_condition: CanonicalField;
+  create: CanonicalField;
+  convert: CanonicalField;
+  reset: CanonicalField;
+}
+
+export interface QuickPlan {
   start: string | null;
   objective: string | null;
-  win_condition: string | null;
+  win: string | null;
   create: string | null;
   convert: string | null;
   alternative: string | null;
+  failure: string | null;
   reset: string | null;
+  source: "card" | "claim-first-sentence";
 }
 
-export interface RoleView {
-  summary: string | null;
-  responsibilities: string[];
+export interface StrategyState {
+  state_id: string;
+  label: string;
+  team: CanonicalField;
+  priest: CanonicalField;
+  rogue: CanonicalField;
+}
+
+export interface StrategyResource {
+  name: string;
+  relevance: string | null;
+  assessment: CanonicalField;
+  requirement: string | null;
 }
 
 export interface Branch {
-  when: string;
-  then: string;
+  id?: string;
+  when: CanonicalField;
+  then: CanonicalField;
   classification?: string;
+  confidence?: string;
 }
 
 export interface Strategy {
@@ -121,14 +171,12 @@ export interface Strategy {
   our_comp: string;
   enemy_comp: string;
   enemy_short: string;
+  quick_plan: QuickPlan;
   default_line: DefaultLine;
-  roles: {
-    team: RoleView;
-    priest: RoleView;
-    rogue: RoleView;
-  };
+  states: StrategyState[];
+  resources: StrategyResource[];
   branches: Branch[];
-  failure_modes: string[];
+  failure_modes: CanonicalField[];
   evidence: {
     games: number;
     wins: number;

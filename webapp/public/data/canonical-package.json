@@ -67,6 +67,386 @@
     "SPR_vs_MM_Unholy": "SPR_vs_MM_Unholy_v1",
     "SPR_vs_ProtWar_RDruid": "SPR_vs_ProtWar_RDruid_v1"
   },
+  "presentations": {
+    "SPR_vs_SP_Sub_v2": {
+      "source": "SPR_vs_SP_Sub_v2.md",
+      "start": "Enemy Rogue, with enemy Priest Sap/control.",
+      "objective": "Threaten Rogue while drawing escapes that can also enable a controlled Priest attack.",
+      "win": "Rogue damage with Priest disrupted, or Priest damage with Rogue contained.",
+      "create": "Build Rogue pressure; after its escape, confirmed Blind → Priest attack → Sap is a recurring sequence.",
+      "convert": "That Priest line is a documented option; its priority over renewed Rogue damage is unknown.",
+      "alternative": "Stay Rogue through partial heals; renew Priest control or interrupt healing. Priest-first also occurs.",
+      "failure": "Friendly Priest death can end the team attempt before or after escape extraction.",
+      "reset": "Survive countercontrol, rebuild damage/control, and distinguish a trade or solo continuation from a two-player finish."
+    },
+    "SPR_vs_Arms_HPal_v2": {
+      "source": "SPR_vs_Arms_HPal_v2.md",
+      "start": "Warrior, with Paladin Sap/control.",
+      "objective": "Threaten a Warrior finish and draw escapes while building a later Paladin commitment.",
+      "win": "Paladin stun/damage with Warrior contained; protection may require another attempt.",
+      "create": "Warrior pressure → fresh Warrior control → Paladin stuns/damage; track each current Trinket.",
+      "convert": "After Warrior escape use, renewed control supports a Paladin go. Renew Paladin control after its escape.",
+      "alternative": "Continue Warrior through partial heals; renew stuns and interrupt Paladin healing.",
+      "failure": "Protection or healing can erase the healer attempt before friendly survival allows another.",
+      "reset": "On Shield, pressure Warrior or stabilize; rebuild control for a post-immunity Paladin return."
+    },
+    "SPR_vs_Disc_Feral_v2": {
+      "source": "SPR_vs_Disc_Feral_v2.md",
+      "start": "Feral, with Priest control; keep attacking through initial absorbs.",
+      "objective": "Build repeated Feral attacks with renewed healer disruption.",
+      "win": "Feral remains damaged into renewed stuns, or Priest takes damage while Feral is contained.",
+      "create": "Renew Feral stuns with Priest Gouge/Silence/Fear; track each escape separately.",
+      "convert": "Repeat Feral after partial heals. Fresh Feral control supports a documented Priest alternative.",
+      "alternative": "Feral escape → Blind/Sap → Priest occurs; short Fear/stun swaps also occur with escapes retained.",
+      "failure": "Two losses: stalled attacks and friendly collapse; one Priest attempt is interrupted by Cyclone.",
+      "reset": "Recover and rebuild an attack after healing or Cyclone; resumed Feral pressure is documented."
+    },
+    "SPR_vs_Balance_Sub_v1": {
+      "source": "SPR_vs_Balance_Sub_v1.md",
+      "start": "unknown; observed opening labels: Subtlety Rogue 9, Balance Druid 11",
+      "objective": "Develop damage while limiting Druid healing and Rogue pressure.",
+      "win": "Rogue or Druid stays vulnerable during renewed pressure.",
+      "create": "Both opening targets recur; the choice trigger is unknown.",
+      "convert": "Rogue dies more often, but direct Druid finishes also repeat.",
+      "alternative": "A healed Druid attempt can lead to a Rogue switch.",
+      "failure": "Druid healing restores the target before friendly survival fails.",
+      "reset": "Renew pressure and Druid disruption after recovery."
+    },
+    "SPR_vs_Arms_RDruid_v1": {
+      "source": "SPR_vs_Arms_RDruid_v1.md",
+      "start": "Restoration Druid; recorded in 13/19 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "objective": "Develop Druid pressure with Warrior disruption.",
+      "win": "Druid damage aligns with Warrior control, or Warrior becomes vulnerable.",
+      "create": "Usually start Druid; watch actual damage and healing response.",
+      "convert": "Commit Druid, or finish Warrior during useful healer disruption.",
+      "alternative": "Healed Druid attempts repeatedly lead to Warrior pressure.",
+      "failure": "Blind arrives after the Druid low has healed; Cyclone disrupts follow-up.",
+      "reset": "Stabilise and renew; long fights require fresh cooldown checks."
+    },
+    "SPR_vs_Arms_Disc_v1": {
+      "source": "SPR_vs_Arms_Disc_v1.md",
+      "start": "Arms Warrior; recorded in 15/18 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "objective": "Develop a Warrior finish or covered Priest commitment.",
+      "win": "Useful disruption overlaps meaningful target health loss.",
+      "create": "Usually pressure Warrior with Priest control.",
+      "convert": "Stay on a low Warrior or control Warrior and commit Priest.",
+      "alternative": "Renew a healed Priest attempt with fresh Warrior control.",
+      "failure": "Short isolation causes little healer damage before survival fails.",
+      "reset": "Recover and renew the actual damage window."
+    },
+    "SPR_vs_MM_Ret_v1": {
+      "source": "SPR_vs_MM_Ret_v1.md",
+      "start": "Marksmanship Hunter; recorded in 14/17 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "objective": "Develop Hunter pressure while limiting Paladin support.",
+      "win": "Hunter stays vulnerable through renewed pressure and disruption.",
+      "create": "Usually start Hunter; renew Paladin control after recovery.",
+      "convert": "Usually finish Hunter through partial heals or defensive pauses.",
+      "alternative": "A covered Paladin return is supported in two wins.",
+      "failure": "Hunter recovers and the next attempt stays shallow before a friendly dies.",
+      "reset": "Renew Hunter pressure; temporary DEAD displays are not confirmed kills."
+    },
+    "SPR_vs_Destro_HPal_v1": {
+      "source": "SPR_vs_Destro_HPal_v1.md",
+      "start": "Destruction Warlock; recorded in 13/16 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "objective": "Develop Warlock damage while disrupting healer and pet support.",
+      "win": "Renewed player pressure aligns with useful support disruption.",
+      "create": "Usually start Warlock; pet pressure/interruptions recur between attempts.",
+      "convert": "Usually finish Warlock; permanent pet removal is not required.",
+      "alternative": "Repeated later Paladin branches also convert.",
+      "failure": "Low Warlock heals after control ends; later pet work creates no new kill window.",
+      "reset": "Renew disruption and player pressure after heals or replacement summons."
+    },
+    "SPR_vs_Disc_MM_v1": {
+      "source": "SPR_vs_Disc_MM_v1.md",
+      "start": "Marksmanship Hunter; recorded in 9/13 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "objective": "Develop Hunter health pressure through absorbs and healing.",
+      "win": "Renewed damage persists through healer disruption or a late interrupt.",
+      "create": "Usually start Hunter; some records start pet or Priest.",
+      "convert": "Usually finish Hunter; nine of eleven wins identify that kill.",
+      "alternative": "Absorbed/healed Hunter pressure can lead to a Priest switch.",
+      "failure": "Control ends before real damage starts while friendly Rogue is already low.",
+      "reset": "Recover and renew; Vanish alone did not guarantee survival."
+    },
+    "SPR_vs_Ret_Unholy_v1": {
+      "source": "SPR_vs_Ret_Unholy_v1.md",
+      "start": "Unholy Death Knight; recorded in 11/12 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "objective": "Develop Death Knight pressure with Paladin disruption.",
+      "win": "Meaningful damage persists into renewed control or a healing interrupt.",
+      "create": "Usually start Death Knight; repeat after healing.",
+      "convert": "Usually finish Death Knight.",
+      "alternative": "Death Knight control can support a renewed Paladin commitment.",
+      "failure": "Healing restores the target before friendly survival allows another attempt.",
+      "reset": "Renew the target or supported switch after protection/recovery."
+    },
+    "SPR_vs_Frost_SP_v1": {
+      "source": "SPR_vs_Frost_SP_v1.md",
+      "start": "unknown; observed opening labels: Shadow Priest 6, Frost Mage 5",
+      "objective": "Develop a caster finish through healing or immunity responses.",
+      "win": "A vulnerable caster remains damageable through renewed disruption.",
+      "create": "Opening targets are nearly split; Priest is killed more often.",
+      "convert": "Commit Priest, or resume Mage after Block when the window persists.",
+      "alternative": "Mage immunity can lead to a Priest switch or a Mage recommit.",
+      "failure": "Unknown: this sample contains only wins.",
+      "reset": "Repeat after partial heals; Block is not an automatic switch command."
+    },
+    "SPR_vs_Disc_Frost_v1": {
+      "source": "SPR_vs_Disc_Frost_v1.md",
+      "start": "unknown; observed opening labels: Discipline Priest 4, Frost Mage 5",
+      "objective": "Develop sustained Priest pressure.",
+      "win": "Priest remains vulnerable through short lockdown and partial healing.",
+      "create": "Either caster is opened; most games develop a Priest commitment.",
+      "convert": "Usually finish Priest with renewed pressure.",
+      "alternative": "A healed/blocked Mage opener can lead to Priest; one Mage finish also occurs.",
+      "failure": "Unknown: this sample contains only wins.",
+      "reset": "Repeat Priest pressure after healing; a full reset is not universal."
+    },
+    "SPR_vs_Disc_Sub_v1": {
+      "source": "SPR_vs_Disc_Sub_v1.md",
+      "start": "Discipline Priest; recorded in 6/9 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "objective": "Develop Rogue pressure through Priest healing.",
+      "win": "Rogue stays low through renewed damage and useful Priest disruption.",
+      "create": "Priest is often opened, then actual damage transfers to Rogue.",
+      "convert": "Usually finish Rogue: eight of nine wins identify that kill.",
+      "alternative": "One renewed Priest switch converts after earlier attempts recover.",
+      "failure": "Unknown: this sample contains only wins.",
+      "reset": "Repeat Rogue pressure after healing; control-only selections are not swaps."
+    },
+    "SPR_vs_Destro_Ele_v1": {
+      "source": "SPR_vs_Destro_Ele_v1.md",
+      "start": "Elemental Shaman; recorded in 5/8 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "objective": "Develop Shaman damage while disrupting Warlock/pet interference.",
+      "win": "Shaman health loss persists through renewed pressure and disruption.",
+      "create": "Usually open Shaman; earlier Warlock or pet contact also occurs.",
+      "convert": "Commit Shaman: all seven wins identify a Shaman kill.",
+      "alternative": "Stalled Warlock pressure can transfer to Shaman.",
+      "failure": "In the one loss, active Shaman supports nonlethal Warlock pressure.",
+      "reset": "Renew Shaman pressure after heals; pet death and both trinkets are not prerequisites."
+    },
+    "SPR_vs_Enh_Ret_v1": {
+      "source": "SPR_vs_Enh_Ret_v1.md",
+      "start": "unknown; observed opening labels: Enhancement Shaman 4, Retribution Paladin 4",
+      "objective": "Develop damage on either opponent while limiting support.",
+      "win": "Renewed Paladin or Shaman damage persists through short disruption.",
+      "create": "Openers are evenly split; no dependable selection trigger is established.",
+      "convert": "Finish the vulnerable target; both outcomes recur.",
+      "alternative": "A healed target can lead to a real damage switch.",
+      "failure": "Enemies remain healthy enough to attack when friendly Priest dies.",
+      "reset": "Renew damage/disruption after recovery; avoid inventing a fixed target rule."
+    },
+    "SPR_vs_Balance_Frost_v1": {
+      "source": "SPR_vs_Balance_Frost_v1.md",
+      "start": "Frost Mage; recorded in 5/7 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "objective": "Develop a caster finish, often after a Mage-to-Druid transition.",
+      "win": "Actual target health loss persists through renewed damage.",
+      "create": "Mage is the more frequent opener.",
+      "convert": "Often finish Druid after Mage pressure; direct Mage finishes also occur.",
+      "alternative": "Blocked/healed Mage pressure can lead to a Druid commitment.",
+      "failure": "Druid survives the low and later Mage pressure fails before Rogue dies.",
+      "reset": "Resume after Block/healing or use a supported Druid window."
+    },
+    "SPR_vs_Destro_RSham_v1": {
+      "source": "SPR_vs_Destro_RSham_v1.md",
+      "start": "unknown; observed opening labels: Destruction Warlock 3, Restoration Shaman 4",
+      "objective": "Align player damage with partner and pet disruption.",
+      "win": "A Shaman or Warlock low remains usable through countercontrol.",
+      "create": "Both player openings occur; no dependable target-selection rule.",
+      "convert": "Wins split between Shaman and Warlock.",
+      "alternative": "A recovered Shaman attempt can lead to Warlock under healer control.",
+      "failure": "Fear/Hex or resumed healing breaks the low-health window.",
+      "reset": "Renew control and meaningful player damage; recheck pets and escapes."
+    },
+    "SPR_vs_Destro_RDruid_v1": {
+      "source": "SPR_vs_Destro_RDruid_v1.md",
+      "start": "Destruction Warlock; recorded in 5/5 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "objective": "Develop Warlock pressure with healer/pet disruption.",
+      "win": "Meaningful player damage persists through recovery.",
+      "create": "All five games open Warlock; later targets differ.",
+      "convert": "Usually return Warlock with Druid control.",
+      "alternative": "Two wins instead sustain a Druid commitment.",
+      "failure": "Unknown: this sample contains only wins.",
+      "reset": "Renew pressure after healing and pet replacement."
+    },
+    "SPR_vs_Disc_Unholy_v1": {
+      "source": "SPR_vs_Disc_Unholy_v1.md",
+      "start": "Unholy Death Knight; recorded in 4/5 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "objective": "Develop Death Knight pressure with Priest disruption.",
+      "win": "Death Knight remains low through renewed damage despite partial heals.",
+      "create": "Usually start Death Knight and renew healer disruption.",
+      "convert": "All five wins finish Death Knight.",
+      "alternative": "One Priest opening transfers to Death Knight.",
+      "failure": "Unknown: this sample contains only wins.",
+      "reset": "Repeat Death Knight pressure after healing; ready Priest Trinket is not a veto."
+    },
+    "SPR_vs_Fire_Sub_v1": {
+      "source": "SPR_vs_Fire_Sub_v1.md",
+      "start": "Fire Mage; recorded in 5/5 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "objective": "Open Fire Mage and react to the revealed Rogue state.",
+      "win": "A meaningful target low overlaps usable damage and survival.",
+      "create": "All five games open Mage.",
+      "convert": "Finish Mage or commit the exposed, controlled Rogue.",
+      "alternative": "Rogue switches recur; their full selection rule is unknown.",
+      "failure": "A Mage counter-kill after Priest death can still lose the duel.",
+      "reset": "Stable full reset unknown; reassess survival after a trade."
+    },
+    "SPR_vs_Frost_Sub_v1": {
+      "source": "SPR_vs_Frost_Sub_v1.md",
+      "start": "Subtlety Rogue; recorded in 3/5 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "objective": "Develop damage after the stealth/control exchange.",
+      "win": "A Mage or Rogue low aligns with usable partner disruption.",
+      "create": "Both openings occur; a stable preferred target is unknown.",
+      "convert": "Mage and Rogue kills are equally represented in wins.",
+      "alternative": "Rogue control can support a Mage commitment through a short Block.",
+      "failure": "Mage escapes control before friendly Priest survives the finish.",
+      "reset": "Reliable intact-team reset unknown; two wins require Priest to win a duel."
+    },
+    "SPR_vs_Ret_Sub_v1": {
+      "source": "SPR_vs_Ret_Sub_v1.md",
+      "start": "Retribution Paladin; recorded in 3/5 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "objective": "Tentatively develop Paladin pressure.",
+      "win": "A renewed Paladin low overlaps useful Rogue disruption.",
+      "create": "Paladin is the more frequent opener.",
+      "convert": "Both wins finish Paladin after earlier recovery.",
+      "alternative": "One win opens Rogue before transferring Paladin.",
+      "failure": "Paladin protection/healing defeats the low before friendly Priest dies.",
+      "reset": "Renew Paladin pressure only if a fresh window and survival exist."
+    },
+    "SPR_vs_SP_Unholy_v1": {
+      "source": "SPR_vs_SP_Unholy_v1.md",
+      "start": "Unholy Death Knight; recorded in 3/5 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "objective": "Tentatively pressure Death Knight and preserve post-kill survival.",
+      "win": "A Death Knight finish leaves a survivable remaining-Priest exchange.",
+      "create": "Death Knight is the more frequent opener.",
+      "convert": "Renew Death Knight damage after heals; then reassess cleanup.",
+      "alternative": "Priest openings occur, but the supported kills are Death Knight.",
+      "failure": "One Death Knight kill still loses the round to the remaining Priest.",
+      "reset": "Repeat after recovery; safe post-kill recovery is not established."
+    },
+    "SPR_vs_Arms_Ret_v1": {
+      "source": "SPR_vs_Arms_Ret_v1.md",
+      "start": "Arms Warrior; recorded in 4/4 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "objective": "Tentatively sustain Warrior pressure with Paladin disruption.",
+      "win": "Warrior damage persists through protection/healing.",
+      "create": "All four games open Warrior and finish Warrior.",
+      "convert": "Renew Warrior pressure after recovery.",
+      "alternative": "A short Paladin immunity branch can return Warrior.",
+      "failure": "Unknown: this sample contains only wins.",
+      "reset": "Continue or renew Warrior; a universal full reset is not established."
+    },
+    "SPR_vs_Assa_Ret_v1": {
+      "source": "SPR_vs_Assa_Ret_v1.md",
+      "start": "unknown; observed opening labels: Retribution Paladin 2, Assassination Rogue 2",
+      "objective": "Tentatively develop Rogue pressure with a Paladin option.",
+      "win": "Actual health loss persists through useful disruption and survival.",
+      "create": "Openers are evenly split; only four games.",
+      "convert": "Two Rogue kills and one Paladin kill are observed in wins.",
+      "alternative": "Later Rogue control can support a Paladin commitment.",
+      "failure": "Rogue protection/avoidance preserves the low until friendly Priest dies.",
+      "reset": "Renew after recovery/reappearance; dependable full reset unknown."
+    },
+    "SPR_vs_Destro_Disc_v1": {
+      "source": "SPR_vs_Destro_Disc_v1.md",
+      "start": "Destruction Warlock; recorded in 4/4 games. This is the labeled opening target, not necessarily the first sustained coordinated damage.",
+      "objective": "Tentatively turn early Warlock contact into Priest pressure.",
+      "win": "Priest health loss persists faster than partial recovery.",
+      "create": "All four labels say Warlock; early damage can be minimal.",
+      "convert": "All four wins finish Priest through renewed pressure.",
+      "alternative": "No separate default line is established.",
+      "failure": "Unknown: this sample contains only wins from one batch.",
+      "reset": "Repeat Priest pressure after healing; pet removal is not a prerequisite."
+    },
+    "SPR_vs_Arcane_Sub_v1": {
+      "source": "SPR_vs_Arcane_Sub_v1.md",
+      "start": "unknown; observed opening labels: unknown 1, Subtlety Rogue 2"
+    },
+    "SPR_vs_Arms_Balance_v1": {
+      "source": "SPR_vs_Arms_Balance_v1.md",
+      "start": "unknown; observed opening labels: Arms Warrior 3"
+    },
+    "SPR_vs_Ele_Ret_v1": {
+      "source": "SPR_vs_Ele_Ret_v1.md",
+      "start": "unknown; observed opening labels: Retribution Paladin 3"
+    },
+    "SPR_vs_Feral_RSham_v1": {
+      "source": "SPR_vs_Feral_RSham_v1.md",
+      "start": "unknown; observed opening labels: Feral Druid 2, Restoration Shaman 1"
+    },
+    "SPR_vs_Fury_HPal_v1": {
+      "source": "SPR_vs_Fury_HPal_v1.md",
+      "start": "unknown; observed opening labels: Fury Warrior 2"
+    },
+    "SPR_vs_ProtPal_RSham_v1": {
+      "source": "SPR_vs_ProtPal_RSham_v1.md",
+      "start": "unknown; observed opening labels: Protection Paladin 2"
+    },
+    "SPR_vs_ProtWar_Ret_v1": {
+      "source": "SPR_vs_ProtWar_Ret_v1.md",
+      "start": "unknown; observed opening labels: Protection Warrior 2"
+    },
+    "SPR_vs_ProtWar_Unholy_v1": {
+      "source": "SPR_vs_ProtWar_Unholy_v1.md",
+      "start": "unknown; observed opening labels: Unholy Death Knight 2"
+    },
+    "SPR_vs_RSham_Unholy_v1": {
+      "source": "SPR_vs_RSham_Unholy_v1.md",
+      "start": "unknown; observed opening labels: Restoration Shaman 2"
+    },
+    "SPR_vs_Ret_SP_v1": {
+      "source": "SPR_vs_Ret_SP_v1.md",
+      "start": "unknown; observed opening labels: Shadow Priest 2"
+    },
+    "SPR_vs_Aff_RSham_v1": {
+      "source": "SPR_vs_Aff_RSham_v1.md",
+      "start": "unknown; observed opening labels: Restoration Shaman 1"
+    },
+    "SPR_vs_Assa_Disc_v1": {
+      "source": "SPR_vs_Assa_Disc_v1.md",
+      "start": "unknown; observed opening labels: Discipline Priest 1"
+    },
+    "SPR_vs_Balance_HPal_v1": {
+      "source": "SPR_vs_Balance_HPal_v1.md",
+      "start": "unknown; observed opening labels: Holy Paladin 1"
+    },
+    "SPR_vs_Disc_Fire_v1": {
+      "source": "SPR_vs_Disc_Fire_v1.md",
+      "start": "unknown; observed opening labels: Fire Mage 1"
+    },
+    "SPR_vs_Disc_Ret_v1": {
+      "source": "SPR_vs_Disc_Ret_v1.md",
+      "start": "unknown; observed opening labels: Retribution Paladin 1"
+    },
+    "SPR_vs_Enh_MM_v1": {
+      "source": "SPR_vs_Enh_MM_v1.md",
+      "start": "unknown; observed opening labels: Enhancement Shaman 1"
+    },
+    "SPR_vs_Enh_Sub_v1": {
+      "source": "SPR_vs_Enh_Sub_v1.md",
+      "start": "unknown; observed opening labels: Enhancement Shaman 1"
+    },
+    "SPR_vs_Feral_MM_v1": {
+      "source": "SPR_vs_Feral_MM_v1.md",
+      "start": "unknown; observed opening labels: Feral Druid 1"
+    },
+    "SPR_vs_Feral_SP_v1": {
+      "source": "SPR_vs_Feral_SP_v1.md",
+      "start": "unknown; observed opening labels: Feral Druid 1"
+    },
+    "SPR_vs_HPal_SP_v1": {
+      "source": "SPR_vs_HPal_SP_v1.md",
+      "start": "unknown; observed opening labels: Holy Paladin 1"
+    },
+    "SPR_vs_MM_ProtWar_v1": {
+      "source": "SPR_vs_MM_ProtWar_v1.md",
+      "start": "unknown; observed opening labels: Marksmanship Hunter 1"
+    },
+    "SPR_vs_MM_Unholy_v1": {
+      "source": "SPR_vs_MM_Unholy_v1.md",
+      "start": "unknown; observed opening labels: Unholy Death Knight 1"
+    },
+    "SPR_vs_ProtWar_RDruid_v1": {
+      "source": "SPR_vs_ProtWar_RDruid_v1.md",
+      "start": "unknown; observed opening labels: Protection Warrior 1"
+    }
+  },
   "strategies": [
     {
       "strategy_id": "SPR_vs_SP_Sub_v2",

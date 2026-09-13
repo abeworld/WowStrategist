@@ -62,11 +62,26 @@ if not exist "public\data\corpus-health.json" (
   exit /b 1
 )
 echo        canonical-package.json, matches-slim.json, corpus-health.json
+for /f "delims=" %%v in ('node -p "require('./public/data/canonical-package.json').package_version"') do set "PKG_VER=%%v"
+echo        package %PKG_VER%
+if /I "%PKG_VER%"=="0.1.0" (
+  echo ERROR: public\data\canonical-package.json is the old evidence fixture, not canonical 1.x.
+  echo Run: python scripts/install_canonical.py --source ^<targeted_v2 dir^>
+  pause
+  exit /b 1
+)
 
 echo [4/4] App server
 call :port_up
 if not errorlevel 1 (
   echo        already running at %APP_URL%
+  node -e "fetch('http://127.0.0.1:5173/data/canonical-package.json?v=check').then(r=>r.json()).then(p=>{console.log('       live package '+p.package_version); if(p.package_version==='0.1.0') process.exit(2)}).catch(()=>process.exit(0))"
+  if errorlevel 2 (
+    echo ERROR: port 5173 is serving the old 0.1.0 evidence fixture.
+    echo Close that Vite window, then run start.bat again.
+    pause
+    exit /b 1
+  )
   start "" "%APP_URL%"
   echo.
   echo Browser opened. This window can be closed if the server is in another window.

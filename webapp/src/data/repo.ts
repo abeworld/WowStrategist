@@ -5,15 +5,19 @@ import { validateCanonicalPackage } from "./validate";
 
 export { hasStrategyContent, isApproved };
 
+function dataRev(): string {
+  return import.meta.env.VITE_DATA_REV || "dev";
+}
+
 function dataUrl(file: string): string {
   const base = import.meta.env.BASE_URL.endsWith("/")
     ? import.meta.env.BASE_URL
     : `${import.meta.env.BASE_URL}/`;
-  return `${base}data/${file}`;
+  return `${base}data/${file}?v=${encodeURIComponent(dataRev())}`;
 }
 
 async function loadJson<T>(url: string): Promise<T> {
-  const res = await fetch(url);
+  const res = await fetch(url, { cache: "no-store" });
   if (!res.ok) throw new Error(`Failed to load ${url}`);
   return (await res.json()) as T;
 }
@@ -48,10 +52,7 @@ export function resolveCatalog(pkg: CanonicalPackage): Strategy[] {
 }
 
 export function hasRoleText(strategy: Strategy): boolean {
-  return (["team", "priest", "rogue"] as const).some((role) => {
-    const view = strategy.roles[role];
-    return Boolean(view.summary) || view.responsibilities.length > 0;
-  });
+  return strategy.states.some((state) => state.team.kind === "present" || state.priest.kind === "present" || state.rogue.kind === "present");
 }
 
 export function emptyFriendlyMessage(name: string): string {

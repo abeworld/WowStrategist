@@ -182,7 +182,7 @@ describe("approval semantics", () => {
       }),
     ).strategies[0];
     expect(hasStrategyContent(adapted.default_line)).toBe(true);
-    expect(adapted.default_line.start).toBe("Start Warrior");
+    expect(adapted.default_line.start).toEqual(expect.objectContaining({ kind: "present", text: "Start Warrior" }));
     expect(isApproved(adapted.status)).toBe(false);
     expect(adapted.status).toBe("provisional");
   });
